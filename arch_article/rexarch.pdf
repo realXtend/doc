@@ -1,0 +1,748 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 8 0 R
+ /F4 9 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER1': class PDFDictionary 
+4 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://groups.google.com/group/realxtend-dev/browse_thread/thread/42fed16befd2b9b7/bba9f67d00b60371?lnk=gst&q=entity+actions+memo#bba9f67d00b60371) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 588.7736
+ 782.0229
+ 600.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page1': class PDFPage 
+5 0 obj
+% Page dictionary
+<< /Annots [ 4 0 R ]
+ /Contents 29 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 28 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page2': class PDFPage 
+6 0 obj
+% Page dictionary
+<< /Contents 30 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 28 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER2': class PDFDictionary 
+7 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://clb.demon.fi/knet/index.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 148.8329
+ 531.7736
+ 297.7929
+ 543.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'F3': class PDFType1Font 
+8 0 obj
+% Font Helvetica-BoldOblique
+<< /BaseFont /Helvetica-BoldOblique
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F4': class PDFType1Font 
+9 0 obj
+% Font Times-Roman
+<< /BaseFont /Times-Roman
+ /Encoding /WinAnsiEncoding
+ /Name /F4
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER3': class PDFDictionary 
+10 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://portal.acm.org/citation.cfm?id=571878.571889&type=series) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 204.7736
+ 374.7329
+ 216.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER4': class PDFDictionary 
+11 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://oldsite.vrjuggler.org/papers.php) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 168.7736
+ 231.4821
+ 180.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER5': class PDFDictionary 
+12 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.mitpressjournals.org/doi/abs/10.1162/105474603763835314) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 145.7229
+ 105.7736
+ 462.0029
+ 117.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page3': class PDFPage 
+13 0 obj
+% Page dictionary
+<< /Annots [ 7 0 R
+ 10 0 R
+ 11 0 R
+ 12 0 R ]
+ /Contents 31 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 28 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R14': class PDFCatalog 
+14 0 obj
+% Document Root
+<< /Outlines 16 0 R
+ /PageMode /UseNone
+ /Pages 28 0 R
+ /Type /Catalog >>
+endobj
+% 'R15': class PDFInfo 
+15 0 obj
+<< /Author ()
+ /CreationDate (D:20101122173245-02'00')
+ /Keywords ()
+ /Producer (ReportLab http://www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (An Entity-Component model for Extensible Virtual Worlds) >>
+endobj
+% 'R16': class PDFOutlines 
+16 0 obj
+<< /Count 13
+ /First 17 0 R
+ /Last 27 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+17 0 obj
+<< /Dest [ 5 0 R
+ /XYZ
+ 62.69291
+ 705.0236
+ 0 ]
+ /Next 18 0 R
+ /Parent 16 0 R
+ /Title (Abstract) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+18 0 obj
+<< /Dest [ 5 0 R
+ /XYZ
+ 62.69291
+ 576.0236
+ 0 ]
+ /Next 19 0 R
+ /Parent 16 0 R
+ /Prev 17 0 R
+ /Title (Introduction) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+19 0 obj
+<< /Dest [ 13 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Next 20 0 R
+ /Parent 16 0 R
+ /Prev 18 0 R
+ /Title (Related work) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+20 0 obj
+<< /Count 3
+ /Dest [ 13 0 R
+ /XYZ
+ 62.69291
+ 654.0236
+ 0 ]
+ /First 21 0 R
+ /Last 21 0 R
+ /Next 24 0 R
+ /Parent 16 0 R
+ /Prev 19 0 R
+ /Title (Architecture design) >>
+endobj
+% 'Outline.12.0': class OutlineEntryObject 
+21 0 obj
+<< /Count 2
+ /Dest [ 13 0 R
+ /XYZ
+ 62.69291
+ 519.0236
+ 0 ]
+ /First 22 0 R
+ /Last 23 0 R
+ /Parent 20 0 R
+ /Title (Functionality example) >>
+endobj
+% 'Outline.13.0': class OutlineEntryObject 
+22 0 obj
+<< /Dest [ 13 0 R
+ /XYZ
+ 62.69291
+ 489.0236
+ 0 ]
+ /Next 23 0 R
+ /Parent 21 0 R
+ /Title (Avatar) >>
+endobj
+% 'Outline.13.1': class OutlineEntryObject 
+23 0 obj
+<< /Dest [ 13 0 R
+ /XYZ
+ 62.69291
+ 444.0236
+ 0 ]
+ /Parent 21 0 R
+ /Prev 22 0 R
+ /Title (Presentation) >>
+endobj
+% 'Outline.4': class OutlineEntryObject 
+24 0 obj
+<< /Dest [ 13 0 R
+ /XYZ
+ 62.69291
+ 387.0236
+ 0 ]
+ /Next 25 0 R
+ /Parent 16 0 R
+ /Prev 20 0 R
+ /Title (The Naali implementation) >>
+endobj
+% 'Outline.5': class OutlineEntryObject 
+25 0 obj
+<< /Dest [ 13 0 R
+ /XYZ
+ 62.69291
+ 324.0236
+ 0 ]
+ /Next 26 0 R
+ /Parent 16 0 R
+ /Prev 24 0 R
+ /Title (Discussion: evaluation, future work) >>
+endobj
+% 'Outline.6': class OutlineEntryObject 
+26 0 obj
+<< /Dest [ 13 0 R
+ /XYZ
+ 62.69291
+ 291.0236
+ 0 ]
+ /Next 27 0 R
+ /Parent 16 0 R
+ /Prev 25 0 R
+ /Title (Conclusion) >>
+endobj
+% 'Outline.7': class OutlineEntryObject 
+27 0 obj
+<< /Dest [ 13 0 R
+ /XYZ
+ 62.69291
+ 258.0236
+ 0 ]
+ /Parent 16 0 R
+ /Prev 26 0 R
+ /Title (References) >>
+endobj
+% 'R28': class PDFPages 
+28 0 obj
+% page tree
+<< /Count 3
+ /Kids [ 5 0 R
+ 6 0 R
+ 13 0 R ]
+ /Type /Pages >>
+endobj
+% 'R29': class PDFStream 
+29 0 obj
+% page stream
+<< /Length 6236 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 717.0236 cm
+q
+BT 1 0 0 1 0 28 Tm 31.03488 0 Td 24 TL /F2 20 Tf 0 0 0 rg (An Entity-Component model for Extensible) Tj T* 136.12 0 Td (Virtual Worlds) Tj T* -167.1549 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 684.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 618.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .468735 Tw (We propose a model with basic building blocks on which arbitrary virtual worlds applications can be built.) Tj T* 0 Tw 1.125318 Tw (It consists of Entities which can have any set of Components attached, and application developers can) Tj T* 0 Tw .198651 Tw (define own components to add arbitrary data that they need for the specific functionality. The components) Tj T* 0 Tw 1.87528 Tw (are basically just data stored in the Attributes of the component. The values of the attributes can be) Tj T* 0 Tw (automatically synchronized among the participants in the networked environment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 588.0236 cm
+q
+BT 1 0 0 1 0 14 Tm 30.04122 Tw 12 TL /F1 10 Tf 0 0 0 rg (Additionally we present the idea of Entity Actions. ...) Tj T* 0 Tw 0 0 .501961 rg (http://groups.google.com/group/realxtend-dev/browse_thread/thread/42fed16befd2b9b7/bba9f67d00b60371?lnk=gst) Tj (&) Tj (q=entity+actions+memo#bba9f67d00b60371) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 555.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 417.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 122 Tm /F1 10 Tf 12 TL .604985 Tw (A virtual world can be potentially anything. An anatomical simulation of the internals of a biological body,) Tj T* 0 Tw .326235 Tw (where you can fly around inspecting the functionality of various organs and blood vessels etc. has certain) Tj T* 0 Tw 1.609318 Tw (kind of entities, and astrological simulations or solar systems and galaxies has quite different ones. A) Tj T* 0 Tw .939318 Tw (game of hockey has the concepts of attack, neutral and defending zones, certain conventions for which) Tj T* 0 Tw .319987 Tw (kind of physical interactions between the humans in the game are allowed, and of course the notions of a) Tj T* 0 Tw .361567 Tw (goal and a puck. Figure skating has none of these, even though the physics are identical -- a skating ring) Tj T* 0 Tw .867984 Tw (with people skating. The user interface controls and functionality in those two skating games are largely) Tj T* 0 Tw 1.483516 Tw (different, for example in the team based hockey you want good controls for passing the puck to team) Tj T* 0 Tw 1.994985 Tw (mates, whereas in figure skating it might be something like elaborate controls for the jumps and the) Tj T* 0 Tw 2.051984 Tw (skating itself, and higher level selections for how to proceed in the pre-planned choreography of the) Tj T* 0 Tw (performance.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 327.0236 cm
+q
+BT 1 0 0 1 0 74 Tm 1.50936 Tw 12 TL /F1 10 Tf 0 0 0 rg (\(All these cases are easily virtual worlds, without streching the definition. We could go even further to) Tj T* 0 Tw .872927 Tw (define abstract worlds with arbitrary behaviours, like a "world" where in one part there is a space where) Tj T* 0 Tw .166098 Tw (text characters can exist, and another area where there are buttons with actions like load and save. A text) Tj T* 0 Tw 2.389987 Tw (editor application, that is. In fact, one definition of a computer is that it is a virtual world generator) Tj T* 0 Tw .328735 Tw 1 0 0 rg ([Deutch]_) Tj 0 0 0 rg (, so following that perhaps would make all software virtual worlds. This line of thinking might not) Tj T* 0 Tw 2.89936 Tw (be fruitful, but the extreme genericity is something to concider still. For example in games not all) Tj T* 0 Tw (geometries are euclidian, perhaps VW archs should not hardcode that.\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 213.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL .831318 Tw (What should a generic virtual world architecture provide to facilitate the implementation of all those, and) Tj T* 0 Tw 1.604269 Tw (many quite different, applications? It seems we need both arbitrary custom data and functionality. For) Tj T* 0 Tw 1.71561 Tw (example in the astronomical simulation the data would be mass and heat and other properties of the) Tj T* 0 Tw .083735 Tw (planets and suns. In a functional anatomy simulation you might need chemical information \(...\). To be able) Tj T* 0 Tw .744597 Tw (the fluently control and navigate these vastly different applications, specific user interface controls would) Tj T* 0 Tw .764104 Tw (be useful. In the skating games, the custom user interface actions would need to be tightly coupled with) Tj T* 0 Tw .534269 Tw (how the character animations \(e.g. a slapshot or a \(kolmoishienohyppy\)\) are executed. All have common) Tj T* 0 Tw .66528 Tw (needs too: need to represent visual 3d objects, move and animate them, and to synchronize all the data) Tj T* 0 Tw (among the participants and to store it for continuing use.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 195.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (We propose an architecture that meets these requirements using three main elements:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 165.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.151567 Tw (1\) A scene model based on the notion of a generic entity, to which any kind of components which can) Tj T* 0 Tw (contain arbitrary data can be added.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 123.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.194985 Tw (2\) A core API for basic functionality like showing graphics and getting user input, and manipulating the) Tj T* 0 Tw 1.030542 Tw (scene to e.g. create new entities. And a module and scripting system that can be used to add arbitrary) Tj T* 0 Tw (code that uses the core API to be executed in all parts of the system \(e.g. the client and server\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 93.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.054651 Tw (3\) An extensible network protocol suitable for real time use, which allows applications to define own) Tj T* 0 Tw (custom messages.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R30': class PDFStream 
+30 0 obj
+% page stream
+<< /Length 6172 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 621.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 134 Tm /F1 10 Tf 12 TL .829213 Tw (This has been implemented within the open source realXtend project next generation architecture effort,) Tj T* 0 Tw .759984 Tw (resulting in a generic virtual world software framework in the Naali application. Naali was first developed) Tj T* 0 Tw .292485 Tw (as a viewer client application, to replace the previous realXtend viewer prototype which was based on the) Tj T* 0 Tw 1.092126 Tw (Linden labs Second Life \(tm\) viewer. The server counterpart is Opensimulator \(or Opensim\), a modular) Tj T* 0 Tw 4.638443 Tw (open source application for generic virtual worlds which features a SL \(tm\) compatible server) Tj T* 0 Tw .094983 Tw (implementation out of the box but targets supporting other kinds too. The original realXtend functionality\(*\)) Tj T* 0 Tw .50186 Tw (on the server side was already implemented as an Opensim module \(ModRex\), and we have now added) Tj T* 0 Tw 1.02229 Tw (the support for arbitrary scene data using the Entity-Component model there too. The opensim+modrex) Tj T* 0 Tw 1.891235 Tw (combination, the counterpart of Naali\(*\) is called Taiga. Naali is written in C++ and uses the Ogre3d) Tj T* 0 Tw 2.239983 Tw (graphics rendering engine and the Qt toolkit for UI and internal architecture like supporting dynamic) Tj T* 0 Tw 2.833555 Tw (languages \(currently Python and Javascript, both as optional modules, and more can be added in) Tj T* 0 Tw (additional modules\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.857674 Tw (\(* original realXtend functionality, first published in February 2008: Ogre meshes with animations and) Tj T* 0 Tw (complex materials, mediaurls \('web pages as textures'\), ..\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 561.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .21408 Tw (\(* Naali is the Finnish name for the arctic fox -- Naali strives to be a generic 3d web client app, the Firefox) Tj T* 0 Tw (of virtual worlds\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 387.0236 cm
+q
+BT 1 0 0 1 0 158 Tm 1.155542 Tw 12 TL /F1 10 Tf 0 0 0 rg (Now \(since October 2010\) Naali has also the capability to create a scene by itself and optionally run a) Tj T* 0 Tw .757984 Tw (simple server module, so it can run standalone also without Opensim and provides an alternative server) Tj T* 0 Tw 3.214147 Tw (implementation using a different, more efficient and featureful extensible protocol than the LLUDP) Tj T* 0 Tw .869984 Tw (provided by current Opensim. This new protocol & server experiment is called Tundra, as an alternative) Tj T* 0 Tw .047765 Tw (for the Opensim based Taiga, and it uses a new networking library called kNet \(or Kristalli\) which is similar) Tj T* 0 Tw .39561 Tw (to eNet but with certain advantages. If the Tundra experiment proves succesfull, and there are use cases) Tj T* 0 Tw 1.246654 Tw (that need both the kNet protocol and Opensim features, one possibility is to add a kNet client stack to) Tj T* 0 Tw .890697 Tw (Opensim. The Naali client works against both server implementations, and for application code that e.g.) Tj T* 0 Tw .849318 Tw (defines new Entity-Components and uses existing ones, the protocol doesn't show as the data is gotten) Tj T* 0 Tw .651412 Tw (and manipulated with the same protocol agnostic API. Tundra uses ECs extensively to define everything) Tj T* 0 Tw 1.322339 Tw (-- there is nothing hardcoded about what a world likes, unlike with LLUDP where the Second Life \(tm\)) Tj T* 0 Tw .90832 Tw (application is hardcoded: every user has an avatar, there is a single certain kind of terrain etc. With the) Tj T* 0 Tw .103059 Tw (new generic realXtend architecture demonstrated with Tundra that actually becomes data: a description of) Tj T* 0 Tw (a certain kind of a scene with default entities.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 369.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This article is structured as follows:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 291.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .29686 Tw (First there is an overview of related work. This covers analyses of pre-existing virtual worlds solutions like) Tj T* 0 Tw .412126 Tw (Second Life and the vanilla Opensimulator server and the original realXtend prototype made using those.) Tj T* 0 Tw 1.08498 Tw (Then an overview of literature about solving the extensibility problem, suggesting the Entity-Component) Tj T* 0 Tw .567765 Tw (model, based on which we selected that for the new realXtend architecture. We also take a look at other) Tj T* 0 Tw .233828 Tw (related systems utilising ECs and custom networking, especially the proprietary Unity3d game engine and) Tj T* 0 Tw (an open source virtual worlds framework called Syntensity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 213.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.124985 Tw (Then we present the realXtend architecture in more detail, the designs of the three main elements: the) Tj T* 0 Tw .273828 Tw (extensible Entity-Component scene model, the core API and the extensible network protocol. Using these) Tj T* 0 Tw .495697 Tw (to make custom applications is then illustrated with simple highlevel descriptions of some examples. One) Tj T* 0 Tw .444431 Tw (of the examples is a reproducing the basics of the Second Life \(tm\) like featureset using the generic API.) Tj T* 0 Tw .127318 Tw (Other examples feature different worlds, ones without avatars nor land nor controls to move single entities) Tj T* 0 Tw (around.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 171.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .571235 Tw (Chapter X is a brief overview of the implementation, covering the main technologies used in Naali: Ogre,) Tj T* 0 Tw .334198 Tw (Qt and kNet. How these were used to implement the ECs and the core API. \(also the module system etc.) Tj T* 0 Tw (of course\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 153.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(something more still? then discussion/evaluation, future roadmap, conclusion\)) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R31': class PDFStream 
+31 0 obj
+% page stream
+<< /Length 5673 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 744.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Related work) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 666.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 5.150751 Tw (This covers analyses of pre-existing virtual worlds solutions like Second Life and the vanilla) Tj T* 0 Tw 2.753828 Tw (Opensimulator server and the original realXtend prototype made using those. Then an overview of) Tj T* 0 Tw .065814 Tw (literature about solving the extensibility problem, suggesting the Entity-Component model, based on which) Tj T* 0 Tw .373516 Tw (we selected that for the new realXtend architecture. We also take a look at other related systems utilising) Tj T* 0 Tw .771412 Tw (ECs and custom networking, especially the proprietary Unity3d game engine and an open source virtual) Tj T* 0 Tw (worlds framework called Syntensity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Architecture design) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.151567 Tw (1\) A scene model based on the notion of a generic entity, to which any kind of components which can) Tj T* 0 Tw (contain arbitrary data can be added.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 561.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.194985 Tw (2\) A core API for basic functionality like showing graphics and getting user input, and manipulating the) Tj T* 0 Tw 1.030542 Tw (scene to e.g. create new entities. And a module and scripting system that can be used to add arbitrary) Tj T* 0 Tw (code that uses the core API to be executed in all parts of the system \(e.g. the client and server\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 531.0236 cm
+q
+BT 1 0 0 1 0 14 Tm 2.054651 Tw 12 TL /F1 10 Tf 0 0 0 rg (3\) An extensible network protocol suitable for real time use, which allows applications to define own) Tj T* 0 Tw (custom messages. ) Tj 0 0 .501961 rg (http://clb.demon.fi/knet/index.html) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 501.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Functionality example) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 474.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (Avatar) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 456.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (...) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 429.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (Presentation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 399.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .039988 Tw (\(the way I started writing the pres example ended so long that putting it to a separate page now, [[Platform) Tj T* 0 Tw (Extensibility Working Group/Presentation Application]]) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 366.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (The Naali implementation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 336.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .501235 Tw (a brief overview of the implementation, covering the main technologies used in Naali: Ogre, Qt and kNet.) Tj T* 0 Tw (How these were used to implement the ECs and the core API. \(also the module system etc. of course\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 303.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Discussion: evaluation, future work) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 270.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 237.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 231.0236 cm
+Q
+q
+1 0 0 1 62.69291 201.0236 cm
+0 0 0 rg
+BT /F4 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 14 Tm 11.37372 Tw 12 TL /F1 10 Tf 0 0 0 rg (A unified component framework for dynamically extensible virtual environments,) Tj T* 0 Tw 0 0 .501961 rg (http://portal.acm.org/citation.cfm?id=571878.571889) Tj (&) Tj (type=series) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 201.0236 cm
+Q
+q
+1 0 0 1 62.69291 204.0236 cm
+Q
+q
+1 0 0 1 62.69291 186.0236 cm
+0 0 0 rg
+BT /F4 10 Tf 12 TL ET
+q
+1 0 0 1 6 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This seems like one to check for the article, and open source project by some uni with publications,) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 186.0236 cm
+Q
+q
+1 0 0 1 62.69291 132.0236 cm
+q
+BT 1 0 0 1 0 38 Tm .929147 Tw 12 TL /F1 10 Tf 0 0 .501961 rg (http://oldsite.vrjuggler.org/papers.php ) Tj 0 0 0 rg (has things like "VR Juggler -- An Open Source Platform for Virtual) Tj T* 0 Tw 3.37311 Tw (Reality Applications" latest release is from march 2008, i guess the project is still living. the full) Tj T* 0 Tw .115227 Tw (proceedings of IEEE VR from the past couple of years would be the thing to check .. that one was there in) Tj T* 0 Tw (2001) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 132.0236 cm
+Q
+q
+1 0 0 1 62.69291 102.0236 cm
+0 0 0 rg
+BT /F4 10 Tf 12 TL ET
+q
+1 0 0 1 6 15 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 3 cm
+q
+BT 1 0 0 1 0 14 Tm .727318 Tw 12 TL /F1 10 Tf 0 0 0 rg (the bimonthly presence journal seems relevant, had this framework thing in 2003 .. has been cited) Tj T* 0 Tw (this year too: ) Tj 0 0 .501961 rg (http://www.mitpressjournals.org/doi/abs/10.1162/105474603763835314) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 102.0236 cm
+Q
+ 
+endstream
+endobj
+xref
+0 32
+0000000000 65535 f
+0000000113 00000 n
+0000000245 00000 n
+0000000410 00000 n
+0000000597 00000 n
+0000000947 00000 n
+0000001246 00000 n
+0000001539 00000 n
+0000001780 00000 n
+0000001969 00000 n
+0000002150 00000 n
+0000002432 00000 n
+0000002690 00000 n
+0000002961 00000 n
+0000003289 00000 n
+0000003427 00000 n
+0000003694 00000 n
+0000003820 00000 n
+0000003988 00000 n
+0000004175 00000 n
+0000004363 00000 n
+0000004603 00000 n
+0000004815 00000 n
+0000004985 00000 n
+0000005158 00000 n
+0000005358 00000 n
+0000005569 00000 n
+0000005755 00000 n
+0000005910 00000 n
+0000006034 00000 n
+0000012369 00000 n
+0000018640 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(i';\361\275\213\317q\024:\273\324R\016\253\356) (i';\361\275\213\317q\024:\273\324R\016\253\356)] 
+
+ /Info 15 0 R
+ /Root 14 0 R
+ /Size 32 >>
+startxref
+24385
+%%EOF
