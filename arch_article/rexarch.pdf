@@ -5,8 +5,9 @@
 % The standard fonts dictionary
 << /F1 2 0 R
  /F2 3 0 R
- /F3 8 0 R
- /F4 9 0 R >>
+ /F3 5 0 R
+ /F4 54 0 R
+ /F5 55 0 R >>
 endobj
 % 'F1': class PDFType1Font 
 2 0 obj
@@ -41,16 +42,861 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Page1': class PDFPage 
+% 'F3': class PDFType1Font 
 5 0 obj
+% Font Times-Roman
+<< /BaseFont /Times-Roman
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER2': class LinkAnnotation 
+6 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 50 0 R
+ /XYZ
+ 62.69291
+ 705.0236
+ 0 ]
+ /Rect [ 62.69291
+ 534.7736
+ 103.2529
+ 546.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER3': class LinkAnnotation 
+7 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 50 0 R
+ /XYZ
+ 62.69291
+ 705.0236
+ 0 ]
+ /Rect [ 527.0227
+ 534.7736
+ 532.5827
+ 546.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER4': class LinkAnnotation 
+8 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 51 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 62.69291
+ 516.7736
+ 121.0229
+ 528.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER5': class LinkAnnotation 
+9 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 51 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 527.0227
+ 516.7736
+ 532.5827
+ 528.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER6': class LinkAnnotation 
+10 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 321.0236
+ 0 ]
+ /Rect [ 62.69291
+ 498.7736
+ 124.9329
+ 510.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER7': class LinkAnnotation 
+11 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 321.0236
+ 0 ]
+ /Rect [ 527.0227
+ 498.7736
+ 532.5827
+ 510.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER8': class LinkAnnotation 
+12 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 210.0236
+ 0 ]
+ /Rect [ 62.69291
+ 480.7736
+ 156.6029
+ 492.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER9': class LinkAnnotation 
+13 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 210.0236
+ 0 ]
+ /Rect [ 527.0227
+ 480.7736
+ 532.5827
+ 492.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER10': class LinkAnnotation 
+14 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 56 0 R
+ /XYZ
+ 62.69291
+ 705.0236
+ 0 ]
+ /Rect [ 82.69291
+ 462.7736
+ 358.3329
+ 474.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER11': class LinkAnnotation 
+15 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 56 0 R
+ /XYZ
+ 62.69291
+ 705.0236
+ 0 ]
+ /Rect [ 527.0227
+ 462.7736
+ 532.5827
+ 474.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER12': class LinkAnnotation 
+16 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 56 0 R
+ /XYZ
+ 62.69291
+ 675.0236
+ 0 ]
+ /Rect [ 102.6929
+ 444.7736
+ 152.6929
+ 456.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER13': class LinkAnnotation 
+17 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 56 0 R
+ /XYZ
+ 62.69291
+ 675.0236
+ 0 ]
+ /Rect [ 527.0227
+ 444.7736
+ 532.5827
+ 456.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER14': class LinkAnnotation 
+18 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 102.6929
+ 426.7736
+ 135.4829
+ 438.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER15': class LinkAnnotation 
+19 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 527.0227
+ 426.7736
+ 532.5827
+ 438.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER16': class LinkAnnotation 
+20 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 630.0236
+ 0 ]
+ /Rect [ 82.69291
+ 408.7736
+ 284.9929
+ 420.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER17': class LinkAnnotation 
+21 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 630.0236
+ 0 ]
+ /Rect [ 527.0227
+ 408.7736
+ 532.5827
+ 420.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER18': class LinkAnnotation 
+22 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 582.0236
+ 0 ]
+ /Rect [ 102.6929
+ 390.7736
+ 131.0429
+ 402.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER19': class LinkAnnotation 
+23 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 582.0236
+ 0 ]
+ /Rect [ 527.0227
+ 390.7736
+ 532.5827
+ 402.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER20': class LinkAnnotation 
+24 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 513.0236
+ 0 ]
+ /Rect [ 102.6929
+ 372.7736
+ 127.7029
+ 384.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER21': class LinkAnnotation 
+25 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 513.0236
+ 0 ]
+ /Rect [ 527.0227
+ 372.7736
+ 532.5827
+ 384.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER22': class LinkAnnotation 
+26 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 396.0236
+ 0 ]
+ /Rect [ 102.6929
+ 354.7736
+ 154.3829
+ 366.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER23': class LinkAnnotation 
+27 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 396.0236
+ 0 ]
+ /Rect [ 527.0227
+ 354.7736
+ 532.5827
+ 366.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER24': class LinkAnnotation 
+28 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 243.0236
+ 0 ]
+ /Rect [ 102.6929
+ 336.7736
+ 139.9329
+ 348.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER25': class LinkAnnotation 
+29 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 243.0236
+ 0 ]
+ /Rect [ 527.0227
+ 336.7736
+ 532.5827
+ 348.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER26': class LinkAnnotation 
+30 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 58 0 R
+ /XYZ
+ 62.69291
+ 713.0236
+ 0 ]
+ /Rect [ 102.6929
+ 318.7736
+ 158.2729
+ 330.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER27': class LinkAnnotation 
+31 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 58 0 R
+ /XYZ
+ 62.69291
+ 713.0236
+ 0 ]
+ /Rect [ 527.0227
+ 318.7736
+ 532.5827
+ 330.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER28': class LinkAnnotation 
+32 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 59 0 R
+ /XYZ
+ 62.69291
+ 525.0236
+ 0 ]
+ /Rect [ 102.6929
+ 300.7736
+ 258.8429
+ 312.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER29': class LinkAnnotation 
+33 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 59 0 R
+ /XYZ
+ 62.69291
+ 525.0236
+ 0 ]
+ /Rect [ 527.0227
+ 300.7736
+ 532.5827
+ 312.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER30': class LinkAnnotation 
+34 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 59 0 R
+ /XYZ
+ 62.69291
+ 378.0236
+ 0 ]
+ /Rect [ 102.6929
+ 282.7736
+ 141.5929
+ 294.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER31': class LinkAnnotation 
+35 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 59 0 R
+ /XYZ
+ 62.69291
+ 378.0236
+ 0 ]
+ /Rect [ 527.0227
+ 282.7736
+ 532.5827
+ 294.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER32': class LinkAnnotation 
+36 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 59 0 R
+ /XYZ
+ 62.69291
+ 285.0236
+ 0 ]
+ /Rect [ 82.69291
+ 264.7736
+ 179.3929
+ 276.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER33': class LinkAnnotation 
+37 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 59 0 R
+ /XYZ
+ 62.69291
+ 285.0236
+ 0 ]
+ /Rect [ 527.0227
+ 264.7736
+ 532.5827
+ 276.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER34': class LinkAnnotation 
+38 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 61 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 102.6929
+ 246.7736
+ 131.5929
+ 258.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER35': class LinkAnnotation 
+39 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 61 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 527.0227
+ 246.7736
+ 532.5827
+ 258.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER36': class LinkAnnotation 
+40 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 61 0 R
+ /XYZ
+ 62.69291
+ 348.0236
+ 0 ]
+ /Rect [ 102.6929
+ 228.7736
+ 158.8329
+ 240.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER37': class LinkAnnotation 
+41 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 61 0 R
+ /XYZ
+ 62.69291
+ 348.0236
+ 0 ]
+ /Rect [ 527.0227
+ 228.7736
+ 532.5827
+ 240.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER38': class LinkAnnotation 
+42 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 61 0 R
+ /XYZ
+ 62.69291
+ 291.0236
+ 0 ]
+ /Rect [ 62.69291
+ 210.7736
+ 183.8329
+ 222.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER39': class LinkAnnotation 
+43 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 61 0 R
+ /XYZ
+ 62.69291
+ 291.0236
+ 0 ]
+ /Rect [ 527.0227
+ 210.7736
+ 532.5827
+ 222.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER40': class LinkAnnotation 
+44 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 66 0 R
+ /XYZ
+ 62.69291
+ 387.0236
+ 0 ]
+ /Rect [ 62.69291
+ 192.7736
+ 231.6229
+ 204.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER41': class LinkAnnotation 
+45 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 66 0 R
+ /XYZ
+ 62.69291
+ 387.0236
+ 0 ]
+ /Rect [ 527.0227
+ 192.7736
+ 532.5827
+ 204.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER42': class LinkAnnotation 
+46 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 66 0 R
+ /XYZ
+ 62.69291
+ 354.0236
+ 0 ]
+ /Rect [ 62.69291
+ 174.7736
+ 117.1429
+ 186.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER43': class LinkAnnotation 
+47 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 66 0 R
+ /XYZ
+ 62.69291
+ 354.0236
+ 0 ]
+ /Rect [ 527.0227
+ 174.7736
+ 532.5827
+ 186.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER44': class LinkAnnotation 
+48 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 66 0 R
+ /XYZ
+ 62.69291
+ 321.0236
+ 0 ]
+ /Rect [ 62.69291
+ 156.7736
+ 116.6029
+ 168.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER45': class LinkAnnotation 
+49 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 66 0 R
+ /XYZ
+ 62.69291
+ 321.0236
+ 0 ]
+ /Rect [ 527.0227
+ 156.7736
+ 532.5827
+ 168.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page1': class PDFPage 
+50 0 obj
 % Page dictionary
-<< /Annots [ 4 0 R ]
- /Contents 29 0 R
+<< /Annots [ 4 0 R
+ 6 0 R
+ 7 0 R
+ 8 0 R
+ 9 0 R
+ 10 0 R
+ 11 0 R
+ 12 0 R
+ 13 0 R
+ 14 0 R
+ 15 0 R
+ 16 0 R
+ 17 0 R
+ 18 0 R
+ 19 0 R
+ 20 0 R
+ 21 0 R
+ 22 0 R
+ 23 0 R
+ 24 0 R
+ 25 0 R
+ 26 0 R
+ 27 0 R
+ 28 0 R
+ 29 0 R
+ 30 0 R
+ 31 0 R
+ 32 0 R
+ 33 0 R
+ 34 0 R
+ 35 0 R
+ 36 0 R
+ 37 0 R
+ 38 0 R
+ 39 0 R
+ 40 0 R
+ 41 0 R
+ 42 0 R
+ 43 0 R
+ 44 0 R
+ 45 0 R
+ 46 0 R
+ 47 0 R
+ 48 0 R
+ 49 0 R ]
+ /Contents 93 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 28 0 R
+ /Parent 92 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -62,14 +908,14 @@ endobj
  /Type /Page >>
 endobj
 % 'Page2': class PDFPage 
-6 0 obj
+51 0 obj
 % Page dictionary
-<< /Contents 30 0 R
+<< /Contents 94 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 28 0 R
+ /Parent 92 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -80,8 +926,8 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'Annot.NUMBER2': class PDFDictionary 
-7 0 obj
+% 'Annot.NUMBER46': class PDFDictionary 
+52 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://clb.demon.fi/knet/index.html) >>
@@ -89,88 +935,22 @@ endobj
  0
  0 ]
  /Rect [ 148.8329
- 531.7736
+ 87.77362
  297.7929
- 543.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'F3': class PDFType1Font 
-8 0 obj
-% Font Helvetica-BoldOblique
-<< /BaseFont /Helvetica-BoldOblique
- /Encoding /WinAnsiEncoding
- /Name /F3
- /Subtype /Type1
- /Type /Font >>
-endobj
-% 'F4': class PDFType1Font 
-9 0 obj
-% Font Times-Roman
-<< /BaseFont /Times-Roman
- /Encoding /WinAnsiEncoding
- /Name /F4
- /Subtype /Type1
- /Type /Font >>
-endobj
-% 'Annot.NUMBER3': class PDFDictionary 
-10 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://portal.acm.org/citation.cfm?id=571878.571889&type=series) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 85.69291
- 204.7736
- 374.7329
- 216.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER4': class PDFDictionary 
-11 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://oldsite.vrjuggler.org/papers.php) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 62.69291
- 168.7736
- 231.4821
- 180.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER5': class PDFDictionary 
-12 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://www.mitpressjournals.org/doi/abs/10.1162/105474603763835314) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 145.7229
- 105.7736
- 462.0029
- 117.7736 ]
+ 99.77362 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Page3': class PDFPage 
-13 0 obj
+53 0 obj
 % Page dictionary
-<< /Annots [ 7 0 R
- 10 0 R
- 11 0 R
- 12 0 R ]
- /Contents 31 0 R
+<< /Annots [ 52 0 R ]
+ /Contents 95 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 28 0 R
+ /Parent 92 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -181,175 +961,527 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'R14': class PDFCatalog 
-14 0 obj
+% 'F4': class PDFType1Font 
+54 0 obj
+% Font Helvetica-BoldOblique
+<< /BaseFont /Helvetica-BoldOblique
+ /Encoding /WinAnsiEncoding
+ /Name /F4
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F5': class PDFType1Font 
+55 0 obj
+% Font ZapfDingbats
+<< /BaseFont /ZapfDingbats
+ /Encoding /ZapfDingbatsEncoding
+ /Name /F5
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Page4': class PDFPage 
+56 0 obj
+% Page dictionary
+<< /Contents 96 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 92 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page5': class PDFPage 
+57 0 obj
+% Page dictionary
+<< /Contents 97 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 92 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page6': class PDFPage 
+58 0 obj
+% Page dictionary
+<< /Contents 98 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 92 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page7': class PDFPage 
+59 0 obj
+% Page dictionary
+<< /Contents 99 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 92 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER47': class PDFDictionary 
+60 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://clb.demon.fi/knet/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 174.3768
+ 96.77362
+ 283.6848
+ 108.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page8': class PDFPage 
+61 0 obj
+% Page dictionary
+<< /Annots [ 60 0 R ]
+ /Contents 100 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 92 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER48': class PDFDictionary 
+62 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://clb.demon.fi/knet/_kristalli_x_m_l.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 145.4829
+ 633.7736
+ 341.6629
+ 645.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER49': class PDFDictionary 
+63 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://portal.acm.org/citation.cfm?id=571878.571889&type=series) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 267.7736
+ 374.7329
+ 279.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER50': class PDFDictionary 
+64 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://oldsite.vrjuggler.org/papers.php) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 231.7736
+ 231.4821
+ 243.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER51': class PDFDictionary 
+65 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.mitpressjournals.org/doi/abs/10.1162/105474603763835314) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 145.7229
+ 168.7736
+ 462.0029
+ 180.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page9': class PDFPage 
+66 0 obj
+% Page dictionary
+<< /Annots [ 62 0 R
+ 63 0 R
+ 64 0 R
+ 65 0 R ]
+ /Contents 101 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 92 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R67': class PDFCatalog 
+67 0 obj
 % Document Root
-<< /Outlines 16 0 R
+<< /Outlines 69 0 R
  /PageMode /UseNone
- /Pages 28 0 R
+ /Pages 92 0 R
  /Type /Catalog >>
 endobj
-% 'R15': class PDFInfo 
-15 0 obj
+% 'R68': class PDFInfo 
+68 0 obj
 << /Author ()
- /CreationDate (D:20101122173245-02'00')
+ /CreationDate (D:20101124184607-02'00')
  /Keywords ()
  /Producer (ReportLab http://www.reportlab.com)
  /Subject (\(unspecified\))
  /Title (An Entity-Component model for Extensible Virtual Worlds) >>
 endobj
-% 'R16': class PDFOutlines 
-16 0 obj
-<< /Count 13
- /First 17 0 R
- /Last 27 0 R
+% 'R69': class PDFOutlines 
+69 0 obj
+<< /Count 26
+ /First 70 0 R
+ /Last 91 0 R
  /Type /Outlines >>
 endobj
 % 'Outline.0': class OutlineEntryObject 
-17 0 obj
-<< /Dest [ 5 0 R
+70 0 obj
+<< /Dest [ 50 0 R
  /XYZ
  62.69291
  705.0236
  0 ]
- /Next 18 0 R
- /Parent 16 0 R
+ /Next 71 0 R
+ /Parent 69 0 R
  /Title (Abstract) >>
 endobj
 % 'Outline.1': class OutlineEntryObject 
-18 0 obj
-<< /Dest [ 5 0 R
- /XYZ
- 62.69291
- 576.0236
- 0 ]
- /Next 19 0 R
- /Parent 16 0 R
- /Prev 17 0 R
- /Title (Introduction) >>
-endobj
-% 'Outline.2': class OutlineEntryObject 
-19 0 obj
-<< /Dest [ 13 0 R
+71 0 obj
+<< /Dest [ 51 0 R
  /XYZ
  62.69291
  765.0236
  0 ]
- /Next 20 0 R
- /Parent 16 0 R
- /Prev 18 0 R
+ /Next 72 0 R
+ /Parent 69 0 R
+ /Prev 70 0 R
+ /Title (Introduction) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+72 0 obj
+<< /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 321.0236
+ 0 ]
+ /Next 73 0 R
+ /Parent 69 0 R
+ /Prev 71 0 R
  /Title (Related work) >>
 endobj
 % 'Outline.3': class OutlineEntryObject 
-20 0 obj
-<< /Count 3
- /Dest [ 13 0 R
+73 0 obj
+<< /Count 14
+ /Dest [ 53 0 R
  /XYZ
  62.69291
- 654.0236
+ 210.0236
  0 ]
- /First 21 0 R
- /Last 21 0 R
- /Next 24 0 R
- /Parent 16 0 R
- /Prev 19 0 R
+ /First 74 0 R
+ /Last 85 0 R
+ /Next 88 0 R
+ /Parent 69 0 R
+ /Prev 72 0 R
  /Title (Architecture design) >>
 endobj
-% 'Outline.12.0': class OutlineEntryObject 
-21 0 obj
+% 'Outline.23.0': class OutlineEntryObject 
+74 0 obj
 << /Count 2
- /Dest [ 13 0 R
+ /Dest [ 56 0 R
  /XYZ
  62.69291
- 519.0236
+ 705.0236
  0 ]
- /First 22 0 R
- /Last 23 0 R
- /Parent 20 0 R
+ /First 75 0 R
+ /Last 76 0 R
+ /Next 77 0 R
+ /Parent 73 0 R
+ /Title (Naali Framework and Core Application Programming Interface) >>
+endobj
+% 'Outline.24.0': class OutlineEntryObject 
+75 0 obj
+<< /Dest [ 56 0 R
+ /XYZ
+ 62.69291
+ 675.0236
+ 0 ]
+ /Next 76 0 R
+ /Parent 74 0 R
+ /Title (Framework) >>
+endobj
+% 'Outline.24.1': class OutlineEntryObject 
+76 0 obj
+<< /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Parent 74 0 R
+ /Prev 75 0 R
+ /Title (Module) >>
+endobj
+% 'Outline.23.1': class OutlineEntryObject 
+77 0 obj
+<< /Count 7
+ /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 630.0236
+ 0 ]
+ /First 78 0 R
+ /Last 84 0 R
+ /Next 85 0 R
+ /Parent 73 0 R
+ /Prev 74 0 R
+ /Title (The Scene-Entity-Component-Attribute Model) >>
+endobj
+% 'Outline.25.0': class OutlineEntryObject 
+78 0 obj
+<< /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 582.0236
+ 0 ]
+ /Next 79 0 R
+ /Parent 77 0 R
+ /Title (Scene) >>
+endobj
+% 'Outline.25.1': class OutlineEntryObject 
+79 0 obj
+<< /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 513.0236
+ 0 ]
+ /Next 80 0 R
+ /Parent 77 0 R
+ /Prev 78 0 R
+ /Title (Entity) >>
+endobj
+% 'Outline.25.2': class OutlineEntryObject 
+80 0 obj
+<< /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 396.0236
+ 0 ]
+ /Next 81 0 R
+ /Parent 77 0 R
+ /Prev 79 0 R
+ /Title (Component) >>
+endobj
+% 'Outline.25.3': class OutlineEntryObject 
+81 0 obj
+<< /Dest [ 57 0 R
+ /XYZ
+ 62.69291
+ 243.0236
+ 0 ]
+ /Next 82 0 R
+ /Parent 77 0 R
+ /Prev 80 0 R
+ /Title (Attribute) >>
+endobj
+% 'Outline.25.4': class OutlineEntryObject 
+82 0 obj
+<< /Dest [ 58 0 R
+ /XYZ
+ 62.69291
+ 713.0236
+ 0 ]
+ /Next 83 0 R
+ /Parent 77 0 R
+ /Prev 81 0 R
+ /Title (Entity Action) >>
+endobj
+% 'Outline.25.5': class OutlineEntryObject 
+83 0 obj
+<< /Dest [ 59 0 R
+ /XYZ
+ 62.69291
+ 525.0236
+ 0 ]
+ /Next 84 0 R
+ /Parent 77 0 R
+ /Prev 82 0 R
+ /Title (Real-time Network Synchronization) >>
+endobj
+% 'Outline.25.6': class OutlineEntryObject 
+84 0 obj
+<< /Dest [ 59 0 R
+ /XYZ
+ 62.69291
+ 378.0236
+ 0 ]
+ /Parent 77 0 R
+ /Prev 83 0 R
+ /Title (Scripting) >>
+endobj
+% 'Outline.23.2': class OutlineEntryObject 
+85 0 obj
+<< /Count 2
+ /Dest [ 59 0 R
+ /XYZ
+ 62.69291
+ 285.0236
+ 0 ]
+ /First 86 0 R
+ /Last 87 0 R
+ /Parent 73 0 R
+ /Prev 77 0 R
  /Title (Functionality example) >>
 endobj
-% 'Outline.13.0': class OutlineEntryObject 
-22 0 obj
-<< /Dest [ 13 0 R
+% 'Outline.26.0': class OutlineEntryObject 
+86 0 obj
+<< /Dest [ 61 0 R
  /XYZ
  62.69291
- 489.0236
+ 765.0236
  0 ]
- /Next 23 0 R
- /Parent 21 0 R
+ /Next 87 0 R
+ /Parent 85 0 R
  /Title (Avatar) >>
 endobj
-% 'Outline.13.1': class OutlineEntryObject 
-23 0 obj
-<< /Dest [ 13 0 R
+% 'Outline.26.1': class OutlineEntryObject 
+87 0 obj
+<< /Dest [ 61 0 R
  /XYZ
  62.69291
- 444.0236
+ 348.0236
  0 ]
- /Parent 21 0 R
- /Prev 22 0 R
+ /Parent 85 0 R
+ /Prev 86 0 R
  /Title (Presentation) >>
 endobj
 % 'Outline.4': class OutlineEntryObject 
-24 0 obj
-<< /Dest [ 13 0 R
- /XYZ
- 62.69291
- 387.0236
- 0 ]
- /Next 25 0 R
- /Parent 16 0 R
- /Prev 20 0 R
- /Title (The Naali implementation) >>
-endobj
-% 'Outline.5': class OutlineEntryObject 
-25 0 obj
-<< /Dest [ 13 0 R
- /XYZ
- 62.69291
- 324.0236
- 0 ]
- /Next 26 0 R
- /Parent 16 0 R
- /Prev 24 0 R
- /Title (Discussion: evaluation, future work) >>
-endobj
-% 'Outline.6': class OutlineEntryObject 
-26 0 obj
-<< /Dest [ 13 0 R
+88 0 obj
+<< /Dest [ 61 0 R
  /XYZ
  62.69291
  291.0236
  0 ]
- /Next 27 0 R
- /Parent 16 0 R
- /Prev 25 0 R
+ /Next 89 0 R
+ /Parent 69 0 R
+ /Prev 73 0 R
+ /Title (The Naali implementation) >>
+endobj
+% 'Outline.5': class OutlineEntryObject 
+89 0 obj
+<< /Dest [ 66 0 R
+ /XYZ
+ 62.69291
+ 387.0236
+ 0 ]
+ /Next 90 0 R
+ /Parent 69 0 R
+ /Prev 88 0 R
+ /Title (Discussion: evaluation, future work) >>
+endobj
+% 'Outline.6': class OutlineEntryObject 
+90 0 obj
+<< /Dest [ 66 0 R
+ /XYZ
+ 62.69291
+ 354.0236
+ 0 ]
+ /Next 91 0 R
+ /Parent 69 0 R
+ /Prev 89 0 R
  /Title (Conclusion) >>
 endobj
 % 'Outline.7': class OutlineEntryObject 
-27 0 obj
-<< /Dest [ 13 0 R
+91 0 obj
+<< /Dest [ 66 0 R
  /XYZ
  62.69291
- 258.0236
+ 321.0236
  0 ]
- /Parent 16 0 R
- /Prev 26 0 R
+ /Parent 69 0 R
+ /Prev 90 0 R
  /Title (References) >>
 endobj
-% 'R28': class PDFPages 
-28 0 obj
+% 'R92': class PDFPages 
+92 0 obj
 % page tree
-<< /Count 3
- /Kids [ 5 0 R
- 6 0 R
- 13 0 R ]
+<< /Count 9
+ /Kids [ 50 0 R
+ 51 0 R
+ 53 0 R
+ 56 0 R
+ 57 0 R
+ 58 0 R
+ 59 0 R
+ 61 0 R
+ 66 0 R ]
  /Type /Pages >>
 endobj
-% 'R29': class PDFStream 
-29 0 obj
+% 'R93': class PDFStream 
+93 0 obj
 % page stream
-<< /Length 6236 >>
+<< /Length 7061 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -380,246 +1512,1321 @@ Q
 q
 1 0 0 1 62.69291 555.0236 cm
 q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Contents) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 153.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+q
+1 0 0 1 0 381 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 381 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 363 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 363 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 345 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Related work) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 345 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 327 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Architecture design) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 327 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 309 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Naali Framework and Core Application Programming Interface) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 309 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 291 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Framework) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 291 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 273 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Module) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 273 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 255 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (The Scene-Entity-Component-Attribute Model) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 255 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 237 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Scene) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 237 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 219 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Entity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 219 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 201 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Component) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 201 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 183 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Attribute) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 183 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 165 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Entity Action) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 165 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 147 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Real-time Network Synchronization) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 147 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 129 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Scripting) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 129 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 111 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Functionality example) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 111 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 93 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Avatar) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 93 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 75 cm
+q
+BT 1 0 0 1 40 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Presentation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 75 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 57 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (The Naali implementation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 57 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 39 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Discussion: evaluation, future work) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 39 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 21 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Conclusion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 21 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+Q
+Q
+ 
+endstream
+endobj
+% 'R94': class PDFStream 
+94 0 obj
+% page stream
+<< /Length 6688 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 744.0236 cm
+q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Introduction) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 417.0236 cm
+1 0 0 1 62.69291 606.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 122 Tm /F1 10 Tf 12 TL .604985 Tw (A virtual world can be potentially anything. An anatomical simulation of the internals of a biological body,) Tj T* 0 Tw .326235 Tw (where you can fly around inspecting the functionality of various organs and blood vessels etc. has certain) Tj T* 0 Tw 1.609318 Tw (kind of entities, and astrological simulations or solar systems and galaxies has quite different ones. A) Tj T* 0 Tw .939318 Tw (game of hockey has the concepts of attack, neutral and defending zones, certain conventions for which) Tj T* 0 Tw .319987 Tw (kind of physical interactions between the humans in the game are allowed, and of course the notions of a) Tj T* 0 Tw .361567 Tw (goal and a puck. Figure skating has none of these, even though the physics are identical -- a skating ring) Tj T* 0 Tw .867984 Tw (with people skating. The user interface controls and functionality in those two skating games are largely) Tj T* 0 Tw 1.483516 Tw (different, for example in the team based hockey you want good controls for passing the puck to team) Tj T* 0 Tw 1.994985 Tw (mates, whereas in figure skating it might be something like elaborate controls for the jumps and the) Tj T* 0 Tw 2.051984 Tw (skating itself, and higher level selections for how to proceed in the pre-planned choreography of the) Tj T* 0 Tw (performance.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 327.0236 cm
+1 0 0 1 62.69291 516.0236 cm
 q
 BT 1 0 0 1 0 74 Tm 1.50936 Tw 12 TL /F1 10 Tf 0 0 0 rg (\(All these cases are easily virtual worlds, without streching the definition. We could go even further to) Tj T* 0 Tw .872927 Tw (define abstract worlds with arbitrary behaviours, like a "world" where in one part there is a space where) Tj T* 0 Tw .166098 Tw (text characters can exist, and another area where there are buttons with actions like load and save. A text) Tj T* 0 Tw 2.389987 Tw (editor application, that is. In fact, one definition of a computer is that it is a virtual world generator) Tj T* 0 Tw .328735 Tw 1 0 0 rg ([Deutch]_) Tj 0 0 0 rg (, so following that perhaps would make all software virtual worlds. This line of thinking might not) Tj T* 0 Tw 2.89936 Tw (be fruitful, but the extreme genericity is something to concider still. For example in games not all) Tj T* 0 Tw (geometries are euclidian, perhaps VW archs should not hardcode that.\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 213.0236 cm
+1 0 0 1 62.69291 402.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL .831318 Tw (What should a generic virtual world architecture provide to facilitate the implementation of all those, and) Tj T* 0 Tw 1.604269 Tw (many quite different, applications? It seems we need both arbitrary custom data and functionality. For) Tj T* 0 Tw 1.71561 Tw (example in the astronomical simulation the data would be mass and heat and other properties of the) Tj T* 0 Tw .083735 Tw (planets and suns. In a functional anatomy simulation you might need chemical information \(...\). To be able) Tj T* 0 Tw .744597 Tw (the fluently control and navigate these vastly different applications, specific user interface controls would) Tj T* 0 Tw .764104 Tw (be useful. In the skating games, the custom user interface actions would need to be tightly coupled with) Tj T* 0 Tw .534269 Tw (how the character animations \(e.g. a slapshot or a \(kolmoishienohyppy\)\) are executed. All have common) Tj T* 0 Tw .66528 Tw (needs too: need to represent visual 3d objects, move and animate them, and to synchronize all the data) Tj T* 0 Tw (among the participants and to store it for continuing use.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 195.0236 cm
+1 0 0 1 62.69291 384.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (We propose an architecture that meets these requirements using three main elements:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 165.0236 cm
+1 0 0 1 62.69291 354.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.151567 Tw (1\) A scene model based on the notion of a generic entity, to which any kind of components which can) Tj T* 0 Tw (contain arbitrary data can be added.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 123.0236 cm
+1 0 0 1 62.69291 312.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.194985 Tw (2\) A core API for basic functionality like showing graphics and getting user input, and manipulating the) Tj T* 0 Tw 1.030542 Tw (scene to e.g. create new entities. And a module and scripting system that can be used to add arbitrary) Tj T* 0 Tw (code that uses the core API to be executed in all parts of the system \(e.g. the client and server\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 93.02362 cm
+1 0 0 1 62.69291 282.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.054651 Tw (3\) An extensible network protocol suitable for real time use, which allows applications to define own) Tj T* 0 Tw (custom messages.) Tj T* ET
 Q
 Q
- 
-endstream
-endobj
-% 'R30': class PDFStream 
-30 0 obj
-% page stream
-<< /Length 6172 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 621.0236 cm
+1 0 0 1 62.69291 132.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 134 Tm /F1 10 Tf 12 TL .829213 Tw (This has been implemented within the open source realXtend project next generation architecture effort,) Tj T* 0 Tw .759984 Tw (resulting in a generic virtual world software framework in the Naali application. Naali was first developed) Tj T* 0 Tw .292485 Tw (as a viewer client application, to replace the previous realXtend viewer prototype which was based on the) Tj T* 0 Tw 1.092126 Tw (Linden labs Second Life \(tm\) viewer. The server counterpart is Opensimulator \(or Opensim\), a modular) Tj T* 0 Tw 4.638443 Tw (open source application for generic virtual worlds which features a SL \(tm\) compatible server) Tj T* 0 Tw .094983 Tw (implementation out of the box but targets supporting other kinds too. The original realXtend functionality\(*\)) Tj T* 0 Tw .50186 Tw (on the server side was already implemented as an Opensim module \(ModRex\), and we have now added) Tj T* 0 Tw 1.02229 Tw (the support for arbitrary scene data using the Entity-Component model there too. The opensim+modrex) Tj T* 0 Tw 1.891235 Tw (combination, the counterpart of Naali\(*\) is called Taiga. Naali is written in C++ and uses the Ogre3d) Tj T* 0 Tw 2.239983 Tw (graphics rendering engine and the Qt toolkit for UI and internal architecture like supporting dynamic) Tj T* 0 Tw 2.833555 Tw (languages \(currently Python and Javascript, both as optional modules, and more can be added in) Tj T* 0 Tw (additional modules\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 591.0236 cm
+1 0 0 1 62.69291 102.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.857674 Tw (\(* original realXtend functionality, first published in February 2008: Ogre meshes with animations and) Tj T* 0 Tw (complex materials, mediaurls \('web pages as textures'\), ..\)) Tj T* ET
 Q
 Q
+ 
+endstream
+endobj
+% 'R95': class PDFStream 
+95 0 obj
+% page stream
+<< /Length 6380 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 561.0236 cm
+1 0 0 1 62.69291 741.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .21408 Tw (\(* Naali is the Finnish name for the arctic fox -- Naali strives to be a generic 3d web client app, the Firefox) Tj T* 0 Tw (of virtual worlds\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 387.0236 cm
+1 0 0 1 62.69291 567.0236 cm
 q
 BT 1 0 0 1 0 158 Tm 1.155542 Tw 12 TL /F1 10 Tf 0 0 0 rg (Now \(since October 2010\) Naali has also the capability to create a scene by itself and optionally run a) Tj T* 0 Tw .757984 Tw (simple server module, so it can run standalone also without Opensim and provides an alternative server) Tj T* 0 Tw 3.214147 Tw (implementation using a different, more efficient and featureful extensible protocol than the LLUDP) Tj T* 0 Tw .869984 Tw (provided by current Opensim. This new protocol & server experiment is called Tundra, as an alternative) Tj T* 0 Tw .047765 Tw (for the Opensim based Taiga, and it uses a new networking library called kNet \(or Kristalli\) which is similar) Tj T* 0 Tw .39561 Tw (to eNet but with certain advantages. If the Tundra experiment proves succesfull, and there are use cases) Tj T* 0 Tw 1.246654 Tw (that need both the kNet protocol and Opensim features, one possibility is to add a kNet client stack to) Tj T* 0 Tw .890697 Tw (Opensim. The Naali client works against both server implementations, and for application code that e.g.) Tj T* 0 Tw .849318 Tw (defines new Entity-Components and uses existing ones, the protocol doesn't show as the data is gotten) Tj T* 0 Tw .651412 Tw (and manipulated with the same protocol agnostic API. Tundra uses ECs extensively to define everything) Tj T* 0 Tw 1.322339 Tw (-- there is nothing hardcoded about what a world likes, unlike with LLUDP where the Second Life \(tm\)) Tj T* 0 Tw .90832 Tw (application is hardcoded: every user has an avatar, there is a single certain kind of terrain etc. With the) Tj T* 0 Tw .103059 Tw (new generic realXtend architecture demonstrated with Tundra that actually becomes data: a description of) Tj T* 0 Tw (a certain kind of a scene with default entities.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 369.0236 cm
+1 0 0 1 62.69291 549.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This article is structured as follows:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 291.0236 cm
+1 0 0 1 62.69291 471.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .29686 Tw (First there is an overview of related work. This covers analyses of pre-existing virtual worlds solutions like) Tj T* 0 Tw .412126 Tw (Second Life and the vanilla Opensimulator server and the original realXtend prototype made using those.) Tj T* 0 Tw 1.08498 Tw (Then an overview of literature about solving the extensibility problem, suggesting the Entity-Component) Tj T* 0 Tw .567765 Tw (model, based on which we selected that for the new realXtend architecture. We also take a look at other) Tj T* 0 Tw .233828 Tw (related systems utilising ECs and custom networking, especially the proprietary Unity3d game engine and) Tj T* 0 Tw (an open source virtual worlds framework called Syntensity.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 213.0236 cm
+1 0 0 1 62.69291 393.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.124985 Tw (Then we present the realXtend architecture in more detail, the designs of the three main elements: the) Tj T* 0 Tw .273828 Tw (extensible Entity-Component scene model, the core API and the extensible network protocol. Using these) Tj T* 0 Tw .495697 Tw (to make custom applications is then illustrated with simple highlevel descriptions of some examples. One) Tj T* 0 Tw .444431 Tw (of the examples is a reproducing the basics of the Second Life \(tm\) like featureset using the generic API.) Tj T* 0 Tw .127318 Tw (Other examples feature different worlds, ones without avatars nor land nor controls to move single entities) Tj T* 0 Tw (around.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 171.0236 cm
+1 0 0 1 62.69291 351.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .571235 Tw (Chapter X is a brief overview of the implementation, covering the main technologies used in Naali: Ogre,) Tj T* 0 Tw .334198 Tw (Qt and kNet. How these were used to implement the ECs and the core API. \(also the module system etc.) Tj T* 0 Tw (of course\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 153.0236 cm
+1 0 0 1 62.69291 333.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(something more still? then discussion/evaluation, future roadmap, conclusion\)) Tj T* ET
 Q
 Q
- 
-endstream
-endobj
-% 'R31': class PDFStream 
-31 0 obj
-% page stream
-<< /Length 5673 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 744.0236 cm
+1 0 0 1 62.69291 300.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Related work) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 666.0236 cm
+1 0 0 1 62.69291 222.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 5.150751 Tw (This covers analyses of pre-existing virtual worlds solutions like Second Life and the vanilla) Tj T* 0 Tw 2.753828 Tw (Opensimulator server and the original realXtend prototype made using those. Then an overview of) Tj T* 0 Tw .065814 Tw (literature about solving the extensibility problem, suggesting the Entity-Component model, based on which) Tj T* 0 Tw .373516 Tw (we selected that for the new realXtend architecture. We also take a look at other related systems utilising) Tj T* 0 Tw .771412 Tw (ECs and custom networking, especially the proprietary Unity3d game engine and an open source virtual) Tj T* 0 Tw (worlds framework called Syntensity.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 633.0236 cm
+1 0 0 1 62.69291 189.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Architecture design) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 603.0236 cm
+1 0 0 1 62.69291 159.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.151567 Tw (1\) A scene model based on the notion of a generic entity, to which any kind of components which can) Tj T* 0 Tw (contain arbitrary data can be added.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 561.0236 cm
+1 0 0 1 62.69291 117.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.194985 Tw (2\) A core API for basic functionality like showing graphics and getting user input, and manipulating the) Tj T* 0 Tw 1.030542 Tw (scene to e.g. create new entities. And a module and scripting system that can be used to add arbitrary) Tj T* 0 Tw (code that uses the core API to be executed in all parts of the system \(e.g. the client and server\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 531.0236 cm
+1 0 0 1 62.69291 87.02362 cm
 q
 BT 1 0 0 1 0 14 Tm 2.054651 Tw 12 TL /F1 10 Tf 0 0 0 rg (3\) An extensible network protocol suitable for real time use, which allows applications to define own) Tj T* 0 Tw (custom messages. ) Tj 0 0 .501961 rg (http://clb.demon.fi/knet/index.html) Tj T* ET
 Q
 Q
+ 
+endstream
+endobj
+% 'R96': class PDFStream 
+96 0 obj
+% page stream
+<< /Length 7196 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 501.0236 cm
+1 0 0 1 62.69291 717.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .43186 Tw (The key aspect of extensible virtual world architecture design is to allow new features and functionality to) Tj T* 0 Tw 1.22936 Tw (be added to existing world objects, or modifying the existing behavior without the need to modify other) Tj T* 0 Tw 2.82811 Tw (parts of the system. In Naali means of extensibility are provided by the concepts of modules, the) Tj T* 0 Tw (scene-entity-component-attribute model and extensive support for dynamic scripting languages.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Naali Framework and Core Application Programming Interface) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 660.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Framework) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 618.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .496651 Tw (XXXjohonkin sopivaan v\344liin: Same codebase on both client and server. The root object for accessing all) Tj T* 0 Tw 2.517485 Tw (Naali features is the Framework object. This object drives the main loop and gives access to core) Tj T* 0 Tw (application programming interfaces \(API\) for modules,entity-compoennts and scripts.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 588.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .876136 Tw (The communication between framework, its APIs, modules and scene entities is implemented mainly by) Tj T* 0 Tw (using signal and slot mechanism provided by Qt. A signal) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 582.0236 cm
+Q
+q
+1 0 0 1 62.69291 516.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm  T* ET
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL 1.48104 Tw (is emitted when a particular event occurs and a slot is a function that is called in response to a) Tj T* 0 Tw .701412 Tw (particular signal. For example, if developer is interested in listening input events, he registers input) Tj T* 0 Tw .210751 Tw (context from the input API and connects input context) Tj /F5 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (s KeyEvent\(\) signal to his HandleKeyEvent\(\)) Tj T* 0 Tw .09186 Tw (function. Now every time that keyboard input event is received in the system, input context emits the) Tj T* 0 Tw (corresponding signal which can be then handled by the user as wanted.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 516.0236 cm
+Q
+q
+1 0 0 1 62.69291 438.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .415697 Tw (The functionality built into Naali is subdivided into core libraries and optional subsystems implemented as) Tj T* 0 Tw 1.681163 Tw (sets of modules. The core libraries are sets of APIs that each expose some functionality of the Naali) Tj T* 0 Tw 1.010697 Tw (system to native C++ code, scripted modules or scene entities. These interfaces are accessible directly) Tj T* 0 Tw .233059 Tw (through the root Framework object. The individual subsystems are accessible by querying the appropriate) Tj T* 0 Tw 2.455366 Tw (modules using the Module API. The subsystems include functionalities such as renderer, voice and) Tj T* 0 Tw (instant messaging communication and scripting support.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 396.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .735703 Tw (The Naali SDK consists of 12 ) Tj /F5 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL ( or 13, if Naali is acting as a network server - core APIs: -Module: gives) Tj T* 0 Tw 3.269982 Tw (access to all the modules registered in the system. -Event: channel for system-wide inter-module) Tj T* 0 Tw (messaging.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 390.0236 cm
+Q
+q
+1 0 0 1 62.69291 372.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm  T* ET
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Config: implements a uniform mechanism for modules to store their configuration data.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 372.0236 cm
+Q
+q
+1 0 0 1 62.69291 356.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (-Debug: contains useful development-time mechanisms like memory tracking and execution) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 344.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (time profiling.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 314.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .242927 Tw (-Input: provides access to Qt input devices in a contextual order. -UI: exposes the Naali main window and) Tj T* 0 Tw (allows clients to create and show their own) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 308.0236 cm
+Q
+q
+1 0 0 1 62.69291 290.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm  T* ET
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Qt-based windows. painted on the same canvas as the 3D world is rendered.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 290.0236 cm
+Q
+q
+1 0 0 1 62.69291 274.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (-Scene: gives access to the Naali 3D scene structure: scenes, entities, components) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 262.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (and attributes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 246.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (-Asset: implements the Naali asset system and a pluggable asset provider architecture) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 234.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (for streaming in asset data files. The Asset API is uniform regardless of the underlying asset provider.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 218.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (-Console: allows modules to register new console commands that are invokable from) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 206.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (a command line console.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 190.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (-Connection: exposes the functionality related to the currently active server connection,) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 178.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (if Naali is connected to a server.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 162.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (-Audio: provides functionality for playing back 3D positional audio and non-positional) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 150.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (audio, adjusting master volume for different categories of sound, as well as recording sound.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 120.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.723318 Tw (-Frame: exposes signals for frame- and time-related event processing. -Server: if Naali is acting as a) Tj T* 0 Tw (network server, this interface can be accessed to interact) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 114.0236 cm
+Q
+q
+1 0 0 1 62.69291 96.02362 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm  T* ET
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (with the currently active client connections) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 96.02362 cm
+Q
+ 
+endstream
+endobj
+% 'R97': class PDFStream 
+97 0 obj
+% page stream
+<< /Length 6516 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 750.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Module) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 660.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL .256647 Tw (For creating a cross-platform pluggable framework Naali utilizes shared, dynamically loaded libraries. The) Tj T* 0 Tw 1.091751 Tw (libraries can be distributed separately and as long as interfaces stay stable, and also can be used with) Tj T* 0 Tw .29186 Tw (different versions of the framework without the need to update the library itself. The optional Python script) Tj T* 0 Tw .398735 Tw (module provides also its own mechanism for creating new modules, which can be loaded either locally or) Tj T* 0 Tw .013516 Tw (from the web. The semantic of module and component varies greatly in the field the computer science, but) Tj T* 0 Tw 1.322339 Tw (in this article module refers to a plug-in module created for Naali system to add new functionality, and) Tj T* 0 Tw (component refers to an entity-component \(EC\) in the scene.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 642.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (XXXModule load, init, unit jne. tsydeemit lyhyesti?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 612.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (The Scene-Entity-Component-Attribute Model) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 594.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The scene-entity-component-attribute model describes the extensible virtual world.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Scene) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 525.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.354104 Tw (At the highest level, the world is composed of one or more scenes. Scenes are generic containers for) Tj T* 0 Tw .904651 Tw (entities and are owned by the main application framework. Scenes are identified by their name. Scenes) Tj T* 0 Tw (can be accessed, created and removed through the framework.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 498.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Entity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 408.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL .174987 Tw (An entity is a unique presence in the scene identified by a unique ID number. Entity itself doesn) Tj /F5 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (t contain) Tj T* 0 Tw 1.128555 Tw (application-specific functionality or data and it is a mere generic container of components, which define) Tj T* 0 Tw .109398 Tw (data and behavior for the entity. Entities can contain any number of components of any type, even several) Tj T* 0 Tw .332093 Tw (different instances of the same type of component. It is up to the component to make sure this causes no) Tj T* 0 Tw 1.50498 Tw (problems. Entities can be local \(non-replicable\) or networked \(replicable\). Name, description and other) Tj T* 0 Tw .729983 Tw (metadata can be added by using components. Additionally entities can be temporary, which means they) Tj T* 0 Tw (won) Tj /F5 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (t be saved when the scene is. Entities are created, accessed, and deleted through the scene.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 381.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Component) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 255.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 110 Tm /F1 10 Tf 12 TL 2.614147 Tw (Components, also referred as an entity-components \(EC\), are containers of entity-specific data and) Tj T* 0 Tw .84686 Tw (behavior. Components are identified by their type name and name. In the original design, in early 2009,) Tj T* 0 Tw .929269 Tw (components were designed to be very lightweight data containers and minimize the amount of behavior) Tj T* 0 Tw 1.900651 Tw (they define and let parent modules handle the behavior, based on the data the component contains.) Tj T* 0 Tw .472339 Tw (However, as time passed by, it was found more logical and sane to contain also more functionality within) Tj T* 0 Tw .067488 Tw (the EC. For example a light EC has a private pointer to an OGRE light entity. Every time user changes the) Tj T* 0 Tw .997485 Tw (EC_Light) Tj /F5 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (s color attribute, the value of the attribute is applied to the OGRE light resource internally by) Tj T* 0 Tw .173318 Tw (the EC. Existing components are accessed, created and deleted through entities, but it) Tj /F5 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (s also possible to) Tj T* 0 Tw 2.653976 Tw (create new components through framework) Tj /F5 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (s component manager. The network synchronization of) Tj T* 0 Tw (specific component can be defined separately, but by default all components are synchronized.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 228.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Attribute) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 162.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .235318 Tw (Attributes are containers for the data of the component. Component can contain any number of attributes.) Tj T* 0 Tw .479988 Tw (An attribute has a specific type, for example integer, real number, string, or a 3D vector, and a name. An) Tj T* 0 Tw 1.446412 Tw (attribute can contain optional metadata, such as minimum and maximum value for the attribute. When) Tj T* 0 Tw 3.977984 Tw (setting new value for attribute, the type of change has four options: -Default: uses the current) Tj T* 0 Tw (synchronization method specified in the component this) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 156.0236 cm
+Q
+q
+1 0 0 1 62.69291 138.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm  T* ET
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (attribute is part of.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 138.0236 cm
+Q
+q
+1 0 0 1 62.69291 122.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (-Disconnected: The value will be changed, but no notifications will be sent) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 98.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.092339 Tw (\(even locally\). This is useful when doing batch updates of several attributes at a time and wanting to) Tj T* 0 Tw (minimize the amount of re-processing that will be done.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 82.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (-LocalOnly: The value change will be signaled locally immediately after the change) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R98': class PDFStream 
+98 0 obj
+% page stream
+<< /Length 7149 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 72.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (occurs, but it is not sent to the network.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 737.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (-Replicate: After changing the value, the change will be signaled locally and this) Tj T* ET
+Q
+Q
+q
+1 0 0 1 72.69291 725.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (change is transmitted to the network as well.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 698.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Entity Action) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 608.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL 1.091984 Tw (Additionally we present the concept of entity action \(EA\). EAs allow more complicated in-world logic be) Tj T* 0 Tw 2.167485 Tw (built in slightly more data-driven fashion. The idea is to augment the entity and component with the) Tj T* 0 Tw 1.931318 Tw (concept of actions. EA is identified with a string, for example "Open", "Talk", or "ToggleVisibility". An) Tj T* 0 Tw 5.45816 Tw (action can have any number of parameters, for example: "Move\(up\)) Tj /F5 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (, ) Tj /F5 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL ( WalkForward\(10\)) Tj /F5 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (,) Tj T* 0 Tw .867318 Tw /F5 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (StartGame\(level2.lvl, listOfPlayers] \)". The reason why we are using strings is to keep the interface as) Tj T* 0 Tw 3.21186 Tw (simple as possible. More complicated data passing can be achieved by first filling in a series of) Tj T* 0 Tw (component data and then calling an action that triggers the event.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 554.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.810574 Tw (It sounds more natural to have explicit actions that can be performed on entities, instead of trying to) Tj T* 0 Tw .394985 Tw (achieve the same by listening on edge-triggers on EC data changes. I.e., instead of triggering the locking) Tj T* 0 Tw .394488 Tw (of a door by listening in a script when a component's "locked" transitions from false to true, we can do an) Tj T* 0 Tw (explicit "Lock" action, which then locally sets "locked=true" and e.g. plays an audio clip.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 512.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .178488 Tw (As a lesser note, this also avoids us having to transmit over the wire lots of data in several situations. E.g.) Tj T* 0 Tw 1.97528 Tw (we want to clear a component to its default values. Instead of synching all ECs individually, we can) Tj T* 0 Tw (execute an action "Reset" on the entity, and locally we know which values to fill in.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 434.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.26436 Tw (Entities have always been designed to be simple objects and the Entity class is not subclassable. The) Tj T* 0 Tw .134431 Tw (Entity class itself will not handle any actions. Instead, the actions are passed on to the components of that) Tj T* 0 Tw .719987 Tw (entity. By adding the concept of Action to the entity, instead of individual components we do not have to) Tj T* 0 Tw .50811 Tw (know about the actual components the entity has, which allows all sorts of "hidden layers of abstraction",) Tj T* 0 Tw 1.819398 Tw (i.e. we can trigger an action "Clicked" on an Entity from the input system, without requiring the input) Tj T* 0 Tw (system to know which component is to handle the action.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 368.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL 2.308735 Tw (Also, it allows a layer of consistency. We can make sets of components that behave similarly. E.g.) Tj T* 0 Tw 1.80284 Tw (components Mesh, ParticleSystem, Billboard, Avata and Light all have in common that they have the) Tj T* 0 Tw 2.520651 Tw (notion of actions "Hide", "Show", "ToggleVisibility". A piece of code that needed to know about the) Tj T* 0 Tw .083735 Tw (components would have to do a chain of if-else-condisitions to see which component was there and which) Tj T* 0 Tw (had to be hidden.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 314.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .678488 Tw (Entity will get a signal table of actions. A component can register as a listener to an EA. This makes the) Tj T* 0 Tw 4.123059 Tw (entity actions dynamic and run-time addable and removable from script, instead of being static) Tj T* 0 Tw .720651 Tw (compile-time declarations. For debugging, and for more power in the UI editor, the dynamic entity action) Tj T* 0 Tw (signal map can be made accessible from the UI.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 176.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 122 Tm /F1 10 Tf 12 TL .752209 Tw (XXXremove start? We need to be able to know whether an action succeeded or not, or if anything even) Tj T* 0 Tw .56811 Tw (handle the action we sent. These are discussed separately below. Letting the handler of an action signal) Tj T* 0 Tw .60686 Tw (success or failure, or other pieces of information, is a more complicated question. Success or failure can) Tj T* 0 Tw 1.780751 Tw (be expressed by using exceptions. Implementing "Action Return Values" would make the actions real) Tj T* 0 Tw .125366 Tw (function calls, like "Entity.Exec\("GetName"\)". This topic sounds somewhat interesting, but is for later study) Tj T* 0 Tw .497318 Tw (since there are complications, one example below. If multiple handlers are connected to an action, which) Tj T* 0 Tw 1.159986 Tw (one gets to handle it? Do we implement a similar kind of suppression mechanism as with Naali events) Tj T* 0 Tw .475318 Tw (\(return "Suppressed"/"NotHandled";\)? In which order do the handlers get to the action? If we have Action) Tj T* 0 Tw 1.171318 Tw (Return Values, do we do a "yield return"-fashioned aggregation if all handlers return a separate value?) Tj T* 0 Tw .404104 Tw (We recommend to leave the execution order undefined, and to pass the action to all handlers without the) Tj T* 0 Tw (ability to suppress. XXXremove end?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 86.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL 2.20784 Tw (When we execute an EA, for example "WalkForward) Tj /F5 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL ( or "UnlockDoor", where should the action be) Tj T* 0 Tw 1.763555 Tw (executed? There are three possible places that can be immediately identified: local client, server and) Tj T* 0 Tw .262093 Tw (peers. And as combinations we get local + server, local + peers \(all clients but not server\), server + peers) Tj T* 0 Tw .71061 Tw (\(everyone but me\), local + server + peers \(everyone\). Not all of these sound immediately sensible even,) Tj T* 0 Tw .629987 Tw (but we know we need to be able to do different things at different times. This way, server-side execution) Tj T* 0 Tw .669398 Tw (can be seen as a kind of remote procedure call \(RPC\) method \(without return values currently\). Since in) Tj T* 0 Tw .209986 Tw (the Tundra branch our client and server maintain the exact same scene data structure, we can also utilize) Tj T* 0 Tw ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R99': class PDFStream 
+99 0 obj
+% page stream
+<< /Length 5393 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (the same scripts, and changing between client and server execution is fast for prototyping.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 687.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .105542 Tw (The server execution works as follows. In a client-side script or native C++ code that obtains the handle of) Tj T* 0 Tw .02436 Tw (an Entity, we can call entity.Exec\("Unlock", Server\). This will not do anything immediately on the client, but) Tj T* 0 Tw .599431 Tw (will cause the action to be serialized through network and triggered in the scene on the server side. This) Tj T* 0 Tw .012619 Tw (way the server script can check and enforce that the caller is actually permissible to do such thing, and act) Tj T* 0 Tw (properly. The client is not able to unlock the door with local execution alone.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .801318 Tw (In the protocol, an "EntityAction" network message is implemented that carries the entity, action and the) Tj T* 0 Tw .17784 Tw (corresponding parameters. This way most of the client-server interaction scripts do not need to implement) Tj T* 0 Tw 2.280697 Tw (their own network messages at the bottom protocol layer for custom messaging, although, for more) Tj T* 0 Tw (power, having also such an option is useful.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.033876 Tw (XXXremove start? How do we know which actions are available on the server if it differs from the local) Tj T* 0 Tw .883516 Tw (computer? An idea might be to have an ) Tj /F5 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL (ActionQuery) Tj /F5 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL ( message, but this is not critical the time being.) Tj T* 0 Tw .26061 Tw (Perhaps we should prefer to make symmetric client and server -side action registrations to keep it simple.) Tj T* 0 Tw (XXXremove end?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 537.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .81332 Tw (When executing over the network, the handlers need to be able to know the originator of the action, i.e.) Tj T* 0 Tw .077209 Tw (whether it was local or from which peer. The individual security checks are left to the scripts themselves to) Tj T* 0 Tw (decide at this point.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 510.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Real-time Network Synchronization) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 480.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .498651 Tw (An extensible network protocol suitable for real time use, which allows applications to define own custom) Tj T* 0 Tw (messages.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 462.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Immediate mode and XML stuff.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 408.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.364269 Tw (By default changes in component data, i.e. attributes, are synchronized on a per-attribute basis. Batch) Tj T* 0 Tw 1.522126 Tw (updates of several attributes, or even whole component, can be done using the Disconnected change) Tj T* 0 Tw .491412 Tw (type and triggering the synchronization signal by setting the value of the last-to-be-changed attribute with) Tj T* 0 Tw (the Replicate change type.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 390.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Per attribute vs. per component sync?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 363.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Scripting) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 297.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .829213 Tw (In order to support agile application development and fast prototyping with dynamic scripting languages,) Tj T* 0 Tw .91811 Tw (exposing the C++ written functionality for the scripting languages is crucial. In Naali every core API and) Tj T* 0 Tw 2.119983 Tw (scene model -related objects are exposed to both Python and Javascript allowing usage of scripting) Tj T* 0 Tw .069988 Tw (languages to be almost as powerful as native C++ code. The script supported is not limited only to the two) Tj T* 0 Tw (aforementioned languages, and implementing support for example LUA is very possible if wanted.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 267.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Functionality example) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 474.0236 cm
-q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (Avatar) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 456.0236 cm
+1 0 0 1 62.69291 213.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (...) Tj T* ET
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 3.47284 Tw (To showcase extensibility of Naali in action, we will go through implementations of two example) Tj T* 0 Tw .177045 Tw (applications. The first one shows us how to implement a Second Life -like concept of avatars. The second) Tj T* 0 Tw .043145 Tw (example will show us how create a virtual world without the concept of avatars at all by implementing a 3D) Tj T* 0 Tw (presentation browser.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 429.0236 cm
+1 0 0 1 62.69291 171.0236 cm
 q
-BT 1 0 0 1 0 2.5 Tm 15 TL /F3 12.5 Tf 0 0 0 rg (Presentation) Tj T* ET
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .128935 Tw (By default new scene is a black and empty void. So for starters in both examples we have created without) Tj T* 0 Tw .239986 Tw (separate annotation an entity which has an environment component so that we can set the lighting for the) Tj T* 0 Tw (scene.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R100': class PDFStream 
+100 0 obj
+% page stream
+<< /Length 6579 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 750.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Avatar) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 399.0236 cm
+1 0 0 1 62.69291 624.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 110 Tm /F1 10 Tf 12 TL .238651 Tw (The avatar application scene implements the concept of avatars. It uses two script files: application script,) Tj T* 0 Tw .638735 Tw (which handles user connections and creates and deletes avatar entity as users leave and join the world,) Tj T* 0 Tw .324651 Tw (and a avatar script, which implements the functionality ) Tj /F5 10 Tf 12 TL (n) Tj /F1 10 Tf 12 TL ( movement, animation and physical behavior - of) Tj T* 0 Tw .847765 Tw (a single avatar. For resources, in addition to the script files, we have a scene XML file, which describes) Tj T* 0 Tw 1.054985 Tw (the scene entities and components in the scene, a mesh, skeleton, material and textures for the avatar) Tj T* 0 Tw 1.225868 Tw (and a mesh for the ground entity. The application script itself is a very simple server-side script. Every) Tj T* 0 Tw 2.172339 Tw (time new user connects to the server, server creates a new entity for the user and sets EC_Script,) Tj T* 0 Tw 1.286342 Tw (EC_Placeable and EC_AnimationController components to it. Server also sets random starting position) Tj T* 0 Tw .361163 Tw (for the avatar in the world. When user disconnects from the world the application script will destroy user's) Tj T* 0 Tw (entity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 606.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Avatar script blaablaa) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 564.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .209986 Tw (The avatar entity consists of the following ECs: -Mesh: assigns 3D mesh object and skeleton to the entity.) Tj T* 0 Tw 1.607984 Tw (-RigidBody: applies physics to the 3D object. -Placeable: postion, rotation and scale of the 3D object.) Tj T* 0 Tw (-InputMapper: nonsynced input-mapper registers an input context from the Naali input) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 558.0236 cm
+Q
+q
+1 0 0 1 62.69291 516.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm  T* ET
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .079987 Tw (system and uses it to translate given set of key and mouse sequences to Entity Actions on the entity) Tj T* 0 Tw .22284 Tw (the component is part of. InputMapper maps the keyboard events to entity actions \(server execution) Tj T* 0 Tw (type\) which are sent to server.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 516.0236 cm
+Q
+q
+1 0 0 1 62.69291 474.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.828314 Tw (-AnimationController: controls the animation states of the skeleton of the mesh. -Camera: implements) Tj T* 0 Tw .243516 Tw (camera to the scene \(a third person which follows avatar from behind\). -Name: used for setting name and) Tj T* 0 Tw (description for the entity \(optional\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 360.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL .73284 Tw (Creates camera and input mapper on client. Client controls camera. Avatar created on server. Connects) Tj T* 0 Tw .873059 Tw (movement and mouse look related actions. Server receives movement actions and updates the position) Tj T* 0 Tw .715814 Tw (and animation, runs physics simulation server handles animation state changes, client playbacks current) Tj T* 0 Tw .20811 Tw (state's animation. // If walk animation is playing, adjust its speed according to the avatar rigidbody velocity) Tj T* 0 Tw 2.62881 Tw (// Note: on client the rigidbody does not exist, so the velocity is only a replicated attribute Server:) Tj T* 0 Tw 8.697441 Tw (ServerInitialize\(\) ServerUpdate\(\) ServerUpdatePhysics\(\) ServerHandleMove\(\) ServerHandleStop\(\)) Tj T* 0 Tw .466588 Tw (ServerHandleRotate\(\) ServerHandleStopRotate\(\) ServerSetAnimationState\(\) ServerHandleMouseLookX\(\)) Tj T* 0 Tw 42.52325 Tw (ServerSetAnimationState\(\) Client: ClientInitialize\(\) ClientCreateInputMapper\(\)) Tj T* 0 Tw (ClientCreateAvatarCamera\(\) ClientUpdateAvatarCamera\(\) Common: CommonUpdateAnimation\(\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 333.0236 cm
+q
+BT 1 0 0 1 0 2.5 Tm 15 TL /F4 12.5 Tf 0 0 0 rg (Presentation) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 303.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .039988 Tw (\(the way I started writing the pres example ended so long that putting it to a separate page now, [[Platform) Tj T* 0 Tw (Extensibility Working Group/Presentation Application]]) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 366.0236 cm
+1 0 0 1 62.69291 270.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (The Naali implementation) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 336.0236 cm
+1 0 0 1 62.69291 240.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .501235 Tw (a brief overview of the implementation, covering the main technologies used in Naali: Ogre, Qt and kNet.) Tj T* 0 Tw (How these were used to implement the ECs and the core API. \(also the module system etc. of course\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 303.0236 cm
+1 0 0 1 62.69291 222.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The main libraries used to implement Naali are Qt, OGRE and KristalliNet.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 168.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 2.571647 Tw (Qt is a powerful, visually rich, cross-platform, C++ graphical user interface application programming) Tj T* 0 Tw .945318 Tw (framework. It supports all major desktop OS, as well as many embedded platforms. Currently Naali has) Tj T* 0 Tw .850697 Tw (been built and run successfully on Windows XP/Vista/7, couple of major Linux distributions \(Ubuntu and) Tj T* 0 Tw (Fedora\), OS X, Maemo and MeeGo.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 114.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.287251 Tw (OGRE \(Object-oriented Graphics Rendering Engine\) is an open source and cross-platform full-featured) Tj T* 0 Tw .229987 Tw (3D rendering engine. A common misconception about OGRE is that it is a game engine. OGRE is a mere) Tj T* 0 Tw 1.22936 Tw (3D rendering engine and it is missing many essential game engine features, such as sound, input and) Tj T* 0 Tw (networking.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 84.02362 cm
+q
+BT 1 0 0 1 0 14 Tm 3.137976 Tw 12 TL /F1 10 Tf 0 0 0 rg (XXX suora copy-paste ) Tj 0 0 .501961 rg (http://clb.demon.fi/knet/ ) Tj 0 0 0 rg (: KristalliNet \(kNet\) is a connection-oriented network ) Tj T* 0 Tw 1.893615 Tw (protocol for transmitting arbitrary application-specific messages between network hosts. It is designed) Tj T* 0 Tw ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R101': class PDFStream 
+101 0 obj
+% page stream
+<< /Length 6215 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 705.0236 cm
+q
+BT 1 0 0 1 0 50 Tm 3.916342 Tw 12 TL /F1 10 Tf 0 0 0 rg (primarily for applications that require a method for rapid space-efficient real-time communication.) Tj T* 0 Tw .620751 Tw (KristalliNet consists of two major specifications. At a lower level, the Transport-level specification defines) Tj T* 0 Tw 1.165984 Tw (methods like: -How a session is initialized, maintained and shut down. -How data bytes are transferred) Tj T* 0 Tw 1.919147 Tw (between hosts. -How reliable messages, data ordering requirements and large transfers are handled.) Tj T* 0 Tw (-How flow management and congestion control may be performed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.64152 Tw (Building on top of that, the Application-level specification, along with a reference C++ implementation,) Tj T* 0 Tw .772126 Tw (offers most notably the following features: -How to describe your own application-level protocol sets and) Tj T* 0 Tw .533314 Tw (their transmission parameters. -How to model message dependencies and prioritization. -How to perform) Tj T* 0 Tw (content-based late data replacement. -How to perform data serialization.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Declarative \(XML\) ) Tj 0 0 .501961 rg (http://clb.demon.fi/knet/_kristalli_x_m_l.html ) Tj 0 0 0 rg (and immediate.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 615.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (XXX PythonQt and Qt Script Generator provide Qt-related bindings for Python and Javascript.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (XXX OpenAL for audio.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Naali Software Development Kit \(SDK\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 537.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.201984 Tw (Core Components Naali provides a set of built-in entity components, which are the building blocks that) Tj T* 0 Tw 1.032765 Tw (make up the world. New arbitrary components can be defined in C++ by writing a new Naali module to) Tj T* 0 Tw (host it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 495.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 7.11622 Tw (XXXjottain j\344rkev\344mp\344\344 t\344h\344n Name, Environment, Placeable, Mesh, InputMapper, Movable,) Tj T* 0 Tw 4.007109 Tw (AnimationController, ParticleSystem, Sound, Listener, Camera, SoundListener, Light, HoveringText,) Tj T* 0 Tw (Billboard, DynamicComponent, Script, SkyBox/SkyPlane/SkyDome \(singleton\), Terrain, WaterPlane, Fog) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 465.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .015984 Tw (To allow dynamic behavior for data driven ECA data and script contents, the following special components) Tj T* 0 Tw (exist: -DynamicComponent: Unlike other components, the attributes of this component are) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 459.0236 cm
+Q
+q
+1 0 0 1 62.69291 429.0236 cm
+0 0 0 rg
+BT /F3 10 Tf 12 TL ET
+BT 1 0 0 1 0 5 Tm  T* ET
+q
+1 0 0 1 23 3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.972126 Tw (dynamically defined at runtime and can be specified per instance. This is particularly useful for) Tj T* 0 Tw (scripts for managing their own custom application-level data.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 429.0236 cm
+Q
+q
+1 0 0 1 62.69291 399.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .64186 Tw (-Script: Attaches a script source file to an entity, implemented either in JavaScript or Python. This allows) Tj T* 0 Tw (attaching custom application-level logic to an entity.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 366.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Discussion: evaluation, future work) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 270.0236 cm
+1 0 0 1 62.69291 333.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Conclusion) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 237.0236 cm
+1 0 0 1 62.69291 300.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (References) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 231.0236 cm
+1 0 0 1 62.69291 294.0236 cm
 Q
 q
-1 0 0 1 62.69291 201.0236 cm
+1 0 0 1 62.69291 264.0236 cm
 0 0 0 rg
-BT /F4 10 Tf 12 TL ET
+BT /F3 10 Tf 12 TL ET
 q
 1 0 0 1 6 15 cm
 q
@@ -637,15 +2844,15 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 201.0236 cm
+1 0 0 1 62.69291 264.0236 cm
 Q
 q
-1 0 0 1 62.69291 204.0236 cm
+1 0 0 1 62.69291 267.0236 cm
 Q
 q
-1 0 0 1 62.69291 186.0236 cm
+1 0 0 1 62.69291 249.0236 cm
 0 0 0 rg
-BT /F4 10 Tf 12 TL ET
+BT /F3 10 Tf 12 TL ET
 q
 1 0 0 1 6 3 cm
 q
@@ -664,21 +2871,21 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 186.0236 cm
+1 0 0 1 62.69291 249.0236 cm
 Q
 q
-1 0 0 1 62.69291 132.0236 cm
+1 0 0 1 62.69291 195.0236 cm
 q
 BT 1 0 0 1 0 38 Tm .929147 Tw 12 TL /F1 10 Tf 0 0 .501961 rg (http://oldsite.vrjuggler.org/papers.php ) Tj 0 0 0 rg (has things like "VR Juggler -- An Open Source Platform for Virtual) Tj T* 0 Tw 3.37311 Tw (Reality Applications" latest release is from march 2008, i guess the project is still living. the full) Tj T* 0 Tw .115227 Tw (proceedings of IEEE VR from the past couple of years would be the thing to check .. that one was there in) Tj T* 0 Tw (2001) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 132.0236 cm
+1 0 0 1 62.69291 195.0236 cm
 Q
 q
-1 0 0 1 62.69291 102.0236 cm
+1 0 0 1 62.69291 165.0236 cm
 0 0 0 rg
-BT /F4 10 Tf 12 TL ET
+BT /F3 10 Tf 12 TL ET
 q
 1 0 0 1 6 15 cm
 q
@@ -696,53 +2903,123 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 102.0236 cm
+1 0 0 1 62.69291 165.0236 cm
 Q
  
 endstream
 endobj
 xref
-0 32
+0 102
 0000000000 65535 f
 0000000113 00000 n
-0000000245 00000 n
-0000000410 00000 n
-0000000597 00000 n
-0000000947 00000 n
-0000001246 00000 n
-0000001539 00000 n
-0000001780 00000 n
-0000001969 00000 n
-0000002150 00000 n
-0000002432 00000 n
-0000002690 00000 n
-0000002961 00000 n
-0000003289 00000 n
-0000003427 00000 n
-0000003694 00000 n
-0000003820 00000 n
-0000003988 00000 n
-0000004175 00000 n
-0000004363 00000 n
-0000004603 00000 n
-0000004815 00000 n
-0000004985 00000 n
-0000005158 00000 n
-0000005358 00000 n
-0000005569 00000 n
-0000005755 00000 n
-0000005910 00000 n
-0000006034 00000 n
-0000012369 00000 n
-0000018640 00000 n
+0000000259 00000 n
+0000000424 00000 n
+0000000611 00000 n
+0000000963 00000 n
+0000001145 00000 n
+0000001386 00000 n
+0000001627 00000 n
+0000001868 00000 n
+0000002109 00000 n
+0000002351 00000 n
+0000002593 00000 n
+0000002835 00000 n
+0000003078 00000 n
+0000003321 00000 n
+0000003564 00000 n
+0000003807 00000 n
+0000004050 00000 n
+0000004293 00000 n
+0000004536 00000 n
+0000004779 00000 n
+0000005022 00000 n
+0000005265 00000 n
+0000005508 00000 n
+0000005751 00000 n
+0000005994 00000 n
+0000006237 00000 n
+0000006480 00000 n
+0000006723 00000 n
+0000006966 00000 n
+0000007209 00000 n
+0000007452 00000 n
+0000007695 00000 n
+0000007938 00000 n
+0000008181 00000 n
+0000008424 00000 n
+0000008667 00000 n
+0000008910 00000 n
+0000009153 00000 n
+0000009396 00000 n
+0000009639 00000 n
+0000009882 00000 n
+0000010125 00000 n
+0000010368 00000 n
+0000010611 00000 n
+0000010854 00000 n
+0000011097 00000 n
+0000011340 00000 n
+0000011583 00000 n
+0000011810 00000 n
+0000012502 00000 n
+0000012797 00000 n
+0000013037 00000 n
+0000013340 00000 n
+0000013530 00000 n
+0000013705 00000 n
+0000013985 00000 n
+0000014265 00000 n
+0000014545 00000 n
+0000014840 00000 n
+0000015070 00000 n
+0000015387 00000 n
+0000015653 00000 n
+0000015936 00000 n
+0000016195 00000 n
+0000016466 00000 n
+0000016796 00000 n
+0000016934 00000 n
+0000017201 00000 n
+0000017327 00000 n
+0000017496 00000 n
+0000017684 00000 n
+0000017872 00000 n
+0000018113 00000 n
+0000018377 00000 n
+0000018550 00000 n
+0000018720 00000 n
+0000018983 00000 n
+0000019152 00000 n
+0000019337 00000 n
+0000019525 00000 n
+0000019713 00000 n
+0000019905 00000 n
+0000020117 00000 n
+0000020290 00000 n
+0000020517 00000 n
+0000020687 00000 n
+0000020860 00000 n
+0000021060 00000 n
+0000021271 00000 n
+0000021457 00000 n
+0000021612 00000 n
+0000021792 00000 n
+0000028952 00000 n
+0000035739 00000 n
+0000042218 00000 n
+0000049513 00000 n
+0000056128 00000 n
+0000063376 00000 n
+0000068869 00000 n
+0000075549 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(i';\361\275\213\317q\024:\273\324R\016\253\356) (i';\361\275\213\317q\024:\273\324R\016\253\356)] 
+ [(\242\020\350J\034\334\305\2074\001\005\311\024C\027y) (\242\020\350J\034\334\305\2074\001\005\311\024C\027y)] 
 
- /Info 15 0 R
- /Root 14 0 R
- /Size 32 >>
+ /Info 68 0 R
+ /Root 67 0 R
+ /Size 102 >>
 startxref
-24385
+81837
 %%EOF

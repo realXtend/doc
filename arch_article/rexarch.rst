@@ -17,6 +17,8 @@ the networked environment.
 Additionally we present the idea of Entity
 Actions. ... http://groups.google.com/group/realxtend-dev/browse_thread/thread/42fed16befd2b9b7/bba9f67d00b60371?lnk=gst&q=entity+actions+memo#bba9f67d00b60371
 
+.. contents::
+
 Introduction
 ============
 
@@ -190,10 +192,12 @@ the scene-entity-component-attribute model and extensive support for dynamic
 scripting languages.
 
 Naali Framework and Core Application Programming Interface
+----------------------------------------------------------
 
 Framework
+"""""""""
 
-***johonkin sopivaan v‰liin: Same codebase on both client and server.
+XXXjohonkin sopivaan v‰liin: Same codebase on both client and server.
 The root object for accessing all Naali features is the Framework object.
 This object drives the main loop and gives access to core application programming
 interfaces (API) for modules,entity-compoennts and scripts.
@@ -241,6 +245,8 @@ The Naali SDK consists of 12 ñ or 13, if Naali is acting as a network server - c
  with the currently active client connections
 
 Module
+""""""
+
 For creating a cross-platform pluggable framework Naali utilizes shared, dynamically
 loaded libraries. The libraries can be distributed separately and as long as interfaces
 stay stable, and  also can be used with different versions of the framework without the
@@ -250,19 +256,24 @@ The semantic of module and component varies greatly in the field the computer sc
 but in this article module refers to a plug-in module created for Naali system to add
 new functionality, and component refers to an entity-component (EC) in the scene.
 
-***Module load, init, unit jne. tsydeemit lyhyesti?
+XXXModule load, init, unit jne. tsydeemit lyhyesti?
 
 The Scene-Entity-Component-Attribute Model
+------------------------------------------
 
 The scene-entity-component-attribute model describes the extensible virtual world.
 
 Scene
+"""""
+
 At the highest level, the world is composed of one or more scenes. Scenes are
 generic containers for entities and are owned by the main application framework.
 Scenes are identified by their name. Scenes can be accessed, created and removed
 through the framework.
 
 Entity
+""""""
+
 An entity is a unique presence in the scene identified by a unique ID number.
 Entity itself doesnít contain application-specific functionality or data and it
 is a mere generic container of components, which define data and behavior for
@@ -275,6 +286,8 @@ entities can be temporary, which means they wonít be saved when the scene is.
 Entities are created, accessed, and deleted through the scene. 
 
 Component
+"""""""""
+
 Components, also referred as an entity-components (EC), are containers of
 entity-specific data and behavior. Components are identified by their type name
 and name. In the original design, in early 2009, components were designed to be
@@ -289,6 +302,8 @@ to create new components through frameworkís component manager. The network sync
 of specific component can be defined separately, but by default all components are synchronized.
 
 Attribute
+"""""""""
+
 Attributes are containers for the data of the component. Component can contain
 any number of attributes. An attribute has a specific type, for example integer,
 real number, string, or a 3D vector, and a name. An attribute can contain optional
@@ -305,6 +320,8 @@ for attribute, the type of change has four options:
  change is transmitted to the network as well.
 
 Entity Action
+"""""""""""""
+
 Additionally we present the concept of entity action (EA). EAs allow more complicated
 in-world logic be built in slightly more data-driven fashion.  The idea is to augment
 the entity and component with the concept of actions. EA is identified with a string,
@@ -344,7 +361,7 @@ This makes the entity actions dynamic and run-time addable and removable from sc
 instead of being static compile-time declarations. For debugging, and for more power in
 the UI editor, the dynamic entity action signal map can be made accessible from the UI.
 
-***remove start?
+XXXremove start?
 We need to be able to know whether an action succeeded or not, or if anything even handle
 the action we sent. These are discussed separately below.  Letting the handler of an action
 signal success or failure, or other pieces of information, is a more complicated question.
@@ -357,7 +374,7 @@ In which order do the handlers get to the action? If we have Action Return Value
 a "yield return"-fashioned aggregation if all handlers return a separate value?  We recommend
 to leave the execution order undefined, and to pass the action to all handlers without the
 ability to suppress. 
-***remove end?
+XXXremove end?
 
 When we execute an EA, for example "WalkForwardî or "UnlockDoor", where should the
 action be executed?  There are three possible places that can be immediately identified:
@@ -381,17 +398,19 @@ action and the corresponding parameters. This way most of the client-server inte
 do not need to implement their own network messages at the bottom protocol layer for custom
 messaging, although, for more power, having also such an option is useful.
 
-***remove start?
+XXXremove start?
 How do we know which actions are available on the server if it differs from the local computer?
 An idea might be to have an ìActionQueryî message, but this is not critical the time being.
 Perhaps we should prefer to make symmetric client and server -side action registrations to keep it simple.
-***remove end?
+XXXremove end?
 
 When executing over the network, the handlers need to be able to know the originator of the
 action, i.e. whether it was local or from which peer. The individual security checks are left
 to the scripts themselves to decide at this point.
 
 Real-time Network Synchronization
+"""""""""""""""""""""""""""""""""
+
 An extensible network protocol suitable for real time use, which allows applications to define
 own custom messages.
 
@@ -405,6 +424,8 @@ attribute with the Replicate change type.
 Per attribute vs. per component sync?
 
 Scripting
+"""""""""
+
 In order to support agile application development and fast prototyping with dynamic scripting
 languages, exposing the C++ written functionality for the scripting languages is crucial.
 In Naali every core API and scene model -related objects are exposed to both Python and Javascript
@@ -491,7 +512,7 @@ full-featured 3D rendering engine. A common misconception about OGRE is that it 
 engine. OGRE is a mere 3D rendering engine and it is missing many essential game engine
 features, such as sound, input and networking.
 
-*** suora copy-paste http://clb.demon.fi/knet/ :
+XXX suora copy-paste http://clb.demon.fi/knet/ :
 KristalliNet (kNet) is a connection-oriented network protocol for transmitting arbitrary
 application-specific messages between network hosts. It is designed primarily for applications
 that require a method for rapid space-efficient real-time communication. KristalliNet consists
@@ -510,9 +531,9 @@ C++ implementation, offers most notably the following features:
 
 Declarative (XML) http://clb.demon.fi/knet/_kristalli_x_m_l.html and immediate.
 
-*** PythonQt and Qt Script Generator provide Qt-related bindings for Python and Javascript.
+XXX PythonQt and Qt Script Generator provide Qt-related bindings for Python and Javascript.
 
-*** OpenAL for audio.
+XXX OpenAL for audio.
 
 Naali Software Development Kit (SDK)
 
@@ -521,7 +542,7 @@ Naali provides a set of built-in entity components, which are the building block
 that make up the world. New arbitrary components can be defined in C++ by writing
 a new Naali module to host it.
 
-***jottain j‰rkev‰mp‰‰ t‰h‰n
+XXXjottain j‰rkev‰mp‰‰ t‰h‰n
 Name, Environment, Placeable, Mesh, InputMapper, Movable, AnimationController,
 ParticleSystem, Sound, Listener, Camera, SoundListener, Light, HoveringText,
 Billboard, DynamicComponent, Script, SkyBox/SkyPlane/SkyDome (singleton), Terrain,
