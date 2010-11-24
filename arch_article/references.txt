@@ -42,8 +42,11 @@ http://portal.acm.org/citation.cfm?id=1294685.1294691
 Open source platforms
 =====================
 
-VR Juggler – An Open Source Platform for Virtual Reality Applications
-http://oldsite.vrjuggler.org/pub/vrjuggler-aiaa2002.pdf
+
+Multiplayer game platforms
+==========================
+
+http://www.scribd.com/doc/13628279/Practical-Middleware-for-Massively-Multiplayer-Online-Games
 
 Comparisons / classification
 ============================
@@ -66,3 +69,7 @@ mattiku: if you're doing that engineering info vis thing, this article
 might be relevant ..  
 Internet-based Simulation and Virtual World for Engineering Education,
 http://www.edgj.org/index.php/EDGJ/article/viewFile/28/27
+
+mixed reality
+HyperReal: a hypermedia model for mixed reality
+http://portal.acm.org/citation.cfm?id=900051.900055
