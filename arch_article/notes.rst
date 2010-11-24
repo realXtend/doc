@@ -1,34 +1,27 @@
 vwrap
 =====
 
-22:39  * antont is reading http://tools.ietf.org/html/draft-ietf-vwrap-foundation-00 for the article
-22:39 < antont> wrote their journal article earlier
-22:39 < antont> err, read even
-22:39 < antont> vwrap is basically orthogonal to our EC stuff
-22:40 < antont> i.e. vwrap is about authentication and trust and caps etc. and 
-                teleports etc
-22:41 < antont> there is nothing in vwrap about scenes nor the actual inworld 
-                functionality. whereas our article and tundra are only about inworld 
-                functionality (and custom UIs) and the scene model
-22:41 < antont> so we can say that ok fine vwrap is that other stuff, we can perhaps 
-                apply that, but this is for the scene :)
-22:43 < antont> this vwrap article described the SL model nicely .. so we can refer to 
-                that and say that we don't want those hardcoded in the core, and then 
-                prove with the examples that it's not necessary.. 
-http://internetmessagingtechnology.org/pubs/VWRAP-for-Virtual-Worlds-Interopera\
-22:43 < antont> bility-mic2010010073.pdf
-22:45 < antont> they said in that article that they first tried to have a generic MMOX 
-                (massive multiplayer online interoperability or so) group with also MMO 
-                game companies, but learned that things are so diverse that was not 
-                possible to standardize
-22:45 < antont> so now vwrap focuses on SL style only
-22:46 < antont> i guess we can argue that with the rex ECA style we can have something 
-                more generic while it's still practical, and people thinking of 
-                standards can consider that
-22:46 < antont> ah and they said 'too immature to standardize', not that something more 
-                generic would be impossible to standardize later on
-22:47 < antont> but anyhow standards or not, at least we have a working practical nice 
-                thing now that can use
+.. raw::
+
+   22:39  * antont is reading http://tools.ietf.org/html/draft-ietf-vwrap-foundation-00 for the article
+   22:39 < antont> wrote their journal article earlier
+   22:39 < antont> err, read even
+   22:39 < antont> vwrap is basically orthogonal to our EC stuff
+   22:40 < antont> i.e. vwrap is about authentication and trust and caps etc. and teleports etc
+   22:41 < antont> there is nothing in vwrap about scenes nor the actual inworld functionality. whereas our article and tundra are only about inworld functionality (and custom UIs) and the scene model
+   22:41 < antont> so we can say that ok fine vwrap is that other stuff, we can perhaps apply that, but this is for the scene :)
+   22:43 < antont> this vwrap article described the SL model nicely .. so we can refer to that and say that we don't want those hardcoded in the core, and then prove with the examples that it's not necessary.. 
+
+   http://internetmessagingtechnology.org/pubs/VWRAP-for-Virtual-Worlds-Interoperability-mic2010010073.pdf
+
+   they said in that article that they first tried to have a generic MMOX 
+   (massive multiplayer online interoperability or so) group with also MMO 
+   game companies, but learned that things are so diverse that was not 
+   possible to standardize
+   22:45 < antont> so now vwrap focuses on SL style only
+   22:46 < antont> i guess we can argue that with the rex ECA style we can have something more generic while it's still practical, and people thinking of standards can consider that
+   22:46 < antont> ah and they said 'too immature to standardize', not that something more generic would be impossible to standardize later on
+   22:47 < antont> but anyhow standards or not, at least we have a working practical nice thing now that can use
 
 sirikata
 ========
