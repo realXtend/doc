@@ -305,32 +305,112 @@ for attribute, the type of change has four options:
  change is transmitted to the network as well.
 
 Entity Action
-Additionally we present the concept of entity action (EA). EAs allow more complicated in-world logic be built in slightly more data-driven fashion.  The idea is to augment the entity and component with the concept of actions. EA is identified with a string, for example "Open",  "Talk",  or "ToggleVisibility". An action can have any number of parameters, for example: "Move(up)”, “ WalkForward(10)”, “StartGame(level2.lvl, listOfPlayers] )". 
-The reason why we are using strings is to keep the interface as simple as possible. More complicated data passing can be achieved by first filling in a series of component data and then calling an action that triggers the event. 
-It sounds more natural to have explicit actions that can be performed on entities, instead of trying to achieve the same by listening on edge-triggers on EC data changes. i.e., instead of triggering the locking of a door by listening in a script when a component's "locked" transitions from false to true, we can do an explicit "Lock" action, which then locally sets "locked=true" and e.g. plays an audio clip. 
-As a lesser note, this also avoids us having to transmit over the wire lots of data in several situations. E.g. we want to clear a component to its default values. Instead of synching all ECs individually, we can execute an action "Reset" on the entity, and locally we know which values to fill in. 
-Entities have always been designed to be simple objects and the Entity class is not subclassable. The Entity class itself will not handle any actions. Instead, the actions are passed on to the components of that entity. By adding the concept of Action to the entity, instead of individual components we do not have to know about the actual components the entity has, which allows all sorts of "hidden layers of abstraction", i.e. we can trigger an action "Clicked" on an Entity from the input system, without requiring the input system to know which component is to handle the action.
-Also, it allows a layer of consistency. We can make sets of components that behave similarly. E.g. components Mesh, ParticleSystem, Billboard, Avata and Light all have in common that they have the notion of actions "Hide", "Show", "ToggleVisibility". A piece of code that needed to know about the components would have to do a chain of if-else-condisitions to see which component was there and which had to be hidden. 
-Entity will get a signal table of actions. A component can register as a listener to an EA. This makes the entity actions dynamic and run-time addable and removable from script, instead of being static compile-time declarations. For debugging, and for more power in the UI editor, the dynamic entity action signal map can be made accessible from the UI.
+Additionally we present the concept of entity action (EA). EAs allow more complicated
+in-world logic be built in slightly more data-driven fashion.  The idea is to augment
+the entity and component with the concept of actions. EA is identified with a string,
+for example "Open",  "Talk",  or "ToggleVisibility". An action can have any number of
+parameters, for example: "Move(up)”, “ WalkForward(10)”, “StartGame(level2.lvl, listOfPlayers] )". 
+The reason why we are using strings is to keep the interface as simple as possible.
+More complicated data passing can be achieved by first filling in a series of component
+data and then calling an action that triggers the event. 
+
+It sounds more natural to have explicit actions that can be performed on entities,
+instead of trying to achieve the same by listening on edge-triggers on EC data changes.
+I.e., instead of triggering the locking of a door by listening in a script when a
+component's "locked" transitions from false to true, we can do an explicit "Lock"
+action, which then locally sets "locked=true" and e.g. plays an audio clip.
+
+As a lesser note, this also avoids us having to transmit over the wire lots of data
+in several situations. E.g. we want to clear a component to its default values.
+Instead of synching all ECs individually, we can execute an action "Reset" on the
+entity, and locally we know which values to fill in.
+
+Entities have always been designed to be simple objects and the Entity class is not
+subclassable. The Entity class itself will not handle any actions. Instead, the actions
+are passed on to the components of that entity. By adding the concept of Action to the
+entity, instead of individual components we do not have to know about the actual components
+the entity has, which allows all sorts of "hidden layers of abstraction", i.e. we can trigger
+an action "Clicked" on an Entity from the input system, without requiring the input system
+to know which component is to handle the action.
+
+Also, it allows a layer of consistency. We can make sets of components that behave similarly.
+E.g. components Mesh, ParticleSystem, Billboard, Avata and Light all have in common that
+they have the notion of actions "Hide", "Show", "ToggleVisibility". A piece of code that
+needed to know about the components would have to do a chain of if-else-condisitions to
+see which component was there and which had to be hidden.
+
+Entity will get a signal table of actions. A component can register as a listener to an EA.
+This makes the entity actions dynamic and run-time addable and removable from script,
+instead of being static compile-time declarations. For debugging, and for more power in
+the UI editor, the dynamic entity action signal map can be made accessible from the UI.
+
 ***remove start?
- We need to be able to know whether an action succeeded or not, or if anything even handled the action we sent. These are discussed separately below.  Letting the handler of an action signal success or failure, or other pieces of information, is a more complicated question. Success or failure can be expressed by using exceptions. Implementing "Action Return Values" would make the actions real function calls, like "Entity.Exec("GetName")". This topic sounds somewhat interesting, but is for later study since there are complications, one example below. 
-If multiple handlers are connected to an action, which one gets to handle it? Do we implement a similar kind of suppression mechanism as with Naali events (return "Suppressed"/"NotHandled";)? In which order do the handlers get to the action? If we have Action Return Values, do we do a "yield return"-fashioned aggregation if all handlers return a separate value?  We recommend to leave the execution order undefined, and to pass the action to all handlers without the ability to suppress. 
+We need to be able to know whether an action succeeded or not, or if anything even handle
+the action we sent. These are discussed separately below.  Letting the handler of an action
+signal success or failure, or other pieces of information, is a more complicated question.
+Success or failure can be expressed by using exceptions. Implementing "Action Return Values"
+would make the actions real function calls, like "Entity.Exec("GetName")". This topic sounds
+somewhat interesting, but is for later study since there are complications, one example below.
+If multiple handlers are connected to an action, which one gets to handle it? Do we implement
+a similar kind of suppression mechanism as with Naali events (return "Suppressed"/"NotHandled";)?
+In which order do the handlers get to the action? If we have Action Return Values, do we do
+a "yield return"-fashioned aggregation if all handlers return a separate value?  We recommend
+to leave the execution order undefined, and to pass the action to all handlers without the
+ability to suppress. 
 ***remove end?
-When we execute an EA, for example "WalkForward” or "UnlockDoor", where should the action be executed?  There are three possible places that can be immediately identified: local client, server and peers. And as combinations we get local + server, local + peers (all clients but not server), server + peers (everyone but me), local + server + peers (everyone). Not all of these sound immediately sensible even, but we know we need to be able to do different things at different times.  This way, server-side execution can be seen as a kind of remote procedure call (RPC) method (without return values currently). Since in the Tundra branch our client and server maintain the exact same scene data structure, we can also utilize the same scripts, and changing between client and server execution is fast for prototyping.
-The server execution works as follows. In a client-side script or native C++ code that obtains the handle of an Entity, we can call entity.Exec("Unlock", Server). This will not do anything immediately on the client, but will cause the action to be serialized through network and triggered in the scene on the server side. This way the server script can check and enforce that the caller is actually permissible to do such thing, and act properly. The client is not able to unlock the door with local execution alone.
-In the protocol, an "EntityAction" network message is implemented that carries the entity, action and the corresponding parameters. This way most of the client-server interaction scripts do not need to implement their own network messages at the bottom protocol layer for custom messaging, although, for more power, having also such an option is useful.
+
+When we execute an EA, for example "WalkForward” or "UnlockDoor", where should the
+action be executed?  There are three possible places that can be immediately identified:
+local client, server and peers. And as combinations we get local + server, local + peers
+(all clients but not server), server + peers (everyone but me), local + server + peers (everyone).
+Not all of these sound immediately sensible even, but we know we need to be able to do different
+things at different times.  This way, server-side execution can be seen as a kind of remote
+procedure call (RPC) method (without return values currently). Since in the Tundra branch our
+client and server maintain the exact same scene data structure, we can also utilize the same
+scripts, and changing between client and server execution is fast for prototyping.
+
+The server execution works as follows. In a client-side script or native C++ code that obtains
+the handle of an Entity, we can call entity.Exec("Unlock", Server). This will not do anything
+immediately on the client, but will cause the action to be serialized through network and
+triggered in the scene on the server side. This way the server script can check and enforce
+that the caller is actually permissible to do such thing, and act properly. The client is not
+able to unlock the door with local execution alone.
+
+In the protocol, an "EntityAction" network message is implemented that carries the entity,
+action and the corresponding parameters. This way most of the client-server interaction scripts
+do not need to implement their own network messages at the bottom protocol layer for custom
+messaging, although, for more power, having also such an option is useful.
+
 ***remove start?
-How do we know which actions are available on the server if it differs from the local computer? An idea might be to have an “ActionQuery” message, but this is not critical the time being. Perhaps we should prefer to make symmetric client and server -side action registrations to keep it simple. 
+How do we know which actions are available on the server if it differs from the local computer?
+An idea might be to have an “ActionQuery” message, but this is not critical the time being.
+Perhaps we should prefer to make symmetric client and server -side action registrations to keep it simple.
 ***remove end?
-When executing over the network, the handlers need to be able to know the originator of the action, i.e. whether it was local or from which peer. The individual security checks are left to the scripts themselves to decide at this point. 
+
+When executing over the network, the handlers need to be able to know the originator of the
+action, i.e. whether it was local or from which peer. The individual security checks are left
+to the scripts themselves to decide at this point.
 
 Real-time Network Synchronization
-An extensible network protocol suitable for real time use, which allows applications to define own custom messages. Efficient
+An extensible network protocol suitable for real time use, which allows applications to define
+own custom messages.
+
 Immediate mode and XML stuff.
-By default changes in component data, i.e. attributes, are synchronized on a per-attribute basis. Batch updates of several attributes, or even whole component, can be done using the Disconnected change type and triggering the synchronization signal by setting the value of the last-to-be-changed attribute with the Replicate change type.
+
+By default changes in component data, i.e. attributes, are synchronized on a per-attribute basis.
+Batch updates of several attributes, or even whole component, can be done using the Disconnected
+change type and triggering the synchronization signal by setting the value of the last-to-be-changed
+attribute with the Replicate change type.
+
 Per attribute vs. per component sync?
+
 Scripting
-In order to support agile application development and fast prototyping with dynamic scripting languages, exposing the C++ written functionality for the scripting languages is crucial. In Naali every core API and scene model -related objects are exposed to both Python and Javascript allowing usage of scripting languages to be almost as powerful as native C++ code. The script supported is not limited only to the two aforementioned languages, and implementing support for example LUA is very possible if wanted.
+In order to support agile application development and fast prototyping with dynamic scripting
+languages, exposing the C++ written functionality for the scripting languages is crucial.
+In Naali every core API and scene model -related objects are exposed to both Python and Javascript
+allowing usage of scripting languages to be almost as powerful as native C++ code. The script
+supported is not limited only to the two aforementioned languages, and implementing support
+for example LUA is very possible if wanted.
 
 Functionality example
 ---------------------
