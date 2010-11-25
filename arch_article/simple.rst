@@ -5,6 +5,9 @@ Worlds on Your Desktop
 making rich virtual worlds as simple documents
 ----------------------------------------------
 
+Introduction
+------------
+
 What if you could open an arbitrary, visually appealing and highly
 interactive virtual world quickly by just clicking a file? Edit it
 locally, save changes, and publish it on the net to run as a shared
@@ -83,17 +86,66 @@ universe simulator obviously does not have hardcoded land and sky,
 when you are moving from Earth to Moon and all the way to
 Andromeda. Teachers of medicine do not want anything extra around when
 they build a RealXtend world to teach anatomy by putting the organs to
-right places in a human body. To demonstrate the feasibility of a
-generic approach, there is a growing set of application examples in
-the Naali example scenes directory available on GitHub
-[naali-github]_. We present two of them here to illustrate how the EC
-model works in practice. First there is an implementation of a Second
-Life (tm) style avatar, implemented using a set of ECs and Javascript
-code to run both on the server and the clients to implement the
-functionality, for example to play back the walking animation as the
-avatar moves. This is achieved without the base platform nor the
-protocol having the concept of an avatar. The other example is a
-simple presentation application where we use custom data to share the
-presentation outline for all participants, and to let the presenter
-control the view for the others as the presentation proceeds.
+right places in a human body. Games typically require custom controls,
+and any application benefits from being able to define the UI exactly
+as fit for that putpose. To demonstrate the feasibility of a generic
+approach, there is a growing set of application examples in the Naali
+example scenes directory available on GitHub [naali-scenes]_. We
+present two of them here to illustrate how the EC model works in
+practice. First there is an implementation of a Second Life (tm) style
+avatar, implemented using a set of ECs and Javascript code to run both
+on the server and the clients to implement the functionality, for
+example to play back the walking animation as the avatar moves. This
+is achieved without the base platform nor the protocol having the
+concept of an avatar. The other example is a simple presentation
+application where we use custom data to share the presentation outline
+for all participants, and to let the presenter control the view for
+the others as the presentation proceeds.
 
+Making of Avatars
+=================
+
+(the av example)
+
+A Simple Presentation Tool
+==========================
+
+(guess what)
+
+Discussion
+==========
+
+The generic Entity-Component approach was proposed to Opensimulator
+core and accepted as the plan already in December 2009
+[adam-ecplan]_. The implementation is however still in very early
+stages, only the first steps have been taken to allow refactoring the
+framework be generalized and the features built with ECs in optional
+modules. It can be used, however, with the Naali client application
+both when running against Opensim using the RealXtend add-on module
+(the combination of opensim+modrex is called Taiga). This works in a
+limited fashion, as the Second Life protocol and OpenSim internals
+still assume the hardcoded SL model, but you can still add arbitrary
+client side functionality and have the data automatically stored and
+synchronized over the net.
+
+The generic application platform works currently fully when using the
+so called Tundra server, which a simple server module added to Naali
+itself. This allows Naali to run as standalone for local authoring, or
+for single user applications, but also for using it as a server to
+host worlds on the net instead of using Opensimulator. With Tundra
+LLUDP is no longer used, but all basic functionality is achieved with
+the generic EC synchronization. It however lacks many basic features
+and may never get some of the advanced Opensimulator features, like
+running untrusted user authored scripts and combining multiple regions
+to form a large grid. Tundra is however is already useful for local
+authoring and application development, and serves as an example of how
+a generic approach to allow virtual worlds functionality can be simple
+yet practical. We hope this is taken into consideration in upcoming
+standardization processes, for example if VWRAP proceeds to address
+in-world scene functionality.
+
+References
+==========
+
+[opensim-on-a-stick] http://becunningandfulloftricks.com/2010/10/07/a-virtual-world-in-my-hands-running-opensim-and-imprudence-on-a-usb-key/
+[naali-scenes] https://github.com/realXtend/naali/blob/tundra/bin/scenes/
