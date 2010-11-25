@@ -1,5 +1,9 @@
+======================
 Worlds on Your Desktop
+======================
+----------------------------------------------
 making rich virtual worlds as simple documents
+----------------------------------------------
 
 What if you could open an arbitrary, visually appealing and highly
 interactive virtual world quickly by just clicking a file? Edit it
