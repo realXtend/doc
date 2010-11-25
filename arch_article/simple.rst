@@ -5,15 +5,17 @@ Worlds on Your Desktop
 making rich virtual worlds as simple documents
 ----------------------------------------------
 
-Introduction
-------------
-
-What if you could open an arbitrary, visually appealing and highly
+*What if you could open an arbitrary, visually appealing and highly
 interactive virtual world quickly by just clicking a file? Edit it
 locally, save changes, and publish it on the net to run as a shared
 environment where anyone can log in? Add your own custom data and
 functionality using familiar scripting languages? You can! Using
-no-strings-attached open source software.
+no-strings-attached open source software.*
+
+.. contents::
+
+Introduction
+------------
 
 RealXtend is an open source project aiming to speed up the development
 of standards for 3d virtual worlds. The idea is to apply standards
