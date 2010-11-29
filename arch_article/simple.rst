@@ -107,12 +107,12 @@ the others as the presentation proceeds.
 Making of Avatars
 =================
 
-(the av example)
+.. include:: avapp.rst
 
 A Simple Presentation Tool
 ==========================
 
-(guess what)
+.. include:: presapp.rst
 
 Discussion
 ==========
