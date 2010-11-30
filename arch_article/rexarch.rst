@@ -171,19 +171,6 @@ Syntensity.
 Architecture design
 ===================
 
-1) A scene model based on the notion of a generic entity, to which any
-kind of components which can contain arbitrary data can be added.
-
-2) A core API for basic functionality like showing graphics and
-getting user input, and manipulating the scene to e.g. create new
-entities. And a module and scripting system that can be used to add
-arbitrary code that uses the core API to be executed in all parts of
-the system (e.g. the client and server).
-
-3) An extensible network protocol suitable for real time use, which
-allows applications to define own custom
-messages. http://clb.demon.fi/knet/index.html
-
 The key aspect of extensible virtual world architecture design is to allow new
 features and functionality to be added to existing world objects, or modifying
 the existing behavior without the need to modify other parts of the system.
@@ -199,50 +186,51 @@ Framework
 
 XXXjohonkin sopivaan väliin: Same codebase on both client and server.
 The root object for accessing all Naali features is the Framework object.
-This object drives the main loop and gives access to core application programming
-interfaces (API) for modules,entity-compoennts and scripts.
+This object drives the main loop of the application and gives access to core application
+programming interfaces (API) for modules, entity-components and scripts.
 
 The communication between framework, its APIs, modules and scene entities is
 implemented mainly by using signal and slot mechanism provided by Qt. A signal
- is emitted when a particular event occurs and a slot is a function that is called
- in response to a particular signal. For example, if developer is interested in
- listening input events, he registers input context from the input API and connects
- input context’s KeyEvent() signal to his HandleKeyEvent() function. Now every time
- that keyboard input event is received in the system, input context emits the corresponding
- signal which can be then handled by the user as wanted.
- 
+is emitted when a particular event occurs and a slot is a function that is called
+in response to a particular signal. For example, if developer is interested in
+listening input events, he registers an input context from the input API and connects
+input context’s KeyEvent() signal to his HandleKeyEvent() function. Now every time
+when keyboard input event is received in the system, input context emits the corresponding
+signal which can be then handled by the user as wanted.
+
 The functionality built into Naali is subdivided into core libraries and optional
-subsystems implemented as sets of modules. The core libraries are sets of APIs that
+subsystems implemented as sets of modules. The core libraries form sets of APIs that
 each expose some functionality of the Naali system to native C++ code, scripted modules
 or scene entities. These interfaces are accessible directly through the root Framework
 object. The individual subsystems are accessible by querying the appropriate modules
 using the Module API. The subsystems include functionalities such as renderer, voice and
 instant messaging communication and scripting support.
 
+The Naali framework and core APIs form together the Naali software development kit (SDK):
+a foundation for which different virtual world applications can be built.
 The Naali SDK consists of 12 – or 13, if Naali is acting as a network server - core APIs:
--Module: gives access to all the modules registered in the system.
--Event:  channel for system-wide inter-module messaging.
- Config: implements a uniform mechanism for modules to store their configuration data.
--Debug: contains useful development-time mechanisms like memory tracking and execution
- time profiling.
--Input: provides access to Qt input devices in a contextual order.
--UI: exposes the Naali main window and allows clients to create and show their own
- Qt-based windows.
- painted on the same canvas as the 3D world is rendered.
--Scene: gives access to the Naali 3D scene structure: scenes, entities, components
+- Module: gives access to all the modules registered in the system.
+- Event:  channel for system-wide inter-module messaging.
+- Config: implements a uniform mechanism for modules to store their configuration data.
+- Debug: contains useful development-time mechanisms like memory tracking and execution
+time profiling.
+- Input: provides access to Qt input devices in a contextual order.
+- UI: exposes the Naali main window and allows clients to create and show their own
+Qt-based windows painted on the same canvas as the 3D world is rendered.
+- Scene: gives access to the Naali 3D scene structure: scenes, entities, components
  and attributes.
--Asset: implements the Naali asset system and a pluggable asset provider architecture
- for streaming in asset data files. The Asset API is uniform regardless of the underlying
- asset provider.
--Console:  allows modules to register new console commands that are invokable from
- a command line console.
--Connection: exposes the functionality related to the currently active server connection,
+- Asset: implements the Naali asset system and a pluggable asset provider architecture
+for streaming in asset data files. The Asset API is uniform regardless of the underlying
+asset provider.
+- Console:  allows modules to register new console commands that are invokable from
+a command line console.
+- Connection: exposes the functionality related to the currently active server connection,
  if Naali is connected to a server.
--Audio:  provides functionality for playing back 3D positional audio and non-positional
+- Audio:  provides functionality for playing back 3D positional audio and non-positional
  audio, adjusting master volume for different categories of sound, as well as recording sound.
--Frame: exposes signals for frame- and time-related event processing.
--Server: if Naali is acting as a network server, this interface can be accessed to interact
- with the currently active client connections
+- Frame: exposes signals for frame- and time-related event processing.
+- Server: if Naali is acting as a network server, this interface can be accessed to interact
+with the currently active client connections
 
 Module
 """"""
@@ -279,11 +267,12 @@ Entity itself doesn’t contain application-specific functionality or data and it
 is a mere generic container of components, which define data and behavior for
 the entity. Entities can contain any number of components of any type, even
 several different instances of the same type of component. It is up to the 
-component to make sure this causes no problems. 
+component to make sure this causes no problems.
+
 Entities can be local (non-replicable) or networked (replicable). Name,
 description and other metadata can be added by using components. Additionally
 entities can be temporary, which means they won’t be saved when the scene is.
-Entities are created, accessed, and deleted through the scene. 
+Entities are created, accessed, and deleted through the scene.
 
 Component
 """""""""
@@ -291,15 +280,16 @@ Component
 Components, also referred as an entity-components (EC), are containers of
 entity-specific data and behavior. Components are identified by their type name
 and name. In the original design, in early 2009, components were designed to be
-very lightweight data containers and minimize the amount of behavior they define
-and let parent modules handle the behavior, based on the data the component contains.
-However, as time passed by, it was found more logical and sane to contain also more
-functionality within the EC. For example a light EC has a private pointer to an OGRE
-light entity. Every time user changes the EC_Light’s color attribute, the value of
-the attribute is applied to the OGRE light resource internally by the EC. Existing
-components are accessed, created and deleted through entities, but it’s also possible
-to create new components through framework’s component manager. The network synchronization
-of specific component can be defined separately, but by default all components are synchronized.
+very lightweight data containers and the aim was to minimize the amount of behavior
+they define and thus leaving the parent module to handle the logic and behavior, based
+on the data the component contains. However, as time passed by, it was found more
+logical and sane to contain also more complex functionality within the EC. For example,
+a light EC has a private pointer to an OGRE light entity. Every time user changes the
+EC_Light’s color attribute, the value of the attribute is applied to the OGRE light resource
+internally by the EC. Existing components are accessed, created and deleted through entities,
+but it’s also possible to create new components through framework’s component manager.
+The network synchronization of specific component can be defined separately, but
+by defaul tall components are synchronized.
 
 Attribute
 """""""""
@@ -323,9 +313,9 @@ Entity Action
 """""""""""""
 
 Additionally we present the concept of entity action (EA). EAs allow more complicated
-in-world logic be built in slightly more data-driven fashion.  The idea is to augment
+in-world logic be built in slightly more data-driven fashion. The idea is to augment
 the entity and component with the concept of actions. EA is identified with a string,
-for example "Open",  "Talk",  or "ToggleVisibility". An action can have any number of
+for example "Open", "Talk", or "ToggleVisibility". An action can have any number of
 parameters, for example: "Move(up)”, “ WalkForward(10)”, “StartGame(level2.lvl, listOfPlayers] )". 
 The reason why we are using strings is to keep the interface as simple as possible.
 More complicated data passing can be achieved by first filling in a series of component
@@ -333,7 +323,7 @@ data and then calling an action that triggers the event.
 
 It sounds more natural to have explicit actions that can be performed on entities,
 instead of trying to achieve the same by listening on edge-triggers on EC data changes.
-I.e., instead of triggering the locking of a door by listening in a script when a
+In other words, instead of triggering the locking of a door by listening in a script when a
 component's "locked" transitions from false to true, we can do an explicit "Lock"
 action, which then locally sets "locked=true" and e.g. plays an audio clip.
 
@@ -345,7 +335,7 @@ entity, and locally we know which values to fill in.
 Entities have always been designed to be simple objects and the Entity class is not
 subclassable. The Entity class itself will not handle any actions. Instead, the actions
 are passed on to the components of that entity. By adding the concept of Action to the
-entity, instead of individual components we do not have to know about the actual components
+entity, instead of individual components, we do not have to know about the actual components
 the entity has, which allows all sorts of "hidden layers of abstraction", i.e. we can trigger
 an action "Clicked" on an Entity from the input system, without requiring the input system
 to know which component is to handle the action.
@@ -393,10 +383,11 @@ triggered in the scene on the server side. This way the server script can check 
 that the caller is actually permissible to do such thing, and act properly. The client is not
 able to unlock the door with local execution alone.
 
-In the protocol, an "EntityAction" network message is implemented that carries the entity,
-action and the corresponding parameters. This way most of the client-server interaction scripts
-do not need to implement their own network messages at the bottom protocol layer for custom
-messaging, although, for more power, having also such an option is useful.
+In the protocol, an "EntityAction" network message carries the entity ID,
+action name and the corresponding parameters. This way most of the client-server
+interaction scripts do not need to implement their own network messages at the
+bottom protocol layer for custom messaging. Although, for more power, having also
+such an option is useful.
 
 XXXremove start?
 How do we know which actions are available on the server if it differs from the local computer?
@@ -428,7 +419,7 @@ Scripting
 
 In order to support agile application development and fast prototyping with dynamic scripting
 languages, exposing the C++ written functionality for the scripting languages is crucial.
-In Naali every core API and scene model -related objects are exposed to both Python and Javascript
+In Naali every core API and scene model related object is exposed to both Python and Javascript
 allowing usage of scripting languages to be almost as powerful as native C++ code. The script
 supported is not limited only to the two aforementioned languages, and implementing support
 for example LUA is very possible if wanted.
@@ -460,16 +451,21 @@ in the world. When user disconnects from the world the application script will d
 
 Avatar script blaablaa…
 The avatar entity consists of the following ECs:
--Mesh: assigns 3D mesh object and skeleton to the entity.
--RigidBody: applies physics to the 3D object.
--Placeable: postion, rotation and scale of the 3D object.
--InputMapper:  nonsynced input-mapper registers an input context from the Naali input
+-Mesh: assigns 3D mesh object and skeleton (required for the animation) to the entity.
+-RigidBody: applies laws of physics to the 3D object.
+-Placeable: position, rotation and scale of the 3D object.
+-InputMapper: translates set of key sequences to movement-related entity actions on the entity.
+-AnimationController: controls the animation states of the skeleton of the mesh.
+-Camera: implements a third person camera which follows avatar from behind.
+-Name: used for setting name and description for the entity (optional).
+
+ the component is part of. InputMapper maps the keyboard events to entity actions (server execution type)
+ which are sent to server.
+
+non-synchronized input-mapper registers an input context from the Naali input
  system and uses it to translate given set of key and mouse  sequences to Entity Actions on the entity
  the component is part of. InputMapper maps the keyboard events to entity actions (server execution type)
  which are sent to server.
--AnimationController: controls the animation states of the skeleton of the mesh.
--Camera: implements camera to the scene (a third person which follows avatar from behind).
--Name: used for setting name and description for the entity (optional).
 
 Creates camera and input mapper on client. Client controls camera.
 Avatar created on server.
