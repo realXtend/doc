@@ -141,7 +141,7 @@ Does this make sense?
 ---------------------
 
 Of course just getting a shared view of a set of web pages could be,
-and is, easily deployed without RealXtend technology just by using
+and is, easily deployed without realXtend technology just by using
 regular web browsers with HTML+Javascript and some server backend. The
 idea here is to illustrate the use of Entity-Components and automatic
 attribute synchronization for custom functionality in a minimal

@@ -6,7 +6,7 @@ hardcoded in the platform. We argue that it should not exist on the
 base level, to allow arbitrary applications to be built. However, a
 generic platform must of course allow the implementation of avatar
 functionality on the application level. Here we describe how it is
-achieved using the RealXtend Entity-Component-Action model.
+achieved using the realXtend Entity-Component-Action model.
 
 Avatar means two things: 1) The visual appearance and the systems
 built around it, to for example modify the looks and add attachments
