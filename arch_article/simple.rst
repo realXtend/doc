@@ -117,6 +117,56 @@ A Simple Presentation Tool
 Discussion
 ==========
 
+Related work
+------------
+
+We are certainly not the first to propose genericity to virtual world
+base architectures. For example in the NPSNET-V work, extreme
+extensibility is achieved by the whole system being built around a
+minimal microkernel on which arbitrary code can be added at runtime
+using the mechanisms in the Java programming language [NPSNET-V]_. A
+contemporary example is the Meru architecture from the Sirikata
+project, where a space server only knows the locations of the
+objects. Separate object hosts, either running on the same server or
+any client / peer, can run arbitrary code to implement the objects in
+the federated world [sirikata-scaling]_. Messaging is used exclusively
+for all object interactions [sirikata_scripting]_. The idea with the
+Entity-Component mechanism here is, instead, to lessen the need to
+invent own protocols for all networked application behaviour when for
+simple usage can just use the automatically synchronized
+attributes. In preliminary talks with some Sirikata developers we
+concluded that they want to keep base level clean from such high level
+functionality, but that things like the attribute autosync would be
+desireable in application level support scripts. 
+
+The aggregation, not inheritance, using EC model was adopted from game
+engine literature [ec-links]_. Running
+
+What differentiates RealXtend Naali now is the combination of relative
+maturity, simplicity, power and the permissive open source license. It
+is already being deployed to customers by some of the development
+companies, and provides a powerful usable GUI for editing the
+component data also for your own custom components. It is a quite
+straightforward modular c++ application with optional Python and
+Javascript support. Thanks to the Ogre3d graphics engine, it runs both
+on e.g. the N900 mobile phone with OpenGL ES and on powerful PCs with
+multiple video outputs with the built-in CAVE rendering support.
+
+The document oriented approach of having worlds as files is of course
+precented in 3d file format standards like VRML, X3D and Collada. The
+idea with the RealXtend files is to not specify the contents of the
+files, but they are only a mechanism for the applications to put the
+component data that they need. An essential element are the script
+references that implement the functionality of the applications,
+similar to how HTML documents have Javascript references. But also
+this is not specified in the file format, it is just how the bundled
+Script component works. For static content, we support using
+e.g. Collada assets directly. (W.I.P NOTE: check how x3d and friends
+do scripting).
+
+Status of implementations
+-------------------------
+
 The generic Entity-Component approach was proposed to Opensimulator
 core and accepted as the plan already in December 2009
 [adam-ecplan]_. The implementation is however still in very early
@@ -136,18 +186,22 @@ itself. This allows Naali to run as standalone for local authoring, or
 for single user applications, but also for using it as a server to
 host worlds on the net instead of using Opensimulator. With Tundra
 LLUDP is no longer used, but all basic functionality is achieved with
-the generic EC synchronization. It however lacks many basic features
+the generic EC synchronization. For the transport layer, we are using
+a new protocol called kNet which can run either on top of UDP or
+TCP. kNet is similar to eNet but performed better in tests with
+regards to flow control. The Tundra server lacks many basic features
 and may never get some of the advanced Opensimulator features, like
 running untrusted user authored scripts and combining multiple regions
 to form a large grid. Tundra is however is already useful for local
-authoring and application development, and serves as an example of how
-a generic approach to allow virtual worlds functionality can be simple
-yet practical. We hope this is taken into consideration in upcoming
-standardization processes, for example if VWRAP proceeds to address
-in-world scene functionality.
+authoring and deploying applications like simple games to production
+use. And it serves as an example of how a generic approach to allow
+virtual worlds functionality can be simple yet practical. We hope this
+is taken into consideration in upcoming standardization processes, for
+example if VWRAP proceeds to address in-world scene functionality.
 
 References
 ==========
 
 [opensim-on-a-stick] http://becunningandfulloftricks.com/2010/10/07/a-virtual-world-in-my-hands-running-opensim-and-imprudence-on-a-usb-key/
 [naali-scenes] https://github.com/realXtend/naali/blob/tundra/bin/scenes/
+[adam-ecplan] 

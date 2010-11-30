@@ -1,29 +1,29 @@
-In contrast with the avatar application (/ feature?) presented in X,
-let's consider a different kind of an application which does not have
-avatars at all.  There are of course many virtual worlds and games
-without a single character as the locus of control: Map/geographic
-applications like Google Earth or astronomical simulations covering
-the whole universe like Celestia are about efficient navigation and
-time control of the whole space, not about moving own presence around.
-Game genres like real time strategy (RTS) feature fluent selection of
-the multiple units which the player commands, somewhat similarly to
-board games like chess where the player has a group of pieces of which
-can choose which to move. However, to get an even more different point
-of view to the user controls and actions in an application, the
-example here is not about navigating a view of a 3d space or spatial
-movement of units. Instead, here we present more a slideshow like
-presentation application design using the same entity-component-action
-building blocks which were used to implement the avatar functionality
-on the same generic application platform.
+In contrast with the avatar functionality, let's consider a different
+kind of an application which does not require avatars at all.  There
+are of course many virtual worlds and games without a single character
+as the locus of control: Map/geographic applications like Google Earth
+or astronomical simulations covering the whole universe like Celestia
+are about efficient navigation and time control of the whole space,
+not about moving own presence around.  Game genres like real time
+strategy (RTS) feature fluent selection of the multiple units which
+the player commands, somewhat similarly to board games like chess
+where the player has a group of pieces of which can choose which to
+move. However, to get an even more different point of view to the user
+controls and actions in an application, the example here is not about
+navigating a view of a 3d space or spatial movement of units. Instead,
+let's design a slideshow like presentation application using the same
+entity-component-action building blocks as in the avatar example.
 
-A presentation tool is typically about giving the presenter means to
-control the position in the prepared material, for example to select
-the currently visible slide in a slideshow, which is shared among all
-participants. In a local setting where everyone is in the same
-physical space it is simply about choosing what to show via the
-overhead projector which the audience sees. In a remote distributed
-setting there must be some system to get a shared view over the
-network, and that is the use case in this example.
+What do we need for a presentation?
+-----------------------------------
+
+The presentation tool gives the presenter means to control the
+position in the prepared material, for example to select the currently
+visible slide in a slideshow. In a local setting where everyone is in
+the same physical space it is simply about choosing what to show via
+the overhead projector which the audience sees. In a remote
+distributed setting there must be some system to get a shared view
+over the network, and that is the use case in this example.
 
 There are several ways how the realXtend platform could be used to
 make a presentation. One is to put the material in the 3d space so
@@ -77,47 +77,86 @@ in the scene. When running this locally in the presenter's client, no
 server or other participants actually need to know anything about the
 presentation -- there is no need for a shared presentation application
 among the participants. It is just a custom tool that the presenter
-has to manipulate the basic scene. Naali comes by default with a
+uses to manipulate the basic scene. Naali comes by default with a
 built-in WebView component which implements showing html pages from
 the web, and the generic attribute synchronization mechanism shares
-the URL changes, so the other participants get to see the slides.
+the URL changes, so the other participants get to see the slide changes.
 
 However, sharing the custom presentation functionality and the data
-among the participants would enable useful features for the audience
-as well. For example it might be nice to have view of the outline of
-the talk visible, with the current position highlighted. Also allowing
-the participants to browse the material freely, perhaps in an
-additional view beside the one the presenter controls, seems
-useful. As an advanced feature, a way to add comments directly in the
-context of some specific point in the material could be
-developed. Showing the outline and hilighting the current position
-there could be done from the presenter's client, for example by simply
-adding another element to the scene next to the slide display. But it
-might be simpler when the data is shared, and the free browsing
-feature is certainly simplest that way.
+among the participants would enable useful features for the
+audience. An outline view could show hilight the current
+position. Participants could browse the material freely in an
+additional view beside the one the presenter controls. Showing the
+outline and hilighting the current position there could be done from
+the presenter's client, for example by simply adding another element
+to the scene next to the slide display. But it might be simpler when
+the data is shared, and the free browsing feature is certainly
+simplest when every participant has the presentation data.
 
-So let's add a new entity, and call it "presentation" (or
-PresentationApplication). Entities are just identities which aggregate
-components. For the simple technique, showing web pages, we need a few
-basic ones: Placeable to have something in the scene, Mesh to have
-geometry (e.g. a plane) on which to show the slides, and WebView to
-render html from URLs. Then to do our custom functionality, two
-additional ones: a DynamicComponent to hold and sync our custom data,
-and Script to implement the custom UI handling and presentation
-controls. As data we need a list or URLs and an index number for the
-current position, so the DynamicComponent needs two attributes: a
-stringlist and an integer. This custom data becomes part of the scene
-data and is automatically stored and synchronized among the
-participants. The Script component is a reference to a Javascript or a
-Python file (or a Python class) which is executed (or instanciated)
-within the context of this data, to implement all the functionality.
+Implementation
+--------------
+
+So let's add a new entity, and call it "presentation". Entities are
+just identities which aggregate components. For the simple technique,
+showing web pages, we need a few basic ones: Placeable to have
+something in the scene, Mesh to have geometry (e.g. a plane) on which
+to show the slides, and WebView to render html from URLs. And two
+additional ones for our custom functionality: a DynamicComponent to
+hold and sync our custom data, and Script to implement the custom UI
+handling and presentation controls. As data we need a list or URLs and
+an index number for the current position, so the DynamicComponent
+needs two attributes: a stringlist called "slides" and an integer
+called "index". This custom data becomes part of the scene data and is
+automatically stored and synchronized among the participants. The
+Script component is a reference to Javascript or Python code which
+implements all the logic.
 
 To handle the user input, we have two options: either handle input
 events and modify the state correspondingly directly in the
-application (script) code, or use the InputMapper component to send
-entity actions like in the avatar example. (just in code more
-straightforward? but what about differentiating who is presenting
-vs. audience -- following the av example, would it be nice to just
-send actions from the client, and have the server arbitrate? but that
-wouldn't work for the private browsing .. are entity-actions useful
-for local code?) ...
+application code, or use the InputMapper component to trigger entity
+actions like in the avatar example. Let's use actions again so can use
+the server as a broker for security, and to get a similar design to
+compare with the avatar example. So client side code maps right-arrow
+and spacebar keys to SetPresentationPos(index+1) etc. Server can then
+check if the caller has permissions to do that action, for example we
+can make it so that in presentation mode only the designated presenter
+is allowed to control the shared view. Then if the presentation
+material is left in the scene for anyone to visit at other times,
+control can be freed for anyone. Changes to the index attribute are
+synchronized for all participants so they can update the outline GUI
+accordingly.
+
+The simplest way to get a shared view is to set the camera in this
+application to a fixed position. If we then use a simple plane to show
+the slides, it suffices for the server to change the current one on
+that object for everyone to get to see it in sync. For the outline
+view, the code can add a 2d panel with thumbnails of all the slides
+and hilight the current one. For free browsing, clicking on a
+thumbnail can open a new window with that slide, while the main
+presentation view remains. This we way have a simple, complete
+presentation application implemented on top of a generic virtual
+worlds platform.
+
+Does this make sense?
+---------------------
+
+Of course just getting a shared view of a set of web pages could be,
+and is, easily deployed without RealXtend technology just by using
+regular web browsers with HTML+Javascript and some server backend. The
+idea here is to illustrate the use of Entity-Components and automatic
+attribute synchronization for custom functionality in a minimal
+complete example. Real benefits of the platform would be utilized if
+the actual presentation material was interactive 3d objects, such as
+alternative house or car designs, which the presenter would go thru
+and manipulate during the talk. Basically what we are aiming at is
+making interactive multiuser 3d applications easy to author,
+comparable to how single user web pages are today.
+
+It is, however, interesting to consider whether the platform makes
+implementing this kind of features so easy that it makes sense even
+for things that could be made to work in regular web browsers
+too. (W.I.P. NOTE: I think I'll have to implement this example to be
+able to judge that, is not done yet, just the spec here!). This is
+relevant also because we are writing an experimental WebNaali client
+using WebSockets and WebGL for 3d scene use, utilizing the same
+entity-component attribute and action mechanisms.
