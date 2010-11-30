@@ -12,6 +12,11 @@ environment where anyone can log in? Add your own custom data and
 functionality using familiar scripting languages? You can! Using
 no-strings-attached open source software.*
 
+(This document was generated on |date| at |time|.)
+
+.. |date| date::
+.. |time| date:: %H:%M
+
 .. contents::
 
 Introduction
