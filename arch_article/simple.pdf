@@ -230,7 +230,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 38 0 R
+ /Dest [ 39 0 R
  /XYZ
  62.69291
  591.0236
@@ -248,7 +248,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 38 0 R
+ /Dest [ 39 0 R
  /XYZ
  62.69291
  591.0236
@@ -266,7 +266,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 38 0 R
+ /Dest [ 39 0 R
  /XYZ
  62.69291
  393.0236
@@ -284,7 +284,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 38 0 R
+ /Dest [ 39 0 R
  /XYZ
  62.69291
  393.0236
@@ -302,7 +302,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 38 0 R
+ /Dest [ 39 0 R
  /XYZ
  62.69291
  360.0236
@@ -320,7 +320,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 38 0 R
+ /Dest [ 39 0 R
  /XYZ
  62.69291
  360.0236
@@ -338,7 +338,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 40 0 R
+ /Dest [ 46 0 R
  /XYZ
  62.69291
  561.0236
@@ -356,7 +356,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 40 0 R
+ /Dest [ 46 0 R
  /XYZ
  62.69291
  561.0236
@@ -374,7 +374,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 40 0 R
+ /Dest [ 46 0 R
  /XYZ
  62.69291
  279.0236
@@ -392,7 +392,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 40 0 R
+ /Dest [ 46 0 R
  /XYZ
  62.69291
  279.0236
@@ -410,10 +410,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 59 0 R
+ /Dest [ 46 0 R
  /XYZ
  68.69291
- 707.0236
+ 108.9843
  0 ]
  /Rect [ 227.3248
  179.7736
@@ -446,12 +446,12 @@ endobj
  24 0 R
  25 0 R
  26 0 R ]
- /Contents 74 0 R
+ /Contents 78 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 73 0 R
+ /Parent 77 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -468,10 +468,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 59 0 R
+ /Dest [ 63 0 R
  /XYZ
  68.69291
- 599.0236
+ 683.0236
  0 ]
  /Rect [ 65.47291
  537.7736
@@ -486,10 +486,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 59 0 R
+ /Dest [ 63 0 R
  /XYZ
  68.69291
- 683.0236
+ 767.0236
  0 ]
  /Rect [ 312.9128
  435.7736
@@ -504,10 +504,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 59 0 R
+ /Dest [ 63 0 R
  /XYZ
  68.69291
- 671.0236
+ 755.0236
  0 ]
  /Rect [ 118.8329
  240.7736
@@ -522,12 +522,12 @@ endobj
 << /Annots [ 28 0 R
  29 0 R
  30 0 R ]
- /Contents 75 0 R
+ /Contents 79 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 73 0 R
+ /Parent 77 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -541,12 +541,12 @@ endobj
 % 'Page3': class PDFPage 
 32 0 obj
 % Page dictionary
-<< /Contents 76 0 R
+<< /Contents 80 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 73 0 R
+ /Parent 77 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -560,12 +560,12 @@ endobj
 % 'Page4': class PDFPage 
 33 0 obj
 % Page dictionary
-<< /Contents 77 0 R
+<< /Contents 81 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 73 0 R
+ /Parent 77 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -582,10 +582,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 59 0 R
+ /Dest [ 46 0 R
  /XYZ
  68.69291
- 767.0236
+ 168.9843
  0 ]
  /Rect [ 172.5095
  288.7736
@@ -600,15 +600,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 59 0 R
+ /Dest [ 63 0 R
  /XYZ
  68.69291
- 575.0236
+ 659.0236
  0 ]
- /Rect [ 65.47291
- 240.7736
- 139.9329
- 252.7736 ]
+ /Rect [ 152.4569
+ 252.7736
+ 218.5769
+ 264.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -618,15 +618,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 59 0 R
+ /Dest [ 63 0 R
  /XYZ
  68.69291
- 515.0236
+ 611.0236
  0 ]
- /Rect [ 493.1327
- 174.7736
- 527.0227
- 186.7736 ]
+ /Rect [ 65.47291
+ 240.7736
+ 139.9329
+ 252.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -636,10 +636,28 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 59 0 R
+ /Dest [ 63 0 R
  /XYZ
  68.69291
- 491.0236
+ 551.0236
+ 0 ]
+ /Rect [ 493.1327
+ 174.7736
+ 527.0227
+ 186.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER29': class LinkAnnotation 
+38 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 63 0 R
+ /XYZ
+ 68.69291
+ 527.0236
  0 ]
  /Rect [ 312.7829
  150.7736
@@ -649,56 +667,19 @@ endobj
  /Type /Annot >>
 endobj
 % 'Page5': class PDFPage 
-38 0 obj
+39 0 obj
 % Page dictionary
 << /Annots [ 34 0 R
  35 0 R
  36 0 R
- 37 0 R ]
- /Contents 78 0 R
+ 37 0 R
+ 38 0 R ]
+ /Contents 82 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 73 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
-endobj
-% 'Annot.NUMBER29': class LinkAnnotation 
-39 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 59 0 R
- /XYZ
- 68.69291
- 635.0236
- 0 ]
- /Rect [ 189.0943
- 513.7736
- 246.8943
- 525.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Page6': class PDFPage 
-40 0 obj
-% Page dictionary
-<< /Annots [ 39 0 R ]
- /Contents 79 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 73 0 R
+ /Parent 77 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -710,25 +691,61 @@ endobj
  /Type /Page >>
 endobj
 % 'Annot.NUMBER30': class LinkAnnotation 
+40 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 63 0 R
+ /XYZ
+ 68.69291
+ 659.0236
+ 0 ]
+ /Rect [ 82.70291
+ 573.7736
+ 148.8229
+ 585.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER31': class LinkAnnotation 
 41 0 obj
 << /Border [ 0
  0
  0 ]
  /Contents ()
- /Dest [ 38 0 R
+ /Dest [ 63 0 R
+ /XYZ
+ 68.69291
+ 719.0236
+ 0 ]
+ /Rect [ 189.0943
+ 513.7736
+ 246.8943
+ 525.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER32': class LinkAnnotation 
+42 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 39 0 R
  /XYZ
  168.2929
  302.0236
  0 ]
  /Rect [ 68.69291
- 753.7736
+ 155.7343
  119.2529
- 765.7736 ]
+ 167.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER31': class PDFDictionary 
-42 0 obj
+% 'Annot.NUMBER33': class PDFDictionary 
+43 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://doi.acm.org/10.1145/571878.571889) >>
@@ -736,14 +753,14 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 705.7736
+ 107.7343
  342.1923
- 717.7736 ]
+ 119.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER32': class LinkAnnotation 
-43 0 obj
+% 'Annot.NUMBER34': class LinkAnnotation 
+44 0 obj
 << /Border [ 0
  0
  0 ]
@@ -754,14 +771,14 @@ endobj
  193.0236
  0 ]
  /Rect [ 68.69291
- 693.7736
+ 95.73425
  153.1529
- 705.7736 ]
+ 107.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER33': class PDFDictionary 
-44 0 obj
+% 'Annot.NUMBER35': class PDFDictionary 
+45 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://becunningandfulloftricks.com/2010/10/07/) >>
@@ -769,270 +786,27 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 693.7736
+ 95.73425
  363.2923
- 705.7736 ]
+ 107.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER34': class LinkAnnotation 
-45 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 31 0 R
- /XYZ
- 294.4429
- 449.0236
- 0 ]
- /Rect [ 68.69291
- 669.7736
- 124.8229
- 681.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER35': class PDFDictionary 
+% 'Page6': class PDFPage 
 46 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (https://github.com/realXtend/naali/blob/tundra/bin/scenes/) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 153.7323
- 669.7736
- 532.5827
- 681.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER36': class LinkAnnotation 
-47 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 31 0 R
- /XYZ
- 116.0529
- 254.0236
- 0 ]
- /Rect [ 68.69291
- 657.7736
- 128.1629
- 669.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER37': class PDFDictionary 
-48 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (https://github.com/realXtend/naali/tree/tundra/bin/scenes/Avatar/) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 153.7323
- 645.7736
- 442.1424
- 657.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER38': class PDFDictionary 
-49 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (https://github.com/realXtend/naali/tree/tundra/bin/jsmodules/avatar/) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 164.2923
- 633.7736
- 461.1023
- 645.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER39': class LinkAnnotation 
-50 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 40 0 R
- /XYZ
- 182.7429
- 527.0236
- 0 ]
- /Rect [ 68.69291
- 621.7736
- 126.4929
- 633.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER40': class PDFDictionary 
-51 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://lists.berlios.de/pipermail/opensim-dev/2009-December/008098.html) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 153.7323
- 597.7736
- 477.7423
- 609.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER41': class LinkAnnotation 
-52 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 31 0 R
- /XYZ
- 62.69291
- 551.0236
- 0 ]
- /Rect [ 68.69291
- 585.7736
- 105.3629
- 597.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER42': class LinkAnnotation 
-53 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 38 0 R
- /XYZ
- 62.69291
- 254.0236
- 0 ]
- /Rect [ 68.69291
- 561.7736
- 143.1529
- 573.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER43': class PDFDictionary 
-54 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://sing.stanford.edu/pubs/cgames10.pdf) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 153.7323
- 513.7736
- 345.5123
- 525.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER44': class LinkAnnotation 
-55 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 38 0 R
- /XYZ
- 470.1129
- 188.0236
- 0 ]
- /Rect [ 68.69291
- 501.7736
- 102.5829
- 513.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER45': class PDFDictionary 
-56 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 153.7323
- 489.7736
- 444.4023
- 501.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER46': class LinkAnnotation 
-57 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 38 0 R
- /XYZ
- 310.0029
- 164.0236
- 0 ]
- /Rect [ 68.69291
- 477.7736
- 113.1529
- 489.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER47': class PDFDictionary 
-58 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://www.syntensity.com/) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 153.7323
- 477.7736
- 532.5827
- 489.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Page7': class PDFPage 
-59 0 obj
 % Page dictionary
-<< /Annots [ 41 0 R
+<< /Annots [ 40 0 R
+ 41 0 R
  42 0 R
  43 0 R
  44 0 R
- 45 0 R
- 46 0 R
- 47 0 R
- 48 0 R
- 49 0 R
- 50 0 R
- 51 0 R
- 52 0 R
- 53 0 R
- 54 0 R
- 55 0 R
- 56 0 R
- 57 0 R
- 58 0 R ]
- /Contents 80 0 R
+ 45 0 R ]
+ /Contents 83 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 73 0 R
+ /Parent 77 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1043,165 +817,467 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'R60': class PDFCatalog 
+% 'Annot.NUMBER36': class LinkAnnotation 
+47 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 31 0 R
+ /XYZ
+ 294.4429
+ 449.0236
+ 0 ]
+ /Rect [ 68.69291
+ 753.7736
+ 124.8229
+ 765.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER37': class PDFDictionary 
+48 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (https://github.com/realXtend/naali/blob/tundra/bin/scenes/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 153.7323
+ 753.7736
+ 532.5827
+ 765.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER38': class LinkAnnotation 
+49 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 31 0 R
+ /XYZ
+ 116.0529
+ 254.0236
+ 0 ]
+ /Rect [ 68.69291
+ 741.7736
+ 128.1629
+ 753.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER39': class PDFDictionary 
+50 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (https://github.com/realXtend/naali/tree/tundra/bin/scenes/Avatar/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 153.7323
+ 729.7736
+ 442.1424
+ 741.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER40': class PDFDictionary 
+51 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (https://github.com/realXtend/naali/tree/tundra/bin/jsmodules/avatar/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 164.2923
+ 717.7736
+ 461.1023
+ 729.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER41': class LinkAnnotation 
+52 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 46 0 R
+ /XYZ
+ 182.7429
+ 527.0236
+ 0 ]
+ /Rect [ 68.69291
+ 705.7736
+ 126.4929
+ 717.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER42': class PDFDictionary 
+53 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://lists.berlios.de/pipermail/opensim-dev/2009-December/008098.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 153.7323
+ 681.7736
+ 477.7423
+ 693.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER43': class LinkAnnotation 
+54 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 31 0 R
+ /XYZ
+ 62.69291
+ 551.0236
+ 0 ]
+ /Rect [ 68.69291
+ 669.7736
+ 105.3629
+ 681.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER44': class LinkAnnotation 
+55 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 39 0 R
+ /XYZ
+ 134.3929
+ 266.0236
+ 0 ]
+ /Rect [ 138.1429
+ 645.7736
+ 143.7029
+ 657.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER45': class LinkAnnotation 
+56 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 46 0 R
+ /XYZ
+ 79.92291
+ 587.0236
+ 0 ]
+ /Rect [ 68.69291
+ 633.7736
+ 74.25291
+ 645.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER46': class LinkAnnotation 
+57 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 39 0 R
+ /XYZ
+ 62.69291
+ 254.0236
+ 0 ]
+ /Rect [ 68.69291
+ 597.7736
+ 143.1529
+ 609.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER47': class PDFDictionary 
+58 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://sing.stanford.edu/pubs/cgames10.pdf) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 153.7323
+ 549.7736
+ 345.5123
+ 561.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER48': class LinkAnnotation 
+59 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 39 0 R
+ /XYZ
+ 470.1129
+ 188.0236
+ 0 ]
+ /Rect [ 68.69291
+ 537.7736
+ 102.5829
+ 549.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER49': class PDFDictionary 
 60 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 153.7323
+ 525.7736
+ 444.4023
+ 537.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER50': class LinkAnnotation 
+61 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 39 0 R
+ /XYZ
+ 310.0029
+ 164.0236
+ 0 ]
+ /Rect [ 68.69291
+ 513.7736
+ 113.1529
+ 525.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER51': class PDFDictionary 
+62 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.syntensity.com/) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 153.7323
+ 513.7736
+ 532.5827
+ 525.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page7': class PDFPage 
+63 0 obj
+% Page dictionary
+<< /Annots [ 47 0 R
+ 48 0 R
+ 49 0 R
+ 50 0 R
+ 51 0 R
+ 52 0 R
+ 53 0 R
+ 54 0 R
+ 55 0 R
+ 56 0 R
+ 57 0 R
+ 58 0 R
+ 59 0 R
+ 60 0 R
+ 61 0 R
+ 62 0 R ]
+ /Contents 84 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 77 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R64': class PDFCatalog 
+64 0 obj
 % Document Root
-<< /Outlines 62 0 R
+<< /Outlines 66 0 R
  /PageMode /UseNone
- /Pages 73 0 R
+ /Pages 77 0 R
  /Type /Catalog >>
 endobj
-% 'R61': class PDFInfo 
-61 0 obj
+% 'R65': class PDFInfo 
+65 0 obj
 << /Author ()
- /CreationDate (D:20101130135552-02'00')
+ /CreationDate (D:20101130154529-02'00')
  /Keywords ()
  /Producer (ReportLab http://www.reportlab.com)
  /Subject (\(unspecified\))
  /Title (Worlds on Your Desktop) >>
 endobj
-% 'R62': class PDFOutlines 
-62 0 obj
+% 'R66': class PDFOutlines 
+66 0 obj
 << /Count 12
- /First 63 0 R
- /Last 72 0 R
+ /First 67 0 R
+ /Last 76 0 R
  /Type /Outlines >>
 endobj
 % 'Outline.0': class OutlineEntryObject 
-63 0 obj
+67 0 obj
 << /Dest [ 27 0 R
  /XYZ
  62.69291
  422.0236
  0 ]
- /Next 64 0 R
- /Parent 62 0 R
+ /Next 68 0 R
+ /Parent 66 0 R
  /Title (Introduction) >>
 endobj
 % 'Outline.1': class OutlineEntryObject 
-64 0 obj
+68 0 obj
 << /Dest [ 31 0 R
  /XYZ
  62.69291
  351.0236
  0 ]
- /Next 65 0 R
- /Parent 62 0 R
- /Prev 63 0 R
+ /Next 69 0 R
+ /Parent 66 0 R
+ /Prev 67 0 R
  /Title (Making of Avatars) >>
 endobj
 % 'Outline.2': class OutlineEntryObject 
-65 0 obj
+69 0 obj
 << /Count 3
  /Dest [ 32 0 R
  /XYZ
  62.69291
  351.0236
  0 ]
- /First 66 0 R
- /Last 68 0 R
- /Next 69 0 R
- /Parent 62 0 R
- /Prev 64 0 R
+ /First 70 0 R
+ /Last 72 0 R
+ /Next 73 0 R
+ /Parent 66 0 R
+ /Prev 68 0 R
  /Title (A Simple Presentation Tool) >>
 endobj
 % 'Outline.11.0': class OutlineEntryObject 
-66 0 obj
+70 0 obj
 << /Dest [ 32 0 R
  /XYZ
  62.69291
  192.0236
  0 ]
- /Next 67 0 R
- /Parent 65 0 R
+ /Next 71 0 R
+ /Parent 69 0 R
  /Title (What do we need for a presentation?) >>
 endobj
 % 'Outline.11.1': class OutlineEntryObject 
-67 0 obj
+71 0 obj
 << /Dest [ 33 0 R
  /XYZ
  62.69291
  243.0236
  0 ]
- /Next 68 0 R
- /Parent 65 0 R
- /Prev 66 0 R
+ /Next 72 0 R
+ /Parent 69 0 R
+ /Prev 70 0 R
  /Title (Implementation) >>
 endobj
 % 'Outline.11.2': class OutlineEntryObject 
-68 0 obj
-<< /Dest [ 38 0 R
+72 0 obj
+<< /Dest [ 39 0 R
  /XYZ
  62.69291
  591.0236
  0 ]
- /Parent 65 0 R
- /Prev 67 0 R
+ /Parent 69 0 R
+ /Prev 71 0 R
  /Title (Does this make sense?) >>
 endobj
 % 'Outline.3': class OutlineEntryObject 
-69 0 obj
+73 0 obj
 << /Count 2
- /Dest [ 38 0 R
+ /Dest [ 39 0 R
  /XYZ
  62.69291
  393.0236
  0 ]
- /First 70 0 R
- /Last 71 0 R
- /Next 72 0 R
- /Parent 62 0 R
- /Prev 65 0 R
+ /First 74 0 R
+ /Last 75 0 R
+ /Next 76 0 R
+ /Parent 66 0 R
+ /Prev 69 0 R
  /Title (Discussion) >>
 endobj
 % 'Outline.12.0': class OutlineEntryObject 
-70 0 obj
-<< /Dest [ 38 0 R
+74 0 obj
+<< /Dest [ 39 0 R
  /XYZ
  62.69291
  360.0236
  0 ]
- /Next 71 0 R
- /Parent 69 0 R
+ /Next 75 0 R
+ /Parent 73 0 R
  /Title (Related work) >>
 endobj
 % 'Outline.12.1': class OutlineEntryObject 
-71 0 obj
-<< /Dest [ 40 0 R
+75 0 obj
+<< /Dest [ 46 0 R
  /XYZ
  62.69291
  561.0236
  0 ]
- /Parent 69 0 R
- /Prev 70 0 R
+ /Parent 73 0 R
+ /Prev 74 0 R
  /Title (Status of implementations) >>
 endobj
 % 'Outline.4': class OutlineEntryObject 
-72 0 obj
-<< /Dest [ 40 0 R
+76 0 obj
+<< /Dest [ 46 0 R
  /XYZ
  62.69291
  279.0236
  0 ]
- /Parent 62 0 R
- /Prev 69 0 R
+ /Parent 66 0 R
+ /Prev 73 0 R
  /Title (References) >>
 endobj
-% 'R73': class PDFPages 
-73 0 obj
+% 'R77': class PDFPages 
+77 0 obj
 % page tree
 << /Count 7
  /Kids [ 27 0 R
  31 0 R
  32 0 R
  33 0 R
- 38 0 R
- 40 0 R
- 59 0 R ]
+ 39 0 R
+ 46 0 R
+ 63 0 R ]
  /Type /Pages >>
 endobj
-% 'R74': class PDFStream 
-74 0 obj
+% 'R78': class PDFStream 
+78 0 obj
 % page stream
 << /Length 7074 >>
 stream
@@ -1413,8 +1489,8 @@ Q
  
 endstream
 endobj
-% 'R75': class PDFStream 
-75 0 obj
+% 'R79': class PDFStream 
+79 0 obj
 % page stream
 << /Length 7046 >>
 stream
@@ -1474,8 +1550,8 @@ Q
  
 endstream
 endobj
-% 'R76': class PDFStream 
-76 0 obj
+% 'R80': class PDFStream 
+80 0 obj
 % page stream
 << /Length 6734 >>
 stream
@@ -1544,8 +1620,8 @@ Q
  
 endstream
 endobj
-% 'R77': class PDFStream 
-77 0 obj
+% 'R81': class PDFStream 
+81 0 obj
 % page stream
 << /Length 7010 >>
 stream
@@ -1601,10 +1677,10 @@ Q
  
 endstream
 endobj
-% 'R78': class PDFStream 
-78 0 obj
+% 'R82': class PDFStream 
+82 0 obj
 % page stream
-<< /Length 6767 >>
+<< /Length 6778 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -1656,7 +1732,7 @@ Q
 q
 1 0 0 1 62.69291 192.0236 cm
 q
-BT 1 0 0 1 0 134 Tm .571163 Tw 12 TL /F1 10 Tf 0 0 0 rg (We are certainly not the first to propose genericity to virtual world base architectures. For example in the) Tj T* 0 Tw 1.807126 Tw (NPSNET-V work, extreme extensibility is achieved by the whole system being built around a minimal) Tj T* 0 Tw 3.203318 Tw (microkernel on which arbitrary code can be added at runtime using the mechanisms in the Java) Tj T* 0 Tw .718314 Tw (programming language ) Tj ([) Tj 0 0 .501961 rg (NPSNET-V) Tj 0 0 0 rg (]. A contemporary example is the Meru architecture from the Sirikata) Tj T* 0 Tw 2.163984 Tw (project, where a space server only knows the locations of the objects. Separate object hosts, either) Tj T* 0 Tw 1.153145 Tw (running on the same server or any client / peer, can run arbitrary code to implement the objects in the) Tj T* 0 Tw 7.085976 Tw (federated world ) Tj 1 0 0 rg ([sirikata-scaling]_) Tj 0 0 0 rg (. Messaging is used exclusively for all object interactions) Tj T* 0 Tw .175697 Tw ([) Tj 0 0 .501961 rg (sirikata_scripting) Tj 0 0 0 rg (]. The idea with the Entity-Component mechanism here is, instead, to lessen the need to) Tj T* 0 Tw 1.979318 Tw (invent own protocols for all networked application behaviour when for simple usage can just use the) Tj T* 0 Tw 1.591797 Tw (automatically synchronized attributes. In preliminary talks with some Sirikata developers we concluded) Tj T* 0 Tw .474431 Tw (that they want to keep base level clean from such high level functionality, but that things like the attribute) Tj T* 0 Tw (autosync would be desireable in application level support scripts.) Tj T* ET
+BT 1 0 0 1 0 134 Tm .571163 Tw 12 TL /F1 10 Tf 0 0 0 rg (We are certainly not the first to propose genericity to virtual world base architectures. For example in the) Tj T* 0 Tw 1.807126 Tw (NPSNET-V work, extreme extensibility is achieved by the whole system being built around a minimal) Tj T* 0 Tw 3.203318 Tw (microkernel on which arbitrary code can be added at runtime using the mechanisms in the Java) Tj T* 0 Tw .718314 Tw (programming language ) Tj ([) Tj 0 0 .501961 rg (NPSNET-V) Tj 0 0 0 rg (]. A contemporary example is the Meru architecture from the Sirikata) Tj T* 0 Tw 2.163984 Tw (project, where a space server only knows the locations of the objects. Separate object hosts, either) Tj T* 0 Tw 1.153145 Tw (running on the same server or any client / peer, can run arbitrary code to implement the objects in the) Tj T* 0 Tw 7.641976 Tw (federated world ) Tj ([) Tj 0 0 .501961 rg (sirikata-scaling) Tj 0 0 0 rg (]. Messaging is used exclusively for all object interactions) Tj T* 0 Tw .175697 Tw ([) Tj 0 0 .501961 rg (sirikata_scripting) Tj 0 0 0 rg (]. The idea with the Entity-Component mechanism here is, instead, to lessen the need to) Tj T* 0 Tw 1.979318 Tw (invent own protocols for all networked application behaviour when for simple usage can just use the) Tj T* 0 Tw 1.591797 Tw (automatically synchronized attributes. In preliminary talks with some Sirikata developers we concluded) Tj T* 0 Tw .474431 Tw (that they want to keep base level clean from such high level functionality, but that things like the attribute) Tj T* 0 Tw (autosync would be desireable in application level support scripts.) Tj T* ET
 Q
 Q
 q
@@ -1675,10 +1751,10 @@ Q
  
 endstream
 endobj
-% 'R79': class PDFStream 
-79 0 obj
+% 'R83': class PDFStream 
+83 0 obj
 % page stream
-<< /Length 5609 >>
+<< /Length 6266 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -1698,7 +1774,7 @@ Q
 q
 1 0 0 1 62.69291 573.0236 cm
 q
-BT 1 0 0 1 0 74 Tm 1.061751 Tw 12 TL /F1 10 Tf 0 0 0 rg (The realXtend platform is currently by no means a complete solution for all the problem of virtual world) Tj T* 0 Tw 2.67784 Tw (architectures. Naali does not currently address scaling at all, nor is federated content from several) Tj T* 0 Tw .639985 Tw (possible untrusted sources supported. We have focused on the power in the small scale, ability to easily) Tj T* 0 Tw .830651 Tw (make rich interactive applications. In the future, we look forward to continuing collaboration with e.g. the) Tj T* 0 Tw 1.089982 Tw (Opensimulator and Sirikata communities to address the trust and scalability issues. Opensim is already) Tj T* 0 Tw .046457 Tw (used to host large grids by numerous people, and the architecture in Sirikata seems promising for the long) Tj T* 0 Tw (run ) Tj 1 0 0 rg ([sirikata-scaling]_) Tj 0 0 0 rg (.) Tj T* ET
+BT 1 0 0 1 0 74 Tm 1.061751 Tw 12 TL /F1 10 Tf 0 0 0 rg (The realXtend platform is currently by no means a complete solution for all the problem of virtual world) Tj T* 0 Tw 2.67784 Tw (architectures. Naali does not currently address scaling at all, nor is federated content from several) Tj T* 0 Tw .639985 Tw (possible untrusted sources supported. We have focused on the power in the small scale, ability to easily) Tj T* 0 Tw .830651 Tw (make rich interactive applications. In the future, we look forward to continuing collaboration with e.g. the) Tj T* 0 Tw 1.089982 Tw (Opensimulator and Sirikata communities to address the trust and scalability issues. Opensim is already) Tj T* 0 Tw .046457 Tw (used to host large grids by numerous people, and the architecture in Sirikata seems promising for the long) Tj T* 0 Tw (run ) Tj ([) Tj 0 0 .501961 rg (sirikata-scaling) Tj 0 0 0 rg (].) Tj T* ET
 Q
 Q
 q
@@ -1727,30 +1803,14 @@ BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (References) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 204.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .109213 Tw (y .. [sirikata-scaling] Daniel Horn, Ewen Cheslack-Postava, Tahir Azim, Michael J. Freedman, Philip Levis,) Tj T* 0 Tw 1.136651 Tw ("Scaling Virtual Worlds with a Physical Metaphor", IEEE Pervasive Computing, vol. 8, no. 3, pp. 50-54,) Tj T* 0 Tw 135.9999 Tw (July-Sept. 2009, doi:10.1109/MPRV.2009.54) Tj T* 0 Tw (http://www.cs.princeton.edu/~mfreed/docs/vworlds-ieee09.pdf) Tj T* ET
-Q
+1 0 0 1 62.69291 195.3307 cm
 Q
 q
-1 0 0 1 62.69291 147.3307 cm
-Q
-q
-1 0 0 1 62.69291 118.9843 cm
+1 0 0 1 62.69291 166.9843 cm
 n 0 14.17323 m 469.8898 14.17323 l S
 Q
- 
-endstream
-endobj
-% 'R80': class PDFStream 
-80 0 obj
-% page stream
-<< /Length 4548 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 705.0236 cm
+1 0 0 1 62.69291 106.9843 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -1769,7 +1829,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 681.0236 cm
+1 0 0 1 62.69291 82.98425 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -1787,8 +1847,17 @@ Q
 q
 Q
 Q
+ 
+endstream
+endobj
+% 'R84': class PDFStream 
+84 0 obj
+% page stream
+<< /Length 4128 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 669.0236 cm
+1 0 0 1 62.69291 753.0236 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -1809,7 +1878,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 633.0236 cm
+1 0 0 1 62.69291 717.0236 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -1828,7 +1897,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 597.0236 cm
+1 0 0 1 62.69291 681.0236 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -1847,7 +1916,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 573.0236 cm
+1 0 0 1 62.69291 657.0236 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -1866,7 +1935,27 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 513.0236 cm
+1 0 0 1 62.69291 609.0236 cm
+0 0 0 rg
+BT /F4 10 Tf 12 TL ET
+q
+1 0 0 1 6 24 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F1 10 Tf 0 0 0 rg (sirikata-scaling\() Tj 0 0 .501961 rg (1) Tj 0 0 0 rg (,) Tj T* 0 0 .501961 rg (2) Tj 0 0 0 rg (\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 0 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .096039 Tw (Daniel Horn, Ewen Cheslack-Postava, Tahir Azim, Michael J. Freedman, Philip Levis,) Tj T* 0 Tw .147309 Tw ("Scaling Virtual Worlds with a Physical Metaphor", IEEE Pervasive Computing, vol. 8,) Tj T* 0 Tw 17.5584 Tw (no. 3, pp. 50-54, July-Sept. 2009, doi:10.1109/MPRV.2009.54) Tj T* 0 Tw (http://www.cs.princeton.edu/~mfreed/docs/vworlds-ieee09.pdf) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 549.0236 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -1885,7 +1974,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 489.0236 cm
+1 0 0 1 62.69291 525.0236 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -1904,7 +1993,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 477.0236 cm
+1 0 0 1 62.69291 513.0236 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -1928,7 +2017,7 @@ Q
 endstream
 endobj
 xref
-0 81
+0 85
 0000000000 65535 f
 0000000113 00000 n
 0000000245 00000 n
@@ -1967,57 +2056,61 @@ xref
 0000008367 00000 n
 0000008610 00000 n
 0000008853 00000 n
-0000009080 00000 n
-0000009424 00000 n
-0000009651 00000 n
-0000009968 00000 n
-0000010210 00000 n
-0000010471 00000 n
-0000010713 00000 n
-0000010981 00000 n
-0000011223 00000 n
-0000011502 00000 n
-0000011744 00000 n
-0000012029 00000 n
-0000012318 00000 n
-0000012560 00000 n
-0000012852 00000 n
-0000013095 00000 n
-0000013337 00000 n
-0000013600 00000 n
-0000013842 00000 n
-0000014124 00000 n
-0000014366 00000 n
-0000014597 00000 n
-0000015052 00000 n
-0000015190 00000 n
-0000015424 00000 n
-0000015550 00000 n
-0000015723 00000 n
-0000015916 00000 n
-0000016163 00000 n
-0000016362 00000 n
-0000016555 00000 n
-0000016737 00000 n
-0000016968 00000 n
-0000017144 00000 n
-0000017330 00000 n
-0000017485 00000 n
-0000017647 00000 n
-0000024820 00000 n
-0000031965 00000 n
-0000038798 00000 n
-0000045907 00000 n
-0000052773 00000 n
-0000058481 00000 n
+0000009096 00000 n
+0000009323 00000 n
+0000009676 00000 n
+0000009919 00000 n
+0000010162 00000 n
+0000010404 00000 n
+0000010665 00000 n
+0000010907 00000 n
+0000011159 00000 n
+0000011521 00000 n
+0000011763 00000 n
+0000012042 00000 n
+0000012284 00000 n
+0000012569 00000 n
+0000012858 00000 n
+0000013100 00000 n
+0000013392 00000 n
+0000013635 00000 n
+0000013878 00000 n
+0000014121 00000 n
+0000014363 00000 n
+0000014626 00000 n
+0000014868 00000 n
+0000015150 00000 n
+0000015392 00000 n
+0000015623 00000 n
+0000016060 00000 n
+0000016198 00000 n
+0000016432 00000 n
+0000016558 00000 n
+0000016731 00000 n
+0000016924 00000 n
+0000017171 00000 n
+0000017370 00000 n
+0000017563 00000 n
+0000017745 00000 n
+0000017976 00000 n
+0000018152 00000 n
+0000018338 00000 n
+0000018493 00000 n
+0000018655 00000 n
+0000025828 00000 n
+0000032973 00000 n
+0000039806 00000 n
+0000046915 00000 n
+0000053792 00000 n
+0000060157 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\267VqJ\224\352m\202\\\345\365,\030\274{\226) (\267VqJ\224\352m\202\\\345\365,\030\274{\226)] 
+ [(\010\207\224\002\374\236?\325a\306\371\272\330\221\303\004) (\010\207\224\002\374\236?\325a\306\371\272\330\221\303\004)] 
 
- /Info 61 0 R
- /Root 60 0 R
- /Size 81 >>
+ /Info 65 0 R
+ /Root 64 0 R
+ /Size 85 >>
 startxref
-63101
+64357
 %%EOF
