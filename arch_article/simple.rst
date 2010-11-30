@@ -15,7 +15,7 @@ no-strings-attached open source software.*
 .. contents::
 
 Introduction
-------------
+============
 
 RealXtend is an open source project aiming to speed up the development
 of standards for 3d virtual worlds. The idea is to apply standards
@@ -73,36 +73,41 @@ data being in preinstalled custom modules or in scripts loaded at
 runtime as a part of the application data. The platform provides the
 basic functionality for all ECs: persistence, network synchronization
 among all the participants via a server and a GUI for manipulating
-components and their attributes. A scene is defined by the entities it
-has -- there is nothing hardcoded about them. This differs essentially
-from the current Opensimulator usage when using the Second Life (SL)
-protocol where the model is largely assumed and hardcoded in the
-applications. In that model there always is a certain kind of a
-terrain, a sky with a sun, and each client connection gets an avatar
-to which the controls are mapped.
+components and their attributes. This EC model is fairly standard in
+modern networked games. Additionally, Naali introduces Entity Actions,
+which are a simple form of RPC. These all will be demonstrated in the
+two examples later in this article.
 
-We argue that there is no need to embed assumptions about the features
-of the world in the base platform and protocols. There already are
-rich useful very different virtual worlds: The open source Celestia
-universe simulator obviously does not have hardcoded land and sky,
-when you are moving from Earth to Moon and all the way to
+A scene is defined by the entities it has -- there is nothing
+hardcoded about them. This differs essentially from the current
+Opensimulator usage when using the Second Life (SL) protocol where the
+model is largely assumed and hardcoded in the applications. In that
+model there always is a certain kind of a terrain, a sky with a sun,
+and each client connection gets an avatar to which the controls are
+mapped [VWRAP]_. We argue that there is no need to embed assumptions about the
+features of the world in the base platform and protocols. There
+already are rich useful very different virtual worlds: The open source
+Celestia universe simulator obviously does not have hardcoded land and
+sky, when you are moving from Earth to Moon and all the way to
 Andromeda. Teachers of medicine do not want anything extra around when
 they build a RealXtend world to teach anatomy by putting the organs to
 right places in a human body. Games typically require custom controls,
 and any application benefits from being able to define the UI exactly
-as fit for that putpose. To demonstrate the feasibility of a generic
-approach, there is a growing set of application examples in the Naali
-example scenes directory available on GitHub [naali-scenes]_. We
-present two of them here to illustrate how the EC model works in
-practice. First there is an implementation of a Second Life (tm) style
-avatar, implemented using a set of ECs and Javascript code to run both
-on the server and the clients to implement the functionality, for
-example to play back the walking animation as the avatar moves. This
-is achieved without the base platform nor the protocol having the
-concept of an avatar. The other example is a simple presentation
-application where we use custom data to share the presentation outline
-for all participants, and to let the presenter control the view for
-the others as the presentation proceeds.
+as fit for that putpose.
+
+To demonstrate the feasibility of a generic approach, there is a
+growing set of application examples in the Naali example scenes
+directory available on GitHub [naali-scenes]_. We present two of them
+here to illustrate how the EC model works in practice. First there is
+an implementation of a Second Life (tm) style avatar, implemented
+using a set of ECs and Javascript code to run both on the server and
+the clients to implement the functionality, for example to play back
+the walking animation as the avatar moves. This is achieved without
+the base platform nor the protocol having the concept of an
+avatar. The other example is a simple presentation application where
+we use custom data to share the presentation outline for all
+participants, and to let the presenter control the view for the others
+as the presentation proceeds.
 
 Making of Avatars
 =================
@@ -140,7 +145,9 @@ functionality, but that things like the attribute autosync would be
 desireable in application level support scripts. 
 
 The aggregation, not inheritance, using EC model was adopted from game
-engine literature [ec-links]_. Running
+engine literature [ec-links]_. Running the same Javascript code
+partially both on the server and clients is basically identicaly to a
+gaming oriented virtual world platform called Syntensity [syntensity]_.
 
 What differentiates RealXtend Naali now is the combination of relative
 maturity, simplicity, power and the permissive open source license. It
@@ -153,7 +160,7 @@ on e.g. the N900 mobile phone with OpenGL ES and on powerful PCs with
 multiple video outputs with the built-in CAVE rendering support.
 
 The document oriented approach of having worlds as files is of course
-precented in 3d file format standards like VRML, X3D and Collada. The
+precedented in 3d file format standards like VRML, X3D and Collada. The
 idea with the RealXtend files is to not specify the contents of the
 files, but they are only a mechanism for the applications to put the
 component data that they need. An essential element are the script
@@ -163,6 +170,17 @@ this is not specified in the file format, it is just how the bundled
 Script component works. For static content, we support using
 e.g. Collada assets directly. (W.I.P NOTE: check how x3d and friends
 do scripting).
+
+The RealXtend platform is currently by no means a complete solution
+for all the problem of virtual world architectures. Naali does not
+currently address scaling at all, nor is federated content from
+several possible untrusted sources supported. We have focused on the
+power in the small scale, ability to easily make rich interactive
+applications. In the future, we look forward to continuing
+collaboration with e.g. the Opensimulator and Sirikata communities to
+address the trust and scalability issues. Opensim is already used to
+host large grids by numerous people, and the architecture in Sirikata
+seems promising for the long run [sirikata-scaling]_.
 
 Status of implementations
 -------------------------
@@ -202,6 +220,23 @@ example if VWRAP proceeds to address in-world scene functionality.
 References
 ==========
 
-[opensim-on-a-stick] http://becunningandfulloftricks.com/2010/10/07/a-virtual-world-in-my-hands-running-opensim-and-imprudence-on-a-usb-key/
-[naali-scenes] https://github.com/realXtend/naali/blob/tundra/bin/scenes/
-[adam-ecplan] 
+.. [NPSNET-V] Andrzej Kapolka, Don McGregor, and Michael Capps. 2002. A unified component framework for dynamically extensible virtual environments. In Proceedings of the 4th international conference on Collaborative virtual environments (CVE '02). ACM, New York, NY, USA, 64-71. DOI=10.1145/571878.571889 http://doi.acm.org/10.1145/571878.571889 
+
+.. [opensim-on-a-stick] http://becunningandfulloftricks.com/2010/10/07/a-virtual-world-in-my-hands-running-opensim-and-imprudence-on-a-usb-key/
+
+.. [naali-scenes] https://github.com/realXtend/naali/blob/tundra/bin/scenes/
+
+.. [adam-ecplan] Adam Frisby on Opensim-dev, Refactoring SceneObjectGroup - Introducing Components. The plan PDF is attached in the email, http://lists.berlios.de/pipermail/opensim-dev/2009-December/008098.html
+
+.. [VWRAP] Joshua Bell, Morgaine Dinova, David Levine, "VWRAP for Virtual Worlds Interoperability," IEEE Internet Computing, pp. 73-77, January/February, 2010 
+
+.. [sirikata-scaling]
+
+.. [sirikata_scripting] Bhupesh Chandra, Ewen Cheslack-Postava, Behram F. T. Mistree, Philip Levis, and David Gay. "Emerson: Scripting for Federated Virtual Worlds", Proceedings of the 15th International
+   Conference on Computer Games: AI, Animation, Mobile, Interactive
+   Multimedia, Educational & Serious Games (CGAMES 2010 USA).
+   http://sing.stanford.edu/pubs/cgames10.pdf
+
+[ec-links]_
+
+[syntensity]_

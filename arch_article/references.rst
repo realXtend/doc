@@ -36,6 +36,13 @@ http://ieeexplore.ieee.org/xpl/freeabs_all.jsp?arnumber=4459869
 Extensibility
 =============
 
+Andrzej Kapolka, Don McGregor, and Michael Capps. 2002. A unified
+component framework for dynamically extensible virtual
+environments. In Proceedings of the 4th international conference on
+Collaborative virtual environments (CVE '02). ACM, New York, NY, USA,
+64-71. DOI=10.1145/571878.571889
+http://doi.acm.org/10.1145/571878.571889
+
 Extensible approach to the virtual worlds editing
 http://portal.acm.org/citation.cfm?id=1294685.1294691
 
