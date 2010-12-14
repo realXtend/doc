@@ -12,6 +12,11 @@ environment where anyone can log in? Add your own custom data and
 functionality using familiar scripting languages? You can! Using
 no-strings-attached open source software.*
 
+(This document was generated on |date| at |time|.)
+
+.. |date| date::
+.. |time| date:: %H:%M
+
 .. contents::
 
 Introduction
@@ -31,7 +36,7 @@ for virtual worlds akin to Firefox for HTML based applications.
 
 For users with no previous experience in virtual worlds, 3d or game
 programming, the tool allows easy reuse of premade models and scripts
-from libraries on the web. Any asset reference in RealXtend can be an
+from libraries on the web. Any asset reference in realXtend can be an
 URL, and the Naali GUI supports simple drag&drop of 3d models from web
 pages to the 3d scene. You can build your world simply in the local
 application, like you can use a web browser to view HTML files and
@@ -49,7 +54,7 @@ first. Also with the SL viewer and OpenSim you always need to have
 those two applications running, whereas Naali can run standalone as
 well.
 
-For developers the key in RealXtend, in contrast with the Second Life
+For developers the key in realXtend, in contrast with the Second Life
 viewer and vanilla Opensimulator, is the modularity and
 extensibility. Naali is a modular application where essential parts
 like support for different scripting languages, networking protocols,
@@ -90,7 +95,7 @@ already are rich useful very different virtual worlds: The open source
 Celestia universe simulator obviously does not have hardcoded land and
 sky, when you are moving from Earth to Moon and all the way to
 Andromeda. Teachers of medicine do not want anything extra around when
-they build a RealXtend world to teach anatomy by putting the organs to
+they build a realXtend world to teach anatomy by putting the organs to
 right places in a human body. Games typically require custom controls,
 and any application benefits from being able to define the UI exactly
 as fit for that putpose.
@@ -149,7 +154,7 @@ engine literature [ec-links]_. Running the same Javascript code
 partially both on the server and clients is basically identicaly to a
 gaming oriented virtual world platform called Syntensity [syntensity]_.
 
-What differentiates RealXtend Naali now is the combination of relative
+What differentiates realXtend Naali now is the combination of relative
 maturity, simplicity, power and the permissive open source license. It
 is already being deployed to customers by some of the development
 companies, and provides a powerful usable GUI for editing the
@@ -161,7 +166,7 @@ multiple video outputs with the built-in CAVE rendering support.
 
 The document oriented approach of having worlds as files is of course
 precedented in 3d file format standards like VRML, X3D and Collada. The
-idea with the RealXtend files is to not specify the contents of the
+idea with the realXtend files is to not specify the contents of the
 files, but they are only a mechanism for the applications to put the
 component data that they need. An essential element are the script
 references that implement the functionality of the applications,
@@ -171,7 +176,7 @@ Script component works. For static content, we support using
 e.g. Collada assets directly. (W.I.P NOTE: check how x3d and friends
 do scripting).
 
-The RealXtend platform is currently by no means a complete solution
+The realXtend platform is currently by no means a complete solution
 for all the problem of virtual world architectures. Naali does not
 currently address scaling at all, nor is federated content from
 several possible untrusted sources supported. We have focused on the
@@ -191,7 +196,7 @@ core and accepted as the plan already in December 2009
 stages, only the first steps have been taken to allow refactoring the
 framework be generalized and the features built with ECs in optional
 modules. It can be used, however, with the Naali client application
-both when running against Opensim using the RealXtend add-on module
+both when running against Opensim using the realXtend add-on module
 (the combination of opensim+modrex is called Taiga). This works in a
 limited fashion, as the Second Life protocol and OpenSim internals
 still assume the hardcoded SL model, but you can still add arbitrary
@@ -222,21 +227,23 @@ References
 
 .. [NPSNET-V] Andrzej Kapolka, Don McGregor, and Michael Capps. 2002. A unified component framework for dynamically extensible virtual environments. In Proceedings of the 4th international conference on Collaborative virtual environments (CVE '02). ACM, New York, NY, USA, 64-71. DOI=10.1145/571878.571889 http://doi.acm.org/10.1145/571878.571889 
 
-.. [opensim-on-a-stick] http://becunningandfulloftricks.com/2010/10/07/a-virtual-world-in-my-hands-running-opensim-and-imprudence-on-a-usb-key/
+.. [opensim-on-a-stick] http://becunningandfulloftricks.com/2010/10/07/ a-virtual-world-in-my-hands-running-opensim-and-imprudence-on-a-usb-key/
 
 .. [naali-scenes] https://github.com/realXtend/naali/blob/tundra/bin/scenes/
+
+.. [tundra-avatar] Application XML and usage info at https://github.com/realXtend/naali/tree/tundra/bin/scenes/Avatar/ , Javascript sources in https://github.com/realXtend/naali/tree/tundra/bin/jsmodules/avatar/
 
 .. [adam-ecplan] Adam Frisby on Opensim-dev, Refactoring SceneObjectGroup - Introducing Components. The plan PDF is attached in the email, http://lists.berlios.de/pipermail/opensim-dev/2009-December/008098.html
 
 .. [VWRAP] Joshua Bell, Morgaine Dinova, David Levine, "VWRAP for Virtual Worlds Interoperability," IEEE Internet Computing, pp. 73-77, January/February, 2010 
 
-.. [sirikata-scaling]
+.. [sirikata-scaling] Daniel Horn, Ewen Cheslack-Postava, Tahir Azim, Michael J. Freedman, Philip Levis, "Scaling Virtual Worlds with a Physical Metaphor", IEEE Pervasive Computing, vol. 8, no. 3, pp. 50-54, July-Sept. 2009, doi:10.1109/MPRV.2009.54 http://www.cs.princeton.edu/~mfreed/docs/vworlds-ieee09.pdf
 
 .. [sirikata_scripting] Bhupesh Chandra, Ewen Cheslack-Postava, Behram F. T. Mistree, Philip Levis, and David Gay. "Emerson: Scripting for Federated Virtual Worlds", Proceedings of the 15th International
    Conference on Computer Games: AI, Animation, Mobile, Interactive
    Multimedia, Educational & Serious Games (CGAMES 2010 USA).
    http://sing.stanford.edu/pubs/cgames10.pdf
 
-[ec-links]_
+.. [ec-links] Mick West, Evolve Your Hierarchy -- Refactoring Game Entities with Components http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/
 
-[syntensity]_
+.. [syntensity] http://www.syntensity.com/

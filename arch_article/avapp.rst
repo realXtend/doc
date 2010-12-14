@@ -5,8 +5,9 @@ like the protocol used in Second Life assume it, the concept is
 hardcoded in the platform. We argue that it should not exist on the
 base level, to allow arbitrary applications to be built. However, a
 generic platform must of course allow the implementation of avatar
-functionality on the application level. Here we describe how it is
-achieved using the RealXtend Entity-Component-Action model.
+functionality on the application level. Here we describe a proof of
+concept implementation using the realXtend Entity-Component-Action
+model. The source code is available at [tundra-avatar]_.
 
 Avatar means two things: 1) The visual appearance and the systems
 built around it, to for example modify the looks and add attachments
@@ -56,9 +57,14 @@ correct speed from the velocity data from the physics on the server.
 These two parts are enough for very basic avatar functionality to
 work. This proof of concept implementation totals in 369 lines of
 fairly simple Javascript code in the two files. The visual appearance
-is gotten from a pre-existing c++ written Avatar component, which
-reads an xml description with references to the base meshes used and
-individual morphing values set by the user in an editor.
+is gotten from a pre-existing c++ written AvatarAppearance component,
+which reads an xml description with references to the base meshes used
+and individual morphing values set by the user in an editor. It uses
+the realXtend avatar model which was implemented already in 2008 for
+the first prototype which did not have the entity component system at
+all, and is used in this demo as is. A more generic and customizable
+appearance system could be implemented with the ECs, but that is
+outside the scope of the demo and description here.
 
 One thing to note is that the division of work between the clients and
 the server described here is by no means the only possible one. The
