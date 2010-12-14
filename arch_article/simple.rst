@@ -23,39 +23,39 @@ Introduction
 ============
 
 RealXtend is an open source project aiming to speed up the development
-of standards for 3d virtual worlds. The idea is to apply standards
-like HTTP, Collada and XMPP and libraries such as the Ogre3d graphics
-engine, Qt GUI toolkit and the Opensimulator world server to build a
-generic application platform. It is a collaboration of several small
-companies that utilize the base technology in different application
-fields, but which coordinate the development of the common core
+of standards for 3D virtual worlds. The idea is to apply standards
+like HTTP, COLLADA and XMPP and libraries such as the OGRE 3D graphics
+engine, Qt GUI toolkit and the OpenSimulator (also kown as OpenSim)
+world server to build a generic application platform. It is a collaboration
+of several small companies that utilize the base technology in different
+application fields, but which coordinate the development of the common core
 together. The work culminates in a new virtual world application
 called Naali, the Finnish word for the arctic fox, referring to the
 Finnish origins of the project and the aim to make a generic platform
-for virtual worlds akin to Firefox for HTML based applications.
+for virtual worlds akin to Firefox for HTML-based applications.
 
-For users with no previous experience in virtual worlds, 3d or game
+For users with no previous experience in virtual worlds, 3D or game
 programming, the tool allows easy reuse of premade models and scripts
 from libraries on the web. Any asset reference in realXtend can be an
 URL, and the Naali GUI supports simple drag&drop of 3d models from web
-pages to the 3d scene. You can build your world simply in the local
+pages to the 3D scene. You can build your world simply in the local
 application, like you can use a web browser to view HTML files and
 test the functionality without needing to setup any servers. The full
 scene or a selected part of it can be saved to a file, for local use
 later or for sharing with others.
 
-This is unlike Second Life where all creating happens on the servers,
-the client application is only an interface to the server side
-functionality. With Opensimulator people often run a SL compatible
+This is unlike Second Life (tm) (SL) where all creating happens on the
+servers, the client application is only an interface to the server side
+functionality. With OpenSimulator people often run a SL compatible
 server locally to achieve this local building [opensim-on-a-stick]_.
-But as Opensim is currently SQL based it can't open documents quite as
+But as OpenSim is currently SQL-based it can't open documents quite as
 straightforwardly, as it has to import everything to a database
 first. Also with the SL viewer and OpenSim you always need to have
 those two applications running, whereas Naali can run standalone as
 well.
 
 For developers the key in realXtend, in contrast with the Second Life
-viewer and vanilla Opensimulator, is the modularity and
+viewer and vanilla OpenSimulator, is the modularity and
 extensibility. Naali is a modular application where essential parts
 like support for different scripting languages, networking protocols,
 UI elements or your own arbitrary module can be enabled/disabled
@@ -80,12 +80,12 @@ basic functionality for all ECs: persistence, network synchronization
 among all the participants via a server and a GUI for manipulating
 components and their attributes. This EC model is fairly standard in
 modern networked games. Additionally, Naali introduces Entity Actions,
-which are a simple form of RPC. These all will be demonstrated in the
-two examples later in this article.
+which are a simple form of remote procedure call (RPC). These all will
+be demonstrated in the two examples later in this article.
 
 A scene is defined by the entities it has -- there is nothing
 hardcoded about them. This differs essentially from the current
-Opensimulator usage when using the Second Life (SL) protocol where the
+OpenSimulator usage when using the SL protocol where the
 model is largely assumed and hardcoded in the applications. In that
 model there always is a certain kind of a terrain, a sky with a sun,
 and each client connection gets an avatar to which the controls are
@@ -104,14 +104,13 @@ To demonstrate the feasibility of a generic approach, there is a
 growing set of application examples in the Naali example scenes
 directory available on GitHub [naali-scenes]_. We present two of them
 here to illustrate how the EC model works in practice. First there is
-an implementation of a Second Life (tm) style avatar, implemented
-using a set of ECs and Javascript code to run both on the server and
-the clients to implement the functionality, for example to play back
-the walking animation as the avatar moves. This is achieved without
-the base platform nor the protocol having the concept of an
-avatar. The other example is a simple presentation application where
-we use custom data to share the presentation outline for all
-participants, and to let the presenter control the view for the others
+an implementation of a SL-style avatar, implemented using a set of ECs
+and Javascript code to run both on the server and the clients to implement
+the functionality, for example to play back the walking animation as the
+avatar moves. This is achieved without the base platform nor the protocol
+having the concept of an avatar. The other example is a simple presentation
+application where we use custom data to share the presentation outline for
+all participants, and to let the presenter control the view for the others
 as the presentation proceeds.
 
 Making of Avatars
@@ -159,13 +158,13 @@ maturity, simplicity, power and the permissive open source license. It
 is already being deployed to customers by some of the development
 companies, and provides a powerful usable GUI for editing the
 component data also for your own custom components. It is a quite
-straightforward modular c++ application with optional Python and
-Javascript support. Thanks to the Ogre3d graphics engine, it runs both
+straightforward modular C++ application with optional Python and
+Javascript support. Thanks to the OGRE graphics engine, it runs both
 on e.g. the N900 mobile phone with OpenGL ES and on powerful PCs with
 multiple video outputs with the built-in CAVE rendering support.
 
 The document oriented approach of having worlds as files is of course
-precedented in 3d file format standards like VRML, X3D and Collada. The
+precedented in 3D file format standards like VRML, X3D and COLLADA. The
 idea with the realXtend files is to not specify the contents of the
 files, but they are only a mechanism for the applications to put the
 component data that they need. An essential element are the script
@@ -173,7 +172,7 @@ references that implement the functionality of the applications,
 similar to how HTML documents have Javascript references. But also
 this is not specified in the file format, it is just how the bundled
 Script component works. For static content, we support using
-e.g. Collada assets directly. (W.I.P NOTE: check how x3d and friends
+e.g. COLLADA assets directly. (W.I.P NOTE: check how x3d and friends
 do scripting).
 
 The realXtend platform is currently by no means a complete solution
@@ -182,7 +181,7 @@ currently address scaling at all, nor is federated content from
 several possible untrusted sources supported. We have focused on the
 power in the small scale, ability to easily make rich interactive
 applications. In the future, we look forward to continuing
-collaboration with e.g. the Opensimulator and Sirikata communities to
+collaboration with e.g. the OpenSimulator and Sirikata communities to
 address the trust and scalability issues. Opensim is already used to
 host large grids by numerous people, and the architecture in Sirikata
 seems promising for the long run [sirikata-scaling]_.
@@ -190,7 +189,7 @@ seems promising for the long run [sirikata-scaling]_.
 Status of implementations
 -------------------------
 
-The generic Entity-Component approach was proposed to Opensimulator
+The generic Entity-Component approach was proposed to OpenSimulator
 core and accepted as the plan already in December 2009
 [adam-ecplan]_. The implementation is however still in very early
 stages, only the first steps have been taken to allow refactoring the
@@ -207,13 +206,13 @@ The generic application platform works currently fully when using the
 so called Tundra server, which a simple server module added to Naali
 itself. This allows Naali to run as standalone for local authoring, or
 for single user applications, but also for using it as a server to
-host worlds on the net instead of using Opensimulator. With Tundra
+host worlds on the net instead of using OpenSimulator. With Tundra
 LLUDP is no longer used, but all basic functionality is achieved with
 the generic EC synchronization. For the transport layer, we are using
 a new protocol called kNet which can run either on top of UDP or
 TCP. kNet is similar to eNet but performed better in tests with
 regards to flow control. The Tundra server lacks many basic features
-and may never get some of the advanced Opensimulator features, like
+and may never get some of the advanced OpenSimulator features, like
 running untrusted user authored scripts and combining multiple regions
 to form a large grid. Tundra is however is already useful for local
 authoring and deploying applications like simple games to production
