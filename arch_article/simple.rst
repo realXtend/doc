@@ -25,7 +25,7 @@ Introduction
 RealXtend is an open source project aiming to speed up the development
 of standards for 3D virtual worlds. The idea is to apply standards
 like HTTP, COLLADA and XMPP and libraries such as the OGRE 3D graphics
-engine, Qt GUI toolkit and the OpenSimulator (also kown as OpenSim)
+engine, Qt GUI toolkit and the OpenSimulator (also known as OpenSim)
 world server to build a generic application platform. It is a collaboration
 of several small companies that utilize the base technology in different
 application fields, but which coordinate the development of the common core
