@@ -99,16 +99,10 @@ always with a custom interface that excatly fits the application's
 purpose. Rather then being in control of a single avatar, you can for
 example create a world where the user is an entity controlling the
 weather conditions of the whole environment, and make a game around
-that. 
-
-All these can work on top of the same generic software platform and
-network protocol, similarily to how web sites feature different
-functionality and interfaces that run in the generic browsers. Just
-that here the client has the most powerful native 3d graphics engine,
-and the realtime protocol can use UDP to minimize latency when
-needed. Yet writing custom functionality is made easy with Javascript
-and Python, which can access the 3d side of things like skeletal
-animation control.
+that. And ask your friend on-line to test it, using the standard
+client she already has. The solution is inspired by web browsers,
+which download code from the websites to run custom user interfaces
+and logic in the client.
 
 To demonstrate the feasibility of our generic approach, there is a
 growing set of application examples in the Naali example scenes
@@ -184,7 +178,7 @@ the functionality of the applications, similar to how HTML documents
 have Javascript references. But also this is not specified in the file
 format, it is just how the bundled Script component works. 
 
-.. (W.I.P NOTE: check how x3d and friends do scripting).
+.. W.I.P NOTE: check how x3d and friends do scripting.
 
 The realXtend platform is currently by no means a complete solution
 for all the problem of virtual world architectures. Naali does not
@@ -197,7 +191,11 @@ address the trust and scalability issues. Opensim is already used to
 host large grids by numerous people, and the architecture in Sirikata
 seems promising for the long run [sirikata-scaling]_.
 
-.. (add about the javascript sandbox challenge here? standardizing client side APIs?)
+.. javascript sandbox challenge here?
+
+.. standardizing client side APIs?
+
+
 
 Status of implementations
 -------------------------
