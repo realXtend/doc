@@ -29,8 +29,8 @@ for the entity to be positioned in the 3d scene, AnimationController
 to change and synchronize the animation states so and finally a Script
 component to implement the functionality of a single
 avatar. Additionally, the main application script is also executed on
-the client, where it only adds a function to toggle between the
-default free look camera and new camera which follows the avatar.
+the client, where it adds a new camera which follows the avatar and
+a keybinding to toggle between the camera modes.
 
 Handling new client connections on the server:
 
