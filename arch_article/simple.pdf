@@ -1412,7 +1412,7 @@ endobj
 % 'R82': class PDFInfo 
 82 0 obj
 << /Author ()
- /CreationDate (D:20101215233330-02'00')
+ /CreationDate (D:20101215234251-02'00')
  /Keywords ()
  /Producer (ReportLab http://www.reportlab.com)
  /Subject (\(unspecified\))
@@ -1601,7 +1601,7 @@ q
 1 0 0 1 62.69291 635.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(This document was generated on 2010-12-15 at 23:33.\)) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(This document was generated on 2010-12-15 at 23:42.\)) Tj T* ET
 Q
 Q
 q
@@ -2188,7 +2188,7 @@ endobj
 % 'R101': class PDFStream 
 101 0 obj
 % page stream
-<< /Length 5759 >>
+<< /Length 5690 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -2215,14 +2215,14 @@ q
 1 0 0 1 62.69291 543.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL .919983 Tw (So, let's add a new entity called "presentation". Entities are just identities which aggregate components.) Tj T* 0 Tw .012927 Tw (For this simple technique, showing web pages, we need a few basic ones: Placeable to have something in) Tj T* 0 Tw 1.123876 Tw (the scene, Mesh to have geometry \(e.g. a plane\) on which to show the slides, and WebView to render) Tj T* 0 Tw .646651 Tw (html from URLs. And two additional ones for our custom functionality: a DynamicComponent to hold and) Tj T* 0 Tw .29186 Tw (sync our custom data, and Script to implement the custom UI handling and presentation controls. As data) Tj T* 0 Tw .743672 Tw (we need a list or URLs and an index number for the current position. This custom data becomes part of) Tj T* 0 Tw 3.608443 Tw (the scene data and is automatically stored and synchronized among the participants. The Script) Tj T* 0 Tw (component is a reference to Javascript or Python code which implements all the logic.) Tj T* ET
+BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL 3.618735 Tw (So, let's add a new entity called "presentation". For showing web pages, we need a few basic) Tj T* 0 Tw .67311 Tw (components: Placeable to have something in the scene, Mesh to have geometry \(e.g. a plane\) on which) Tj T* 0 Tw 1.747633 Tw (to show the slides, and WebView to render html from URLs. And two additional ones for our custom) Tj T* 0 Tw .015984 Tw (functionality: a DynamicComponent to hold and sync our custom data, and Script to implement the custom) Tj T* 0 Tw 1.864431 Tw (UI handling and presentation controls. As data we need a list or URLs and an index number for the) Tj T* 0 Tw 2.423318 Tw (current position. This custom data becomes part of the scene data and is automatically stored and) Tj T* 0 Tw .810697 Tw (synchronized among the participants. The Script component is a reference to Javascript or Python code) Tj T* 0 Tw (which implements all the logic.) Tj T* ET
 Q
 Q
 q
 1 0 0 1 62.69291 429.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL 3.31186 Tw (To handle the user input, we have two options: either handle input events and modify the state) Tj T* 0 Tw 1.146235 Tw (correspondingly directly in the client code, or send remote actions like in the avatar example. Let's use) Tj T* 0 Tw 2.147882 Tw (remote actions again so can use the server as a broker for security, and to get a similar design to) Tj T* 0 Tw 4.107126 Tw (compare with the avatar example. So client side code maps right-arrow and spacebar keys to) Tj T* 0 Tw .070651 Tw (SetPresentationPos\(index+1\) etc. Server can then check if the caller has permissions to do that action, for) Tj T* 0 Tw .503516 Tw (example we can make it so that in presentation mode only the designated presenter is allowed to control) Tj T* 0 Tw 1.094198 Tw (the shared view. Then if the presentation material is left in the scene for anyone to visit at other times,) Tj T* 0 Tw 1.19436 Tw (control can be freed for anyone. Changes to the index attribute are synchronized for all participants so) Tj T* 0 Tw (they can update the outline GUI accordingly.) Tj T* ET
+BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL 3.31186 Tw (To handle the user input, we have two options: either handle input events and modify the state) Tj T* 0 Tw 1.146235 Tw (correspondingly directly in the client code, or send remote actions like in the avatar example. Let's use) Tj T* 0 Tw 2.147882 Tw (remote actions again so can use the server as a broker for security, and to get a similar design to) Tj T* 0 Tw 4.107126 Tw (compare with the avatar example. So client side code maps right-arrow and spacebar keys to) Tj T* 0 Tw .070651 Tw (SetPresentationPos\(index+1\) etc. Server can then check if the caller has permissions to do that action, for) Tj T* 0 Tw .503516 Tw (example we can make it so that in presentation mode only the designated presenter is allowed to control) Tj T* 0 Tw 1.094198 Tw (the shared view. Then if the presentation material is left in the scene for anyone to visit at other times,) Tj T* 0 Tw 1.19436 Tw (control can be freed for anyone. Changes to the index attribute are synchronized for all participants so) Tj T* 0 Tw (theniqy can update the outline GUI accordingly.) Tj T* ET
 Q
 Q
 q
@@ -2724,17 +2724,17 @@ xref
 0000451507 00000 n
 0000457584 00000 n
 0000464667 00000 n
-0000470527 00000 n
-0000477524 00000 n
-0000484551 00000 n
+0000470458 00000 n
+0000477455 00000 n
+0000484482 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\215\235\324\031\366\262D\270/\031g\016A\000H\027) (\215\235\324\031\366\262D\270/\031g\016A\000H\027)] 
+ [(\216G{:BM\341a\225d5\225\376\376t\334) (\216G{:BM\341a\225d5\225\376\376t\334)] 
 
  /Info 82 0 R
  /Root 81 0 R
  /Size 105 >>
 startxref
-487613
+487544
 %%EOF
