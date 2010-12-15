@@ -248,6 +248,12 @@ is also an experimental WebNaali client, written in Javascript to run
 in a web browser, doing the EC sync over WebSockets and rendering with
 WebGL.
 
+The most severe missing piece in our current EC synchronization is the
+lack of security, for example a permission system. A first
+implementation is probably made soon to cover the basics, similarily
+to how Syntensity already has attributes that can only change if the
+server allows.
+
 Conclusion
 ==========
 
@@ -257,7 +263,7 @@ is taken into consideration in upcoming standardization processes, for
 example if VWRAP proceeds to address in-world scene functionality. In
 any case, we will continue to develop the platform and applications on
 top of it. Anyone is free to use it for their needs, and to
-participate in the development which is largely coordinated on-line.
+participate in the development which is mostly coordinated on-line.
 
 
 References

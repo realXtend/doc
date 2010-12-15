@@ -152,4 +152,6 @@ for things that could be made to work in regular web browsers
 too. This is relevant also because we are writing an experimental
 WebNaali client which does entity attribute sync and actions over
 WebSockets. For 3d view it uses WebGL, but for 2d applications the
-networking part could be used without WebGL as well.
+networking part could be used without WebGL as well. Perhaps the same
+EC technique would be useful for such normal web applications that
+need to share state in realtime?
