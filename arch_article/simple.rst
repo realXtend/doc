@@ -189,7 +189,7 @@ applications. In the future, we look forward to continuing
 collaboration with e.g. the OpenSimulator and Sirikata communities to
 address the trust and scalability issues. Opensim is already used to
 host large grids by numerous people, and the architecture in Sirikata
-seems promising for the long run [sirikata-scaling]_.
+seems promising for the long run [sirikata-scaling]_ [sirikata-scaling2]_.
 
 .. javascript sandbox challenge here?
 
@@ -280,6 +280,8 @@ References
 .. [VWRAP] Joshua Bell, Morgaine Dinova, David Levine, "VWRAP for Virtual Worlds Interoperability," IEEE Internet Computing, pp. 73-77, January/February, 2010 
 
 .. [sirikata-scaling] Daniel Horn, Ewen Cheslack-Postava, Tahir Azim, Michael J. Freedman, Philip Levis, "Scaling Virtual Worlds with a Physical Metaphor", IEEE Pervasive Computing, vol. 8, no. 3, pp. 50-54, July-Sept. 2009, doi:10.1109/MPRV.2009.54 http://www.cs.princeton.edu/~mfreed/docs/vworlds-ieee09.pdf
+
+.. [sirikata-scaling2] Daniel Horn, Ewen Cheslack-Postava, Behram F.T. Mistree, Tahir Azim, Jeff Terrace , Michael J. Freedman, Philip Levis "To Infinity and Not Beyond: Scaling Communication in Virtual Worlds with Meru." http://hci.stanford.edu/cstr/reports/2010-01.pdf
 
 .. [sirikata_scripting] Bhupesh Chandra, Ewen Cheslack-Postava, Behram F. T. Mistree, Philip Levis, and David Gay. "Emerson: Scripting for Federated Virtual Worlds", Proceedings of the 15th International
    Conference on Computer Games: AI, Animation, Mobile, Interactive
