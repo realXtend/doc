@@ -79,7 +79,6 @@ Updating animations, the common code executed both on the client and the server:
 
     function commonUpdateAnimation(frametime) {
         var animcontroller = me.animationcontroller;
-        var rigidbody = me.rigidbody;
         var animname = animcontroller.animationState;
         if (animname != "")
             animcontroller.EnableExclusiveAnimation(animname, true, 0.25, 0.25, false);
@@ -87,7 +86,7 @@ Updating animations, the common code executed both on the client and the server:
         if (animcontroller.IsAnimationActive("Walk")) {
             // Note: on client the rigidbody does not exist, 
             // so the velocity is only a replicated attribute
-            var vel = rigidbody.linearVelocity;
+            var vel = me.rigidbody.linearVelocity;
             var walkspeed = Math.sqrt(vel.x * vel.x + vel.y * vel.y) * walk_anim_speed;
             animcontroller.SetAnimationSpeed("Walk", walkspeed);
         }
@@ -104,6 +103,26 @@ the first prototype which did not have the entity component system at
 all, and is used in this demo as is. A more generic and customizable
 appearance system could be implemented with the ECs, but that is
 outside the scope of the demo and description here.
+
+.. figure:: avapp.jpg
+   :scale: 100 %
+
+   This is the caption of the figure (a simple paragraph).
+
+   The legend consists of all elements after the caption.  In this
+   case, the legend consists of this paragraph and the following
+   table:
+
+   +-----------------------+-----------------------+
+   | Symbol                | Meaning               |
+   +=======================+=======================+
+   | Ruskee&purple pallo   | Campground            |
+   +-----------------------+-----------------------+
+   | nuolet                | Lake                  |
+   +-----------------------+-----------------------+
+   | palikat               | Mountain              |
+   +-----------------------+-----------------------+
+
 
 One thing to note is that the division of work between the clients and
 the server described here is by no means the only possible one. The
