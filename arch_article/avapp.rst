@@ -31,6 +31,21 @@ avatar. Additionally, the main application script is also executed on
 the client, where it only adds a function to toggle between the
 default free look camera and new camera which follows the avatar.
 
+Handling new client connections on the server::
+    var avatarEntityName = "Avatar" + connectionID;
+    var avatarEntity = scene.CreateEntityRaw(scene.NextFreeId(), ["EC_Script", "EC_Placeable", "EC_AnimationController"]);
+    avatarEntity.SetName(avatarEntityName);
+    avatarEntity.SetDescription(user.GetProperty("username"));
+
+    print("Hai. Ur name is " + user.GetProperty("username"));
+
+    var script = avatarEntity.script;
+    script.type = "js";
+    script.runOnLoad = true;
+    var r = script.scriptRef;
+    r.ref = "local://simpleavatar.js";
+    script.scriptRef = r;
+
 The other script for an individual avatar, simpleavatar.js, adds a few
 more components: AvatarAppearance for the customizable looks,
 RigidBody for physics (collision detection) and on the client side an
