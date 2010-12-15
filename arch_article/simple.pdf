@@ -1412,7 +1412,7 @@ endobj
 % 'R82': class PDFInfo 
 82 0 obj
 << /Author ()
- /CreationDate (D:20101215234251-02'00')
+ /CreationDate (D:20101215234408-02'00')
  /Keywords ()
  /Producer (ReportLab http://www.reportlab.com)
  /Subject (\(unspecified\))
@@ -1601,7 +1601,7 @@ q
 1 0 0 1 62.69291 635.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(This document was generated on 2010-12-15 at 23:42.\)) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(This document was generated on 2010-12-15 at 23:44.\)) Tj T* ET
 Q
 Q
 q
@@ -2138,7 +2138,7 @@ q
 1 0 0 1 62.69291 630.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL 1.422485 Tw (In contrast with the avatar functionality, let's consider a different kind of an application which does not) Tj T* 0 Tw .963516 Tw (require avatars at all. There are of course many virtual worlds and games without a single character as) Tj T* 0 Tw .76248 Tw (the locus of control: Map/geographic applications like Google Earth or astronomical simulations covering) Tj T* 0 Tw 1.22936 Tw (the whole universe like Celestia are about efficient navigation and time control of the whole space, not) Tj T* 0 Tw 1.646412 Tw (about moving own presence around. Game genres like real time strategy \(RTS\) feature multiple units) Tj T* 0 Tw .433735 Tw (which the player commands, similarly to board games like chess. However, to get an even more different) Tj T* 0 Tw .185777 Tw (point of view to the user controls and actions in an application, the example here is not about navigating a) Tj T* 0 Tw 2.187485 Tw (view of a 3d space or spatial movement of units. Instead, let's design a slideshow like presentation) Tj T* 0 Tw (application using the same entity-component-action building blocks as in the avatar example.) Tj T* ET
+BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL 1.422485 Tw (In contrast with the avatar functionality, let's consider a different kind of an application which does not) Tj T* 0 Tw .963516 Tw (require avatars at all. There are of course many virtual worlds and games without a single character as) Tj T* 0 Tw .76248 Tw (the locus of control: Map/geographic applications like Google Earth or astronomical simulations covering) Tj T* 0 Tw 1.22936 Tw (the whole universe like Celestia are about efficient navigation and time control of the whole space, not) Tj T* 0 Tw 1.646412 Tw (about moving own presence around. Game genres like real time strategy \(RTS\) feature multiple units) Tj T* 0 Tw .433735 Tw (which the player commands, similarly to board games like chess. However, to get an even more different) Tj T* 0 Tw .185777 Tw (point of view to the user controls and actions in an application, the example here is not about navigating a) Tj T* 0 Tw 1.97936 Tw (view of a 3d space or spatial movement of units. Instead, let's design a slideshow- like presentation) Tj T* 0 Tw (application using the same entity-component-action building blocks as in the avatar example.) Tj T* ET
 Q
 Q
 q
@@ -2158,7 +2158,7 @@ q
 1 0 0 1 62.69291 408.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 110 Tm /F1 10 Tf 12 TL .660542 Tw (There are several ways how the realXtend platform could be used to make a presentation. One is to put) Tj T* 0 Tw .244198 Tw (the material in the 3d space so that by navigating the view the presenter can focus on the different topics.) Tj T* 0 Tw .75332 Tw (The material could be simply 2d text and image slides, or web pages, on plates around the space when) Tj T* 0 Tw .135542 Tw (the 3d system would be just used as a spatial organization and navigation tool for the traditional slides. Or) Tj T* 0 Tw .634104 Tw (there could be animated 3d objects in the scene. Alternatively, the viewport could stay in place while the) Tj T* 0 Tw .393145 Tw (scene is changed -- e.g. by simply changing the slide on a virtual display in world, or by bringing different) Tj T* 0 Tw 1.754651 Tw (items to the stage during the course of the presentation. Also, the platform and the entity-component) Tj T* 0 Tw .090941 Tw (system is not limited to the 3d view: the 2d ui is also accessible for application scripts, so they can use the) Tj T* 0 Tw .57284 Tw (network synchronized entity attribute states and actions with 2d widgets. The built-in voice capability and) Tj T* 0 Tw (text chat can be used for the talk and communicating with the others.) Tj T* ET
+BT 1 0 0 1 0 110 Tm /F1 10 Tf 12 TL .660542 Tw (There are several ways how the realXtend platform could be used to make a presentation. One is to put) Tj T* 0 Tw .15683 Tw (the material in the 3D space so that by navigating the view the presenter can focus on the different topics.) Tj T* 0 Tw .661098 Tw (The material could be simply 2D text and image slides, or web pages, on plates around the space when) Tj T* 0 Tw .135542 Tw (the 3d system would be just used as a spatial organization and navigation tool for the traditional slides. Or) Tj T* 0 Tw .536457 Tw (there could be animated 3D objects in the scene. Alternatively, the viewport could stay in place while the) Tj T* 0 Tw .393145 Tw (scene is changed -- e.g. by simply changing the slide on a virtual display in world, or by bringing different) Tj T* 0 Tw 1.754651 Tw (items to the stage during the course of the presentation. Also, the platform and the entity-component) Tj T* 0 Tw .652488 Tw (system is not limited to the 3D view: the 2D UI is also accessible for application scripts, so they can use) Tj T* 0 Tw .65284 Tw (the network synchronized entity attribute states and actions with 2D widgets. The built-in voice capability) Tj T* 0 Tw (and text chat can be used for the talk and communicating with the others.) Tj T* ET
 Q
 Q
 q
@@ -2188,7 +2188,7 @@ endobj
 % 'R101': class PDFStream 
 101 0 obj
 % page stream
-<< /Length 5690 >>
+<< /Length 5655 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -2208,7 +2208,7 @@ q
 1 0 0 1 62.69291 645.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .207988 Tw (A very simple way to implement this is to use a static camera which shows a single webpage view. It then) Tj T* 0 Tw .51237 Tw (suffices for the server to change the current page on that object for everyone to get to see it in sync. We) Tj T* 0 Tw .578685 Tw (could do this with just a 2d widget, but let's do it in a 3d scene as the idea is to illustrate the extensibility) Tj T* 0 Tw (there.) Tj T* ET
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .207988 Tw (A very simple way to implement this is to use a static camera which shows a single webpage view. It then) Tj T* 0 Tw .51237 Tw (suffices for the server to change the current page on that object for everyone to get to see it in sync. We) Tj T* 0 Tw .434338 Tw (could do this with just a 2D widget, but let's do it in a 3D scene as the idea is to illustrate the extensibility) Tj T* 0 Tw (there.) Tj T* ET
 Q
 Q
 q
@@ -2229,7 +2229,7 @@ q
 1 0 0 1 62.69291 375.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .593988 Tw (For the outline view, the code can add a 2d panel with thumbnails of all the slides and hilight the current) Tj T* 0 Tw 1.156098 Tw (one. For free browsing, clicking on a thumbnail can open a new window with that slide, while the main) Tj T* 0 Tw .019982 Tw (presentation view remains. This we way have a simple, complete presentation application implemented on) Tj T* 0 Tw (top of a generic virtual worlds platform.) Tj T* ET
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .510988 Tw (For the outline view, the code can add a 2D panel with thumbnails of all the slides and hilight the current) Tj T* 0 Tw 1.156098 Tw (one. For free browsing, clicking on a thumbnail can open a new window with that slide, while the main) Tj T* 0 Tw .019982 Tw (presentation view remains. This we way have a simple, complete presentation application implemented on) Tj T* 0 Tw (top of a generic virtual world platform.) Tj T* ET
 Q
 Q
 q
@@ -2239,17 +2239,17 @@ BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Does this make sense?) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 243.0236 cm
+1 0 0 1 62.69291 255.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL 1.370542 Tw (Of course just getting a shared view of a set of web pages could is easily deployed without realXtend) Tj T* 0 Tw .078555 Tw (technology just by using regular web browsers with HTML+Javascript and some server backend. The idea) Tj T* 0 Tw 2.156136 Tw (here is to illustrate the use of Entity-Components and automatic attribute synchronization for custom) Tj T* 0 Tw .98811 Tw (functionality in a minimal complete example. Real benefits of the platform would be utilized if the actual) Tj T* 0 Tw 2.156136 Tw (presentation material was interactive animated 3d objects, such as alternative house or car designs,) Tj T* 0 Tw 1.64881 Tw (which the presenter would go thru and manipulate during the talk. Basically what we are aiming at is) Tj T* 0 Tw .053318 Tw (making interactive multiuser 3d applications easy to author, comparable to how single user web pages are) Tj T* 0 Tw (today.) Tj T* ET
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL 1.370542 Tw (Of course just getting a shared view of a set of web pages could is easily deployed without realXtend) Tj T* 0 Tw .091984 Tw (technology just by using regular web browsers with HTML, Javascript and some server backend. The idea) Tj T* 0 Tw 1.23061 Tw (here is to illustrate the use of ECs and automatic attribute synchronization for custom functionality in a) Tj T* 0 Tw 2.319983 Tw (minimal complete example. Real benefits of the platform would be utilized if the actual presentation) Tj T* 0 Tw 2.797126 Tw (material was interactive animated 3D objects, such as alternative house or car designs, which the) Tj T* 0 Tw 2.377485 Tw (presenter would go thru and manipulate during the talk. Basically what we are aiming at is making) Tj T* 0 Tw (interactive multi-user 3D applications easy to author, comparable to how single user web pages are today.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 165.0236 cm
+1 0 0 1 62.69291 177.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.091318 Tw (It is, however, interesting to consider whether the platform makes implementing this kind of features so) Tj T* 0 Tw .428988 Tw (easy that it makes sense even for things that could be made to work in regular web browsers too. This is) Tj T* 0 Tw .053984 Tw (relevant also because we are writing an experimental WebNaali client which does entity attribute sync and) Tj T* 0 Tw .848735 Tw (actions over WebSockets. For 3d view it uses WebGL, but for 2d applications the networking part could) Tj T* 0 Tw .896457 Tw (be used without WebGL as well. Perhaps the same EC technique would be useful for such normal web) Tj T* 0 Tw (applications that need to share state in realtime?) Tj T* ET
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.091318 Tw (It is, however, interesting to consider whether the platform makes implementing this kind of features so) Tj T* 0 Tw .428988 Tw (easy that it makes sense even for things that could be made to work in regular web browsers too. This is) Tj T* 0 Tw .053984 Tw (relevant also because we are writing an experimental WebNaali client which does entity attribute sync and) Tj T* 0 Tw .641235 Tw (actions over WebSockets. For 3D view it uses WebGL, but for 2D applications the networking part could) Tj T* 0 Tw .896457 Tw (be used without WebGL as well. Perhaps the same EC technique would be useful for such normal web) Tj T* 0 Tw (applications that need to share state in realtime?) Tj T* ET
 Q
 Q
  
@@ -2724,17 +2724,17 @@ xref
 0000451507 00000 n
 0000457584 00000 n
 0000464667 00000 n
-0000470458 00000 n
-0000477455 00000 n
-0000484482 00000 n
+0000470423 00000 n
+0000477420 00000 n
+0000484447 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\216G{:BM\341a\225d5\225\376\376t\334) (\216G{:BM\341a\225d5\225\376\376t\334)] 
+ [(<\256G\011\230\004\335c\261\332\214\241\305\270.\275) (<\256G\011\230\004\335c\261\332\214\241\305\270.\275)] 
 
  /Info 82 0 R
  /Root 81 0 R
  /Size 105 >>
 startxref
-487544
+487509
 %%EOF
