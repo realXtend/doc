@@ -23,15 +23,13 @@ The server side functionality to give every new client connection a
 designated avatar is implemented in a simple Javascript script,
 avatarapplication.js . Upon a new connection, it instanciates an
 avatar by creating a new entity and these components to it: Mesh for
-visible 3d model and associated skeleton for animations, Placeable for
-the entity to be positioned in the 3d scene, AnimationController to
-change and synchronize the animation states so that e.g. the walking
-animation is correctly played back while the avatar moves and finally
-a Script component which refers to another Javascript file which
-implements the functionality of a single avatar. Additionally, the main
-application script is also executed on the client, where it only adds
-a function to toggle between the default free look camera and new
-camera which follows the avatar.
+the visible 3d model and associated skeleton for animations, Placeable
+for the entity to be positioned in the 3d scene, AnimationController
+to change and synchronize the animation states so and finally a Script
+component to implement the functionality of a single
+avatar. Additionally, the main application script is also executed on
+the client, where it only adds a function to toggle between the
+default free look camera and new camera which follows the avatar.
 
 The other script for an individual avatar, simpleavatar.js, adds a few
 more components: AvatarAppearance for the customizable looks,
