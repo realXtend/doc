@@ -19,6 +19,10 @@ no-strings-attached open source software.*
 
 .. contents::
 
+.. image:: realxtend_BtW_07h-crop.jpg
+   :scale: 200%
+
+
 Introduction
 ============
 

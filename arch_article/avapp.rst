@@ -107,21 +107,17 @@ outside the scope of the demo and description here.
 .. figure:: avapp.jpg
    :scale: 100 %
 
-   This is the caption of the figure (a simple paragraph).
+   The parts of the avatar example:
 
-   The legend consists of all elements after the caption.  In this
-   case, the legend consists of this paragraph and the following
-   table:
-
-   +-----------------------+-----------------------+
-   | Symbol                | Meaning               |
-   +=======================+=======================+
-   | Ruskee&purple pallo   | Campground            |
-   +-----------------------+-----------------------+
-   | nuolet                | Lake                  |
-   +-----------------------+-----------------------+
-   | palikat               | Mountain              |
-   +-----------------------+-----------------------+
+   +-----------------------+---------------------------------------------+
+   | Symbol                | Meaning                                     |
+   +=======================+=============================================+
+   | Colors brown/purple   | Client / Server respectively                |
+   +-----------------------+---------------------------------------------+
+   | Arrows                | Network messages                            |
+   +-----------------------+---------------------------------------------+
+   | Filled boxes          | ECs on client, server or shared by both     |
+   +-----------------------+---------------------------------------------+
 
 
 One thing to note is that the division of work between the clients and
@@ -134,3 +130,11 @@ works. It is suitable when trust and physics are centralized on a
 server. The drawback is that user control responsiveness may suffer
 from network lag. We are planning to later utilize the physics module
 in client mode too to allow movement code to run locally as well.
+
+With the ability to run custom code also in the client, it is easy to
+extend avatar related functionality. For example, in one project for
+schools we added the capability to simply carry objects around as the
+most simple means for 3d editing. Another possibility is to add more
+data that is synchronized for animations, even the full skeleton for
+motion capture or machine vision based mapping of the real body to the
+avatar pose.
