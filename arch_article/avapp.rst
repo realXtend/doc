@@ -7,7 +7,8 @@ base level, to allow arbitrary applications to be built. However, a
 generic platform must of course allow the implementation of avatar
 functionality on the application level. Here we describe a proof of
 concept implementation using the realXtend Entity-Component-Action
-model. The source code is available at [tundra-avatar]_.
+model. The full source code is available at [tundra-avatar]_, and a
+parts of it are included below.
 
 Avatar means two things: 1) The visual appearance and the systems
 built around it, to for example modify the looks and add attachments
@@ -31,22 +32,24 @@ avatar. Additionally, the main application script is also executed on
 the client, where it only adds a function to toggle between the
 default free look camera and new camera which follows the avatar.
 
-Handling new client connections on the server::
+Handling new client connections on the server:
 
-    function serverHandleUserConnected(connectionID, userconnection) {
-        var avatarEntity = scene.CreateEntity(scene.NextFreeId(), 
-                           ["EC_Script", "EC_Placeable", "EC_AnimationController"]);
-        avatarEntity.Name = "Avatar" + connectionID;
-        avatarEntity.Description = userconnection.GetProperty("username");
-        avatarEntity.script.ref = "simpleavatar.js";
+.. code-block:: javascript
 
-        // Set random starting position for avatar
-        var transform = avatarEntity.placeable.transform;
-        transform.pos.x = (Math.random() - 0.5) * avatar_area_size + avatar_area_x;
-        transform.pos.y = (Math.random() - 0.5) * avatar_area_size + avatar_area_y;
-        transform.pos.z = avatar_area_z;
-        avatarEntity.placeable.transform = transform;
-    }
+   function serverHandleUserConnected(connectionID, userconnection) {
+       var avatarEntity = scene.CreateEntity(scene.NextFreeId(), 
+                          ["EC_Script", "EC_Placeable", "EC_AnimationController"]);
+       avatarEntity.Name = "Avatar" + connectionID;
+       avatarEntity.Description = userconnection.GetProperty("username");
+       avatarEntity.script.ref = "simpleavatar.js";
+
+       // Set random starting position for avatar
+       var transform = avatarEntity.placeable.transform;
+       transform.pos.x = (Math.random() - 0.5) * avatar_area_size + avatar_area_x;
+       transform.pos.y = (Math.random() - 0.5) * avatar_area_size + avatar_area_y;
+       transform.pos.z = avatar_area_z;
+       avatarEntity.placeable.transform = transform;
+   }
 
 
 The other script for an individual avatar, simpleavatar.js, adds a few
@@ -70,7 +73,9 @@ the avatar is moving. All participants run common animation update
 code to play back the walk animation while moving, calculating the
 correct speed from the velocity data from the physics on the server.
 
-Updating animations, the common code executed both on the client and the server::
+Updating animations, the common code executed both on the client and the server:
+
+.. code-block:: javascript
 
     function commonUpdateAnimation(frametime) {
         var animcontroller = me.animationcontroller;
