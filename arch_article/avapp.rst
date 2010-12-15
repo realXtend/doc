@@ -32,19 +32,22 @@ the client, where it only adds a function to toggle between the
 default free look camera and new camera which follows the avatar.
 
 Handling new client connections on the server::
-    var avatarEntityName = "Avatar" + connectionID;
-    var avatarEntity = scene.CreateEntityRaw(scene.NextFreeId(), ["EC_Script", "EC_Placeable", "EC_AnimationController"]);
-    avatarEntity.SetName(avatarEntityName);
-    avatarEntity.SetDescription(user.GetProperty("username"));
 
-    print("Hai. Ur name is " + user.GetProperty("username"));
+    function serverHandleUserConnected(connectionID, userconnection) {
+        var avatarEntity = scene.CreateEntity(scene.NextFreeId(), 
+                           ["EC_Script", "EC_Placeable", "EC_AnimationController"]);
+        avatarEntity.Name = "Avatar" + connectionID;
+        avatarEntity.Description = userconnection.GetProperty("username");
+        avatarEntity.script.ref = "simpleavatar.js";
 
-    var script = avatarEntity.script;
-    script.type = "js";
-    script.runOnLoad = true;
-    var r = script.scriptRef;
-    r.ref = "local://simpleavatar.js";
-    script.scriptRef = r;
+        // Set random starting position for avatar
+        var transform = avatarEntity.placeable.transform;
+        transform.pos.x = (Math.random() - 0.5) * avatar_area_size + avatar_area_x;
+        transform.pos.y = (Math.random() - 0.5) * avatar_area_size + avatar_area_y;
+        transform.pos.z = avatar_area_z;
+        avatarEntity.placeable.transform = transform;
+    }
+
 
 The other script for an individual avatar, simpleavatar.js, adds a few
 more components: AvatarAppearance for the customizable looks,
@@ -66,6 +69,24 @@ sets the animation state to either "Stand" or "Walk" based on whether
 the avatar is moving. All participants run common animation update
 code to play back the walk animation while moving, calculating the
 correct speed from the velocity data from the physics on the server.
+
+Updating animations, the common code executed both on the client and the server::
+
+    function commonUpdateAnimation(frametime) {
+        var animcontroller = me.animationcontroller;
+        var rigidbody = me.rigidbody;
+        var animname = animcontroller.animationState;
+        if (animname != "")
+            animcontroller.EnableExclusiveAnimation(animname, true, 0.25, 0.25, false);
+        // If walk animation is playing, adjust speed according to the rigidbody velocity
+        if (animcontroller.IsAnimationActive("Walk")) {
+            // Note: on client the rigidbody does not exist, 
+            // so the velocity is only a replicated attribute
+            var vel = rigidbody.linearVelocity;
+            var walkspeed = Math.sqrt(vel.x * vel.x + vel.y * vel.y) * walk_anim_speed;
+            animcontroller.SetAnimationSpeed("Walk", walkspeed);
+        }
+    }
 
 These two parts are enough for very basic avatar functionality to
 work. This proof of concept implementation totals in 369 lines of

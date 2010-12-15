@@ -212,20 +212,21 @@ automatically stored and synchronized over the net via OpenSimulator.
 
 The generic application platform works currently fully when using the
 so called Tundra server, which a simple server module added to Naali
-itself. This allows Naali to run as standalone for local authoring, or
-for single user applications, but also for using it as a server to
-host worlds on the net instead of using OpenSimulator. With Tundra
-LLUDP is no longer used, but all basic functionality is achieved with
-the generic EC synchronization. For the transport layer, we are using
-a new protocol called kNet which can run either on top of UDP or
-TCP. kNet is similar to eNet but performed better in tests with
-regards to flow control. The Tundra server lacks many basic features
-and may never get some of the advanced OpenSimulator features, like
-running untrusted user authored scripts and combining multiple regions
-to form a large grid. Tundra is however is already useful for local
-authoring and deploying applications like simple games to production
-use. And it serves as an example of how a generic approach to allow
-virtual worlds functionality can be simple yet practical. 
+itself [tundraproject]_. This allows Naali to run as standalone for
+local authoring, or for single user applications, but also for using
+it as a server to host worlds on the net instead of using
+OpenSimulator. With Tundra LLUDP is no longer used, but all basic
+functionality is achieved with the generic EC synchronization. For the
+transport layer, we are using a new protocol called kNet which can run
+either on top of UDP or TCP [knet]_. kNet is similar to eNet but
+performed better in tests with regards to flow control. The Tundra
+server lacks many basic features and may never get some of the
+advanced OpenSimulator features, like running untrusted user authored
+scripts and combining multiple regions to form a large grid. Tundra is
+however is already useful for local authoring and deploying
+applications like simple games to production use. And it serves as an
+example of how a generic approach to allow virtual worlds
+functionality can be simple yet practical.
 
 Regarding the status of the Naali application overall, it is maturing
 and has already been deployed to customers by some of the development
@@ -279,3 +280,7 @@ References
 .. [ec-links] Mick West, Evolve Your Hierarchy -- Refactoring Game Entities with Components http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/
 
 .. [syntensity] http://www.syntensity.com/
+
+.. [knet] http://bitbucket.org/clb/knet/
+
+.. [tundraproject] http://realxtend.blogspot.com/2010/11/tundra-project.html
