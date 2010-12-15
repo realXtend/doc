@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by diasvg.py -->
+<svg width="26.250cm" height="15.285cm" viewBox="2.800 1.305 29.050 16.590"
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="17.700" y="6.200" width="11.300" height="3.400" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="17.700" y="6.200" width="11.300" height="3.400" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="22.000" y="4.050"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Server</text>
+<rect x="2.850" y="6.450" width="7.200" height="2.850" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="2.850" y="6.450" width="7.200" height="2.850" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="5.550" y="3.800"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Client</text>
+<line x1="10.200" y1="6.950" x2="17.213" y2="7.044" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="17.588,7.049 17.085,7.292 17.213,7.044 17.092,6.792 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="17.588,7.049 17.085,7.292 17.213,7.044 17.092,6.792 "/>
+<text x="10.100" y="4.800"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Entity-Actions:</text>
+<text x="10.100" y="5.600"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+move (dir), stop</text>
+<text x="20.600" y="8.300"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Physics</text>
+<text x="20.600" y="9.100"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Movement code</text>
+<line x1="17.700" y1="7.900" x2="10.537" y2="7.877" stroke="#000000" stroke-width="0.100" />
+<polygon fill="#000000" stroke="none" stroke-width="0.100" points="10.162,7.875 10.663,7.627 10.537,7.877 10.661,8.127 "/>
+<polygon fill="none" stroke="#000000" stroke-width="0.100"  points="10.162,7.875 10.663,7.627 10.537,7.877 10.661,8.127 "/>
+<text x="10.500" y="8.800"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Movement and</text>
+<text x="10.500" y="9.600"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+animation state</text>
+<text x="10.500" y="10.400"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+sync with ECs</text>
+<text x="9.300" y="1.900"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Avatar example overview</text>
+<rect x="2.950" y="10.150" width="5.075" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="2.950" y="10.150" width="5.075" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="5.487" y="11.245"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+InputMapper</text>
+<line x1="3.450" y1="11.398" x2="7.525" y2="11.398" stroke="#000000" stroke-width="0.050" />
+<rect x="11.100" y="10.950" width="4.075" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="11.100" y="10.950" width="4.075" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="13.138" y="12.045"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Placeable</text>
+<line x1="11.600" y1="12.197" x2="14.675" y2="12.197" stroke="#000000" stroke-width="0.050" />
+<rect x="21.600" y="10.000" width="4.235" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="21.600" y="10.000" width="4.235" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="23.718" y="11.095"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+RigidBody</text>
+<line x1="22.100" y1="11.247" x2="25.335" y2="11.247" stroke="#000000" stroke-width="0.050" />
+<rect x="11.100" y="12.850" width="7.408" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="11.100" y="12.850" width="7.408" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="14.804" y="13.945"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+AnimationController</text>
+<line x1="11.600" y1="14.098" x2="18.008" y2="14.098" stroke="#000000" stroke-width="0.050" />
+<rect x="11.095" y="14.740" width="6.925" height="1.800" fill="#FFFFFF" stroke="none" stroke-width="0"/>
+<rect x="11.095" y="14.740" width="6.925" height="1.800" fill="none" stroke="#000000" stroke-width="0.100" />
+<text x="14.558" y="15.835"  fill="#000000" text-anchor="middle" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+AvatarAppearance</text>
+<line x1="11.595" y1="15.987" x2="17.520" y2="15.987" stroke="#000000" stroke-width="0.050" />
+<text x="3.750" y="7.450"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Reads input</text>
+<text x="3.050" y="8.600"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Applies animations</text>
+<text x="20.500" y="7.500"  fill="#000000" text-anchor="start" font-size="0.80" font-family="sans" font-style="normal" font-weight="400">
+Creates the AVs</text>
+</svg>
