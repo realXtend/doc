@@ -7,7 +7,8 @@ base level, to allow arbitrary applications to be built. However, a
 generic platform must of course allow the implementation of avatar
 functionality on the application level. Here we describe a proof of
 concept implementation using the realXtend Entity-Component-Action
-model. The source code is available at [tundra-avatar]_.
+model. The full source code is available at [tundra-avatar]_, and a
+parts of it are included below.
 
 Avatar means two things: 1) The visual appearance and the systems
 built around it, to for example modify the looks and add attachments
@@ -23,15 +24,33 @@ The server side functionality to give every new client connection a
 designated avatar is implemented in a simple Javascript script,
 avatarapplication.js . Upon a new connection, it instanciates an
 avatar by creating a new entity and these components to it: Mesh for
-visible 3d model and associated skeleton for animations, Placeable for
-the entity to be positioned in the 3d scene, AnimationController to
-change and synchronize the animation states so that e.g. the walking
-animation is correctly played back while the avatar moves and finally
-a Script component which refers to another Javascript file which
-implements the functionality of a single avatar. Additionally, the main
-application script is also executed on the client, where it only adds
-a function to toggle between the default free look camera and new
-camera which follows the avatar.
+the visible 3d model and associated skeleton for animations, Placeable
+for the entity to be positioned in the 3d scene, AnimationController
+to change and synchronize the animation states so and finally a Script
+component to implement the functionality of a single
+avatar. Additionally, the main application script is also executed on
+the client, where it only adds a function to toggle between the
+default free look camera and new camera which follows the avatar.
+
+Handling new client connections on the server:
+
+.. code-block:: javascript
+
+   function serverHandleUserConnected(connectionID, userconnection) {
+       var avatarEntity = scene.CreateEntity(scene.NextFreeId(), 
+                          ["EC_Script", "EC_Placeable", "EC_AnimationController"]);
+       avatarEntity.Name = "Avatar" + connectionID;
+       avatarEntity.Description = userconnection.GetProperty("username");
+       avatarEntity.script.ref = "simpleavatar.js";
+
+       // Set random starting position for avatar
+       var transform = avatarEntity.placeable.transform;
+       transform.pos.x = (Math.random() - 0.5) * avatar_area_size + avatar_area_x;
+       transform.pos.y = (Math.random() - 0.5) * avatar_area_size + avatar_area_y;
+       transform.pos.z = avatar_area_z;
+       avatarEntity.placeable.transform = transform;
+   }
+
 
 The other script for an individual avatar, simpleavatar.js, adds a few
 more components: AvatarAppearance for the customizable looks,
@@ -54,6 +73,25 @@ the avatar is moving. All participants run common animation update
 code to play back the walk animation while moving, calculating the
 correct speed from the velocity data from the physics on the server.
 
+Updating animations, the common code executed both on the client and the server:
+
+.. code-block:: javascript
+
+    function commonUpdateAnimation(frametime) {
+        var animcontroller = me.animationcontroller;
+        var animname = animcontroller.animationState;
+        if (animname != "")
+            animcontroller.EnableExclusiveAnimation(animname, true, 0.25, 0.25, false);
+        // If walk animation is playing, adjust speed according to the rigidbody velocity
+        if (animcontroller.IsAnimationActive("Walk")) {
+            // Note: on client the rigidbody does not exist, 
+            // so the velocity is only a replicated attribute
+            var vel = me.rigidbody.linearVelocity;
+            var walkspeed = Math.sqrt(vel.x * vel.x + vel.y * vel.y) * walk_anim_speed;
+            animcontroller.SetAnimationSpeed("Walk", walkspeed);
+        }
+    }
+
 These two parts are enough for very basic avatar functionality to
 work. This proof of concept implementation totals in 369 lines of
 fairly simple Javascript code in the two files. The visual appearance
@@ -66,6 +104,22 @@ all, and is used in this demo as is. A more generic and customizable
 appearance system could be implemented with the ECs, but that is
 outside the scope of the demo and description here.
 
+.. figure:: avapp.jpg
+   :scale: 100 %
+
+   The parts of the avatar example:
+
+   +-----------------------+---------------------------------------------+
+   | Symbol                | Meaning                                     |
+   +=======================+=============================================+
+   | Colors brown/purple   | Client / Server respectively                |
+   +-----------------------+---------------------------------------------+
+   | Arrows                | Network messages                            |
+   +-----------------------+---------------------------------------------+
+   | Filled boxes          | ECs on client, server or shared by both     |
+   +-----------------------+---------------------------------------------+
+
+
 One thing to note is that the division of work between the clients and
 the server described here is by no means the only possible one. The
 fact that we are using the same code to run both the server and the
@@ -76,3 +130,11 @@ works. It is suitable when trust and physics are centralized on a
 server. The drawback is that user control responsiveness may suffer
 from network lag. We are planning to later utilize the physics module
 in client mode too to allow movement code to run locally as well.
+
+With the ability to run custom code also in the client, it is easy to
+extend avatar related functionality. For example, in one project for
+schools we added the capability to simply carry objects around as the
+most simple means for 3d editing. Another possibility is to add more
+data that is synchronized for animations, even the full skeleton for
+motion capture or machine vision based mapping of the real body to the
+avatar pose.
