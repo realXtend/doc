@@ -37,8 +37,8 @@ for virtual worlds akin to Firefox for HTML-based applications.
 For users with no previous experience in virtual worlds, 3D or game
 programming, the tool allows easy reuse of premade models and scripts
 from libraries on the web. Any asset reference in realXtend can be an
-URL, and the Naali GUI supports simple drag&drop of 3d models from web
-pages to the 3d scene. You can build your world simply in the local
+URL, and the Naali GUI supports simple drag&drop of 3D models from web
+pages to the 3D scene. You can build your world simply in the local
 application, like you can use a web browser to view own HTML files and
 test the functionality without needing to setup any servers. The full
 scene or a selected part of it can be saved to a file, for local use
