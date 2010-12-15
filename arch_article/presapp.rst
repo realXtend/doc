@@ -97,18 +97,17 @@ the current page on that object for everyone to get to see it in sync.
 We could do this with just a 2D widget, but let's do it in a 3D scene
 as the idea is to illustrate the extensibility there.
 
-So, let's add a new entity called "presentation". Entities are just
-identities which aggregate components. For this simple technique,
-showing web pages, we need a few basic ones: Placeable to have
-something in the scene, Mesh to have geometry (e.g. a plane) on which
-to show the slides, and WebView to render html from URLs. And two
-additional ones for our custom functionality: a DynamicComponent to
-hold and sync our custom data, and Script to implement the custom UI
-handling and presentation controls. As data we need a list or URLs and
-an index number for the current position. This custom data becomes
-part of the scene data and is automatically stored and synchronized
-among the participants. The Script component is a reference to
-Javascript or Python code which implements all the logic.
+So, let's add a new entity called "presentation". For showing web
+pages, we need a few basic components: Placeable to have something in the
+scene, Mesh to have geometry (e.g. a plane) on which to show the
+slides, and WebView to render html from URLs. And two additional ones
+for our custom functionality: a DynamicComponent to hold and sync our
+custom data, and Script to implement the custom UI handling and
+presentation controls. As data we need a list or URLs and an index
+number for the current position. This custom data becomes part of the
+scene data and is automatically stored and synchronized among the
+participants. The Script component is a reference to Javascript or
+Python code which implements all the logic.
 
 To handle the user input, we have two options: either handle input
 events and modify the state correspondingly directly in the client
@@ -122,7 +121,7 @@ in presentation mode only the designated presenter is allowed to
 control the shared view. Then if the presentation material is left in
 the scene for anyone to visit at other times, control can be freed for
 anyone. Changes to the index attribute are synchronized for all
-participants so they can update the outline GUI accordingly.
+participants so theniqy can update the outline GUI accordingly.
 
 For the outline view, the code can add a 2D panel with thumbnails of
 all the slides and hilight the current one. For free browsing,
