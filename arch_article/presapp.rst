@@ -9,7 +9,7 @@ strategy (RTS) feature multiple units which the player commands,
 similarly to board games like chess. However, to get an even more
 different point of view to the user controls and actions in an
 application, the example here is not about navigating a view of a 3d
-space or spatial movement of units. Instead, let's design a slideshow
+space or spatial movement of units. Instead, let's design a slideshow-
 like presentation application using the same entity-component-action
 building blocks as in the avatar example.
 
@@ -25,19 +25,19 @@ some system to get a shared view over the network, and that is the use
 case in this example.
 
 There are several ways how the realXtend platform could be used to
-make a presentation. One is to put the material in the 3d space so
+make a presentation. One is to put the material in the 3D space so
 that by navigating the view the presenter can focus on the different
-topics. The material could be simply 2d text and image slides, or web
+topics. The material could be simply 2D text and image slides, or web
 pages, on plates around the space when the 3d system would be just
 used as a spatial organization and navigation tool for the traditional
-slides. Or there could be animated 3d objects in the
+slides. Or there could be animated 3D objects in the
 scene. Alternatively, the viewport could stay in place while the scene
 is changed -- e.g. by simply changing the slide on a virtual display
 in world, or by bringing different items to the stage during the
 course of the presentation. Also, the platform and the
-entity-component system is not limited to the 3d view: the 2d ui is
+entity-component system is not limited to the 3D view: the 2D UI is
 also accessible for application scripts, so they can use the network
-synchronized entity attribute states and actions with 2d widgets. The
+synchronized entity attribute states and actions with 2D widgets. The
 built-in voice capability and text chat can be used for the talk and
 communicating with the others.
 
@@ -94,7 +94,7 @@ Implementation
 A very simple way to implement this is to use a static camera which
 shows a single webpage view. It then suffices for the server to change
 the current page on that object for everyone to get to see it in sync.
-We could do this with just a 2d widget, but let's do it in a 3d scene
+We could do this with just a 2D widget, but let's do it in a 3D scene
 as the idea is to illustrate the extensibility there.
 
 So, let's add a new entity called "presentation". Entities are just
@@ -124,26 +124,26 @@ the scene for anyone to visit at other times, control can be freed for
 anyone. Changes to the index attribute are synchronized for all
 participants so they can update the outline GUI accordingly.
 
-For the outline view, the code can add a 2d panel with thumbnails of
+For the outline view, the code can add a 2D panel with thumbnails of
 all the slides and hilight the current one. For free browsing,
 clicking on a thumbnail can open a new window with that slide, while
 the main presentation view remains. This we way have a simple,
 complete presentation application implemented on top of a generic
-virtual worlds platform.
+virtual world platform.
 
 Does this make sense?
 ---------------------
 
 Of course just getting a shared view of a set of web pages could is
 easily deployed without realXtend technology just by using regular web
-browsers with HTML+Javascript and some server backend. The idea here
-is to illustrate the use of Entity-Components and automatic attribute
+browsers with HTML, Javascript and some server backend. The idea here
+is to illustrate the use of ECs and automatic attribute
 synchronization for custom functionality in a minimal complete
 example. Real benefits of the platform would be utilized if the actual
-presentation material was interactive animated 3d objects, such as
+presentation material was interactive animated 3D objects, such as
 alternative house or car designs, which the presenter would go thru
 and manipulate during the talk. Basically what we are aiming at is
-making interactive multiuser 3d applications easy to author,
+making interactive multi-user 3D applications easy to author,
 comparable to how single user web pages are today.
 
 It is, however, interesting to consider whether the platform makes
@@ -151,7 +151,7 @@ implementing this kind of features so easy that it makes sense even
 for things that could be made to work in regular web browsers
 too. This is relevant also because we are writing an experimental
 WebNaali client which does entity attribute sync and actions over
-WebSockets. For 3d view it uses WebGL, but for 2d applications the
+WebSockets. For 3D view it uses WebGL, but for 2D applications the
 networking part could be used without WebGL as well. Perhaps the same
 EC technique would be useful for such normal web applications that
 need to share state in realtime?
