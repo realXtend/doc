@@ -1,7 +1,7 @@
-The concept of an avatar characterizes virtual worlds -- VW
+The concept of an avatar characterizes virtual worlds -- virtual world
 functionality is often described by how the user is in the world as an
 avatar through which she can act. It is so central that technologies
-like the protocol used in Second Life assume it, the concept is
+like the LLUDP protocol used in Second Life assume it, the concept is
 hardcoded in the platform. We argue that it should not exist on the
 base level, to allow arbitrary applications to be built. However, a
 generic platform must of course allow the implementation of avatar
@@ -20,12 +20,12 @@ mouse are mapped to move and rotate the own avatar. Here, while
 covering the very basics for the visual appearance, the focus is on
 the latter control functionality.
 
-The server side functionality to give every new client connection a
+The server-side functionality to give every new client connection a
 designated avatar is implemented in a simple Javascript script,
-avatarapplication.js . Upon a new connection, it instanciates an
+avatarapplication.js. Upon a new connection, it instanciates an
 avatar by creating a new entity and these components to it: Mesh for
-the visible 3d model and associated skeleton for animations, Placeable
-for the entity to be positioned in the 3d scene, AnimationController
+the visible 3D model and associated skeleton for animations, Placeable
+for the entity to be positioned in the 3D scene, AnimationController
 to change and synchronize the animation states so and finally a Script
 component to implement the functionality of a single
 avatar. Additionally, the main application script is also executed on
@@ -55,7 +55,7 @@ Handling new client connections on the server:
 The other script for an individual avatar, simpleavatar.js, adds a few
 more components: AvatarAppearance for the customizable looks,
 RigidBody for physics (collision detection) and on the client side an
-InputMapper for handling user control input. So called Entity Actions
+InputMapper for handling user control input. Entity actions
 are used to make the avatar move according to the user controls. These
 actions are commands that any code can invoke on an entity, to be
 executed either locally in the same client or remotely on the server,
@@ -134,7 +134,7 @@ in client mode too to allow movement code to run locally as well.
 With the ability to run custom code also in the client, it is easy to
 extend avatar related functionality. For example, in one project for
 schools we added the capability to simply carry objects around as the
-most simple means for 3d editing. Another possibility is to add more
+most simple means for 3D editing. Another possibility is to add more
 data that is synchronized for animations, even the full skeleton for
 motion capture or machine vision based mapping of the real body to the
 avatar pose.

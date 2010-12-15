@@ -28,7 +28,7 @@ Introduction
 
 RealXtend is an open source project aiming to speed up the development
 of standards for 3D virtual worlds. We leverage standards including
-HTTP, COLLADA, XMPP and open source libraries such as OGRE 3D, Qt,
+HTTP, COLLADA, XMPP and open source libraries such as OGRE, Qt,
 OpenSimulator, and Blender.  Beginning as a collaboration of several
 small companies that utilize the base technology in different
 application fields, but which coordinate the development of the common
@@ -64,7 +64,7 @@ and controlling the copyright. The main point of this article,
 however, is independent of particular applications, but instead about
 the extensible scene model we have now started using.
 
-Naali uses the so-called Entity-Component (EC) model as a basis to
+Naali uses the so-called entity-component (EC) model as a basis to
 construct extensible scenes. The model was adopted from contemporary
 game engine architectures [ec-links]_. Entities are simply unique
 identitities, with no data or typing. They aggregate components, which
@@ -104,10 +104,10 @@ that.
 All these can work on top of the same generic software platform and
 network protocol, similarily to how web sites feature different
 functionality and interfaces that run in the generic browsers. Just
-that here the client has the most powerful native 3d graphics engine,
+that here the client has the most powerful native 3D graphics engine,
 and the realtime protocol can use UDP to minimize latency when
 needed. Yet writing custom functionality is made easy with Javascript
-and Python, which can access the 3d side of things like skeletal
+and Python, which can access the 3D side of things like skeletal
 animation control.
 
 To demonstrate the feasibility of our generic approach, there is a
@@ -148,7 +148,7 @@ objects. Separate object hosts, either running on the same server or
 any client / peer, can run arbitrary code to implement the objects in
 the federated world [sirikata-scaling]_. Messaging is used exclusively
 for all object interactions [sirikata_scripting]_. The idea with the
-Entity-Component mechanism in Naali is, instead, to lessen the need to
+EC mechanism in Naali is, instead, to lessen the need to
 invent own protocols for all networked application behaviour when for
 simple usage using the automatically synchronized attributes
 suffices. In preliminary talks with some Sirikata developers we
@@ -202,7 +202,7 @@ seems promising for the long run [sirikata-scaling]_.
 Status of implementations
 -------------------------
 
-The generic Entity-Component approach was proposed to OpenSimulator
+The generic EC approach was proposed to OpenSimulator
 core and accepted as the plan already in December 2009
 [adam-ecplan]_. The implementation is however still in very early
 stages, only the first steps have been taken to allow refactoring the
@@ -220,7 +220,7 @@ so called Tundra server, which a simple server module added to Naali
 itself [tundraproject]_. This allows Naali to run as standalone for
 local authoring, or for single user applications, but also for using
 it as a server to host worlds on the net instead of using
-OpenSimulator. With Tundra LLUDP is no longer used, but all basic
+OpenSimulator. With Tundra the LLUDP protocol is no longer used, but all basic
 functionality is achieved with the generic EC synchronization. For the
 transport layer, we are using a new protocol called kNet which can run
 either on top of UDP or TCP [knet]_. kNet is similar to eNet but
@@ -241,7 +241,7 @@ utilized to expose the C++ internals automatically. This covers all
 modules like the renderer and the UI, and all the ECs. The QtScript
 library provides this for Javascript support, and PythonQt does the
 same for Python. There is also QtLua with which Lua support could be
-easily added. Thanks to the Ogre3D graphics engine, Naali runs both on
+easily added. Thanks to the OGRE graphics engine, Naali runs both on
 e.g. the N900 mobile phone with OpenGL ES, and on powerful PCs with
 multiple video outputs with the built-in CAVE rendering support. There
 is also an experimental WebNaali client, written in Javascript to run
