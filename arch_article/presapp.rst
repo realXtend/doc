@@ -154,3 +154,13 @@ WebSockets. For 3D view it uses WebGL, but for 2D applications the
 networking part could be used without WebGL as well. Perhaps the same
 EC technique would be useful for such normal web applications that
 need to share state in realtime?
+
+.. figure:: screenshot_presentation_toy.png
+
+   Two Naali clients by the presentation stage of the TOY system, an
+   open source learning environment for the Future School of Finland
+   project. The one of the left just added a web page to the stage,
+   using a custom building tool implemented in a PythonQt written
+   add-on. He is currently carrying the object, a new functionality
+   also implement in the addon. The client on the left is a compatible
+   standard release version without those additional tools.
