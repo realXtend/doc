@@ -1,16 +1,16 @@
 ======================
 Worlds on Your Desktop
 ======================
-----------------------------------------------
-making rich virtual worlds as simple documents
-----------------------------------------------
+----------------------------------------------------
+simple yet powerful extensibility for virtual worlds
+----------------------------------------------------
 
-*What if you could open an arbitrary, visually appealing and highly
-interactive virtual world quickly by just clicking a file? Edit it
-locally, save changes, and publish it on the net to run as a shared
-environment where anyone can log in? Add your own custom data and
-functionality using familiar scripting languages? You can! Using
-no-strings-attached open source software.*
+*What if you could edit a visually appealing and highly interactive
+virtual world just like you edit traditional files? Change them
+locally, save multiple versions, then publish them on the net as
+shared environments where anyone can log in? Add your own custom data
+and functionality using familiar scripting languages? You can already
+do all of this, using fully open source software.*
 
 (This document was generated on |date| at |time|.)
 
@@ -174,16 +174,17 @@ the ECs only, so the same tools work for e.g. graphical editing,
 persistentence and network sync identically for all data.
 
 The document oriented approach of having worlds as files is of course
-precedented in 3D file format standards like VRML, X3D and COLLADA. The
-idea with the realXtend files is to not specify the contents of the
-files, but they are only a mechanism for the applications to put the
-component data that they need. An essential element are the script
-references that implement the functionality of the applications,
-similar to how HTML documents have Javascript references. But also
-this is not specified in the file format, it is just how the bundled
-Script component works. For static content, we support using
-e.g. COLLADA assets directly. (W.I.P NOTE: check how x3d and friends
-do scripting).
+precedented in 3D file format standards like VRML, X3D and
+COLLADA. Unlike those, the realXtend files do not have 3D geometry,
+but describe a scene by referring to external assets, for example
+meshes in the COLLADA format. Essentially they are a mechanism for
+also application specific custom data, which is automatically
+syncronized over the net. They have script references that implement
+the functionality of the applications, similar to how HTML documents
+have Javascript references. But also this is not specified in the file
+format, it is just how the bundled Script component works. 
+
+.. (W.I.P NOTE: check how x3d and friends do scripting).
 
 The realXtend platform is currently by no means a complete solution
 for all the problem of virtual world architectures. Naali does not
@@ -196,7 +197,7 @@ address the trust and scalability issues. Opensim is already used to
 host large grids by numerous people, and the architecture in Sirikata
 seems promising for the long run [sirikata-scaling]_.
 
-(add about the javascript sandbox challenge here? standardizing client side APIs?)
+.. (add about the javascript sandbox challenge here? standardizing client side APIs?)
 
 Status of implementations
 -------------------------
@@ -255,8 +256,8 @@ simple and practical, yet powerful and truly extensible. We hope this
 is taken into consideration in upcoming standardization processes, for
 example if VWRAP proceeds to address in-world scene functionality. In
 any case, we will continue to develop the platform and applications on
-top of it. Anyone is free to do the same, and to participate in the
-development, which is largely coordinated on-line, if will.
+top of it. Anyone is free to use it for their needs, and to
+participate in the development which is largely coordinated on-line.
 
 
 References

@@ -269,7 +269,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 51 0 R
+ /Dest [ 52 0 R
  /XYZ
  62.69291
  765.0236
@@ -287,7 +287,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 51 0 R
+ /Dest [ 52 0 R
  /XYZ
  62.69291
  765.0236
@@ -305,7 +305,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 51 0 R
+ /Dest [ 52 0 R
  /XYZ
  62.69291
  732.0236
@@ -323,7 +323,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 51 0 R
+ /Dest [ 52 0 R
  /XYZ
  62.69291
  732.0236
@@ -341,10 +341,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 51 0 R
+ /Dest [ 52 0 R
  /XYZ
  62.69291
- 216.0236
+ 234.0236
  0 ]
  /Rect [ 82.69291
  437.7736
@@ -359,10 +359,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 51 0 R
+ /Dest [ 52 0 R
  /XYZ
  62.69291
- 216.0236
+ 234.0236
  0 ]
  /Rect [ 527.0227
  437.7736
@@ -377,10 +377,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 66 0 R
+ /Dest [ 68 0 R
  /XYZ
  62.69291
- 507.0236
+ 531.0236
  0 ]
  /Rect [ 62.69291
  419.7736
@@ -395,10 +395,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 66 0 R
+ /Dest [ 68 0 R
  /XYZ
  62.69291
- 507.0236
+ 531.0236
  0 ]
  /Rect [ 527.0227
  419.7736
@@ -413,10 +413,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 66 0 R
+ /Dest [ 68 0 R
  /XYZ
  62.69291
- 408.0236
+ 432.0236
  0 ]
  /Rect [ 62.69291
  401.7736
@@ -431,10 +431,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 66 0 R
+ /Dest [ 68 0 R
  /XYZ
  62.69291
- 408.0236
+ 432.0236
  0 ]
  /Rect [ 527.0227
  401.7736
@@ -505,10 +505,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 66 0 R
+ /Dest [ 68 0 R
  /XYZ
  68.69291
- 237.9843
+ 261.9843
  0 ]
  /Rect [ 312.3689
  711.7736
@@ -526,7 +526,7 @@ endobj
  /Dest [ 80 0 R
  /XYZ
  68.69291
- 659.0236
+ 707.0236
  0 ]
  /Rect [ 371.7028
  597.7736
@@ -541,10 +541,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 66 0 R
+ /Dest [ 68 0 R
  /XYZ
  68.69291
- 129.9843
+ 153.9843
  0 ]
  /Rect [ 471.448
  441.7736
@@ -559,10 +559,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 66 0 R
+ /Dest [ 68 0 R
  /XYZ
  68.69291
- 213.9843
+ 237.9843
  0 ]
  /Rect [ 318.4841
  243.7736
@@ -600,10 +600,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 66 0 R
+ /Dest [ 68 0 R
  /XYZ
  68.69291
- 201.9843
+ 225.9843
  0 ]
  /Rect [ 118.8329
  654.7736
@@ -737,10 +737,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 66 0 R
+ /Dest [ 68 0 R
  /XYZ
  68.69291
- 297.9843
+ 321.9843
  0 ]
  /Rect [ 106.6637
  660.7736
@@ -755,10 +755,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 80 0 R
+ /Dest [ 68 0 R
  /XYZ
  68.69291
- 767.0236
+ 129.9843
  0 ]
  /Rect [ 65.47291
  624.7736
@@ -776,7 +776,7 @@ endobj
  /Dest [ 80 0 R
  /XYZ
  68.69291
- 719.0236
+ 767.0236
  0 ]
  /Rect [ 390.2402
  624.7736
@@ -794,7 +794,7 @@ endobj
  /Dest [ 80 0 R
  /XYZ
  68.69291
- 659.0236
+ 707.0236
  0 ]
  /Rect [ 493.1327
  546.7736
@@ -812,7 +812,7 @@ endobj
  /Dest [ 80 0 R
  /XYZ
  68.69291
- 635.0236
+ 683.0236
  0 ]
  /Rect [ 313.9086
  522.7736
@@ -827,10 +827,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 80 0 R
+ /Dest [ 68 0 R
  /XYZ
  68.69291
- 767.0236
+ 129.9843
  0 ]
  /Rect [ 82.70291
  246.7736
@@ -845,20 +845,38 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 66 0 R
+ /Dest [ 68 0 R
  /XYZ
  68.69291
- 165.9843
+ 189.9843
  0 ]
  /Rect [ 189.0943
- 168.7736
+ 186.7736
  246.8943
- 180.7736 ]
+ 198.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER35': class LinkAnnotation 
+51 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 80 0 R
+ /XYZ
+ 68.69291
+ 659.0236
+ 0 ]
+ /Rect [ 256.4191
+ 84.77362
+ 314.7791
+ 96.77362 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Page7': class PDFPage 
-51 0 obj
+52 0 obj
 % Page dictionary
 << /Annots [ 44 0 R
  45 0 R
@@ -866,7 +884,8 @@ endobj
  47 0 R
  48 0 R
  49 0 R
- 50 0 R ]
+ 50 0 R
+ 51 0 R ]
  /Contents 102 0 R
  /MediaBox [ 0
  0
@@ -883,24 +902,6 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'Annot.NUMBER35': class LinkAnnotation 
-52 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 80 0 R
- /XYZ
- 68.69291
- 611.0236
- 0 ]
- /Rect [ 256.4191
- 741.7736
- 314.7791
- 753.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
 % 'Annot.NUMBER36': class LinkAnnotation 
 53 0 obj
 << /Border [ 0
@@ -910,12 +911,12 @@ endobj
  /Dest [ 80 0 R
  /XYZ
  68.69291
- 623.0236
+ 671.0236
  0 ]
  /Rect [ 243.0543
- 693.7736
+ 717.7736
  261.9543
- 705.7736 ]
+ 729.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -925,15 +926,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 51 0 R
+ /Dest [ 52 0 R
  /XYZ
  103.2629
  674.0236
  0 ]
  /Rect [ 68.69291
- 284.7343
+ 308.7343
  119.2529
- 296.7343 ]
+ 320.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -946,9 +947,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 236.7343
+ 260.7343
  342.1923
- 248.7343 ]
+ 272.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -964,9 +965,9 @@ endobj
  725.0236
  0 ]
  /Rect [ 68.69291
- 224.7343
+ 248.7343
  153.1529
- 236.7343 ]
+ 260.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -979,9 +980,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 224.7343
+ 248.7343
  363.2923
- 236.7343 ]
+ 260.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -997,9 +998,9 @@ endobj
  257.0236
  0 ]
  /Rect [ 68.69291
- 200.7343
+ 224.7343
  124.8229
- 212.7343 ]
+ 236.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1012,9 +1013,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 200.7343
+ 224.7343
  532.5827
- 212.7343 ]
+ 236.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1030,9 +1031,9 @@ endobj
  668.0236
  0 ]
  /Rect [ 68.69291
- 188.7343
+ 212.7343
  128.1629
- 200.7343 ]
+ 224.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1045,9 +1046,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 176.7343
+ 200.7343
  442.1424
- 188.7343 ]
+ 212.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1060,9 +1061,9 @@ endobj
  0
  0 ]
  /Rect [ 164.2923
- 164.7343
+ 188.7343
  461.1023
- 176.7343 ]
+ 200.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1072,15 +1073,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 51 0 R
+ /Dest [ 52 0 R
  /XYZ
  182.7429
- 182.0236
+ 200.0236
  0 ]
  /Rect [ 68.69291
- 152.7343
+ 176.7343
  126.4929
- 164.7343 ]
+ 188.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1093,9 +1094,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 128.7343
+ 152.7343
  477.7423
- 140.7343 ]
+ 164.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1111,17 +1112,52 @@ endobj
  455.0236
  0 ]
  /Rect [ 68.69291
- 116.7343
+ 140.7343
  105.3629
+ 152.7343 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER49': class LinkAnnotation 
+66 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 52 0 R
+ /XYZ
+ 62.69291
+ 638.0236
+ 0 ]
+ /Rect [ 138.1429
+ 116.7343
+ 143.7029
  128.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
+% 'Annot.NUMBER50': class LinkAnnotation 
+67 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 52 0 R
+ /XYZ
+ 79.92291
+ 260.0236
+ 0 ]
+ /Rect [ 68.69291
+ 104.7343
+ 74.25291
+ 116.7343 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
 % 'Page8': class PDFPage 
-66 0 obj
+68 0 obj
 % Page dictionary
-<< /Annots [ 52 0 R
- 53 0 R
+<< /Annots [ 53 0 R
  54 0 R
  55 0 R
  56 0 R
@@ -1133,7 +1169,9 @@ endobj
  62 0 R
  63 0 R
  64 0 R
- 65 0 R ]
+ 65 0 R
+ 66 0 R
+ 67 0 R ]
  /Contents 103 0 R
  /MediaBox [ 0
  0
@@ -1150,57 +1188,21 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'Annot.NUMBER49': class LinkAnnotation 
-67 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 51 0 R
- /XYZ
- 62.69291
- 638.0236
- 0 ]
- /Rect [ 138.1429
- 753.7736
- 143.7029
- 765.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER50': class LinkAnnotation 
-68 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 51 0 R
- /XYZ
- 79.92291
- 260.0236
- 0 ]
- /Rect [ 68.69291
- 741.7736
- 74.25291
- 753.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
 % 'Annot.NUMBER51': class LinkAnnotation 
 69 0 obj
 << /Border [ 0
  0
  0 ]
  /Contents ()
- /Dest [ 51 0 R
+ /Dest [ 52 0 R
  /XYZ
  387.2429
  638.0236
  0 ]
  /Rect [ 68.69291
- 705.7736
+ 753.7736
  143.1529
- 717.7736 ]
+ 765.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1213,9 +1215,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 657.7736
+ 705.7736
  345.5123
- 669.7736 ]
+ 717.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1231,9 +1233,9 @@ endobj
  611.0236
  0 ]
  /Rect [ 105.9129
- 645.7736
+ 693.7736
  111.4729
- 657.7736 ]
+ 705.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1243,15 +1245,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 51 0 R
+ /Dest [ 52 0 R
  /XYZ
  470.1129
  560.0236
  0 ]
  /Rect [ 117.0329
- 645.7736
+ 693.7736
  122.5929
- 657.7736 ]
+ 705.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1264,9 +1266,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 633.7736
+ 681.7736
  444.4023
- 645.7736 ]
+ 693.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1276,15 +1278,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 51 0 R
+ /Dest [ 52 0 R
  /XYZ
  310.0029
  536.0236
  0 ]
  /Rect [ 68.69291
- 621.7736
+ 669.7736
  113.1529
- 633.7736 ]
+ 681.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1297,9 +1299,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 621.7736
+ 669.7736
  532.5827
- 633.7736 ]
+ 681.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1309,15 +1311,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 66 0 R
+ /Dest [ 68 0 R
  /XYZ
  226.6529
- 707.0236
+ 731.0236
  0 ]
  /Rect [ 68.69291
- 609.7736
+ 657.7736
  87.59291
- 621.7736 ]
+ 669.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1330,9 +1332,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 609.7736
+ 657.7736
  532.5827
- 621.7736 ]
+ 669.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1342,15 +1344,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 66 0 R
+ /Dest [ 52 0 R
  /XYZ
  251.0929
- 755.0236
+ 98.02362
  0 ]
  /Rect [ 68.69291
- 597.7736
+ 645.7736
  127.0529
- 609.7736 ]
+ 657.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1363,18 +1365,16 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 597.7736
+ 645.7736
  532.5827
- 609.7736 ]
+ 657.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Page9': class PDFPage 
 80 0 obj
 % Page dictionary
-<< /Annots [ 67 0 R
- 68 0 R
- 69 0 R
+<< /Annots [ 69 0 R
  70 0 R
  71 0 R
  72 0 R
@@ -1412,7 +1412,7 @@ endobj
 % 'R82': class PDFInfo 
 82 0 obj
 << /Author ()
- /CreationDate (D:20101215200546-02'00')
+ /CreationDate (D:20101215210241-02'00')
  /Keywords ()
  /Producer (ReportLab http://www.reportlab.com)
  /Subject (\(unspecified\))
@@ -1500,7 +1500,7 @@ endobj
 % 'Outline.3': class OutlineEntryObject 
 90 0 obj
 << /Count 2
- /Dest [ 51 0 R
+ /Dest [ 52 0 R
  /XYZ
  62.69291
  765.0236
@@ -1514,7 +1514,7 @@ endobj
 endobj
 % 'Outline.13.0': class OutlineEntryObject 
 91 0 obj
-<< /Dest [ 51 0 R
+<< /Dest [ 52 0 R
  /XYZ
  62.69291
  732.0236
@@ -1525,10 +1525,10 @@ endobj
 endobj
 % 'Outline.13.1': class OutlineEntryObject 
 92 0 obj
-<< /Dest [ 51 0 R
+<< /Dest [ 52 0 R
  /XYZ
  62.69291
- 216.0236
+ 234.0236
  0 ]
  /Parent 90 0 R
  /Prev 91 0 R
@@ -1536,10 +1536,10 @@ endobj
 endobj
 % 'Outline.4': class OutlineEntryObject 
 93 0 obj
-<< /Dest [ 66 0 R
+<< /Dest [ 68 0 R
  /XYZ
  62.69291
- 507.0236
+ 531.0236
  0 ]
  /Next 94 0 R
  /Parent 83 0 R
@@ -1548,10 +1548,10 @@ endobj
 endobj
 % 'Outline.5': class OutlineEntryObject 
 94 0 obj
-<< /Dest [ 66 0 R
+<< /Dest [ 68 0 R
  /XYZ
  62.69291
- 408.0236
+ 432.0236
  0 ]
  /Parent 83 0 R
  /Prev 93 0 R
@@ -1567,15 +1567,15 @@ endobj
  41 0 R
  42 0 R
  43 0 R
- 51 0 R
- 66 0 R
+ 52 0 R
+ 68 0 R
  80 0 R ]
  /Type /Pages >>
 endobj
 % 'R96': class PDFStream 
 96 0 obj
 % page stream
-<< /Length 6024 >>
+<< /Length 6040 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -1587,21 +1587,21 @@ Q
 q
 1 0 0 1 62.69291 711.0236 cm
 q
-BT 1 0 0 1 0 3 Tm 63.63738 0 Td 18 TL /F2 15 Tf 0 0 0 rg (making rich virtual worlds as simple documents) Tj T* -63.63738 0 Td ET
+BT 1 0 0 1 0 3 Tm 56.55738 0 Td 18 TL /F2 15 Tf 0 0 0 rg (simple yet powerful extensibility for virtual worlds) Tj T* -56.55738 0 Td ET
 Q
 Q
 q
 1 0 0 1 62.69291 653.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 38 Tm /F3 10 Tf 12 TL .78061 Tw (What if you could open an arbitrary, visually appealing and highly interactive virtual world quickly by just) Tj T* 0 Tw 1.532619 Tw (clicking a file? Edit it locally, save changes, and publish it on the net to run as a shared environment) Tj T* 0 Tw .237318 Tw (where anyone can log in? Add your own custom data and functionality using familiar scripting languages?) Tj T* 0 Tw (You can! Using no-strings-attached open source software.) Tj T* ET
+BT 1 0 0 1 0 38 Tm /F3 10 Tf 12 TL .66881 Tw (What if you could edit a visually appealing and highly interactive virtual world just like you edit traditional) Tj T* 0 Tw .534651 Tw (files? Change them locally, save multiple versions, then publish them on the net as shared environments) Tj T* 0 Tw .237318 Tw (where anyone can log in? Add your own custom data and functionality using familiar scripting languages?) Tj T* 0 Tw (You can already do all of this, using fully open source software.) Tj T* ET
 Q
 Q
 q
 1 0 0 1 62.69291 635.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(This document was generated on 2010-12-15 at 20:05.\)) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(This document was generated on 2010-12-15 at 21:02.\)) Tj T* ET
 Q
 Q
 q
@@ -2253,7 +2253,7 @@ endobj
 % 'R102': class PDFStream 
 102 0 obj
 % page stream
-<< /Length 6720 >>
+<< /Length 6875 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -2284,7 +2284,7 @@ q
 1 0 0 1 62.69291 336.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL 1.786235 Tw (The document oriented approach of having worlds as files is of course precedented in 3D file format) Tj T* 0 Tw .405868 Tw (standards like VRML, X3D and COLLADA. The idea with the realXtend files is to not specify the contents) Tj T* 0 Tw .418935 Tw (of the files, but they are only a mechanism for the applications to put the component data that they need.) Tj T* 0 Tw .573555 Tw (An essential element are the script references that implement the functionality of the applications, similar) Tj T* 0 Tw .724431 Tw (to how HTML documents have Javascript references. But also this is not specified in the file format, it is) Tj T* 0 Tw .311984 Tw (just how the bundled Script component works. For static content, we support using e.g. COLLADA assets) Tj T* 0 Tw (directly. \(W.I.P NOTE: check how x3d and friends do scripting\).) Tj T* ET
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL 1.786235 Tw (The document oriented approach of having worlds as files is of course precedented in 3D file format) Tj T* 0 Tw .405868 Tw (standards like VRML, X3D and COLLADA. The idea with the realXtend files is to not specify the contents) Tj T* 0 Tw .418935 Tw (of the files, but they are only a mechanism for the applications to put the component data that they need.) Tj T* 0 Tw .573555 Tw (An essential element are the script references that implement the functionality of the applications, similar) Tj T* 0 Tw .724431 Tw (to how HTML documents have Javascript references. But also this is not specified in the file format, it is) Tj T* 0 Tw .311984 Tw (just how the bundled Script component works. For static content, we support using e.g. COLLADA assets) Tj T* 0 Tw (directly.) Tj T* ET
 Q
 Q
 q
@@ -2294,22 +2294,21 @@ BT 1 0 0 1 0 74 Tm 1.061751 Tw 12 TL /F1 10 Tf 0 0 0 rg (The realXtend platform 
 Q
 Q
 q
-1 0 0 1 62.69291 228.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(add about the javascript sandbox challenge here? standardizing client side APIs?\)) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 198.0236 cm
+1 0 0 1 62.69291 216.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Status of implementations) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 96.02362 cm
+1 0 0 1 62.69291 114.0236 cm
 q
 BT 1 0 0 1 0 86 Tm .57229 Tw 12 TL /F1 10 Tf 0 0 0 rg (The generic Entity-Component approach was proposed to OpenSimulator core and accepted as the plan) Tj T* 0 Tw .89284 Tw (already in December 2009 ) Tj ([) Tj 0 0 .501961 rg (adam-ecplan) Tj 0 0 0 rg (]. The implementation is however still in very early stages, only) Tj T* 0 Tw 5.454269 Tw (the first steps have been taken to allow refactoring the framework be generalized and the) Tj T* 0 Tw .11936 Tw (re-implementation of current features as ECs by optional modules. It can be used, however, with the Naali) Tj T* 0 Tw .700751 Tw (client application when running against Opensim using the realXtend add-on module \(the combination of) Tj T* 0 Tw 2.517984 Tw (opensim+modrex is called Taiga\). This works in a limited fashion, as the Second Life protocol and) Tj T* 0 Tw 2.684651 Tw (OpenSim internals still assume the hardcoded SL model, but you can still add arbitrary client side) Tj T* 0 Tw (functionality and have the data automatically stored and synchronized over the net via OpenSimulator.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 84.02362 cm
+q
+BT 1 0 0 1 0 14 Tm 1.351984 Tw 12 TL /F1 10 Tf 0 0 0 rg (The generic application platform works currently fully when using the so called Tundra server, which a ) Tj T* 0 Tw .363735 Tw (simple server module added to Naali itself ) Tj ([) Tj 0 0 .501961 rg (tundraproject) Tj 0 0 0 rg (]. This allows Naali to run as standalone for local) Tj T* 0 Tw ET
 Q
 Q
  
@@ -2318,50 +2317,50 @@ endobj
 % 'R103': class PDFStream 
 103 0 obj
 % page stream
-<< /Length 6797 >>
+<< /Length 7206 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 633.0236 cm
+1 0 0 1 62.69291 657.0236 cm
 q
-BT 1 0 0 1 0 122 Tm 1.351984 Tw 12 TL /F1 10 Tf 0 0 0 rg (The generic application platform works currently fully when using the so called Tundra server, which a) Tj T* 0 Tw .363735 Tw (simple server module added to Naali itself ) Tj ([) Tj 0 0 .501961 rg (tundraproject) Tj 0 0 0 rg (]. This allows Naali to run as standalone for local) Tj T* 0 Tw .205488 Tw (authoring, or for single user applications, but also for using it as a server to host worlds on the net instead) Tj T* 0 Tw .258735 Tw (of using OpenSimulator. With Tundra LLUDP is no longer used, but all basic functionality is achieved with) Tj T* 0 Tw 1.05811 Tw (the generic EC synchronization. For the transport layer, we are using a new protocol called kNet which) Tj T* 0 Tw 1.513488 Tw (can run either on top of UDP or TCP ) Tj ([) Tj 0 0 .501961 rg (knet) Tj 0 0 0 rg (]. kNet is similar to eNet but performed better in tests with) Tj T* 0 Tw 1.485868 Tw (regards to flow control. The Tundra server lacks many basic features and may never get some of the) Tj T* 0 Tw 1.436342 Tw (advanced OpenSimulator features, like running untrusted user authored scripts and combining multiple) Tj T* 0 Tw 2.516235 Tw (regions to form a large grid. Tundra is however is already useful for local authoring and deploying) Tj T* 0 Tw .209986 Tw (applications like simple games to production use. And it serves as an example of how a generic approach) Tj T* 0 Tw (to allow virtual worlds functionality can be simple yet practical.) Tj T* ET
+BT 1 0 0 1 0 98 Tm .205488 Tw 12 TL /F1 10 Tf 0 0 0 rg (authoring, or for single user applications, but also for using it as a server to host worlds on the net instead) Tj T* 0 Tw .258735 Tw (of using OpenSimulator. With Tundra LLUDP is no longer used, but all basic functionality is achieved with) Tj T* 0 Tw 1.05811 Tw (the generic EC synchronization. For the transport layer, we are using a new protocol called kNet which) Tj T* 0 Tw 1.513488 Tw (can run either on top of UDP or TCP ) Tj ([) Tj 0 0 .501961 rg (knet) Tj 0 0 0 rg (]. kNet is similar to eNet but performed better in tests with) Tj T* 0 Tw 1.485868 Tw (regards to flow control. The Tundra server lacks many basic features and may never get some of the) Tj T* 0 Tw 1.436342 Tw (advanced OpenSimulator features, like running untrusted user authored scripts and combining multiple) Tj T* 0 Tw 2.516235 Tw (regions to form a large grid. Tundra is however is already useful for local authoring and deploying) Tj T* 0 Tw .209986 Tw (applications like simple games to production use. And it serves as an example of how a generic approach) Tj T* 0 Tw (to allow virtual worlds functionality can be simple yet practical.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 519.0236 cm
+1 0 0 1 62.69291 543.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL 1.611235 Tw (Regarding the status of the Naali application overall, it is maturing and has already been deployed to) Tj T* 0 Tw .732126 Tw (customers by some of the development companies. It is a quite straightforward modular C++ application) Tj T* 0 Tw 1.607984 Tw (with optional Python and Javascript support. Qt object metadata system is utilized to expose the C++) Tj T* 0 Tw .113516 Tw (internals automatically. This covers all modules like the renderer and the UI, and all the ECs. The QtScript) Tj T* 0 Tw .57061 Tw (library provides this for Javascript support, and PythonQt does the same for Python. There is also QtLua) Tj T* 0 Tw .274104 Tw (with which Lua support could be easily added. Thanks to the Ogre3D graphics engine, Naali runs both on) Tj T* 0 Tw .829986 Tw (e.g. the N900 mobile phone with OpenGL ES, and on powerful PCs with multiple video outputs with the) Tj T* 0 Tw 1.131412 Tw (built-in CAVE rendering support. There is also an experimental WebNaali client, written in Javascript to) Tj T* 0 Tw (run in a web browser, doing the EC sync over WebSockets and rendering with WebGL.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 486.0236 cm
+1 0 0 1 62.69291 510.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Conclusion) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 420.0236 cm
+1 0 0 1 62.69291 444.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .084985 Tw (We have demonstrated how a generic approach to virtual worlds can be simple and practical, yet powerful) Tj T* 0 Tw .612126 Tw (and truly extensible. We hope this is taken into consideration in upcoming standardization processes, for) Tj T* 0 Tw 1.684651 Tw (example if VWRAP proceeds to address in-world scene functionality. In any case, we will continue to) Tj T* 0 Tw .342488 Tw (develop the platform and applications on top of it. Anyone is free to do the same, and to participate in the) Tj T* 0 Tw (development, which is largely coordinated on-line, if will.) Tj T* ET
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .084985 Tw (We have demonstrated how a generic approach to virtual worlds can be simple and practical, yet powerful) Tj T* 0 Tw .612126 Tw (and truly extensible. We hope this is taken into consideration in upcoming standardization processes, for) Tj T* 0 Tw 1.684651 Tw (example if VWRAP proceeds to address in-world scene functionality. In any case, we will continue to) Tj T* 0 Tw 2.496303 Tw (develop the platform and applications on top of it. Anyone is free to use it for their needs, and to) Tj T* 0 Tw (participate in the development which is largely coordinated on-line.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 387.0236 cm
+1 0 0 1 62.69291 411.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (References) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 324.3307 cm
+1 0 0 1 62.69291 348.3307 cm
 Q
 q
-1 0 0 1 62.69291 295.9843 cm
+1 0 0 1 62.69291 319.9843 cm
 n 0 14.17323 m 469.8898 14.17323 l S
 Q
 q
-1 0 0 1 62.69291 235.9843 cm
+1 0 0 1 62.69291 259.9843 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -2380,7 +2379,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 211.9843 cm
+1 0 0 1 62.69291 235.9843 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -2399,7 +2398,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 199.9843 cm
+1 0 0 1 62.69291 223.9843 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -2420,7 +2419,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 163.9843 cm
+1 0 0 1 62.69291 187.9843 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -2439,7 +2438,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 127.9843 cm
+1 0 0 1 62.69291 151.9843 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -2458,7 +2457,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 103.9843 cm
+1 0 0 1 62.69291 127.9843 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -2476,17 +2475,8 @@ Q
 q
 Q
 Q
- 
-endstream
-endobj
-% 'R104': class PDFStream 
-104 0 obj
-% page stream
-<< /Length 2989 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 717.0236 cm
+1 0 0 1 62.69291 79.98425 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -2505,8 +2495,17 @@ Q
 q
 Q
 Q
+ 
+endstream
+endobj
+% 'R104': class PDFStream 
+104 0 obj
+% page stream
+<< /Length 2278 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 657.0236 cm
+1 0 0 1 62.69291 705.0236 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -2525,7 +2524,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 633.0236 cm
+1 0 0 1 62.69291 681.0236 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -2544,7 +2543,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 621.0236 cm
+1 0 0 1 62.69291 669.0236 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -2565,7 +2564,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 609.0236 cm
+1 0 0 1 62.69291 657.0236 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -2586,7 +2585,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 597.0236 cm
+1 0 0 1 62.69291 645.0236 cm
 0 0 0 rg
 BT /F4 10 Tf 12 TL ET
 q
@@ -2662,36 +2661,36 @@ xref
 0000418310 00000 n
 0000418553 00000 n
 0000418796 00000 n
-0000419023 00000 n
-0000419395 00000 n
-0000419638 00000 n
-0000419881 00000 n
-0000420123 00000 n
-0000420384 00000 n
-0000420626 00000 n
-0000420894 00000 n
-0000421136 00000 n
-0000421415 00000 n
-0000421657 00000 n
-0000421942 00000 n
-0000422231 00000 n
-0000422473 00000 n
-0000422765 00000 n
-0000422992 00000 n
-0000423427 00000 n
-0000423670 00000 n
-0000423913 00000 n
-0000424155 00000 n
-0000424418 00000 n
-0000424661 00000 n
-0000424903 00000 n
-0000425185 00000 n
-0000425427 00000 n
-0000425674 00000 n
-0000425916 00000 n
-0000426167 00000 n
-0000426409 00000 n
-0000426671 00000 n
+0000419039 00000 n
+0000419266 00000 n
+0000419647 00000 n
+0000419890 00000 n
+0000420132 00000 n
+0000420393 00000 n
+0000420635 00000 n
+0000420903 00000 n
+0000421145 00000 n
+0000421424 00000 n
+0000421666 00000 n
+0000421951 00000 n
+0000422240 00000 n
+0000422482 00000 n
+0000422774 00000 n
+0000423017 00000 n
+0000423260 00000 n
+0000423487 00000 n
+0000423931 00000 n
+0000424173 00000 n
+0000424436 00000 n
+0000424679 00000 n
+0000424921 00000 n
+0000425203 00000 n
+0000425445 00000 n
+0000425692 00000 n
+0000425934 00000 n
+0000426185 00000 n
+0000426427 00000 n
+0000426689 00000 n
 0000427082 00000 n
 0000427220 00000 n
 0000427454 00000 n
@@ -2708,22 +2707,22 @@ xref
 0000429546 00000 n
 0000429701 00000 n
 0000429881 00000 n
-0000436004 00000 n
-0000442262 00000 n
-0000450220 00000 n
-0000457114 00000 n
-0000464034 00000 n
-0000470694 00000 n
-0000477515 00000 n
-0000484413 00000 n
+0000436020 00000 n
+0000442278 00000 n
+0000450236 00000 n
+0000457130 00000 n
+0000464050 00000 n
+0000470710 00000 n
+0000477686 00000 n
+0000484993 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\241\366|\0150L\371\341\023\306\035'\243!\257\202) (\241\366|\0150L\371\341\023\306\035'\243!\257\202)] 
+ [(\012\360\340\261\345\3309\323'\222:\325B?2\331) (\012\360\340\261\345\3309\323'\222:\325B?2\331)] 
 
  /Info 82 0 R
  /Root 81 0 R
  /Size 105 >>
 startxref
-487475
+487344
 %%EOF
