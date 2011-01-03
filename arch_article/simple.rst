@@ -46,23 +46,23 @@ pages to the 3D scene. A virtual world can be snapped together like
 Lego bricks, instantly viewed, its a simple and fun process for users
 of all ages. Editing can be done locally, and the creation published
 later. This is in contrast to Second Life (tm) (SL) where all edits
-and additions happen on the servers -- the client application being
-no more than an interface to server side functionality.
+and additions happen on the servers -- the client application being no
+more than an interface to server side functionality. Naali can run
+completely standalone, without the complexity of setting up a separate
+server for local editing. With OpenSimulator people often run a SL
+compatible server locally to achieve this local building
+[opensim-on-a-stick]_.
 
-Naali is a single application that can run completely standalone, and
-does not suffer from the complexity of setting up a separate server
-with databases for local editing. With OpenSimulator people often run
-a SL compatible server locally to achieve this local building
-[opensim-on-a-stick]_. Developers will find Naali to be highly
-extensible with dynamically loadable/unloadable modules.  For example,
-an entirely new scripting language could be loaded as a module without
-needing to recompile Naali. Naali uses the Apache license so is
-permissive for businesses to create commerical software based on it.
-In contrast again to the Second Life viewer which only recently was
-relicenced partially from GPL to LGPL, with a single company owning
-and controlling the copyright. The main point of this article,
-however, is independent of particular applications, but instead about
-the extensible scene model we have now started using.
+Developers will find Naali to be highly extensible with dynamically
+loadable/unloadable modules.  For example, an entirely new scripting
+language could be loaded as a module without needing to recompile
+Naali. Naali uses the Apache license so is permissive for businesses
+to create commerical software based on it.  In contrast again to the
+Second Life viewer which only recently was relicenced partially from
+GPL to LGPL, with a single company owning and controlling the
+copyright. The main point of this article, however, is independent of
+particular viewer and server implementations, but instead about the
+extensible scene model we have now started using.
 
 Naali uses the so-called Entity-Component (EC) model as a basis to
 construct extensible scenes. The model was adopted from contemporary
@@ -95,7 +95,7 @@ open source Celestia universe simulator that does not have any
 hardcoded land or sky.  Naali is a true platform that does not get in
 the way of the application developer; they can create anything from a
 medical simulator for teachers, to action packed networked games - and
-always with a custom interface that excatly fits the application's
+always with a custom interface that exactly fits the application's
 purpose. Rather then being in control of a single avatar, you can for
 example create a world where the user is an entity controlling the
 weather conditions of the whole environment, and make a game around
@@ -104,7 +104,7 @@ client she already has. The solution is inspired by web browsers,
 which download code from the websites to run custom user interfaces
 and logic in the client.
 
-To demonstrate the feasibility of our generic approach, there is a
+To demonstrate the feasibility of this generic approach, there is a
 growing set of application examples in the Naali example scenes
 directory available on GitHub [naali-scenes]_. We present two of them
 below to illustrate how the EC model works in practice. First there is
