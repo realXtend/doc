@@ -132,40 +132,38 @@ Related work
 ------------
 
 We are certainly not the first to propose genericity to virtual world
-base architectures. For example in the NPSNET-V work, extreme
-extensibility is achieved by the whole system being built around a
-minimal microkernel on which arbitrary code can be added at runtime
-using the mechanisms in the Java virtual machine [NPSNET-V]_. A
-contemporary example is the Meru architecture from the Sirikata
-project, where a space server only knows the locations of the
-objects. Separate object hosts, either running on the same server or
-any client / peer, can run arbitrary code to implement the objects in
-the federated world [sirikata-scaling]_. Messaging is used exclusively
-for all object interactions [sirikata_scripting]_. The idea with the
-Entity-Component mechanism in Naali is, instead, to lessen the need to
-invent own protocols for all networked application behaviour when for
-simple usage using the automatically synchronized attributes
-suffices. In preliminary talks with some Sirikata developers we
-concluded that they want to keep base level clean from such high level
-functionality, but that things like the attribute autosync would be
-desireable in application level support scripts.
+base architectures. For example in NPSNET-V, the system is a minimal
+microkernel on which arbitrary code can be added at runtime using the
+the Java virtual machine [NPSNET-V]_. A contemporary example is the
+Meru architecture from the Sirikata project, where a space server only
+knows the locations of the objects. Separate object hosts, either
+running on the same server or any client / peer, can run arbitrary
+code to implement the objects in the federated world
+[sirikata-scaling]_. Messaging is used exclusively for all object
+interactions [sirikata_scripting]_. The idea with the Entity-Component
+mechanism in Naali is, instead, to lessen the need to invent own
+protocols for all networked application behaviour when for simple
+usage using the automatically synchronized attributes suffices. In
+preliminary talks with some Sirikata developers we concluded that they
+want to keep base level clean from such high level functionality, but
+that things like the attribute autosync would be desireable in
+application level support scripts.
 
 The aggregation, not inheritance, using EC model was adopted from game
 engine literature [ec-links]_. Running the same Javascript code
 partially both on the server and clients is basically identical to a
 gaming oriented virtual world platform called Syntensity
-[syntensity]_.  Also in Syntensity developing custom functionality is
-enabled by defining own entity types, and declaring what so-called
-StateVariables each such entity has. These StateVariables are then
-automatically synchronized to all participants, they are basically
+[syntensity]_.  Also in Syntensity you compose own entities by
+declaring what so-called StateVariables they have. The data is then
+automatically synchronized among all participants, they are basically
 identical with the Naali EC attributes. The Naali implementation is
-inspired by the Syntensity one, which we studied early on. The
-difference is that in Syntensity the entities exists on the scripting
-level only, and the basic functionality like object movements is
-hardcoded in the Sauerbraten/Cube2 platform which was originally built
-for a first person shooter game. In Naali everything is now made with
-the ECs only, so the same tools work for e.g. graphical editing,
-persistentence and network sync identically for all data.
+inspired by Syntensity. The difference is that in Syntensity the
+entities exists on the scripting level only, and the basic
+functionality like object movements is hardcoded in the
+Sauerbraten/Cube2 first person shooter platform. In Naali everything
+is now made with the ECs only, so the same tools work for
+e.g. graphical editing, persistentence and network sync identically
+for all data.
 
 The document oriented approach of having worlds as files is of course
 precedented in 3D file format standards like VRML, X3D and
@@ -202,34 +200,30 @@ Status of implementations
 
 The generic Entity-Component approach was proposed to OpenSimulator
 core and accepted as the plan already in December 2009
-[adam-ecplan]_. The implementation is however still in very early
-stages, only the first steps have been taken to allow refactoring the
-framework be generalized and the re-implementation of current features
-as ECs by optional modules. It can be used, however, with the Naali
-client application when running against Opensim using the realXtend
-add-on module (the combination of opensim+modrex is called
+[adam-ecplan]_. The implementation for the core is however still in
+very early stages. It can be used, however, with the Naali client when
+running OpenSimulator with the realXtend (the combination is called
 Taiga). This works in a limited fashion, as the Second Life protocol
-and OpenSim internals still assume the hardcoded SL model, but you can
-still add arbitrary client side functionality and have the data
+and OpenSimulator internals still assume the hardcoded SL model, but
+you can add arbitrary client side functionality and have the data
 automatically stored and synchronized over the net via OpenSimulator.
 
 The generic application platform works currently fully when using the
 so called Tundra server, which a simple server module added to Naali
 itself [tundraproject]_. This allows Naali to run as standalone for
 local authoring, or for single user applications, but also for using
-it as a server to host worlds on the net instead of using
-OpenSimulator. With Tundra LLUDP is no longer used, but all basic
-functionality is achieved with the generic EC synchronization. For the
-transport layer, we are using a new protocol called kNet which can run
-either on top of UDP or TCP [knet]_. kNet is similar to eNet but
-performed better in tests with regards to flow control. The Tundra
-server lacks many basic features and may never get some of the
-advanced OpenSimulator features, like running untrusted user authored
-scripts and combining multiple regions to form a large grid. Tundra is
-however is already useful for local authoring and deploying
-applications like simple games to production use. And it serves as an
-example of how a generic approach to allow virtual worlds
-functionality can be simple yet practical.
+it as a server instead of using OpenSimulator. With Tundra LLUDP is
+not used, all basic functionality is achieved with the generic EC
+synchronization. For the transport, we are using a new protocol called
+kNet which can run either on top of UDP or TCP [knet]_. kNet is
+similar to eNet but performed better in tests with regards to flow
+control. The Tundra server lacks many basic features and may never get
+some of the advanced OpenSimulator features, like running untrusted
+user authored scripts and combining multiple regions to form a large
+grid. Tundra is however already useful for local authoring and
+deploying applications with custom functionality. And it serves as an
+example of how a generic approach to virtual worlds functionality can
+be simple yet practical.
 
 Regarding the status of the Naali application overall, it is maturing
 and has already been deployed to customers by some of the development
