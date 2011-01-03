@@ -1,36 +1,32 @@
-The concept of an avatar characterizes virtual worlds -- virtual world
-functionality is often described by how the user is in the world as an
-avatar through which she can act. It is so central that technologies
-like the LLUDP protocol used in Second Life assume it, the concept is
-hardcoded in the platform. We argue that it should not exist on the
-base level, to allow arbitrary applications to be built. However, a
-generic platform must of course allow the implementation of avatar
-functionality on the application level. Here we describe a proof of
-concept implementation using the realXtend Entity-Component-Action
-model. The full source code is available at [tundra-avatar]_, and a
-parts of it are included below.
+The concept of an avatar characterizes virtual worlds -- they are
+often described by how the user is in the world as an avatar. The
+protocol used in Second Life assumes avatars, it is hardcoded in the
+platform. We argue that it should not exist on the base level, to
+allow arbitrary applications to be built. However, a generic platform
+must of course allow the implementation of avatar functionality. Here
+we describe a proof of concept implementation using the realXtend
+Entity-Component-Action model. The full source code is available at
+[tundra-avatar]_, and a parts of it are included below.
 
-Avatar means two things: 1) The visual appearance and the systems
-built around it, to for example modify the looks and add attachments
-like clothing and accessories, and use of animations for communication
-etc.  2) The functionality that when a user connects to a world server
-with a client, she gets the avatar object as the point of focus and
-control -- for example, the default inputs from arrow keys and the
-mouse are mapped to move and rotate the own avatar. Here, while
-covering the very basics for the visual appearance, the focus is on
-the latter control functionality.
+Avatar functionality is split in two aspects here: 1) The visual
+appearance and related functionality to modify the looks and clothing,
+and use of animations for communication etc.  2) The model where every
+user connection is given a single entity as the point of focus and
+control. The default inputs from arrow keys and the mouse are mapped
+to move and rotate the own avatar. Here, while covering the basics for
+the appearance, the focus is on the latter control functionality.
 
 The server-side functionality to give every new client connection a
 designated avatar is implemented in a simple Javascript script,
-avatarapplication.js. Upon a new connection, it instanciates an
-avatar by creating a new entity and these components to it: Mesh for
-the visible 3D model and associated skeleton for animations, Placeable
-for the entity to be positioned in the 3D scene, AnimationController
-to change and synchronize the animation states so and finally a Script
+avatarapplication.js. Upon a new connection, it instanciates an avatar
+by creating a new entity and these components to it: Mesh for the
+visible 3D model and associated skeleton for animations, Placeable for
+the entity to be positioned in the 3D scene, AnimationController to
+change and synchronize the animation states and finally a Script
 component to implement the functionality of a single
 avatar. Additionally, the main application script is also executed on
-the client, where it adds a new camera which follows the avatar and
-a keybinding to toggle between the camera modes.
+the client, where it adds a new camera which follows the avatar and a
+keybinding to toggle between camera modes.
 
 Handling new client connections on the server:
 
@@ -54,13 +50,12 @@ Handling new client connections on the server:
 
 The other script for an individual avatar, simpleavatar.js, adds a few
 more components: AvatarAppearance for the customizable looks,
-RigidBody for physics (collision detection) and on the client side an
-InputMapper for handling user control input. Entity actions
-are used to make the avatar move according to the user controls. These
-actions are commands that any code can invoke on an entity, to be
-executed either locally in the same client or remotely on the server,
-or on all the connected peers. In this case the local code for avatar
-control sends for example the action "Move(forward)" to be executed on
+RigidBody for physics and on the client side an InputMapper for user
+input. Entity actions are used to make the avatar move according to
+the user controls. These actions are commands that any code can invoke
+on an entity, to be executed either locally in the same client or
+remotely on the server, or on all the connected peers. Here the local
+code sends for example the action "Move(forward)" to be executed on
 the server when the up-arrow is pressed. The built-in InputMapper
 component provides triggering actions based on input, so the avatar
 code only needs to register the mappings it wants. The server
