@@ -91,8 +91,8 @@ The simplest way to get a shared, synchronized view of the
 presentation slides is to use a static camera which shows a single
 webpage view. It then suffices for the server to change the current
 page on that object for everyone to see it.  We could do this with a
-2D widget, but let's do it in a 3D scene as the idea is to illustrate
-the extensibility there.
+2D widget, but let's use a 3D scene to illustrate the extensibility
+there.
 
 So, let's add a new entity called "presentation". For showing web
 pages, we need a few basic components: Placeable to have something in

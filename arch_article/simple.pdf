@@ -1466,7 +1466,7 @@ endobj
 % 'R85': class PDFInfo 
 85 0 obj
 << /Author ()
- /CreationDate (D:20110103065327-02'00')
+ /CreationDate (D:20110103071044-02'00')
  /Keywords ()
  /Producer (ReportLab http://www.reportlab.com)
  /Subject (\(unspecified\))
@@ -1655,7 +1655,7 @@ q
 1 0 0 1 62.69291 635.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(This document was generated on 2011-01-03 at 06:53.\)) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(This document was generated on 2011-01-03 at 07:10.\)) Tj T* ET
 Q
 Q
 q
@@ -2180,7 +2180,7 @@ endobj
 % 'R103': class PDFStream 
 103 0 obj
 % page stream
-<< /Length 7020 >>
+<< /Length 7000 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -2221,7 +2221,7 @@ q
 1 0 0 1 62.69291 207.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .631098 Tw (The simplest way to get a shared, synchronized view of the presentation slides is to use a static camera) Tj T* 0 Tw 1.246654 Tw (which shows a single webpage view. It then suffices for the server to change the current page on that) Tj T* 0 Tw .176791 Tw (object for everyone to see it. We could do this with a 2D widget, but let's do it in a 3D scene as the idea is) Tj T* 0 Tw (to illustrate the extensibility there.) Tj T* ET
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .631098 Tw (The simplest way to get a shared, synchronized view of the presentation slides is to use a static camera) Tj T* 0 Tw 1.246654 Tw (which shows a single webpage view. It then suffices for the server to change the current page on that) Tj T* 0 Tw .529535 Tw (object for everyone to see it. We could do this with a 2D widget, but let's use a 3D scene to illustrate the) Tj T* 0 Tw (extensibility there.) Tj T* ET
 Q
 Q
 q
@@ -2802,18 +2802,18 @@ xref
 0003872309 00000 n
 0003881021 00000 n
 0003886760 00000 n
-0003893881 00000 n
-0003897708 00000 n
-0003904911 00000 n
-0003911872 00000 n
+0003893861 00000 n
+0003897688 00000 n
+0003904891 00000 n
+0003911852 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(h\312\300$\273\227\370\211->hB\332iM\317) (h\312\300$\273\227\370\211->hB\332iM\317)] 
+ [(p\312\270\177]\334PXK<\\\3536A\224\275) (p\312\270\177]\334PXK<\\\3536A\224\275)] 
 
  /Info 85 0 R
  /Root 84 0 R
  /Size 108 >>
 startxref
-3914834
+3914814
 %%EOF
