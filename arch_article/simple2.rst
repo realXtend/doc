@@ -116,7 +116,7 @@ To demonstrate the feasibility of this generic scene modeling
 approach, we are using Tundra to develop a growing collection of
 example scenes in a directory available on GitHub
 [tundra-scenes]_. Below, we present two of them to illustrate how the
-ECA model works in practice In the first example, we implement a
+ECA model works in practice.  In the first example, we implement a
 SL-like avatar using a set of pre-existing generic ECAs and specific
 JavaScript code that run both on the server and the clients. The
 second example is a presentation application that lets a presenter
@@ -160,14 +160,14 @@ is on the latter control functionality.
 The server-side functionality to give every new client connection a
 designated avatar is implemented in a JavaScript
 (avatarapplication.js, see code below).  Upon a new connection, this
-script creating a new Avatar entity and these components: EC_Mesh for
+script creates a new Avatar entity and these components: EC_Mesh for
 the visible 3D model and an associated skeleton for animations;
 EC_Placeable for the entity to be positioned in the 3D scene;
 EC_AnimationController to change and synchronize the animation states;
-and EC_Script to implement the functionality of a single avatar.  A
-similar script is executed on the client, where it adds two additional
-components: a new camera which follows the avatar and a keybinding to
-toggle between camera modes.
+and EC_Script to implement the functionality of a single avatar.
+Different parts of the same script are executed on the client, where
+it adds two additional components: a new camera which follows the
+avatar and a keybinding to toggle between camera modes.
 
 .. code-block:: javascript
 
@@ -198,16 +198,15 @@ server when the up-arrow is pressed on the client. The built-in
 EC_InputMapper component provides triggering actions based on input,
 so the avatar code only needs to register the mappings it wants. The
 server maintains a velocity vector for the avatar and applies physics
-for it. Using ECA attributes, the resulting position is in the
-transform attribute of the component Placeable is automatically
-synchronized with the generic mechanism so the avatar moves on all
-clients. The server also sets the animation state to either "Stand" or
-"Walk" based on whether the avatar is moving. All participants run
-common animation update code to play back the walk animation while
-moving, calculating the correct speed from the velocity data from the
-physics on the server.  The following code shows the common code for
-updating animations that is executed both on the client and the
-server:
+for it. Using ECA attributes, the resulting position in the transform
+attribute of the component Placeable is automatically synchronized
+with the generic mechanism so the avatar moves on all clients. The
+server also sets the animation state to either "Stand" or "Walk" based
+on whether the avatar is moving. All participants run common animation
+update code to play back the walk animation while moving, calculating
+the correct speed from the velocity data from the physics on the
+server.  The following code shows the common code for updating
+animations that is executed both on the client and the server:
 
 .. code-block:: javascript
 
@@ -229,7 +228,7 @@ server:
 These two parts are enough to implement basic avatar functionality
 using the ECA model. This proof of concept implementation totals in
 369 lines of JavaScript code in two files. The visual appearance comes
-from a pre-existing AvatarAppearance “component,” which reads an xml
+from a pre-existing AvatarAppearance component, which reads an xml
 description with references to the base meshes used and individual
 morphing values set by the user in an editor. Implemented in C++, it
 uses the realXtend avatar model from an earlier realXtend prototype
@@ -367,14 +366,14 @@ knows the locations of the objects. Separate object hosts, either
 running on the same server or any client / peer, can run arbitrary
 code to implement the objects in the federated world
 [sirikata-scaling]_. Messaging is used exclusively for all object
-interactions [8,9]. The idea with the Entity-Component mechanism in
-Naali is, instead, to lessen the need to invent particular protocols
-for all networked application behavior when, for many simple cases,
-using automatically synchronized attributes suffices. In preliminary
-talks with some Sirikata developers, we concluded that they aimed to
-keep the base level clean from high level functionality, but that
-capabilities like attribute synchronization would be desirable in
-application level support scripts.
+interactions [sirikata-scripting]_. The idea with the Entity-Component
+mechanism in Naali is, instead, to lessen the need to invent
+particular protocols for all networked application behavior when, for
+many simple cases, using automatically synchronized attributes
+suffices. In preliminary talks with some Sirikata developers, we
+concluded that they aimed to keep the base level clean from high level
+functionality, but that capabilities like attribute synchronization
+would be desirable in application level support scripts.
 
 The Naali EC model borrows the idea of using aggregation and not
 inheritance from the game engine literature, specifically a gaming
@@ -414,7 +413,11 @@ while the newer Naali viewer (built-from scratch viewer available
 under the Apache 2 license) is the more modular and extensible
 platform.  Taiga (which combines OpenSimulator and the realXtend
 add-on for it) is a continuation and refinement of the original server
-project (BSD license).
+project (BSD license). Latest addition to the new generation, Tundra,
+completes the Naali codebase with server functionality built purely
+with ECs and support for running the same code both on server and
+clients, resulting in a powerful toolkit for networked application
+development.
 
 Regarding the status of the Naali viewer, it is maturing and has
 already been deployed to customers by some of the development
@@ -496,13 +499,14 @@ treated as an add-in functionality, so the overall architecture can
 make less commitment and thereby accommodate a wider range of kinds of
 virtual worlds.  We demonstrated how this generic approach to virtual
 world architectures can be simple and practical, yet powerful and
-truly extensible.  We hope this is taken into consideration in
-upcoming standardization processes, for example if the IETF VWRAP or
-IEEE Metaverse standardization efforts choose to address in-world
-scene functionality.  We will continue to develop the realXtend
-platform and applications on top of it. Anyone is free to use it for
-their needs, and motivated developers are invited to participate in
-the effort which is mainly coordinated on-line.
+truly extensible.  We hope this is taken into consideration both in
+future Opensimulator development and upcoming standardization
+processes, for example if the IETF VWRAP or IEEE Metaverse
+standardization efforts choose to address in-world scene
+functionality.  We will continue to develop the realXtend platform and
+applications on top of it.  Anyone is free to use it for their needs,
+and motivated developers are invited to participate in the effort
+which is mainly coordinated on-line.
 
 
 References
