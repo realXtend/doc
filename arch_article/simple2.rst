@@ -22,7 +22,7 @@ Introduction
 ============
 
 Over the past several years, the realXtend project has developed a
-freely available open source virtual world platform that let’s anyone
+freely available open source virtual world platform that lets anyone
 create their own applications using it’s platform as a base.
 RealXtend began as a collaboration of several small companies that
 coordinated in developing a common technology base that they then
@@ -39,8 +39,8 @@ arctic fox, referring to the Finnish origins of the project and also a
 reference to the open source Firefox web browser because it aims for
 similar wide-spread availability as a browser for virtual worlds.  The
 Naali viewer can connect to Second Life (SL), Open Simulator, or
-realXtend’s own Tundra server.  It can run on Windows, Ubuntu and
-several mobile platforms.
+realXtend’s own Tundra server.  It can run on Windows, Linux, Mac and
+some mobile platforms.
   
 One goal of the realXtend project has been to build entirely on open
 standards and open source software to remove the roadblock of
@@ -65,9 +65,11 @@ Another goal of realXtend is flexible editing of virtual worlds --
 editing can be done locally, and the creation published later. This is
 in contrast to Second Life where all edits and additions happen on
 remote servers -- the client application being no more than an
-interface to server side functionality. Naali coupled with Tundra or
-OpenSimulator can run completely standalone, without the complexity of
-setting up a separate server for local editing [opensim-on-a-stick]_.
+interface to server side functionality. Naali/Tundra can run
+completely standalone, without the complexity of setting up a separate
+server for local editing as with Opensimulator [opensim-on-a-stick]_.
+
+.. this is not explained anywhere in the article, now only in the email!
 
 A final architectural goal of our project is extensibility - the
 ability to dynamically add or remove functionality to a virtual world
@@ -96,20 +98,24 @@ which can be of any type and store arbitrary data. Applications built
 using Naali can add their own components to have the data they need
 for their own functionality. The code that handles the data exists in
 preinstalled custom modules or in scripts loaded at runtime as a part
-of the application data.
+of the application data. To get a matching server counterpart where
+the scene is entirely built with Entity-Components, we have added a
+server module to the Naali codebase and a new protocol without
+application level assumptions. This whole we call the Tundra SDK, and
+it consist of both viewer and server executables.
 
-The Naali platform provides basic functionality for all ECAs:
+The Tundra platform provides basic functionality for all ECAs:
 persistence, network synchronization among all the participants via a
 server and a user interface for manipulating components and their
-attributes, (and eventually will support security).  In addition,
-Naali introduces a new concept called “entity actions,” a simple form
-of remote procedure call. The ECA architecture is demonstrated in two
+attributes (and eventually will support security).  In addition, Tundra
+introduces a new concept called “entity actions,” a simple form of
+remote procedure call. The ECA architecture is demonstrated in two
 examples later in this article.
 
 To demonstrate the feasibility of this generic scene modeling
-approach, we are using Naali to develop a growing collection of
+approach, we are using Tundra to develop a growing collection of
 example scenes in a directory available on GitHub
-[naali-scenes]_. Below, we present two of them to illustrate how the
+[tundra-scenes]_. Below, we present two of them to illustrate how the
 ECA model works in practice In the first example, we implement a
 SL-like avatar using a set of pre-existing generic ECAs and specific
 JavaScript code that run both on the server and the clients. The
@@ -284,10 +290,12 @@ components used for communicating with other viewers or to add
 annotations to the presentation -- but for simplicity’s sake, we will
 keep our application simple.]
 
-Figure 2: Two Naali clients stand nearby and view the presentation
-stage of the TOY system, an open source learning environment for the
-Future School of Finland project. The one on the left just added a web
-page to the stage, and is currently carrying the object.
+.. figure:: screenshot_presentation_toy.png
+
+   Two Naali clients stand nearby and view the presentation stage of
+   the TOY system, an open source learning environment for the Future
+   School of Finland project. The one on the left just added a web
+   page to the stage, and is currently carrying the object.
 
 No matter how the presentation view is made, the presenter typically
 needs the same controls.  In Second Life, avatar controls are fixed
@@ -404,9 +412,9 @@ There are currently two generations of realXtend technology
 available. An original viewer (GPL license) still had more features,
 while the newer Naali viewer (built-from scratch viewer available
 under the Apache 2 license) is the more modular and extensible
-platform.  Taiga (which combines Naali and OpenSimulator) is a
-continuation and refinement of the original server project (BSD
-license).
+platform.  Taiga (which combines OpenSimulator and the realXtend
+add-on for it) is a continuation and refinement of the original server
+project (BSD license).
 
 Regarding the status of the Naali viewer, it is maturing and has
 already been deployed to customers by some of the development
@@ -444,11 +452,11 @@ can be simple yet practical.
 The generic EC architecture was proposed to the OpenSimulator core and
 accepted as the plan of record in December 2009 [adam-ecplan]_.  The
 implementation of EC for OpenSimulator is still in the early
-stage. However, EC can be demonstrated with the Naali client
-communicating with the OpenSimulator (or Second Life) servers in a
-limited fashion, as these servers still assume the hardcoded SL model,
-but developers can add arbitrary client side functionality and have
-the data automatically stored and synchronized over the net via
+stage. However, EC can be utilized with the Naali client communicating
+with the OpenSimulator servers running the realXtend addon (modrex) in
+a limited fashion, as these servers still assume the hardcoded SL
+model, but developers can add arbitrary client side functionality and
+have the data automatically stored and synchronized over the net via
 OpenSimulator.
 
 The realXtend platform does not yet solve all problems related to
@@ -478,11 +486,11 @@ Conclusion
 In this paper, we described the realXtend project and focused
 especially on its Entity-Component architecture which provides a
 general extensibility mechanism for building 3D virtual worlds.  The
-Naali viewer, which is built using the EC model, is a true platform
-that does not get in the way of the application developer; they can
-create anything from a medical simulator for teachers, to action
-packed networked games - and always with a custom interface that
-exactly fits the application's purpose.  Seemingly fundamental
+Tundra SDK, which is built entirely using the EC model, is a true
+platform that does not get in the way of the application developer;
+they can create anything from a medical simulator for teachers, to
+action packed networked games - and always with a custom interface
+that exactly fits the application's purpose.  Seemingly fundamental
 elements of virtual worlds (like support for avatars) can instead be
 treated as an add-in functionality, so the overall architecture can
 make less commitment and thereby accommodate a wider range of kinds of
@@ -504,7 +512,7 @@ References
 
 .. [opensim-on-a-stick] http://becunningandfulloftricks.com/2010/10/07/ a-virtual-world-in-my-hands-running-opensim-and-imprudence-on-a-usb-key/
 
-.. [naali-scenes] https://github.com/realXtend/naali/blob/tundra/bin/scenes/
+.. [tundra-scenes] https://github.com/realXtend/naali/blob/tundra/bin/scenes/
 
 .. [tundra-avatar] Application XML and usage info at https://github.com/realXtend/naali/tree/tundra/bin/scenes/Avatar/ , Javascript sources in https://github.com/realXtend/naali/tree/tundra/bin/jsmodules/avatar/
 
