@@ -27,7 +27,7 @@ create their own applications using it’s platform as a base.
 RealXtend began as a collaboration of several small companies that
 coordinated in developing a common technology base that they then
 applied in different application fields including virtual worlds,
-video games, educational applications.
+video games and educational applications.
 
 Like several other 3D virtual world platforms, the realXtend project
 has take a client-server approach.  A browser-like client called a
@@ -60,6 +60,8 @@ the Naali graphical user interface supports drag-and-drop of 3D models
 from web pages like Google 3D Warehouse to the 3D virtual world
 scene. In realXtend, a virtual world can be snapped together from
 existing components like Lego bricks, and instantly viewed.
+
+.. adopt the SL Mesh support somehow
  
 Another goal of realXtend is flexible editing of virtual worlds --
 editing can be done locally, and the creation published later. This is
@@ -254,7 +256,12 @@ schools, we added the capability for avatars to carry objects around
 as a simple means for 3D scene editing. Another possibility is to
 further augment the client with more data that is synchronized for
 animations, for instance, the full skeleton for motion capture or
-machine vision based mapping of the real body to the avatar pose.
+machine vision based mapping of the real body to the avatar pose.  In
+our open source Chesapeak bay watershed demo scene there are minigames
+with customized game character controls, for example flying as an
+osprey with the ability to dive to catch fish. These were implemented
+by using the human avatar functionality as a starting point, and
+modifying it according to the different animal characteristics.
 
 
 A Collaborative Presentation Tool
@@ -377,8 +384,8 @@ would be desirable in application level support scripts.
 
 The Naali EC model borrows the idea of using aggregation and not
 inheritance from the game engine literature, specifically a gaming
-oriented virtual world platform called Syntensity
-[syntensity]_. Syntensity runs the same JavaScript code both on the
+oriented virtual world platform called Syntensity [syntensity]_. Like
+with Tundra, Syntensity can run the same JavaScript code both on the
 server and clients [syntensity]_.  In Syntensity, you compose entities
 by declaring what state variables they have. The data is then
 automatically synchronized among all participants. The Naali
@@ -435,8 +442,8 @@ Javascript to run in a web browser, doing the EC synchronization over
 WebSockets and rendering with WebGL.
 
 Regarding the status of the generic EC architecture, this is
-implemented in Naali and also in our Tundra virtual world server
-application, which a simple server module added to Naali itself
+implemented in Naali and hence is in use throughout in the Tundra SDK
+which complements the original Naali codebase with a server module
 [tundraproject]_. This configuration enables Naali to run standalone
 for local content authoring or for single user applications, but it
 can also be used as a server instead of using OpenSimulator.  With
@@ -476,7 +483,11 @@ forward to continuing collaboration with e.g. the OpenSimulator and
 Sirikata communities to address the trust and scalability
 issues. OpenSimulator is already used to host large grids by numerous
 people, and the architecture in Sirikata seems promising for the long
-run [sirikata-scaling] [sirikata-scaling2].
+run [sirikata-scaling] [sirikata-scaling2]. Also the recent
+scalability work by Intel research, on top of Opensimulator, can
+hopefully be either easily be ported to the Tundra server or utilized
+for realXtend as is by using Opensimulator as the server for large
+deployments on server farms. [ADD REF AND EXPLAIN MORE].
 
 .. javascript sandbox challenge here?
 
