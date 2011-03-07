@@ -465,9 +465,9 @@ implementation of EC for OpenSimulator is still in the early
 stage. However, EC can be utilized with the Naali client communicating
 with the OpenSimulator servers running the realXtend addon (modrex) in
 a limited fashion, as these servers still assume the hardcoded SL
-model, but developers can add arbitrary client side functionality and
-have the data automatically stored and synchronized over the net via
-OpenSimulator.
+model, but developers using Naali can still add additional arbitrary
+client side functionality and have the data automatically stored and
+synchronized over the net via OpenSimulator.
 
 The realXtend platform does not yet solve all problems related to
 virtual world architectures. Naali does not currently address scaling
@@ -483,11 +483,12 @@ forward to continuing collaboration with e.g. the OpenSimulator and
 Sirikata communities to address the trust and scalability
 issues. OpenSimulator is already used to host large grids by numerous
 people, and the architecture in Sirikata seems promising for the long
-run [sirikata-scaling] [sirikata-scaling2]. Also the recent
-scalability work by Intel research, on top of Opensimulator, can
-hopefully be either easily be ported to the Tundra server or utilized
-for realXtend as is by using Opensimulator as the server for large
-deployments on server farms. [ADD REF AND EXPLAIN MORE].
+run [sirikata-scaling]_ [sirikata-scaling2]_. Also Intel research has
+recently demonstrated how multiple servers can be used to host a
+single scene for thousands of interacting users, using Opensimulator
+[intel-distributedscene]_.  We will see whether that design can be
+either easily be ported to the Tundra server or better utilized for
+realXtend as is by using OpenSimulator.
 
 .. javascript sandbox challenge here?
 
@@ -551,3 +552,5 @@ References
 .. [knet] http://bitbucket.org/clb/knet/
 
 .. [tundraproject] http://realxtend.blogspot.com/2010/11/tundra-project.html
+
+.. [intel-distributedscene] Dan Lake, Mic Bowman, Huaiyu Liu. "Distributed Scene Graph to Enable Thousands of Interacting Users in a Virtual Environment" http://www.pap.vs.uni-due.de/MMVE10/papers/mmve2010_submission_7.pdf
