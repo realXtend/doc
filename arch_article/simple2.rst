@@ -1,22 +1,21 @@
 ================================================
 Extensibility Architecture for 3D Virtual Worlds
 ================================================
-----------------------------------------------------
 
 *What if you could edit a visually appealing and highly interactive
- virtual world just like you edit traditional files? Change them
- locally, save multiple versions, then publish them on the net as
- shared environments where anyone can log in? Cut-and-paste scene data
- from the Web or add your own custom data and functionality using
- familiar scripting languages?  You can already do all of this using
- the open source realXtend platform.*
+virtual world just like you edit traditional files? Change them
+locally, save multiple versions, then publish them on the net as
+shared environments where anyone can log in? Cut-and-paste scene data
+from the Web or add your own custom data and functionality using
+familiar scripting languages?  You can already do all of this using
+the open source realXtend platform.*
 
-(This document was generated on |date| at |time|.)
+.. (This document was generated on |date| at |time|.)
 
-.. |date| date::
-.. |time| date:: %H:%M
+.. # |date| date::
+.. # |time| date:: %H:%M
 
-.. contents::
+.. # contents::
 
 Introduction
 ============
@@ -336,7 +335,7 @@ need a few basic components: EC_Placeable to have something in the
 scene; EC_Mesh to have geometry (e.g. a plane) on which to show the
 slides; and WebView to render HTML from URLs. Let’s add two additional
 components for our custom functionality: a EC_DynamicComponent for
-custom data, and an EC_ Script to implement the user interface
+custom data, and an EC_Script to implement the user interface
 presentation controls.  As data, we need two attributes: a list of
 URLs and an index number for the current position. This custom data
 becomes part of the scene data and is automatically stored and
@@ -546,7 +545,7 @@ References
 
 .. [sirikata-scaling2] Daniel Horn, Ewen Cheslack-Postava, Behram F.T. Mistree, Tahir Azim, Jeff Terrace , Michael J. Freedman, Philip Levis "To Infinity and Not Beyond: Scaling Communication in Virtual Worlds with Meru." http://hci.stanford.edu/cstr/reports/2010-01.pdf
 
-.. [sirikata_scripting] Bhupesh Chandra, Ewen Cheslack-Postava, Behram F. T. Mistree, Philip Levis, and David Gay. "Emerson: Scripting for Federated Virtual Worlds", Proceedings of the 15th International
+.. [sirikata-scripting] Bhupesh Chandra, Ewen Cheslack-Postava, Behram F. T. Mistree, Philip Levis, and David Gay. "Emerson: Scripting for Federated Virtual Worlds", Proceedings of the 15th International
    Conference on Computer Games: AI, Animation, Mobile, Interactive
    Multimedia, Educational & Serious Games (CGAMES 2010 USA).
    http://sing.stanford.edu/pubs/cgames10.pdf
