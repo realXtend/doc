@@ -48,21 +48,22 @@ proprietary software and pave the way for 3D virtual worlds to become
 widely used.  To this end, Naali and Tundra make use of HTTP, COLLADA,
 XMPP and open source software such as OGRE 3D, Qt, OpenSimulator, and
 Blender.  An immediate benefit can be seen in that realXtend supports
-a widely used graphics standard, COLLADA.  Where Second Life (the most
-widely used but proprietary 3D virtual world) has strict limitations
-on importing or exporting 3D virtual world content and supports a
-proprietary representation called prims (primitive graphical objects),
-both of which making sharing or preserving assets difficult, realXtend
-has made it easy to import or export content.  The tool allows reuse
-of existing models and scripts from libraries on the web. Any model
-asset in realXtend can be included in a scene via a URL reference, and
-the Naali graphical user interface supports drag-and-drop of 3D models
-from web pages like Google 3D Warehouse to the 3D virtual world
-scene. In realXtend, a virtual world can be snapped together from
-existing components like Lego bricks, and instantly viewed.
+3d geometry in the typical polygon mesh format so existing material
+such as game characters and architectural models can be used by
+exporting them from e.g. 3ds Max, Maya and Blender. RealXtend has had
+this capability since the beginning in late 2007, whereas Second Life
+(a widely used but proprietary 3D virtual world) has been limited to
+an own special representation using prims (primitive graphical
+objects) and finally brought mesh support to public beta in late 2010.
 
-.. adopt the SL Mesh support somehow
- 
+The tool allows reuse of existing models and scripts from libraries on
+the web. Any model asset in realXtend can be included in a scene via a
+URL reference, and the Naali graphical user interface supports
+drag-and-drop of 3D models from web pages like Google 3D Warehouse to
+the 3D virtual world scene. In realXtend, a virtual world can be
+snapped together from existing components like Lego bricks, and
+instantly viewed.
+
 Another goal of realXtend is flexible editing of virtual worlds --
 editing can be done locally, and the creation published later. This is
 in contrast to Second Life where all edits and additions happen on
@@ -70,6 +71,13 @@ remote servers -- the client application being no more than an
 interface to server side functionality. Naali/Tundra can run
 completely standalone, without the complexity of setting up a separate
 server for local editing as with Opensimulator [opensim-on-a-stick]_.
+This is similar to how a HTML web page can be authored locally by just
+editing the HTML, CSS and Javascript sources, before publishing them
+simply by copying the files over to a web server. Tundra can
+similarily open scenes from local files to show the 3d view, which
+greatly streamlines the creation work as for example changes to the
+images used as textures on the 3d objects show immediately in the
+final form without any uploads to a virtual world system.
 
 .. this is not explained anywhere in the article, now only in the email!
 
