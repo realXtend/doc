@@ -53,14 +53,13 @@ exporting them from e.g. 3ds Max, Maya and Blender. RealXtend has had
 this capability since the beginning in late 2007, whereas Second Life
 (a widely used but proprietary 3D virtual world) has been limited to
 an own special representation using prims (primitive graphical
-objects) and finally brought mesh support to public beta in late 2010.
-
-The tool allows reuse of existing models and scripts from libraries on
-the web. Any model asset in realXtend can be included in a scene via a
-URL reference, and the Naali graphical user interface supports
-drag-and-drop of 3D models from web pages like Google 3D Warehouse to
-the 3D virtual world scene. In realXtend, a virtual world can be
-snapped together from existing components like Lego bricks, and
+objects) and finally brought mesh support to public beta in
+late 2010. The tool allows reuse of existing models and scripts from
+libraries on the web. Any model asset in realXtend can be included in
+a scene via a URL reference, and the Naali graphical user interface
+supports drag-and-drop of 3D models from web pages like Google 3D
+Warehouse to the 3D virtual world scene. In realXtend, a virtual world
+can be snapped together from existing components like Lego bricks, and
 instantly viewed.
 
 Another goal of realXtend is flexible editing of virtual worlds --
