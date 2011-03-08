@@ -79,8 +79,6 @@ greatly streamlines the creation work as for example changes to the
 images used as textures on the 3d objects show immediately in the
 final form without any uploads to a virtual world system.
 
-.. this is not explained anywhere in the article, now only in the email!
-
 A final architectural goal of our project is extensibility - the
 ability to dynamically add or remove functionality to a virtual world
 platform to meet the needs of specific applications.  Our
