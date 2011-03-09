@@ -1,4 +1,6 @@
-================================================
+
+<!-- saved from url=(0034)http://an.org/realxtend/simple.rst -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">================================================
 Extensibility Architecture for 3D Virtual Worlds
 ================================================
 
@@ -20,7 +22,7 @@ the open source realXtend platform.*
 Introduction
 ============
 
-Over the past several years, the realXtend project has developed a
+Since 2007, the realXtend project has developed a
 freely available open source virtual world platform that lets anyone
 create their own applications using it’s platform as a base.
 RealXtend began as a collaboration of several small companies that
@@ -35,26 +37,26 @@ window into a virtual world where the content itself is stored and
 shared on a (typically remote) server.  The realXtend project has
 developed an open source viewer called Naali, the Finnish word for the
 arctic fox, referring to the Finnish origins of the project and also a
-reference to the open source Firefox web browser because it aims for
+reference to the open source Firefox web browser because Naali aims for
 similar wide-spread availability as a browser for virtual worlds.  The
 Naali viewer can connect to Second Life (SL), Open Simulator, or
 realXtend’s own Tundra server.  It can run on Windows, Linux, Mac and
 some mobile platforms.
   
-One goal of the realXtend project has been to build entirely on open
+One architectural goal of the realXtend project has been to build entirely on open 
 standards and open source software to remove the roadblock of
 proprietary software and pave the way for 3D virtual worlds to become
 widely used.  To this end, Naali and Tundra make use of HTTP, COLLADA,
 XMPP and open source software such as OGRE 3D, Qt, OpenSimulator, and
 Blender.  An immediate benefit can be seen in that realXtend supports
-3d geometry in the typical polygon mesh format so existing material
-such as game characters and architectural models can be used by
+3d geometry in the typical polygon mesh format so existing game
+characters, CAD models and building models can be used by 
 exporting them from e.g. 3ds Max, Maya and Blender. RealXtend has had
-this capability since the beginning in late 2007, whereas Second Life
-(a widely used but proprietary 3D virtual world) has been limited to
-an own special representation using prims (primitive graphical
-objects) and finally brought mesh support to public beta in
-late 2010. The tool allows reuse of existing models and scripts from
+this capability since the initial prototype, whereas Second Life (a
+widely used but proprietary 3D virtual world) has been limited to its
+own special representation using prims (primitive graphical objects)
+and finally brought mesh support to public beta in late 2010. The tool
+allows reuse of existing models and scripts from
 libraries on the web. Any model asset in realXtend can be included in
 a scene via a URL reference, and the Naali graphical user interface
 supports drag-and-drop of 3D models from web pages like Google 3D
@@ -62,7 +64,7 @@ Warehouse to the 3D virtual world scene. In realXtend, a virtual world
 can be snapped together from existing components like Lego bricks, and
 instantly viewed.
 
-Another goal of realXtend is flexible editing of virtual worlds --
+Another architectural goal of realXtend is flexible editing of virtual worlds -- 
 editing can be done locally, and the creation published later. This is
 in contrast to Second Life where all edits and additions happen on
 remote servers -- the client application being no more than an
@@ -73,9 +75,9 @@ This is similar to how a HTML web page can be authored locally by just
 editing the HTML, CSS and Javascript sources, before publishing them
 simply by copying the files over to a web server. Tundra can
 similarily open scenes from local files to show the 3d view, which
-greatly streamlines the creation work as for example changes to the
-images used as textures on the 3d objects show immediately in the
-final form without any uploads to a virtual world system.
+streamlines object and scene creation so that changes to texture
+images, 3d models and scripts update immediately in the final form
+without any uploads to a virtual world system.
 
 A final architectural goal of our project is extensibility - the
 ability to dynamically add or remove functionality to a virtual world
@@ -157,16 +159,16 @@ The full source code is available at [tundra-avatar]_.
 Avatar functionality is split in two parts: The first part governs the
 visual appearance and related functionality to modify the looks and
 clothing, and the use of animations for communication. The second part
-models insures that every user connection is given a single entity as
+gives every user connection a single entity as
 the point of focus and control. The default inputs from arrow keys and
 the mouse are mapped to move and rotate the avatar. In this
 discussion, while we cover the basics of avatar appearance, the focus
 is on the latter control functionality.
 
 The server-side functionality to give every new client connection a
-designated avatar is implemented in a JavaScript
+designated avatar is implemented in JavaScript
 (avatarapplication.js, see code below).  Upon a new connection, this
-script creates a new Avatar entity and these components: EC_Mesh for
+script creates a new Avatar entity and attaches these components to it: EC_Mesh for
 the visible 3D model and an associated skeleton for animations;
 EC_Placeable for the entity to be positioned in the 3D scene;
 EC_AnimationController to change and synchronize the animation states;
@@ -234,7 +236,7 @@ animations that is executed both on the client and the server:
 These two parts are enough to implement basic avatar functionality
 using the ECA model. This proof of concept implementation totals in
 369 lines of JavaScript code in two files. The visual appearance comes
-from a pre-existing AvatarAppearance component, which reads an xml
+from a pre-existing AvatarAppearance component, which reads an XML
 description with references to the base meshes used and individual
 morphing values set by the user in an editor. Implemented in C++, it
 uses the realXtend avatar model from an earlier realXtend prototype
@@ -261,7 +263,7 @@ as a simple means for 3D scene editing. Another possibility is to
 further augment the client with more data that is synchronized for
 animations, for instance, the full skeleton for motion capture or
 machine vision based mapping of the real body to the avatar pose.  In
-our open source Chesapeak bay watershed demo scene there are minigames
+our open source Chesapeake Bay watershed demo scene, there are minigames
 with customized game character controls, for example flying as an
 osprey with the ability to dive to catch fish. These were implemented
 by using the human avatar functionality as a starting point, and
@@ -377,7 +379,7 @@ knows the locations of the objects. Separate object hosts, either
 running on the same server or any client / peer, can run arbitrary
 code to implement the objects in the federated world
 [sirikata-scaling]_. Messaging is used exclusively for all object
-interactions [sirikata-scripting]_. The idea with the Entity-Component
+interactions [sirikata-scripting]_. The idea with the Entity-Component-Action
 mechanism in Naali is, instead, to lessen the need to invent
 particular protocols for all networked application behavior when, for
 many simple cases, using automatically synchronized attributes
@@ -386,7 +388,7 @@ concluded that they aimed to keep the base level clean from high level
 functionality, but that capabilities like attribute synchronization
 would be desirable in application level support scripts.
 
-The Naali EC model borrows the idea of using aggregation and not
+The Naali ECA model borrows the idea of using aggregation and not
 inheritance from the game engine literature, specifically a gaming
 oriented virtual world platform called Syntensity [syntensity]_. Like
 with Tundra, Syntensity can run the same JavaScript code both on the
@@ -445,7 +447,7 @@ support. There is also an experimental WebNaali client, written in
 Javascript to run in a web browser, doing the EC synchronization over
 WebSockets and rendering with WebGL.
 
-Regarding the status of the generic EC architecture, this is
+Regarding the status of the generic ECA architecture, this is
 implemented in Naali and hence is in use throughout in the Tundra SDK
 which complements the original Naali codebase with a server module
 [tundraproject]_. This configuration enables Naali to run standalone
@@ -471,7 +473,8 @@ with the OpenSimulator servers running the realXtend addon (modrex) in
 a limited fashion, as these servers still assume the hardcoded SL
 model, but developers using Naali can still add additional arbitrary
 client side functionality and have the data automatically stored and
-synchronized over the net via OpenSimulator.
+synchronized over the net via OpenSimulator. Entity actions are currently
+not implemented in this Opensimulator realXtend addon.
 
 The realXtend platform does not yet solve all problems related to
 virtual world architectures. Naali does not currently address scaling
@@ -503,7 +506,7 @@ Conclusion
 ==========
 
 In this paper, we described the realXtend project and focused
-especially on its Entity-Component architecture which provides a
+especially on its Entity-Component-Action architecture which provides a
 general extensibility mechanism for building 3D virtual worlds.  The
 Tundra SDK, which is built entirely using the EC model, is a true
 platform that does not get in the way of the application developer;
@@ -546,7 +549,7 @@ References
 
 .. [sirikata-scripting] Bhupesh Chandra, Ewen Cheslack-Postava, Behram F. T. Mistree, Philip Levis, and David Gay. "Emerson: Scripting for Federated Virtual Worlds", Proceedings of the 15th International
    Conference on Computer Games: AI, Animation, Mobile, Interactive
-   Multimedia, Educational & Serious Games (CGAMES 2010 USA).
+   Multimedia, Educational &amp; Serious Games (CGAMES 2010 USA).
    http://sing.stanford.edu/pubs/cgames10.pdf
 
 .. [ec-links] Mick West, Evolve Your Hierarchy -- Refactoring Game Entities with Components http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/
@@ -558,3 +561,4 @@ References
 .. [tundraproject] http://realxtend.blogspot.com/2010/11/tundra-project.html
 
 .. [intel-distributedscene] Dan Lake, Mic Bowman, Huaiyu Liu. "Distributed Scene Graph to Enable Thousands of Interacting Users in a Virtual Environment" http://www.pap.vs.uni-due.de/MMVE10/papers/mmve2010_submission_7.pdf
+</pre></body></html>
