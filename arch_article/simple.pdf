@@ -50,9 +50,9 @@ endobj
  597.8043
  0 ]
  /Rect [ 224.9278
- 221.5936
+ 197.5936
  309.3878
- 233.5936 ]
+ 209.5936 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -601,7 +601,7 @@ endobj
  /Dest [ 6 0 R
  /XYZ
  219.9729
- 234.8436
+ 210.8436
  0 ]
  /Rect [ 68.69291
  584.5543
@@ -1102,11 +1102,11 @@ endobj
 % 'R66': class PDFInfo 
 66 0 obj
 << /Author ()
- /CreationDate (D:20110310075631-02'00')
+ /CreationDate (D:20110310140347-02'00')
  /Keywords ()
  /Producer (ReportLab http://www.reportlab.com)
  /Subject (\(unspecified\))
- /Title (Extensibility Architecture for 3D Virtual Worlds) >>
+ /Title (An Entity-Component Model for Extensible Virtual Worlds) >>
 endobj
 % 'R67': class PDFOutlines 
 67 0 obj
@@ -1120,7 +1120,7 @@ endobj
 << /Dest [ 6 0 R
  /XYZ
  62.69291
- 635.0236
+ 611.0236
  0 ]
  /Next 69 0 R
  /Parent 67 0 R
@@ -1226,57 +1226,57 @@ endobj
 % 'R77': class PDFStream 
 77 0 obj
 % page stream
-<< /Length 6509 >>
+<< /Length 6537 >>
 stream
 1 0 0 1 0 0 cm BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 741.0236 cm
+1 0 0 1 62.69291 717.0236 cm
 q
-BT 1 0 0 1 0 9.64 Tm 12.11488 0 Td 24 TL /F2 20 Tf 0 0 0 rg (Extensibility Architecture for 3D Virtual Worlds) Tj T* -12.11488 0 Td ET
+BT 1 0 0 1 0 33.64 Tm 31.59488 0 Td 24 TL /F2 20 Tf 0 0 0 rg (An Entity-Component Model for Extensible) Tj T* 135.56 0 Td (Virtual Worlds) Tj T* -167.1549 0 Td ET
 Q
 Q
 q
-1 0 0 1 62.69291 647.0236 cm
+1 0 0 1 62.69291 623.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 76.82 Tm /F3 10 Tf 12 TL 1.241318 Tw (We propose an architectural framework for building a wide variety of 3D virtual world applications. The) Tj T* 0 Tw 1.208555 Tw (applications consist of entities to which arbitrary functionality is added in components with custom data) Tj T* 0 Tw .615366 Tw (and associated code. The values of the attributes are automatically synchronized among the participants) Tj T* 0 Tw 3.268443 Tw (in a networked environment. A core API provides basic functionality for graphical user interfaces,) Tj T* 0 Tw 2.476412 Tw (controller input, audio and means for 3d scene manipulation for application code. The open source) Tj T* 0 Tw .24683 Tw (realXtend project has implemented this fully in the new Tundra SDK and in a limited form in an add-on for) Tj T* 0 Tw (the Opensimulator server.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 614.0236 cm
+1 0 0 1 62.69291 590.0236 cm
 q
 BT 1 0 0 1 0 8.435 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Introduction) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 548.0236 cm
+1 0 0 1 62.69291 524.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 52.82 Tm /F1 10 Tf 12 TL .273984 Tw (Since 2007, the realXtend project has developed a freely available open source virtual world platform that) Tj T* 0 Tw 3.867984 Tw (lets anyone create their own applications using it\222s platform as a base. RealXtend began as a) Tj T* 0 Tw .70152 Tw (collaboration of several small companies that coordinated in developing a common technology base that) Tj T* 0 Tw 2.197674 Tw (they then applied in different application fields including virtual worlds, video games and educational) Tj T* 0 Tw (applications.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 446.0236 cm
+1 0 0 1 62.69291 422.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 88.82 Tm /F1 10 Tf 12 TL .980651 Tw (Like several other 3D virtual world platforms, the realXtend project has take a client-server approach. A) Tj T* 0 Tw .01561 Tw (browser-like client called a viewer renders content enabling end users to see and manipulate a 3D window) Tj T* 0 Tw 2.107633 Tw (into a virtual world where the content itself is stored and shared on a \(typically remote\) server. The) Tj T* 0 Tw .813735 Tw (realXtend project has developed an open source viewer called Naali, the Finnish word for the arctic fox,) Tj T* 0 Tw .259987 Tw (referring to the Finnish origins of the project and also a reference to the open source Firefox web browser) Tj T* 0 Tw .985318 Tw (because Naali aims for similar wide-spread availability as a browser for virtual worlds. The Naali viewer) Tj T* 0 Tw 2.376235 Tw (can connect to Second Life \(SL\), Open Simulator, or realXtend\222s own Tundra server. It can run on) Tj T* 0 Tw (Windows, Linux, Mac and some mobile platforms.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 284.0236 cm
+1 0 0 1 62.69291 260.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 148.82 Tm /F1 10 Tf 12 TL 1.366235 Tw (One architectural goal of the realXtend project has been to build entirely on open standards and open) Tj T* 0 Tw .211163 Tw (source software to remove the roadblock of proprietary software and pave the way for 3D virtual worlds to) Tj T* 0 Tw 1.57811 Tw (become widely used. To this end, Naali and Tundra make use of HTTP, COLLADA, XMPP and open) Tj T* 0 Tw .645318 Tw (source software such as OGRE 3D, Qt, OpenSimulator, and Blender. An immediate benefit can be seen) Tj T* 0 Tw .867984 Tw (in that realXtend supports 3d geometry in the typical polygon mesh format so existing game characters,) Tj T* 0 Tw .602339 Tw (CAD models and building models can be used by exporting them from e.g. 3ds Max, Maya and Blender.) Tj T* 0 Tw 1.793318 Tw (RealXtend has had this capability since the initial prototype, whereas Second Life \(a widely used but) Tj T* 0 Tw 2.046412 Tw (proprietary 3D virtual world\) has been limited to its own special representation using prims \(primitive) Tj T* 0 Tw .928221 Tw (graphical objects\) and finally brought mesh support to public beta in late 2010. The tool allows reuse of) Tj T* 0 Tw .569431 Tw (existing models and scripts from libraries on the web. Any model asset in realXtend can be included in a) Tj T* 0 Tw .757318 Tw (scene via a URL reference, and the Naali graphical user interface supports drag-and-drop of 3D models) Tj T* 0 Tw .106654 Tw (from web pages like Google 3D Warehouse to the 3D virtual world scene. In realXtend, a virtual world can) Tj T* 0 Tw (be snapped together from existing components like Lego bricks, and instantly viewed.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 170.0236 cm
+1 0 0 1 62.69291 146.0236 cm
 q
 BT 1 0 0 1 0 100.82 Tm 1.12686 Tw 12 TL /F1 10 Tf 0 0 0 rg (Another architectural goal of realXtend is flexible editing of virtual worlds -- editing can be done locally,) Tj T* 0 Tw .072765 Tw (and the creation published later. This is in contrast to Second Life where all edits and additions happen on) Tj T* 0 Tw 2.350651 Tw (remote servers -- the client application being no more than an interface to server side functionality.) Tj T* 0 Tw 1.287126 Tw (Naali/Tundra can run completely standalone, without the complexity of setting up a separate server for) Tj T* 0 Tw .434985 Tw (local editing as with Opensimulator ) Tj ([) Tj 0 0 .501961 rg (opensim-on-a-stick) Tj 0 0 0 rg (]. This is similar to how a HTML web page can be) Tj T* 0 Tw .461984 Tw (authored locally by just editing the HTML, CSS and Javascript sources, before publishing them simply by) Tj T* 0 Tw .715777 Tw (copying the files over to a web server. Tundra can similarily open scenes from local files to show the 3d) Tj T* 0 Tw 1.608651 Tw (view, which streamlines object and scene creation so that changes to texture images, 3d models and) Tj T* 0 Tw (scripts update immediately in the final form without any uploads to a virtual world system.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 104.0236 cm
+1 0 0 1 62.69291 80.02362 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 52.82 Tm /F1 10 Tf 12 TL 3.31686 Tw (A final architectural goal of our project is extensibility - the ability to dynamically add or remove) Tj T* 0 Tw .502485 Tw (functionality to a virtual world platform to meet the needs of specific applications. The approach is similar) Tj T* 0 Tw .867318 Tw (to web browsers, which also download both data and executable code from servers so that applications) Tj T* 0 Tw .472339 Tw (can implement custom behaviour in the client. Our extensibility architecture is the focus of the rest of this) Tj T* 0 Tw (paper.) Tj T* ET
@@ -2080,41 +2080,41 @@ xref
 0003849782 00000 n
 0003850336 00000 n
 0003850495 00000 n
-0003850755 00000 n
-0003850880 00000 n
-0003851052 00000 n
-0003851257 00000 n
-0003851469 00000 n
-0003851678 00000 n
-0003851866 00000 n
-0003852081 00000 n
-0003852267 00000 n
-0003852422 00000 n
-0003852592 00000 n
-0003859202 00000 n
-0003864620 00000 n
-0003870705 00000 n
-0003877154 00000 n
-0003881812 00000 n
-0003888746 00000 n
-0003895666 00000 n
-0003903233 00000 n
-0003903417 00000 n
-0003903494 00000 n
-0003903571 00000 n
-0003903648 00000 n
-0003903725 00000 n
-0003903802 00000 n
-0003903879 00000 n
-0003903956 00000 n
+0003850762 00000 n
+0003850887 00000 n
+0003851059 00000 n
+0003851264 00000 n
+0003851476 00000 n
+0003851685 00000 n
+0003851873 00000 n
+0003852088 00000 n
+0003852274 00000 n
+0003852429 00000 n
+0003852599 00000 n
+0003859237 00000 n
+0003864655 00000 n
+0003870740 00000 n
+0003877189 00000 n
+0003881847 00000 n
+0003888781 00000 n
+0003895701 00000 n
+0003903268 00000 n
+0003903452 00000 n
+0003903529 00000 n
+0003903606 00000 n
+0003903683 00000 n
+0003903760 00000 n
+0003903837 00000 n
+0003903914 00000 n
+0003903991 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(AU\226`6\276\367\277\315#\316z\252\3165p) (AU\226`6\276\367\277\315#\316z\252\3165p)] 
+ [(e\343\215T\0232\024P\377~:\266\356\214s\344) (e\343\215T\0232\024P\377~:\266\356\214s\344)] 
 
  /Info 66 0 R
  /Root 65 0 R
  /Size 94 >>
 startxref
-3904003
+3904038
 %%EOF

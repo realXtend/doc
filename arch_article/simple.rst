@@ -1,6 +1,6 @@
-================================================
-Extensibility Architecture for 3D Virtual Worlds
-================================================
+=======================================================
+An Entity-Component Model for Extensible Virtual Worlds
+=======================================================
 
 *We propose an architectural framework for building a wide variety of
 3D virtual world applications. The applications consist of entities to
