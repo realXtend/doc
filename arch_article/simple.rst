@@ -219,25 +219,7 @@ server also sets the animation state to either "Stand" or "Walk" based
 on whether the avatar is moving. All participants run common animation
 update code to play back the walk animation while moving, calculating
 the correct speed from the velocity data from the physics on the
-server.  The following code shows the common code for updating
-animations that is executed both on the client and the server:
-
-.. code-block:: javascript
-
-    function commonUpdateAnimation(frametime) {
-        var animcontroller = me.animationcontroller;
-        var animname = animcontroller.animationState;
-        if (animname != "")
-            animcontroller.EnableExclusiveAnimation(animname, true, 0.25, 0.25, false);
-        // If walk animation is playing, adjust speed according to the rigidbody velocity
-        if (animcontroller.IsAnimationActive("Walk")) {
-            // Note: on client the rigidbody does not exist, 
-            // so the velocity is only a replicated attribute
-            var vel = me.rigidbody.linearVelocity;
-            var walkspeed = Math.sqrt(vel.x * vel.x + vel.y * vel.y) * walk_anim_speed;
-            animcontroller.SetAnimationSpeed("Walk", walkspeed);
-        }
-    }
+server.  
 
 These two parts are enough to implement basic avatar functionality
 using the ECA model. This proof of concept implementation totals in
@@ -532,7 +514,6 @@ functionality.  We will continue to develop the realXtend platform and
 applications on top of it.  Anyone is free to use it for their needs,
 and motivated developers are invited to participate in the effort
 which is mainly coordinated on-line.
-
 
 References
 ==========
