@@ -1,16 +1,17 @@
-
-<!-- saved from url=(0034)http://an.org/realxtend/simple.rst -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">================================================
+================================================
 Extensibility Architecture for 3D Virtual Worlds
 ================================================
 
-*What if you could edit a visually appealing and highly interactive
-virtual world just like you edit traditional files? Change them
-locally, save multiple versions, then publish them on the net as
-shared environments where anyone can log in? Cut-and-paste scene data
-from the Web or add your own custom data and functionality using
-familiar scripting languages?  You can already do all of this using
-the open source realXtend platform.*
+*We propose an architectural framework for building a wide variety of
+ 3D virtual world applications. The applications consist of entities
+ to which arbitrary functionality is added in components with custom
+ data and associated code. The values of the attributes are
+ automatically synchronized among the participants in a networked
+ environment. A core API provides basic functionality for graphical
+ user interfaces, controller input, audio and means for 3d scene
+ manipulation for application code. The open source realXtend project
+ has implemented this fully in the new Tundra SDK and in a limited
+ form in an add-on for the Opensimulator server.*
 
 .. (This document was generated on |date| at |time|.)
 
@@ -81,7 +82,10 @@ without any uploads to a virtual world system.
 
 A final architectural goal of our project is extensibility - the
 ability to dynamically add or remove functionality to a virtual world
-platform to meet the needs of specific applications.  Our
+platform to meet the needs of specific applications.  
+The approach is similar to web browsers, which also download both data
+and executable code from servers so that applications can implement
+custom behaviour in the client. Our
 extensibility architecture is the focus of the rest of this paper.
 
 Extensible Scene Architecture
@@ -129,6 +133,8 @@ SL-like avatar using a set of pre-existing generic ECAs and specific
 JavaScript code that run both on the server and the clients. The
 second example is a presentation application that lets a presenter
 control the view for the others as the presentation proceeds.
+
+.. Core API summary wouldn't hurt here
 
 Avatars are not part of the platform
 ====================================
@@ -561,4 +567,4 @@ References
 .. [tundraproject] http://realxtend.blogspot.com/2010/11/tundra-project.html
 
 .. [intel-distributedscene] Dan Lake, Mic Bowman, Huaiyu Liu. "Distributed Scene Graph to Enable Thousands of Interacting Users in a Virtual Environment" http://www.pap.vs.uni-due.de/MMVE10/papers/mmve2010_submission_7.pdf
-</pre></body></html>
+
