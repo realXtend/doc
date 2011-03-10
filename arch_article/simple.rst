@@ -536,7 +536,7 @@ References
 
 .. [sirikata-scripting] Bhupesh Chandra, Ewen Cheslack-Postava, Behram F. T. Mistree, Philip Levis, and David Gay. "Emerson: Scripting for Federated Virtual Worlds", Proceedings of the 15th International
    Conference on Computer Games: AI, Animation, Mobile, Interactive
-   Multimedia, Educational &amp; Serious Games (CGAMES 2010 USA).
+   Multimedia, Educational & Serious Games (CGAMES 2010 USA).
    http://sing.stanford.edu/pubs/cgames10.pdf
 
 .. [ec-links] Mick West, Evolve Your Hierarchy -- Refactoring Game Entities with Components http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/
