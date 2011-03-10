@@ -3,15 +3,15 @@ Extensibility Architecture for 3D Virtual Worlds
 ================================================
 
 *We propose an architectural framework for building a wide variety of
- 3D virtual world applications. The applications consist of entities
- to which arbitrary functionality is added in components with custom
- data and associated code. The values of the attributes are
- automatically synchronized among the participants in a networked
- environment. A core API provides basic functionality for graphical
- user interfaces, controller input, audio and means for 3d scene
- manipulation for application code. The open source realXtend project
- has implemented this fully in the new Tundra SDK and in a limited
- form in an add-on for the Opensimulator server.*
+3D virtual world applications. The applications consist of entities to
+which arbitrary functionality is added in components with custom data
+and associated code. The values of the attributes are automatically
+synchronized among the participants in a networked environment. A core
+API provides basic functionality for graphical user interfaces,
+controller input, audio and means for 3d scene manipulation for
+application code. The open source realXtend project has implemented
+this fully in the new Tundra SDK and in a limited form in an add-on
+for the Opensimulator server.*
 
 .. (This document was generated on |date| at |time|.)
 
