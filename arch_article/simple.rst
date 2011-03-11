@@ -2,6 +2,12 @@
 An Entity-Component Model for Extensible Virtual Worlds
 =======================================================
 
+|	Toni Alatalo
+|	Playsign Ltd and realXtend association
+
+Abstract
+========
+
 *We propose an architectural framework for building a wide variety of
 3D virtual world applications. The applications consist of entities to
 which arbitrary functionality is added in components with custom data
@@ -12,6 +18,8 @@ controller input, audio and means for 3d scene manipulation for
 application code. The open source realXtend project has implemented
 this fully in the new Tundra SDK and in a limited form in an add-on
 for the Opensimulator server.*
+
+**Keywords**: *3D virtual world, architecture, extensiblility, entity-component model*
 
 .. (This document was generated on |date| at |time|.)
 
@@ -287,8 +295,7 @@ consider a situation where we added multiple views for the
 presentation, like slide view and outline view, or where we animate
 the presentation content or where we add voice and text chat
 components used for communicating with other viewers or to add
-annotations to the presentation -- but for simplicity’s sake, we will
-keep our application simple.]
+annotations to the presentation -- but here the application is kept simple.]
 
 .. figure:: screenshot_presentation_toy.png
 
