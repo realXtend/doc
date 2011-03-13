@@ -4,7 +4,7 @@ OpenWonderland
 OpenWonderland (OWL) and realXtend are architecturally remarkably
 similar. Both OWL and Naali are modular applications where all virtual
 worlds functionality such as avatars and voice are implemented in
-modules. OWL also has a similar mechanism ti the entity-components
+modules. OWL also has a similar mechanism to the entity-components
 described in this article: so called capabilities.
 
 In Wonderland a capability is something that can be attached to a
