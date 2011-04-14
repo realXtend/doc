@@ -1,5 +1,30 @@
 **NOTE: these are work-in-progress notes / transcription, to be corrected!! (now)**
 
+some identified 'bugs':
+
+22:02 < antont> "Our manifesto is that we should not rely on platforms that are
+22:02 < antont> hardcoded like what physical worlds are like � opensim, Linden Lab 
+22:02 < antont> always terrain and certain regions and more or less all human. But for
+22:02 < antont> example, here is pong game and it is implemented in realXtend." :)
+22:03 < antont> i said 'certain sized regions' etc but i guess was talking too quick and mumbling :)
+22:03 -!- MasterJ-_- [mail@adsl-84-226-73-53.adslplus.ch] has joined #realxtend-dev
+22:03 < antont> and i don't think i say 'physical worlds' :)
+22:03 < MasterJ-_-> tired but alive ---- good evening
+22:03 < antont> but gets the idea cross anyway i guess
+22:03 < antont> hi MasterJ-_- 
+22:03 < antont> "Our
+22:03 < antont> "company makes fun fast arcade games and you do not always need avatars
+22:03 < antont> in games." :)
+22:04 < antont> this is the best part :p .. "As for payment system, we have that also in realXtend, such as
+22:04 < antont> facebook since it supports openid account,"
+22:04 < antont> gotta correct that a bit!
+22:05 < MasterJ-_-> payement 
+22:05 < MasterJ-_-> *-e
+22:06 < antont> i said i guess quite quickly something like 'we don't have a payment system, but the idea is that 
+                you can integrate any easily .. like paypal or whatever, and you can use facebook authentication 
+                .. " so it melted a bit in the notes
+
+
 ---
 
 Presentation of realXtend.org by Toni Alatalo at NVWN Monthly Meeting
