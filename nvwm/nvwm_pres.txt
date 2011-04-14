@@ -1,0 +1,215 @@
+Presentation of realXtend.org by Toni Alatalo at NVWN Monthly Meeting
+
+This month’s guest was Toni Alatalo of realXtend.org (Python Morales
+in Second Life), an open source platform for interconnected virtual
+worlds.
+
+Background
+
+Toni has been working with internet development for the past 20
+years. realXtend.org was started by a private investor, Juha Hulkko,
+in Finland in 2007 as a result of his encountering second life and
+seeing the possibilities for business.  He saw that if VWs were to be
+really big then need to so that there is nothing controlled by one
+single company, but it should be an open source project.
+
+Organization 
+
+Currently, there are four companies involved – 3 in Åbo, Finland and 1
+in Spain – that are developing the software and these companies use
+technologies to make their own business services and products while
+realXtend coordinates the core platform.
+
+LudoCraft (www.ludocraft.com)
+Evocativi (www.evocativi.com)
+Playsign (www.playsign.net)
+Studio Enne (www.enne.es)
+
+Previously realXtend was a project with some Finnish public funding
+but now they are establishing a permanent structure. There is the
+realXtend Foundation, similar to the apache software foundation – open
+source foundation – and the idea is that the foundation can never go
+away – the Foundation owns the name. Then there is the Association in
+which there is no money involved. The Association coordinates the
+collaboration and develops interest in realXtend. For example, the
+Association can suggest projects to the Foundation and the Foundation
+then can collect money from big companies and fund projects. The
+organizational setup is similar to that of Blender.org, which has a
+foundation that owns copyright and name, and then have the Blender
+institute where get funding for projects. The difference is that in
+realXtend the Association will not hire as many people and will try to
+keep the organization as simple as possible and not have money
+there. So the work will be even more distributed than Blender and more
+decentralized than Mozilla.
+
+Toni works in the Association and he is the “benevolent dictator” –
+making decisions as to what code to include in the core.  This is a
+bit different than the open sim organization in which there is a set
+of core developers and all those core developers have a veto right. So
+nothing can go in the kernel if one person uses the veto.
+
+At the moment there are 15 people working on this – four companies
+with few people each – and then at the local university. Also it is
+important to note that Nokia is a funder as well.
+
+Benefits of realXtend 
+
+Realextend is modular and is not built on the Linden Lab model.
+
+Open Sim primarily based on Linden Lab and Second Life and this
+restricts what you can do. When working with Linden code, they saw
+that it was “spaghetti code”, ie it was not modular so that it was
+difficult to add things. realXtend wanted to create a generic platform
+on which you can make any kind of application and that was not tied
+into the basic model of Linden Lab.
+
+For example, some times the user does not need an avatar or does not
+want a land/sky setup, but it was difficult to do such things that did
+not already exist in the Linden viewer and in the protocol. Sometimes
+you may want a virtual app that does not have avs at all but you just
+want to control the thing by some other means – for example with
+Celestia, an astronomical simulation, you control how view the solar
+system and can change the time so it would be weird if you were a
+human in this space. Also simple things like creating a demo with old
+Linden-based viewer so you could swim as a fish – but to make a good
+fish behavior you had to hack the code to disable flying and still you
+could not simulate fish movement well.
+
+But you can use any kind of 3d model as avatar in realXtend and can
+animate them how you want and use motion capture, which also works
+with second life avs, but two differences 1) in sl there is always
+same base mesh so all more or less similar unless build with prims, in
+realXtend you can use any mesh – so can be anything you like such as a
+mushroom very easily, 2) like a decentralized system so the avatar is
+not tied to some world, but av server is independent and can use same
+av in any world – global avatar system - Indeed this was the main
+focus in the first stages and we are not giving that up – we like to
+have decentralized stuff.
+
+Our manifesto is that we should not rely on platforms that are
+hardcoded like what physical worlds are like – opensim, Linden Lab –
+always terrain and certain regions and more or less all human. But for
+example, here is pong game and it is implemented in realXtend. Our
+company makes fun fast arcade games and you do not always need avatars
+in games. Perhaps you do not want sky or land in environment so we
+have a generic client like a web browser then go on server and server
+designs how app behaves, so if take normal web browser and go to
+google mail then browser looks like mail app but if go to google maps
+then looks like map app, this is idea in realXtend – always the
+content, the app which defines all the behavior this way you can use
+one generic platform for all apps, one app type is the second life app
+but that is only one type open source alternative to unity 3d.
+
+In addition, realXtend uses the same code base to run the server and
+the viewer so that when you make an improvement, it is made on both
+simultaneously. One drawback with Open Sim is that you are not allowed
+to see the Linden Lab code due to the possibility of copyright
+infringement. So if you want to do something for Open Sim and
+contribute code to the core, you are not allowed to look at Linden
+viewer code. So this makes development very difficult, but for
+realXtend, it is the opposite so does both automatically so very happy
+to have simple server for modular viewer.
+
+As for payment system, we have that also in realXtend, such as
+facebook since it supports openid account, like google, so we had this
+already in our old version, thx to intel, which is now Symbian bridge
+where can use opened. Same as Open Sim - making base platform to make
+it easy as possible to integrate facebook accounts, Microsoft live id
+which is used by school kids – so easy to integrate but core does not
+have any money in it itself since not all apps need money and
+webservers and browsers do not know anything about money. But we do
+not have any integration yet – like paypal.
+
+But it is a good idea to make a technology similar to website even
+though do not have Linden inworld economy going on – but it is still
+interesting what Linden has achieve with its inworld economy – we want
+to support that – but do not always need it.
+ 
+Also Sirikata is similar to realXtend – one difference is that
+sirikata has had more of an academic focus but sirikata is maturing
+and they have webgl client now and we have this now. We use same webgl
+engine that sirikata uses.
+
+Examples of use of realXtend
+
+1. Meeting spaces for business people
+
+2. MMORPGs
+
+3. Academic uses such as the Nantes project in which designed Medieval
+Nantes together with an art school and Professor François Garnier at
+L’École Nationale Supérieure des Arts Décoratifs AII. Tekes of Finland
+designed a virtual expo world
+
+4. Tekes had virtual expo world – not sure if still online.  Have to
+check. Currently the organization is in transition since the
+developers and companies that were using opensim realXtend have
+stopped using it and now are using the tundra platform. So no one is
+maintaining the old demos anymore.
+
+5. Finnish School of the Future – designing future learning
+environments for school kids. On the left side have menu that is
+custom code that is part of the service, made as simple tool for
+school. Also have built in custom functionality so can grab objects so
+can place objects in world just by carrying them and then walk around
+and then press drop button when find place where want to put it. All
+made with scripting – changed how avatars work and user interface – do
+not need to compile the viewer – all done with scripting.
+
+6. Chesapeake Bay with Immersive Education and Smithsonian Institute – sneak preview video:
+
+http://www.youtube.com/watch?v=cUKuDnEMuAk&feature=related
+
+On May 1, a demo server will be opened.
+Users
+
+We have more or less only corporate users now, less academic now –
+because it is developed by small private companies and we have to do
+business to survive and so we have to find customers to pay so we make
+apps and then make money. More in companies now and this collaboration
+with academia that is something we should improve because so far it is
+more in companies.
+
+Technopolis company in Finland that has many different locations so we
+arranged meetings and collaboration tools for them-
+
+Also it is very difficult to know about all the uses of realXtend
+since users are everywhere. For example, I saw that some people in
+Korea added something – I saw video on youtube.
+
+But this is new technology and we are really happy with it – happening
+right now in 2011 when it really becomes something you can build on .
+
+Challenges
+
+One challenge is this thing with human networking – and communicating
+about these things and having a nice website for this but our website
+is dead. We are doing a good job with the code but perhaps with
+Northern Finnish people we are not doing such a good job with PR and
+communicating what we have done.
+
+Challenge is that webbased client is in early stages and that when
+with unity 3d and people use it with webbrowser plugin – so this
+webbrowser client is one challenge.
+
+Links
+
+Downloads: http://code.google.com/p/realXtend-naali/downloads/list
+
+Tundra download: http://code.google.com/p/realXtend-naali/downloads/detail?name=realXtend-Tundra-1.0.5.msi&can=2&q=
+
+Naali Wiki: http://wiki.realXtend.org/index.php/Getting_Started_with_Naali#Getting_and_running_Naali
+
+Tundra Wiki:
+http://wiki.realXtend.org/index.php/Getting_Started_with_Tundra
+
+Video on Tundra:
+http://www.youtube.com/watch?v=Wg6SAQPW-9k 
+
+Project visualization
+http://code.google.com/p/rexprojectspace/
+
+Paper on “An Entity-Component Model for Extensible Virtual Worlds”: https://github.com/realXtend/doc/blob/master/arch_article/simple.pdf?raw=true
+
+
+
