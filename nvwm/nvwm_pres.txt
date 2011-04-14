@@ -1,3 +1,7 @@
+**NOTE: these are work-in-progress notes / transcription, to be corrected!! (now)**
+
+---
+
 Presentation of realXtend.org by Toni Alatalo at NVWN Monthly Meeting
 
 This month’s guest was Toni Alatalo of realXtend.org (Python Morales
