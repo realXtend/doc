@@ -2,6 +2,8 @@
 realXtend: a platform for realtime 3d and networked applications
 ================================================================
 
+.. contents::
+
 Introduction
 ============
 
