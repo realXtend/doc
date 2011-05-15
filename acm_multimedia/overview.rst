@@ -184,3 +184,23 @@ just combining local video camera input with some custom control logic
 written in javascript in a standalone application. On the other hand,
 native code can be used too for example when need custom udp messaging
 and efficient 3d geometry processing.
+
+Further information
+===================
+
+- example scenes, i.e. Tundra apps written in Javascript:
+  https://github.com/realXtend/naali/tree/tundra/bin/scenes
+
+  A video
+  of many of these: http://www.youtube.com/watch?v=Wg6SAQPW-9k
+
+- API docs (same for c++ and js and py basically),
+  http://www.realxtend.org/doxygen/
+
+- an article, "An Entity-Component Model for Extensible Virtual
+  Worlds" was accepted to an upcoming special issue in the IEEE
+  Internet Computing magazine on next gen. virtual world
+  architectures: https://github.com/realXtend/doc/raw/master/arch_article/simple.pdf . Will be edited still before goes to print, but has
+  the info and is clear to read already.
+
+http://realxtend.wordpress.com/2011/05/14/simple-world-authoring-tools/
