@@ -149,7 +149,9 @@ apply the changes, and see the result automatically immediately in the
 graphical view which can have open on the side. The asset system
 monitors the file system for changes in the files used in the current
 scene. Same live reloading works also for 3d models, images and qt ui
-files.
+files. 
+This video demonstrates it with editing the Javascript source of the minimal pong example
+while the game is running: http://www.youtube.com/watch?v=ty8LdX80KaE
 
 realXtend is also one of the official platforms of the Immersive Education initiative. 
 This video shows a Maryland blue crab in realXtend, Open Wonderland and Sirikata:
