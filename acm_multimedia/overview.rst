@@ -33,11 +33,7 @@ is always expected to be there:
  * has OpenGL, Direct-X and OpenGL ES renderer plugins
  * widely available support for exporting models from other applications
 
-- Qt as the main framework library
- * QApplication based main loop for module updates and rendering
- * Exposing framework APIs and other objects for scripting languages with QtScript (to JavaScript and Python)
- * Framework heavily relies on QObject signal and slot mechanism as its event system
- * Keyboard and mouse input events from Qt translated into our InputAPI events
+- QT for UI and exposing the API for scripting (Javascript and Python)
 
 - kNet for networking
  * KristalliNet, or kNet for short, is a new but quite mature library…
@@ -154,6 +150,11 @@ graphical view which can have open on the side. The asset system
 monitors the file system for changes in the files used in the current
 scene. Same live reloading works also for 3d models, images and qt ui
 files.
+
+realXtend is also one of the official platforms of the Immersive Education initiative. 
+This video shows a Maryland blue crab in realXtend, Open Wonderland and Sirikata:
+SNEAK PEEK : Smithsonian 3D blue crab in 3 virtual worlds
+http://www.youtube.com/watch?v=cUKuDnEMuAk&NR=1
 
 Conclusion
 ==========
