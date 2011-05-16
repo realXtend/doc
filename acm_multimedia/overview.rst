@@ -24,10 +24,10 @@ Tundra SDK is made by integrating a set of open source libraries in a modular fr
 These provide the basic functionality for 3d, multimedia and networking. 
 They are divided in two categories: the core API, and optional modules.
 
-Core API
---------
+Basic functionality
+-------------------
 
-Is always expected to be there:
+These basic features are provided by the core API, which is always available: 
 
 - Ogre3D for graphics rendering
  * OpenGL, DirectX and OpenGL ES renderer plugins. Suitable for desktop and mobile environments.
