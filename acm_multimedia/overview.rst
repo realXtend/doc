@@ -79,7 +79,9 @@ In short, it provides the application developer the means to create
 custom components, which can then be added to any scene entity. 
 That application specific scene data is then automatically
 synchronized among all participants in the network, and handled when
-saving or loading scenes from files. The application can be written in
+saving or loading scenes from files. 
+
+The application can be written in
 pure Javascript or Python, but still utilize the powerful C++
 libraries such as Ogre and Bullet. Or in C++ using the module system
 there. Javascript applications have the great advantage that the code
@@ -89,14 +91,21 @@ HTML+JS web pages work.
 Usage
 =====
 
-Applications are authored as documents which describe the static data and refer to the software modules which implement the application specific functionality. This is similar to HTML, where the static data html file can refer to external Javascript files which implement the client side functionality of the web application. The equivalent format for the networked 3d applications in Tundra is called TXML, and there is also a binary serialization format called TBIN. 
+Applications are authored as documents which describe the static data and refer to the software modules which implement the application specific functionality. This is similar to HTML, where the static data html file can refer to external Javascript files which implement the client side functionality of the web application. The equivalent format for the networked 3d applications in Tundra is called TXML, and there is also a binary serialization format called TBIN.
+
+The platform provides two scene GUI tools for editing the scene: the scene structure window, and the entity-component (EC) editor. The scene window shows all the entities in the scene, and the EC editor shows all the components of the selected entity. This does not differentiate the component types that are available by default and custom components, but they are technically identical in the system so all the basic features work similarily. You can even add new custom components with arbitrary data in the editor, and it then gets automatically synchronized over the network and saved. Figure 1 shows a realXtend demo scene, with these editors open.
+
+.. figure:: deers_scenestruct_eceditor.png
+   
+   A realXtend scene in Tundra, with the scene structure and entity-component editor tools.
 
 At any time, you can save the whole scene state, or part of it, into these file formats for later loading. You can also import multiple scene files into the same scene. The .txml or .tbin files do not need to store whole scenes. You can also store individual scene entities in these files, and later on use a script to instantiate these entities to the world. Tundra does not make a distinction between an object/entity file and a scene file.
 
-Typically, a scene file holds references to several asset files (textures, meshes, etc). Also this is similar to HTML, which supports multimedia via external URI references. Like web browsers, also Tundra can work both with local files and download remote ones with HTTP.
+Typically, a scene file holds references to several asset files (textures, meshes, etc). Also this is similar to HTML, which supports multimedia via external URI references. Like web browsers, also Tundra can work both with local files and download remote ones with HTTP. To add new 3d models to a scene you can just drag&drop them from the local filesystem or from a web browser. Special applications made on the platform support also adding images, audio and even automatical conversion of powerpoint slides with drag&drop.
 
 In networked settings, the same codebase is used both for running servers and clients. 
-For local single user applications Tundra can run standalone.
+For local single user applications Tundra can run standalone. 
+You can simply click an a scene file to launch that application.
 
 Example applications
 --------------------
