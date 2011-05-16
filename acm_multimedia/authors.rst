@@ -6,7 +6,6 @@ Heikki Törmälä
 Nathan Letwory
 Heikki Laitala
 Toni Alatalo
-Jaakko Allander
 
 Jonne Vaisanen
 Jukka Jylanki
@@ -19,7 +18,7 @@ Tuomo Korva
 
 Matti Reijonen
 Antti Kokko
-Boban T
+Boban Tofilovski
 Carlos Jimenez
 Mikko Pallari
 Daniel Ventura
@@ -31,6 +30,6 @@ Oier N.
 Melanie Thielker
 Niina
 Pavlovski Miroslav
-ITUM Cvetan
+Cvetan Stefanovski
 
 Kudos to OHLOH for help in gathering this, http://www.ohloh.net/p/naali/contributors
