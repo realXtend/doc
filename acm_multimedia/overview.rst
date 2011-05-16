@@ -30,21 +30,21 @@ Core API
 Is always expected to be there:
 
 - Ogre3D for graphics rendering
-+ OpenGL, DirectX and OpenGL ES renderer plugins. Suitable for desktop and mobile environments.
-+ Widely available support for exporting models from other applications
+ * OpenGL, DirectX and OpenGL ES renderer plugins. Suitable for desktop and mobile environments.
+ * Widely available support for exporting models from other applications
 
 - Qt as the main framework library
-+ QApplication based main loop for module updates and rendering
-+ Exposing framework APIs and other objects for scripting languages with QtScript (to JavaScript and Python)
-+ Framework heavily relies on QObject signal and slot mechanism as its event system
-+ Keyboard and mouse input events from Qt translated into our InputAPI events
+ * QApplication based main loop for module updates and rendering
+ * Exposing framework APIs and other objects for scripting languages with QtScript (to JavaScript and Python)
+ * Framework heavily relies on QObject signal and slot mechanism as its event system
+ * Keyboard and mouse input events from Qt translated into our InputAPI events
 
 - kNet for networking
-+ KristalliNet, or kNet for short, is a new but quite mature library.
-+ Supports both UDP and TCP.
+ * KristalliNet, or kNet for short, is a new but quite mature library.
+ * Supports both UDP and TCP.
 
 - OpenAL for audio playback
-+ Spatial audio support
+ * Spatial audio support
 
 Additional modules:
 -------------------
