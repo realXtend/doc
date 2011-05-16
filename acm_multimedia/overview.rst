@@ -8,13 +8,44 @@ Introduction
 ============
 
 realXtend is an open source project that develops an application platform,
-featuring realtime 3d graphics, efficient udp but also tcp networking,
+featuring realtime 3d graphics, efficient networking,
 integrated GUI and user input APIs and scripting.
 
-It is made by integrating a set of open source libraries in a modular framework:
+The work culminates in the new Tundra SDK, which was released in early
+2011. It is a complete solution, on which application development is
+very simple. 
 
-Core - what is always expected to be there:
--------------------------------------------
+Usage
+=====
+
+Applications are authored as documents which describe the 
+static data and refer to the software modules which implement the application specific functionality.
+
+similar to HTML in the sense
+
+At any time, you can save the whole scene state, or part of it, into these file formats for later loading. In this sense, Tundra    can be used as a standalone "document editor" application. You can import multiple scene files into the same scene just by dragging them into the Scene Structure window.
+
+The .txml or .tbin files do not need to store whole scenes. You can also store individual scene entities in these files, and later on use a script to instantiate these entities to the world. Tundra does not make a distinction between an object/entity file and a scene file.
+
+Typically, a scene file holds references to several asset files (textures, meshes, etc). These assets can be stored locally, in which case they should be saved to the same folder or a subfolder of where the .txml/.tbin file resides. Alternatively, the assets can be stored in an asset storage on a network server, and fetched e.g. by using HTTP.
+
+In networked settings, the same codebase is used both for
+running servers and clients. But for local single user applications,
+Tundra can run standalone. In that case it runs in server mode, but
+with also the 3d rendering and UI modules enabled.
+
+
+Features
+========
+
+Tundra SDK is made by integrating a set of open source libraries in a modular framework.
+These provide the basic functionality for 3d, multimedia and networking. 
+They are divided in two categories: the core API, and optional modules.
+
+Core API
+--------
+
+is always expected to be there:
 
 - Ogre3D for graphics rendering
  * has OpenGL, Direct-X and OpenGL ES renderer plugins
@@ -24,11 +55,14 @@ Core - what is always expected to be there:
 
 - kNet for networking
  * KristalliNet, or kNet for short, is a new but quite mature library…
+ * Supports both UDP and TCP
 
 - OpenAL for audio playback, with 3d spatial audio
 
 Additional modules:
 -------------------
+
+These modules are optional. 
 
 - XMPP instant messaging and video calls, using the Telepathy library
 - Mumble for in-world voice chat (similar to Teamspeak), combined with OpenAL for spatial audio
@@ -44,13 +78,6 @@ etc.
 
 These parts are documented in the API reference,
 http://www.realxtend.org/doxygen/ .
-
-The work culminates in the new Tundra SDK, which was released in early
-2011. It is a complete solution, on which application development is
-very simple. In networked settings, the same codebase is used both for
-running servers and clients. But for local single user applications,
-Tundra can run standalone. In that case it runs in server mode, but
-with also the 3d rendering and UI modules enabled.
 
 Background
 ==========
