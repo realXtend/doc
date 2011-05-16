@@ -4,36 +4,18 @@ realXtend: a platform for realtime 3d and networked applications
 
 .. contents::
 
-Introduction
-============
+Description
+===========
 
 realXtend is an open source project that develops an application platform,
 featuring realtime 3d graphics, efficient networking,
 integrated GUI and user input APIs and scripting.
+It has been used for virtual meeting environments, collaborative architectural design and multiplayer gaming.
 
-The work culminates in the new Tundra SDK, which was released in early
+One of the outcomes of the project is the new Tundra SDK, which was released in early
 2011. It is a complete solution, on which application development is
-very simple. 
-
-Usage
-=====
-
-Applications are authored as documents which describe the 
-static data and refer to the software modules which implement the application specific functionality.
-
-similar to HTML in the sense
-
-At any time, you can save the whole scene state, or part of it, into these file formats for later loading. In this sense, Tundra    can be used as a standalone "document editor" application. You can import multiple scene files into the same scene just by dragging them into the Scene Structure window.
-
-The .txml or .tbin files do not need to store whole scenes. You can also store individual scene entities in these files, and later on use a script to instantiate these entities to the world. Tundra does not make a distinction between an object/entity file and a scene file.
-
-Typically, a scene file holds references to several asset files (textures, meshes, etc). These assets can be stored locally, in which case they should be saved to the same folder or a subfolder of where the .txml/.tbin file resides. Alternatively, the assets can be stored in an asset storage on a network server, and fetched e.g. by using HTTP.
-
-In networked settings, the same codebase is used both for
-running servers and clients. But for local single user applications,
-Tundra can run standalone. In that case it runs in server mode, but
-with also the 3d rendering and UI modules enabled.
-
+very simple. The Tundra SDK is intended for developers who wish to create applications 
+that need realtime graphics rendering, possibly combined with networking for e.g. multiuser functionality.
 
 Features
 ========
@@ -62,7 +44,10 @@ is always expected to be there:
 Additional modules:
 -------------------
 
-These modules are optional. 
+There is also a set of optional modules, which typically integrate some open source library to implement additional functionality.
+The core framework is used to expose these features for scripting as well, so for example VOIP groups for Mumble can be implemented in application specific Javascript.
+
+Currently available modules include:
 
 - XMPP instant messaging and video calls, using the Telepathy library
 - Mumble for in-world voice chat (similar to Teamspeak), combined with OpenAL for spatial audio
@@ -74,10 +59,31 @@ These modules are optional.
  * bullet is an open source rigid body physics library from continousphysics.com
  * is used also in several commercial games
  * is also integrated in Blender
-etc.
+- OpenCV for video camera input and machine vision analysis
 
-These parts are documented in the API reference,
+The reference documentation for both the Core API and the additional modules included in the central repository is in
 http://www.realxtend.org/doxygen/ .
+
+Usage
+=====
+
+Applications are authored as documents which describe the static data and refer to the software modules which implement the application specific functionality. This is similar to HTML, where the static data html file can refer to external Javascript files which implement the client side functionality of the web application. The equivalent format for the networked 3d applications in Tundra is called TXML, and there is also a binary serialization format called TBIN. 
+
+At any time, you can save the whole scene state, or part of it, into these file formats for later loading. You can also import multiple scene files into the same scene. The .txml or .tbin files do not need to store whole scenes. You can also store individual scene entities in these files, and later on use a script to instantiate these entities to the world. Tundra does not make a distinction between an object/entity file and a scene file.
+
+Typically, a scene file holds references to several asset files (textures, meshes, etc). Also this is similar to HTML, which supports multimedia via external URI references. Like web browsers, also Tundra can work both with local files and download remote ones with HTTP.
+
+In networked settings, the same codebase is used both for running servers and clients. 
+For local single user applications Tundra can run standalone.
+
+Example applications
+--------------------
+
+There is a growing set of example applications in the code repository, 
+see https://github.com/realXtend/naali/blob/tundra/bin/scenes/ .
+
+This video demonstrates several of the basic ones:
+http://www.youtube.com/watch?v=Wg6SAQPW-9k
 
 Background
 ==========
