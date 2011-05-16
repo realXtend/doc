@@ -1,6 +1,6 @@
-================================================================
-realXtend: a platform for realtime 3d and networked applications
-================================================================
+===================================================
+realXtend: a platform for networked 3d applications
+===================================================
 
 .. contents::
 
@@ -41,7 +41,8 @@ These basic features are provided by the core API, which is always available:
 
 - kNet for networking
  * KristalliNet, or kNet for short, is a new but quite mature library.
- * Supports both UDP and TCP.
+ * Can use either UDP or TCP for transport
+ * Supports  defining own custom messages
 
 - OpenAL for audio playback
  * Spatial audio support
@@ -86,7 +87,7 @@ The application can be written in
 pure Javascript or Python, but still utilize the powerful C++
 libraries such as Ogre and Bullet. Or in C++ using the module system
 there. Javascript applications have the great advantage that the code
-for them can be downloaded live from the servers, similarily to how
+for them can be downloaded live from the servers, similar to how
 HTML+JS web pages work.
 
 Usage
@@ -98,7 +99,7 @@ The platform provides two scene GUI tools for editing the scene: the scene struc
 
 .. figure:: deers_scenestruct_eceditor.png
    
-   A realXtend scene in Tundra, with the scene structure and entity-component editor tools.
+   A Tundra scene with the scene structure and entity-component editor tools.
 
 At any time, you can save the whole scene state, or part of it, into these file formats for later loading. You can also import multiple scene files into the same scene. The .txml or .tbin files do not need to store whole scenes. You can also store individual scene entities in these files, and later on use a script to instantiate these entities to the world. Tundra does not make a distinction between an object/entity file and a scene file.
 
