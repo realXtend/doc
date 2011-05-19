@@ -33,13 +33,14 @@ Introduction
 
 Since 2007, the realXtend project has developed a
 freely available open source virtual world platform that lets anyone
-create their own applications using it’s platform as a base.
+create their own applications using it's platform as a base.
 RealXtend began as a collaboration of several small companies that
 coordinated in developing a common technology base that they then
 applied in different application fields including virtual worlds,
-video games and educational applications.
+video games and educational applications. The realXtend association
+was founded in early 2011 to coordinate the development in an open manner.
 
-Like several other 3D virtual world platforms, the realXtend project
+Similar to several other 3D virtual world platforms, the realXtend project
 has take a client-server approach.  A browser-like client called a
 viewer renders content enabling end users to see and manipulate a 3D
 window into a virtual world where the content itself is stored and
@@ -49,7 +50,7 @@ arctic fox, referring to the Finnish origins of the project and also a
 reference to the open source Firefox web browser because Naali aims for
 similar wide-spread availability as a browser for virtual worlds.  The
 Naali viewer can connect to Second Life (SL), Open Simulator, or
-realXtend’s own Tundra server.  It can run on Windows, Linux, Mac and
+realXtend's own Tundra server.  It can run on Windows, Linux, Mac and
 some mobile platforms.
   
 One architectural goal of the realXtend project has been to build entirely on open 
@@ -93,8 +94,13 @@ ability to dynamically add or remove functionality to a virtual world
 platform to meet the needs of specific applications.  
 The approach is similar to web browsers, which also download both data
 and executable code from servers so that applications can implement
-custom behaviour in the client. Our
-extensibility architecture is the focus of the rest of this paper.
+custom behaviour in the client. This makes realXtend a generic platform:
+the same viewer executable can be used to connect to any server,
+when the scene and associated custom Javascript code is downloaded
+from the web and executed locally to implement the specific behavior.
+Our extensibility architecture is the focus of the rest of this paper.
+For a generic introduction to the platform and the modules elsewhere, see
+https://github.com/realXtend/doc/blob/master/acm_multimedia/overview.rst
 
 Extensible Scene Architecture
 =============================
@@ -128,7 +134,7 @@ The Tundra platform provides basic functionality for all ECAs:
 persistence, network synchronization among all the participants via a
 server and a user interface for manipulating components and their
 attributes (and eventually will support security).  In addition, Tundra
-introduces a new concept called “entity actions,” a simple form of
+introduces a new concept called “entity actions”, a simple form of
 remote procedure call. The ECA architecture is demonstrated in two
 examples later in this article.
 
@@ -138,7 +144,7 @@ example scenes in a directory available on GitHub
 [tundra-scenes]_. Below, we present two of them to illustrate how the
 ECA model works in practice.  In the first example, we implement a
 SL-like avatar using a set of pre-existing generic ECAs and specific
-JavaScript code that run both on the server and the clients. The
+JavaScript code that runs both on the server and the clients. The
 second example is a presentation application that lets a presenter
 control the view for the others as the presentation proceeds.
 
@@ -149,12 +155,12 @@ Avatars are not part of the platform
 
 Avatars are graphical representations of the user within the virtual
 world.  It may seem at first that the concept of an avatar is integral
-to 3D virtual worlds.  Second Life’s avatar protocol is hardcoded into
+to 3D virtual worlds.  Second Life's avatar protocol is hardcoded into
 the platform.  Yet, many virtual worlds, simulation platforms, and
 games do not have a single character as the locus of control: for
 instance, map applications or astronomical simulations are about
 efficient navigation and time control of the whole space, not about
-moving one’s presence around.  Game genres like real time strategy
+moving one's presence around.  Game genres like real time strategy
 games feature controlling several units, similar to board games like
 chess.  Thus, we argue instead that avatars should not exist as part
 of the base platform because many simulations do not require them.  Of
@@ -242,14 +248,14 @@ with the ECAs, but that is outside the scope of the demo and
 description here.
 
 It is worth noting that the division of work between the clients and
-the server described here is not the only one possible. We use the
-same code to run both the server and the clients, making it simple to
+the server described here is not the only one possible. With Tundra SDK,
+the same core code and API is used both for the server and the clients, making it simple to
 reconfigure what is executed where. This model of clients sending
 commands only and the server doing all the movement is identical to
 how the Second Life protocol works. It is suitable when trust and
 physics are centralized on a server. A drawback is that user control
-responsiveness can suffer from network lag.  In the future, we plan to
-include the physics module in the client as well as the server to
+responsiveness can suffer from network lag.  It is already possible to
+use the physics module on the client end too, which can
 allow movement code to run locally as well.
 
 With the ability to run custom code also in the client, it is easy to
@@ -308,8 +314,8 @@ No matter how the presentation view is made, the presenter typically
 needs the same controls.  In Second Life, avatar controls are fixed
 and, to control a presentation, one might need to create a
 presentation sequence object with mouse click controls to press
-virtual buttons.  Because realXtend’s ECA model can support an
-EC_InputMapper component in the presenter’s viewer, avatar controls
+virtual buttons.  Because realXtend's ECA model can support an
+EC_InputMapper component in the presenter's viewer, avatar controls
 can be customized for the presentation without introducing an
 intermediary object or without the server or other viewers needing to
 know anything about control of the presentation.  Alternatively,
@@ -326,10 +332,12 @@ the server to change the current page on that object for everyone to
 see it. We could do implement in ECA with a 2D widget, but let's use a
 3D scene to illustrate the extensibility.
 
-So, we add a new entity called Presentation. For showing web pages, we
+So, we add a new entity called Presentation. This is a non-spatial entity,
+an application which is globally available in the scene. For example the
+Tundra chat application is implemented in a similar fashion. To display web pages, we
 need a few basic components: EC_Placeable to have something in the
 scene; EC_Mesh to have geometry (e.g. a plane) on which to show the
-slides; and WebView to render HTML from URLs. Let’s add two additional
+slides; and WebView to render HTML from URLs. Let's add two additional
 components for our custom functionality: a EC_DynamicComponent for
 custom data, and an EC_Script to implement the user interface
 presentation controls.  As data, we need two attributes: a list of
@@ -363,7 +371,7 @@ Related work
 
 Simulations have long demonstrated that avatars and geography are not
 always required -- the open source Celestia universe simulator
-(http://www.shatters.net/celestia) let’s users view 100,000 stars but
+(http://www.shatters.net/celestia) lets users view 100,000 stars but
 does not have any hardcoded land or sky.  Nor are we the first to
 propose a generic component model for virtual world base
 architectures. For example, the NPSNET-V system is a minimal
@@ -384,17 +392,15 @@ functionality, but that capabilities like attribute synchronization
 would be desirable in application level support scripts.
 
 The Naali ECA model borrows the idea of using aggregation and not
-inheritance from the game engine literature, specifically a gaming
-oriented virtual world platform called Syntensity [syntensity]_. Like
-with Tundra, Syntensity can run the same JavaScript code both on the
-server and clients [syntensity]_.  In Syntensity, you compose entities
-by declaring what state variables they have. The data is then
-automatically synchronized among all participants. The Naali
-implementation is inspired by Syntensity. The difference is that in
+inheritance from the game engine literature [ec-links]. Automatically
+synchronized attribute data, 
+and using same Javascript code on both the client and server side, is inspired by a gaming
+oriented virtual world platform called Syntensity [syntensity]_. 
+The difference is that in
 Syntensity the entities exists on the scripting level only, and basic
 functionality like object movements is hardcoded in the
-Sauerbraten/Cube2 first person shooter platform. In Naali, all higher
-level functionality is now implemented with the ECs, so the same tools
+Sauerbraten/Cube2 first person shooter platform. In Naali, all
+functionality is now implemented with the ECs, so the same tools
 work for e.g. graphical editing, persistence and network sync
 identically for all data.
 
@@ -416,19 +422,23 @@ Status of the realXtend implementations
 =======================================
 
 There are currently two generations of realXtend technology
-available. An original viewer (GPL license) still had more features,
-while the newer Naali viewer (built-from scratch viewer available
-under the Apache 2 license) is the more modular and extensible
+available. The original protype, GPL licensed fork of the SL viewer,
+has become mostly irrelevant as the newer Naali viewer has matured.
+It is built-from scratch, available under the Apache 2 license, and is the modular and extensible
 platform.  Taiga (which combines OpenSimulator and the realXtend
 add-on for it) is a continuation and refinement of the original server
 project (BSD license). Latest addition to the new generation, Tundra,
-completes the Naali codebase with server functionality built purely
-with ECs and support for running the same code both on server and
+completes the Naali codebase with server functionality and a new protocol built purely
+on the ECA design. It has the same API both on the server and
 clients, resulting in a powerful toolkit for networked application
-development.
+development. All the functionality is configured by the applications,
+but the platform still has the building blocks such as playback of 3d skeletal animations
+and efficient physics collisions with heightmap based terrain built-in in efficient C++ code
+provided by the open source libraries used (Ogre3D for graphics, Bullet for physics).
+This way the Javascript driven logic can still perform well.
 
-Regarding the status of the Naali viewer, it is maturing and has
-already been deployed to customers by some of the development
+Regarding the status of the Naali viewer, it has matured and
+been deployed to customers by some of the development
 companies. It is a straightforward modular C++ application with
 optional Python and JavaScript support. The Qt object metadata system
 is utilized to expose the C++ internals automatically. This covers all
@@ -455,8 +465,8 @@ TCP [knet]_.  kNet is similar to eNet but performed better in tests with
 regards to flow control. The Tundra server lacks many basic features
 of the more advanced OpenSimulator, like running untrusted user
 authored scripts and combining multiple regions to form a large
-grid. However, Tundra is already useful for local authoring and
-deploying applications with custom functionality. And it serves as an
+grid. However, Tundra is already useful for both local authoring and
+deploying applications with custom functionality on public servers. And it serves as an
 example of how a generic EC approach to virtual worlds functionality
 can be simple yet practical.
 
@@ -508,7 +518,7 @@ platform that does not get in the way of the application developer;
 they can create anything from a medical simulator for teachers, to
 action packed networked games - and always with a custom interface
 that exactly fits the application's purpose.  Seemingly fundamental
-elements of virtual worlds (like support for avatars) can instead be
+elements of virtual worlds (such as support for avatars) can instead be
 treated as an add-in functionality, so the overall architecture can
 make less commitment and thereby accommodate a wider range of kinds of
 virtual worlds.  We demonstrated how this generic approach to virtual
