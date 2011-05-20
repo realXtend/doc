@@ -99,8 +99,8 @@ the same viewer executable can be used to connect to any server,
 when the scene and associated custom Javascript code is downloaded
 from the web and executed locally to implement the specific behavior.
 Our extensibility architecture is the focus of the rest of this paper.
-For a generic introduction to the platform and the modules elsewhere, see
-https://github.com/realXtend/doc/blob/master/acm_multimedia/overview.rst
+For a generic introduction to the platform and the modules, see
+[rex-overview]_.
 
 Extensible Scene Architecture
 =============================
@@ -314,23 +314,15 @@ No matter how the presentation view is made, the presenter typically
 needs the same controls.  In Second Life, avatar controls are fixed
 and, to control a presentation, one might need to create a
 presentation sequence object with mouse click controls to press
-virtual buttons.  Because realXtend's ECA model can support an
-EC_InputMapper component in the presenter's viewer, avatar controls
-can be customized for the presentation without introducing an
-intermediary object or without the server or other viewers needing to
-know anything about control of the presentation.  Alternatively,
-sharing the presentation control functionality and the data among the
-participants would enable useful features for the audience. An outline
-view could highlight the current position. Participants could follow
-the presentation in an outline viewer or could browse the material
-freely in an additional view next to the one the presenter controls.
+virtual buttons.  In realXtend, custom controls in the client 
+can directly change the shared scane state. 
 
 Regarding the implementation in realXtend ECA, the simplest way to get
 a shared, synchronized view of the presentation slides is to use a
 static camera which shows a single webpage view. It then suffices for
 the server to change the current page on that object for everyone to
-see it. We could do implement in ECA with a 2D widget, but let's use a
-3D scene to illustrate the extensibility.
+see it. We could implement this in a 2D GUI, but it is done in the 3D scene 
+here to to illustrate the its extensibility.
 
 So, we add a new entity called Presentation. This is a non-spatial entity,
 an application which is globally available in the scene. For example the
@@ -339,7 +331,7 @@ need a few basic components: EC_Placeable to have something in the
 scene; EC_Mesh to have geometry (e.g. a plane) on which to show the
 slides; and WebView to render HTML from URLs. Let's add two additional
 components for our custom functionality: a EC_DynamicComponent for
-custom data, and an EC_Script to implement the user interface
+custom data, and an EC_Script to implement the user interface for
 presentation controls.  As data, we need two attributes: a list of
 URLs and an index number for the current position. This custom data
 becomes part of the scene data and is automatically stored and
@@ -363,8 +355,11 @@ thumbnails of all the slides and highlight the current one.  For free
 browsing, clicking on a thumbnail can open a new window with that
 slide, while the main presentation view remains.
 
-Thus, we have a simple, complete presentation application implemented
-on top of a generic ECA model virtual world platform architecture.
+Thus, we have a simple, complete shared presentation application implemented
+on top of a generic ECA model virtual world platform architecture. 
+Source code of an implementation of this model is available at [tundra-slideshow]_,
+with the additional feature that it automatically creates the presentation 
+when a premade slideshow (e.g. a PowerPoint file) is added to the scene.
 
 Related work
 ============
@@ -432,9 +427,8 @@ completes the Naali codebase with server functionality and a new protocol built 
 on the ECA design. It has the same API both on the server and
 clients, resulting in a powerful toolkit for networked application
 development. All the functionality is configured by the applications,
-but the platform still has the building blocks such as playback of 3d skeletal animations
-and efficient physics collisions with heightmap based terrain built-in in efficient C++ code
-provided by the open source libraries used (Ogre3D for graphics, Bullet for physics).
+but the platform has the building blocks such as playback of 3d skeletal animations
+and physics collisions in the efficient C++ libraries (Ogre3D for graphics, Bullet for physics).
 This way the Javascript driven logic can still perform well.
 
 Regarding the status of the Naali viewer, it has matured and
@@ -472,11 +466,12 @@ can be simple yet practical.
 
 The generic EC architecture was proposed to the OpenSimulator core and
 accepted as the plan of record in December 2009 [adam-ecplan]_.  The
-implementation of EC for OpenSimulator is still in the early
-stage. However, EC can be utilized with the Naali client communicating
+actual refactoring of OpenSimulator scene code to be built with EC has 
+only been experimented a little, though.
+However, EC can be utilized with the Naali client communicating
 with the OpenSimulator servers running the realXtend addon (modrex) in
-a limited fashion, as these servers still assume the hardcoded SL
-model, but developers using Naali can still add additional arbitrary
+a limited fashion. These servers still assume the hardcoded SL
+model, but developers using Naali can add additional arbitrary
 client side functionality and have the data automatically stored and
 synchronized over the net via OpenSimulator. Entity actions are currently
 not implemented in this Opensimulator realXtend addon.
@@ -487,7 +482,7 @@ at all, nor is federated content from several possible untrusted
 sources supported. We started by having providing power at the small
 scale to provide the ability to easily make rich interactive
 applications.  Another important missing element in our current EC
-synchronization architecture is security, e.g., a permission
+synchronization architecture is security, e.g. a permission
 system. An initial implementation is planned to cover the basic
 capabilities, similar to how Syntensity already has attributes that
 can only change only if the server allows.  In the future, we look
@@ -506,6 +501,12 @@ realXtend as is by using OpenSimulator.
 
 .. standardizing client side APIs?
 
+Applications implement functionality against the Naali/Tundra core API. 
+It's role is similar to the W3C DOM standard in HTML browsers.
+We are currently freezing the 1.0 version of it, so that applications
+developed now will continue to work in next releases. It is documented in
+[naali-apidocs]_. This API is to be reviewed considering ease of development,
+challenges in scalability and security, and with regards to interoperability and standardization.
 
 Conclusion
 ==========
@@ -539,9 +540,15 @@ References
 
 .. [opensim-on-a-stick] http://becunningandfulloftricks.com/2010/10/07/ a-virtual-world-in-my-hands-running-opensim-and-imprudence-on-a-usb-key/
 
+.. [rex-overview] https://github.com/realXtend/doc/blob/master/acm_multimedia/overview.rst
+
 .. [tundra-scenes] https://github.com/realXtend/naali/blob/tundra/bin/scenes/
 
+.. [tundra-slideshow]_ https://github.com/realXtend/naali/tree/tundra/bin/scenes/SlideShow
+
 .. [tundra-avatar] Application XML and usage info at https://github.com/realXtend/naali/tree/tundra/bin/scenes/Avatar/ , Javascript sources in https://github.com/realXtend/naali/tree/tundra/bin/jsmodules/avatar/
+
+.. [naali-apidocs] http://www.realxtend.org/doxygen/
 
 .. [adam-ecplan] Adam Frisby on Opensim-dev, Refactoring SceneObjectGroup - Introducing Components. The plan PDF is attached in the email, http://lists.berlios.de/pipermail/opensim-dev/2009-December/008098.html
 
