@@ -544,7 +544,7 @@ References
 
 .. [tundra-scenes] https://github.com/realXtend/naali/blob/tundra/bin/scenes/
 
-.. [tundra-slideshow]_ https://github.com/realXtend/naali/tree/tundra/bin/scenes/SlideShow
+.. [tundra-slideshow] https://github.com/realXtend/naali/tree/tundra/bin/scenes/SlideShow
 
 .. [tundra-avatar] Application XML and usage info at https://github.com/realXtend/naali/tree/tundra/bin/scenes/Avatar/ , Javascript sources in https://github.com/realXtend/naali/tree/tundra/bin/jsmodules/avatar/
 
