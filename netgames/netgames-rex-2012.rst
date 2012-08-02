@@ -1,6 +1,12 @@
-AAA
+=====================================================
+Networked Games Development with realXtend Tundra SDK
+=====================================================
 
 toni
+jukka?
+jonne?
+rauli?
+erno?
 ...
 
 .. contents::
@@ -120,3 +126,14 @@ paddle move- ---
 
 
 Avango is a framework for building distributed virtual reality applications. It provides a field/fieldcontainer based application layer similar to VRML. Within this layer a scene graph, based on OpenGL Performer, input sensors, and output actuators are implemented as runtime loadable modules (or plugins). A network layer provides automatic replication/distribution of the application graph using a reliable multi-cast system. Applications in Avango are written in Scheme and run in the scripting layer. The scripting layer provides complete access to fieldcontainers and their fields; this way distributed collaborative scenarios as well as render-distributed applications (or even both at the same time) are supported. Avango was originally developed at the VR group at GMD, now Virtual Environments Group at Fraunhofer IAIS and was open-sourced in 2004. An in-depth description can be found in here.
+
+* a publication:     Improving the AVANGO VR/AR Framework — Lessons Learned Download, presented at the  5. GI VR/AR workshop. The slides Download are also available. 
+http://www.avango.org/raw-attachment/wiki/Res/Improving_the_AVANGO_VR-AR_Framework--Lessons_Learned.pdf
+
+* http://www.avango.org/wiki/Concepts
+Avango concepts seem quite similar to tundra - 'fields' is a 
+bit like our attrs, are autoserialized etc., and there are 
+connections which are perhaps similar to qt signal conns .. the 
+example there is a proximity sensor
+
+
