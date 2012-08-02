@@ -1,0 +1,808 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER1': class LinkAnnotation 
+4 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 14 0 R
+ /XYZ
+ 62.69291
+ 594.0236
+ 0 ]
+ /Rect [ 62.69291
+ 681.7736
+ 103.2529
+ 693.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER2': class LinkAnnotation 
+5 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 14 0 R
+ /XYZ
+ 62.69291
+ 594.0236
+ 0 ]
+ /Rect [ 527.0227
+ 681.7736
+ 532.5827
+ 693.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER3': class LinkAnnotation 
+6 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 14 0 R
+ /XYZ
+ 62.69291
+ 387.0236
+ 0 ]
+ /Rect [ 62.69291
+ 663.7736
+ 121.0229
+ 675.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER4': class LinkAnnotation 
+7 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 14 0 R
+ /XYZ
+ 62.69291
+ 387.0236
+ 0 ]
+ /Rect [ 527.0227
+ 663.7736
+ 532.5827
+ 675.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER5': class LinkAnnotation 
+8 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 15 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 62.69291
+ 645.7736
+ 161.0529
+ 657.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER6': class LinkAnnotation 
+9 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 15 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 527.0227
+ 645.7736
+ 532.5827
+ 657.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER7': class LinkAnnotation 
+10 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 15 0 R
+ /XYZ
+ 62.69291
+ 660.0236
+ 0 ]
+ /Rect [ 62.69291
+ 627.7736
+ 141.0329
+ 639.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER8': class LinkAnnotation 
+11 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 15 0 R
+ /XYZ
+ 62.69291
+ 660.0236
+ 0 ]
+ /Rect [ 527.0227
+ 627.7736
+ 532.5827
+ 639.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER9': class LinkAnnotation 
+12 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 15 0 R
+ /XYZ
+ 62.69291
+ 447.0236
+ 0 ]
+ /Rect [ 62.69291
+ 609.7736
+ 152.7229
+ 621.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER10': class LinkAnnotation 
+13 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 15 0 R
+ /XYZ
+ 62.69291
+ 447.0236
+ 0 ]
+ /Rect [ 527.0227
+ 609.7736
+ 532.5827
+ 621.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page1': class PDFPage 
+14 0 obj
+% Page dictionary
+<< /Annots [ 4 0 R
+ 5 0 R
+ 6 0 R
+ 7 0 R
+ 8 0 R
+ 9 0 R
+ 10 0 R
+ 11 0 R
+ 12 0 R
+ 13 0 R ]
+ /Contents 25 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 24 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page2': class PDFPage 
+15 0 obj
+% Page dictionary
+<< /Contents 26 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 24 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R16': class PDFCatalog 
+16 0 obj
+% Document Root
+<< /Outlines 18 0 R
+ /PageLabels 27 0 R
+ /PageMode /UseNone
+ /Pages 24 0 R
+ /Type /Catalog >>
+endobj
+% 'R17': class PDFInfo 
+17 0 obj
+<< /Author ()
+ /CreationDate (D:20120802072107-02'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title () >>
+endobj
+% 'R18': class PDFOutlines 
+18 0 obj
+<< /Count 5
+ /First 19 0 R
+ /Last 23 0 R
+ /Type /Outlines >>
+endobj
+% 'Outline.0': class OutlineEntryObject 
+19 0 obj
+<< /Dest [ 14 0 R
+ /XYZ
+ 62.69291
+ 594.0236
+ 0 ]
+ /Next 20 0 R
+ /Parent 18 0 R
+ /Title (Abstract) >>
+endobj
+% 'Outline.1': class OutlineEntryObject 
+20 0 obj
+<< /Dest [ 14 0 R
+ /XYZ
+ 62.69291
+ 387.0236
+ 0 ]
+ /Next 21 0 R
+ /Parent 18 0 R
+ /Prev 19 0 R
+ /Title (Introduction) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+21 0 obj
+<< /Dest [ 15 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Next 22 0 R
+ /Parent 18 0 R
+ /Prev 20 0 R
+ /Title (background / related) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+22 0 obj
+<< /Dest [ 15 0 R
+ /XYZ
+ 62.69291
+ 660.0236
+ 0 ]
+ /Next 23 0 R
+ /Parent 18 0 R
+ /Prev 21 0 R
+ /Title (The Tundra SDK) >>
+endobj
+% 'Outline.4': class OutlineEntryObject 
+23 0 obj
+<< /Dest [ 15 0 R
+ /XYZ
+ 62.69291
+ 447.0236
+ 0 ]
+ /Parent 18 0 R
+ /Prev 22 0 R
+ /Title (Notes / References) >>
+endobj
+% 'R24': class PDFPages 
+24 0 obj
+% page tree
+<< /Count 2
+ /Kids [ 14 0 R
+ 15 0 R ]
+ /Type /Pages >>
+endobj
+% 'R25': class PDFStream 
+25 0 obj
+% page stream
+<< /Length 6212 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (AAA) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 735.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (toni ...) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 702.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Contents) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 606.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 0 75 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 75 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 57 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 57 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 39 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (background / related) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 39 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 21 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (The Tundra SDK) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 21 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 3 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Notes / References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 507.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .253314 Tw (We present an inherently networked entity system for creating multiuser applications, including networked) Tj T* 0 Tw 2.150814 Tw (games. The entities aggregate components with attributes which are automatically synchronized in a) Tj T* 0 Tw .016235 Tw (client-server setup. So called entity-actions can be called both locally and remotely, they are a simple form) Tj T* 0 Tw 1.892485 Tw (of RPC. This system is implemented in the open source realXtend Tundra SDK which is a complete) Tj T* 0 Tw (platform for multiuser 3d applications.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 465.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .15561 Tw (The goal is to make creating efficient multiplayer games easy, with for example just JavaScript logic code,) Tj T* 0 Tw 3.183059 Tw (without the need to invent own network messages for simple functionality. Custom messages are) Tj T* 0 Tw (supported for efficiency in more complex cases.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 399.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .387318 Tw (Besides the generic attribute sync, the Tundra SDK includes custom messages and logic for moving rigid) Tj T* 0 Tw 1.831984 Tw (bodies, utilizing the physics module also on the client side and by implementing \(XXX basic sensible) Tj T* 0 Tw 2.019318 Tw (things / nice clever tricks / best practices from the literature / something\). Measurements from these) Tj T* 0 Tw .721984 Tw (optimizations are presented -- with the optimizations the maximum number of moving objects in a scene) Tj T* 0 Tw (went up by N.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 366.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 324.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .722651 Tw (Writing a networked multiplayer game is easily\(urghXXX?\) more complex than a local game, part for the) Tj T* 0 Tw .119985 Tw (logic handling for multiplayer in general but typically largely for the networking part. And it involves dealing) Tj T* 0 Tw (with the connections etc.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 270.0236 cm
+q
+BT 1 0 0 1 0 38 Tm .91686 Tw 12 TL /F1 10 Tf 0 0 0 rg (The realXtend Tundra SDK provides a decent API and a solid platform for networked 3d applications. It) Tj T* 0 Tw .32686 Tw (originates from the realXtend virtual worlds project, but has always been developed to be used for games) Tj T* 0 Tw .731751 Tw (as well. ) Tj 1 0 0 rg (**) Tj 0 0 0 rg (and has been largely developed by a local game company, Ludocraft Ltd., also after the initial) Tj T* 0 Tw (project -- their recent Circus demo is also the best simple Tundra game demo now.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 168.0236 cm
+q
+BT 1 0 0 1 0 86 Tm 1.47152 Tw 12 TL /F1 10 Tf 0 0 0 rg (Tundra applications are written against the Tundra Core API and utilizing the Entity-Component scene) Tj T* 0 Tw 1.941318 Tw (model. The platform takes cares of the networking basics, so that an application developer does not) Tj T* 0 Tw .770697 Tw (necessarily need to even know about connections, not to mention dealing with implementing own server) Tj T* 0 Tw .598876 Tw (and client applications somehow. When the application is run on a server, all clients due to the nature of) Tj T* 0 Tw 1.405697 Tw (the shared environment participate in the same session and see everything identically \(and when they) Tj T* 0 Tw .308084 Tw (don't its' a bug and we must file an issue :p\) <) Tj (-- scrap that stupidity, it's just like scripting in any scriptable) Tj T* 0 Tw .206488 Tw (MMO .. or modding a FPS, using engine like Unreal or Quake. so can just put briefly and ref to something) Tj T* 0 Tw (perhaps too, for clarity hopefully\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 114.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.050697 Tw (This paper presents the Tundra application plaftorm, and analyzes / reviews \(/smtXXX\) it for networked) Tj T* 0 Tw .508409 Tw (game development. A main research focus here is on the API and scene mode in the design level for an) Tj T* 0 Tw 1.75061 Tw (application developer point of view, but also the quality of the current Tundra open source runtime is) Tj T* 0 Tw (examined. \(XXX? robustness and efficiency of the\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 96.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (...) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R26': class PDFStream 
+26 0 obj
+% page stream
+<< /Length 5859 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 744.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (background / related) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 732.0236 cm
+Q
+q
+1 0 0 1 62.69291 732.0236 cm
+Q
+q
+1 0 0 1 62.69291 720.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (use of other multiplayer engines: FPS, but also the unity plugins and bigworld etc.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 720.0236 cm
+Q
+q
+1 0 0 1 62.69291 714.0236 cm
+Q
+q
+1 0 0 1 62.69291 672.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 36 cm
+Q
+q
+1 0 0 1 20 36 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .401654 Tw (the APIs of those, the app dev model: are e.g. connections dealt with at all typically etc? how is) Tj T* 0 Tw .817318 Tw (data synched \(or is it even needed in those, server logic?, scripts?\). how do messaging things) Tj T* 0 Tw (work \(room for improvement in Tundra perhaps?\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 672.0236 cm
+Q
+q
+1 0 0 1 62.69291 639.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (The Tundra SDK) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 627.0236 cm
+Q
+q
+1 0 0 1 62.69291 627.0236 cm
+Q
+q
+1 0 0 1 62.69291 615.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (API) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 609.0236 cm
+Q
+q
+1 0 0 1 62.69291 597.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Module System) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Core functionality: Ogre3d, Qt, kNet) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+Q
+q
+1 0 0 1 62.69291 561.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (---) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 507.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .676988 Tw (Case at hand: is it good to dev an app, a multiplayer networked game, with the entity model and the api) Tj T* 0 Tw .477765 Tw (overall? -- research question how to answer? illustrate a set of examples -- two were already in the IEEE) Tj T* 0 Tw .634104 Tw (paper, and are kind of nice? XXXwhat here -- short treatment of those, and then some new example\(s\)?) Tj T* 0 Tw (analysis of the Circus code? -- make this 'the circus .. and lvm, paper' ?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 489.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Pong - the Hello World of networked multiplayer?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 459.0236 cm
+q
+BT 1 0 0 1 0 14 Tm .177717 Tw 12 TL /F1 10 Tf 0 0 0 rg (pong - oh, 'the pong paper' ? :o -- there's a ref for it! deals with latency etc, whether) Tj (&) Tj (when to do what and) Tj T* 0 Tw (where in a networked setup.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 426.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Notes / References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 396.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .361988 Tw (-- about that work -- in a diff paper from the group: "From the result we prove that the decorator feedback) Tj T* 0 Tw (only had the positive effect on the lower delay condition but not in the high delay condition." """) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 342.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .495984 Tw (Greger Wikstrand, Lennart Schedin and Fredrik Elg [9] gave three hypotheses before they did their Pong) Tj T* 0 Tw .893555 Tw (game experiment in a simulated mobile phone: \224Delay effort\224, \224De- lay action\224 and \224Delay performance\224.) Tj T* 0 Tw 1.256136 Tw (The experiment put eyes on significant effects on four independent variables: enjoyment, mental effort,) Tj T* 0 Tw (net distance and paddle move- ---) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 228.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL .746905 Tw (Avango is a framework for building distributed virtual reality applications. It provides a field/fieldcontainer) Tj T* 0 Tw .980651 Tw (based application layer similar to VRML. Within this layer a scene graph, based on OpenGL Performer,) Tj T* 0 Tw .215697 Tw (input sensors, and output actuators are implemented as runtime loadable modules \(or plugins\). A network) Tj T* 0 Tw .20748 Tw (layer provides automatic replication/distribution of the application graph using a reliable multi-cast system.) Tj T* 0 Tw .814985 Tw (Applications in Avango are written in Scheme and run in the scripting layer. The scripting layer provides) Tj T* 0 Tw .534983 Tw (complete access to fieldcontainers and their fields; this way distributed collaborative scenarios as well as) Tj T* 0 Tw 2.113828 Tw (render-distributed applications \(or even both at the same time\) are supported. Avango was originally) Tj T* 0 Tw 2.645984 Tw (developed at the VR group at GMD, now Virtual Environments Group at Fraunhofer IAIS and was) Tj T* 0 Tw (open-sourced in 2004. An in-depth description can be found in here.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R27': class PDFPageLabels 
+27 0 obj
+% Document Root
+<< /Nums [ 0
+ 28 0 R
+ 1
+ 29 0 R ] >>
+endobj
+% 'R28': class PDFPageLabel 
+28 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+% 'R29': class PDFPageLabel 
+29 0 obj
+% None
+<< /S /D
+ /St 2 >>
+endobj
+xref
+0 30
+0000000000 65535 f
+0000000113 00000 n
+0000000221 00000 n
+0000000386 00000 n
+0000000574 00000 n
+0000000815 00000 n
+0000001056 00000 n
+0000001297 00000 n
+0000001538 00000 n
+0000001779 00000 n
+0000002020 00000 n
+0000002262 00000 n
+0000002504 00000 n
+0000002747 00000 n
+0000002974 00000 n
+0000003350 00000 n
+0000003631 00000 n
+0000003790 00000 n
+0000004038 00000 n
+0000004163 00000 n
+0000004332 00000 n
+0000004520 00000 n
+0000004716 00000 n
+0000004906 00000 n
+0000005069 00000 n
+0000005186 00000 n
+0000011497 00000 n
+0000017459 00000 n
+0000017565 00000 n
+0000017642 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\247p\363P0{p\241$\231\226U\236w\305\006) (\247p\363P0{p\241$\231\226U\236w\305\006)] 
+
+ /Info 17 0 R
+ /Root 16 0 R
+ /Size 30 >>
+startxref
+17689
+%%EOF
