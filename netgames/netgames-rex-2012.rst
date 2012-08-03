@@ -1,6 +1,6 @@
-=================================
-An Entity System for Network(ed) Game Development
-=================================
+===============================
+An Entity System for Networked Game Development
+===============================
 
 -----------------------------------------------
 Networked Games Development with realXtend Tundra SDK
