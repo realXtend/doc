@@ -1,0 +1,14 @@
+material pong_ball
+{
+	receive_shadows on
+	technique
+	{
+		pass
+		{
+			ambient 1.000000 1.000000 1.000000 1.000000
+			diffuse 1.75132 1.683650 1.647302 1.000000
+			specular 0.098830 0.458737 0.480028 1.000000 12.500000
+			emissive 0.000000 0.000000 0.000000 1.000000
+		}
+	}
+}

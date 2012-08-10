@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PongGameLobby</class>
+ <widget class="QWidget" name="PongGameLobby">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>343</width>
+    <height>246</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Pong Multiplayer</string>
+  </property>
+  <property name="styleSheet">
+   <string>QLabel#label_status {
+	font: 12pt &quot;Calibri&quot;;
+	color: rgb(50, 50, 50);
+}
+
+QLabel#p1_name, #p1_score {
+	font: 16pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(203, 0, 3);
+	font-weight: bold;
+}
+
+QLabel#p2_name, #p2_score {
+	font: 16pt &quot;MS Shell Dlg 2&quot;;
+	color: rgb(59, 78, 206);
+	font-weight: bold;
+}
+
+QLabel#label_vs {
+	font: 12pt &quot;MS Shell Dlg 2&quot;;
+}
+
+QPushButton#button_join, #button_add_cpu {
+	font-family: &quot;Calibri&quot;;
+	font-size: 10pt;
+	font-weight: bold;
+	border: 1px solid grey;
+	border-radius: 5px;
+	min-height: 25;
+	color: rgb(50, 50, 50);
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0.0113636 rgba(205, 205, 205, 255), stop:0.556818 rgba(243, 243, 243, 255), stop:1 rgba(218, 218, 218, 255));
+}
+
+QPushButton::hover#button_join, ::hover#button_add_cpu {
+	background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0.0113636 rgba(205, 205, 205, 255), stop:0.556818 rgba(243, 243, 243, 255), stop:1 rgba(218, 218, 218, 255));
+}
+
+QPushButton::pressed#button_join, ::pressed#button_add_cpu {
+	border: 2px solid grey;
+	color: black;
+}
+
+QPushButton::disabled#button_join, ::disabled#button_add_cpu {
+	color: rgb(132, 132, 132);
+	background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:1, stop:0.00568182 rgba(198, 198, 198, 255), stop:1 rgba(169, 169, 169, 255));
+}
+
+QPushButton#button_join {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-right: 0px;
+}
+
+QPushButton#button_add_cpu {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_title">
+     <property name="text">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600; color:#7da9e3;&quot;&gt;Game of Pong&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="layout_players">
+     <item>
+      <widget class="QLabel" name="p1_name">
+       <property name="text">
+        <string>keijo</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_vs">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>VS</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="p2_name">
+       <property name="text">
+        <string>jonne</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="layout_score">
+     <item>
+      <widget class="QLabel" name="p1_score">
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_score">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="p2_score">
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_status">
+     <property name="text">
+      <string>Waiting For Players</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_controls">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string>background-color:  rgb(249, 249, 249);
+border: 1px solid grey;</string>
+     </property>
+     <property name="text">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; color:#4a85e2;&quot;&gt;Controls	&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;R	&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Move Bat Up &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt; font-weight:600;&quot;&gt;F	&lt;/span&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Move Bat Down&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="button_join">
+       <property name="text">
+        <string>JOIN</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="button_add_cpu">
+       <property name="text">
+        <string>ADD CPU</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

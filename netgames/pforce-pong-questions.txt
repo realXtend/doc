@@ -1,0 +1,21 @@
+Pforce_: reading your pong game.js here and thinking about the article
+
+the use of the json messages withing the entity action system is a bit curious
+
+i wonder how it would compare with using the ec system more directly, either by putting state to attrs, or using separate entity actions for the different .. actions
+
+latter would be, instead of:
+ onServerData: function(jsonData) (...) 
+    if (sd.key ==  "clientjoin") (...)  
+    if (sd.key == "gamestate")
+there would be onClientJoin and onGameStateChange as actions directly
+
+if this JSON way is somehow more handy in your experience, it basically means that the entity-action system currently is somehow flawed as it is attractive to workaround it
+
+so am curious to know how & why you ended up with that tech, if you'd have time to tell at some point
+
+same for the use of sending json dicts instead of ec attrs
+
+--
+
+IDEA: port the game to use the ECA system more and compare?
