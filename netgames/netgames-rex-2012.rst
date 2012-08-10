@@ -26,7 +26,9 @@ aggregate components with attributes which are automatically
 synchronized in a client-server setup. So called entity-actions can be
 called both locally and remotely, they are a simple form of RPC. This
 system is implemented in the open source realXtend Tundra SDK which is
-a complete platform for multiuser 3d applications.
+a complete platform for multiuser 3d applications. The API of Tundra
+is evaluated critically to analyze the entity model and to identify
+areas for improvement in future work.
 
 The goal is to make creating efficient multiplayer games easy, with
 for example just JavaScript logic code, without the need to invent own
