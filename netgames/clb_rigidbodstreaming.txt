@@ -1,0 +1,19 @@
+From: 	Jukka Jylänki <jukka.jylanki@ludocraft.com>
+Subject: 	[realXtend-dev] RealXtend Tundra 2.3.0 is released!
+Date: 	February 28, 2012 9:51:34 PM GMT+02:00
+
+- Implemented a new path for streaming rigid bodies over the network. This allows a far larger number of concurrent clients on a server. (#314, #322, #354)
+  - Comparative profile of the Physics demo scene: http://dl.dropbox.com/u/40949268/Tundra/Tundra_RigidBody_PhysicsScene.png
+  - Old rigid body streaming code was about 70bytes/update: http://dl.dropbox.com/u/40949268/Tundra/OldRigidBodyStreaming_70b.png
+  - New code averages at about 11bytes/update: http://dl.dropbox.com/u/40949268/Tundra/NewRigidBodyPackets_11b.png
+  - User counts as large as 64 users are doable, but largely depends on what is running in the scene: http://dl.dropbox.com/u/40949268/Tundra/kNetServer64users.png
+
+-
+
+about scalability & performance in general:
+
+	From: 	Jukka Jylänki <jukka.jylanki@ludocraft.com>
+ 	[realXtend-dev] Scalability study for Tundra.
+	Date: 	April 18, 2012 3:47:57 PM GMT+03:00
+
+https://groups.google.com/forum/?fromgroups#!topic/realxtend-dev/Lzzx_hZu38I%5B1-25%5D
