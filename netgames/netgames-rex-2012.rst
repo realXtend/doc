@@ -299,7 +299,7 @@ individual particles local only, but also the movement of a single
 particle system is not communicated. Instead, we form clusters of 5
 particle systems which move around as a loose group, and synchronize
 only the positions of such clusters. This way we can have lots of
-plankton, in approximately the same positions for the different
+plankton in approximately the same positions for the different
 players. Also the amount of plankton left in a cluster is
 synchronized. The idea is that the different players see the plankton
 clouds in same areas of the sea bay, and see them diminish when eaten,
@@ -331,7 +331,9 @@ client executables (the core is the same) enabled an incremental
 development path here: first all the functionality was server side,
 but as the amount of networking grew to be too much, it was quite
 straightforward to change the same code to be executed on the client
-side only instead.
+side only instead. As possible improvements for the future, both
+automated interest management to optimize network messaging, and easy
+robust ways to configure replicated vs. local execution are interesting.
 
 
 The implementation in Tundra SDK
