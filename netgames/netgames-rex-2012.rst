@@ -335,6 +335,8 @@ side only instead. As possible improvements for the future, both
 automated interest management to optimize network messaging, and easy
 robust ways to configure replicated vs. local execution are interesting.
 
+(analysis of the Ludocraft's Circus code?)
+
 
 The implementation in Tundra SDK
 --------------------------------
@@ -363,14 +365,30 @@ scripting in any scriptable MMO .. or modding a FPS, using engine like
 Unreal or Quake. so can just put briefly and ref to something perhaps
 too, for clarity hopefully).
 
----
+The underlying networking for the entity system in Tundra SDK
+=============================================================
 
-Case at hand: is it good to dev an app, a multiplayer networked game, with the entity model and the api overall? -- research question
-how to answer?
-illustrate a set of examples -- two were already in the IEEE paper, and are kind of nice?
-XXXwhat here -- short treatment of those, and then some new example(s)? analysis of the Circus code? -- make this 'the circus .. and lvm, paper' ?
+ analyze the efficiency and
+robustness of how the abstract entity-component model with the
+automatic synchronization maps to concrete network load.
 
-Pong - the Hello World of networked multiplayer?
+Besides the generic attribute sync, the Tundra SDK includes custom
+messages and logic for moving rigid bodies, utilizing the physics
+module also on the client side and by implementing (XXX basic sensible
+things / nice clever tricks / best practices from the literature /
+something). Measurements from these optimizations are presented --
+with the optimizations the maximum number of moving objects in a scene
+went up by N.
+
+Evaluation and Discussion
+=========================
+
+(compare with sirikata / emerson and others in the related work)
+
+Alternative implementations
+---------------------------
+
+WebNaali & Lehto work -- thougts on applying the EC model in there (looks good and seems sensible so far, right? not many net messages to implement with the generic sync etc.)
 
 
 Notes / References
