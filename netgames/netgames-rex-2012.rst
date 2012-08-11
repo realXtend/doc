@@ -143,4 +143,10 @@ bit like our attrs, are autoserialized etc., and there are
 connections which are perhaps similar to qt signal conns .. the 
 example there is a proximity sensor
 
+---
+
+Pong with a multiplayer Flash platform:
+multiplayer pong example & tutorial
+http://www.unionplatform.com/?page_id=1229
+
 
