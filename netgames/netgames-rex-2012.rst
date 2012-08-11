@@ -293,8 +293,8 @@ slightly at random, to give a feel of them floating around in the
 water. To have enough particles to fill parts of the sea bay, we
 easily need tens of particle systems with hundreds of particles in
 each. Synchronizing all those little movements would take an immense
-amount of bandwidth, also considering that also many other things are
-also going on in the scene. To cut down the traffic, not only are the
+amount of bandwidth, also considering that many other things are
+going on in the scene as well. To cut down the traffic, not only are the
 individual particles networked, but also the movement of a single
 particle system is not communicated. Instead, we form clusters of 5
 particle systems which move around as a loose group, and synchronize
