@@ -368,27 +368,92 @@ too, for clarity hopefully).
 The underlying networking for the entity system in Tundra SDK
 =============================================================
 
- analyze the efficiency and
-robustness of how the abstract entity-component model with the
-automatic synchronization maps to concrete network load.
+The main focus in this article is to analyze the abstract
+entity-component model regarding the ease of development of networked
+multiplayer games. However the idea both with the theoretical model
+and the concrete implementations withing realXtend is to provide a
+system that really works in practice, is efficient and robust enough
+for commercial games and other applications. To this end, in this
+chapter the focus is on the concrete networking layer.
 
-Besides the generic attribute sync, the Tundra SDK includes custom
-messages and logic for moving rigid bodies, utilizing the physics
-module also on the client side and by implementing (XXX basic sensible
-things / nice clever tricks / best practices from the literature /
-something). Measurements from these optimizations are presented --
-with the optimizations the maximum number of moving objects in a scene
-went up by N.
+The replicated entity system with the generic attribute
+synchronization is implemented with a set of messages in Tundra,
+namely: CreateEntity, CreateComponents, CreateAttributes,
+EditAttributes, RemoveAttributes, RemoveComponents, RemoveEntity,
+CreateEntityReply, CreateComponentsReply and EntityAction
+(source: SyncManager:HandleKristalliMessage switch(messageId)).
+
+Upon a new client login to a server, typically the whole scene state
+is replicated to the client using these messages. So the overall
+efficiency of entity-component-attribute creation is of
+importance. Then during the lifetime of a connection entities are
+typically not created nor removed that aggressively, but there can be
+constant streams of changes to attributes, so the efficiency of the
+EditAttributes message is crucial.
+
+Besides the generic attribute sync, the Tundra SDK implements a custom
+message and corresponding logic for moving rigid bodies
+(RigidBodyUpdate). It utilizes motion interpolation and extrapolation
+(dead reckoning), and the physics module for non-authorative collision
+detection on the client side. 
+
+In fact in the first versions (1.0 - 2.3(?)) Tundra did not have a
+special message for moving objects, but the generic attribute
+synchronization was used for that as well (the floating point values
+in the transform attribute of the placeable component). The fact that
+we were able to have tens of simultanously moving objects with several
+client connections using that naive mechanism is some anecdotal
+evidence for the efficiency of the generic attribute
+synchronization. A generic optional attribute interpolation mechanism
+was made for smooth movements. However, object movement was clearly
+such a common case and a bottleneck in many applications that the
+custom solution for it was required. The movement synchronization is
+essentially about synchronizing the linear and angular velocity
+vectors, instead of trying to stream the position all the time.
+
+Network bandwidth measurements
+------------------------------
+
+From: 	Jukka Jylänki <jukka.jylanki@ludocraft.com>
+Subject: 	[realXtend-dev] RealXtend Tundra 2.3.0 is released!
+Date: 	February 28, 2012 9:51:34 PM GMT+02:00
+
+- Implemented a new path for streaming rigid bodies over the network. This allows a far larger number of concurrent clients on a server. (#314, #322, #354)
+  - Comparative profile of the Physics demo scene: http://dl.dropbox.com/u/40949268/Tundra/Tundra_RigidBody_PhysicsScene.png
+  - Old rigid body streaming code was about 70bytes/update: http://dl.dropbox.com/u/40949268/Tundra/OldRigidBodyStreaming_70b.png
+  - New code averages at about 11bytes/update: http://dl.dropbox.com/u/40949268/Tundra/NewRigidBodyPackets_11b.png
+  - User counts as large as 64 users are doable, but largely depends on what is running in the scene: http://dl.dropbox.com/u/40949268/Tundra/kNetServer64users.png
+
+Overall performance and scalability
+-----------------------------------
+
+about scalability & performance in general:
+
+	From: 	Jukka Jylänki <jukka.jylanki@ludocraft.com>
+ 	[realXtend-dev] Scalability study for Tundra.
+	Date: 	April 18, 2012 3:47:57 PM GMT+03:00
+
+https://groups.google.com/forum/?fromgroups#!topic/realxtend-dev/Lzzx_hZu38I%5B1-25%5D
+
+- performance
+
+interest management
+
+ * not all entities everywhere always
 
 Evaluation and Discussion
 =========================
 
-(compare with sirikata / emerson and others in the related work)
+(compare with sirikata / emerson and others in the related work. unity?)
+
 
 Alternative implementations
 ---------------------------
 
-WebNaali & Lehto work -- thougts on applying the EC model in there (looks good and seems sensible so far, right? not many net messages to implement with the generic sync etc.)
+WebNaali & Lehto work -- thougts on applying the EC model in there
+(looks good and seems sensible so far, right? not many net messages to
+implement with the generic sync etc. xmpp stream compression to be
+tested)
 
 
 Notes / References
