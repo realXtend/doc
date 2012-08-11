@@ -6,7 +6,6 @@ An Entity System for Networked Game Development
 or: Networked Games Development with realXtend Tundra SDK
 ---------------------------------------------------------
 
-
 toni
 
 jukka?
@@ -35,7 +34,7 @@ is evaluated critically to analyze the entity model and to identify
 areas for improvement in future work.
 
 The goal is to make creating efficient multiplayer games easy, with
-for example just JavaScript logic code, without the need to invent own
+for example just Javascript logic code, without the need to invent own
 network messages for simple functionality. Custom messages are
 supported for efficiency in more complex cases.
 
@@ -50,6 +49,8 @@ went up by N.
 
 Introduction
 ============
+
+.. mention concrete advantages to dev clearer, perhaps like was in the old intro version (now moved to under tundra sdk desc here)
 
 Developing a networked multiplayer game is typically (unavoidably)
 more complex than a local game. Multiplayer logic is a part of it,
@@ -179,8 +180,158 @@ via the entities the same interface works for all implementations.
 Example 1: Pong as the Hello World of multiplayer games
 -------------------------------------------------------
 
-Example 2: Takes from more complex games
-----------------------------------------
+Pong is a minimal multiplayer game, so let's use it as a simple
+example of making a networked game using the entity-component
+model. We are using the realXtend Tundra SDK for the evaluation here
+and it is a 3d scenegraph engine with rigid body physics simulations
+so the game environment and mechanisms are built with those.
+
+The Pong scene consists of -- similarily to the game of tennis -- the
+playing field, two paddles for the players and the ball. In this
+example the static scene is created with a 3d modeling program (in
+this case Blender3d). The scene is exported from Blender to Tundra
+SDK, at which point it is converted to the entity-component model: all
+the visible entities have a Placeable component for being in the
+scene, Mesh for the visual geometry and Rigidbody for the physics
+simulation.
+
+To make the game logic, an additional invisible entity is added, let's
+call it PongGame. We write the code in Javascript, for which the
+mechanism in Tundra is to add a Script component with a reference to
+the .js file as an attribute. We want to show a basic GUI in the
+clients to visualize the game state: whether a game is running or not,
+and what is the score. So let's add also a custom component with that
+data in attributes, PongGameState with Boolean:Running and integer
+attributes for player 1 and 2 scores. That way the data is
+automatically synchronized to clients as well so they can easily use
+it in the GUI code. The physics simulation bouncing the ball is ran on
+the server side by default, and that is where we want to have all the
+logic code of checking when a player scores, starting and stopping
+games etc.
+
+In addition to having the logic code and the game state data, we need
+to handle clients / players joining and leaving the game. Joining is
+triggered with a GUI button in a client, which sends an entity-action
+called "JoinGame" to the PongGame application entity, to be handled on
+the server side. 
+
+The game does not need to know about clients logging into the server,
+as we can have any number of spectators there. As joining the game is
+made as a separate action, the game does not need to care when new
+bare client connections are established. But we need to handle
+disconnects when some player connection is dropped in the middle of a
+running game. Network connections in Tundra are outside the entity
+model, but hooks for dealing with them are provided in the builtin
+core API instead. In this case, the server api object has an event
+called UserDisconnected to which we can connect our handler.
+
+We begin the game, for simplicity, when two players have joined
+in. They are assigned controls for their own paddles, for example the
+mouse y coordinate can be mapped to the corresponding position along
+the side of the table. We can manipulate the paddle position directly
+in the client by the same code which reads the mouse position. This is
+optimal for the control feel to avoid any lag in the visual response
+for the hand movements, but can be problematic when the physics are
+executed on the server side and there is network latency. The player
+can see the ball passing through her paddle, if the server did not
+receive the paddle movement in time. Another possibility is to
+communicate the controls to the server, move the paddles there, and
+thereby get the visual feedback in the client only after the full
+roundtrip. This could allow the player to compensate for the latency,
+but also make the controlling more difficult due to the delay. For a
+study of different strategies for dealing with latency in the game of
+pong, see [PongPaper].
+
+The positions of all objects, the transform attributes of the
+placeable components in them, are synchronized automatically so all
+the participants get the paddle and ball positions automatically. The
+bouncing of the ball is handled automatically by the physics
+engine. The game code only needs to:
+
+1. Start the game, when two players join, by giving the ball some initial velocity
+
+2. Handle player controls of the paddles during the game
+
+3. Check for the winning condition (ball passes either side) and keep score
+
+4. Handle the user actions to join and thereby start the game, and the
+different cases when the game is stopped (win, user decides to stop,
+or connection drops).
+
+Arguably this way to implement a networked multiplayer game of pong is
+very simple, and succesfully hides all the details of networking from
+the game developer. (e.g. the example there does a bit more manually,
+even though is largely similar:
+http://www.unionplatform.com/?page_id=1229&page=2)
+
+
+Example 2: Swarming plankton as food for fish in the sea
+--------------------------------------------------------
+
+A simple way to make a trivial pong implementation may be nice, but
+does the approach work for real, more complex games? We and others
+have implemented a range of applications using the entity-component
+model on the Tundra SDK, and this section is to analyze issues
+encountered with more complex functionality. The particular case is
+from an open source application made at the end of the original
+realXtend project, as a public demo of the Tundra SDK. That is the
+Smithsonian Latino Virtual Museum's Virtual Watershed Initiative, and
+in particular the experimental Anchovy game made to the sea bay there.
+
+The whole watershed environment hosts a range of animals of different
+scale, from white-tailed deer and opossum to osprey, sea bass and the
+anchovy. The idea is that by taking the role of an animal they player
+(a child visiting the museum for example) can learn about biology. In
+the anchovy game, the player controls the little fish from a 3rd
+person angle, trying to find food such as plankton in the sea. The
+idea is to have quite a lot of little plankton clouds there, but so
+that when multiple players consume it the amount decreases.
+
+To be able to render a lot of little plankton, we use particle
+systems. The individual particles in the particle systems move
+slightly at random, to give a feel of them floating around in the
+water. To have enough particles to fill parts of the sea bay, we
+easily need tens of particle systems with hundreds of particles in
+each. Synchronizing all those little movements would take an immense
+amount of bandwidth, also considering that also many other things are
+also going on in the scene. To cut down the traffic, not only are the
+individual particles networked, but also the movement of a single
+particle system is not communicated. Instead, we form clusters of 5
+particle systems which move around as a loose group, and synchronize
+only the positions of such clusters. This way we can have lots of
+plankton, in approximately the same positions for the different
+players. Also the amount of plankton left in a cluster is
+synchronized. The idea is that the different players see the plankton
+clouds in same areas of the sea bay, and see them diminish when eaten,
+but with relatively little network traffic.
+
+That system is implemented by having the game code (Javascript) create
+the particle systems in local-only entities, which are not
+synchronized over the network at all. Only the clusters are normal
+replicated Tundra entities, for which the movement synchronization
+works.
+
+The fish themselves are normal replicated entities for which the
+server is authorative. That required an additional trick to be able to
+implement the collision detection for plankton eating using the
+physics engine: By default, physics are executed on the server and
+authorative there. However, as the plankton particles do not even
+exist there but are on the clients only, we added a local invisible
+mouth entity to the otherwise networked fish. This way client side
+physics works for detecting collisions of the fish mouths and the
+plankton.
+
+Creating this setup obviously required designing and implementing the
+code with networking in mind -- in this case, the system definitely
+does not hide all the intricacies of networked games from the
+developer. The same uniform programming model is applied, certain
+entities are just configured to the local-only mode. Also the fact
+that in the Tundra SDK we have the same API both in the server and
+client executables (the core is the same) enabled an incremental
+development path here: first all the functionality was server side,
+but as the amount of networking grew to be too much, it was quite
+straightforward to change the same code to be executed on the client
+side only instead.
 
 
 The implementation in Tundra SDK
@@ -250,5 +401,12 @@ example there is a proximity sensor
 Pong with a multiplayer Flash platform:
 multiplayer pong example & tutorial
 http://www.unionplatform.com/?page_id=1229
+
+"Union Pong consists of a server-side 
+room module written in Java, and a Flash client-side application written in pure ActionScript with Union's Reactor 
+framework. The room module is responsible for controlling the game's flow, scoring, and physics simulation." jne
+- client attribuutteja näemmä settailee
+-  näemmä aika paljon pitää tuolla ite hanskailla attribuuttien muutoksien lähettelyä ja vastaanottoa
+
 
 
