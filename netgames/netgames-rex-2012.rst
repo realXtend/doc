@@ -341,16 +341,88 @@ robust ways to configure replicated vs. local execution are interesting.
 The implementation in Tundra SDK
 --------------------------------
 
-- API
-- Module System
-- Core functionality: Ogre3d, Qt, kNet
+The Tundra SDK is a complete platform for networked 3d
+applications. It is built entirely using the inherently networked
+entity model described in this article. Here we give a brief overview
+of Tundra overall, and describe how the entity system works for
+application developers there.
 
-The realXtend Tundra SDK provides a decent API and a solid platform
-for networked 3d applications. It originates from the realXtend
-virtual worlds project, but has always been developed to be used for
-games as well.  **and has been largely developed by a local game
-company, Ludocraft Ltd., also after the initial project -- their
-recent Circus demo is also the best simple Tundra game demo now.
+Tundra core is written in c++ using several open source libraries:
+Ogre3d for the 3d scene and rendering, Qt for cross-platform support,
+GUI, event system and scripting support, Bullet for physics, OpenAL
+for audio, kNet for networking etc. It is a modular system where
+almost all the basic features are in optional plugins, and developers
+can write their own either for some new generic functionality or their
+own proprietary game logic and functionality. It supports scripting
+with Javascript and has optional support for Python modules as
+well. The same codebase is used both for servers and clients, and can
+be used standalone as well for single user applications.
+
+The visible 3d scene and the custom application logics are typically
+made within the entity-component system, but other areas of
+functionality such as handling user input devices in GUI clients,
+manual asset downloads or dealing with network connections in the
+server are exposed as a set of core APIs.
+
+To add a piece of functionality to a scene, a developer typically
+introduces a new entity-component type, in a plugin which also
+contains the code for handling that component. This is also how we
+have integrated several open source libraries: physical objects
+simulated by Bullet have a RigidBody component, the SkyX sky and
+clouds visualization Ogre plugin introduces a SkyX component with data
+such as the current time and the hour of sunrise as data
+attributes. Besides the automatic network replication of the
+attributes, Tundra core also can save and load the entity data to
+files (binary or xml), and provides a powerful basic GUI tool for
+working with components with an automatically generated interface (XXX
+add figure of entity-component editor, perhaps mention multi-editing).
+
+This all works quite beatifully on the c++ level, but typically custom
+application functionality is implement in Javascript where the
+extensibility with custom components is not so well exposed. Currently
+no new component types can be added in dynamic code, but they all have
+to be defined in C++ at compile time. There is a special component
+called DynamicComponent to deal with this issue, and it basically
+allows human GUI users or Javascript code to define new components at
+runtime, but the API for defining new component types that way is
+awkward and there is no way to register new types with this mechanism
+so that they would work identically to the C++ written components in
+the GUI editor. 
+
+In fact, the original implementation of example 1. Pong game did not
+use the attribute system at all for game state, but instead was
+creating a Javascript dictionary called GameState and serializing that
+with JSON to send over the net with an entity-action. This came as
+quite a surprise for the author of this article when reading the code,
+written by another developer. The reason probably was that there is no
+easy syntax for defining new components for the state in
+Javascript. If he had written the game using c++, he probably would
+have followed the pattern described in the example here and utilized
+the attribute system. (XXX to be verified as soon as Jonne is back from travel :)
+
+There are various other stumbling blocks in game development with
+Tundra currently too, some of which are specific to networked
+environments. One is writing a script to some entity which further
+manipulates other entities in the scene. Especially if the script is
+to be executed on the client side, a naive implementation can fail to
+initialize when it is executed before the target entities had been
+replicated to that client (e.g. the scene.GetEntityByName("target")
+returns null unexpectedly and the rest of the code fails). In such
+cases we currently need to monitor the onEntityCreated signal to see
+when the entity of interest enters the scene. It may be possible to
+help there situations with better initialization orders and
+conditions, for example executing scripts only after a scene is
+completely instanciated, but that can be difficult in large worlds
+which are always only partially replicated to clients. One solution
+might be a more declarative programming approach, where relationships
+between entities and references to them are just declared and work,
+without manual procedural (/imperative?) code to get the references.
+
+(.. other points and perhaps issues from tundra dev, what?)
+
+---
+
+(old, somehow nice partly:
 
 Tundra applications are written against the Tundra Core API and
 utilizing the Entity-Component scene model. The platform takes cares
@@ -364,6 +436,7 @@ must file an issue :p) <-- scrap that stupidity, it's just like
 scripting in any scriptable MMO .. or modding a FPS, using engine like
 Unreal or Quake. so can just put briefly and ref to something perhaps
 too, for clarity hopefully).
+)
 
 The underlying networking for the entity system in Tundra SDK
 =============================================================
