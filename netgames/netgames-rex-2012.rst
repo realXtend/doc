@@ -6,6 +6,13 @@ An Entity System for Networked Game Development
 or: Networked Games Development with realXtend Tundra SDK
 ---------------------------------------------------------
 
+
+.. |date| date::
+.. |time| date:: %H:%M
+
+.. rubric::
+   This document was generated on |date| at |time|.
+
 toni
 
 jukka?
@@ -95,6 +102,8 @@ abstractions provided for application developers. In addition to
 reviewing the ease of development, we also analyze the efficiency and
 robustness of how the abstract entity-component model with the
 automatic synchronization maps to concrete network load.
+
+(NOTE: something more is needed about how APIs and platforms can be evaluated, can qualitative research about programming environments be done and how? both here to intro and to background/related work! XXX)
 
 The article is organized as follows: next we review background and
 related work from the literature. Then the design of the
@@ -399,7 +408,7 @@ entity model described in this article. Here we give a brief overview
 of Tundra overall, and describe how the entity system works for
 application developers there.
 
-Tundra core is written in c++ using several open source libraries:
+Tundra core is written in C++ using several open source libraries:
 Ogre3d for the 3d scene and rendering, Qt for cross-platform support,
 GUI, event system and scripting support, Bullet for physics, OpenAL
 for audio, kNet for networking etc. It is a modular system where
@@ -429,7 +438,7 @@ files (binary or xml), and provides a powerful basic GUI tool for
 working with components with an automatically generated interface (XXX
 add figure of entity-component editor, perhaps mention multi-editing).
 
-This all works quite beatifully on the c++ level, but typically custom
+This all works quite beatifully on the C++ level, but typically custom
 application functionality is implement in Javascript where the
 extensibility with custom components is not so well exposed. Currently
 no new component types can be added in dynamic code, but they all have
@@ -449,7 +458,7 @@ bit of a surprise for the author of this article when reading the
 code, written by another developer. When interviewed for this study,
 the developer revealed that it was due to the poor support for
 defining new components with the Javascript API in Tundra. If he had
-written the game using c++, he probably would have followed the
+written the game using C++, he probably would have followed the
 pattern described in the example here and utilized the attribute
 system. In the version in the example here we work around the problem
 by declaring the PongGameState component in the application XML, in
@@ -549,7 +558,14 @@ vectors, instead of trying to stream the position all the time.
 Network bandwidth measurements
 ------------------------------
 
-.. raw::
+(note for internal reviewers: this section expects contributions from
+Jukka Jylänki / Ludocraft and the Chiru project, as they have already
+made several measurements, have the setups for that etc. now this just
+gathers basic data that has been published via the mailing list
+earlier. will be worked on immediately in the coming weeks well before
+submission)
+
+::
 
    From: 	Jukka Jylänki <jukka.jylanki@ludocraft.com>
    Subject: 	[realXtend-dev] RealXtend Tundra 2.3.0 is released!
@@ -570,6 +586,8 @@ Overall performance and scalability
 
 about scalability & performance in general:
 
+::
+
 	From: 	Jukka Jylänki <jukka.jylanki@ludocraft.com>
  	[realXtend-dev] Scalability study for Tundra.
 	Date: 	April 18, 2012 3:47:57 PM GMT+03:00
@@ -579,6 +597,9 @@ https://groups.google.com/forum/?fromgroups#!topic/realxtend-dev/Lzzx_hZu38I%5B1
 - performance
 
 interest management
+-------------------
+
+(worked on at Chiru -- report preliminarily here. also what Ali is doing at Ludocraft)
 
  * not all entities everywhere always
  * sync rate adapted based on importance -- crossref with the example
@@ -662,8 +683,7 @@ attribute synchronization if they are required for some applications.
 Notes / References
 ==================
 
--- about that work -- in a diff paper from the group: "From the result we prove that the decorator feedback only had the positive effect on the lower delay condition but not in the high delay condition."
-"""
+(NOTE: below is selected copy-pastes from potential references, mostly not original text!)
 
 Greger Wikstrand, Lennart Schedin and Fredrik Elg [9] gave three
 hypotheses before they did their Pong game experiment in a simulated
@@ -672,6 +692,7 @@ performance”. The experiment put eyes on significant effects on four
 independent variables: enjoyment, mental effort, net distance and
 paddle move- ---
 
+---
 
 Avango is a framework for building distributed virtual reality applications. It provides a field/fieldcontainer based application layer similar to VRML. Within this layer a scene graph, based on OpenGL Performer, input sensors, and output actuators are implemented as runtime loadable modules (or plugins). A network layer provides automatic replication/distribution of the application graph using a reliable multi-cast system. Applications in Avango are written in Scheme and run in the scripting layer. The scripting layer provides complete access to fieldcontainers and their fields; this way distributed collaborative scenarios as well as render-distributed applications (or even both at the same time) are supported. Avango was originally developed at the VR group at GMD, now Virtual Environments Group at Fraunhofer IAIS and was open-sourced in 2004. An in-depth description can be found in here.
 
@@ -679,7 +700,8 @@ Avango is a framework for building distributed virtual reality applications. It 
 http://www.avango.org/raw-attachment/wiki/Res/Improving_the_AVANGO_VR-AR_Framework--Lessons_Learned.pdf
 
 * http://www.avango.org/wiki/Concepts
-Avango concepts seem quite similar to tundra - 'fields' is a 
+
+NOTE: Avango concepts seem quite similar to tundra - 'fields' is a 
 bit like our attrs, are autoserialized etc., and there are 
 connections which are perhaps similar to qt signal conns .. the 
 example there is a proximity sensor
@@ -696,9 +718,7 @@ framework. The room module is responsible for controlling the game's flow, scori
 - client attribuutteja näemmä settailee
 -  näemmä aika paljon pitää tuolla ite hanskailla attribuuttien muutoksien lähettelyä ja vastaanottoa
 
-
-
--- 
+---
 
 homura (appears dead since 2010, was started in 2007 -- bbc and uk edu, a bit similar to realXtend, with games focus)
 
@@ -757,17 +777,15 @@ session.
 
 ---
 
-general, should get:
+general, should get
 
-T. Hsiao and S. Yuan, “Practical Middleware for
- Massively Multiplayer Online Games,” IEEE Internet
-  Computing, vol. 9, 2005, pp. 47-54.
-http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1510604&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1510604
+T. Hsiao and S. Yuan, “Practical Middleware for Massively Multiplayer Online Games,” IEEE Internet Computing, vol. 9, 2005, pp. 47-54.
 
-J.D. Pellegrino and C. Dovrolis, “Bandwidth requirement
- and state consistency in three multiplayer game
-architectures,” Proceedings of the 2nd workshop on
-Network and system support for games, Redwood City,
-California: ACM, 2003, pp. 52-59;
-http://portal.acm.org/citation.cfm?id=963900.963905&type
-=series.
+ http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1510604&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1510604
+
+J.D. Pellegrino and C. Dovrolis, “Bandwidth requirement and state
+consistency in three multiplayer game architectures,” Proceedings of
+the 2nd workshop on Network and system support for games, Redwood
+City, California: ACM, 2003, pp. 52-59;
+
+http://portal.acm.org/citation.cfm?id=963900.963905&type=series.
