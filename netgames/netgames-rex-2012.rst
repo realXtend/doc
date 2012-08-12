@@ -581,6 +581,10 @@ https://groups.google.com/forum/?fromgroups#!topic/realxtend-dev/Lzzx_hZu38I%5B1
 interest management
 
  * not all entities everywhere always
+ * sync rate adapted based on importance -- crossref with the example
+   2 where had to deal with bandwidth manually (being able to do local
+   entities for visual effects etc. is probably still good, even if
+   perfect magical IM was there)
 
 Evaluation and Discussion
 =========================
