@@ -588,13 +588,71 @@ Evaluation and Discussion
 (compare with sirikata / emerson and others in the related work. unity?)
 
 
-Alternative implementations
----------------------------
+Alternative implementations: the entities to web browsers and XMPP as well?
+---------------------------------------------------------------------------
 
-WebNaali & Lehto work -- thougts on applying the EC model in there
-(looks good and seems sensible so far, right? not many net messages to
-implement with the generic sync etc. xmpp stream compression to be
-tested)
+Besides the native C++ Tundra SDK, we have also implemented early
+versions of alternative clients on the web (html5) and Flash/AIR
+runtimes. For continuing this work it is imperative to know whether
+and how the entity model reaches the goal of making multiplayer game
+development productive. (XXX: isn't it also vice versa -- it can
+actually be used in the evaluation here to judge the model?
+restructure to earlier in the article? XXX) That is: do we find this
+entity system so good that we want to have the same as the basis also
+for browser based games?
+
+In the web browser technology based client, so called WebNaali,
+websockets are used for the communication. We implemented a server
+side plugin for that (originally in Python) and a corresponding client
+stack in Javascript, using a WebGL engine called GLGE for the 3d
+rendering. We begun by synchronizing the whole scene state at login to
+a Tundra server using the EC model (at first with Tundra XML). Then we
+implemented a single message for generic attribute synchronization,
+and enough handling code for Placeable updates to work (note: this was
+originally made before the special RigidBodyUpdate system
+existed). Also, we implemented the single message required for
+entity-actions. That was required for the avatar and chat
+functionality which was the customer requirement for the first
+WebNaali test service. The Tundra avatar and chat applications work by
+client sending commands to the server, which then in the case of the
+avatar moves the character (resulting in placeable sync back to the
+client), and in the case of chat the server also uses entity-actions
+to send the chat messages to clients. This was quite simple and quick
+to do, the whole WebNaali 0.1 code is only N lines. A video
+demonstrating simultaneous views to the same scene with a WebNaali and
+a native Tundra client, demonstrating those avatar and chat
+functionalities (without animation state sync in WebNaali) is at:
+
+. The entity-component model has been straightforward to implement,
+thanks to the genericity of attributes and actions, we have been able
+to make ground in WebNaali for a wide range of applications by
+implementing only a few network messages.
+
+On the Flash front, there is currently a different platform candidate
+under the realXtend open source umbrella. In so-called Lehto, instead
+of Tundra we are utilizing plain XMPP as the server and networking
+backend. In the networking level, Lehto clients are just normal XMPP
+clients, utilising the XMPP Multi-User Chat (MUC) extension for group
+sessions. This was practical in a customer project where only chat
+communication and rare presence updates sufficed, and no physics nor
+scripted application logic were required on the server side, so Tundra
+was not needed. We have not yet implemented any entity system in
+Lehto, currently it is very simple and can just load a static scene
+from a normal static geometry file, only features the hardcoded chat
+(standard xmpp) and simple avatar position updates using a simple
+message via a hidden non-human control MUC. XMPP is very verbose, so
+we limited avatar sync rate to 1 second, which sufficed for the
+application (a virtual gallery system for Berlin Gallery Weekend 2012,
+see: XXX). However with the XMPP Stream Compression extension the
+bandwidth may reduce dramatically -- possibly enough for realtime
+gaming? We have not tested the stream compression yet, as it was not
+required for the gallery application and the Flash client library
+used, XIFF, did not support it at the time. However XIFF got streaming
+compression support now (August 2012), and there are mature
+implementations in other languages (at least Java) so it could be
+tested. Lehto development continues during autumn 2012 and we will
+certainly consider implementing the entity system and generic
+attribute synchronization if they are required for some applications.
 
 
 Notes / References
