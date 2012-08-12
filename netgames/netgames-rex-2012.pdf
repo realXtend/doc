@@ -4,7 +4,8 @@
 1 0 obj
 % The standard fonts dictionary
 << /F1 2 0 R
- /F2 3 0 R >>
+ /F2 3 0 R
+ /F3 43 0 R >>
 endobj
 % 'F1': class PDFType1Font 
 2 0 obj
@@ -30,15 +31,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 14 0 R
+ /Dest [ 34 0 R
  /XYZ
  62.69291
- 594.0236
+ 254.0236
  0 ]
  /Rect [ 62.69291
- 681.7736
+ 521.7736
  103.2529
- 693.7736 ]
+ 533.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -48,15 +49,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 14 0 R
+ /Dest [ 34 0 R
  /XYZ
  62.69291
- 594.0236
+ 254.0236
  0 ]
  /Rect [ 527.0227
- 681.7736
+ 521.7736
  532.5827
- 693.7736 ]
+ 533.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -66,15 +67,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 14 0 R
+ /Dest [ 35 0 R
  /XYZ
  62.69291
- 387.0236
+ 717.0236
  0 ]
  /Rect [ 62.69291
- 663.7736
+ 503.7736
  121.0229
- 675.7736 ]
+ 515.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -84,15 +85,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 14 0 R
+ /Dest [ 35 0 R
  /XYZ
  62.69291
- 387.0236
+ 717.0236
  0 ]
  /Rect [ 527.0227
- 663.7736
+ 503.7736
  532.5827
- 675.7736 ]
+ 515.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -102,15 +103,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 15 0 R
+ /Dest [ 35 0 R
  /XYZ
  62.69291
- 765.0236
+ 216.0236
  0 ]
  /Rect [ 62.69291
- 645.7736
- 161.0529
- 657.7736 ]
+ 485.7736
+ 162.1629
+ 497.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -120,15 +121,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 15 0 R
+ /Dest [ 35 0 R
  /XYZ
  62.69291
- 765.0236
+ 216.0236
  0 ]
  /Rect [ 527.0227
- 645.7736
+ 485.7736
  532.5827
- 657.7736 ]
+ 497.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -138,15 +139,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 15 0 R
+ /Dest [ 36 0 R
  /XYZ
  62.69291
- 660.0236
+ 495.0236
  0 ]
  /Rect [ 62.69291
- 627.7736
- 141.0329
- 639.7736 ]
+ 467.7736
+ 323.8429
+ 479.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -156,15 +157,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 15 0 R
+ /Dest [ 36 0 R
  /XYZ
  62.69291
- 660.0236
+ 495.0236
  0 ]
  /Rect [ 527.0227
- 627.7736
+ 467.7736
  532.5827
- 639.7736 ]
+ 479.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -174,15 +175,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 15 0 R
+ /Dest [ 36 0 R
  /XYZ
  62.69291
- 447.0236
+ 408.0236
  0 ]
- /Rect [ 62.69291
- 609.7736
- 152.7229
- 621.7736 ]
+ /Rect [ 82.69291
+ 449.7736
+ 168.2829
+ 461.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -192,20 +193,380 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 15 0 R
+ /Dest [ 36 0 R
  /XYZ
  62.69291
- 447.0236
+ 408.0236
  0 ]
  /Rect [ 527.0227
- 609.7736
+ 449.7736
  532.5827
- 621.7736 ]
+ 461.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER11': class LinkAnnotation 
+14 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 37 0 R
+ /XYZ
+ 62.69291
+ 603.0236
+ 0 ]
+ /Rect [ 82.69291
+ 431.7736
+ 338.3429
+ 443.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER12': class LinkAnnotation 
+15 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 37 0 R
+ /XYZ
+ 62.69291
+ 603.0236
+ 0 ]
+ /Rect [ 527.0227
+ 431.7736
+ 532.5827
+ 443.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER13': class LinkAnnotation 
+16 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 40 0 R
+ /XYZ
+ 62.69291
+ 561.0236
+ 0 ]
+ /Rect [ 82.69291
+ 413.7736
+ 335.0329
+ 425.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER14': class LinkAnnotation 
+17 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 40 0 R
+ /XYZ
+ 62.69291
+ 561.0236
+ 0 ]
+ /Rect [ 527.0227
+ 413.7736
+ 532.5827
+ 425.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER15': class LinkAnnotation 
+18 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 41 0 R
+ /XYZ
+ 62.69291
+ 651.0236
+ 0 ]
+ /Rect [ 82.69291
+ 395.7736
+ 238.8629
+ 407.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER16': class LinkAnnotation 
+19 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 41 0 R
+ /XYZ
+ 62.69291
+ 651.0236
+ 0 ]
+ /Rect [ 527.0227
+ 395.7736
+ 532.5827
+ 407.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER17': class LinkAnnotation 
+20 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 42 0 R
+ /XYZ
+ 62.69291
+ 465.0236
+ 0 ]
+ /Rect [ 62.69291
+ 377.7736
+ 363.3029
+ 389.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER18': class LinkAnnotation 
+21 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 42 0 R
+ /XYZ
+ 62.69291
+ 465.0236
+ 0 ]
+ /Rect [ 527.0227
+ 377.7736
+ 532.5827
+ 389.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER19': class LinkAnnotation 
+22 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 49 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 82.69291
+ 359.7736
+ 236.6329
+ 371.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER20': class LinkAnnotation 
+23 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 49 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 527.0227
+ 359.7736
+ 532.5827
+ 371.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER21': class LinkAnnotation 
+24 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 49 0 R
+ /XYZ
+ 62.69291
+ 465.8236
+ 0 ]
+ /Rect [ 82.69291
+ 341.7736
+ 238.8529
+ 353.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER22': class LinkAnnotation 
+25 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 49 0 R
+ /XYZ
+ 62.69291
+ 465.8236
+ 0 ]
+ /Rect [ 527.0227
+ 341.7736
+ 532.5827
+ 353.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER23': class LinkAnnotation 
+26 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 49 0 R
+ /XYZ
+ 62.69291
+ 322.6236
+ 0 ]
+ /Rect [ 82.69291
+ 323.7736
+ 176.6229
+ 335.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER24': class LinkAnnotation 
+27 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 49 0 R
+ /XYZ
+ 62.69291
+ 322.6236
+ 0 ]
+ /Rect [ 527.0227
+ 323.7736
+ 532.5827
+ 335.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER25': class LinkAnnotation 
+28 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 49 0 R
+ /XYZ
+ 62.69291
+ 208.6236
+ 0 ]
+ /Rect [ 62.69291
+ 305.7736
+ 189.9529
+ 317.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER26': class LinkAnnotation 
+29 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 49 0 R
+ /XYZ
+ 62.69291
+ 208.6236
+ 0 ]
+ /Rect [ 527.0227
+ 305.7736
+ 532.5827
+ 317.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER27': class LinkAnnotation 
+30 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 50 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 82.69291
+ 287.7736
+ 424.4929
+ 299.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER28': class LinkAnnotation 
+31 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 50 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Rect [ 527.0227
+ 287.7736
+ 532.5827
+ 299.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER29': class LinkAnnotation 
+32 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 50 0 R
+ /XYZ
+ 62.69291
+ 213.0236
+ 0 ]
+ /Rect [ 62.69291
+ 269.7736
+ 152.7229
+ 281.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER30': class LinkAnnotation 
+33 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 50 0 R
+ /XYZ
+ 62.69291
+ 213.0236
+ 0 ]
+ /Rect [ 527.0227
+ 269.7736
+ 532.5827
+ 281.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Page1': class PDFPage 
-14 0 obj
+34 0 obj
 % Page dictionary
 << /Annots [ 4 0 R
  5 0 R
@@ -216,13 +577,33 @@ endobj
  10 0 R
  11 0 R
  12 0 R
- 13 0 R ]
- /Contents 25 0 R
+ 13 0 R
+ 14 0 R
+ 15 0 R
+ 16 0 R
+ 17 0 R
+ 18 0 R
+ 19 0 R
+ 20 0 R
+ 21 0 R
+ 22 0 R
+ 23 0 R
+ 24 0 R
+ 25 0 R
+ 26 0 R
+ 27 0 R
+ 28 0 R
+ 29 0 R
+ 30 0 R
+ 31 0 R
+ 32 0 R
+ 33 0 R ]
+ /Contents 82 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 24 0 R
+ /Parent 81 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -234,14 +615,14 @@ endobj
  /Type /Page >>
 endobj
 % 'Page2': class PDFPage 
-15 0 obj
+35 0 obj
 % Page dictionary
-<< /Contents 26 0 R
+<< /Contents 83 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 24 0 R
+ /Parent 81 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -252,132 +633,897 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'R16': class PDFCatalog 
-16 0 obj
+% 'Page3': class PDFPage 
+36 0 obj
+% Page dictionary
+<< /Contents 84 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 81 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page4': class PDFPage 
+37 0 obj
+% Page dictionary
+<< /Contents 85 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 81 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER31': class PDFDictionary 
+38 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.unionplatform.com/?page_id=1229&page=2) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 211.2106
+ 615.7736
+ 460.8161
+ 627.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER32': class PDFDictionary 
+39 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (https://github.com/realXtend/doc/tree/master/netgames/PongMultiplayer) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 173.8329
+ 573.7736
+ 491.7529
+ 585.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page5': class PDFPage 
+40 0 obj
+% Page dictionary
+<< /Annots [ 38 0 R
+ 39 0 R ]
+ /Contents 86 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 81 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page6': class PDFPage 
+41 0 obj
+% Page dictionary
+<< /Contents 87 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 81 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page7': class PDFPage 
+42 0 obj
+% Page dictionary
+<< /Contents 88 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 81 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'F3': class PDFType1Font 
+43 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER33': class PDFDictionary 
+44 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://dl.dropbox.com/u/40949268/Tundra/Tundra_RigidBody_PhysicsScene.png) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 565.5736
+ 442.5429
+ 577.5736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER34': class PDFDictionary 
+45 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://dl.dropbox.com/u/40949268/Tundra/OldRigidBodyStreaming_70b.png) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 535.5736
+ 420.3129
+ 547.5736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER35': class PDFDictionary 
+46 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://dl.dropbox.com/u/40949268/Tundra/NewRigidBodyPackets_11b.png) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 505.5736
+ 414.7529
+ 517.5736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER36': class PDFDictionary 
+47 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://dl.dropbox.com/u/40949268/Tundra/kNetServer64users.png) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 475.5736
+ 376.9529
+ 487.5736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER37': class PDFDictionary 
+48 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (https://groups.google.com/forum/?fromgroups#!topic/realxtend-dev/Lzzx_hZu38I%5B1-25%5D) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 353.3736
+ 532.5827
+ 365.3736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page8': class PDFPage 
+49 0 obj
+% Page dictionary
+<< /Annots [ 44 0 R
+ 45 0 R
+ 46 0 R
+ 47 0 R
+ 48 0 R ]
+ /Contents 89 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 81 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Page9': class PDFPage 
+50 0 obj
+% Page dictionary
+<< /Contents 90 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 81 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER38': class PDFDictionary 
+51 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.avango.org/raw-attachment/wiki/Res/Improving_the_AVANGO_VR-AR_Framework--Lessons_Learned.pdf) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 609.7736
+ 532.5827
+ 621.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER39': class PDFDictionary 
+52 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.avango.org/wiki/Concepts) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 85.69291
+ 588.7736
+ 532.5827
+ 600.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER40': class PDFDictionary 
+53 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.unionplatform.com/?page_id=1229) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 501.7736
+ 266.4029
+ 513.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER41': class PDFDictionary 
+54 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://java.cms.livjm.ac.uk/homura/links.php) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 89.64989
+ 381.7736
+ 286.6669
+ 393.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER42': class PDFDictionary 
+55 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://java.cms.livjm.ac.uk/homura/dist/docs/Paper-GDTW2008-Koku.pdf) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 90.49291
+ 345.7736
+ 411.7129
+ 357.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER43': class PDFDictionary 
+56 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.cms.livjm.ac.uk/pgnet2010/MakeCD/index.htm) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 90.52787
+ 285.7736
+ 350.6628
+ 297.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER44': class PDFDictionary 
+57 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.cms.livjm.ac.uk/pgnet2010/MakeCD/Papers/2010022.pdf) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 213.2929
+ 261.7736
+ 515.0829
+ 273.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER45': class PDFDictionary 
+58 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://java.cms.livjm.ac.uk/homura/dist/docs/Paper-GDTW2008-NetHomura.pdf) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 183.0327
+ 243.7736
+ 531.1828
+ 255.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page10': class PDFPage 
+59 0 obj
+% Page dictionary
+<< /Annots [ 51 0 R
+ 52 0 R
+ 53 0 R
+ 54 0 R
+ 55 0 R
+ 56 0 R
+ 57 0 R
+ 58 0 R ]
+ /Contents 91 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 81 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER46': class PDFDictionary 
+60 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1510604&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1510604) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ -40.7122
+ 573.7736
+ 655.9878
+ 585.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER47': class PDFDictionary 
+61 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://portal.acm.org/citation.cfm?id=963900.963905&type=series) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 62.69291
+ 513.7736
+ 351.7329
+ 525.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page11': class PDFPage 
+62 0 obj
+% Page dictionary
+<< /Annots [ 60 0 R
+ 61 0 R ]
+ /Contents 92 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 81 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R63': class PDFCatalog 
+63 0 obj
 % Document Root
-<< /Outlines 18 0 R
- /PageLabels 27 0 R
+<< /Outlines 65 0 R
+ /PageLabels 93 0 R
  /PageMode /UseNone
- /Pages 24 0 R
+ /Pages 81 0 R
  /Type /Catalog >>
 endobj
-% 'R17': class PDFInfo 
-17 0 obj
+% 'R64': class PDFInfo 
+64 0 obj
 << /Author ()
- /CreationDate (D:20120802072107-02'00')
+ /CreationDate (D:20120812201057-02'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
  /Subject (\(unspecified\))
- /Title () >>
+ /Title (An Entity System for Networked Game Development) >>
 endobj
-% 'R18': class PDFOutlines 
-18 0 obj
-<< /Count 5
- /First 19 0 R
- /Last 23 0 R
+% 'R65': class PDFOutlines 
+65 0 obj
+<< /Count 18
+ /First 66 0 R
+ /Last 80 0 R
  /Type /Outlines >>
 endobj
 % 'Outline.0': class OutlineEntryObject 
-19 0 obj
-<< /Dest [ 14 0 R
+66 0 obj
+<< /Dest [ 34 0 R
  /XYZ
  62.69291
- 594.0236
+ 254.0236
  0 ]
- /Next 20 0 R
- /Parent 18 0 R
+ /Next 67 0 R
+ /Parent 65 0 R
  /Title (Abstract) >>
 endobj
 % 'Outline.1': class OutlineEntryObject 
-20 0 obj
-<< /Dest [ 14 0 R
+67 0 obj
+<< /Dest [ 35 0 R
  /XYZ
  62.69291
- 387.0236
+ 717.0236
  0 ]
- /Next 21 0 R
- /Parent 18 0 R
- /Prev 19 0 R
+ /Next 68 0 R
+ /Parent 65 0 R
+ /Prev 66 0 R
  /Title (Introduction) >>
 endobj
 % 'Outline.2': class OutlineEntryObject 
-21 0 obj
-<< /Dest [ 15 0 R
+68 0 obj
+<< /Dest [ 35 0 R
+ /XYZ
+ 62.69291
+ 216.0236
+ 0 ]
+ /Next 69 0 R
+ /Parent 65 0 R
+ /Prev 67 0 R
+ /Title (Background / related) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+69 0 obj
+<< /Count 4
+ /Dest [ 36 0 R
+ /XYZ
+ 62.69291
+ 495.0236
+ 0 ]
+ /First 70 0 R
+ /Last 73 0 R
+ /Next 74 0 R
+ /Parent 65 0 R
+ /Prev 68 0 R
+ /Title (Game development using the Entity-Component model) >>
+endobj
+% 'Outline.16.0': class OutlineEntryObject 
+70 0 obj
+<< /Dest [ 36 0 R
+ /XYZ
+ 62.69291
+ 408.0236
+ 0 ]
+ /Next 71 0 R
+ /Parent 69 0 R
+ /Title (The abstract model) >>
+endobj
+% 'Outline.16.1': class OutlineEntryObject 
+71 0 obj
+<< /Dest [ 37 0 R
+ /XYZ
+ 62.69291
+ 603.0236
+ 0 ]
+ /Next 72 0 R
+ /Parent 69 0 R
+ /Prev 70 0 R
+ /Title (Example 1: Pong as the Hello World of multiplayer games) >>
+endobj
+% 'Outline.16.2': class OutlineEntryObject 
+72 0 obj
+<< /Dest [ 40 0 R
+ /XYZ
+ 62.69291
+ 561.0236
+ 0 ]
+ /Next 73 0 R
+ /Parent 69 0 R
+ /Prev 71 0 R
+ /Title (Example 2: Swarming plankton as food for fish in the sea) >>
+endobj
+% 'Outline.16.3': class OutlineEntryObject 
+73 0 obj
+<< /Dest [ 41 0 R
+ /XYZ
+ 62.69291
+ 651.0236
+ 0 ]
+ /Parent 69 0 R
+ /Prev 72 0 R
+ /Title (The implementation in Tundra SDK) >>
+endobj
+% 'Outline.4': class OutlineEntryObject 
+74 0 obj
+<< /Count 3
+ /Dest [ 42 0 R
+ /XYZ
+ 62.69291
+ 465.0236
+ 0 ]
+ /First 75 0 R
+ /Last 77 0 R
+ /Next 78 0 R
+ /Parent 65 0 R
+ /Prev 69 0 R
+ /Title (The underlying networking for the entity system in Tundra SDK) >>
+endobj
+% 'Outline.17.0': class OutlineEntryObject 
+75 0 obj
+<< /Dest [ 49 0 R
  /XYZ
  62.69291
  765.0236
  0 ]
- /Next 22 0 R
- /Parent 18 0 R
- /Prev 20 0 R
- /Title (background / related) >>
+ /Next 76 0 R
+ /Parent 74 0 R
+ /Title (Network bandwidth measurements) >>
 endobj
-% 'Outline.3': class OutlineEntryObject 
-22 0 obj
-<< /Dest [ 15 0 R
+% 'Outline.17.1': class OutlineEntryObject 
+76 0 obj
+<< /Dest [ 49 0 R
  /XYZ
  62.69291
- 660.0236
+ 465.8236
  0 ]
- /Next 23 0 R
- /Parent 18 0 R
- /Prev 21 0 R
- /Title (The Tundra SDK) >>
+ /Next 77 0 R
+ /Parent 74 0 R
+ /Prev 75 0 R
+ /Title (Overall performance and scalability) >>
 endobj
-% 'Outline.4': class OutlineEntryObject 
-23 0 obj
-<< /Dest [ 15 0 R
+% 'Outline.17.2': class OutlineEntryObject 
+77 0 obj
+<< /Dest [ 49 0 R
  /XYZ
  62.69291
- 447.0236
+ 322.6236
  0 ]
- /Parent 18 0 R
- /Prev 22 0 R
+ /Parent 74 0 R
+ /Prev 76 0 R
+ /Title (interest management) >>
+endobj
+% 'Outline.5': class OutlineEntryObject 
+78 0 obj
+<< /Count 1
+ /Dest [ 49 0 R
+ /XYZ
+ 62.69291
+ 208.6236
+ 0 ]
+ /First 79 0 R
+ /Last 79 0 R
+ /Next 80 0 R
+ /Parent 65 0 R
+ /Prev 74 0 R
+ /Title (Evaluation and Discussion) >>
+endobj
+% 'Outline.18.0': class OutlineEntryObject 
+79 0 obj
+<< /Dest [ 50 0 R
+ /XYZ
+ 62.69291
+ 765.0236
+ 0 ]
+ /Parent 78 0 R
+ /Title (Alternative implementations: the entities to web browsers and XMPP as well?) >>
+endobj
+% 'Outline.6': class OutlineEntryObject 
+80 0 obj
+<< /Dest [ 50 0 R
+ /XYZ
+ 62.69291
+ 213.0236
+ 0 ]
+ /Parent 65 0 R
+ /Prev 78 0 R
  /Title (Notes / References) >>
 endobj
-% 'R24': class PDFPages 
-24 0 obj
+% 'R81': class PDFPages 
+81 0 obj
 % page tree
-<< /Count 2
- /Kids [ 14 0 R
- 15 0 R ]
+<< /Count 11
+ /Kids [ 34 0 R
+ 35 0 R
+ 36 0 R
+ 37 0 R
+ 40 0 R
+ 41 0 R
+ 42 0 R
+ 49 0 R
+ 50 0 R
+ 59 0 R
+ 62 0 R ]
  /Type /Pages >>
 endobj
-% 'R25': class PDFStream 
-25 0 obj
+% 'R82': class PDFStream 
+82 0 obj
 % page stream
-<< /Length 6212 >>
+<< /Length 6954 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 753.0236 cm
+1 0 0 1 62.69291 717.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (AAA) Tj T* ET
+BT 1 0 0 1 0 28 Tm /F2 20 Tf 24 TL 52.12488 0 Td (An Entity System for Networked Game) Tj T* 120.03 0 Td (Development) Tj T* -172.1549 0 Td ET
 Q
 Q
 q
-1 0 0 1 62.69291 735.0236 cm
+1 0 0 1 62.69291 687.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (toni ...) Tj T* ET
+BT 1 0 0 1 0 3 Tm /F2 15 Tf 18 TL 9.479882 0 Td (or: Networked Games Development with realXtend Tundra SDK) Tj T* -9.479882 0 Td ET
 Q
 Q
 q
-1 0 0 1 62.69291 702.0236 cm
+1 0 0 1 62.69291 665.0236 cm
+q
+.545098 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 113.2099 0 Td (This document was generated on 2012-08-12 at 20:10.) Tj T* -113.2099 0 Td ET
+Q
+Q
+q
+1 0 0 1 62.69291 647.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (toni) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 629.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (jukka?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 611.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (jonne?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 593.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (rauli?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 575.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (erno? ...) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 542.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Contents) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 606.0236 cm
+1 0 0 1 62.69291 266.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
-1 0 0 1 0 75 cm
+1 0 0 1 0 255 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Abstract) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 255 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 237 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 237 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 219 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Background / related) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 219 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 201 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Game development using the Entity-Component model) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 201 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 183 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (The abstract model) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 183 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 165 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Example 1: Pong as the Hello World of multiplayer games) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 165 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 147 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Example 2: Swarming plankton as food for fish in the sea) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 147 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 129 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (The implementation in Tundra SDK) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 129 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 111 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (The underlying networking for the entity system in Tundra SDK) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 111 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (7) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 93 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Network bandwidth measurements) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 93 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 75 cm
+q
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Overall performance and scalability) Tj T* ET
 Q
 Q
 q
@@ -385,13 +1531,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 57 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Introduction) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (interest management) Tj T* ET
 Q
 Q
 q
@@ -399,13 +1545,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 39 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (background / related) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Evaluation and Discussion) Tj T* ET
 Q
 Q
 q
@@ -413,13 +1559,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 21 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (The Tundra SDK) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Alternative implementations: the entities to web browsers and XMPP as well?) Tj T* ET
 Q
 Q
 q
@@ -427,7 +1573,7 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
 Q
 Q
 q
@@ -441,128 +1587,158 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (9) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 Q
 Q
 q
-1 0 0 1 62.69291 573.0236 cm
+1 0 0 1 62.69291 233.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Abstract) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 507.0236 cm
+1 0 0 1 62.69291 155.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .253314 Tw (We present an inherently networked entity system for creating multiuser applications, including networked) Tj T* 0 Tw 2.150814 Tw (games. The entities aggregate components with attributes which are automatically synchronized in a) Tj T* 0 Tw .016235 Tw (client-server setup. So called entity-actions can be called both locally and remotely, they are a simple form) Tj T* 0 Tw 1.892485 Tw (of RPC. This system is implemented in the open source realXtend Tundra SDK which is a complete) Tj T* 0 Tw (platform for multiuser 3d applications.) Tj T* ET
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .253314 Tw (We present an inherently networked entity system for creating multiuser applications, including networked) Tj T* 0 Tw 2.150814 Tw (games. The entities aggregate components with attributes which are automatically synchronized in a) Tj T* 0 Tw .016235 Tw (client-server setup. So called entity-actions can be called both locally and remotely, they are a simple form) Tj T* 0 Tw 1.892485 Tw (of RPC. This system is implemented in the open source realXtend Tundra SDK which is a complete) Tj T* 0 Tw .18936 Tw (platform for multiuser 3d applications. The API of Tundra is evaluated critically to analyze the entity model) Tj T* 0 Tw (and to identify areas for improvement in future work.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 465.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .15561 Tw (The goal is to make creating efficient multiplayer games easy, with for example just JavaScript logic code,) Tj T* 0 Tw 3.183059 Tw (without the need to invent own network messages for simple functionality. Custom messages are) Tj T* 0 Tw (supported for efficiency in more complex cases.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 399.0236 cm
+1 0 0 1 62.69291 113.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .387318 Tw (Besides the generic attribute sync, the Tundra SDK includes custom messages and logic for moving rigid) Tj T* 0 Tw 1.831984 Tw (bodies, utilizing the physics module also on the client side and by implementing \(XXX basic sensible) Tj T* 0 Tw 2.019318 Tw (things / nice clever tricks / best practices from the literature / something\). Measurements from these) Tj T* 0 Tw .721984 Tw (optimizations are presented -- with the optimizations the maximum number of moving objects in a scene) Tj T* 0 Tw (went up by N.) Tj T* ET
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .259985 Tw (The goal is to make creating efficient multiplayer games easy, with for example just Javascript logic code,) Tj T* 0 Tw 3.183059 Tw (without the need to invent own network messages for simple functionality. Custom messages are) Tj T* 0 Tw (supported for efficiency in more complex cases.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 366.0236 cm
-q
-BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Introduction) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 324.0236 cm
+1 0 0 1 62.69291 83.02362 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .722651 Tw (Writing a networked multiplayer game is easily\(urghXXX?\) more complex than a local game, part for the) Tj T* 0 Tw .119985 Tw (logic handling for multiplayer in general but typically largely for the networking part. And it involves dealing) Tj T* 0 Tw (with the connections etc.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 270.0236 cm
-q
-BT 1 0 0 1 0 38 Tm .91686 Tw 12 TL /F1 10 Tf 0 0 0 rg (The realXtend Tundra SDK provides a decent API and a solid platform for networked 3d applications. It) Tj T* 0 Tw .32686 Tw (originates from the realXtend virtual worlds project, but has always been developed to be used for games) Tj T* 0 Tw .731751 Tw (as well. ) Tj 1 0 0 rg (**) Tj 0 0 0 rg (and has been largely developed by a local game company, Ludocraft Ltd., also after the initial) Tj T* 0 Tw (project -- their recent Circus demo is also the best simple Tundra game demo now.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 168.0236 cm
-q
-BT 1 0 0 1 0 86 Tm 1.47152 Tw 12 TL /F1 10 Tf 0 0 0 rg (Tundra applications are written against the Tundra Core API and utilizing the Entity-Component scene) Tj T* 0 Tw 1.941318 Tw (model. The platform takes cares of the networking basics, so that an application developer does not) Tj T* 0 Tw .770697 Tw (necessarily need to even know about connections, not to mention dealing with implementing own server) Tj T* 0 Tw .598876 Tw (and client applications somehow. When the application is run on a server, all clients due to the nature of) Tj T* 0 Tw 1.405697 Tw (the shared environment participate in the same session and see everything identically \(and when they) Tj T* 0 Tw .308084 Tw (don't its' a bug and we must file an issue :p\) <) Tj (-- scrap that stupidity, it's just like scripting in any scriptable) Tj T* 0 Tw .206488 Tw (MMO .. or modding a FPS, using engine like Unreal or Quake. so can just put briefly and ref to something) Tj T* 0 Tw (perhaps too, for clarity hopefully\).) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 114.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.050697 Tw (This paper presents the Tundra application plaftorm, and analyzes / reviews \(/smtXXX\) it for networked) Tj T* 0 Tw .508409 Tw (game development. A main research focus here is on the API and scene mode in the design level for an) Tj T* 0 Tw 1.75061 Tw (application developer point of view, but also the quality of the current Tundra open source runtime is) Tj T* 0 Tw (examined. \(XXX? robustness and efficiency of the\).) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 96.02362 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (...) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .387318 Tw (Besides the generic attribute sync, the Tundra SDK includes custom messages and logic for moving rigid) Tj T* 0 Tw 1.831984 Tw (bodies, utilizing the physics module also on the client side and by implementing \(XXX basic sensible) Tj T* 0 Tw ET
 Q
 Q
  
 endstream
 endobj
-% 'R26': class PDFStream 
-26 0 obj
+% 'R83': class PDFStream 
+83 0 obj
 % page stream
-<< /Length 5859 >>
+<< /Length 6229 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 744.0236 cm
-q
-BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (background / related) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 732.0236 cm
-Q
-q
-1 0 0 1 62.69291 732.0236 cm
-Q
-q
-1 0 0 1 62.69291 720.0236 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 -3 cm
+1 0 0 1 62.69291 729.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.019318 Tw (things / nice clever tricks / best practices from the literature / something\). Measurements from these) Tj T* 0 Tw .721984 Tw (optimizations are presented -- with the optimizations the maximum number of moving objects in a scene) Tj T* 0 Tw (went up by N.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 23 -3 cm
+1 0 0 1 62.69291 696.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 618.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (use of other multiplayer engines: FPS, but also the unity plugins and bigworld etc.) Tj T* ET
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.73152 Tw (Developing a networked multiplayer game is typically \(unavoidably\) more complex than a local game.) Tj T* 0 Tw .27683 Tw (Multiplayer logic is a part of it, compared to single player games, but a large part of the complexity comes) Tj T* 0 Tw .993314 Tw (with the networking: Synchronizing state, triggering events remotely, arbitrating possible conflicts due to) Tj T* 0 Tw .018443 Tw (simultaneous actions from different clients, dealing with problems such as dropped messages and aborted) Tj T* 0 Tw 2.75936 Tw (connections etc. All that work is away from what a game developer ideally would be focusing on:) Tj T* 0 Tw (developing the gameplay itself.) Tj T* ET
 Q
 Q
 q
+1 0 0 1 62.69291 540.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.162485 Tw (The question here is whether and how a platform or a library can make networked game programming) Tj T* 0 Tw 1.751235 Tw (easier. In computer science in general, any problem can be addressed by introducing a new layer of) Tj T* 0 Tw 1.385984 Tw (abstraction, but there are caveats. Many layers of abstraction with different concepts may just add the) Tj T* 0 Tw .17784 Tw (cognitive load for the developer, especially if underlying issues such as network connectivity problems still) Tj T* 0 Tw 2.201654 Tw (propagate through to the top and need to be dealt with. What would be the best core concepts for) Tj T* 0 Tw (productive development of robust networked games?) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 720.0236 cm
+1 0 0 1 62.69291 438.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL 1.729982 Tw (The model presented here is an entity-component model, similar to several contemporary games and) Tj T* 0 Tw .902651 Tw (engines. It uses aggregation, instead of inheritance, to compose all game entities as sets of component) Tj T* 0 Tw .348651 Tw (instances. All the scene data is in the attributes of the components, which are automatically synchronized) Tj T* 0 Tw 4.791647 Tw (over the network among all the participants using a client-server setup. Additionally, so-called) Tj T* 0 Tw 1.867209 Tw (entity-actions can be called on the entities -- either locally or over the network, it is a simple remote) Tj T* 0 Tw .73284 Tw (procedure call \(RPC\) mechanism. In this paper, we evaluate the model by analyzing game development) Tj T* 0 Tw .862927 Tw (done using it, and compare the approach with the alternative of just using a networking library to create) Tj T* 0 Tw (connections and do messaging in own game code.) Tj T* ET
+Q
 Q
 q
-1 0 0 1 62.69291 714.0236 cm
+1 0 0 1 62.69291 348.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL .152485 Tw (The evaluation is made using the open source Tundra SDK from the realXtend initiative. Tundra has been) Tj T* 0 Tw 1.158221 Tw (built from the start using this entity-component model, also for the basic core functionality, and it is the) Tj T* 0 Tw .456412 Tw (extensibility mechanism that Tundra provides for additional functionality as well. We give a brief overview) Tj T* 0 Tw 1.843516 Tw (of Tundra as a platform overall, but the focus is on the networking and the abstractions provided for) Tj T* 0 Tw .888555 Tw (application developers. In addition to reviewing the ease of development, we also analyze the efficiency) Tj T* 0 Tw .829982 Tw (and robustness of how the abstract entity-component model with the automatic synchronization maps to) Tj T* 0 Tw (concrete network load.) Tj T* ET
+Q
 Q
 q
-1 0 0 1 62.69291 672.0236 cm
+1 0 0 1 62.69291 306.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.199269 Tw (\(NOTE: something more is needed about how APIs and platforms can be evaluated, can qualitative) Tj T* 0 Tw 6.514597 Tw (research about programming environments be done and how? both here to intro and to) Tj T* 0 Tw (background/related work! XXX\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 228.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .43311 Tw (The article is organized as follows: next we review background and related work from the literature. Then) Tj T* 0 Tw .274651 Tw (the design of the entity-component model is described, and illustrated with two application examples: 1. A) Tj T* 0 Tw .830651 Tw (complete treatment of the source code of a minimal networked multiplayer Pong and 2. Selected details) Tj T* 0 Tw .485814 Tw (from a complex watershed environment which hosts two interconnected multiplayer minigames. Then the) Tj T* 0 Tw .292485 Tw (underlying networking layer is analyzed to see how the higher level game codes translate to actual traffic,) Tj T* 0 Tw (how much bandwidth is used \(etc? XXX\). \(Finally ..?\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 195.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Background / related) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 165.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.589461 Tw (The entity model presented here is by far not unique, quite the opposite, as the idea is to apply best) Tj T* 0 Tw (practices from the literature.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 99.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .13284 Tw (We adopted the aggregation based technique after studying [ecref \(gta4?\)], and for example Unity3d uses) Tj T* 0 Tw 2.201318 Tw (components the same way, also as an extension point for plugins [unity ref?]. Typically these entity) Tj T* 0 Tw .238651 Tw (systems are not, however, inherently networked \(?\). One game platform that we studied when making the) Tj T* 0 Tw 3.309069 Tw (attribute synchronization was Syntensity, which adds a Javascript scripting system with networked) Tj T* 0 Tw (attributes to the Cube FPS engine based Sauerbraten collaborative networked system.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R84': class PDFStream 
+84 0 obj
+% page stream
+<< /Length 6866 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 717.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .573318 Tw (Also simplifying networked game development by providing a platform which takes care of all the basics,) Tj T* 0 Tw .534269 Tw (such as client-server connectivity and synchronizing movements and other state, is nothing new. All FPS) Tj T* 0 Tw 1.461984 Tw (mods, scriptable MMOs and engines such as Unreal \(and Half-Life and which are the relevant ones?\)) Tj T* 0 Tw (feature that.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 627.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL 1.97104 Tw (As the target here is to analyze the quality of the model by the API it provides for networked game) Tj T* 0 Tw .905318 Tw (developers, we could in principle use some of the aforementioned proprietary platforms for the study as) Tj T* 0 Tw .574983 Tw (well. However the Tundra SDK is, by being liberally licensed open source \(apache\), completely available) Tj T* 0 Tw .165318 Tw (for anyone for most detailed analysis and freely modifyable to test possible improvements. Our results are) Tj T* 0 Tw 1.287126 Tw (easily repeatable as anyone can download and run the same codes. \(Homura-HUGS paper argues for) Tj T* 0 Tw 4.337674 Tw (and does that too, NHUGS: Towards scalability testing for MMOGs within an extensible, open) Tj T* 0 Tw (architecture\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .256647 Tw (Yet a comparative analysis with multiple platforms, including proprietary commercial ones, would certainly) Tj T* 0 Tw .977882 Tw (be fruitful \(XXX -- perhaps we can do that to a limited extent here, by talking with folks with experience) Tj T* 0 Tw .277356 Tw (with Unity, Unreal etc. dev, and OTOH by reviewing things like Syntensity in more detail .. return to this in) Tj T* 0 Tw (discussion/evaluation?\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 567.0236 cm
+Q
+q
+1 0 0 1 62.69291 525.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -600,46 +1776,674 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 672.0236 cm
+1 0 0 1 62.69291 525.0236 cm
 Q
 q
-1 0 0 1 62.69291 639.0236 cm
+1 0 0 1 62.69291 507.0236 cm
 q
-BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (The Tundra SDK) Tj T* ET
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (...) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 627.0236 cm
+1 0 0 1 62.69291 474.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Game development using the Entity-Component model) Tj T* ET
+Q
 Q
 q
-1 0 0 1 62.69291 627.0236 cm
+1 0 0 1 62.69291 420.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .882485 Tw (The entity-component model is an abstract design, not tied to any specific platform. It is presented here) Tj T* 0 Tw .501235 Tw (first on the conceptual level, and illustrated with examples. Finally the implementation of the model in the) Tj T* 0 Tw .321098 Tw (Tundra SDK is described, both to analyze how the design works out in a concrete platform and to identify) Tj T* 0 Tw (possible improvements for the conceptual models and the implementation there.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 390.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (The abstract model) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 336.0236 cm
+q
+BT 1 0 0 1 0 38 Tm 1.06332 Tw 12 TL /F1 10 Tf 0 0 0 rg (The core of the entity-component model is very simple: An entity is just an identity, without any type or) Tj T* 0 Tw 1.333735 Tw (data \(apart from the id\). It is used to aggregate components, which have attributes for synchronized &) Tj T* 0 Tw .394985 Tw (persistent data, and code to implement the functionality of the component. An application is a collection if) Tj T* 0 Tw (entities.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 282.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .617674 Tw (This aggregation based approach steps away from the inheritance oriented class hierarchies which were) Tj T* 0 Tw .080574 Tw (typical in games earlier, to avoid problems with deep class hierarchies and difficulties of sharing a piece of) Tj T* 0 Tw 4.10784 Tw (functionality across otherwise remote types in a hierarchy [ecref]. It provides a uniform way of) Tj T* 0 Tw (programming a piece of functionality for all types of entities.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 216.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL 1.124985 Tw (For example, all positioned entities in a 3d scene can have a Placeable component which contains the) Tj T* 0 Tw .237984 Tw (scene node transform \(position, orientation and scale\). Then any code that deals with positions just works) Tj T* 0 Tw .385542 Tw (for all kinds of entities -- lamps, cameras, players or whatever -- as the placeable component is the same) Tj T* 0 Tw .098409 Tw (in all of them, and the entities are not typed. The other functionalities of an entity are implemented in other) Tj T* 0 Tw (components, for example a light of camera component, but that is independent of the placeable aspect.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 126.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL .639985 Tw (Furthermore, all the component data is handled in a unified way with the generic attribute mechanism. A) Tj T* 0 Tw 1.048555 Tw (component specifies the attributes it contains. The generic systems then take care of synchronizing the) Tj T* 0 Tw .047045 Tw (data across the network, and of persisting it \(saving to file or database\). No special network messages are) Tj T* 0 Tw 2.319983 Tw (required to implement features, such as having coloured lights or sound sources with varying audio) Tj T* 0 Tw .638735 Tw (volume levels -- the light and sound components just define their data as attributes. Changes in attribute) Tj T* 0 Tw 1.130751 Tw (data are communicated with generic attribute synchronization messages which are specific for the data) Tj T* 0 Tw (type \(float, string, ..\) but independent of the containing component.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 84.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.009269 Tw (Additionally, so-called entity-actions can be registered as callback functions in the entities. They can be) Tj T* 0 Tw .017485 Tw (called both locally and remotely and are a simple form of remote procedure calls \(RPC\). The entity-actions) Tj T* 0 Tw .22311 Tw (are called indirectly: the callback handlers are implemented in components, but the calls are on the entity.) Tj T* 0 Tw ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R85': class PDFStream 
+85 0 obj
+% page stream
+<< /Length 7057 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 693.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .537209 Tw (That is to be able to provide a uniform interface to different but related functionality: For example, a Hide) Tj T* 0 Tw 1.538488 Tw (action can be registered so that a UI button or some game logic code can hide a set of entities. The) Tj T* 0 Tw 2.057882 Tw (details of how to hide a certain kind of an entity depends on the components it uses to display: for) Tj T* 0 Tw .306303 Tw (example whether it is a mesh, a particle system, a piece of text or some UI element. By implementing the) Tj T* 0 Tw .228876 Tw (Hide action in all the different components but routing the call via the entities the same interface works for) Tj T* 0 Tw (all implementations.) Tj T* ET
+Q
 Q
 q
 1 0 0 1 62.69291 615.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .412126 Tw (By default, the entities and components are replicated and persistent, i.e. synchronized over network and) Tj T* 0 Tw 2.389987 Tw (saved to files. They can also be configured to be local only, either on server or client side, and/or) Tj T* 0 Tw 1.240651 Tw (temporary. Temporary entities are typically created by application logic code by a script in some other,) Tj T* 0 Tw .534983 Tw (persistent entity. For example the reference avatar implementation for virtual worlds like usage in Tundra) Tj T* 0 Tw 1.189986 Tw (SDK has logic code to create visible avatars upon new user logins, and the avatars are replicated, but) Tj T* 0 Tw (they are temporary and hence not stored when the world state is saved while users are logged in.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 585.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Example 1: Pong as the Hello World of multiplayer games) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 531.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.329431 Tw (Pong is a minimal multiplayer game, so let's use it as a simple example of making a networked game) Tj T* 0 Tw .36061 Tw (using the entity-component model. We are using the realXtend Tundra SDK for the evaluation here and it) Tj T* 0 Tw .201984 Tw (is a 3d scenegraph engine with rigid body physics simulations so the game environment and mechanisms) Tj T* 0 Tw (are built with those.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 465.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL 1.504724 Tw (The Pong scene consists of -- similarily to the game of tennis -- the playing field, two paddles for the) Tj T* 0 Tw .509988 Tw (players and the ball. In this example the static scene is created with a 3d modeling program \(in this case) Tj T* 0 Tw 1.713516 Tw (Blender3d\). The scene is exported from Blender to Tundra SDK, at which point it is converted to the) Tj T* 0 Tw .385318 Tw (entity-component model: all the visible entities have a Placeable component for being in the scene, Mesh) Tj T* 0 Tw (for the visual geometry and Rigidbody for the physics simulation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 363.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL .432209 Tw (To make the game logic, an additional invisible entity is added, let's call it PongGame. We write the code) Tj T* 0 Tw .48104 Tw (in Javascript, for which the mechanism in Tundra is to add a Script component with a reference to the .js) Tj T* 0 Tw 1.261988 Tw (file as an attribute. We want to show a basic GUI in the clients to visualize the game state: whether a) Tj T* 0 Tw 1.165488 Tw (game is running or not, and what is the score. So let's add also a custom component with that data in) Tj T* 0 Tw 1.084597 Tw (attributes, PongGameState with Boolean:Running and integer attributes for player 1 and 2 scores. That) Tj T* 0 Tw .039988 Tw (way the data is automatically synchronized to clients as well so they can easily use it in the GUI code. The) Tj T* 0 Tw 1.182093 Tw (physics simulation bouncing the ball is ran on the server side by default, and that is where we want to) Tj T* 0 Tw (have all the logic code of checking when a player scores, starting and stopping games etc.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 321.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .769988 Tw (In addition to having the logic code and the game state data, we need to handle clients / players joining) Tj T* 0 Tw 1.680574 Tw (and leaving the game. Joining is triggered with a GUI button in a client, which sends an entity-action) Tj T* 0 Tw (called "JoinGame" to the PongGame application entity, to be handled on the server side.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 243.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.034198 Tw (The game does not need to know about clients logging into the server, as we can have any number of) Tj T* 0 Tw .039461 Tw (spectators there. As joining the game is made as a separate action, the game does not need to care when) Tj T* 0 Tw 2.238555 Tw (new bare client connections are established. But we need to handle disconnects when some player) Tj T* 0 Tw 1.05561 Tw (connection is dropped in the middle of a running game. Network connections in Tundra are outside the) Tj T* 0 Tw .303672 Tw (entity model, but hooks for dealing with them are provided in the builtin core API instead. In this case, the) Tj T* 0 Tw (server api object has an event called UserDisconnected to which we can connect our handler.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 117.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 110 Tm /F1 10 Tf 12 TL .767045 Tw (We begin the game, for simplicity, when two players have joined in. They are assigned controls for their) Tj T* 0 Tw .151235 Tw (own paddles, for example the mouse y coordinate can be mapped to the corresponding position along the) Tj T* 0 Tw 1.308876 Tw (side of the table. We can manipulate the paddle position directly in the client by the same code which) Tj T* 0 Tw .122488 Tw (reads the mouse position. This is optimal for the control feel to avoid any lag in the visual response for the) Tj T* 0 Tw .535868 Tw (hand movements, but can be problematic when the physics are executed on the server side and there is) Tj T* 0 Tw .474987 Tw (network latency. The player can see the ball passing through her paddle, if the server did not receive the) Tj T* 0 Tw 1.906651 Tw (paddle movement in time. Another possibility is to communicate the controls to the server, move the) Tj T* 0 Tw 1.352339 Tw (paddles there, and thereby get the visual feedback in the client only after the full roundtrip. This could) Tj T* 0 Tw 1.582339 Tw (allow the player to compensate for the latency, but also make the controlling more difficult due to the) Tj T* 0 Tw (delay. For a study of different strategies for dealing with latency in the game of pong, see [PongPaper].) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 87.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 4.104983 Tw (The positions of all objects, the transform attributes of the placeable components in them, are) Tj T* 0 Tw 1.770751 Tw (synchronized automatically so all the participants get the paddle and ball positions automatically. The) Tj T* 0 Tw ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R86': class PDFStream 
+86 0 obj
+% page stream
+<< /Length 7503 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 753.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (bouncing of the ball is handled automatically by the physics engine. The game code only needs to:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 747.0236 cm
+Q
+q
+1 0 0 1 62.69291 747.0236 cm
+Q
+q
+1 0 0 1 62.69291 735.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
 1 0 0 1 6 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (1.) Tj T* -5.66 0 Td ET
 Q
 Q
 q
 1 0 0 1 23 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (API) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Start the game, when two players join, by giving the ball some initial velocity) Tj T* ET
 Q
 Q
 q
 Q
 Q
 q
-1 0 0 1 62.69291 609.0236 cm
+1 0 0 1 62.69291 729.0236 cm
+Q
+q
+1 0 0 1 62.69291 717.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (2.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Handle player controls of the paddles during the game) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.66 0 Td (3.) Tj T* -5.66 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Check for the winning condition \(ball passes either side\) and keep score) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 699.0236 cm
+Q
+q
+1 0 0 1 62.69291 669.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .741567 Tw (4. Handle the user actions to join and thereby start the game, and the different cases when the game is) Tj T* 0 Tw (stopped \(win, user decides to stop, or connection drops\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+q
+BT 1 0 0 1 0 50 Tm 1.463318 Tw 12 TL /F1 10 Tf 0 0 0 rg (Arguably this way to implement a networked multiplayer game of pong is very simple, and succesfully) Tj T* 0 Tw .733516 Tw (hides all the details of networking from the game developer. It is implemented in two modules, the client) Tj T* 0 Tw .691654 Tw (and the server side codes, with X hundred lines total. \(e.g. the example there does a bit more manually,) Tj T* 0 Tw 2.805529 Tw (even though is largely similar: ) Tj 0 0 .501961 rg (http://www.unionplatform.com/?page_id=1229) Tj (&) Tj (page=2 ) Tj 0 0 0 rg (-- and is much) Tj T* 0 Tw (larger, N) Tj (>) Tj (10 classes\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+q
+BT 1 0 0 1 0 14 Tm 1.47186 Tw 12 TL /F1 10 Tf 0 0 0 rg (The complete source code and the required 3d assets to run this pong implementation on the Tundra) Tj T* 0 Tw (runtime is available from ) Tj 0 0 .501961 rg (https://github.com/realXtend/doc/tree/master/netgames/PongMultiplayer) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 543.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Example 2: Swarming plankton as food for fish in the sea) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 453.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL 1.125542 Tw (A simple way to make a trivial pong implementation may be nice, but does the approach work for real,) Tj T* 0 Tw 5.36229 Tw (more complex games? We and others have implemented a range of applications using the) Tj T* 0 Tw .385984 Tw (entity-component model on the Tundra SDK, and this section is to analyze issues encountered with more) Tj T* 0 Tw 1.78561 Tw (complex functionality. The particular case is from an open source application made at the end of the) Tj T* 0 Tw 1.33436 Tw (original realXtend project, as a public demo of the Tundra SDK. That is the Smithsonian Latino Virtual) Tj T* 0 Tw .437126 Tw (Museum's Virtual Watershed Initiative, and in particular the experimental Anchovy game made to the sea) Tj T* 0 Tw (bay there.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 375.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .534651 Tw (The whole watershed environment hosts a range of animals of different scale, from white-tailed deer and) Tj T* 0 Tw .093488 Tw (opossum to osprey, sea bass and the anchovy. The idea is that by taking the role of an animal they player) Tj T* 0 Tw 2.133735 Tw (\(a child visiting the museum for example\) can learn about biology. In the anchovy game, the player) Tj T* 0 Tw .459989 Tw (controls the little fish from a 3rd person angle, trying to find food such as plankton in the sea. The idea is) Tj T* 0 Tw .332619 Tw (to have quite a lot of little plankton clouds there, but so that when multiple players consume it the amount) Tj T* 0 Tw (decreases.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 237.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 122 Tm /F1 10 Tf 12 TL .24683 Tw (To be able to render a lot of little plankton, we use particle systems. The individual particles in the particle) Tj T* 0 Tw 1.401654 Tw (systems move slightly at random, to give a feel of them floating around in the water. To have enough) Tj T* 0 Tw .685777 Tw (particles to fill parts of the sea bay, we easily need tens of particle systems with hundreds of particles in) Tj T* 0 Tw 2.883059 Tw (each. Synchronizing all those little movements would take an immense amount of bandwidth, also) Tj T* 0 Tw .343988 Tw (considering that many other things are going on in the scene as well. To cut down the traffic, not only are) Tj T* 0 Tw .328735 Tw (the individual particles local only, but also the movement of a single particle system is not communicated.) Tj T* 0 Tw 1.266235 Tw (Instead, we form clusters of 5 particle systems which move around as a loose group, and synchronize) Tj T* 0 Tw 1.583516 Tw (only the positions of such clusters. This way we can have lots of plankton in approximately the same) Tj T* 0 Tw .136098 Tw (positions for the different players. Also the amount of plankton left in a cluster is synchronized. The idea is) Tj T* 0 Tw .999431 Tw (that the different players see the plankton clouds in same areas of the sea bay, and see them diminish) Tj T* 0 Tw (when eaten, but with relatively little network traffic.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 195.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 3.155697 Tw (That system is implemented by having the game code \(Javascript\) create the particle systems in) Tj T* 0 Tw 2.351984 Tw (local-only entities, which are not synchronized over the network at all. Only the clusters are normal) Tj T* 0 Tw (replicated Tundra entities, for which the movement synchronization works.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 117.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.239984 Tw (The fish themselves are normal replicated entities for which the server is authorative. That required an) Tj T* 0 Tw .04811 Tw (additional trick to be able to implement the collision detection for plankton eating using the physics engine:) Tj T* 0 Tw .607318 Tw (By default, physics are executed on the server and authorative there. However, as the plankton particles) Tj T* 0 Tw .121488 Tw (do not even exist there but are on the clients only, we added a local invisible mouth entity to the otherwise) Tj T* 0 Tw 1.822485 Tw (networked fish. This way client side physics works for detecting collisions of the fish mouths and the) Tj T* 0 Tw (plankton.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 87.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .498651 Tw (Creating this setup obviously required designing and implementing the code with networking in mind -- in) Tj T* 0 Tw .813735 Tw (this case, the system definitely does not hide all the intricacies of networked games from the developer.) Tj T* 0 Tw ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R87': class PDFStream 
+87 0 obj
+% page stream
+<< /Length 6787 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 681.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL 1.765697 Tw (The same uniform programming model is applied, certain entities are just configured to the local-only) Tj T* 0 Tw 2.702093 Tw (mode. Also the fact that in the Tundra SDK we have the same API both in the server and client) Tj T* 0 Tw 3.867126 Tw (executables \(the core is the same\) enabled an incremental development path here: first all the) Tj T* 0 Tw 2.82528 Tw (functionality was server side, but as the amount of networking grew to be too much, it was quite) Tj T* 0 Tw 1.853735 Tw (straightforward to change the same code to be executed on the client side only instead. As possible) Tj T* 0 Tw 1.130814 Tw (improvements for the future, both automated interest management to optimize network messaging, and) Tj T* 0 Tw (easy robust ways to configure replicated vs. local execution are interesting.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 663.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(analysis of the Ludocraft's Circus code?\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (The implementation in Tundra SDK) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.551235 Tw (The Tundra SDK is a complete platform for networked 3d applications. It is built entirely using the) Tj T* 0 Tw 2.277984 Tw (inherently networked entity model described in this article. Here we give a brief overview of Tundra) Tj T* 0 Tw (overall, and describe how the entity system works for application developers there.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 501.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL .209986 Tw (Tundra core is written in C++ using several open source libraries: Ogre3d for the 3d scene and rendering,) Tj T* 0 Tw 1.527126 Tw (Qt for cross-platform support, GUI, event system and scripting support, Bullet for physics, OpenAL for) Tj T* 0 Tw .69332 Tw (audio, kNet for networking etc. It is a modular system where almost all the basic features are in optional) Tj T* 0 Tw 2.758651 Tw (plugins, and developers can write their own either for some new generic functionality or their own) Tj T* 0 Tw .61284 Tw (proprietary game logic and functionality. It supports scripting with Javascript and has optional support for) Tj T* 0 Tw 1.876457 Tw (Python modules as well. The same codebase is used both for servers and clients, and can be used) Tj T* 0 Tw (standalone as well for single user applications.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 459.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.486412 Tw (The visible 3d scene and the custom application logics are typically made within the entity-component) Tj T* 0 Tw .639985 Tw (system, but other areas of functionality such as handling user input devices in GUI clients, manual asset) Tj T* 0 Tw (downloads or dealing with network connections in the server are exposed as a set of core APIs.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 357.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL .603735 Tw (To add a piece of functionality to a scene, a developer typically introduces a new entity-component type,) Tj T* 0 Tw .166098 Tw (in a plugin which also contains the code for handling that component. This is also how we have integrated) Tj T* 0 Tw .01784 Tw (several open source libraries: physical objects simulated by Bullet have a RigidBody component, the SkyX) Tj T* 0 Tw .25811 Tw (sky and clouds visualization Ogre plugin introduces a SkyX component with data such as the current time) Tj T* 0 Tw 1.569984 Tw (and the hour of sunrise as data attributes. Besides the automatic network replication of the attributes,) Tj T* 0 Tw .480514 Tw (Tundra core also can save and load the entity data to files \(binary or xml\), and provides a powerful basic) Tj T* 0 Tw 2.478555 Tw (GUI tool for working with components with an automatically generated interface \(XXX add figure of) Tj T* 0 Tw (entity-component editor, perhaps mention multi-editing\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 267.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL .610651 Tw (This all works quite beatifully on the C++ level, but typically custom application functionality is implement) Tj T* 0 Tw 1.240651 Tw (in Javascript where the extensibility with custom components is not so well exposed. Currently no new) Tj T* 0 Tw .595251 Tw (component types can be added in dynamic code, but they all have to be defined in C++ at compile time.) Tj T* 0 Tw 1.166651 Tw (There is a special component called DynamicComponent to deal with this issue, and it basically allows) Tj T* 0 Tw .732339 Tw (human GUI users or Javascript code to define new components at runtime, but the API for defining new) Tj T* 0 Tw .601098 Tw (component types that way is awkward and there is no way to register new types with this mechanism so) Tj T* 0 Tw (that they would work identically to the C++ written components in the GUI editor.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 105.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 146 Tm /F1 10 Tf 12 TL 1.154431 Tw (In fact, the original implementation of example 1. Pong game did not use the attribute system at all for) Tj T* 0 Tw 1.168555 Tw (game state, but instead was creating a Javascript dictionary called GameState and serializing that with) Tj T* 0 Tw 1.175227 Tw (JSON to send over the net with an entity-action. This came as a bit of a surprise for the author of this) Tj T* 0 Tw 3.11284 Tw (article when reading the code, written by another developer. When interviewed for this study, the) Tj T* 0 Tw .951235 Tw (developer revealed that it was due to the poor support for defining new components with the Javascript) Tj T* 0 Tw 2.234692 Tw (API in Tundra. If he had written the game using C++, he probably would have followed the pattern) Tj T* 0 Tw 1.222927 Tw (described in the example here and utilized the attribute system. In the version in the example here we) Tj T* 0 Tw 1.008555 Tw (work around the problem by declaring the PongGameState component in the application XML, in which) Tj T* 0 Tw .433322 Tw (case it exists already when the Javascript code is executed so it does not have to define it. But often it is) Tj T* 0 Tw .384651 Tw (better to have the component definitions in the program code, so definitely making good scripting support) Tj T* 0 Tw 1.193735 Tw (for that in Tundra is needed. Besides the definition of components \(the attributes and their types\), also) Tj T* 0 Tw .107209 Tw (hooking handlers directly to changes in certain attributes is lacking in the API -- this problem is visible also) Tj T* 0 Tw (in the version here. \(XXX We sketch and plan an API for that in the future work section of this article?\)) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R88': class PDFStream 
+88 0 obj
+% page stream
+<< /Length 6545 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 633.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 122 Tm /F1 10 Tf 12 TL .573318 Tw (There are various other stumbling blocks in game development with Tundra currently too, some of which) Tj T* 0 Tw .907318 Tw (are specific to networked environments. One is writing a script to some entity which further manipulates) Tj T* 0 Tw 3.346654 Tw (other entities in the scene. Especially if the script is to be executed on the client side, a naive) Tj T* 0 Tw 1.124985 Tw (implementation can fail to initialize when it is executed before the target entities had been replicated to) Tj T* 0 Tw 1.137674 Tw (that client \(e.g. the scene.GetEntityByName\("target"\) returns null unexpectedly and the rest of the code) Tj T* 0 Tw 1.288221 Tw (fails\). In such cases we currently need to monitor the onEntityCreated signal to see when the entity of) Tj T* 0 Tw 1.056235 Tw (interest enters the scene. It may be possible to help there situations with better initialization orders and) Tj T* 0 Tw 1.311984 Tw (conditions, for example executing scripts only after a scene is completely instanciated, but that can be) Tj T* 0 Tw .539398 Tw (difficult in large worlds which are always only partially replicated to clients. One solution might be a more) Tj T* 0 Tw .62248 Tw (declarative programming approach, where relationships between entities and references to them are just) Tj T* 0 Tw (declared and work, without manual procedural \(/imperative?\) code to get the references.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 615.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(.. other points and perhaps issues from tundra dev, what?\)) Tj T* ET
+Q
 Q
 q
 1 0 0 1 62.69291 597.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (---) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 579.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(old, somehow nice partly:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 477.0236 cm
+q
+BT 1 0 0 1 0 86 Tm 1.47152 Tw 12 TL /F1 10 Tf 0 0 0 rg (Tundra applications are written against the Tundra Core API and utilizing the Entity-Component scene) Tj T* 0 Tw 1.941318 Tw (model. The platform takes cares of the networking basics, so that an application developer does not) Tj T* 0 Tw .770697 Tw (necessarily need to even know about connections, not to mention dealing with implementing own server) Tj T* 0 Tw .598876 Tw (and client applications somehow. When the application is run on a server, all clients due to the nature of) Tj T* 0 Tw 1.405697 Tw (the shared environment participate in the same session and see everything identically \(and when they) Tj T* 0 Tw .308084 Tw (don't its' a bug and we must file an issue :p\) <) Tj (-- scrap that stupidity, it's just like scripting in any scriptable) Tj T* 0 Tw .206488 Tw (MMO .. or modding a FPS, using engine like Unreal or Quake. so can just put briefly and ref to something) Tj T* 0 Tw (perhaps too, for clarity hopefully\). \)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 423.0236 cm
+q
+BT 1 0 0 1 0 24.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (The underlying networking for the entity system in) Tj T* (Tundra SDK) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 357.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL 1.438735 Tw (The main focus in this article is to analyze the abstract entity-component model regarding the ease of) Tj T* 0 Tw .770697 Tw (development of networked multiplayer games. However the idea both with the theoretical model and the) Tj T* 0 Tw .240651 Tw (concrete implementations withing realXtend is to provide a system that really works in practice, is efficient) Tj T* 0 Tw .503516 Tw (and robust enough for commercial games and other applications. To this end, in this chapter the focus is) Tj T* 0 Tw (on the concrete networking layer.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 303.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 2.519269 Tw (The replicated entity system with the generic attribute synchronization is implemented with a set of) Tj T* 0 Tw 6.149966 Tw (messages in Tundra, namely: CreateEntity, CreateComponents, CreateAttributes, EditAttributes,) Tj T* 0 Tw 4.794941 Tw (RemoveAttributes, RemoveComponents, RemoveEntity, CreateEntityReply, CreateComponentsReply) Tj T* 0 Tw (and EntityAction \(source: SyncManager:HandleKristalliMessage switch\(messageId\)\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 249.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .626303 Tw (Upon a new client login to a server, typically the whole scene state is replicated to the client using these) Tj T* 0 Tw 1.039147 Tw (messages. So the overall efficiency of entity-component-attribute creation is of importance. Then during) Tj T* 0 Tw .46561 Tw (the lifetime of a connection entities are typically not created nor removed that aggressively, but there can) Tj T* 0 Tw (be constant streams of changes to attributes, so the efficiency of the EditAttributes message is crucial.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 207.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.258443 Tw (Besides the generic attribute sync, the Tundra SDK implements a custom message and corresponding) Tj T* 0 Tw 1.364147 Tw (logic for moving rigid bodies \(RigidBodyUpdate\). It utilizes motion interpolation and extrapolation \(dead) Tj T* 0 Tw (reckoning\), and the physics module for non-authorative collision detection on the client side.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 93.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL .039488 Tw (In fact in the first versions \(1.0 - 2.3\(?\)\) Tundra did not have a special message for moving objects, but the) Tj T* 0 Tw 2.016651 Tw (generic attribute synchronization was used for that as well \(the floating point values in the transform) Tj T* 0 Tw .951235 Tw (attribute of the placeable component\). The fact that we were able to have tens of simultanously moving) Tj T* 0 Tw 1.168555 Tw (objects with several client connections using that naive mechanism is some anecdotal evidence for the) Tj T* 0 Tw 1.63816 Tw (efficiency of the generic attribute synchronization. A generic optional attribute interpolation mechanism) Tj T* 0 Tw 1.055984 Tw (was made for smooth movements. However, object movement was clearly such a common case and a) Tj T* 0 Tw 5.234597 Tw (bottleneck in many applications that the custom solution for it was required. The movement) Tj T* 0 Tw .189982 Tw (synchronization is essentially about synchronizing the linear and angular velocity vectors, instead of trying) Tj T* 0 Tw (to stream the position all the time.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R89': class PDFStream 
+89 0 obj
+% page stream
+<< /Length 6636 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 747.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Network bandwidth measurements) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 693.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .091318 Tw (\(note for internal reviewers: this section expects contributions from Jukka Jyl\344nki / Ludocraft and the Chiru) Tj T* 0 Tw 1.47311 Tw (project, as they have already made several measurements, have the setups for that etc. now this just) Tj T* 0 Tw .075542 Tw (gathers basic data that has been published via the mailing list earlier. will be worked on immediately in the) Tj T* 0 Tw (coming weeks well before submission\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 635.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg (From:        Jukka Jyl\344nki ) Tj (<) Tj (jukka.jylanki@ludocraft.com) Tj (>) Tj  T* (Subject:     [realXtend-dev] RealXtend Tundra 2.3.0 is released!) Tj T* (Date:        February 28, 2012 9:51:34 PM GMT+02:00) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 621.8236 cm
+Q
+q
+1 0 0 1 62.69291 621.8236 cm
+Q
+q
+1 0 0 1 62.69291 597.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .17686 Tw (Implemented a new path for streaming rigid bodies over the network. This allows a far larger number) Tj T* 0 Tw (of concurrent clients on a server. \(#314, #322, #354\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 591.8236 cm
+Q
+q
+1 0 0 1 62.69291 567.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 39.18996 Tw 12 TL /F1 10 Tf 0 0 0 rg (Comparative profile of the Physics demo scene:) Tj T* 0 Tw 0 0 .501961 rg (http://dl.dropbox.com/u/40949268/Tundra/Tundra_RigidBody_PhysicsScene.png) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 561.8236 cm
+Q
+q
+1 0 0 1 62.69291 537.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 27.39425 Tw 12 TL /F1 10 Tf 0 0 0 rg (Old rigid body streaming code was about 70bytes/update:) Tj T* 0 Tw 0 0 .501961 rg (http://dl.dropbox.com/u/40949268/Tundra/OldRigidBodyStreaming_70b.png) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 531.8236 cm
+Q
+q
+1 0 0 1 62.69291 507.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm 49.13195 Tw 12 TL /F1 10 Tf 0 0 0 rg (New code averages at about 11bytes/update:) Tj T* 0 Tw 0 0 .501961 rg (http://dl.dropbox.com/u/40949268/Tundra/NewRigidBodyPackets_11b.png) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 501.8236 cm
+Q
+q
+1 0 0 1 62.69291 477.8236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+BT 1 0 0 1 0 14 Tm .802765 Tw 12 TL /F1 10 Tf 0 0 0 rg (User counts as large as 64 users are doable, but largely depends on what is running in the scene:) Tj T* 0 Tw 0 0 .501961 rg (http://dl.dropbox.com/u/40949268/Tundra/kNetServer64users.png) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 477.8236 cm
+Q
+q
+1 0 0 1 62.69291 447.8236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Overall performance and scalability) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 429.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (about scalability & performance in general:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 372.6236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 48 re B*
+Q
+q
+BT 1 0 0 1 0 26 Tm 12 TL /F3 10 Tf 0 0 0 rg (From:   Jukka Jyl\344nki ) Tj (<) Tj (jukka.jylanki@ludocraft.com) Tj (>) Tj  T* ([realXtend-dev] Scalability study for Tundra.) Tj T* (Date:   April 18, 2012 3:47:57 PM GMT+03:00) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 352.6236 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (https://groups.google.com/forum/?fromgroups#!topic/realxtend-dev/Lzzx_hZu38I%5B1-25%5D) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 346.6236 cm
+Q
+q
+1 0 0 1 62.69291 346.6236 cm
+Q
+q
+1 0 0 1 62.69291 334.6236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -653,7 +2457,256 @@ q
 1 0 0 1 23 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Module System) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (performance) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 334.6236 cm
+Q
+q
+1 0 0 1 62.69291 304.6236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (interest management) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 286.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(worked on at Chiru -- report preliminarily here. also what Ali is doing at Ludocraft\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 280.6236 cm
+Q
+q
+1 0 0 1 62.69291 220.6236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 54 cm
+Q
+q
+1 0 0 1 20 54 cm
+Q
+q
+1 0 0 1 20 42 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (not all entities everywhere always) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 36 cm
+Q
+q
+1 0 0 1 20 0 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 21 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .904985 Tw (sync rate adapted based on importance -- crossref with the example 2 where had to deal with) Tj T* 0 Tw .891318 Tw (bandwidth manually \(being able to do local entities for visual effects etc. is probably still good,) Tj T* 0 Tw (even if perfect magical IM was there\)) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 20 0 cm
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 220.6236 cm
+Q
+q
+1 0 0 1 62.69291 187.6236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Evaluation and Discussion) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 169.6236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(compare with sirikata / emerson and others in the related work. unity?\)) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R90': class PDFStream 
+90 0 obj
+% page stream
+<< /Length 6354 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+BT 1 0 0 1 0 21 Tm 18 TL /F2 15 Tf 0 0 0 rg (Alternative implementations: the entities to web browsers and) Tj T* (XMPP as well?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.016651 Tw (Besides the native C++ Tundra SDK, we have also implemented early versions of alternative clients on) Tj T* 0 Tw 1.302485 Tw (the web \(html5\) and Flash/AIR runtimes. For continuing this work it is imperative to know whether and) Tj T* 0 Tw .518651 Tw (how the entity model reaches the goal of making multiplayer game development productive. \(XXX: isn't it) Tj T* 0 Tw .039488 Tw (also vice versa -- it can actually be used in the evaluation here to judge the model? restructure to earlier in) Tj T* 0 Tw 1.174751 Tw (the article? XXX\) That is: do we find this entity system so good that we want to have the same as the) Tj T* 0 Tw (basis also for browser based games?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 477.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 158 Tm /F1 10 Tf 12 TL 4.026412 Tw (In the web browser technology based client, so called WebNaali, websockets are used for the) Tj T* 0 Tw .81284 Tw (communication. We implemented a server side plugin for that \(originally in Python\) and a corresponding) Tj T* 0 Tw 2.549985 Tw (client stack in Javascript, using a WebGL engine called GLGE for the 3d rendering. We begun by) Tj T* 0 Tw .631098 Tw (synchronizing the whole scene state at login to a Tundra server using the EC model \(at first with Tundra) Tj T* 0 Tw .103059 Tw (XML\). Then we implemented a single message for generic attribute synchronization, and enough handling) Tj T* 0 Tw 1.009269 Tw (code for Placeable updates to work \(note: this was originally made before the special RigidBodyUpdate) Tj T* 0 Tw .533828 Tw (system existed\). Also, we implemented the single message required for entity-actions. That was required) Tj T* 0 Tw 2.239984 Tw (for the avatar and chat functionality which was the customer requirement for the first WebNaali test) Tj T* 0 Tw .757984 Tw (service. The Tundra avatar and chat applications work by client sending commands to the server, which) Tj T* 0 Tw .537882 Tw (then in the case of the avatar moves the character \(resulting in placeable sync back to the client\), and in) Tj T* 0 Tw .629987 Tw (the case of chat the server also uses entity-actions to send the chat messages to clients. This was quite) Tj T* 0 Tw .210574 Tw (simple and quick to do, the whole WebNaali 0.1 code is only N lines. A video demonstrating simultaneous) Tj T* 0 Tw 1.33436 Tw (views to the same scene with a WebNaali and a native Tundra client, demonstrating those avatar and) Tj T* 0 Tw (chat functionalities \(without animation state sync in WebNaali\) is at:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 435.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .095697 Tw (. The entity-component model has been straightforward to implement, thanks to the genericity of attributes) Tj T* 0 Tw 2.693516 Tw (and actions, we have been able to make ground in WebNaali for a wide range of applications by) Tj T* 0 Tw (implementing only a few network messages.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 225.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 194 Tm /F1 10 Tf 12 TL 1.977984 Tw (On the Flash front, there is currently a different platform candidate under the realXtend open source) Tj T* 0 Tw .536235 Tw (umbrella. In so-called Lehto, instead of Tundra we are utilizing plain XMPP as the server and networking) Tj T* 0 Tw 3.392126 Tw (backend. In the networking level, Lehto clients are just normal XMPP clients, utilising the XMPP) Tj T* 0 Tw .428651 Tw (Multi-User Chat \(MUC\) extension for group sessions. This was practical in a customer project where only) Tj T* 0 Tw 1.556905 Tw (chat communication and rare presence updates sufficed, and no physics nor scripted application logic) Tj T* 0 Tw 1.124692 Tw (were required on the server side, so Tundra was not needed. We have not yet implemented any entity) Tj T* 0 Tw .394724 Tw (system in Lehto, currently it is very simple and can just load a static scene from a normal static geometry) Tj T* 0 Tw .422651 Tw (file, only features the hardcoded chat \(standard xmpp\) and simple avatar position updates using a simple) Tj T* 0 Tw .014987 Tw (message via a hidden non-human control MUC. XMPP is very verbose, so we limited avatar sync rate to 1) Tj T* 0 Tw .535984 Tw (second, which sufficed for the application \(a virtual gallery system for Berlin Gallery Weekend 2012, see:) Tj T* 0 Tw .406905 Tw (XXX\). However with the XMPP Stream Compression extension the bandwidth may reduce dramatically --) Tj T* 0 Tw 1.75186 Tw (possibly enough for realtime gaming? We have not tested the stream compression yet, as it was not) Tj T* 0 Tw .90832 Tw (required for the gallery application and the Flash client library used, XIFF, did not support it at the time.) Tj T* 0 Tw 5.115814 Tw (However XIFF got streaming compression support now \(August 2012\), and there are mature) Tj T* 0 Tw 1.324983 Tw (implementations in other languages \(at least Java\) so it could be tested. Lehto development continues) Tj T* 0 Tw 1.049983 Tw (during autumn 2012 and we will certainly consider implementing the entity system and generic attribute) Tj T* 0 Tw (synchronization if they are required for some applications.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 192.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Notes / References) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 174.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(NOTE: below is selected copy-pastes from potential references, mostly not original text!\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 120.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .495984 Tw (Greger Wikstrand, Lennart Schedin and Fredrik Elg [9] gave three hypotheses before they did their Pong) Tj T* 0 Tw .893555 Tw (game experiment in a simulated mobile phone: \224Delay effort\224, \224De- lay action\224 and \224Delay performance\224.) Tj T* 0 Tw 1.256136 Tw (The experiment put eyes on significant effects on four independent variables: enjoyment, mental effort,) Tj T* 0 Tw (net distance and paddle move- ---) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 102.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (---) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R91': class PDFStream 
+91 0 obj
+% page stream
+<< /Length 7761 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 657.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL .746905 Tw (Avango is a framework for building distributed virtual reality applications. It provides a field/fieldcontainer) Tj T* 0 Tw .980651 Tw (based application layer similar to VRML. Within this layer a scene graph, based on OpenGL Performer,) Tj T* 0 Tw .215697 Tw (input sensors, and output actuators are implemented as runtime loadable modules \(or plugins\). A network) Tj T* 0 Tw .20748 Tw (layer provides automatic replication/distribution of the application graph using a reliable multi-cast system.) Tj T* 0 Tw .814985 Tw (Applications in Avango are written in Scheme and run in the scripting layer. The scripting layer provides) Tj T* 0 Tw .534983 Tw (complete access to fieldcontainers and their fields; this way distributed collaborative scenarios as well as) Tj T* 0 Tw 2.113828 Tw (render-distributed applications \(or even both at the same time\) are supported. Avango was originally) Tj T* 0 Tw 2.645984 Tw (developed at the VR group at GMD, now Virtual Environments Group at Fraunhofer IAIS and was) Tj T* 0 Tw (open-sourced in 2004. An in-depth description can be found in here.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+Q
+q
+1 0 0 1 62.69291 651.0236 cm
+Q
+q
+1 0 0 1 62.69291 627.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .307251 Tw (a publication: Improving the AVANGO VR/AR Framework \227 Lessons Learned Download, presented) Tj T* 0 Tw (at the 5. GI VR/AR workshop. The slides Download are also available.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 627.0236 cm
+Q
+q
+1 0 0 1 62.69291 609.0236 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (http://www.avango.org/raw-attachment/wiki/Res/Improving_the_AVANGO_VR-AR_Framework--Lessons_Learned.pdf) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (http://www.avango.org/wiki/Concepts) Tj T* ET
 Q
 Q
 q
@@ -663,11 +2716,64 @@ q
 1 0 0 1 62.69291 591.0236 cm
 Q
 q
-1 0 0 1 62.69291 579.0236 cm
+1 0 0 1 62.69291 549.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .172765 Tw (NOTE: Avango concepts seem quite similar to tundra - 'fields' is a bit like our attrs, are autoserialized etc.,) Tj T* 0 Tw .291654 Tw (and there are connections which are perhaps similar to qt signal conns .. the example there is a proximity) Tj T* 0 Tw (sensor) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 531.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (---) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 501.0236 cm
+q
+BT 1 0 0 1 0 14 Tm 13.86598 Tw 12 TL /F1 10 Tf 0 0 0 rg (Pong with a multiplayer Flash platform: multiplayer pong example & tutorial) Tj T* 0 Tw 0 0 .501961 rg (http://www.unionplatform.com/?page_id=1229) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 447.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.299984 Tw ("Union Pong consists of a server-side room module written in Java, and a Flash client-side application) Tj T* 0 Tw 3.466905 Tw (written in pure ActionScript with Union's Reactor framework. The room module is responsible for) Tj T* 0 Tw .779983 Tw (controlling the game's flow, scoring, and physics simulation." jne - client attribuutteja n\344emm\344 settailee -) Tj T* 0 Tw (n\344emm\344 aika paljon pit\344\344 tuolla ite hanskailla attribuuttien muutoksien l\344hettely\344 ja vastaanottoa) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 429.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (---) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 399.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .450514 Tw (homura \(appears dead since 2010, was started in 2007 -- bbc and uk edu, a bit similar to realXtend, with) Tj T* 0 Tw (games focus\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 345.0236 cm
+q
+BT 1 0 0 1 0 38 Tm 1.396976 Tw 12 TL /F1 10 Tf 0 0 0 rg (from: ) Tj 0 0 .501961 rg (http://java.cms.livjm.ac.uk/homura/links.php ) Tj 0 0 0 rg (Dennett C., El Rhalibi A., Merabti M., Price M.,"Koku:) Tj T* 0 Tw 3.949976 Tw (State Synchronisation System for Networked Multiplayer Games", 6th International Conference in) Tj T* 0 Tw 1.90229 Tw (Computer Game Design and Technology \(GDTW\), Holiday Inn, Liverpool, UK, 12th - 13th November) Tj T* 0 Tw (2008. ) Tj 0 0 .501961 rg (http://java.cms.livjm.ac.uk/homura/dist/docs/Paper-GDTW2008-Koku.pdf) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 339.0236 cm
+Q
+q
+1 0 0 1 62.69291 339.0236 cm
+Q
+q
+1 0 0 1 62.69291 303.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
-1 0 0 1 6 -3 cm
+1 0 0 1 6 21 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
@@ -677,132 +2783,337 @@ q
 1 0 0 1 23 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Core functionality: Ogre3d, Qt, kNet) Tj T* ET
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 4.543314 Tw (NOTE: this was apparently mostly interest management like, about dividing a large world) Tj T* 0 Tw 1.431412 Tw (hierarchically and about granularity of required information etc. -- could be mentioned in the LVM) Tj T* 0 Tw (fishgame bandwidth optimization treatment!) Tj T* ET
 Q
 Q
 q
 Q
 Q
 q
-1 0 0 1 62.69291 579.0236 cm
+1 0 0 1 62.69291 303.0236 cm
 Q
 q
-1 0 0 1 62.69291 561.0236 cm
+1 0 0 1 62.69291 261.0236 cm
+q
+BT 1 0 0 1 0 26 Tm 2.274961 Tw 12 TL /F1 10 Tf 0 0 0 rg (from: ) Tj 0 0 .501961 rg (http://www.cms.livjm.ac.uk/pgnet2010/MakeCD/index.htm ) Tj 0 0 0 rg (NHUGS: Towards scalability testing for) Tj T* 0 Tw .495697 Tw (MMOGs within an extensible, open architecture Carter, C., El Rhalibi, A., Taleb-Bendiab, A., Merabti, M.,) Tj T* 0 Tw (Liverpool John Moores University ) Tj 0 0 .501961 rg (http://www.cms.livjm.ac.uk/pgnet2010/MakeCD/Papers/2010022.pdf) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 219.0236 cm
+q
+BT 1 0 0 1 0 26 Tm 1.399921 Tw 12 TL /F1 10 Tf 0 0 0 rg (homura middleware, from ) Tj 0 0 .501961 rg (http://java.cms.livjm.ac.uk/homura/dist/docs/Paper-GDTW2008-NetHomura.pdf) Tj T* 0 Tw 2.834524 Tw 0 0 0 rg ("The Development of a Networking Middleware and Online-Deployment Mechanism for Java based) Tj T* 0 Tw (games.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 81.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 122 Tm /F1 10 Tf 12 TL 2.596647 Tw ("The NetHomura middleware integrates with the Homura Engine to create a GameStateManager to) Tj T* 0 Tw .391647 Tw (control the game. This manages an internal stack of HomuraGameState instances. HomuraGameState is) Tj T* 0 Tw 1.275984 Tw (an abstract class which implements the game loop of each state, providing methods for initialisation of) Tj T* 0 Tw .428735 Tw (content, handling user input and updating the state of the game world \(members of the scenegraph\), and) Tj T* 0 Tw .019213 Tw (a rendering the scenegraph to screen. The NetHomura games are comprised of concrete implementations) Tj T* 0 Tw 1.385433 Tw (of this class \(e.g. MainMenuState, LoadingState, PuzzleGameState, etc.\). The middleware provides an) Tj T* 0 Tw 1.132706 Tw (additional implementation, NetState, which encompasses the additional interactions of a network game,) Tj T* 0 Tw .089318 Tw (by adding methods to receive messages, send messages, join and leave games. The NetState class uses) Tj T* 0 Tw 1.45748 Tw (an instance of the middleware\222s NetManager class, which handles peer-management facilities such as) Tj T* 0 Tw 1.271647 Tw (discovering available game sessions, creation of new game session, tracking and modifying persistent,) Tj T* 0 Tw .699982 Tw (shared data objects used within the game, managing references to connected peers, sending messages) Tj T* 0 Tw ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R92': class PDFStream 
+92 0 obj
+% page stream
+<< /Length 2927 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 657.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL .772126 Tw (to particular peers and retrieving messages that are received from peers. The NetManager also handles) Tj T* 0 Tw .866651 Tw (session control, such as disconnecting and joining into both the entire network and game sessions. The) Tj T* 0 Tw .536651 Tw (role of the game developer using the middleware is to create game-specific messages which inherit from) Tj T* 0 Tw .25248 Tw (the base NetHomuraMessage class. This class encapsulates the in-game messages sent between peers,) Tj T* 0 Tw .175697 Tw (and using the NetTools class to construct efficient managements using the functions to efficiently serialise) Tj T* 0 Tw 3.436905 Tw (Java object into messages. These messages can then be broadcast using the NetManager. The) Tj T* 0 Tw 2.38248 Tw (middleware also provides the concept of GameSessionAdvertisments, which are used to create and) Tj T* 0 Tw 1.680574 Tw (communicate the details of a particular game session to other peers so that they can participate in a) Tj T* 0 Tw (session. ") Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 639.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (---) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 507.0236 cm
+1 0 0 1 62.69291 621.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .676988 Tw (Case at hand: is it good to dev an app, a multiplayer networked game, with the entity model and the api) Tj T* 0 Tw .477765 Tw (overall? -- research question how to answer? illustrate a set of examples -- two were already in the IEEE) Tj T* 0 Tw .634104 Tw (paper, and are kind of nice? XXXwhat here -- short treatment of those, and then some new example\(s\)?) Tj T* 0 Tw (analysis of the Circus code? -- make this 'the circus .. and lvm, paper' ?) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (general, should get) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 489.0236 cm
+1 0 0 1 62.69291 615.0236 cm
+Q
+q
+1 0 0 1 62.69291 615.0236 cm
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Pong - the Hello World of networked multiplayer?) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.11 0 Td (T.) Tj T* -5.11 0 Td ET
 Q
 Q
 q
-1 0 0 1 62.69291 459.0236 cm
-q
-BT 1 0 0 1 0 14 Tm .177717 Tw 12 TL /F1 10 Tf 0 0 0 rg (pong - oh, 'the pong paper' ? :o -- there's a ref for it! deals with latency etc, whether) Tj (&) Tj (when to do what and) Tj T* 0 Tw (where in a networked setup.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 426.0236 cm
-q
-BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Notes / References) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 396.0236 cm
+1 0 0 1 23 -3 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .361988 Tw (-- about that work -- in a diff paper from the group: "From the result we prove that the decorator feedback) Tj T* 0 Tw (only had the positive effect on the lower delay condition but not in the high delay condition." """) Tj T* ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.256647 Tw (Hsiao and S. Yuan, \223Practical Middleware for Massively Multiplayer Online Games,\224 IEEE Internet) Tj T* 0 Tw (Computing, vol. 9, 2005, pp. 47-54.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 342.0236 cm
+Q
+Q
+q
+1 0 0 1 62.69291 591.0236 cm
+Q
+q
+1 0 0 1 62.69291 585.0236 cm
+Q
+q
+1 0 0 1 -60.7122 573.0236 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 0 2 Tm  T* ET
+q
+1 0 0 1 20 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (http://ieeexplore.ieee.org/xpl/login.jsp?tp=) Tj (&) Tj (arnumber=1510604) Tj (&) Tj (url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1510604) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+Q
+q
+1 0 0 1 62.69291 531.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .495984 Tw (Greger Wikstrand, Lennart Schedin and Fredrik Elg [9] gave three hypotheses before they did their Pong) Tj T* 0 Tw .893555 Tw (game experiment in a simulated mobile phone: \224Delay effort\224, \224De- lay action\224 and \224Delay performance\224.) Tj T* 0 Tw 1.256136 Tw (The experiment put eyes on significant effects on four independent variables: enjoyment, mental effort,) Tj T* 0 Tw (net distance and paddle move- ---) Tj T* ET
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .619213 Tw (J.D. Pellegrino and C. Dovrolis, \223Bandwidth requirement and state consistency in three multiplayer game) Tj T* 0 Tw 1.30152 Tw (architectures,\224 Proceedings of the 2nd workshop on Network and system support for games, Redwood) Tj T* 0 Tw (City, California: ACM, 2003, pp. 52-59;) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 228.0236 cm
+1 0 0 1 62.69291 513.0236 cm
 q
-0 0 0 rg
-BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL .746905 Tw (Avango is a framework for building distributed virtual reality applications. It provides a field/fieldcontainer) Tj T* 0 Tw .980651 Tw (based application layer similar to VRML. Within this layer a scene graph, based on OpenGL Performer,) Tj T* 0 Tw .215697 Tw (input sensors, and output actuators are implemented as runtime loadable modules \(or plugins\). A network) Tj T* 0 Tw .20748 Tw (layer provides automatic replication/distribution of the application graph using a reliable multi-cast system.) Tj T* 0 Tw .814985 Tw (Applications in Avango are written in Scheme and run in the scripting layer. The scripting layer provides) Tj T* 0 Tw .534983 Tw (complete access to fieldcontainers and their fields; this way distributed collaborative scenarios as well as) Tj T* 0 Tw 2.113828 Tw (render-distributed applications \(or even both at the same time\) are supported. Avango was originally) Tj T* 0 Tw 2.645984 Tw (developed at the VR group at GMD, now Virtual Environments Group at Fraunhofer IAIS and was) Tj T* 0 Tw (open-sourced in 2004. An in-depth description can be found in here.) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (http://portal.acm.org/citation.cfm?id=963900.963905) Tj (&) Tj (type=series) Tj 0 0 0 rg (.) Tj T* ET
 Q
 Q
  
 endstream
 endobj
-% 'R27': class PDFPageLabels 
-27 0 obj
+% 'R93': class PDFPageLabels 
+93 0 obj
 % Document Root
 << /Nums [ 0
- 28 0 R
+ 94 0 R
  1
- 29 0 R ] >>
+ 95 0 R
+ 2
+ 96 0 R
+ 3
+ 97 0 R
+ 4
+ 98 0 R
+ 5
+ 99 0 R
+ 6
+ 100 0 R
+ 7
+ 101 0 R
+ 8
+ 102 0 R
+ 9
+ 103 0 R
+ 10
+ 104 0 R ] >>
 endobj
-% 'R28': class PDFPageLabel 
-28 0 obj
+% 'R94': class PDFPageLabel 
+94 0 obj
 % None
 << /S /D
  /St 1 >>
 endobj
-% 'R29': class PDFPageLabel 
-29 0 obj
+% 'R95': class PDFPageLabel 
+95 0 obj
 % None
 << /S /D
  /St 2 >>
 endobj
+% 'R96': class PDFPageLabel 
+96 0 obj
+% None
+<< /S /D
+ /St 3 >>
+endobj
+% 'R97': class PDFPageLabel 
+97 0 obj
+% None
+<< /S /D
+ /St 4 >>
+endobj
+% 'R98': class PDFPageLabel 
+98 0 obj
+% None
+<< /S /D
+ /St 5 >>
+endobj
+% 'R99': class PDFPageLabel 
+99 0 obj
+% None
+<< /S /D
+ /St 6 >>
+endobj
+% 'R100': class PDFPageLabel 
+100 0 obj
+% None
+<< /S /D
+ /St 7 >>
+endobj
+% 'R101': class PDFPageLabel 
+101 0 obj
+% None
+<< /S /D
+ /St 8 >>
+endobj
+% 'R102': class PDFPageLabel 
+102 0 obj
+% None
+<< /S /D
+ /St 9 >>
+endobj
+% 'R103': class PDFPageLabel 
+103 0 obj
+% None
+<< /S /D
+ /St 10 >>
+endobj
+% 'R104': class PDFPageLabel 
+104 0 obj
+% None
+<< /S /D
+ /St 11 >>
+endobj
 xref
-0 30
+0 105
 0000000000 65535 f
 0000000113 00000 n
-0000000221 00000 n
-0000000386 00000 n
-0000000574 00000 n
-0000000815 00000 n
-0000001056 00000 n
-0000001297 00000 n
-0000001538 00000 n
-0000001779 00000 n
-0000002020 00000 n
-0000002262 00000 n
-0000002504 00000 n
-0000002747 00000 n
-0000002974 00000 n
-0000003350 00000 n
-0000003631 00000 n
-0000003790 00000 n
-0000004038 00000 n
-0000004163 00000 n
-0000004332 00000 n
-0000004520 00000 n
-0000004716 00000 n
-0000004906 00000 n
-0000005069 00000 n
-0000005186 00000 n
-0000011497 00000 n
-0000017459 00000 n
-0000017565 00000 n
-0000017642 00000 n
+0000000234 00000 n
+0000000399 00000 n
+0000000587 00000 n
+0000000828 00000 n
+0000001069 00000 n
+0000001310 00000 n
+0000001551 00000 n
+0000001792 00000 n
+0000002033 00000 n
+0000002275 00000 n
+0000002517 00000 n
+0000002760 00000 n
+0000003003 00000 n
+0000003246 00000 n
+0000003489 00000 n
+0000003732 00000 n
+0000003975 00000 n
+0000004218 00000 n
+0000004461 00000 n
+0000004704 00000 n
+0000004947 00000 n
+0000005190 00000 n
+0000005433 00000 n
+0000005676 00000 n
+0000005919 00000 n
+0000006162 00000 n
+0000006405 00000 n
+0000006648 00000 n
+0000006891 00000 n
+0000007134 00000 n
+0000007377 00000 n
+0000007620 00000 n
+0000007847 00000 n
+0000008403 00000 n
+0000008683 00000 n
+0000008963 00000 n
+0000009258 00000 n
+0000009527 00000 n
+0000009801 00000 n
+0000010111 00000 n
+0000010391 00000 n
+0000010673 00000 n
+0000010848 00000 n
+0000011141 00000 n
+0000011430 00000 n
+0000011717 00000 n
+0000011998 00000 n
+0000012289 00000 n
+0000012626 00000 n
+0000012921 00000 n
+0000013244 00000 n
+0000013499 00000 n
+0000013761 00000 n
+0000014025 00000 n
+0000014313 00000 n
+0000014586 00000 n
+0000014868 00000 n
+0000015147 00000 n
+0000015526 00000 n
+0000015886 00000 n
+0000016155 00000 n
+0000016466 00000 n
+0000016625 00000 n
+0000016920 00000 n
+0000017046 00000 n
+0000017215 00000 n
+0000017403 00000 n
+0000017599 00000 n
+0000017869 00000 n
+0000018051 00000 n
+0000018285 00000 n
+0000018520 00000 n
+0000018713 00000 n
+0000018995 00000 n
+0000019189 00000 n
+0000019403 00000 n
+0000019583 00000 n
+0000019829 00000 n
+0000020050 00000 n
+0000020213 00000 n
+0000020412 00000 n
+0000027465 00000 n
+0000033793 00000 n
+0000040758 00000 n
+0000047914 00000 n
+0000055516 00000 n
+0000062402 00000 n
+0000069046 00000 n
+0000075781 00000 n
+0000082234 00000 n
+0000090094 00000 n
+0000093124 00000 n
+0000093353 00000 n
+0000093430 00000 n
+0000093507 00000 n
+0000093584 00000 n
+0000093661 00000 n
+0000093738 00000 n
+0000093816 00000 n
+0000093895 00000 n
+0000093974 00000 n
+0000094053 00000 n
+0000094133 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\247p\363P0{p\241$\231\226U\236w\305\006) (\247p\363P0{p\241$\231\226U\236w\305\006)] 
+ [(&{\350\005\031?A\326\351\235\033oC\203\340\335) (&{\350\005\031?A\326\351\235\033oC\203\340\335)] 
 
- /Info 17 0 R
- /Root 16 0 R
- /Size 30 >>
+ /Info 64 0 R
+ /Root 63 0 R
+ /Size 105 >>
 startxref
-17689
+94182
 %%EOF
