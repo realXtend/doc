@@ -306,9 +306,15 @@ or connection drops).
 
 Arguably this way to implement a networked multiplayer game of pong is
 very simple, and succesfully hides all the details of networking from
-the game developer. (e.g. the example there does a bit more manually,
-even though is largely similar:
-http://www.unionplatform.com/?page_id=1229&page=2)
+the game developer. It is implemented in two modules, the client and
+the server side codes, with X hundred lines total. (e.g. the example
+there does a bit more manually, even though is largely similar:
+http://www.unionplatform.com/?page_id=1229&page=2 -- and is much
+larger, N>10 classes)
+
+The complete source code and the required 3d assets to run this pong
+implementation on the Tundra runtime is available from
+https://github.com/realXtend/doc/tree/master/netgames/PongMultiplayer
 
 
 Example 2: Swarming plankton as food for fish in the sea
