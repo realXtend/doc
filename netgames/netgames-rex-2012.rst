@@ -211,6 +211,17 @@ particle system, a piece of text or some UI element. By implementing
 the Hide action in all the different components but routing the call
 via the entities the same interface works for all implementations.
 
+By default, the entities and components are replicated and persistent,
+i.e. synchronized over network and saved to files. They can also be
+configured to be local only, either on server or client side, and/or
+temporary. Temporary entities are typically created by application
+logic code by a script in some other, persistent entity. For example
+the reference avatar implementation for virtual worlds like usage in
+Tundra SDK has logic code to create visible avatars upon new user
+logins, and the avatars are replicated, but they are temporary and
+hence not stored when the world state is saved while users are logged
+in.
+
 
 Example 1: Pong as the Hello World of multiplayer games
 -------------------------------------------------------
