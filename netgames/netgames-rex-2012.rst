@@ -444,13 +444,23 @@ the GUI editor.
 In fact, the original implementation of example 1. Pong game did not
 use the attribute system at all for game state, but instead was
 creating a Javascript dictionary called GameState and serializing that
-with JSON to send over the net with an entity-action. This came as
-quite a surprise for the author of this article when reading the code,
-written by another developer. The reason probably was that there is no
-easy syntax for defining new components for the state in
-Javascript. If he had written the game using c++, he probably would
-have followed the pattern described in the example here and utilized
-the attribute system. (XXX to be verified as soon as Jonne is back from travel :)
+with JSON to send over the net with an entity-action. This came as a
+bit of a surprise for the author of this article when reading the
+code, written by another developer. When interviewed for this study,
+the developer revealed that it was due to the poor support for
+defining new components with the Javascript API in Tundra. If he had
+written the game using c++, he probably would have followed the
+pattern described in the example here and utilized the attribute
+system. In the version in the example here we work around the problem
+by declaring the PongGameState component in the application XML, in
+which case it exists already when the Javascript code is executed so
+it does not have to define it. But often it is better to have the
+component definitions in the program code, so definitely making good
+scripting support for that in Tundra is needed. Besides the definition
+of components (the attributes and their types), also hooking handlers
+directly to changes in certain attributes is lacking in the API --
+this problem is visible also in the version here. (XXX We sketch and
+plan an API for that in the future work section of this article?)
 
 There are various other stumbling blocks in game development with
 Tundra currently too, some of which are specific to networked
