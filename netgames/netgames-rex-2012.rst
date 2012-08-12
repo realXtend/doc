@@ -109,11 +109,46 @@ traffic, how much bandwidth is used (etc? XXX). (Finally ..?)
 Background / related
 ====================
 
-- use of other multiplayer engines: FPS, but also the unity plugins and bigworld etc.
+The entity model presented here is by far not unique, quite the
+opposite, as the idea is to apply best practices from the literature.
+
+We adopted the aggregation based technique after studying [ecref
+(gta4?)], and for example Unity3d uses components the same way, also
+as an extension point for plugins [unity ref?]. Typically these entity
+systems are not, however, inherently networked (?). One game platform
+that we studied when making the attribute synchronization was
+Syntensity, which adds a Javascript scripting system with networked
+attributes to the Cube FPS engine based Sauerbraten collaborative
+networked system.
+
+Also simplifying networked game development by providing a platform
+which takes care of all the basics, such as client-server connectivity
+and synchronizing movements and other state, is nothing new. All FPS
+mods, scriptable MMOs and engines such as Unreal (and Half-Life and
+which are the relevant ones?) feature that.
+
+As the target here is to analyze the quality of the model by the API
+it provides for networked game developers, we could in principle use
+some of the aforementioned proprietary platforms for the study as
+well. However the Tundra SDK is, by being liberally licensed open
+source (apache), completely available for anyone for most detailed
+analysis and freely modifyable to test possible improvements. Our
+results are easily repeatable as anyone can download and run the same
+codes. (Homura-HUGS paper argues for and does that too, NHUGS: Towards
+scalability testing for MMOGs within an extensible, open
+architecture).
+
+Yet a comparative analysis with multiple platforms, including
+proprietary commercial ones, would certainly be fruitful (XXX --
+perhaps we can do that to a limited extent here, by talking with folks
+with experience with Unity, Unreal etc. dev, and OTOH by reviewing
+things like Syntensity in more detail .. return to this in
+discussion/evaluation?).
+
  * the APIs of those, the app dev model: are e.g. connections dealt with at all typically etc? how is data synched (or is it even needed in those, server logic?, scripts?). how do messaging things work (room for improvement in Tundra perhaps?)
 
+...
 
-.. position in that field somehow, i figure
 
 Game development using the Entity-Component model
 =================================================
@@ -487,15 +522,21 @@ vectors, instead of trying to stream the position all the time.
 Network bandwidth measurements
 ------------------------------
 
-From: 	Jukka Jylänki <jukka.jylanki@ludocraft.com>
-Subject: 	[realXtend-dev] RealXtend Tundra 2.3.0 is released!
-Date: 	February 28, 2012 9:51:34 PM GMT+02:00
+.. raw::
+
+   From: 	Jukka Jylänki <jukka.jylanki@ludocraft.com>
+   Subject: 	[realXtend-dev] RealXtend Tundra 2.3.0 is released!
+   Date: 	February 28, 2012 9:51:34 PM GMT+02:00
 
 - Implemented a new path for streaming rigid bodies over the network. This allows a far larger number of concurrent clients on a server. (#314, #322, #354)
-  - Comparative profile of the Physics demo scene: http://dl.dropbox.com/u/40949268/Tundra/Tundra_RigidBody_PhysicsScene.png
-  - Old rigid body streaming code was about 70bytes/update: http://dl.dropbox.com/u/40949268/Tundra/OldRigidBodyStreaming_70b.png
-  - New code averages at about 11bytes/update: http://dl.dropbox.com/u/40949268/Tundra/NewRigidBodyPackets_11b.png
-  - User counts as large as 64 users are doable, but largely depends on what is running in the scene: http://dl.dropbox.com/u/40949268/Tundra/kNetServer64users.png
+
+- Comparative profile of the Physics demo scene: http://dl.dropbox.com/u/40949268/Tundra/Tundra_RigidBody_PhysicsScene.png
+
+- Old rigid body streaming code was about 70bytes/update: http://dl.dropbox.com/u/40949268/Tundra/OldRigidBodyStreaming_70b.png
+
+- New code averages at about 11bytes/update: http://dl.dropbox.com/u/40949268/Tundra/NewRigidBodyPackets_11b.png
+
+- User counts as large as 64 users are doable, but largely depends on what is running in the scene: http://dl.dropbox.com/u/40949268/Tundra/kNetServer64users.png
 
 Overall performance and scalability
 -----------------------------------
@@ -568,3 +609,76 @@ framework. The room module is responsible for controlling the game's flow, scori
 
 
 
+-- 
+
+homura (appears dead since 2010, was started in 2007 -- bbc and uk edu, a bit similar to realXtend, with games focus)
+
+from: http://java.cms.livjm.ac.uk/homura/links.php
+Dennett C., El Rhalibi A., Merabti M., Price M.,"Koku: State
+Synchronisation System for Networked Multiplayer Games", 6th
+International Conference in Computer Game Design and Technology
+(GDTW), Holiday Inn, Liverpool, UK, 12th - 13th November 2008.
+http://java.cms.livjm.ac.uk/homura/dist/docs/Paper-GDTW2008-Koku.pdf
+
+* NOTE: this was apparently mostly interest management like, about
+  dividing a large world hierarchically and about granularity of
+  required information etc. -- could be mentioned in the LVM fishgame bandwidth optimization treatment!
+
+from: http://www.cms.livjm.ac.uk/pgnet2010/MakeCD/index.htm
+NHUGS: Towards scalability testing for MMOGs within an extensible, open architecture 
+Carter, C., El Rhalibi, A., Taleb-Bendiab, A., Merabti, M., Liverpool John Moores University
+http://www.cms.livjm.ac.uk/pgnet2010/MakeCD/Papers/2010022.pdf
+
+homura middleware, from http://java.cms.livjm.ac.uk/homura/dist/docs/Paper-GDTW2008-NetHomura.pdf
+"The Development of a Networking Middleware and Online-Deployment Mechanism for Java based games."
+
+"The NetHomura middleware integrates with the Homura Engine
+to create a GameStateManager to control the game. This
+manages an internal stack of HomuraGameState instances.
+HomuraGameState is an abstract class which implements the
+game loop of each state, providing methods for initialisation of
+content, handling user input and updating the state of the game
+world (members of the scenegraph), and a rendering the
+scenegraph to screen. The NetHomura games are comprised of
+concrete implementations of this class (e.g. MainMenuState,
+LoadingState, PuzzleGameState, etc.). The middleware provides
+an additional implementation, NetState, which encompasses the
+additional interactions of a network game, by adding methods to
+receive messages, send messages, join and leave games. The
+NetState class uses an instance of the middleware’s NetManager
+class, which handles peer-management facilities such as
+discovering available game sessions, creation of new game
+session, tracking and modifying persistent, shared data objects
+used within the game, managing references to connected peers,
+sending messages to particular peers and retrieving messages that
+are received from peers. The NetManager also handles session
+control, such as disconnecting and joining into both the entire
+network and game sessions. The role of the game developer using
+the middleware is to create game-specific messages which inherit
+from the base NetHomuraMessage class. This class encapsulates
+the in-game messages sent between peers, and using the NetTools
+class to construct efficient managements using the functions to
+efficiently serialise Java object into messages. These messages
+can then be broadcast using the NetManager. The middleware
+also provides the concept of GameSessionAdvertisments, which
+are used to create and communicate the details of a particular
+game session to other peers so that they can participate in a
+session.
+"
+
+---
+
+general, should get:
+
+T. Hsiao and S. Yuan, “Practical Middleware for
+ Massively Multiplayer Online Games,” IEEE Internet
+  Computing, vol. 9, 2005, pp. 47-54.
+http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1510604&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1510604
+
+J.D. Pellegrino and C. Dovrolis, “Bandwidth requirement
+ and state consistency in three multiplayer game
+architectures,” Proceedings of the 2nd workshop on
+Network and system support for games, Redwood City,
+California: ACM, 2003, pp. 52-59;
+http://portal.acm.org/citation.cfm?id=963900.963905&type
+=series.
