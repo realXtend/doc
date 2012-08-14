@@ -366,6 +366,12 @@ synchronized. The idea is that the different players see the plankton
 clouds in same areas of the sea bay, and see them diminish when eaten,
 but with relatively little network traffic.
 
+.. figure:: pics/lvm-fishgame-plankton.svg
+   :scale: 50%
+
+   Composing a lot of plankton to the sea in a multiplayer game in a
+   hieararchy of local only and networked entities
+
 That system is implemented by having the game code (Javascript) create
 the particle systems in local-only entities, which are not
 synchronized over the network at all. Only the clusters are normal
