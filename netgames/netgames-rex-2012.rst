@@ -15,7 +15,7 @@ or: Networked Games Development with realXtend Tundra SDK
 
 toni
 
-jukka?
+jukka
 
 jonne?
 
@@ -524,8 +524,14 @@ The replicated entity system with the generic attribute
 synchronization is implemented with a set of messages in Tundra,
 namely: CreateEntity, CreateComponents, CreateAttributes,
 EditAttributes, RemoveAttributes, RemoveComponents, RemoveEntity,
-CreateEntityReply, CreateComponentsReply and EntityAction
-(source: SyncManager:HandleKristalliMessage switch(messageId)).
+CreateEntityReply, CreateComponentsReply and EntityAction (source:
+SyncManager:HandleKristalliMessage switch(messageId)). 
+
+Tundra uses the kNet library for transport, and kNet supports using
+both TCP and UDP. kNet allows sending arbitrary messages and features
+efficient serialization of basic data types. This way Tundra plugins
+can use own custom messages for efficient communications (currently
+this is limited to C++ plugins only).
 
 Upon a new client login to a server, typically the whole scene state
 is replicated to the client using these messages. So the overall
@@ -549,37 +555,47 @@ we were able to have tens of simultanously moving objects with several
 client connections using that naive mechanism is some anecdotal
 evidence for the efficiency of the generic attribute
 synchronization. A generic optional attribute interpolation mechanism
-was made for smooth movements. However, object movement was clearly
-such a common case and a bottleneck in many applications that the
-custom solution for it was required. The movement synchronization is
-essentially about synchronizing the linear and angular velocity
-vectors, instead of trying to stream the position all the time.
+was made for smooth movements. 
+
+However, object movement was clearly such a common case and a
+bottleneck in many applications that the custom solution for it was
+required. The movement synchronization is essentially about
+synchronizing the linear and angular velocity vectors, only when they
+change, instead of trying to stream the resulting position all the
+time. Also specific custom messages have less overhead, as the message
+id already defines the target of the incoming data. With the generic
+attribute synchronization message, the message data has to identify
+the specific attribute that is being modified.
 
 Network bandwidth measurements
 ------------------------------
 
-(note for internal reviewers: this section expects contributions from
-Jukka Jylänki / Ludocraft and the Chiru project, as they have already
-made several measurements, have the setups for that etc. now this just
-gathers basic data that has been published via the mailing list
-earlier. will be worked on immediately in the coming weeks well before
-submission)
+We have conducted basic measurements of the network bandwidth usage of
+Tundra. With the original system of just using the generic attribute
+synchronization also for object movements, a single update was about
+70bytes/update. The new rigid body streaming code averages at about
+11bytes/update. This typically allows a far larger number of
+concurrent clients on a server. 
 
-::
+.. figure:: pics/Tundra_RigidBody_PhysicsScene.png
+   :scale: 75%
 
-   From: 	Jukka Jylänki <jukka.jylanki@ludocraft.com>
-   Subject: 	[realXtend-dev] RealXtend Tundra 2.3.0 is released!
-   Date: 	February 28, 2012 9:51:34 PM GMT+02:00
+   Comparative profile of the old and new object movement code in the Tundra Physics demo scene
 
-- Implemented a new path for streaming rigid bodies over the network. This allows a far larger number of concurrent clients on a server. (#314, #322, #354)
+With the new system, user counts as large as 64 users are doable, but
+it largely depends on what is running in the scene.
 
-- Comparative profile of the Physics demo scene: http://dl.dropbox.com/u/40949268/Tundra/Tundra_RigidBody_PhysicsScene.png
+.. figure:: pics/kNetServer64users.png
+   :scale: 50%
 
-- Old rigid body streaming code was about 70bytes/update: http://dl.dropbox.com/u/40949268/Tundra/OldRigidBodyStreaming_70b.png
+   A kNet server with 64 connections (XXX: Jukka - doing what?)
 
-- New code averages at about 11bytes/update: http://dl.dropbox.com/u/40949268/Tundra/NewRigidBodyPackets_11b.png
-
-- User counts as large as 64 users are doable, but largely depends on what is running in the scene: http://dl.dropbox.com/u/40949268/Tundra/kNetServer64users.png
+This was the first optimization, a basic sanification, made to allow
+for more moving objects and client connections to Tundra scenes. After
+that, the focus has been moved to apply the common basic techniques to
+deal with larger worlds and lots of traffic, namely scene partitioning
+and importance based interest management. That work is described later
+in this chapter.
 
 Overall performance and scalability
 -----------------------------------
