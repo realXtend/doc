@@ -5,8 +5,8 @@
 % The standard fonts dictionary
 << /F1 2 0 R
  /F2 3 0 R
- /F3 48 0 R
- /F4 55 0 R >>
+ /F3 50 0 R
+ /F4 57 0 R >>
 endobj
 % 'F1': class PDFType1Font 
 2 0 obj
@@ -32,10 +32,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 34 0 R
+ /Dest [ 36 0 R
  /XYZ
  62.69291
- 254.0236
+ 236.0236
  0 ]
  /Rect [ 62.69291
  521.7736
@@ -50,10 +50,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 34 0 R
+ /Dest [ 36 0 R
  /XYZ
  62.69291
- 254.0236
+ 236.0236
  0 ]
  /Rect [ 527.0227
  521.7736
@@ -68,10 +68,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 37 0 R
  /XYZ
  62.69291
- 717.0236
+ 693.0236
  0 ]
  /Rect [ 62.69291
  503.7736
@@ -86,10 +86,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 37 0 R
  /XYZ
  62.69291
- 717.0236
+ 693.0236
  0 ]
  /Rect [ 527.0227
  503.7736
@@ -104,10 +104,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 37 0 R
  /XYZ
  62.69291
- 216.0236
+ 192.0236
  0 ]
  /Rect [ 62.69291
  485.7736
@@ -122,10 +122,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 37 0 R
  /XYZ
  62.69291
- 216.0236
+ 192.0236
  0 ]
  /Rect [ 527.0227
  485.7736
@@ -140,10 +140,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 36 0 R
+ /Dest [ 38 0 R
  /XYZ
  62.69291
- 495.0236
+ 477.0236
  0 ]
  /Rect [ 62.69291
  467.7736
@@ -158,10 +158,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 36 0 R
+ /Dest [ 38 0 R
  /XYZ
  62.69291
- 495.0236
+ 477.0236
  0 ]
  /Rect [ 527.0227
  467.7736
@@ -176,10 +176,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 36 0 R
+ /Dest [ 38 0 R
  /XYZ
  62.69291
- 408.0236
+ 390.0236
  0 ]
  /Rect [ 82.69291
  449.7736
@@ -194,10 +194,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 36 0 R
+ /Dest [ 38 0 R
  /XYZ
  62.69291
- 408.0236
+ 390.0236
  0 ]
  /Rect [ 527.0227
  449.7736
@@ -212,10 +212,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 37 0 R
+ /Dest [ 39 0 R
  /XYZ
  62.69291
- 603.0236
+ 591.0236
  0 ]
  /Rect [ 82.69291
  431.7736
@@ -230,10 +230,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 37 0 R
+ /Dest [ 39 0 R
  /XYZ
  62.69291
- 603.0236
+ 591.0236
  0 ]
  /Rect [ 527.0227
  431.7736
@@ -248,10 +248,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 40 0 R
+ /Dest [ 42 0 R
  /XYZ
  62.69291
- 561.0236
+ 537.0236
  0 ]
  /Rect [ 82.69291
  413.7736
@@ -266,10 +266,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 40 0 R
+ /Dest [ 42 0 R
  /XYZ
  62.69291
- 561.0236
+ 537.0236
  0 ]
  /Rect [ 527.0227
  413.7736
@@ -284,7 +284,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 49 0 R
+ /Dest [ 51 0 R
  /XYZ
  62.69291
  189.6443
@@ -302,7 +302,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 49 0 R
+ /Dest [ 51 0 R
  /XYZ
  62.69291
  189.6443
@@ -320,7 +320,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 51 0 R
+ /Dest [ 53 0 R
  /XYZ
  62.69291
  693.0236
@@ -338,7 +338,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 51 0 R
+ /Dest [ 53 0 R
  /XYZ
  62.69291
  693.0236
@@ -356,7 +356,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 51 0 R
+ /Dest [ 53 0 R
  /XYZ
  62.69291
  213.0236
@@ -374,7 +374,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 51 0 R
+ /Dest [ 53 0 R
  /XYZ
  62.69291
  213.0236
@@ -392,7 +392,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 57 0 R
+ /Dest [ 59 0 R
  /XYZ
  62.69291
  765.0236
@@ -410,7 +410,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 57 0 R
+ /Dest [ 59 0 R
  /XYZ
  62.69291
  765.0236
@@ -428,7 +428,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 57 0 R
+ /Dest [ 59 0 R
  /XYZ
  62.69291
  621.8236
@@ -446,7 +446,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 57 0 R
+ /Dest [ 59 0 R
  /XYZ
  62.69291
  621.8236
@@ -464,7 +464,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 57 0 R
+ /Dest [ 59 0 R
  /XYZ
  62.69291
  507.8236
@@ -482,7 +482,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 57 0 R
+ /Dest [ 59 0 R
  /XYZ
  62.69291
  507.8236
@@ -500,7 +500,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 57 0 R
+ /Dest [ 59 0 R
  /XYZ
  62.69291
  456.8236
@@ -518,7 +518,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 57 0 R
+ /Dest [ 59 0 R
  /XYZ
  62.69291
  456.8236
@@ -536,14 +536,14 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 61 0 R
+ /Dest [ 67 0 R
  /XYZ
  62.69291
  585.0236
  0 ]
  /Rect [ 62.69291
  269.7736
- 152.7229
+ 122.7029
  281.7736 ]
  /Subtype /Link
  /Type /Annot >>
@@ -554,7 +554,7 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 61 0 R
+ /Dest [ 67 0 R
  /XYZ
  62.69291
  585.0236
@@ -566,8 +566,44 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Page1': class PDFPage 
+% 'Annot.NUMBER31': class LinkAnnotation 
 34 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 67 0 R
+ /XYZ
+ 62.69291
+ 534.0236
+ 0 ]
+ /Rect [ 62.69291
+ 251.7736
+ 116.6029
+ 263.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER32': class LinkAnnotation 
+35 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 67 0 R
+ /XYZ
+ 62.69291
+ 534.0236
+ 0 ]
+ /Rect [ 521.4627
+ 251.7736
+ 532.5827
+ 263.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page1': class PDFPage 
+36 0 obj
 % Page dictionary
 << /Annots [ 4 0 R
  5 0 R
@@ -598,13 +634,15 @@ endobj
  30 0 R
  31 0 R
  32 0 R
- 33 0 R ]
- /Contents 89 0 R
+ 33 0 R
+ 34 0 R
+ 35 0 R ]
+ /Contents 88 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 88 0 R
+ /Parent 87 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -616,14 +654,14 @@ endobj
  /Type /Page >>
 endobj
 % 'Page2': class PDFPage 
-35 0 obj
+37 0 obj
 % Page dictionary
-<< /Contents 90 0 R
+<< /Contents 89 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 88 0 R
+ /Parent 87 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -635,14 +673,14 @@ endobj
  /Type /Page >>
 endobj
 % 'Page3': class PDFPage 
-36 0 obj
+38 0 obj
 % Page dictionary
-<< /Contents 91 0 R
+<< /Contents 90 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 88 0 R
+ /Parent 87 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -654,14 +692,14 @@ endobj
  /Type /Page >>
 endobj
 % 'Page4': class PDFPage 
-37 0 obj
+39 0 obj
 % Page dictionary
-<< /Contents 92 0 R
+<< /Contents 91 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 88 0 R
+ /Parent 87 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -672,8 +710,8 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'Annot.NUMBER31': class PDFDictionary 
-38 0 obj
+% 'Annot.NUMBER33': class PDFDictionary 
+40 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://www.unionplatform.com/?page_id=1229&page=2) >>
@@ -681,14 +719,14 @@ endobj
  0
  0 ]
  /Rect [ 211.2106
- 615.7736
+ 591.7736
  460.8161
- 627.7736 ]
+ 603.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER32': class PDFDictionary 
-39 0 obj
+% 'Annot.NUMBER34': class PDFDictionary 
+41 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (https://github.com/realXtend/doc/tree/master/netgames/PongMultiplayer) >>
@@ -696,23 +734,23 @@ endobj
  0
  0 ]
  /Rect [ 173.8329
- 573.7736
+ 549.7736
  491.7529
- 585.7736 ]
+ 561.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Page5': class PDFPage 
-40 0 obj
+42 0 obj
 % Page dictionary
-<< /Annots [ 38 0 R
- 39 0 R ]
- /Contents 93 0 R
+<< /Annots [ 40 0 R
+ 41 0 R ]
+ /Contents 92 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 88 0 R
+ /Parent 87 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -723,8 +761,8 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'FormXob.pdfrw_41': class PDFStream 
-41 0 obj
+% 'FormXob.pdfrw_43': class PDFStream 
+43 0 obj
 << /BBox [ 0
  0
  592.8
@@ -732,7 +770,7 @@ endobj
  /Filter /FlateDecode
  /FormType 1
  /Length 2980
- /Resources 42 0 R
+ /Resources 44 0 R
  /Subtype /Form
  /Type /XObject >>
 stream
@@ -749,28 +787,28 @@ B'ˆß∏	–N?êêX;9ë´‰ﬂ í¨©kI±°NB2ëä5k§¥Ü	∑©ZìØ›,3‰$ )mefóqn+‡§l3ƒLª-H∑ﬁHÕªßà0‘
 â˝Æ2ú¨b…  LñTy≤ÙÉTÒ¨eÿË„/Ô$ﬁˆGÑ5ãº0C≈+∑{»Ó ´`‘»≠_'ªƒk‘&ØÆöòìÔ¬@ù,ò¬ªTeºz‰∫éÇ„CÃÚ∂%±˘˝QñÜÒ…‘èñ$yˇ úºÌ €˘Å ˙ËÃ˜≤πˇNÉ≤ó◊ÊRÄJ˚ÑNöudå˝7§ê˘eıår⁄(/!≈&Ó£”õäÜ¶ú]x}˜ À¨=˙aaôÑ#p'í¬Ú	,9Ω˛ÄÔ_—ëK”
 ô∑†Wo}πÒ∫ÒÂ°?eó	ú_§r⁄}(Â%§çÔYÅEéÿ¡µ+Ïn‰~]ıhÎŒ±“Â˝&o7ò#o˚#í|ït–Rπˇ‡>®û˚nêUDÆ?«kJ}M—í¨.R§¿NÜELîóê2Ωâ«>"q…˙≥ïôŒ=€JÁæﬂ˛Ä8"=endstream
 endobj
-% 'R42': class PDFDictionary 
-42 0 obj
-<< /ExtGState << /a0 << /CA 1
- /ca 1 >> >>
- /Font << /f-0-0 43 0 R >> >>
-endobj
-% 'R43': class PDFDictionary 
-43 0 obj
-<< /BaseFont /AAJHFI+DejaVuSans
- /DescendantFonts [ 44 0 R ]
- /Encoding /Identity-H
- /Subtype /Type0
- /ToUnicode 47 0 R
- /Type /Font >>
-endobj
 % 'R44': class PDFDictionary 
 44 0 obj
+<< /ExtGState << /a0 << /CA 1
+ /ca 1 >> >>
+ /Font << /f-0-0 45 0 R >> >>
+endobj
+% 'R45': class PDFDictionary 
+45 0 obj
+<< /BaseFont /AAJHFI+DejaVuSans
+ /DescendantFonts [ 46 0 R ]
+ /Encoding /Identity-H
+ /Subtype /Type0
+ /ToUnicode 49 0 R
+ /Type /Font >>
+endobj
+% 'R46': class PDFDictionary 
+46 0 obj
 << /BaseFont /AAJHFI+DejaVuSans
  /CIDSystemInfo << /Ordering (Identity)
  /Registry (Adobe)
  /Supplement 0 >>
- /FontDescriptor 45 0 R
+ /FontDescriptor 47 0 R
  /Subtype /CIDFontType2
  /Type /Font
  /W [ 0
@@ -803,8 +841,8 @@ endobj
  817
  336 ] ] >>
 endobj
-% 'R45': class PDFDictionary 
-45 0 obj
+% 'R47': class PDFDictionary 
+47 0 obj
 << /Ascent 928
  /CapHeight 1166
  /Descent -235
@@ -814,15 +852,15 @@ endobj
  1680
  1166 ]
  /FontFamily (DejaVu Sans)
- /FontFile2 46 0 R
+ /FontFile2 48 0 R
  /FontName /AAJHFI+DejaVuSans
  /ItalicAngle 0
  /StemH 80
  /StemV 80
  /Type /FontDescriptor >>
 endobj
-% 'R46': class PDFStream 
-46 0 obj
+% 'R48': class PDFStream 
+48 0 obj
 << /Filter /FlateDecode
  /Length 5851
  /Length1 7780 >>
@@ -849,8 +887,8 @@ xE¿À^pR¿	çé8fACeà7àºà|/‡≈£≥˘ã«·≈5“—ﬂÑ¯—Ÿv'µ•ﬂÑ‡àÄj‡∞ÄÁ‘¯µÄC≈+ÒÉ≈p
 ò0ﬁÀ'ƒ¿¯$7ÔÖqn∏M¿ÿS£‹ [€†‡8‹2l£‹<“«oˆ√»>“#Üª˘ª”√›0L@æÄ°C¸|hÏÂC¸08œ‡ÉΩêg¿†d»uCŒMœpìŸYœvCñh|†h–?˙ıÒ~≈–7”«˚Ü ”}2Bºœ-êÇﬁ!É˜ˆ@»ÄtAΩ<êÜv¶˘ µR⁄ MH.Ü$7$‚&
 HhÉûèôx=ä!g*N@,VäçáÄ øÄ>|¡'¿B[≠ÆO1ò‹ÆXÓ‡¬∑]±`–Ω†	PÒ5UÄ‚π$|(!Ä• 0*x9 ‘D ç–‚ä«iøˇ?Ú=ÄˇÒóÙü…°“endstream
 endobj
-% 'R47': class PDFStream 
-47 0 obj
+% 'R49': class PDFStream 
+49 0 obj
 << /Filter /FlateDecode
  /Length 338 >>
 stream
@@ -858,7 +896,7 @@ xú]íMnÉ0Ö˜ú¬ÀtÅIçÑê™t√¢?*Ìå=§H≈XÜ,∏}çﬂ(ïj	§èô7„«Lziû;,"}˜ìni˝`çßy∫yM¢£Î`ô
 "ÂËàÿtAE§≤ ï†Ëô‹·“ ÖLÓ–Årêq›D Ó–„ûèëdÜXÇø¢¡_í˝)˚„*ÏØ±?tóÏè´∞?b¯í˝q¯;®8û¡6§m£Ó†oﬁá·«µãSﬂÊ=X∫o¶õ‹¶äœ/Œ8∏¸endstream
 endobj
 % 'F3': class PDFType1Font 
-48 0 obj
+50 0 obj
 % Font Helvetica-Oblique
 << /BaseFont /Helvetica-Oblique
  /Encoding /WinAnsiEncoding
@@ -867,34 +905,34 @@ endobj
  /Type /Font >>
 endobj
 % 'Page6': class PDFPage 
-49 0 obj
+51 0 obj
 % Page dictionary
-<< /Contents 94 0 R
+<< /Contents 93 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 88 0 R
+ /Parent 87 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
  /ImageB
  /ImageC
  /ImageI ]
- /XObject << /FormXob.pdfrw_41 41 0 R >> >>
+ /XObject << /FormXob.pdfrw_43 43 0 R >> >>
  /Rotate 0
  /Trans <<  >>
  /Type /Page >>
 endobj
 % 'Page7': class PDFPage 
-50 0 obj
+52 0 obj
 % Page dictionary
-<< /Contents 95 0 R
+<< /Contents 94 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 88 0 R
+ /Parent 87 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -906,14 +944,14 @@ endobj
  /Type /Page >>
 endobj
 % 'Page8': class PDFPage 
-51 0 obj
+53 0 obj
 % Page dictionary
-<< /Contents 96 0 R
+<< /Contents 95 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 88 0 R
+ /Parent 87 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -925,7 +963,7 @@ endobj
  /Type /Page >>
 endobj
 % 'FormXob.83fd8e1620ec0e67b825b45f6fb2e006': class PDFImageXObject 
-52 0 obj
+54 0 obj
 << /BitsPerComponent 8
  /ColorSpace /DeviceRGB
  /Filter [ /ASCII85Decode
@@ -939,7 +977,7 @@ stream
 Gb"0W$[bq8Sc<]`g?$)VMUE[ub,Qjr.>$=j]KjgDU'ML1)b'!!)@J)u<`j5`"]5WX)PmfV:i(iNU/]`RMUg.7FAZp*<"q_dKS#j25pufWn,GLD17??<PK>iV46N$Xqit6Q3G0u%GmrcW\NE@b!!'eTFm@K(NW9%ZOC'DD!!!!Z7KESk!6?l%(]XP$N`!Rl!!%%u!X8W)OCJtY!!%NhUOW@F!9=t#$ig8Ma!b<q!!##K!<W<%aK_0JYY?Dal9l>Q`\",fVaJS'.Z;FkP3ik^!!$Z^TR`;n6opWu(7-s+gRG3BVW`V8h>dNUE*-/Q+ADr"^;2>60ZDg#^R<mj!!!"cAQ-B<9oA:VXP<ss\R/4X,^MPa-+3_O!!!!"<[Y#sUIQ[o,KWudj$h0C1\E3.-<dRX=Q7@+"TSN.MOJD`M]Vn`YW1t9?#0ND!!)hk7Kk@9+^1#f'\t\cH[Jm19)nql>ZR&p+B*0KZCAh5*gP&SO8tBMpYUHbH76l$fsA*HeC^?UHi!L*?ajq/a@@p+7kor/Y]T-XoT(_ZbcI2QZ&F1n@d!ZHbh*Z:Up?@f/?J4O!!jA390DIDZC/(X=gM_"*BQ0;2so8&@uUiJOsNbIp?\3d)gQ57J,ofW"oJ&_f+)9c>/9!DqsDC_)eYEDq2W`2!&YC'@PrJS?,pOH?8X<Bk/$1/=hKm+bkV,+O+5YS;9mbpQGj@:&A_-P!7V8XXBM$6St)L)+di&H!Iu([qE+GuTgM2&%]s*Q^00!rET;?9k!bT*3g=6[jf2=]$4@4d$dFZl55H\qAMYuIVVic7;7(R92G'='1(!9tXZLh!jQI7UAVcSjaA^<_X096`c^m;IB:7lD@n,?(\hGj+[!D)r^&+[rDG#;Oa8p5Ff<68XG-&ethJU/]"gLF3T%Lf-IrhAn_hQ@$099^IZtPS)&m68;8k4p`2'4NX.M=q/!nOesgK.a12=dFn\`Ap5)`Pq0K@rqokl4@ejiWjNZq3Ju1e-Qh+`\9%bEaa;GiOeI/!pib5(<,(\M,)b#>\13!2)fE(9iCBJcPrX7#lS>mBtQiYLg=+k=4(#g&b;S<4$A'4nR8edCd=J\(hVj!3`h]RD<I+Fk4Wr,>BmHjh]_073[/78>@s_lHjOqRl?s!EFS8?m+AQf<K+lAZZ"_b'B$\3+#NB+]UHB>m[Dm.;8CC]'Ab;9_]SkcmXG*(a3ch\g9dh^B^S(\kbF+U22]&>).)p!c'pY]gEs\G*Na0*\bRA1GihA)=MW/\Z<")2R:horjqZ,'NN=$WDHur(h4p#fGKlLCn#"e?(AW50T@CO-msb!moA\N6Di^tTs+;XmRM>SaaCc2@!2u$uhmnlO,15;PL+*t14*Q_Ac"%W$ddH1)!?4.GE:e&&[V_5BD!]VF@.UVdWn<@Dq7Q=^cVJ\NI:D@omHB-0/r8@AotrnhXK5)F$J<Rj1LjKTSfSd7ki$%k2f=Rl5;Z+$Kbn'O^7]atAAGZjfjZ#/G4"!?@?Q(Yo<;mWMLD6j?T$a&G`=O[.e^iF(9kmTQj6-JR#udUM'jLVDnPU0;pR@<fT890S4<S^J/V#WSX[,7m[0`E"jHnUJ,%uX@s@#0>/6<8:7;S<E9p6:I0<K+>./5bftS<U4;IU6ELeKA%_Kel+pBN37u@^kddp-G?S.F!ns%eo9:6U#khSe*2/Cc2mLC'f@,/83k/P&Zo1XR)9UIY[WkFUCp?[Y&XZ"C_h7Im/cN[HJ^]:#s&qB)1Q'K=*n]55K=CemBAG;_k^BH1=-EgAddMK-D6\c.?p)(e,SAZ^L4Rki+p9[rT'eg:_l%t^Af<1*]MJ5.T'X5Z:7!=2$bEjl#e>SKYFj6C7O7'T=9c3V>Oe7DDG;=X>d7:(Z"lZ6`W1\YA5`I&gc8E@OcT:Bn\7<<`J*EH[n)cQRjFF'T;prn,h7Im#VjjS@D;)Aj"Y>gReZ)Vhb>T.[1`8%t?ul2?X%WlQp?gVZR$b?=SLs7EZ7B;r-VcL.*j(H"OoH6lgiJOe@FglCA3OCU"`3Ya^#o$K*BOT8$:^$q)>aCi'Xuk<9C0K&&KcDiJU-62cTIDY+o:elMA_:KUIJ+rneMB;!,<eD7ZYV>IaPLYi\o)LhoLX1_sc9b-Z]'W=`0fmB?m%2n)D8+G+&B!Sih:=jOCq*<R67j>/8Qs85m<5j#(`0GgW6SEA*fg:p"*>5'jeO6tCRd"Y?tN1ifU+gciH3)`M)DaX)'Z:-US-U=o[WEokI-R>I&I.c[sEQ'R`)<T\YfEu-B0&<.:H&Gu&1q`e@qG+M1CS6_5%MZO(_5^G)rn3ZcS9u%DV0E;+$=LDmDgcf;Bp*a;K!$i<4#MQ\-j5=0F$-o2o!<<,\(^1<J!$K<1?iU0,3CX#O!!((p$5`aC5`S^W!!!">Muj1`!0C\)0E;*'*2A#b!!)'s"UkA2+NGm<!!!!Z7KESk!6?l%(]XP$N`!Rl!!%%u!X8W)OCJtY!!%NhUOW@F!9=t#$ig8Ma!b<q!!##K!<W<%a>"#=!!#9E;8</3!-4#""onXb@h^Ts!.Z&aJ,oWMj;8%/!!".^-t!#T!'*LL!rr>B0a\`tK\5XhUe\huYP0uRI$e'%rW*">MZO(_+Y`@&Bm?=';<GJ>?#cn3<tm>2?moC_&9O+c+_S3E*?X%jldjhFE?-SM"g#)@:8QrJeL\89WMDoR"*Z0HP]VaM"t"Xd@Kn<fYfaI%/<"j`Z=O:m$5`aGg@cPq42%o%Ele\^Ui'\q\%crTBF7j11U'"f<<\;+=P+pKbkNL)$X%Ihlpn5Vr.uXqYp?p#5!T#^_LVam!.hT:3GESTPpIO@Z>F@<)jO'Zp8^?+Q_@obrjd2PjEkhQ=Lsf`<s:-!p*6%s`73;:,8&D>U+]EYbb7nW(DJP'#di8\8]MnB$Vd*o\ubI?@KAQ:<!mrpJ@f@lkP">Tot`+cjUIr!*O4ol<:6H<XJjoeQi)<*<JHLhoU!(WY\JNjHP4SY/,rD(kegj;=C_i$Y::t2c,bD:"on[j>lcH[DO3b8;[-eLAATKt0iat-Ar7%/V8_O8H9t^e,!-]9;_Ep]HkgL4.Jd-4m`+:>)C]&78kLV"KQ)n@%g<@A!ptj?n[fpQCpe+pmG!n!')RrnD/B[04[;<g0jnu?F!:c<nR5E.gcrLuK_sJ$+3kUN4(bO$eLFS\,q:u[amo=o.:*#U7KEUA5[1uH^2D2B-GGWhp8]!qfHjC5X:&&0M^\sp".`m2GH1XErCHek<QE1nJApn^XR<$tnf^VF'H$t2!X8Wjf5In#.O^pD@b$tA'Zer*O-6SpD;SbDp?MnUp1p_)Bq&KFYh2nJCgSSC:>Rhe-YS;C=34#2(fcp@J)p/)(=PKHSE!^_94E!A@`Z]+^7p,Y5gUN7.UsimT?5`kZi'@>Q)ct>W14/YneI]>D#)6E\Q]G[QB/HZUOXZ9JQ8s!VD=B#0)hO@k`P+<3RU#:HH`Wu.@8OU107SsLQ(P+Q(nns0`&-f2:K3-!<W>c$KmQE5cmku!!&J)[5S]e#R(V:THphpN;A6U6idAi!6?l%(]XP$N`!Rl!!%%u!X8W)OCJtY!!%NhUOW@F!9=t#$io4pb9%,1Qh):QFQ8\5-t!#T^St9?$<T"&/Y>nU!!%IHY7MDP@#eGTUOW@Fr2*dD-t'k2[sUXG!s&*j]g>Q2JiR`EMuj1`n=+`XTR[2eh!u<d$io4pkcaQ_R"]+T\5OYfQK4<gVu9nY@dd?V8QjR[J+B!W:Fs9XN,4cZYEQIAnDfh\-t!#dE8UZ'S9']14^*;YmTd<b)V%)1(L+[aqnn($^[]KV>=TNf6k*TFs5:/SY,H*MW\Pp)<2ibkDN9![iW,hrdU8)>5,3W/5erchf!_\CqeZ(67g`APQK<&dRp\k<)_'C)<GbQ4*rLo/SZ]e,^d<_V"on[:$J9q6[Y%".;SZTNfkbRhq=g8)OiKEU<:392>hLVO,4360-).7u0lugbX8T=Kn4*!H7;l.QjCC^/I-M"ERh-fB/tme!(^1<J!mVLaZ8*:[=C-L5hMj*p7uteGIjo$#@39Riq=:FJPqR(/;I4aUb):Z:JUNLQXs1;O6qrK'Y):db@<:Nr:e<R0*T$u6qtT(`M&I,5nr6g-3ulEoA_cI+h>^UIW=u`M(;1;9Qmn=t^]K;n"onZ?.:B$$R1:QD$eVt/EntlDHag]%@YHXP+KJSugB.]7LW)$lc0K%7Z:QG+:oNT,\$Cn*O`W[G[CLZVR_<s^04;%([An$GX*P1Vm/BNHaQQ_PDV[oikj:Q=pjiJN!!*lb?q/nZo!cA6(9h)Vm&Ii"[ITHtLYGF54Rdl[*,0>UPXs]Gp4djHX09fgn4Ms28'r9aBgfZ_m:hCrF!;QK_R^+1Ad$NrVmtKdWi]J>Yi):,!C4Fh$eU%711Ndb!K6;EN;JM)Y%O@Ymp5(<k!l/TR<k_V8MPIel3Vlg\!t-1FcW?Q]4)/;HBH92_h?8L],K.io4T(TZDf)^S!AE<WfKhY63.H:$5`aG>dT%KgF!eB+L>^I(U+E7[&`&10?I-nYI<2trq]^..Ep:"o4;g,-YeM*%oKT#U9^(Qmn/aqnElC+=gMjhQr=JY?m]7.P6`?W&A9%[M9Ni4os-.==VY3mE<ue"a=(H;(L=V>+8;",SN<TOHdu,:qWW%rj`:=m;Htad-HK\XaU9cS?ZLYnRsb%.p1K$<U'8c.3)P"rXuloiDdRi"fZp&X:PnG/S2A@eOIFnS[]S>6HfZFI\X1E]TcD;"WqZT^r<5D^^lTB+n!=\`bl6k(@[Ws%IZp2JAZD(G@&A[H11i#(.;"9f139<446Bi($uFa7J+%jaEDGC*8n&1\47Ch6d/nLTOPG8.q,rfAYNR4W3QI^!))6ATb&(_#;9c<>j1?GIh.T.V$cTX;1C=ui_N#XWg1c#Lpr8<AVN(63Ojc@5o?G^dSW"V\]6=Bm+jD\7aGr&@VHp$K"b5=u)$LFo@FHQ;g=40p5C-;KO1/?2Sq#V;GDTM7e8F(r`NMQ0ft00Zmg.F'HA/#B"`rJi)$LFoiN9Sb718#1Abg@No*,\hcTh0o>tiq`oMTu&3IAAfJ!iFPa7fWtU0\uk@)3hlHq"-(?<FX0Y.,YlDe,l7.:B$-R53og7inp*SOL3gY+0g<*'EH:HN>0bY7MDP@#eGTUOXL@]_J4Cn"./#HiA<&4*(7D]=#dc]6?ocL:2:ph/njOC(gk2oa3tc$g+t\ZT;*Gk*TI7C#MDCdjM'^q!lDuYl$Crm#bHm)E?*8o+l-7C,tlZ3IKK&G6%^=N%JGY$ZkLb_khD?fJ,HN7G"\_fjupHJ=XN(`<n\B5h8u<ZI99LgD@W[]Z$C$[7L]*a>"#=o"t%`11Z3d>FWWDHC&>QVLt9`<j,hqIE^3Op?gt`-^1V]/!KSNQ`n-o0JrjG<tm@LKdfrP11aKk+7%KPSpi_q-^s=3$<X=m?9<>;(RkF*KEMGeH""o6\c7-G&BVTXQ9Af"jN))=B=)TLh>+Qq<QYOt?>SfXaRO*E!.\l_^lT@e%1DU'JtIKAf3W7-b`,Ti^=s]XT8'=OVLY'Q"ono2$5i?NJ,t3b9`<-fm7+=W:$i.i7.7j*Vk2PS]:'O=Ye][_bf#Dmg+tSCI_3T[!<=17J0?T<m@3@6<f0Sf;bp,NZ`qeO^07YB^9WOR8$Bk$b1sPUW0'cD-l6,rY>Gc0cp.V!?Kfc]*4tAH%gdUN3IB_Y$n$.f1WN6^Oi@J6P[?i,q!jF4'tjVJ)CT"7$WgY;rMH9=Lcm$Mclq/1Q7gGS\VC^M8Qf,u:9s/cY@Qinq;1jVa,\:I[r*c.5O;*\!'j7T^lT@9[?<C_ZpS@TH:Z]H_):(?<Dm9Z:))lL0C8"HmMnHJl\?S)BrB)QrEl\T!WZtq!f"A7XI3nWTH0b]SpoD]3Sh9SB$WM_clP^nHa-+?\kMcP"jGK#7&?`#elgNFi=>qX'EnnjTlFSq[S8hOY"YElH/5;;47$k*TgR;RP<XN/>]WUs'9N:q4@K9<?Dq4<55S#87'>n4.h*ELh2<42g-`q&GbCMGS*FPlR&OKoJ6\du+YS61C\`+P`6k?V:EM[S`8%m@4b!-C]-FVgeDF4*J-luE\F8?AHO9&Oo'sb@h0!nXe]e!Ls4IMF5Q&m;9E9T8'JR%8f.K.K4KA)D_ffLH_hYX@!.aqp?uY#cc#WO2g*&fBk*t`@XT/?n;8D,(FmGiKF6sM^Z%'O%7+&Ymg,T/KE>1+:mk914oIABFhL=3#5PFWfg,T/KAJ?i.DoiW=4_nSGa:N\>,lk_>'JR%8d3@i2><>6OI/'D+8Smj%m2Q,a/.*6LpRC&2^OFl[_PVg44/4t>^`O7E\8T@q))OlG7+f0LY.^^n_1UH%!5M;C0Xu&D'H&c#4%'A1FH_rRBSQQf2c7BK^3f:18X$MKK[B#7Eore6b6e5uTRak,_hZE&%r$e)Vlj<:c5c3_!8nt,(u/1t/<;rk*?q#rb2iKloBSI"!0@j.0Y"<b8ES7M%M;kb43E-Yg*$I32&%aSY=B-!rU7-]K\#/%d\;F84/SPN!1Z@VKDR]PP,1gZ6\Lc)?D`7@)?p32%L!:/CXYaRY1*pnAd]An0hhZ;('P-7]BCGA^KruiR!nXm4VYZ49KNIZ\:XhepGHY/>IS@&#e;s:m$&1a!09sli4f'\\ZU$k*Bn9eAR2uQ3sPaFJcZ/NST'0#3MIN<r(9TJ`JFQp?D)hbEF4):FmEdtE5KGDp@@#-^8me,!*hbiKB#/o<#RU?%cN;ePGNbYm199U!X]ba[rn`7#ToYj]@XLE%mSRh!<Af`!JBF`XclC2eILQ"dA(9o&FC#/&:,$E3:=3+Uj[UW&.\O2A*MQ=%NNj@!<D(J!JBE=ITa7(d15-$Jc`)K"9>ht!JBF(IpRHpe.1H'WDdBl;!eeo&8i193,\_C.4WaUiKgleV-,VA&-*8Z'JMLa`XE_A83;K/NZF>4:R<Y;ZuZ44Lf(tG\7sE&`!G`AcFMsFR5n2-"9=)l"UpE\0Yr4S>P%#NY?op+!$K3.?uXnW&U#B9]_0AoEloh9@1rXH7KJ/%"q@knJ\cE0>Ka<`g*$G=X=.Iq>Z$X>?O"i9)eZnc!*Q"G_/VVbg8VmG\RitN7PFg-<[_?p>aI'd144?7a:Wb9fI*;)k5^$/U4C("mG$C=6,F/GHEhf5!4"rmKB"St<7\2#%cO@S1[Tj'!.^N5JAH5"R`O'^g*%HDAW*)ls4B'n)upO6'JMML5m-rT;sb.aC=^U8)A3$H6PM46Y&7N*F@\KH]7pf\WDg2l!'p<U^u2Mn8*,C;ZpQfinR<pqcjg'ViBmWubP(@hqXq6`3:4K^3U%gd*<8nL'JR%5lW/?D5($@,@(1ah!,@)e#+)H!0,Ioi*PuqtVqNB3!!"lB!JAQrY*:h]ZpV?@m94ih,QOJa-t%#Id\YBkPBI5`*BRkG"5C+M3sPb=#mC_iqu,u[7h=tuH/O]Em&]s^J;d@@i3N1MV5QpH6ln&BgoHcb#QP,D$5d%AfOIfaX;rJqI.E,aEf(hsU7DAd6A#=DQTau&$m2Vm,!WGP/^'GoLB)kOTRajiP:"C7pLo?'&*([_0*"7L-t%#IW)5<]MKXgRY\]``#R1:M$j@%l)`1)tbg6i^+-%>GLOjmEM09@/#R:\R>h6*Nr8orl+nA++?M8J3!'g`:?uT9;hQggWG)3dcF/GK>$il@i$5d#K==?h.BSXYJ>IN05nW+^>c2dng5QQM\3d-b&r'`\85&&Tl?5aFV:`Tl[>h6QuXBVSC,+f8a.T<6[LB)i9TRajiB:gcF2f"2i-]8d66%O1b!!iT4(gPXrU$UL0*?q*q3$@%hbBr\lk5^%*UO^0lp$14&J6XQQOXmSrYJ/H1!<@[?!J@_=*L![T9fkcB1"FG]0N5jh!3&i2i2k6gPPXs[6fb*<hNLl6AOe!GUd5$6ZaO_7`f7AnjJshT7)&Z34ar>q`W5Q3"Ur]1Yea(-"VioN&\3A(D9FM7f^gKl+:h;ai2eeOUfAr4&:#hu*Kf*ba]W8u]QnZ1Z(XP`:Bggq-t%!p=d`N?V07[mQH>0.4aZOC\^RG/gM>EHd1S^9TRaj]M\f$I*nhe.>I?O:%j$sYm:>kQo"2r&frI\^fohP<!2,/M#%p*t[.Nad*?ssKfb+&AQdW4<gj3b$lZ_6+LWl9VZZH2?K`VHkc']dY#&&cWMB.hVFIDE*$CIf$Z0'B!?G1BI%KKJXWG6Ns?N:X\k4ekZ@G2ld@Rm6iX/9/a]*gC>-_JI/VoXuF3D0SW.bFe,BAJ'PN#AB2!lr:ILn$BJ*dGG4:\"b"DCs%tjX_;MW1\[W=eeL1PUY<0:a*CpEo&o?l,:#I.3CQfSG`KhVbt7fX<BrAqK2*9W"@Vo=^5bj>[>*.h'87<ZQ$^\^hFK:33.OYR6+J3"Cf%<St-_Zp"-6ifT@EP0X+>:a[mfZcp7\bZhj<VKaY:U+=k-Og!_)F^g.X.33.CMH1=>j&BN#<R<CnN!,r_X%*lHD$;RH+X"@QBPk_KsZiYb^-t%!pM\bm7>M:6^X_,iEV',lT;%t]DX(bMcZq3=^Z8Ha&9V&1(!W`-b!J@^R4&'nbcjkVC/RBt3"kk+"^b6BU3:"KrA`#]=&BNFR"*2g]p,`8aL]RcnnZs6Z"U0'2(]_(%!X:UNhf#uS+k3Aa[7>fLJ;Yg`E79gfp)#K:g=it.>Y"j6&HrS\g9etn"c6&;G0J59[UkA?%KPu>"Uo9plRb1/(rG^$47''D!8nh((u2K7R@OX+@5i\M]e1Q13/7P>2nf!\]bVm1mZUH-PZ-Ya&a^P<i%YQUgpD$oo]`+k!a]QrRVR3NE"<*\DONXgqY/SO!ABBNB>4G^/JKnKC&2oh1.42,]Wc4?h$=2bDP;Ts9iIq1kgA*-i.WCGlsX:oI%m/6!5(]#K:Bl>Oo+V!%KVX_l=EbH"9=3R^u2(u_ka(r3s7Z$F/GK>$ih86!J?jG%$3JjZpVVR>IN05nW+^>c2dp:Tn'sRIJ_19:MY`9GFCCqQ\GVC=&?]jVB.m2nRCksnBTCS13KU?#QX?&"Uo:[nk(>]dgcEIQo\MLTH+(64@9.%Rp*4_2/BQd^cMc28Ct#MJ%p.:!:U0r$uTh29K$_6%KT@2GFcFa'EC+D!X:S@DCjPNBnq5:B$HL5,4,pAi!g#1gf2&&I.itO#^C+I:-0d$OX&R?!5J[N0Y$@_?^%\-dLH;]Fm'r$]qcYM!'ELIK7aXTP^<#06birUVTIc4g*$I3!u*FKB\+kNfMFX4I'@Uc4h?\'nH":b"Ukmp]NNND><;ucEUh#R@YJt2!2qIV(`]o#SMY8f*<Q3W44\i]5fcg<i1Rj_765VA%KV'\=CF.?!C4_'^u1k39;Jdg3s>J$m$KpECu\"P)urec'JML[d3@i2><;t81O-,e*>/@hMuj1grT6&eYFftDpu\E>m"AaH&7uV13,$;?))OlG"FP:OLn,0.k>(Ca!0B>N(`YADMMrIM*<L[>.^GCq"G"jnJAFPGg`r"0Bnq52(+tj;Y1!j]!84,t_*Ptob<leSLOc#jn!B55ZJP[*S1%ca:iWa&p6^"/q!>TXluk&_#U]rr*)ol_oB0nEJBqiPZN$[#+IjifE);T:o)%<[LOd]om^2.D*]]sc!s#Vm!J?"cFcrRo[6q`Z*BMh5_#PU2-t%!jRl7QmV03.>Dq[$0.m<rd&-WIP]'(>@^Kru)r3p[@]e8BNA(ipCTZ/BfE);`FZ?<3k#irqC(X%[Ng*$Hh`[G56;#U6rGHZ/qjM]]Up'Ul;L&qPaST"WXa5r3o/*o_Z!!jMN(gQ[O(K.`FFpR0OZ"*J]Y`0U0Er\JM:r)"X:Ht*K%CAJFLB\9tVaCMNW)1:fR]Tf]628MC0>1mD"9X0NTn's:ldj1SQYM:@%NRQ=Vo7K';`b3ae,TX\Y'KClC#<5Y"ELQAaBfbt!5a?i#1pNcZ?5?**<NdZE1pN\STY8=Vu[5B>k@mbd^,ip#isS9rR/*Sgif1"qPn]Q!6>EL%'H!_hsQRm^=fh_*e)aJL!"e2)s/aQ";h:NY*h"3"qAuj!BmX#C,^j;HnlYZ!!F/C%'H!V9h()g%KUE_&-EJ['JR%/_?B`>6prqhFmgsWh.NpS!!'i#!J>/WN*ot6`;B$kl.&GP4&8IA[A*_P70/$V"q@knJH:U$q_B291bmJ"!'h8&%'D$/Z6qs?8U^,_h&"b;!IH'mkb<UD2*H<?WPF$@fHU\f)[-YQl-dOGL(@7A4d#g;:r)"Xp?h8/+G!3Sp.0Ao.YWR3ICa7JU)aM)^7^"m24%W!ldfd*5cB)0\NKbjo^=FB)bT_a11lIr?S5]6V&]qob:$b;9p6p0FfTZkKTdijVL"X3Anm\^A#>EW@V4mC!-jJ)#1k\F+J4+_*<P3/AW,@n=]f?]:ia](!3]88i0q6"jj51<&9%oQ9EO\a"Un-dH;mX!5s#3S`$plM4@K:';tfXEqXq6`^emeb$G\_;0K<Y0<dPBAi#hY`!q66p$r0s??7rf[3s>*SHR&XA%L!89=h.Ga[*]A7r".O+H/3W6qWlj4!/(jd$r0s:<'#0M%Y9#5Gd0)CCcB$/5YY(ji0<.!?@)7j%Y6_uDk<JAQ>G<QSHD-E:r)"Rq=CG]836tFca7D0o)(XtZuZ3Q%13rBo%7GM>c\qIH"lnaC"H)i*n8I9+<2e;E6:NYame9C+cr%N*Ks]GQ(C/#b:g8u!!iT4(n<?qP2(,>FpR.Z;nYj*1H!C@0`XbF:0"&ZO4I&/eAA.]11c>d#ir7C#OROBrZVMB*O^L7.>%iHN#C=mOPfcuYm9>cS#2_Y5bLuii08]hj>Xj$%Y;:%D4@)`@bs67)utSK!X>RpmOa>4Bnl\K?PTV]@lmC8!$jo4K2W*bA]YSP&AW:h^Fn?SS%iK4IWaqogAG72\[-,.Wr4^\9b]9@V.3$kb?qVD!'kZR9p1uaed_^T'JMMCH#m,t:-/RY<9MUO3ThB/q-)i0$5f:Rp=Z`sZZZTSaM;lCaeb?HdA,DUTS!:MV_i3<]67nD!.`9-(<Rk_BSV*J$5f:2YFZ^nTH+(61@sqGp7I>VGAHAl!X]e"EU9'?m;(E!!2(\,^0:dOe.)K_'JR&WZd5FrII.RG:_Wa"aVea4W`@b5OD>Oa\7=8O47sm"KZfQT9)J<e_`cmR^u14^)l-Umm197o6`,0t!bQ0and,I.mT?eb>.)cg!<>!dC6dTe\Sn*`%ce*'%.5MoP:Nid%KQQ4)*#taOH7%?!J<HL0:!YBZpOgY<d*r?;c::*Y'(<9#R(Y)Gku.=gK-H>!+bDX8*na,a:At=\7<f())+<;"9;uukYZ\HU?A,sc@K5nJAE6P,r0;(FpJ)HKr%H07Cj!Md`qmN;8D+MqsTk+A$eT'5jd?SZV6g`*<NsMJAE8$8'@,Gg*$HhG.):RCTh;U<p*>qi/SsJAGUE8&-,OBVjnrXp1T53^F3K/8,rQDGHQ)p!3!;Hc^"7^f+%h2;8D+M5(-u#6L><a:i!1:am.F1+lG!\(u3NP]=dp5FpJ)H[4YbGjd3AB^g@d0\DrGsAD&a*&-,OBCsUE0'JR%l714D,/aX)L:hp.<b,eb"+lG!\(u3NGWGL:a*<H4UD<+6U3`S6Er'^X=4&.k3G3mQc!<BP$^]Q?,P]d?-MZO*,S9UdpgSZ%n!,Cn&^QRScm1Ab'"UpFdl7;,K8NR%TGi?-H[21*?djSUC`2B5"K*L$Q!5Jsq]k"<9"K,,4i/%-aPOm)K%KQQ9=Lh=5\(2#iIo4#>L_VG99cNI2!8rQ*S*XkFE#JlgNqgL6Uha'!&-1XB:Ht-5Hq-7$r'^X=,G'3RMMec.!.Ym"r)19.FmTb0(Bk5-GiTGS3`J0D!-k;gIG)563s9q!!J;VGqGXs!?L8:(i/t@lQHbo,6bl2+0K<Oo0I\Hu%KQPNC"ZD8XO.LY+&Ti3Ljo<`f>#lH!<=/i.$.M:d1-1!;8D+GDV\jn@dO^,i0!JX?_2[H3s9q!!J;WN[?K3KdgcBY*Z6XsB$]$<!?Y1Si/%!NQ]2rl6NDX,7Z<FCe$MKX7hdX:ik+*5h7L'^!.[Qd:R87q[6q`"'JMN+lX.,"(BT++B$?>un'hgJ+&Ti3Jj"JAjHHu=!.]9bITlUAeIDU%;8D+ApYV<Ycd`L+!8^ka6ja=06bl2+0XtNP8nm*b3s5P.B>k3ldmcD%Hpe!f$d:gMYJ!su"9<[Zj$nB92r$h&K+%\U^H#BtJ5^X[[O6::>nf!&@/=s_1.42,!-m\j;>J3jZpVW!'JR%)i^=YK?988iGj=&@QMp]g6bk>h0Y$$g5ET=N69>;MGcF=Kfs4%."T1ReK*uS3?(QFA3s5P.W^R;@o1eT`n-]C.0"Cn,q4I]7%KQR$lI8Ck0%CF4^JM`(K(eSCq/Yj6!8sj5]k,S8m1Aap"Um#nhu\2u?0r1'i2Igt:`b*k3s>IJ!J:au2O%LZZpOhDVuG^@jQAbZ%KX=@^u0eX:66\jZpOhDVs_/m`f8FW!P_IH&:0ss-7>C`*<H5R`Y?lsUOXN[557Cg3Cc.6!-iA[I/1ShZpVV^'JP3slIF=_Q$*E5n60P*FR,eE!e-hn+nYd/8%Ib#m199U[F\`KG3uY(^b6BUK\h:aEm$&g+TT;n)`C6nB%eEd(CD!Gn%\ipIf*^C&-1Xr?+]1I;mf!.0,-*n*bT3iE73^_o$))fLO`_[?jOI)_r[SIZpOhD&&.]gq>>=$&F]i,%&):f^HD%>FpJ*;_3nrY[Va_Ai!Tl/6Eb#tH2`*V&-1X@k0<"i\$SN<(DJQV?AB$]lDrV^!5Jh@?S-d,ZZZWLJc^\R]C8.4k8iq$!8rJKDj9FVdgcCc:r!WgN>fpaS_>4e^]tk>l7ND\6LUE$ZmTVkJ9s9!gKbLIK\P[^gXEM1^e#1eb4tM\+lE_8(rC.5(2;2b3s5QYj3^BYhu?tD"FNK96b'7$,;!,7LB%=(4S=roHE22ppjrR%E-qCl.4EOQ!<E+$]NDahf+%gg:r!W[$PuF-52%.[^`Uad9DeG:+lE_8(rGZA^QRScm199UO*BHc;]W_D'JP3pjN0/hN-5I,nAihFG,dp>L]W<M]DHJkn3QFQ!8rnk^6!j@-g_K7"U,=np;7upj,[u2!!(pSo0:F7KA%L,4UN%CX]I1Oh=%^<!.]"53((,mf+%iM;8<`\='d?UqnLi.!5LO[>U"[rX*+bnNrk&T]D,i\qeb^3!8s=sY)oqEm1Ab."Us@5g1dj&LNWq'n4h6#o)/+5+lL$p<K/%_>!!<m'6WW`TgRNW!5LP&h_%\gW>u&s@ga,?m(`Y$=&1m\!;Pf]]B%q+[6q`V'JP3m7it=_`nDSNA`aZSrFWV-:@0#$!pcaKQ$_uM%KZ#q^^ssn^*tX;BSXZ8O1s')pk?X.SfnoXZX;i!!)ufn,/].LLOf+I?jO#%rCK%oeddh=dk?sU&&^-6m7o\;Cc7(MM"0e<9>>r0+lGKj(ddSWBB5qZZpW?q^gYZu<OrF>5n$#T(LE3hYLa6bmnpk3@^B[g^k(2_C;s5VJJmoM\F!&%mM8%9!!p;MbG7K1m1Ab."UlP4AW$EKIqjbC](M3/Y*&fQAObtN;N?7BmWQg+l"hS)!Z/p^lds<K(MSYTpF'DTYn83kg,.UkF6?2kB'$Krq_B291pM@>`:pMp"nn&TXBjT8IK@M[4*J^0Ve_'<pF'DTYlOr;p2%_BJ)D,`c=JHV7f-<>S*Y51[5@I2C5s89i22#%6iQ!CdgcEI;8<`P]mIqs79XUnFHh1AMHmp\WQhGm$innH!bQ0agd2$/Lg>G:/7#:Hc8YKac951aR7"iAr,_`!>kHT1'JP3mV3f?Y[CLck;nYj*;oBhf5^p9-,'t_%gd2$/Ln/O?Cu:iEp\`k_G3>V]%LE7.8;@[u1((OF!eq90q/I#0>\4MZ&!#A6=U?3-Y.rgg`sT:P^^sO,5;T681HXhhd!YRMm0!Feeut^Z+;*Bq!CKt+hemX(qCF[m7(5@/^K(!k@"@9l%C;D^L0H'6#ck@Km6UMR9/DuNOO:lEQed"lr:Ho@+lG'^(rC%P;EG=V[N9cn-N$PpIj3ME5VDMA0+rA$Y:qi:7!(,u=V!_JGMT)9!Zn+e+flG2Z4jLo7,dlWd5#jfPV,nJ9E?q,bU%?b^eITg.C\3;*<I:WJ0D"+caK/ab1NB!o4%\s3Z-eJkF\*48lIsl2\[s!e[0&a@b_jET4X6NT+o?_AS#mNcEDU"T2EB8<r_uf11a(4O"L3j9`DT+BnD$K"ut_JJ!EYZd1-2<;8<`D!scuM=W'EsZjV8@&k$gq^`>G'FU'or!CKuFFH\iY9I:;:=X5:LrD""ocC]1YjGSWqje)QU3s7Z8!CKt3mOWka;^N%QQga_j,m4jYh(\L15\U)E5KO^KBSV,)-t!=](+nUl2lhAVe^k&rqEY.uDFu$.)E!\K41.Gk9,'(5<TD*id7;_NlGBtiL_=0=0H_>f]MRI17lpjd6ifYWeZ1&&%]"SFl[mn[#ram^&-D7RbOXcK+lFXR(ddK6+fS\Tg.,#U1.2?LK!'HE=hIiu"M@,'6R_?S+fClsrZUWUX:[K1&88Q0.Si4(*<KQAJ0C06ITnG=36h<1oBkN2W"D'-&7#87n+,\;g*,B#$5c+oJ,`TQ]J@`XVOkj=*=N4Pn`+3?7-tQT&d8];oXj!PY?n2/QHZ_"Y9H&M0Hc/mH:Wc$f+%g7;8<`8O$>6]r*cUjH$J9kDpcCO^j4oGl/,i0"M@,'6RY+mT\Os>dP[5<DD/\_>.X,;RJDMZ#QR`J4XW2FW#YqGU4=DO`f-&%PEW.Xl]#!"'M+;!g*$Gar;"ZZp!qb>i$A^I6E.IsIeBb[`?Xi:6-2'E+WKG`YZHeeT^T"lUj7%K&F^;9%&)1KO"=P'\@Cj!\W>aaVQFCe0^TE:T%g\Jc9,#e"M@,'6RWZ`aNH4a0#"u>m\AhH;nu'9"/+fJcfJBgdLH:2;8<`8/R-Ad20$f3B$0$D.V\Imkni'EOoTTOo:'dqY]^:sL&r-(s7h?`(>A5n;ttdk[r9\_[VUe)p2:'#"ShIdO1t>GHiOLK4]Q[mdLH<(:r!.7XNYR'2W'/M>E*d_r`aPuHr]?8XqE&Lb^@8KCNnH3117')G[*<>O?]0kP78J<6bkJlYX"[=<Ecf9hZIKU,LWTUrN>2M@CmsP62c;TH'8);g6_&3VMWhbK0BM7Y?a58m5=8Bn-fIOcu-A0:,cq%#L!YW-?n?W^['O_;]7Mc>^T8gCD.j-U4'-/9lf-Dg1^Q]FR(9MV:m*N)%'K=2/F\A=530Ee+!:Xmg@os7kTamSSH$fAF+^oBok`dgXm_ZGjP`#OSKmZl4+/'E,F5MB:j$ZR-t(1msfM=b3o[DI8r=MLg/I/AsFc8a)j#a_uP$la:Ob'>rr0O6NIRt\T?liNpl$bhp(Q(Qoj2sD^^KU*BsM9o^!I)N%5GCdsVa!K6,]j$$]n634Y(ZrU->/"kSfa,es8R]j\YT-pX,crm>$BbLuTDq/1(#GiB%oh`l!]'<]^p@-j!Y4Rhs7bCBGFFpN>I!Z#%->[e3D1X(&a4"r;_fAsD^kFmZAq!be)II>HQJsp).,Z$"P5;#1uTlp]dL&r,eJ,d-NFHV%IV7g`[S(hOH0V$W<q<cs/fFED_(n()r7M=4tI1P&,okqB?3sQ<dM\\nQhV'.2)%'J2Q'U.I*CcIOJN<V;i5XieF6CS.QN-fbfEM:YW"B-bH?b0LeBWN2)ZVY$FK'BIU`BN.Tn!<rq!n&.eQk>u+/j3;^pq!:Em$&??pX,\j_=OQXkW9.PL!in(m(.Ehinm[-_J;''X3+FgZ0*Y5tk)6-81(4@+SX.J,EgCJehGM49N76"u.5F>IN2-i5-3CYTQP#kUZ@g0NEr7I46-?euDaGkm>E/EjhNh*=fUH:4%X2F&i:_mGBSSrjHtUG_Q886qL1$N1L`_.e0l9KbGWU3Cc:.+F:6k&=N,hc836pbZOtBoSme1dA,D=i!g#q&1*nB.lo8LStm$L7Ag=4SJ+e`cT[9D]<H-ih]4_nS/":%hu0_EhQ7e"hOoB&;:;H4UD)\R8NQNmFCP.f3H@M_3$EHrc;YYM+1(/5n]j@+2K%"S!H1fMJgfm&+/>0We<B1WO#am%jK;d.=!tb_7h4Ds3QE14TMh7;Z=8N2#^Ct'(-('X`taP*B";'FVr@G/>OIDnhj"R%Lu,cD+W1lJq)R@dp.,6c@A,5TU)a<lTR[3k1XF,O2^DaAQCG:.DFh#?1t?VR/71$sgIL_gG\[fH)QN4P:qGL/L#86]Za?J->5IrXVk;NM!H1fM!b_:IR6!5$.^M7r)MgC0I&p"i,l&prgoSb_s7mbIrqbildk42_:q3M)&A->tGt/`.8NR9@@s?cY1RKiA&JVIbC"l\2b*&q`bM0%fo%1<Cp1qA6jHFW]mEp7pY^C$iR&OMkN1!9BjFsjKAb'C!&F]l-/6MoA%m/+/q4>Q/T7-U\m+6RJ(Vc'(r$6TL?'$b;ca(/0YO*p.?"I[1Saj45+M]ARVTFW+g*,A`$<XN3]8\>cp+`0CAII/cnM5)njQ;9gp)n`*Q>'^'K:+&emgT%0S25N#$lGWX!oBT#"\Z6nH)3MfbYQb1jd"s60olb],1EG[DDD4rWYOo2L#84XVkj7Ugf$9_OGRVBQ1'303s<2^!=P3.cZ;d$Nhi:&3R9EMk<en0/-#S*Odf%\$4f#.=??O[X]JhkJcb<Nn-0%I=K7qV/'TVRI`c2uY8kdkG3u]bBlLQf&\N8;V:l6+o[^++Q7]L3^`*ul!6K2_qkWiEq^drAmW13,Id>RjEi&U#S>S@@%3D#4W'.6q#d2FAeLua\Y>E"9,f?ZG-G<<QT/+(5A'ukrHLKX1jo+quIg6D,q*i)]#=_LRG1UD_!)hL^=6eDh%KUKE^]NRe5E]CQZMK?Ea-]BZd#[V;W9TbjQq.#@jHF0$*qS8)=8Mr'a@iuX9@"gL&3q^Ps13URV03,hJ-$K/QWt`8=',DUo,.)?*4k3<]mjRYb[3Ho0;%:=e_''Z667odbg\<hLq`I$q=IVQ&F]Z'/1CMsG<+o`N;d*m*b-7**hOsNT5<`gBo0HGbBL]?\bWF_5/.p)>J"\;mRSI>RPpF*S$YPu!u.u4-nVR;ai3D)k4,u[E23/gbgOLjEkX]iEn[:/f,1.;$[Jq$8,JJS"A?^j8-h9a=AXquDnl3pE:&U6^jc+Li,$("R^?jCrnHTG5MlXC^r-omS85<nQX8)M!=r#BJtb^R[;*(ZXEJ?i;9RjV@#Ggo[r1?C9q(tT/jKglBLT/\I'`bE\(W"`!=DpOeF]uJbRYPk[@//fjmQVc^](Y5lY$4oh=LPl(SIcLIC0^g;8pNFX']RrJ-RK1JWRj-N>\<C=_flXZ-hGB+\PF<fJ)pSmPk%=/jP"Xc#PSa*Dik8UZ;G_&+r2J:r!,UMlFBFS2@<jZC'>r_b%bOFRQp6e";Z6:F?"`\$l?839N&Bi"t)jJ>lIYj@JYLn,NVC&@.\Y5/V++CF>%^m5(7j5>+A!as2sPe'#5P#L`J*'f'lqFpR0>=gMY3It,QaG:6jMON$<%1V@[;m::Ed7isAk=]?YB4]VMhI!^:73h:W?c2G%;+J15j."1r*LO]UX@/@<MQ\GsUH(oSMH*3bXStEW-AYa*Cq84<"]A0mI#;TZoR&OMENgF+=/mYhO^]P9)IEt##2r'M>'@!l-F8^2J<]`=JHWEVi[./>V-]jaiU[7D>5f)a9d]/RU#^@I/"`.+/LH<HjkAGV?i#"Z5*`SO2o.9Lg]Q2kSo%n^255*?s6Ru3=Qn`*jJ,oa)]Blh=Y.<]edndaVo#n5OrqbX6iX$8F4SIE;0>-eklIDs8p:%ebR<D=9Zdq7Y4OQ@K4Nfk=]RkDLo4mDF]6*;sdjndPmBq(7]BZDs!r.V&r1W`Fkl(8;giGXW*7,:N!bUcMn`CS"O^HhNQ*R]3SnO^,Ssre"1e;[&g:5.&Y?jB`h:sn]bjki@%es"G%NdkS^_3L:M)oeE`*1aSa]b7M):l"kns!(#q!/[*<_'oT`RM%o2m=`:];GJ#FRmQ4>FYUFLJpsq8Yri'If2*=YJ0kufZ%M!Qo@7'!0CF8r:?pS".d2X=e"s8dI#[iqgZ/:IK:rNY1'(T;rVWo!!"s#lddXnKc<2/rs5KD7CRRh048K,!WW4R:/39>HF;H.<[[8M4P$g([B*pkCK\j7+Ks>%WMDmMl)OP6@)3gVf!:ULXCWu!=j,Mmegd]E=cgH>9\-M8[B*pkCK\j79\-5DQj9_T#N,i.0NlS&f!:ULXCWu!1KbYpks*\DIeGR_[A4u]WCTH-;NZi9RB-js@(&[*AWB`X,?<ksPrV`RN`;DkQ1KSfR&%kEWA6uDb`OArUrj[V1.NhW"`lAM\Zq:%arFoV3Q<OiN)f!WX3<;!R1&.ZKbT0-3Q<OiN)f!WX3<;!R:E<Ra&lo5Z1:^F4*E;4<gdI!1<3L.Nj6_HA!K'o.W^O`zzzzzJ;Yn[gg-hf<'*]kPnmH7ZoNc)8p"U<6c3$&@"5*lX.$!Xa,mPuU%47PFL2mce=qF$)67jgrjJgH/B4]ulj+XS]]]f(Fo5mR\@=MqJ2(^dQ'RYqP5XueLPE'+A^dN6T-qW.,F_;_4*6;W29ArHPqXD@<D%F&@fL#a=Cn/4r0JR:<GO<6`uq6X>$U`mh@*S1+sY*0A\sCk)&^FDXjZ2=,pgMbs7Bp)P)CCn`[[h;^XeHUXK%W6^DO#Q`Vok'(<:>pA5&b]%[8Y\.@K_1"2e5@YMsIR`[VER%V>^8_noNP<]LSI<I2\UUSKk]*#P_knRp39Oah[ID]^(=fOZHIpVY"DV&0(H&S%(q`Eu[-UVU'/<^%"uJ,(m$eVG2-;9E";A4NC^8SRup`[VXe^BkdYg.PIUO8lbm\mZB)D#n.n@T4>r,`G_m.f]'PXHG'jS6F1P^)<trOca(R;Fs!TKX%OHbQ'@u[28e2/UfWrj<*QLfa;_K<#N'-&r)(EW`Jb:3Q<PJ`&"V7X%`#(Q!WJ-lAS_hr#YK4RM-QJ`YVX8en!-*8psYhA!KprB,*.%a&W+`0ilh^:>3NdV,Fk+5(bYRo6dVbiLEcbapSphU;UqDj=n/;Z*W^@bSA$g<Ddn?l;[cIA?6E^N`C0@(p!;gpDG\d$"A@dWrA3EYt??(>l7i,.q-^5`X2\Gzzzzz!!(*krs)G!1V`~>endstream
 endobj
 % 'FormXob.97b39654fa60215725ec05e08043eacf': class PDFImageXObject 
-53 0 obj
+55 0 obj
 << /BitsPerComponent 8
  /ColorSpace /DeviceRGB
  /Filter [ /ASCII85Decode
@@ -953,28 +991,28 @@ stream
 Gb"-6GEa(9T'sjP47A_aB6WgTDsoc#B4hH*fRX(CJCn:t@;l9Y0LDW?#U^c%mj'W/@51)n,Qu2h>OB*_e_[q'0(6LJ^8ektpP[+oW[uoT6EP-^pn$qGAS";B7V9*g;nn-ILs%HbnhSA&@Q;$jnk60\IG*/;?Zs]UQX>+8YHPRtb3Q7@qM$N'\Inc*CN'(BFZ1QFk'+b^/'->uHj0<!RkDJL`lkR]m:BAVE9WY&q:2[Pqp-dqrT+dGr:9Doro<RMs5UDcIrX.A^UOu*,rSq^NW4"o28?f`gAh*DDgliZop9"`gWQb1na^I6\q2scqGUb,^\5T.?Zl=NW,+9fbIC3\q>^3A9>LA<mT3IrJ*Brl>^#dY08KS0iCd;6s43[=s5:++g]TSH*0&)UapH2mSIKu(kZc)H69]lfq:GZGT>*k=?X<Jc?d[Or^?d?G:iXK&63i0*E$]rc=5@i[e`bF6]*9-:dTM/YO>qVKlBo<l+!`1O0n0;a>XaX\6uH`0]J6RUH+-Y:Y/ZN`H@e+XGaGJ*8%TJul>guripKq(@u\acPmcKS`-VYHlC-VI+4V+XS_`0gN5ru:(@j;,!^$LTR@'M8R$pC6StDDLIUWM,Eor/!fh=Q6/=njt*^:G^>L:j`*',__rYSG%#Cdfq:X4Uk'6CnX=mt"M-T'ok::e8m8QT<:jTgj!SN^SNDk-Y0gEDP(2!l<QJK80C5<998@$('pkBV[)ZYs[")k-I'V]p;>oC!/_\0I?u$XWt#s$/pM-d[9LjSpciO+7]tlPlJdND4cic1D,c.(cIDhuqaNSFhO_]m'^-,+NK)m>iu<_+*=.K+Uo!3(2L;RduG4q8]B8j"l7CRGc"7ng*qI9E;M^:&?(78ic.RLOu?U1uZ>V?p"4.Che9.DVNXdbaiMiroVsVHb^jZ4a1cSpg]P2n)%a?^-A2p^ulZ@p"5#'NO/js'45G8M_'7\9d"Qa'HWt%0@l1UN0=nG[)>!MEQh"Fo2=cG@$rO9WANe\P0E<d/]JP\D3%j;[NNu+,j*.9B+<UMbRH4fXgC+>H)=(\>NSEmAlCT4%l6=9fn;K/n,R#EEdt1f^]rlV"SYaDe*b6DdDp0^=r2>56LINYD/sijF)0pmeT7k8kna(?901WHo%.p<Q#(5M^S.Sr>M,dtmni.haNq68Ea#<mc'$O,0fU--/BMUlk-iA>]<oQUVK0,?Rd6pd"ra>uc&1aDeSL_$Y$Egga$8n&[AU<B^+GL\a`rFd:r@oJgWB_Z-%5XL?KAt@D*aL8^IsjDWQ]4GkI./`k;5i;=ea@r&S)sE^I=I?Xt&_aPn$nG8";G!:VAHtP)d""VV5!*mHRiq5@2WY7''+eAqma?\m72LTq6!t::A6`R`57qTr3o\Y9#T'o]o,\<CNJLU/"j"LTI-h/W74T`SIQB??KDCVQ<j)g7p.b<gIhX8igP&i-%\#S#E8kN0e4SUdG29m?ElYaih9W'g7G3*bA>Y`2ZGBXQike&#a7J[<6;6,KIa^fij&h2R0SUlL's`];2#.Z(k$$CZZJ'7Wf/-Ref<M9u!F":L;eZ!7q[[lA!dt_qHHGQ8PDGHH&uM[+XjR.ZI2W_1A\sbOp$IU(%SYZ85sTdA^YYATXnF/sY+,o7RU$FqAnoZhnn=!*\*l5-<A5Z$=c1(YTHCNB/:f8%UikGBL!dPZF.NS*.7`K`Ygg0j%@\XK<o%<YcW)MbVh^Ce&'A$b=V_=m2t=oL3!g0(N(rMZYipP!EkuOE+W@W3.[R<u._bo-%1[lRG#>'s>+TB3g3#\^FAWB`co(Z:\J.jlH"khu+A[pmfbi,EUOjCo7_mTIb-kj=Z#=/Q-m`)S\fb&t:4u(K0S+e35C(bfKi#cL9ktn)\H@M?K\mc]Q\/.GdhR0q\j5,6f?#E%k]4a+^=nLuCeTL_1&%S-)l\j'a[0!Z$1l_BK.%IO$IBOs1&_c93VD-*q1n8k:?XRq37-P#.^b>JkF]29H+tV,.Hl)iOS%7D4!q>)Tu"L#&370$4/.D,HA.FMM/,[T@J([/tik37K4ECf*s:5tQur1&kaFOTlnER^q!?T#ICLJZfuSc;m,>.3Gp]%@Topbp>@L`<[YKaF%EWVP%.!cj`WB+^>Ckm*il&Pn$qI8"I&8`/>ta(e[%!0VV*hOJ/)%3&rsma8j?_2)$fHj3<`pPL*CWGL_Z+Wt7/\Ac5e#LH\FHY81A$TIV,2<=BcqC$R8SFd3&:/\%N^>LB@B>hP0C25%&md+&QiC52Agi*h&iYb<,^2Uo"2V7rP'a%Je;Lp;ePBbo?*7EuC"]0kTBP^0n&^2CKj;sJ8@e7dg/=WAZ%<8YdJ+ckiV7eEcZ"4.2+_DSdk9K)A7!tT$)]HNQ^NK&gDV9suGi1`DE]@C;1H34X>!!TuYm%_l;6DUBc#P=#V>2&q$$kA.5)EPP>RA*(D#auUZBl*4QiU'Fp"FO3@5%RG[^9/0?B.D.^Qf_FDoB^&0Y-L/K[PuLnq-[P5\,bm!/<%0?0Mkd1$enlcjJj\M<Y[VEMenYIQHCCMAWa6l`)'=*X";Y"QJ+i!+1i106XZ;t.QoLeH';@t'5;i'X^@k3M@F&.dtH45"h]q*?7;?8$J5#[V>GV9LUJ\`kc8dc6l;c-Mfo`g0F>SrLX6Wm2%UlCOHBi#Gh-P1OiWI.YZ&@^#qlo8$RREfn0/`$H;[-H9R!=f`S'kB]L<UXOF_ng:Vgu97WAu:KBoZ]F]OJ].`#qJ"gY7^D(QjLL6?i';?k<Q>8@'"L\LrB!ehK^.4EE>&>T1DnKO)6'Ja.hm"7E%EElM=c:Z7<bZ>;/.`*S7%\b7S!kK@5,cg&.m(E"c@&%868N'.q(ml*[?u66c,_CY<`cR\jW`:e$/;6>6cm86A#i)gmB?c77EnFVWCoSI1<t:X+]p`f;)6qbOg1iYA>$-g=C.9b^,?El&=B]IlAoQQ3AP<!#[:.S9^p,b9m7igjZru$U4Bo`T^)[FpY''pU?^KR*/IuqROLo%Z)BE:"S'[22_7-lB/Bp:u1XFLl\$cXFD*f2LC_tgl^53(:h<OWlX"@YXb`B6PX,5Jd,)'S$dOR4dLMqS?VdBH[%$%!s)1lE&*/GL]gkZs!'=J]!,i7%[G#.>Kdp&n9SieYFXNJjikN?LdF***rqSF4N@?.04gK'PUa*&21]9,m9)>9>GZb_*0Bo]YZa&e]3/,h<n)'<n%[k--0Rd2HJFdD1DYcT3sVNO&O8Y2V(:KNdY/^@90kLkWF2Z2Z4J.0/'8u)j6><`m91"ZaQa0:qq!A&'9ElT_5l%2`C?KM/-XS.%Fp3s1O>8t#jF3^jn]G%P=d3M$iMB-/=1u*n;j",G;"r<_JA?jdUW(a4b(60p]Jjn0t$7o%3e9TsU19Q'4;e(t?Ja8#=!!b8$\JEE\d,oXhOPMc62hD4j=!nD580GX6@*,9LE30i!M^:^p_OPp1Q5Up:B-4W!)<JC59P<+>1(6ho"fAf0\ZT\=X+of?K0V[9!*HI9'.erB'N6S5*$S7m^rTnE?,Qcu!?#X^HpG\^WuS&M@NfL])?h/f2sPY5>)i]QMd4;DeFB(=!Z*Nog^#EXg5V=#XsO1N3+9o1$XG>.2n#ValtI2[>K+[#Zp!ec%pDTP'!HOAAH#=lMI<nKe?'/Q.RQAA+9I>Rf-U(i3'&@g%Z(jN%WDY.KHsr,Vo/mKF\,gJs5\eOSoFJEP\-!)6sG4:Il)LO[(Rs)$>j/&h?<^lT!8eiq9g4PeCjt3NQmN#"oCJJFR#"/[\ki*#bMS-Md!BsK86%Ce1s'73IOkMqPXIcF&\]O9TsNkGNP7ngOa9,F3JXdW9_Z)pR.ctm)*bU*B?*\HZP5gIZ(JmXg`_(a2+@[j"BC+Nk?%6]G&l/'..N_h?dKU#u0go(&5uZ`L.C:^>;@t?\OSMSe;ng_O_I0^f)FuN5`l%Y`qC`@@9HdYg!/!'McRSQ"s.^T%A5&1a$nmHJeICs7\S31-(ka.(1N[3'uX-K1"pu,7X]DKGmf'7Q_nno-,4kQ?hQDaC6ug'FCu\9&FHI&6WNRMaUI=Jjh"m<#sKa,=N:aW&Xsf4t*=5(":D_9FXRl5oaDRIYU;TMCeCp_ASWbBF/%>hrhc_3T<Ie`0an@ADlSYeSHb$B:<r4H,eO7o*ed(Vgs@B#dB-F7>het7k"CZQ.0&c/2-"]&J#Aad]SuEf1esrbJm[!2+7EJ#\3oT!]T3FJYuB'"e%7Sr@G4G,m(tFD"4eZMnI<e/L"Q&"RN%PD,Pkq1sdi_G0#<?CmTq2jhVH)YqtYFZ6IqT8.k,adI*i3J0;W>#X+ti$kA.8DHObGb2"i,Nkj/5a.BNH6W1TjWcuJ8i0&dG2n7s=ar]7`A-ss=('S95a5RU-pOOt[_+B@6MbGL>.u\?oV12#d80CF#F+Ru^V:cSC\7qLZGXurKOSJ#_$+Ah1ZMN2smBNi(a1jMRs4VkuC[:LXp>^oJ`t(1k+/I+C,HMu5mB*lMXqQSp^NQ.Bg32Ikl\Vf>-Otb<-P#H;*7gW>X?(?'H2OlT>C-4OZ*WJa<IaLucgmiEQq"MXMdn=>>A6`IaM8/e";d(YV)-7%*S<HWpWa_n^@.%hs1,LF;>/Dg-Q$M0+\2_U<'-!HK7g$*ZUKKIM\rAS"V$BoWN[SaR]+36EA(,tQ)6Q'/M*i`ruAo8I.JP6N+ejb5M@KRUgm5e1(:!6/s%=95ij[NK/gR^B?;KijjPeXJ?'Nh)!;SN1$kQp_$i.s6OZd92VV\%gGm(bk/,3Tpje>0),u!J$lP9C_3$#&:kt0!#9"EsE-&r`$5j:$eo4PB"[WCn6KA6A1a<)^!^I4;J.e:h@UBMK+!Ul4&SR@3gCP\um>A/Dj]I9^e-T/"G9N#u]?q7>lrK,=+HQ8qa*K286<u"^n,k=)V-_Zk+a&!"+k?W<E$/\EH-ml2@UqT8[/2h'1Il=TYaMPrE0V31d`PXBD1"3X!Q/n!olf4WhZ(O^#miH<(2@2,?YRUb)*EV0V_l;S)n+&Oq/$!mqVIg+ch;EDgX#h75OYrW_CtV@^A(P$jaR#l+0*'Q;#TL2]!"<IJ+]N"Wt3Ir+'>cY^@Z.[,FIfdXnCTWeq5&J%dl7tgi(!Z*SdjoC;9&7rJIfPbJ*gDo$p7i0+J9%35GRR!:PgJ)HPnPhq\:Ri0brAAA%Zq`u2IoYt&Ds;E8@=c<6-B<pQ@-JN\(#c^_g5BCsH:_#AU8mI-/>5K]kIm8)sPHC4%qHSIB?Ql9k2)K`S\KGo][8/>,T^^Ir2)*9ad(s\f-@^2'7iaB#&$SJ[)+s%V1?DNK7!g/ong3auW_Ot'5Ujrk7b#iCh:jJ(%9L\M'%P^ZI,+<@J:W7CM<q9*h'us>!6.Jot/L`sc;R.KDP'R='e4(U66&c$m%_.97W6l]]N9O@_AZu.P&;!2!,Oj4R>d[gL/^IRT=6fUa0K&c&@Xf'2"?$B$*cN@,WbN6Z@@\_:ck-Ll8"`j#Cm-#Q:t2/?LnR;)$F9hZTcQ_Dli:@6.t`Wo1*6Lj?0lA@JK8So8#suH/%C<@=%o<D"6%/V7o>#liZ8`uL.'[QQ!pqH=JBG$$uCc?6u!^(RD>RQo;LH/?us7iMs'L%5.8"S*!K^U-UrI!&Iad740_C-ZCR!#86O!!B\?jsb2iKe_)leq*Q&u5"!6.q%VPgR]E@U0%f@EQoY<QZ:YnrtnrERqGI4!VA,,[:,ITW!Y?lH6&QQ%=[[TL.#Aj>)*ReZi)F&RMLTLW-qQAi,G@dDZ/,J=4i?rT=pNQr"iuE;^jM6,BL:RV.]Zrkf"4p-S%Z_n.0RK$Iar)8Z%'`=%/O0br`hTh8W?'G+a0aDXX`I5&>r)]ZN6sFso$3];ZPMH"`BS#*c(QHNGt[(3CsLgE:778*Jt<6--u)/e%>l'Goi1\i.b'tsB-8EN/E1md%h!G8VDnh*(2!f/"iH5(oZE"AQp9<([Z#1-<)`@r%+K`'c#Hg[[K'sYYQ]nnWd:QL#9'_eV5fnTRHJOk'GX-2HF%Q1KLt,';?.pk7iW9=Q)_,Ugi,Jg"]l2gX%!+0?MqAKMO!D6)!tR4!\tD)&VgeQ72qV/rg&O0LsZ317Em6@aq8F.YbdM"X^^%b7dS[#NbXTL%YFl<%09!_cW/$'/KGgXc)A;[[u$m"EK6fclbKVA5S2-LM6E2%3)JEFWh,qc3ohGFmSM9gkba;SW.5[inj'+kgEq*O$6@B=)iJ??E@jmi1RQ.f2"Rj-(4dJKdOmj\)g:-"K9&4!1cTfkWZJ=+2Fg'8o^Yu>5/+U8TH4YZ#=U[aZ$ls00gn,DZ.'%PQ.`k6h2a*>5?hl5U[@ndKH]`U:]gm/*t)-GGfki1gBZYAI'BUmN5(YDX<6>D];E9<s.)=On*D'BBCG=OHUn'^0DE/hGjk#3]sgN&rZ9biH^,]@<I_M[pYfFA[ZTN%GJ4VK"a(U5K"fs"XP^eEY^`9os#pn#!rV"@fn]GM+7'YgY`JOp543cI++<VHm.^KCo\SI?[8ls.J$ip*Q>;q^R_1#FB/;@eK;W[eXlC>cK[r&TZVTd*P8`,ir\Y49e8EjLVp1eNZY/!&Piof'rQhZo4eLniP2@%B2egqeYCH3)*euKF]e'=j_>_58`LGKWlk7[kn+r?HS[MGN;qmJP1fI:KK;tW&["_N/TURb(d:S:^N5uDC8U+ZI!a)79ZhQ8ZkQq%eLb*"nhmg+5<79bbVBRZf<NtlP_q)+ZEs[<_(;61u?im*$(\_UAK31L`-utXq)0'S?eI-ee%FiB,75V+(L@6T%`"W^Rnh&.4;6R^,>Edr5]kXT:YM/[f:oB7CV\7Ao9/[N^hAgDl8OAF1'Z`PP5e3=uO\Gg/)?F8o\;cN++`hA4TsRTsg8?Ui1R.POap(QTCq+W])Uo\nKOshT]c$pj>VTch(bh0bkfWe0jo%7$!Ia(&Tk`4b1MX&P3Z@cge1rXu8#$TWY6?k=[n;$b<-sBOJ6Fm.k^ehH<i?34W>?b:(;?o-@r<8@1nlpLFgXT*\fkqhYc_D&h`,@eig?02LCQrbheMaXh#BoG+'3p(Zj""9jVYM;)%7Ur^[R<VXjtb4r,-t3Issb76,PrR,OHPTin9[l9%90DVBP$?rquW,]\8t4g2>Q^NWgp\93Y/W+eL6"@;aDom%Aa;U@!&J$b1&(s7]1d-TC4!iE`KVmTNV:pSuBJ=4Q*>WpZHYNVBPi^@0X5eUQqrs-DLHDAdi[QB;DiiB2&e&"=)Y&:EepLEDPHJiX9UJaLNo.'MX3=Z*KseaT#-rG,GV5Id`bJQ6Otr)`IlIqi6eVqT\1=0K?OEqSf7pYA%2j_+Vd^]#=.%-*";jTEiRc*aqe2S;tsnbnWq#E#k%.!X`jY0C^PSskW5:V1XTM3&l<X,R.>.A/O'FdA]W'%2S^p-8?!rYC.C3FN-(-VXeZ_2HqFdj>%bf.YccpKSOQO3krR`Har.oBh1r^MVOra)/J-eJn>$J-FO$9"qB,W<*D'1(f]S-/hAt+X;N"JQq<F^*kc#7Lf7sQ&(9U'X46il**-L@%Z6_;<R"?W(^UHOkM<AXGANYeT5T;ltr%`1eNAYIMqX-g`5RI!C^d$O1(]SSVMOb.IoQbq&QJe:,UQTUOql`+6jOtn4U33F2kb=aYm.jRj=q>#/C;R;EJ\^Dq2]3I`W@]<]XnDmaE!GBHZJN:iAbl.Fah_$nL!_dbH`L51LBfR&1'\1-nj"\cd0H=<e,6BOjBdK/uFZM?47N:-'Q.!*BqXX7FYd;\X=%$TaPAh3sKj*<O88JAVS*ap&8cLaeeP*d(>XU7be`h^Z`dQ0,PK$eo5]*V,A2F]k=PBMpj$Wb,JNk]L-jXe'<`(o2]f[Q!as9`jsA<O9c+?D`n^3[f0m!hD)rLXap&FuT$[NMEA^+^N?C]"1[?fcr0=P(6u;W_ZdHYGrVm_RBtjIFG-GlH7_t(4DBRpN:B0TeeP2cVu"1WIcFtB@?EkWj:Ya<TiVHY3bHA*:-G/oVl,7$C.JEFoAjnI:m<+Z`CZ4=*C)bCPDC-X@2nQ[N@#3;*J15GdO^S]DO]jpW1)Kp`H7YO65;J;o.i[(&n$+dQcVon`QCBm^T7aY;\E=oqp<TrjME:2g4#"A)CQN%c)9faB^`Fm\Y@FGlP?tOlJq7><Z6*SpSf.aS4Q8\bB_0]f-JXHh61/^[&T-GFeL+Y5ReG[G:_9VRuk1pU<@frU#o.^YMf][p)Jn]OgT="0;Fos.YU+]'2eWo,&>uI9Za:n[d>YX5D.)gfm[B$5m*"6)F7QF^C'aX#5-E7\?.,p#-#=p9QS:CVXHgR2ocaXXO47#9V[ug7"KP4O@LkqIY`Pi</BG))buDhA5Qo)B%6Xph6MjpCC6i>P!1>J9BE]fm's&Wjte(>Yi<E1pl5nW)S_!n4;B"&9lp)Whbfp+pJ_5Bm:5D"iD5NbKHOs.W\^&*`aO@UO6:NYWr]mrl31`Ol"uo-T1/if8VkBGH,[Fj>j>?-tuI8$;WPc:,NAS2i4kD'%Hfj>?<k!W>p'2npTK"HqVm@,@-md^^E5W&can!6n.DN@=a]<4qq#t/94VM747AG8#o.oWu=0"4`[oAoN3[]/gn8"Q3Yo)i,_rj]F\aQe>%@8Wl'f7$\C`5,GR[^fn?E%CAG$4&KAY)Kj?1L5^&>FRfsShYXE,-,_1rM*_e'd*<V&EIN=NEYS08QbA@i`Bbk5<nkReXZ5^SAE)%)H9T(U.<DqHm0CD`(p8CitnU=1mlM%3W6t(ncHH8oGCoS@-f0M+-Yr2+=pq9o<4m7*0gEiFlOgBm[W>jCh*@eX2AY%i/G%"ee\%%,ngb(#B&-G!DH=U$h$Hs!>fbM)Bh562u_82Y1KA"d^SZ_n]<5n#Jb/%GT/;J8rRoYX/GY.5kdamGiD(!Ie:/uD+WpFOD(-fA$FeQ[>>MBAeLn(X74B:5J+Uk0uVA1@9;V5ra!#]27D-kIGB5/>HL\C];kCAN(gM\^SrT:s]hctKJmjdc#?0,F2Y/SIq\b!hd]5HuHqkh*>D]64a-MH7SNIpU"hn4I;HKIfZej"Io4nl\JF'&C5ZhjF_e\<24rVM/r^[G>(qp,*<d!j:_>422rdlk1kh0j&rNbcf+>#k:*<C<B#=S4oYDa4NI36i=Cq'&INC]]^gDF*m*O&+R2l.9\\IeD'3T2E[s!`)S,b!SZ_UQNAm.@#(Ab+Vit1`E8elVqrZ5.lC4rW\'[`lZtXh7qeAA]"d4n)]=2//W+THu%!-21qbTPC!"65Xm[T!s.E,In%s_Qi-Hg+8;/uOcM`=@;!,Kjekt-!gC7ro<2N,`L[??AlXG;?,-2<1pIjZjk^HMms=2tJ&2FQcso!;kKR%=rYpp4=K[mXQ2*)jn5":aCL4%01Jc3h%56MOAc#+>0)N-T53Qt4bo'r#0]/?46lIg9is!DXN*p(a+/GDm-gm62=X4c&.hicHicc0I@Sf;@]euSSj4mVhUW"OHr(NS:]1$b?8U-t\J%Ue_[$lE=MLDjDjEN9>6lk_qP8FYfU0_=igQ$c[6_K![V:1.cdaV"1j]Ue7@F;<eZlaG_7K\D;+W'k;o=NM_m/T6<W?qXVrk$=HDp%pk0'tf,f)JJ?i3sGR8#f'T2MlM0<<Wpd%GE9lD?r(LHDk]g#9$S@UXVg:N[QY*=2B2H*Fb9*C%L*@!/m'6>\kJV<$OW*=e+*(Vu\O;<opa4Ea'hM/A^R?mYTY[@o\.O.gD#5oH+7'pE-RW3*naqWh+jqd4ELW&V9Q.,R"a3F@_>:(aFp$DEs&Y]O+SlTWJ9IYY>BCHj>1s=Tn)1[>Ncl!_:/,WFeCod4Hk_(DXFM$Wrqs7Wr)?425L*YaJ_N7Y*p1fd!Qc;ja)+He(C34s2h0])&I+<IfoZNgG0C]^2ubV6GV>eXT[%i+N_gBQ<Xk@T9=LU9s;uGt6VNprQf[$6[Kim6=MOaQUaKloJG"EO$9%6^^s\)$Q!:)(<5o2RiCLS>uFG_7dV[f?rpu"aAd#E6g,TpY8YecRfn+hHIVhf)!q+2QgB:Z?fNkrN!Nt?e+c+D1`@nb,(6.[o-h0&_?\@qFKBWmR)I*Eur&drUB2A&,ge3Tg/:QqfDMC4$(sKdCSb+VKI)>XLk6Fm2]2Bm\jB38(j=mfO'-:l@8aCce&Xm#2dMb)+#/XpO2\Y"(*$OGPK@:O++\!oLFFjWMujfPd.Rb,mkN[&Xbt#<llq.\Q,c=C6UV6]B-r\CYgRRS_S5Nh>>q1#/=$W_oND3UjWJKhmTjZ/ltrlYfHtW00cg&?f8C]K8VHrPef2R`kVH#DdLKK,ILa!,A%0#-]_p)YB])rIn'30]'QLO+*m?K[`C8*'K!JrgejBc9PkAf!$\GUf,oF7>f#M[4Fc2%>k;EQQYA)#!`$Kh'h3r!6,,.n6q1Em<*Z?6`2;p$]GNIp4^^tX6Ibgf//C[3$cA+d(Y/!XlhI&d[N.\nU+S;;@dmn&1mE+s/8Ehp<XqE(HapH_g[`2L.Ylt!qh[@_:5c1R!f\@='aOC4DkP+;;H%(!/MT#V9[&o%=Oa/r_X/%FRMToL^q2YQOfIAYb52\bFa[9BH*F7E:iYsUE$:Laa6NmhXn%']5_c[U`)S>W2rV=s.TVGMIl_adn/GW4l"328(m*\WA3d;J#S:I8JpUT]6MX^mgc$i^/-j-4b5>!\h!1CF;0J/]F9D8^bqQrmS'mnG`EhD?ME27aG'm6DokdhBi8](Td"ts"WObq@K/E,DYkYa[!Euo;nlc1lD5+mj#nWo.7o_:BK:i=FJL[`$*!.L<K>i&aNu4qpeGt;d2F/LE"0fkG)[,=^Yk+;Q$R+;='pNfrb.FL8]lHBXh.noj%Z1bXe:)POk"DAeM2KW?Q[aIc*1"q=gm>`,A,D2apo^jc]0b)r_Npt9&8lT[5ff%'g\I^C@EO:fJl/2gRpF]q]"I(R]cX.:i%'-a*(<@"2hA`eX8b)eY-F2(kDK:`1bZISm@D5^mOVXfBDK-R<NZ:*c2'L@f&+SqjNclsIqdg0QgP<4l/29fJW5."gA"bC-JJ>U4r-0Rr_4=l=a.b=ZK7k+S%)\k!HT<sLQ+HYF\cAq4ZusBG&Fk"IIl`iNV>AK]Y@n8"*GP)W7gr2e]%h`NZA&%J,<;4`i*=)bLQ,P[A!+^5fT7r%^,j*o1+gjZ8(O[/Hu.`aI&Be@b+7Na;>q^-q"99`2Jh9eM<=XDH79+I<`fYi@"V35%s&WSS");.-K[)[/S#GJ\iH>[3*!SelT1^g\(_)3n8WnDd83q"A0L9DIEl_6mIUiCLZ:c9B[M[5aS?,>(786L"\[dnUItf@e5iN"*abQ@u#R0bEp,!UCAlXhj;4iBUI'%9Op-BOhj`rMn%[hafA6P@1hUT@D:X'nmITG(QmQeb>3o;OAX!:FXagU-^uF!]GQXti_XX@Tq\-r-%4[8+_i"#j^pGEo/efUiOYumak4-BQ8%>]H`KXVjb"mZNRk'YkZ$YfWq&4$\K+:IR0K"nK2VR#b/(ul]tfOZo/jZ9loJ7uF/ZV;Ru3nLFo:SA=al^?AC+L?lE96h+JV(/11I61L8#(jBJdm[)DO"I8"D&0#T8e(L^!-Ta<M7k*NL37)[gpQdj>1"!Lg><^1cMuX;a<'4nN#_hq(;&LC2`Gk-ooVb%j#%htD2$a5Q%GDp.tW*60N6O&ld]W#7d%_`h3^Ek6_\'J(1mEr[E/r4H'=6+_fI#2<C<`u&OOgREml5Xlb5+eu,;!bd)q,I`+]]4M&5;`=j/aCfK"J/W:A10d1XEWdG.o^U3-_3'?3_e0n%cDa$Q\eZKMK.!]0SuRhGlg.gMlC0R=i,A3*^WU71_*2&LI'fj6=:p3'D'qs0:R6-p.dudBQ9MkF/WnIZfJnIfcd&^5b,ZQ("`T]MSh+S=#5dO?I#%Z;DSp\oNCO@Ya,=+rPdI!7K7HV"iL"TR!Z%i+qtI/kSQh7aQF4.`CMdY6g?PcIooH;YIpu^T'C/i2X_lt([VOX/hIkF45I5P.fa!;)HZ8Vf#J&0_6/IXGgTd'R@ibUFojGV]L\NqQ'(1'*@_o4&\\"!W],h+dm+fss@meS&%@oR%le&qVFo01Ek;G4^Z`sPD,E%b4lHfLf^X:+>eSs2V$5j?pq/!sj".O<qfNS'q[^(=[@L?1.`?SkX//RRc@_GZK:s"Y7\Oe[2pq`SPNo"RJo>_;FMqR;Ka=oC?q$PlDeRi??rpX9eq8]qU-tJt`IaC-FW\#HPrVf*i=&hW*f2OM@MC&j5+16=UJVJaB]fSIGZ"pc6"7%&&WiGQ8;r8PmZVhi27Q*_j-IOsX=%pRiA;$)]N?BG`/4Pf=Jc\?;YeWF-YZS1lW'jP%H2/>?#r;>W)2_ZIa-n-hi#T!?3E"-$[K;?A4pi07;okm;A8k;M&2I'd^kf%G6ABm!om@td7n+%sF=7Mn"2,=lOkV4\X46E[7qlN+7AGg),Z+b4L*.NTb\%`Q$jJd;aIq6B:qR";c_).rFf&/rDBjfO!/kUcd:tQ^"*+Qj6f[L,7X<C\-N9tKh?cG:'oe0U$el1,ZlRA+q^T)J@"'U;"G2YP97,XP,NV1M!D%LKH5M9Ep_4&uJ/Xpt(,(GsW);1r0C@4f%2iqN/Vk<m3s6HrI!Zmg<'?m'`t_Ma;ZJ.bC'V%[#L:g0;oh4T7_>n+;[dB!Nkf/ZG'3Fuo5"2qbWfF`G,1em8=0ZQnscSC@g1,t$<iH+[@Sd]5?SDKH,h@QC$4`dcI:l\g#.bU1R3B$CAN!e#.d<i:VXD8Wj.nuo#lSY/c;mi?7Ce:dPOj(2iq+sRoA13?.sb=V#;#$l-^&,adL<>goB5DR_G`$HXS-EDBBGgrVF]k<>Do'T;^N?7/\`Kf'^R_G!FB_qh`Ub*q+O=nbuT2+*qMan7u5u?f0"O@k6`eXo(,e$Jp.Mq5q\kD`o9!o:uZ)GFNj7;ke\98`"nW@e&2K$ig45nEm-aqiF>B4NlUQm*M>:qqc_/kOn"!?f)?2I;K5!j6s14Pa/A_l;E9DI1.kPbMKu[s1QI2s7'(-hIgW\!+_%A2)RB3#l+?^01L[a0%;C>HBlFAQC9WcZYH`/KDQ_fYbJo/rVQT`>[ahc5p>7lN!tV[9K?:glai_ITE%tcmCN*(<1?=djI[2rA?b&q;"`ps<D')0KAbiUh=Dp-25&M0OXERJ3VrNj2*XIQ(9kd;[5WMZh_4Eo[S\hLFjOM?6g]fr"tk,=oZIe864Ag3`1!X#Y__e#C>+\^[YV&Bl=]\)OLgGK>^*J5\$/u.e;.fT?pkm'.*BV^U9'K,U5j;r2GB+9IP>%^<Q..!a3/?$A8%;7)<(:UQm`'Mbs`j%Vc@c+%[8q$s-O^3QhI,]N/BoWRuZ'=:9dW"7T#e_I+VcEp!enOW!+7fK>*5Q-^YSc<;1YB1/P,5N\]*6UrdD9!>/)VF!2LCCI\sul8U.0!#Yig=uLhjlZA>@]%+i:L6#:DIT+sI\>9#fiiYYaNhT9&I&(.iZuQ_:@DP-YUC7iMi2Wg+NEkC1%]ZE>'m.SjqD=I)`p+./h'f:pC(^S'*;-)hRNZNZYHjr+!Y&R(1DaG]K6`U21g88M.r#fbFGNRO+j,m>%IX8fag_0(qm^iL<Rs86Ys;&qcfp=)%"`?s!Eqh#?.j:r&dn-b]]st,RXtCjJc**q!m:1g"V!gfNU5Z%d:*l(:oN.=l8o?*];Ae5gFKJpOk"PHCUtck*MW*?DJ@QjEPip'US+d)TU'b0rEsUIm*5g:PYu,0P$QKq%#OjN(%;/$C.VnUl`Cu>/T:#ogU"M%cgL51GPAea]Dq?3L]?n]a?OihhVHHVn(kkTG(Ct.4YK7\M>[?Jg&&Bl+7,;G5C>c%s$a0_UR.@6*WWr!rob*U8$<7`Ga43b)Z0KbL>R>pi8*"2hgN34rB17T]I,8S/O"4QrN+7]$5jg(:h+l^.Q=ODW51;()<54:kZn4M#EUYq,aF:I$Ah>'265gS[DJp^DFV^GQ)_dh1HVc<q)'g9\+Je_1(&\,qmb0>Bm%#mbMKc&J)C-C\)$6Y$s("YY+,:@[4g,Bg?'qE<Pcj;r"EhmNkS(XDkrQ0"G+[b2)lgie4lX^)J[S``S24IF811;3@0Y1Q-t_"Y;L&bU30E7I..%eRu#\#Hi:\-J;d#d"s.S1VGfrXX]2/T;=X*@0ee_(((jI:l0!C2:*3W/*A#LI_.#]4XB]9aj,.49M`ngBT%bU:$+G>TW8lkUWfa(,,KFOg;5%(344P`?e#"P[dGlCg_\H,5#8p-'oCo2i!juV'MpSEhl@Me'Q5=kJ(/9u95qgeI$K+uKr3ciLHrn9VDbS]%Nn*Yp2PL'/[Voq-Kfh)\IlnVU\r&BTmC7q="<"4B4H02KPB<l,ElCJlhiKA09Ff@ca[SH2_4m&&+!G,SXYM^L$%Sd>SBVZJ=`?KTWi(jWd4,?]PRe`_lT\9%J2%(`!'kKu2/l@CF4&01NVo:nb(;E#_3l')DMo(6O1.[f]9K/j)Y?Me#^R)lJa[DE>rc0_*)"P\TrMI*hBN8?'X\8==kl+T-bk@:fIA:a(R9*"bIXLbMlM5+-f;uWX7(O_b8Ys2TR2bN<nhk>'2KBZ\VVsu#o%!&_?(K&_,d6:=VP0dX)2=*?*&0>FO!t]IH^B#-qms$abQ3hL!_,(\>;6a"Oa6J>q?Cg`RO;o]-M,1g5$AG55q`)9HoUpW_?Gn-Een!<$SHD9/ST'g,a2@Z(V;:DCDbt>JZ:2QeInDATh*7f[3q)G.(Ai\@'c4>%qoWZsm6C.ZM^'`hmK<;mj'5>1Z`KCMauhX3!HqopY3MOm/r&gVen3`8_e^>eMdMq8<.&%mS:^9oo<.5P;o)o<A5mm)7E7`8nj)-ku:Yr"*FmJcXC!4fVK&X9uL<WO1WNVArdA;l=^$okoDu@l/IjAtRK12d(b[HcYQDYdc&4SnZ\#*;9fL#3Naf@)i1c*QB<E^l@=)CRI=@e?Qnb0g"pqm5-IUZ,=m7n&-7@hJ@"%6+'W:O"=aKd@5<NU\!9PSKTOb+uReBZ.)KDZ':_eMPY,O`DQ_"`KL1i:U-.(Scb);.dFu\4N.pj]*Fp=$,7Y=Y/mI2&"+6-IMo(_L'3BLLbB>.#14,Xe[TBd'7Su"Jjh0k6#pMS7iX8)QpNt";;ZFjeYp.i_Ok-TmM-p-dt/-iDI&/'[:45+;%C3;\-3j`nk:Q+!.;n+&jkB)c,Y4jT13&sSmdK%Zq);>b\mTYfp_JoV6E:u;dKat;F61:0kdXt>A?1lHG6^_k\^uXRtVmh2!Ro1Ts#BaPkV1M]B.!3NcoD6Vkg[m<n8iUmnm-ZWN-7\21sVO+^H$W/(%Pp+3r!^rlRB>+1lmEL,e&m?MbT7hR+<k?+9>fjA!_]j1Y;_c)VrCErX$[CEMBDm]jga5P@LtYl=F/%9qFJR^M:?/ScEar#kd.:#H9Gnj0nlI21ee3$h2$mE0ocG<,'`=8_sl?iT-E?iS0a=8qcQX+'m.ec5I/[?kd@p9M`A]Blf[>d<hq.lLc7lch@nM1*p?)m5p$aM4Rbl*j`2L6W^]hXXn3:"UD7HduUb>d`Pe.j+`7Y91=CnqXE\r1RmY>CZ=BCTmTbRO`joIeMp)%rL(&\,1m!!:U'6(Ya1$o7*YT;<joP5!SQ$=77rRSB<JH$1r8'9;-O.1iB_P:%cfY)LXZ1?Z5WW/HMV(A@.%ap+_b@guOt^\Yi,m)7+84m$fg.kAW*@F#+4qH5klbcO3H`G782Q(NbIASYp_K8KV1_G-XYh7K6h*U!'gf@Thuh/dQVODMk8C%Duk:V31jXG`!g)dS7!250p_h+7=S;CdC2qL[Z!N"/Z]]#jR0N&CD6dBW8/l\G*J@!1;38LMt@jC_.]=n8VMtaZ)pgp\mW\E\Ma#'H,<%U=>QE<D[0NL*4jAjh%SW\%2-mJO2K8'4@O7mTts_#e^je.-WZ)iuAj-C(#AF7G[7GDFgEQlr&NHEKdE$;dInL0(&aU8p[nAIG1tj*U`k2VESb<qR*0@W5El!OK!!5>0D'<j,lf568'89:ul0oh$lJnh$Cq;`p+^qoq7V>_Pn0]RYqTA5k?q>%<Wo8HLS/Q=(504HtHG.ll^I"]F7ruaB&$PD,1f!4QFLhn:]UVl0qJ0"&fdn!bdMJ2dqIE-o&$X'*:Zfg:Z?`He@<E+_3O;2/Mp4'/@244gO(DD$q:'co9qQ:JeTB"fK3)d*,Wp%e56*6mG(eildi:HrE76h*7Xu+4VQVFPn=6IY_o-()VhC66f]JieT0![7@Ck.J,g#_65WheY[l:*7S/D3_N"^%2itl#5bpX0k#0!)I8OrpTt6f4b\V@o\n);M]-:`@iOHu0GZ9(63s@`Shbj5FK;lfSnAH&_FjRJ9D)%Z@W2qZdO_-p.^GWuZA?_>FP\7#*tO9pL5_B^`R7(u`e0e#>h.g'Y:@FWSQ$$P.Su_=Ab7NHOE7o=fP$&uU5DU]%e2kD7>D]c"F.Ra9fd%-HlEPP:lUljZ:Qh.KSM9JeDN=FVNmmd!_jBM?jRq&3*4!u.Yj+^142a<W-aHnM-Q'H2?8TY'gn:E@12?S5)dO^_S]@sUQJ$_*^S!7;-PX(:(;Z.##n);M?I+Y_%paX=laE4\:>Lj>['>rc/hpJ2V#$k[3MQ[&T^+UJo,AcL*pfs=rTJfL/E$PW4??de1b?J"HT"e9cPsV`A';m/M0)#/)So)YdFgGBrB`=[%XIf"P?%&ZH1lOEH]O\4`YJUdSIDLmd63bH=<Sufd1f`U0T>.2SQ_-JD;<TJicE0Y[QAA+g<(V)SW21De`pp"*Qu=F:,+?6>IB>A.'@-XkhrsE3q7&X]o9'OZIfbY!0CC5j9:gq1geX@;QQ;`7DmfR,/)dfKuuAT^iDR*c/#FjV=_B6F@n<)\?_96=!E`%uU$'M#gao#g&#K\T(;O)H3*F_($s[6>`4=fI!tKn>+>aV/oDrnSj2.pT34-X7so5U!\;[Ocdb"07Eom9Un(p7V'XMF[BXReUA*u=c"6_"ZJQ]77OL8-%go6d97,re4pZ[Um_H?@p#813iJ=)N!j3SV:9d^U5%Na*G@AqgLs\X1i4<iXAn5RVuRTUU-O>jI_H>M(X1L-(1me/(crdG(Pb4?NNkrMYX*g-A2VtA`GqOOYJQ$T<Es/oc\6EAY]GQdMASZ-0V0AD?3/[J4S=*+(Ko[5J0f$j\WQ]p)u-!oJZhXu``-lB"I]?,Z='^a"9rU+\A8f(nGGuj0]3'-h*BdTRKSWteGISF/9HGIOI[si8$`2bD[3WD2H[Bn*3El[>R)/W=7#2`j0@&Zm`:>+BM"8@lgCWDNN"Q%p*tH<!"2f2?QJK7"cra)$88-.bge:fG"Wh50!W)gD"!P>@3'$E?q=d_1tYXqgUe\"klCf5=g-'&-Zb"/Ni_tE2^2-"ZhbEn!Ms^"m2o4^Gk#:*Tc4XH(ZJ,*f8g4Ij!(^I!_rB*RLkr9WJQqf>YCA3\TLMQRo7n:Q1epW@p4jSUN'2'eUh)ZmTHZ):)fd*,;T9rE[R>!.D7SIVk9H>RT>8*+.jf%\DUL+k!b"^;+Y3DPA"5a04Gj-[Fc9$/63<>/s%NJdcFW'4O8"G/4J^f6S$Z^92ME?GsT+iV4!8%78e*CJ'44rUBLl@\9\K\6Pog-f'kiTDJW*#4_G#6R0#ML'Ao;CHG6R(IHtec"lN5L;B0KcLQLK?9;n*e/*nU&J0b]2UnMDR=:9/*EZ6,g%`epLLdUNE(4'(,!/J/m:]K#lFKpMeB'^:q#L33;:]KTI(;nRSm;,'UVRtR#mWL^n31b60gElH6bPaS]!9IND#p?>EHYE`#I7i/[L[BL,('>Ik2$FINgut"*;qt3@pFtB\[^^=n*]Dm'MnX4@]-r^3,">r[!!4>Y;#-j/G^JZiPojBgW(-<rO>[[3`K*<>@00RrNW9Zr@2tc.X\Wb$ZgpO3@%sN&P1aGXp)1Dh7U_q.P:e#Z^s3(p.&/5Z<:5&)K(dEh'4qbNC1Wo6:D>DlP9OnemqBm5>]9_hjL(q?C8+VBU,te_OTZHP/%,q&jg*o5RpmglStUO$e/2tc1+Z!T`DR+"_BFXb,@mU.3$K)?l<1V-/GWh?C]`]g'V^[T;ZP&r9Ci3m!V[6hb$mc#E+7`2[_Dj>7'Jq,OH*12Q4,n4*:"C931>#\Jq\Tb'mZNB51YT#i'7m0fT54p"($6AR-Msd4I@9"]i*s0`k5tS]^VZ[@aR\6N>;j=674OK/DA'\bR7dEbhoN&#C;WN*X%C/Y:A2&`lkU`eIdQ@1uPW)%:2?5TTJ+7AFr]LL<LNj$s[l8JRq_ioZ2",JbR$oE(>2IoF1j3<!W_#XFcf@)b?Y4AAF*lYQN/-C7Ls5JP<=Y4A:b)n/SW1O_O^^,^hIVWGP+>8)QZ!^f,fZ$!q%Sa")rmZ,Y[un=7A;oK9Der-^'<@kDcA>8h:7&bHK(%XJC0)A_;Q+u2<*RLXZ.C8*J9"ml_,6$Z>386[^;2cqUe2(m*%QBLAJ9s,b89_!^sD-TY4_[T[@;0>fN7TZ6PL`%MH-EEM;(`[P:OA.WfB-^!R4&PArW.#%I6-c,m+Qg]'WCcC%lm0)A$IqP<=u?X/%76L%N>+?cC;b`,I?Yt"Zm[8).F[WKaC'l'9gUM)ADC>6F4>2HFW>5#XWA!)!r,$u;UH)3MZk3=Hom7!LLh,0)-310G0CF'**u<u!2>2L;aV9W9au6D*ueU=Gqhe[!f%V@$HrlWJ*!KkUH7XC.9&[bN?X/a5$Toe(j/d5i^aLn?&M,V)@AqFOdm>@5n0"l6,5nR.]LC<K)pla02ScMLp!5AN!M0^UqdSgNbOq&fFhp&_@Y?*=J;UD[7i:pSJ`3oV3E25U5VW"/%*\H46EBbH)]hNg6!3qem_.^782a`Os1Zp-VhMl@Dp&mFHOi'$T;37i<=iDn[qDG7@_hg+tY@k5:Mm7)&N#]92POQOUK-N'fEtY0Q(>@``"F^OjY78O;bj:SpFZLchG7lra$j*n9\2upM;!G!^E9b_cb:)%G[o,h,])^B8;I[Se4(j+>jZD!/51VW#2d,H>k0T`(m/4`p%8ahKlao.fbWeM9%$c(^j&14-"'V0MO5\-;^cUY+]Tr"<.*-HChGI:![7I)E(Y+Rjs2PQ%Oh6@8doq>Vfig*<h&InJEL27\6`5@m^^bUR!sj5&RBU-/45V7SO=39-`$mph17#E$^d9Y+_"I,7Z3ekYm3)OpX.H-mOE1VUWFGe;E5N7;X"s!(;U`7Q#S&o$">V/`;p)Trh6-L'UmL/T%%Fe-Oo+-0%j>hmh3@Lmp;u%NL5]LdUF%N2iemL(Ju\9RTm/<fBHkK5.a>e$'BsK*"b4T^`E>&];Y^5`5mld#AG*ir[F@O^Skk+5s2,JKnV[Y.6kLpa_R52hgJ3A$i3efL#4mEb$C8dGRC:Lodp,gRQn+Sep.r7uh)1,DH@q.)aBcbr!`^m;PA)6d&%aZsZAJgh-eK\E8X%@DNpAp&]fanfm,RQsp@\c-no#WJ5=6=qrp6dL\R\;B^M0'paR0g*/Yu;Anc<7sE*h'TZ0k/;7H7>oYW`7W?ld"C-rG0cXPF.S$$0.K#pG%Pgl9COl)@IM39g!eC?**],5%%c_rbn(^8'k[!iU?!K2>"W0bGR^uD.ahpVM@0uml-kZiZ$-+>8MAg/W5Tkk.a:\`H7,Bu-UO'jV0jlR$e!BZA8pf)74Xr.ePkUqESa_j``bMr]G/RY/2HLD.WX$q`\5`X"Wda$O5'9l?\p?VG1Sh,nf%%*d%3.0^CMQ4ULSL,P%JOs:4C*achCc@B#;pR18(o^05%#\`$fB)hh%D)#!U.nQ27AJ/=X1N?&KNE*UUoSb>mo9:`\Y$mJI]a<-)NSlZ&NO4jm$&H)D*jBbgEoi%$81d_@DETDW&;>,5hjR];:#p";s(0;"t<KK47=T'iPJ`6g_@0Vd03M-eLB>oM/jk,T&H!"I/is:IcFmToD:JHrJ[]/oMY,8#FjWHIsr+K0AN-K'-C4H1r0;mp-=Sa`JrNNmROoW9<33FDS"fGrMZsLl7dEeeE,XDBgV,Oq=7fIIdXrITt,]UN94FS<I^b\B6_,Zj+>R9)pLJS,G++:M05kNF!K>TA0k4#$&*O[:<+pRaS`Zi&Gsrqg$oY,L=hBkG6*PTu,JPL)"O$/YoTTl-(*[&q`]KGDUGpZ/-eS]>8G<Eg&`e'"mE@n6:eY?NQKDloAVFXNiVsF.lj<*TKb-#jr=Jh]de:$!DlO_RE.l(p$Q%Pad(V'-r*UHDhfmHQ_M1^!O*9oEr7+P.FtAacsj)ftg8=DSXr5E&fYEe2eu,p+[j5_<dG^-g6j7i)[@`H7,f08%I"l2gH-MT@2^t=o?o9V:hn'H0"0nY`#g(k_>'hP?2;rq_U4GeeZWcK/uMYZJITR!5$&,7^*go@01d&c!]uSD%CH9"HYUA[g."5T@W#P=?IL[=%h63eQI;]Rif@U(d@d>Z-J4>BJ#gS+h\?O_eB/V8&4<s)I4NQ0iQ$Y0sc3Hfe[O99N\rkfMbfm[XZGS4IraT,)2#MOC<3)SB`_2HKJ5gVdI_qlD6)e?JP,4$cl+oG@SBQqoKY:+i1URZ7%s11,A4koIF(j]Rl49$9lbYn1?iRMrEK9-h65Uj$/A2$Tl3kSp`3V\MptbG]W3BHa`@t]62`>a*30n7XfoUGTlO)HgC+/ZZb`\g::k>o5AL&rl2rj?eb)B/!"RpnW>2+Gk_U7mY@Cd[Jo]ela!*h]4K$Oc.g'M_-;)agTk>fet%obdAL=-nB>YeT6k(sN]4F0^F*gK^9.17>F4Q70Hnc3SpTk0B3s9\eB<njHg/qU^b934o^K:*;>qZp[=0W:If#R.cTSf.R0Od[qLOXP^rh;!SqUr_[rpk$:V?0fp_#LRGUmRm?@3(C.MhRSLq_quO>39+2lU%JQ66]WpY^4sbDQ)jooJQfprO<ng%H$qjn$S1)#"n\FjmZ/_ai@8p4D'`^?_I?G,%P0%gX4TeG-nQIMj3aL1ah@lrgigf/GuRG.`ZtgY\fEe:sl.IUq1@&"s[(JEI1CIfS;gBCLbL6OsuED^RRXp#rmEP`V`d3(qa1`:rbPNV$Q)]KLi;p>cVVdaI4A%@!J*Df%shHQE.._6\cL[0r!^4f51J@p07!E9g9/BlK!g6o\8oLNE+sQ'k1_n1JgcW4a5^kN_$5pBn45A`oX9>`dB`^l/435*92I;8_W>LP"5U6psF27$L#'%>ZkA)%P78r5)h/ljsa@&J;-M@:W'<FWlMj7$']&6psG-7PVu/I.qYoLPUbBLhPn-+G5K+LkmHH`E#YEA.T=b&J:iR!u[p1RtulVLa\ggaDd2YH1Jr9c41Eu&J<F5<<O17mmP`*0/%NmLkpkCLfU[QaRDo84nIrZB8;;!Lkoa+.Z+Z7FOkN:06_SqLkpkC<j&1<#g@,@roS66LPUbBLhPm""rTK.15LaBLknrd+G5K+LkmHH`O'2mIq-=eJ,J=-DWCoo5g78*aund+WGL<8&T'%VcS0aZ,j+t@`I,l(1@CMt6psEZ\>&pW14*NrU-o2<ntTcBfsYa/M9(L#9Y;/'(;L&Z:NFZ*]`oZ),,1o89NSrF$[:]*?B@X+B%$onF9>.Nq"2QFYfhT70rZ$Td_hpK+1H+a,F*fY1?ier>CJ,_P41"31&qZ$`ICQjlKa_[80T6%U9d`#)0TY3o@BH?VJ"K+KM-2^rt6p]WU_fLWm\YbA)S'r0#"QN'XuR.keQ-lqF';Z3p(rW[W)4U@^T(EMQ(]FTsMYH"%5OF6l1iWaKYP#DgH<;oLXLYa&UidU6;OpB9\h.&jERTLKP`U%iDbggRrKqRg5)Z";t047C%P4V`:90+G5K+k[IL*)-64'%8SXE4u6_G@Xo[4172K:g]8(NYr(Q]6F;pl)2U4L8MZSK5nO\@&RFm`+N%f2DgHN[K'AI6Ue*&5[`'qNJWchM8?C?5M@@L]r6.;$ke_Ubc/4@78B*F5r(TRIFR^f;%'t<0,A2dj`9-OPgSN,G2U_LD=2P\CN>fLZ+X<ZfbC=Dk&U3/PHOAeSWn1qEmR-h\&eP]f?/UTs1,_8&gt<hp+sJ47\V_TKlJ8i;RH;^(&J5TedE31j7K=[NmbbZga)YgJLkpkCB]Y+<`\?hIZ/os\pGWZr&J7l47?QOM-aW@U&J5TeV%HufV'!$j-aTCmD7Qu?6psF2ZuQmIL'*EG9*RU.+sJ3T8gu)B[dJBU\[+Xk6psGMEYX&FG0CH;Gb-%1LkpkC.&EZZn4f$Jq1si_LksJ-gb30]m[_LHme*D;9mB?n,f=5agVF*9&@+\l6ps\Fn4U3"2YVIIe$!;r,<b[,7`4U>)qHn2fX="NB6gl*0NVd5-mBiZU6LNZ_\L=)<kbdR6]@i4%BUmd0P?%_A!Rc?&J:iP+N'3iVJM:.QH+2\Z:f;,g8(LNVB49R;&Z@'g(bG$GY<:oo[s-&-[t_9)<!K&VmHQ_DMsqCK*3)\6psGb73Q//5DI1Fb'H8#h5KN]3\L]tMn$;Rr$d*jVjZ6rAu^\uPIE<nL;%3BUCj'*.:FRVFN@"C.?K@ALkmHc&S,!\^<D?Y9N`s4FG@L5Ocat<V:[dU''##)M-m#J9:/:oU$EjX>7_AY&M9qM,9qWEe5@D6E=0?X'>MPb?R.U/AX/(-Lkl=pCAu5oaLkt3A[U%I.]+tgg=;fTH#)EXYDbs:aAfCcAs-F2#3TZS59_9qU5N!5!CK]TpCir(I\)92rl!sfPX!u&:@4K0mriNrG5T:^rog6KQ@tZ:e'fGF45g>T&J7lT7?N.-Z@-GtZU7,K6q"D&'h*ji4R8D:QTI8s6psF2.p!Q*1Mjt=br_?$rJfpa%M99b&^ea$'H+V616O4$&J5UP)F]eITAI/#cZ3ZRLkpkCB]Y,&N1$c<H^?fU6psF26n;?K/)SPVN\[n2PX.]*6q!8C&S,!k;d2ds"q_FZ&Q*:?'iQ@REJo$]e+TEtXF0IY3(Q_:9ME*,Bc2a_basZNcb?j[`Uc\9go)<NLkpj>('T?,WMq>1a^ha24<BQE+XllZAOM)7!7Es"c:&noj<!4JbUZ=b,d2;%A.T=b>teF:A;hGHNNUX':VFD/Ab$0E5m@o5dD_n-7tu$#kR9WF;]TA*+G5K+k[G0$@*+Pi!b>h*p\.*&Jd`hIU5MT9NJnGO+Cg?u)+6k\6l1E?(`BZ1%$Q%.Zt0d\&J8:OJmp;H1.%\]q"Qg",6d".+G40o1jR.];j:5dDo;/uh0)W&C_*%lLkt9]j\LF95QgN8qWk=t;WB<i0l!5cGUH(tN3F50e%gd@&.oKd>qc=@,U.m#`@l`:b<Pp`%p<%<&Sdgf18Zu.<9MGT)`9]=2`W`/G3q)PXSPW->TkF@-GD/r2`GZ]45u>fn`%ti03u8;otGkO56(QPO$<DrU;kk0_s3`F]]5nO@*$RYgr/8qfJQH3ZKb@C/Ale2#&P0+IOkBmg$2,6C3nphe^L8=<`*5]qO*"V1h'p'iq$eJL;dnc6O(nG_hJVIp?Xe^l;V>+AQ)N+B4kje@j>eS4(R"Adp%:$,MAqZ#'2)6^%tk?"jE3858W91;,X'0MCHK^`5Lin8Wc;-)2UDD-mL^p0hkgR"<!>KSdZLa&0hg3U]=$23\`?DnTjg*r4L]l?,DqE#r2Ju1UH*T;dn]A?c63;)A`E0SuIUEM>]?o3\`?DnTjf_r4L.aPfO+QA68n3Rs4j"kKCpP)//u3><eAu99s1\R$a99]_X`5"2-GNTA6gFVu+K`oZZ[Spa!<CP?[90Cr,mWjjS>+2Yp&@=gW&RD5i!\P$:-_;L>6D-RL/e5-LQIRl;2/9,hFZ-V_>F%F>&rqdiGqc\0:bLl$tF06@:OoENcB[q-D(Tgs;(F9`3ta<2fV^,UL(OC=a/H\:Xn^T^+;nd61"`md[91ep_<9RNO\DJi4I2Zba(7RkPDbE'X-q!mCo18<4F;D+<*3AMSj=g!$Bk7+M>DV*;QcRVk3UF)n9"2Q^$@Ue=)h6V0D>+G\U!PC+UbnFM_*AJ]#E4J)+Vp"%<>-0]rhSA:^.k3"aNsu&WkB8J+n[oK'O?lQ6I*jp*N$CiQ6spT8LAZUQcf[6T/:,!,UX^l[)M(`?gG^Mn8\Y/kgI8P^9PG(oSmV?RGpNf8P_=jKM!-#qKoAP=DneNpp%mH]O%,mG.+D._66q^(%?G[VpHt1M-tJu!_h=bC[6NUuA!Vq,M!/<qbfi``).R/dJO#=VKu;kI.+Jre>TaT!3.eu_OfkiN*`'#m."dGI^Xm?&l*b.SpK5C&6psH+;G2cRW\)-P$U+D$IUd-'+"n3<&^e/=Os5NkShg,^+8lN?b?42Q91209F=suNaKYFe+8ZB=ra,$591209F=suNaKPlGI`c.oSYN(s2t8D>6J/4R.@Ajkrf"*HITkJPSesD,46_r^VfBI^HXhpIN&6YbM.n_*=(L@6H]I;&='i%cQ<6e<%*Oke0YMb`:Nn)=9HHK4BBR;WJ"/Dg)Iu7Ej0FClStat@fRN4_Ac'V97^D&"gd/:Jhri'QA@H7+`e3n9kcpdKd6jhRD"=L#3k5-s(%W-][.QY+/Kll9J;e2h?m][@:NsO3"n-qfHi%s;?$GCq=/J]W#r3>d=?K2VcN!DB%iG\CU3AW1$;$WD7beTS/W_g%S["X2AMe;>mGPeqo+5!QT+fU-BM"?&#@msMZZbeCqVlcHC-cB,]\'T*e%%b6P+TFEBmrTNB+hr[mBV0;D>5?NK`!"]pN3E@@e.c7`MbDI:W4_WP9`_?ZIhPo$L1*,^Z]l5NZZC=lIAJ3LQ?Lq4(E?k]k&B4p3-DM!!F<[KVOPQ\P>7'[6M'#dXjO)UPub!aC2tV8\-WZF^!"d\0m[C_'M65OqSC4=CNIaC^cWZS?5)Hc!`M7NCL6LB,$2uB-1[fB=I<c\+IZ28lU+I7!Pt^oB)l:7Zsb]AdK8tE:ec`'jl+/80;/DBU=tZ:EO.%MUQ7Qdo<HG3@lf<&o*>f*M8bkjQHX<r9sfpb`@Z2(cc-X%Ydcs./]9nWN(('MVR`tpFYp\UqAqsCDkVrZ8(dP-9XfWYE=di)umB;FQ&(5N/<D5s17U+B:aQun")\,%imc7>ud_!C!Si_E$/](^%B;88lQ^>0R7Y5Oce9IT($)$(L9U^GUN=[8=qO45<h?M8@8h8f1VJq1XdNm+eV+C&q79%G1`068Iq'hIg[6Og-8a:-k-YACRsHWdV*T^]\H1C(\<2)D.JJdc6=kpm8ZOqCQb0ZC<+QD)u$g3F9*j$);Cd1mS$AN9it5tZ.\KM7KsAJ"4igQG[?5!K8bjUrqK*?55OK<Zqi-ZqE&tl7I'7hN^su[$PWurdml3V_(N"7dM@7h77Kb%9e:b>#r3,s,uPQ5aj1`dm1f:<RYH[u9B+.K,sb#3""%Q!n]6M+PuLF_YZeVq.46-IbRnC`GfA4),c_Aerch]c)*^M^Y/EAtK\]MRmFuQ;H)Gb8?'sAU.P!9XR#5i+8X9<BLLoO#L89[H:QLIE\ssW.,\skse54+s3oSQpB1k?g]%ai9`Di969Nf,pLo&'l9J(X%)1QuYk.&46F;7a"clCpuis66-S.dVl%:X*:P5PMXq`cgH;aN'_b$$-^Jm!g[]F,qr_@<iW5Ek6u\BA=C3:X5pUBB;M*IG4?a,dF@9#t=LT9uj:Yp$iM/>7qK6CQR(T&cIhSh!AZA%0K"F+F]mO,V#tRcG0A>Eo-',s+PYK+VX!?s:.!.6rX'8ru?G/0\X;&^cbT.4_8$1'fY$9*?,#6qa7#XdC<R=RO6,P8-@f&^cai%N4`MpDu#_,HS_t6%M9dOE#Ffa<2ZN]#_7c'iR#B$mHl>U5MN72dhFl1aaPG"q_FZd7'iW7)g'1L6Ea4LkplN@aWUJ_a]_R6psFbn`Y?CK8_Om]Sc1-RlEc3R`&jJ=6]fZR@V;08$%U4bFZ3i=U4O4DaoG-+ih8W("6SOn[,9B7j`]be*N$:@9mefDAgdo!kO,F[&A7iIb]?R;IkT"ZNM/h.]V+op@o5K;NH#6QT4->bkF_s?ms-J(>+cMTHkCJ4nhcp(oK43LuhQ%Qg?!t$Y'F=4d^?@NsejR?c@UG=4@[fA1$Hj`M,uWZT[@>BV>k4kkhUFa9^(/h*hN4?X>#tU[NtKAT`C[LsBnAAD8n*7Z(\%)3QH!gd@$Os"Zl0`^<KI++n=iP`TO[M]Na-J*AN'aGA#gq<9\S%dq5t,"$1=FTuHdmNb^^/[&%eKBWUIbiB&opI[?pCuShjnQTt\pmHjL:SCBDpCMDEfZ]G>I&t,jUE(]B.^mJL@<C,rb>7a01a,`Upf+MB.>EmJG2f<.l(b"gV4Sh`mSK%.^>b_`d_Vn\h%8^7P,(kn1+c(8P8&t\J"#V6j'qqPLqC.dIj!qRnf,'Y54Q^#acF3`UJ,kR1=]8H@icf25J;1ERJV>V(&-n6*0<("A=UVFN'G[bd71D[0'\K^I\rgW6St[.HRMU+(P.MZ5s,%;0_M*TN$7s5M;idpSpM_K$]\$+BT%]hp,:I@\<CMa5&DQnoN8-7Hl);t0.+@U9Yr,>74'r=`BiM4a0\_ja_gt'R85s0Cg9PL6N"N&+R2'*Qf#lOXQHtG,2%oc.H1&9+(`%\OK"Na)%PP7eoS#JIIXr_[8N-,St_1`KQ`<.G)?,p8lgrF6eqC2-%@3%=Wi>o'JJsfQO1<ls-;O`,DV0SDiY8\;BL?ZB#09dC&1sdP,=;sWWanZ1APEQS[\4r9U\05[O9>eJl)_^LU^cJR3=rOrrPi7q,'94:ai3r?g)DNUITh-;+;rJo(rO)$`DHb[l\+UV+;lnnUr,3h#;l`Nm=68,/[+u__[nWoIER@3j2)V87\[Ibn(S]32/k1Q,.C*%$?\;593[Za'i"H0YU9<As%CdC;mrM'g7/+3>L(]$VX9[o!k[-S/!dpHJ]jZS4Q8dKZI9b([aV8MnAAuF.9$:5M8hsoXF$h,%JI4=4*4KdBI"PeX-q(&cluig+jehTQoF73,LR/`F9L;,f#4u;=<?b];KkG]q]r%;8tS1bAasX>Fp4Nl&4_iW"k/JV!gLDq<pRu>hiYbCMT:V;Jh8mBK<[3Z'\E6-4WS<q(rg\bd/=#Q7_(>`r$cSl_@X&C8sZR=>?)<R6K0@\-"?c0pOKrMm&L?(,/5(ON@r'S$sZP4]uZP8Gl\Lq'(CS8T-r4FX<*NcgBiS59`R^eFr:a)*)'nD]jJt+&7pmh`E\f!#`bp`FcG:&.%2t.C[L^L-S,$d41DrKi04`/#6(R==bI6*[rKc=@AB.4spAA3!5YZmTfVJGpR2/+=$SE2WI"klu-t1cR`eiR/`A<m1ius0Res:^5C*-b`O+h@o&X@Ue"h/-\`BCq_I2r,`#,;`a83!M;4`eHr<O>Cm^QPWqDs'QA"DhoY4d4PZMiP9m2C`k1ijkl,1UZCAs5T<5K.PqO$#9k&#Z93&,?nDL8D=-9f-4n^Ge'Q+CESg#G0GQ_3alA>(D`JOc.#4tI<aK7eeA%>Z.T)gKcag:B7S3+a1Ss5qS\QbI]NM-9r$po/#U'su./Ado[+&'K#]19HEr&%Wn_*WR')PK@FCGs!,i6Vuc>bD78L#mQ$?6AEtraRF'#o^!3UaX^U!)9\ttf?p1>>nA=#q:)_*OHkHW$fg\a8Wb0;?t=(!a<2ZN>+&PSaLEq2FNF7WgO%O"3KEE#FT)nAk^t)O72s`G:dJO_IB?eYpPKSS!!<fU5R_"G:mN48g.ua&.BN`.7siigk]OddQk%N.8S[_NQ6hrpCcs2/'M/iY?B+]#0S:7e?lg.m!;EV`lDct7k@@UoG@acsp$W\35YlPe:7ck21:'$fR?&b+G%:72ig)0C!mShE#:KZSJ;,3]AN\Y@N2mo(ZT#=1_n-<W!.ZC=&7o[-1>-5D>JVti!!!"fJWQ+9p\<O7\V8S9&)gh!!!#7t&<nr17?hfjk16)q%l>Zc*2!]?!#gSWPVMu%O"t>9bUor8h>N$mF)oN&(WnH#J>UqFUgNas0;R`&V/?hNZ.#11k&%gX0"lbaNC0o*9h^r+UZA&ZQj,]Q!d4%aQD5#8L!OI@Ua[._qH>N#_8Xh6H3ctXqr_&L*1PcO>Iq6(&XXlG$M!ND]"(qkneZ=igo2uDT>8ED1%;A8B$=F-KF"?T/oo4@K9fUKZ32"J%tQ-=gZ//I<pq#h.-&>7/UP2GBMP]jC-WXk/@KHeR3`gqPn;7#8NGNS6V@n*980)0PYlrk^76KM"h+KNQmE/8)%V<S.Y_dY'RNnnTRSG/@Cl3*juuAZ=YQhn952;_&mQtB[9KGlD7Yn%!#J;b#YGs^H3[@Zi*`Qo(u9<7gTZ=,i`:!0s68s8>WJ9CrIfLXPr8kY=>oRF6"m`TRtS0,@YlkA=G2`%/=F;mP+9:n.:%8h78V-?cY^lYX`*'MfAG,QRU&C@]uOO8KQr@>?IdMW.([V8BDsaI!0fdHif&"5,r9C;-4//&da;rK1$mTb&^9r!p>(gWbE`hl9G6?rQc'[Z6&&0JZchLV:lK=k?'I6gQU)6\qmaY3_)VY8<+"$?NEe"<V2VI52t,Z"\Nk4Vbu%-V+?_"-]8V-:/8H%SM*#@jTVLF56OtWe\+2TgHak*Y0=%sOpM->+#qhN!k02$aDO,*ng1=t=BD?ilPH-3gY("!;/sZQ9`q@kD-g*C"(0:J$p*TpdaYcR?.78L)lkg625P(^lT%4ajHcJct](*3K'4haqgV$gEG8rHedbnR@/s\ObUV!91<W-5OWgSdA5X2Qf^38\h[>gUMjZeL7N67e(Cbd^:[<^QP`5pZ"oLic@-Mk/7rDjk3Jp:I%(<3T&n9f#f18Od]JKcZgWD)SKCB55E6E=m5_SoE5lE`oMeh/;E.7HDLJ24RPPVKpmjk>^o[!?kg3P":N!G.3?EZ`Y/K@WRQ815'M.)bj.Z36+SIgC9Q'iW--dN<mXB:q8qjoAslM#:nmj^TQJLb_ha6L$oUUX:1#;9%VLS^ZD#`mT@LIn-.l\`Nm'!'opK+3GE0"Jq&5IEK>X!rr=o#m`p:>8,/HR:#sgVfi64PA:Y)"onW46SQZ-H>2clg%gW\lRW!\$[sf6!!(@K"JUi,O7ar3DK5&>-?1[@!!&Yu#YQ$C)tQ#>5Of;&IffZN1][V+j5unR$QBI([m%@g:BSk`2+Lq#_n6)??LO#*d:^.SROaZ75pTYDdI*j9SE^!IDB*uiDF1j]/BMZGoMB,"MmlRg[OZh)qg8T;RY&qeYN7M[>V$>XLS0lOIUQ`+FlS$9HNVO72+J*(,JJT]6l/MaHP`t.SrQP`RU$)7844;KZr"87)E+W/5_RNc27[>O5te9`=TT#6LN&Jtj6#/*fC(8mD/>X:EhGG'k,8;l`3@n*a_-oYJ5eipM^RV&VZV?6[o*F@r9ZihRC8S)[B+b5-j5O-Muq5njXdYd\-8h7=i.;%n%Z,VpYoYC1*56fBMP]jC.T;g.FBZm58BTuqqq/I/&]Di2,6YO$r>#B,KF(gQaJmQaGSZCeLaY7`=crVRmLd86@<C,99N>akt67'>V(.Fgf;)Mot-QVmbG<tB.GC*@MmpdRO@^)MucgrX1-pbMK,n3Mj#<$%a)"lgA?NLDYZ0sBu.b$AQZ2C+,*fPJVtg7IqM]ko\bXHQ>BXRmp<PE[s'N[G8\r*RU&C@]uQ4pa>-ii.`AWV&Q9-().Y5B=SG^fdRIf20[2'fmD]pZSin13CqjH:%Crra8YO!H+g-/`r6.VAZc`44UCanN>j\8mRC`ljJD/%$[LCG)&>o;]*ZFHUC%BBLXPCBKZQ)i^m0=]K0;bb'0i?C@jo6qX?Rj7QKhLFNfk6hd.AP/STM*%AZA%%ArZY!^H*?ojS)@a)A'W;'iF^2DW*P_?EJDf+0`uX=&Ck][M2S4t.:oU;qUEET%l>Zc*4;RNnKkMO3;!6pQcaSWA*iV(0>6Vig\0B^(43[/B+8]"+:IWtBVL3s`=cE,FbE5.7iSK)]hUBg/s[^(=M8kOlLNcMQ1[p8K\PBa5p+`i@$!T78N.;-CLbdGPrY>tg\UPHD);RYBk80gS/=bsG#i."!$tI;"XK@)4_ZM+@S(6UX\?6,b#*Sq#g(f>A2L-]LDj"/VgFX_]5i+8q<";cK8h=Q>i\)AXTkniE0*m?W_eN?;.KtMM>e'D1-X0bN9eZ&J%Xm*5]^tj!Qq>Pq9N`ta%4DcAYKfke;#eKUHaF/N5ands82kUT*#'i:Xk.T7KYq*@kOX;#N>P!!!&Yu#Y5iBn'8&l?!Or9?af;-1aglpTF:f#)MW3qZ$-$4[FMl^X6]e.o!(H$Em4X-!!&[##Yc0q<c?god$'%CjI-18!<>C&&<ns4=77cFh8WGY!!%O]+>dZ2gt[,c#",DEGm?1>hBVunc[$`l="8?F8@BG2h+M6<e,)Yk3:tq\KRRc>$S]Q]f;\C(d4@d4gihGB8ipq*[i)=E=t\:?`R5<D#YQ%NG?<BT[_aS(AVb7H2q>m1]t_a6GWIlsBQb-#+VCCN.MuDA%@^?(+MqfmRTqZ8TI!Wk/-1LV6[6b`Zh6&_=K3,P>;uB%&e:!q#\W\'SF)OacM/C?o!]-@AD1pAe?\WoU(B/Q1(#_UQa=W1O?#(2C6gQJN11dd[W(iq,0JOBb,?/cBi+/%R=Y@:aP>VO^@tt8/s^`G@]<Td)s="Aa'DVmCr^Ah9YeVFRPZnZ1^+[gK2oZD2D1<FO)3c.UO!d5Q's)lVi1XSEN?S)s,(d#`:NM`2@!eq2XUH/BX`AYKXBZHM))/7KTAGNRD?e)SA2BZ?$c!/36I&:T3msm_s?ck;9^^\R*2mNEF6sqeZ06u!/O-^.cLGm6)NY#FY>$s?)S(@#]7Ds;T<>kKt(^SC)<_kgguQMe3:%?AT/-10\'7scu9do&S91hr7a:hs*!J?,(=',22hj-p*frb)>R05eh12?GKrASOSAPd>V*EtbA>=/nH2ZYjpF%?2FHl;[#QqiC&*md.u(3UHV@Zq7?he@na7o?m_4$omf3,?r+/h8XbTP&R2s2=s(B&FcI3\AGOKe@9fLqK@1(>9^mm9hI=Nl]j.M59";a^MZ.'@(h&U@2lM!?e(q<\*.HBO=GMbT(q7ga"NN&qN%r=!TaIf$!Ru*981$P%IS5&WmIJU'(RKW/fZM5uko?k9.[LauWH2o6fU]i$/8Ngc>i*o8kFfe?I=NXKh[Kt"/`FLg%W/!E2`g]KEs/4*P#F^ilNZ(a6\0CYJD)H!dKS+pj;2%>aO!7648G%\aPk"TsBE.1Z3s*[K2$YP)6KCA+/KZ2l6^3F"'N-$q(leM+RPK>Aprji9s%o@K\`Nm'!'opK+3GE0K\p@2q`&a:!!!"Y5hKF;S\G!`YmYO3$31(Q%"tL:\(`]gZ?7YDS6U,c1&q;f(d_0@Tek:anIY,"!!!!U!MLt&aFtqqrWW?&BEge%`pq5&&+97&TK0RFW!d1(G<jXC4jl"[X;=cUV,B7.A?-mO?CH/3:5GU!3/c]!4]K_lib]%u\sK?#i==XFrSD.nl>*q(#8^$#kTMco['/>>^PqFhh`e3LM^9N,2Zb.jKs2B@Ti_%0PbI[\1F+0'6<\ZE=;j)u&jV,tQ6j(RfKi03#$D!9XbY8fEH:KujPs$_c*5O_<9q/ecOVd$HfD02J)hh]IuAa]K,RQU%#_6WHtEZi80rpniY`E>@>C/(A/%`jJ,<&3VX5^#;3aohKqRt#;1L[@S0_2>[fEfp96g=$WGAuP5I!F/IPc=KSp5]s8BqLb'Idcg)9s\Y/'pKq[kQY8:N2;(UPsA*+Pd<cMNEJg-pqS3XslTDA%$e4i*n-0R[S/`Jr?JAWo"^B(J>'GCi"Ul/",qh8\@P=C=gk&lG(&s"S!$T<LTi>_!HH?I/TlpWU5GP+J*BCmgS3T.qL\@m#Jj^;K8bHh>\bP8EN*lcGD_ccUN^iKU9&+.)W?)mghasjkD&V"W'gr@DsF<'Oo/e/sbSrSPA@sK.fPi`p*;Yk]:A6NsJ6Qh0E=$f?ktW'oBY`->XaOr@c9m^ROGb<\P&]4:=a`&m?/Qas^tjd1Tb@R+*6S]]r5gZuUb+KNO/r$q_CJ.X!HB;@,>k,RMr$da;rK1$mTb&^9r!p>(fEa9r_0$$"coibL%<5FBUim%Y-$Cg?A%[$eN7P(;9,,m@iiJM>VUo[%t%9DKugcbB&H.%[]'OE`,8+kkX?:M&T<Ag/#?hl#Ns/up:0O<0SR>t2P-QF2W>'&+7FcCagl;%#"B>dJ!"A[(q1.3infRjFPtG$/"h)8<J:EN?$/b/gZ5Hb<T7GuM^X^1&1O12I*06ZQ!mN-rQ@9?IfqqrAS(rBKnMEh:jdP7oZ:7lil^:T1?nQT8hpqZ'cDa$CB@"^EUp`DT3>FEb*cWo*,1A)h%?T/*4ohpQdI-=r9<1iMtnMS-9W&#NGp48T'#GGB.3V%7At0Z]lWUmm4'[5$p4b+)2uD128_Sui>UcZf/@&"g(rRr&d@B+c8S[>H<19^54B!uFTsX(u:``DV`]ZUIF9/gd>B76QSPALu:(b7jf=1S*L4R9\ASd#;'tS8l2GE52C<%]33k,=3:.MVJHDeY"c4%MDB%'ajIoMC\cQd3%X@)9i73UI+$+UFdQ40gh1^8eb/Far$-;:^1KUr5c=/!+c-qm84tJ(_'l>&ItHB!!!oA:e!Ep1&q;f(dJtt!6P9ATO@h3KEEV)!.]e)PS"Cu$ig8G##IcKe:f[%4.s`(POOJol\3hnWRMA$fkO&ue]Mo*<K<c,aOd_>EVX`,rD%GAq7;ok#N60J=T.)g[-DG;9EuA,6g+Q8&Ip[kN;3*d"'mIcg[lCC,7W<9:Ih;kSWB-]&RcC%b/;3HYZ[4k,)ir]aYgsG>%0A1&n#B9J25!8#*]_;@d>A5=i(2;$/q1p`WU23T&Ln_>#QJ_q:gZ[12Ss1Up#0'-j5O-Muq5njXdYd\-6Q+=i*Y&QB^?u'"nAF;fN2o^&JF^Yp=I;LQ,OHAZ0G#2<Dl%bdPh#>V)^C;tE^^E3V6%oipJ>@L88r"1ZtPNlX%rJ5k=hD>1es>V%1R6%2sGP;WYW=>oRFEp]02PE6Pb/5_-:MssT",nmdjP4NlUV+V?5!+ggN>q)PE>t.J3a^A#!4RoF1m27OB/B&#e).Y5B=SG]$[G%QQ&uJg.UYXR3fX'`cR-duA]-/Vb(Fi)kijtJp=/sDc0U;=a7j2d'\CsAc1Ns]^!O[u(C`/a1+ADGC4i#$7o2/0'+?_"-]8V-:/8H&[,doFp21JfX[btW:2-XZk#)aRb1,;q@=gAo[Q_ehpiCh@]N,DZ=ARniV%2V[tK3D0-ptI1:E9R=i09u.9L7Oij#s-N1M0)cD,W03DD''l.ml5!TA\l=u>V(#N7X%?AWqsD(";a_kJJq@>5-W/E+FeQtDC.j(`hZrkF#MFTp$&r3[OTK`hr,qHH7GUuo<!_/?9`rQ.+/0[b+tV.5B*kQ[(99b>V,!85$N\Nm:%i>;UbdsUE6?7AW/-[+4+&@ejqbk-kTH-`:k[c"H5`u!+gfc.&0,i5GKeP,;DQMM+SI[+3GF[rW!a-i;h"#JD-b^PVF)l/gD?$)#sXn%%rPu!+c-1cnKu*_?#l%!'nF%ap85K"onW4""5B65T'P%1^p%9E2X.UR!1f\_'\+WIF\e*\PfCG7'b>SIP8sY:FF*-6ep*FK,uLn\p0]2^@!<0/DPdqX5DZj<dcQdl/6#b#X*\n_P%0u&`5ciTSoXqg8Rg;8<N</FEG[Pq1on$&OmqG4BsEHRoKb;_J$!.>Vk`>-!#XL!J]/--mK^H5T):-[VkZ(,oe%m&8m>;9]1Zm.3?q;BX;&3/q<ap7],Q"L\-j-&VZnJPYlrk^76KM"h+Ic93>uZOtrP+U0"";.W/\+pKoX-Q?lRpXTW:#ej:6(>B`g;5o?rq1BA:bC!tLYdhH%<%9EEC>V(jJl:Mq3qm!TF!E*p<\)%(AEO"#[.'L!<.)W?)mghasjkD&V"W'gr@DsF<'Oo/e/sbSrSPA@sK.fJ-iD<Uu-u#$q@dc$2296H7HIHbQZ"39/==F>K#+:?)f"KR"XYqYmKP=KOBK*@:p?_S\B)<>?DFb,qKaO#s\F([5Q)ZSM?@4f'>rHn]@XLQ1U9p?#%$H.pa#1:6c63arqMH?P@]B1%-"W/ZP4)[G^/UE+Ma\95(pqS\FCLkM^\_]\`KG#Fbbbda59ONJY&L^X1Xn$MlSueKQ8*7l'hK:2eSi@EdeKK$PTg&"aY=e3J*'Dc4KW$>-Xq[fFFN45;5)CE=[UpKaML"KRV6DSYlkk9*MLm:d>"ZMY7nakdWhDhPbAV(1,/@.H/-Z_aP*$R94cBqqR/Td<mOg#RHH[0`.pULiVD&VV5O2)JKcZgWD)SKo`H"'6E=m5_SoE5lE`oMeh/;E.7HDLNA=o>*%2]8%qr"0CEslFP_^e'id2AB!_/nKJ24tBPYiUpT@&scOdI<76mW2>%qU\hIfO&5""46OC6/3f`b5@:&ItHB!!!pli083jPQ:aack)F-)>M/b!!#8/!6PQP:^-n"%0J"'*'bAA!&P+WN,Y^'AXI[,Q,+g+(OajBWOYp+)aq!^&:Q:W]MBoncpHq:,tVFlTSLZm?+cFXY[-eZhrcdLdM.X@I4^fMi*pC+4lH!W37NI6inMLJFKso@G9P`"l0+A*o+<c(,)eil-sS;4RoKb;_J%,U>Vk`>-!#XL!J]/mBZ`:lGC)D"ULI>Ah;g@b3'\r:g_.r#^^]$s4=#P7aQ7=^b/gsGjH.+H.A@A1Sh^X,a-X-NWo+Y#"O%LMS@^ZS`;W#CEm7HSb&C+4?@i*T\:s2(ItbC7'$Muu;Rp0Nb"s>'>uQ2ga)(WH^r93?1c=/I"W'ga<PLD?/sb3mf-_Yi3maC%F4?I1h"G5pJHM_-<c>VM(#rb[Q6Fn[[Rls@1+\pgrZJRP^.gptE3VeK<\2*X+dPg[@S+l&fp"*Pp`_P+*5Aejp!LI(k2_u+Y*;f3/u-DB@rQ1E-XQJCh<&1g?1_Nh6)NY#FY>$jD,_hge#_!FDJV&og%,g"p+,jmO;,bD'da6,h+Q`X<TQ9/b51J"&@ZI\m@ptU]*sifhns25#3QO';gh(Fj5OP4kbT5&VS3m\:9HTl8K"=ZjEm5U09p,9@ZeSe#.*Gf9A1.d/@fB9Cs$/U"&_VN$9(U96g_1dN\c&s)3`Im$D`X)lF4gY`R9+r(E_<.Kg9^"bu%-V:jn!=)tD#6TD;AF:M\V)M3sq\SY$1#7<ETGU1prg[L\IRG8rHe_Vel0/s\ObUV!91<W-5O)CH=oLX+1plJ^%oRZhNI)Gl/PYfX['Is-um-:ZS+UgGTm2UT#,l*kuI.a1$4i?pfm.a.7ufKug`oDhLV8..s<PBp.*^r;J`l<9TpZ';$[C_;i<MofX);%IfDN.\%k5.U9kJ`c$^UBZr;Y/l#V>7Fa\i?4g^<1sl\UW='%')`t1A\<*LlMWe.'51.D3C"Gs,6&Ntq&"r+U.eO\OSVenB_7)L]8YG?GChRM!2q:16Q)YMd$4(gR;8F@piD#KjI-18!<>C&&=P?aT=_g_pJYLtjLPGX!<>C&&H#kS`>]?U_7^6W!.ZBr\%ff]PQ:bL_[t\Ee4nS_!WW46#%5P2*9oj.jrI90YY"UYTCkNcY#OZjO_cn.hb,codg7c$&33FJJ7#5&mmO(8YBu-%$?tFJlM!33<F<p\3k/9164`RP&Ip[kN;3*d;dCs-qn$["Vk[1Fc:?*?Len/T4BsEHRoKb;_J%,U>Vk`>-!#XL!J]/-]^gbD%4EHU`R[aIZ\/FV'#H6jN!\:D4iKcD"pVX9m6_bZ[[S8b=$B%eK#U_Y!Ts/tQ<4kW7n2=Z'#OBe%:GY0`SQjtkb!`:R-soSJ;Y^X5";MV0FMHjOlNSn5IP(1I4!l].8?8"Djl99V891h)F#$2Vlnh[AQ0-5)Vu'o"qH`P>J9G'=+lJX><\J'k+E.+VS,2"m?V[SO;;(P;2,gDn54uf'=_/-o63*h9+S`:AV<EV.AN\EL+nrMC60fLoqpR-@`ap3RbIh,6)NY#FYC.!X,Y7I@@C1Wg5R\=4aUKS[U6<.L87(@W%^f!lWt32W@IMt`M^&qATMK4`])C"8t3B7+:4up>[tt8*!0QKYNTD">V(F]C&haqV*3!$>t2P-QF2W>'&+81cC_OmdbO%0KgA2V0:cq<G*p%c;E:ZggMjE^4_JB0E3j(2e1OD[35_)K+)Vf.8K!rHDi^BG,u@&?T_7f]O76X(*]a0T?Rk5Q%6HQ^'6L&A'E)0*a<utEbo5;"5Si3rcpVXM(JA_Pe.EVT*Gqb?pH$\]\QAoE<!n%]PCZ%!lm1C\N3&"1^Js?3U2TAHDtRpHR!HE`:OG2i5%_4!QuK;5(JD=XP5O9J$'\9le:9<o'tFigX$LMH*$gc).MUlh'NkK,U-F/`_?#lu+nD8QQB./q+j*2!$E4PIN(/9sAV:.6!s!(sqG>1F!0e'*TF:f#)?s#-3.Naa!,*37);tS<!!&[#!+gfc-j'I"L&mMN%\O41!#c&<7QAnO1<_hQb$^G&Ma$H\e6K!&%3jJ?#eu^<hPV#rO:Z^MDo-[e:Uj/rhhdZIgTL>An+.D6BaR>1^6ZraE3V6Q*^CV%:]njrD]^pc`DR&tKj"$@\e3](X2#1$#\DE+_o:'.=d8t2N4(:Z28]o-@Pu4>?t_]R1;]^hPS(fBlR&6,_?!O@iKe`."E)k`iZ["78p5G?(<X_*h;fucngU:E1nHH00ZTNd`2_`2!+lOQNET57F%Z'3oM<FX9_\N:^r;JK>_e;D$Y?8Qh)4<7G0ID@"C*LS8Q54T;fJuu=S5m;Yr#4S.qQ6Xa4^S"8B%^fG5j)0`KIQ0QaAb$_m4"F%mmnigE`Qu(JC!$`?K[D@`\a*QK7t7:$L)Y00gE6:fkdfBp[4VmkHdZa:kb'dr'63jH=X^arjW&`k%L?W7=@KOtb-1*UUi^_k'"5_/-kqh[N/.]MN%"&D+T@I\t9,X>3$;.)[\V=1]ktjt;93T_<Ab/VA*MKW2\[#ImlN5&*Y,Uke#XQ]WqdAaNrh`&7fUk"jaQD8F2SCUVHa$l2&MARqr_ZXblA/kbLi_j?ZDDA<mX)4B#n_o:(!TU(fcrq=Gg*;Y0I9BA:<@4*F3JrXr%U4q6Lm:"9Yg-.b;hJpn1CB55EE3[n))VlENW9X+<dFbs2H5VrE1%^#k"pXn0PB8T8Z8O'.;OOkJ^9(2Ge[&7ak4oKOnO]cn)fC%=_:$d7."NQo+K8'"8bE0%91#[pA\uDaNp<r>8CfC?UFAVpJ26D@)GnG`,52+T2/%u&K7jk7KgL0J,"o^BoES2^3.Nb67/f!rnhCb57%'uA+n_OfdHD+6N,Sc.!'opK+3GE0J24tBPQ:bL_Z7gb#>bU)!"B#Y,9/rd!!"haTT!giAH2_W0Rtpq!L*Tb5f3TE#`#ufL3X#')/Kq7d:^.SROaZ75pTYDiV1dEqfG/`X:Q^2^J:W_M,#4$pC_N_m_Fh4mqkOp^6ZraE3V6Q*^CV%:]njrD]^pb`KGDt<P1"9Ir2To^^Z,+UQALt/s_7:WWWlAZt2h3)0X@>X$N$O6gFc;&Ip[kN#3=72u1Z1%Zj9g\&:'LE5VA`&(/WIZ5cH'%qT;*DK89Tq%Q[3)G_4SR,c@m@T@@T:j97!TT"F@^/3IZ6*YWF#5Y7W(8cHY(#i]%^OP4sR#]H9I[$NqNk;1dfT+YYR=L3l1hg^=BaQJY#-32gbZl]M130`i5e,G8NlX%rJ5k=hD>1es>V%nlXZ3-$5oGt_HbWgtjkD&V"W'gr@DsF<'Oo/e/sbSrSPA@sK.fJ-iD<Uu-u#"kD#d7EO=+AR"u[8jL+-i3R)(2'9Z7n8?>?07)jO"31ok`*)d<_tp3["LrJH"^,R*a*Kh4U9pQG;D<LF(F5+TqNRl`tl^7f^Ig<<h,8O2\'P(GHE5a^geH5I#+9;%4`/J/Q66qr#ms1=5;W@Vg$M^5_cBUq@l<[UN<gaq@*mk!haG*p%c;E:ZggMjE^4_JB0E3j(2e1OD[35_)K0l@^@8K!rHDi^0AV(Q?'JMJ^1f#,s#_N0\$jRgcGWLTkDm,UQ.d#lULdLbH?`jKb@G4-4**=#<G(3$M](J>dBdG<3)Wd_,bNKoDJ:e$_s#<!G:jNgTLc,@]WR.O$_c6iCr55eO.<eZt)48d%;W#>'WHu$RHdfV"L+tXq:9^54B!uFTsX(u:``DV`]ZUIF9/gd>B76Q/Vl@BjM`jd5e!Gs]-NJ)q;&lF?LI#fIE^e")&:e!Ep1+G]k1YVCS&i2qDW'hg%To@C_&"nl#!+c-qm84tJ(_%=H&Wsr1K]V<,:e"cA1&q;f(_"QCf\rEKmeK*Y+8k%%5PD@C9he>&3,fuI#A)s"-j'I"L-aU+Cu2gMa,V2;p[<V*fk4Z?oi:?6"p67U!.]fT^WVF9A+/9fcTV$XRr?"Yo>Mp1A`O(E!s!k++f:3dR@/b_KljJU3$Mgh+92,V.:4WX1@bO3!<>C&&6$U(gg%5$=<^jM=]ns5MuHF<,//ls"-hc*\kn-,#?2RW&q85@]o_MMV="_R/&90T1ELbW\9fKJ3m&%iQ,Be(l$&jr5rqKFPco$2DQJ;*1KsIZ>c*.3V'5IB;b".5Le5F6jW6Z)rhoj/`4(e[\le6:LJ$8p<$O2b?AQi%^[R50N6$0e3]^hcFqqM1&YT=W4BsEHRoKb;_J!_Y>Vk`>-!#XL!J]/m9Gu7U`X*ic#msL`5AEG$0eBbNnsLeGVkRmJ)ho5p+[foT[('[NpV7o>qG9YYm3[U+.\@ml6/sDh!-<NJ9<8Jg,GQ*^KUa&`<`\40%=g53;+o&N:5N;.p-.0,(<!+-s$t9I'=/LA7d`^qgb?,]Vb<bb-:87qXbAO[aDogr+58O)4qhn?PU9,L2bh--dU:UDe^_VOVZn)*)?-QbA[q-Jg&g*03p*E$n`#0I+pRq'aPEf+)^_k=m[kZm31eR\TFB#@]e?MDnnf#fJr:qtY[S2.$F++C(JAfJcDG^J_&"h;biSpS_\80,nDM-8#>aJu$-E5J!!#,I.,u'k!rr<$Duc+'!!!"D!gE]c!!%6FPQ:aa!-eR0!<<*"GQO*1`0d-fhR@F\;h,%6EZu5uh+@ZD0gHUAKWfmc)rLYg[qB;bmJn"jb)'(3.B;[A!e;a$aoEXPh7IlSG4tXsgMVq9j,?MhObt>O<S^[U:aJ@E5_Q&,H7E)h=$8(c*Kc4'79//E!)Ot,)8K^B1,_$KQ2i9V'nJ,j0upM_n^c;Vnr^,j'gOIg`:H'#ZZ8."00\il15aC:(M_io5T'Q`Rkg^XSX@@^Npk,GGrYp//]B73LbJn]1T$,sIJguXAbYgAchuaJ8bg1Z+"=J%!<C7BJ@q+4-EcNU7dF>V7QHl\R6&:[U5rt7]RB\NHlp]%R+UraI-GnI^YaD,It+g&EkN'a#a>@K3V$+'5&p7m]<<T_df+H*-diAnVaNE27A!+7h$?)dIO%\8:Fp-I"8\K,ns:e';S!_l3T>m*(_ME>8YtoaD,u.8VjK:kF%](si/)sXa8\o;?)hXp-EYK+;oZ4/Ie;"*6U/./i:X;0gFqsNYIuRd*N/;"RtZaHb:reahQM@p+W<c/oWo-M/Hle#BEV-9!9Bu8roB>>NP0&*s&]6eU`1U+L>Jj-r7U1gSND1*4hm3+?Kl:W9q$G@ZQdlho/h(YdW.taHsUet5Gk\lB+]e8M&QJe1C<>rb*b8n*NbQ`6Yja8,APYb1?SF0e,I$fqu'cWha^W@6U0kVLd(Hu-2jh_Q,H5aM>upldJZjPdE>h7l"=Ik;CW*h0YR^%!5O,g^LQC[%]7ZWObWM+cBnTX/)N<$SIt+683[A_V$434@L.8N16F3&9t%>ti.<s%/h2bB1Lfdr=m[1Y&o(&0G=X>0RL.Tsf%MI"Y[uhOs0l@^59k"?62]=frnG3>C:E:0;$`.Vs6N5+,K-4"Lf$e/8F+1.MGs`$!6-!ab.)opj\l9Z@]D@OqGB_C,3!mTs&#7$F&5>0oE713EDhPO>Q<cPq5DX]YPG!"AhFZc.?nhh`6Z&Zps4r8+$A0jn%g+809$P>BCskJ&qB$e7O_$.&eGd/L4_5]+>7<)h17Pdb6Lu%:HLe(c=,PX.;]j,:3=@h99M&eb23SBPGH?PHu0is:!!6DaC?k%H-Z@&;=0MTEb<U4k>7;4^H.af;+B-QeEZ>aYo)AFnA4Sd55aat+.h\GN;n:p.mH\@q!_@6p:Y-?-XZHJ.RO/n38H<P7lO1-W#I,\BU3\?5)</@aoKF$Gq"@c[A`i1dMtf<CUtY'&`l4nc'[^.<pE,XnM8jDr@K*SR<]^S^QUV'dPBZ17Eg%>O\<F4s!P"@<CLO!m$@qP.H<sXJ(jq]7#VAbH\C=h%j^*UhZ$A@b^PY9<rL^p.JgBCP'g#FrU9n"oKlY/[/hZX!/<J#!h+aT-<s\V3=IkZW<e^hN&aeY3!m_EA&OW%0&Qj\!rtS(^g`?[QC!pK!_u-5!bD@A%T!A6fJ@u*rquS-f<2dr=:co/;A"k["(Mg;"q]`4htY2ur5E#J]QeE6YTQh=UnVeC`=al]!+c-bSpBIdBF,^%%I3.%;GO$^W`oc0.L%:'!!!#g"=O?P!!)Kk-j'GL!:U+>!rr<$n,t-A!!!#g"=O?P!!)LV6kebS:r],UI2WV;4F$?Po'rN7J'LD!*<7K"2f@Cf_kMq)kXo`c0bkQ="6a0AIJq$:$WjK9R@g+d:(U.[n\6N=QBn9CB4kjC)*e9(aqt,R/%L5N<+JOM1'#*'TSrn*\rn"G9LX[=-j'H3&bY<A/:'jGY2fd*;ir4XJ0$rn^j#pF0`X[EEW_<#aH-C5!.ZF^)$=8g,ra2<M@9ef"orlll?-T=oT0nqaUL)(,"#f>4kM/mH$O[XFZ'$),0FRn9h\5S[IfPTe*S;9"9<jP#"s;hdmP:o\slR(fs@Hg[@T%lWWX%dc(^L);/-aY.XA;';+>d/[E'ms7RR[t?[V')+/5i63b<-][#%C\M]i0Z##RTDK6f>Gl>l:VklM(#cu71'odRj8_:54Z=/WF(Qm/S<@M9G,H*Io!ZkJ?[2.[Ah;b"tImsEshm_/AOaiVYh2*t6]`l=R=laN)@J+'!(kdQ$3kP'DscO\KdpMQ0SGjl.:gpqM#b03l!b8pE07jiK[V!t\6IOc-2hOi[an]4?QIeq`_cWDWuX.nGM4((Lo2*mq!(]-`4g3jGQpum,2Nl:tg<!HpPI.@41^]3=9s7lTlq[XZ+nB<]7`2jQ>12_$c=hAr0H%*&7ihPBnI-[Wb'DHq@4W4r]NWT+1r=ekS9*anNL$a3NetK#apQ22a[<B([m6oGA<%3(3oSEdqV9;rI0%]J6QG0%R:UbQ@!`a.aT6hZooa'f/;2EV$V4qnBpW`SuS6pRfN[]2C_mZ;_ki!7+/K3#.-='nkfa8I,EAB$WX9jcL4EuMPAa%Ym'(<O:LCE;"]Oao/`"&7qDr.sAh[b53_\ZX(iMSp=l)V#%g1n$in4G+HdS)bueD#;WHg)-]']%)T>EH3F4ed0(caZ10m+3=%`ma<\A;iSsNF"i.V\cW,fo#2l/9/.XVC?qrE"<(#0N\jh:2/+JaeYBLk=e*S`Ok`2>6?006,A]hDpXsX;^_rNiPf(,7od/0,-;p7LQhAZcXajZQS*O&p:5PEm_qhc]b\h<GVYn%9cE`%N_oAmFI_WK<:8h4p$g+g7S0gc;sEosWOQHu;goAo/U?gi-.Ef^-9J:mRg8tUmHgrN5NtZU[l7@>es!#`&;T8kn[9hP3><ocpP]">3"Cp!I9&r/i9<FLmbYWrnZq$5ibla[l^d4X?#^jhb@Ln3MI,aqk*NZcf"5_c:0q'6Y=NB,#1W842a?"X\reK1To-.ETQnSr2^g[$9ZZS>7.U5hq-N]3Gfj.G4tL9`b3X+r'[hECOg_52Ab>U+e[Moo^f0hpShtbKf4k@LFPrYeM(T+aVNE..Rqd2jkYEQ(?L$h:[\AEKn7n1'-/\A//keB[8JU\7ml4<E;A01p4EuLU[3d)sG._bfY5<BtVMt6!S!-Y7pS!OM[l7>gD^Ne']-ctC+7H(VhE9G=/JNs[rZCZjXt+uA66f\u^\]Uj%G^Uh.1"6Z5'QGM4a6n"hW9%om3hXVl_#+dqW*RVbL'V-PAV`A]bbj+^!9c&RbZT<KqccSiKYfC)YgpN,\=ZfhFYJt9CGs[V0&]<V=giZ@8.;"o$@gaWVsPL*i<oep,GDg,iXm#P]:/ED=[4pI4/V(f'VRa2*?+UGbW#pp=t?o\m0qXO.bPe4ac-Gh\jOn"Hg>,H3d4_a"FQ3I<7+j"&H$?:rZU/hUIE^U5.*[ETG!bQDlN`;9&J")p>:,n<EFt\T?rXg%1JN\I+69>KN@<O\56W;8sPn]^b#(s7j2e^A#>0`W)h1LO])S\))E]04c+e\+%3$0DJA`c1P:62cfG+.H/siF6E1`F-UjX$B#s0adZIr9(WZl7`6)Z04%mV&7<A32B?j[o<YcE=0KnU^3o&/flQVpoBnjBj$2\&N-A(DIHoe;K/2rGl2bITQ/kZA80rS<.-!DHq+aNt2f:0"/hLAD^3JVRV6ag\T/qDo`/.Cth`^n<?b^dJd!L9<=+?X)1>Y$:oohI%lU)QY!<<*"ogVUmknW[+`MJ9Bldr;aT/q,gq!jP<NZLE,kfE4As5q)obAX+\`W27nG'iBN*M;kqN"#b8&[u]9*lF_-`99g2TJ70!&d.>@V2U\)Q)1;r0je2!3d:M?anOXRG4=GK5Q'KuCTkGAb?t8FmC*T965_.`mbd7t)55=Q!WW3#6R"?u*'?C]WJ<\CaoDDABE1@t`hB`j2Xc)%PQ:aaciA`rN;(UN5.JZ!?:NJ6z1(]m0Na5i^]_u,4KaRQuRJ8YJk1XlThM5Ic.RdWK!fn9k)^\:Rr)p@fU0Fa(3per?BJ*s:5F7m^FJKs[Ba;pd2_L+e*Lg#O3QlT3D-&^eC7`pHXL#%[q%[5HUMutPXBqSLj7nniaiF/+O"t`1M`\6@[bE/bF6uFpK=_CZahY,o\!';I%Zk#_[&3^0R=qC'7N6=AP'b[!Ph*ZQd4*MHVKuE03E9E4I@>Q-<B%J#\#6,^nSg+G?-^lhA_RsFKbH=WX*&lF=7.K,<^c5Ci@2\%P&3KbY*(QQZ7UGC";D0VaGV!rN9rqlK+sFc:1`HWI,sXld_EoWJ_`Z%VD_.EZZ!?QFuc<^.pHVl3]X'Z3kNSCmc7DnQ$)PR_^]-\,WK@[qo^Chc;=aLoIu+\f@1RG>A.nJNPADgofc&Fl2+AX".0u"8tCk6V:#iSfGQbG-\,#)B%d1-0]9V/#>9g6P*8duD/J^,1[2\e[\PSRp,6b=O>F/OLPp7D5?m4pZR-UmTn`q]j/_O'MNUi,<U3CdKi_E$CIQCCN0CU6SmM4"WH8*0d+H$qG"Fl$H>JpYgMGeEarhrpkWhA"@MtUkd;NeEPS)g=L^PU@alnr6ZBGdY=Q'bs0ge]CUfWYLQq,I$.Cu*&4^.TPHb,V`Rb#MG^MpG_6RnRq_H?3pBL.B0C\O41LCde.=DQa7WUL8\m\i\@PVKZ8l2/*&C9%[SJk2b_I^2N%E5c\H$dmi3O^3]51opfK%)qY!p-Mm^ln,5fI[X"1.XRMuO4Cj=e($9\&:;Tgm_LJr6B6>IAfg]uFH&K&/gDC08S*lG_[R8^iFWfqOo5EC>'KNd]Xk[%AV_)#i*`QGb"ui4eNro"7]Qj<O'>18QkCgbIJt\7Tb6DJ,UfE#k^,eL#l5]fi--'l-!4LX\E-BkdcO&FaQ/ID/sNN0-J37P%&lWTKpTPh(ks"W*]`c8;.cplGnaRfh2/(>7E0m6UbUbDOK#3RU)p+s$Yc>aHfq(2+[`i$R\mbe3jtbi!Th1.+V91MotocQLG8mp'<3$mnj?A>M`gr54.8#;=Nk45ont9Bb?m"5_[M`FKr8LGWg`dlmkT8)?<,eb\9Agm-;m>2U00H(Ujm08N-*t/J$l,F;GEr-`eQ<OL5_hi3L1@dMh_1"?uYKP#6F[PA!$jn0.<5n=jcIHf2r+:Q.%k(9rC:c[`g%FjtW)KPo4&VRX>5@)(#iIPHV?1JQQ@cATXFLYGgk5=HdH^2NKUuMSS!T!-JH.ar`R$;VfBI15(iX!!!!A+3&gdip@Hd!rr=/=H!8lz`;l,'!!!"D!gE]c!!%6FPQ:aa!-eR0!<<*"GbT2B;7QRsN!in12>_rRRoQuB5Y_U:/%M'EArj+QZGh`0[Yn\o(+>NL2'iD>o0ljG*Mc`1m'8L&4Hc%\LJ!lc@RJ&7Fg*2@>7\Bm$Oo5$P`]aIp5/-r1X*<nE)c"0M6oG3"oKl(ZQ"2pS':b#nKbmY(CX+jfjr(C\QFa6K:7gR9P@M%AV4AZ2aQ\Pa]P/O4!uGOTKGLXblD,'.GGFMj$LYV/\CA3^Z%#YV<T#G0o[KYku"hSi<qZ^W4H*RW4n&SZ(d_\)EgngjNcFPasbfZ&lisB:RriAr%/be#-*>1khCYo/@E"2*nsb$#.IQG*,^.hbu_I%5d[d]cL.Q!e&@L5U5mhd<"i6,#9mYJm[R"IN07Ht$#rMZ>1P$4&l;'*84K+0hGOht"`ps03!hOXi\J$?lA)</-N2>EoXltSn&V=c/s`#EWZTUO[1:[h<U$3p/:a4q23BYYnlfV7=OR4[HQ'n#[$uS$C'K)45lM+tb95W[>_MUM#2<^&(:8d$ZPj"X.Rf8R7;^eM%=(TQR@>@$S*E'9UXikBTGF]-jNcFlb"u)U#B[5Hs-ZFrVGKB*TL,Tccs*gCFBp^sEQ4,pj!ua7>H5%_]kFN)Y1TB<f#gOqBr##c3QIe0eCtm19Ui'h.as#4H`>/25;eQYUbUa:k@2R.;e0TVSW[u/"]PO"@A3:J0uK5glRftTH%'te0mh^Zmt/ID15P/F6X'0996/2`?SW%D2@4FYV6:kt'*>ku`A^(_H8,6/gc:ip)'ums@XkE5Zm2lP\2;*f_E]!h_J"BC,RpS5+\:SQn2fC1)IIJ%*)[Y)=FT=+pB:ZK.[;[Y(s5KlF/IHATrBPg@_rBI5dd9%#R`_@XUB#u>3J8EX(^[4*+`5\^-i#&TLKbE2a\`cG<LlmAI,2d!!!!a5)]MR`1&7g"onY=YS[JbzM?,+-!!!#g"=O?P!!)Kk-j'GL!:U+>!rr<$n3l:b,M9C`Ep"cF!VpY,%=]f3a:$Egr48-16sH%QV/Om!1VGHPP.0@YaTI]s'7-cTZP"F@A$ZJ0_^W%4*H!YY1$rXmRW/,^D9"u_PqmA8Ml*u-lhU)tEN`UF\ri1jE(2:Td)D/E[//)71&OeP.sWd/>V+ueVVd?@:u=7$+N[G/>*sQQ0-*b#83\h59elW&SPOel4<Sc]fD)Z)(%E[d[R2MK?bjWT6CPPhcEJ,0qEc^UcF+iU>V,\<?f&?J_Nob?8iL$hTaYNGd*aaZocs120qaJ7>q?:\6sDE5X/sF*`)>'R`MIa_qY%%e-(8[LO41-R@;kG)B%MTkmZh7-o?fULZ1PEU`+q)SUlnHbgh.X4]M:5Q\Ykut.TrD2b$5<7bf#@'2<!P_QJI[(R^p))1n,hrI`@R,MKZ6M/.Bt`+m.fKQt"%&1sp5Qdn$$e?_@Eq+@\,lb]-&jg9JL*;0;8/8b;(3g0MChYU*@k[W;9>nGsFZ<K_\6`/2\T0BQC(n7WsLK%-gBWs,K.7P(]/P6l)PDG:FEfU=.oI`@R,<!<Ro,jT`)C1p^gS74+:o'J2WT\f=R3+lm3LkiZ4)!DV7q()4mK?ZilPbcFO`%u85@t^i*4;VGl-"@YMWY?7F*#(N@F-fb'CE]\V>ZuKRXRc^9,AbWS1A#L!Rc+#[F37</CCfN9amgu.a"E"@'kLthjYq1PN'Pa6KhBU,V^J$eMe7IENNQ>98jh<OZ';.I4P\U*E[I*SPE7n`WNh<41aV?u4=NW9oBfsk/Fh;uXWKYR6R[ttZDM>#OcHR-=$Y.EB@@pg^[N\`BQBcA(+/CeL"QK[3DWkm:M;u:*Ia@6&5VNi>^M&d/MD;%iE\"f1.mIh.a'Yd<@:Y*PO%n*8![3oqT5Olk5!269bm#(a[j3B*ReuuCG_3bp!Cg$0I7HD`n-qn^G.RTIZ7(9I\^'k>740+mgeQ=>rB38W%&jOe!2E/TC*'kW0JNt=>$W^5=m#`O[g0mp]VN@`mdV<&^Gf`WejHck%YN%If3!o-!;l<63Pl#hWGQDB2URI19>0*`=`1#(NjpR<&Ns8T:hG=Mu$8)irB\l!!)N+(f3]7]`MUB!!!Fc0q\pT!!&Z/J2.*)!!#fF1&q:S!)J,#z:Ok2#!!!!p:s)mCM>gdd?=&Z%j3!Xf(GB)YJ,\Gq1Zo8h3\ia\&]XfG8%\KU?[uQP@A$tF"fi5s6F];&9n58Ub7+P[&HBn_;T^U448K`+O/:_j/YFk.dBYV5?5L4;/%J#YLi(_[d7d4AijE-/1UVu.KN5+VgjQ0"'1s-XCH):2VG4[Hm<X*9^A.Nto^kd0^=[=qDB*6KS;4NOPBdU%gJ1B_@6b^H;5&mo?BC>m/29%_WOof_G=L&!"g`;*9P*:Z8(>Kj'jK+m]pZ8)mBL(1hORoreBMAt:KW>9.UurRX2prmWBGV-k-+g]-OF+.q;p48IspZ4_dSkX1NQC4W.6PTP[+R,R@p:32OCgLM5G\-2do7/\o")L-uKqaOtN%'Z/(-Al(<"Fcu5IYmb9_L,..81@25fCN388@W0mlh20,t?>/R^*A&`.N@6b^l_;<\\9X>UJS$RiO,5Z1trF;Z^h-AohF,j@EHSf"ZM.0[m=_K-V(t3kCar".i9rUGfCUYmH10WYl/\-R7.LLVYFnOmA]3+'"d5JDOGNT/ENastLVd9%+Z5<W7_JLTfT<58Gg:D]Pm@_@C2!tgPB^;+Uf>UTKF0'P0Zsm;la^U11baV254tHNDE]-ioOK,Io9!Pd*Z+=r_8Q6E%@&a:Nd'i?<GV@snP5Z3NnM&gn*<_U(3qU6TrX-9\&1/%i>m>SnjubhmqWHe#/h^BJ'K2AMCGqHY0b!k;*WB<`-FV:D;DZ_Ppbolgc=Wf7K=8YAC9N53jUb<g;=K4;.Od_b]Npq`-2jl<atQ7"Es'9FBj5MV[cA("(t^pC=JCF'*#!J8dQ[u>$nn&%L*tX"NJtH)[Bo5__n&sUM/A9bm*^P(S0&creB[(\X)M?)K[`uNaFbpMbdXWnZ"+P]*)&*DU"oscN:LDTIJY[F$7_/A=\:OFdAdk:a(b\-'XGo$'J5CbYDZ4=bKF.rqA.e\\?Y#JA_<Ko,tnrjfhD83p[j+R5Za,1Jkc`spp7/Q2<'En'"mqlCBk@k*&Ym;Q&?q7'fuZL#<l94oY+!*%[7PD7e7QBBrM"tT_P81K!]Y&.8c.B#$SqhrDoDT==5(Tprm4r?5Fd'S-A^Bj:*Dre\T$h<L%V^PBi0>9'L.=@sK_*][5pEFN&sXTSu>[9NfbpM^8A%0C%O`BG=:>Y(@T$W<m,A-[u*r!'i`45oEJ8`=`.N5SGgUPQ:aa!#,N3"onW'i!E3a!!!#W#uCg+!!(p`:^-n"!8r]';au0f_1fB&"r)mcQ4p_>,i-fs[N3Vn\os",>R"%TX$$R6oL*/(cFBZ.YiK&K(<($RiV2/q'Obo[j\^9Cd9^(rr!KY$rg6P?l2L7`;F^Iu;BPl>9F,663k`;,\"KHi9;S'QHh6d3*@,3pd%U^OQskkWFVG2B\Q]cK($.1oU>gnI4#n!-eCnV.-Ek9:]K[`CNVeS7AX!Er7W$P9%<3>)GCiWq/(>U-CMkaL6bCaG]Y2g(bH@D)mhW#Sl>eCBL"uT0nn1N%D\%PkdHk>+R(`n\YGO3;H;9<];=a*mFU0fu.A#n0bjC^(HUZ"$[9f\BU$T6:f1u8FTP\=a,@cQ\'<k":d#u'&Zq\"kP&[_c"H`38927*l/<uDS9W*14qD\/jP];`2\'^KM/?W*H0K%E,:SdC+S1aUc>S^Yo7N19gnFC=/L"p`_j+XCiol>6oC'W;?9uuW-&N-?:!FqOR#K44<0_SAL$/&55iV>q[VuYo.,]0';eH;^e*juW9^!X6giA+Mof(+Ff$q$*,o@?Re4-4h8`N"TG['hPXX":/ArX-,j-W>c7_Fpr/"-s-;_N_:JfNon9B^5elc*c('?QG8Ij\219Z54Qk4uf[E#Ll^3Xa=)g0.i'5OC?^T_QoiZkZ@"TfWo,74V(\UBN"(h`B'g&aBt7^V*#+2\]aJAGQmN3gsso,b;kqNH+,rC[f)']'iTibY;@!`D_ii[SKTCkFO>#0\dk77mo>9tRA%ZK0EbsoNVUsWmH9ej3/2Ig'PQ+@ku(91)]IaGZW,Tb0<(gOaQbeE.HA@3e]Gk(/rqd+1SqIiMUV5-M"%Nk0]c%2ar#9j7CHe+?Z;dF%BNC'(;se26a?s2IV)R#/qZiUdLV=r_;k3H.Eh&8G-Of/E[tDlf(0\V)%&$pVV/3B1(rP5;o\@NX4n]mEf$$SNf;%pVt=Q/Em.#`)23"*9['nqT#=>@l>:hdPYjN0LQ)(2H5D_g%0?FG+dkr^6O:"7.2eX!JuDk&9;WlDV=LgZ<"K?lITI^J+rqADSn(/F:\8ApL(r]F9TPF9,5qr4JV*H?'jaL,oB=$WMJA%`RPKn/]!5g]DlJsu/4+1R!<@(KI%2gK;GBMW`fUXe%mKQ^UIuI*:*BT;!(I]s.HA*_$_)?)2/8@!m`5A.!6-%Q.HAe.q+j0Oq,*mq!!!!a5RE\Fado%+AH2]11]V+R1-c]W!!&!DBZ`;^D?0u@!!!#D5k&,SS\MmapD6(4!!!!.5\S;"H?&2c4]VI%[XK%Sa<dFH8N,Fu5EXF`HBO"<D!i#@dNttq9Eej,ir6D&;^^-<MmEekL8j?0_b89ZkUtNlIG-R6$LE#Y&5q^&[]&o@ZHi%l4ETBom.r)P%"A*Nb"?eXq&GVr"e012..b0&rV3P3?l(_XJHXFu=g=;T"YVdXj,[T?L;RbJ.\;t6GIk`!PmXfilt%k=`=4gC\<-DB(>;*8XS_/n1@S7fi4<\:gNtmd$:btH([h:8IHSPmg:#&qJMQ;+i0nsW)(!.:1f#oa'\"=sB[j3H1p:cp,1CKG%G0q,Dpp&.=F4M[:V2?5p6UYg+JcE%V7$p[)udBMBtaob>^$6^%kj&#:<p#/CR1&cI&W<f-(2;\p8N_o$6UJ@^71_T9^1Dc_HI/MGEA-H;,N3%`c+kri(fWojX-B'*Ehb#ZA.+B*=k_.o)>:+ZaLDh[nZm-]Jr-0#Hg-%bgs['*CEcFWOZ5sAK!d7A"4I2j_D'0B%rW.GVlBGi?)&p_Yu;2raKAGQVde3_e""ola>4a]M)aqCZbhBkp+CVR>g+!$unK*>d@m=7^S7LZD:WCIG-O5$LE#Y+XHFc._sUN.WW_tT.?hV6eC.U+hNM"AX#FtebdPRco."5AE-lS'5%q.7ltmtNa2i>%O_Xce:]8*(M^#g__d?:?YP!=qO/0q[^-jh]uq8Jl&s(>K=pFk"2K8M&_uo<6V+2.Y-pk_:Y*+aN_Yp'H[%eK[V$EE,eK!J&#R:u?7Aff:&\uVA[jO\5<I_5J26Bl^>a"qIenZ1bHRUJVQpJ7GVFlA1>2q$\S"e>JrG(j9Wh/g_j8PmOcG2:6AcM"Pa-D5$;6-,$88+@7XC[J*gSR1G%0L]>flFiUba<6g1D#(r2k2tj\Fg4%,OPY"sUmVN!bZFT/79GZ*sV&Uo:RT>$bQd;L[R4@5EZiatV.H$JAu%4_gV#&\(".%9m0<[L74?,RI&Vi]==Y`2'[,140dB9&5Js=V!Hl&H*W<1>5fJDM<upiAca>brA]$7Su;?"9O*inlZ?a(/R5P.#uF6q1A,H,n2`X5^O&C/Mp69U1`\c'$?TM"SQZNK$lo0hlW5QL7#<EP)I'g*ld`3+f*U0fFEL.nNOP/X73F[0'U3R[8t>pP]:/EFj&:$8u7JU&Sb#H!.Z#`jERV:e@4j3?[kS1EU;,5#=dBS#iGU^!!%s06LQ[i?<eC7Z\62]%fcS0#Yc1,c<pV4cHhLhAH2]1!!:#7`gIlZ]Q\h`rZ.U3AH2]11]X3uis7%8!!&Z@#Yc1,0.t,(.f]Q71D#d+ros4FA!_(LhDK>W^B"<7!!/cBj2@4J#9JGSV&kB(B@G0nh+u(P\dAQ<M&a3M`ij%n^Ub3@$t$AB>W<T0du4$Cj1dl=6b$u57fb`X,[m-9Jc3<MMYP82Y>MID`E&UC/([s]'Tb*42h$)>f#asOX1QO;19OV8S'W[:mHNj9>?`j4_5nVInGt"JM`oLY7fDHXCSARBFBLB?#!.-QlV/^o/s^OgMdhh97Torl97rtKMKm520KYIGEe2bbkWtL[1hE2K]="bOK-:SEU5WOg'^ZI^WL>%=2C<"Sl$d]2;6HHF!m<h9:-Rgd/[,,jQCeV3AZ*D,:s!&5)S=XZf]9Nn8GK4/l5Pnu6jcX+B<L'FMkq[#l[n7g[[0SFm6reD,8n-L2B;F*$N"EXL=-K-YN[")Xo$?Tis]::MBQMl)qpZmpo7hS)L9Z9D1?b,1pXbHC)?>`W6gE(j`dfuE^UC6I>8Z:83n]"FmR]4q2OcQ)F#Ui1i6fWQ7Kmj0hfeZZlPmU>[SZH;knfrOg@kAfCqJ:Ph-\9cmk!f+(T4Xl>+24@`4c-GYU0Qm^*D;3Du@KMG>n1%(:oQP[UYW#H3dJ9WO_'ct/`d<i]8*Q>J.&j.QN)ifN'&2t;qKUAA?$AW];X`jpeD.AL0M(J@^oh12ZB045+B_AEY#LK$T[!!clh`@>a]a!d6*r3/VJJ*)lE2ma0+F\Oq_NP&k,C#.ij(T$NSh$Y96>q"=<0^eP3Lf=9sFr=`e/lf[03#Cs;aul%(-Wod/SiE)%he#c@4$tr<84SpOnl#bkhRAr("6/CP8b/@gitPCuph(WcX:9%51>9sKc2]`ESnVKiYV5W&/tjgu4B$"`S$S"`;NWO+`>[iq*2r^CX_!X3;9!<=)>hRO%.P/^<J0#%ko12m>Oa8cS]");l)uO8R[3T`5+Y?30WKq&WH)iQ`t>;2>/IgX)J,*nOHAK2<HME_TJG.<g3dV7*O;Iop%$W]CShhI9WE&Q3/K_;>s_Qu("4q8$9FRFWJH?-6B..=?BITT?`pdb8PmS)s,O7SS\)<.;7K^P3DN+l>K=QZ[P2F)E*&5>#K.a2&N9HFRD]kRaJ)mN^We9]DaUEC-F;8uaX:mWQHU!sVn4>u=ch"#10&f$Ks7K8TqX$r-,1/2RbJlD5kQ.DO@9LO)-:`O_Sm,f!!QcSJ%&:5l3F,DCL,(B1UB,Fg$S50JC>J<!.YbL.HCFJ\U!?.b2hc3jhhB7!!%P"i086G`[&b@!WW3W!l6>GimQoO3H>9'!!!.TUPr.'DKdPi_Vuj=AH2]11]f+;/2&Y0/hTS?0fqHU1NW6Qd1_9F*I7PLGMdZ*Xl''MpTM7+Y6.V@s81YV6lF`E)#sX:NBg/Td2!thMlTolY?\Val-bhaLYdqKif,nSHL8,ls7KI.IJK.X)3?U+/n((I!!(@S7$R5:+8tE_`J[A^9>+9'CNFRKU5d0l;l<E]3-kEiqq/167ueQNI/(eOJ,dNpcT[ia>t1/90&7rM?&&$<B$OA.jWeDR(j[=VKCJcoH9euQWI?_F6AkaSSbYor8'qfTGau-A_7H%:K)EN.LVQTUXYBa,XPg*O`8KbqKM.QX2*.l?;cf8O469P98a,M-&S8WKg1q:96ot\K'Cj$pIdr?/YJ8Ci=de(<<%TQ:D$d45as])BTQmiuj<ed%G)!cDT:nlKp@.5)-&gXb:oJgjYBb4#:c*'ul&7H:\\j(N4;Pi9L__1=o<@lrXt.'0:'K0D$YH/aFeN\1,0IE7iPLj1=6A]/Y7j=QGl2K;BH)!P`f8c<;>+!R:^/T^p^0fbZOh!"'i_-a0l5[o/PI(<R$e6,mpr,7%o<SB_"K6[bUA_Xbt=%"&M6D6hqg)X,@CJVb3Gm\7tKHLJlB\Uc,i+UXFr?rBbe2m2"k<Pb$[;%Q?,!*l@"NAAXR^>"uSX,G0f7'`<$30)"d2(G<\O3Os-I_I=u;J1WFk?ZlqJ)YM9Ns:jQYH?u$M2!W<77ThVXU:GL>4;l4Ud6[g>><.18)._V+JX?Mb4[n`oFTl?5.^]$DU\%[9*D^CWVL7%9sUX;)(h_7d;BI3t`%7+TN<g6=f=NE[hS/a9aKqPORRtW4Z?ISAcTaX\'5/PZG_-Xi$j^rdgU6,n9D,k8'oH3.KDHtbkL`,4;&+O?Y&REg"0@ZqAg"#O^UHn$09r8?<")8:<m5'/#V@<?dML7"_dMCYC\Grp-ifjHL!I[A"^WPDEn@aC60I2ZB!>aR,N"u,@j8hl3m+c0*ocKDq+/1fk,!7.&Yr:2K0=9a(CZp[&GG3BJEHZN=>YDMIRS=UqVW*dcOXF^Bep9YQ$:bulM/o9]YA:ggGE,U4TkRrd:1kA4O42OJ;]!/,25\2aOp<Bb^*0^_"[Pm@@'c(Q%%-==MXV1$IrJ>@fYKT`<hFs3"I3f>.:Zt,nrYEYA^CS^)io<(NcUaV&"W?2<6jVD=8mh$-Y767J3X\#U^)sISAU[Cr$@('_O,?(%7dZilR1P`\1RAP)dQkI(IsXUmDAc+fkVepibAciIis@:isWHXGun!o%OO'8A8'+FF*Y<j+5*METbDoCC8IT<`Qn#MgZFZU%Jg!,,gYdp(M.P'J-*QPCRbHn5AMZbPj/DuPH/#sO"aHO&f.@f#X?f%60uKoHY/'oA[2=eN<1/8i*,VtguN<j!o]Zcd$7F@7F`4I+I&8e]&8fmrqa&DT.,mX!!!j)N;3uG7]-$U.HC&gCKi/.#A!l8!&O\L.HAq"RB9]eJ2.*)!#gCGP]>^*Q3VSc1&q:S)M$b1EW"7Nbn#F^!!!!;JFL10b?Hmn!bD?3!&O\l.AK&4jZsk[!<<*V!Ps7?Fa@rk[OG#W!!#7d&H6"U_R<6)0dL?.ju:%X=]m1J-Uf/r[4`XBdOS1@K;fg!%VloT$>3`A(pYh.lhA^$[oUI`CBI4IgeK^PER^!2@(2o`$LDoVAm^+&Md;q7#%i-%q3rLK9s&C/,ur(FPYm*8^;'^F^]2]BIWXu2[D5Bb(53^2"%'h5>t4N'<,f`9X?JVXnh;O[K/CJqRRr']Vl+b@e=8nro'Bt8P"aY+Mc<j<L6>@Foc<Wb,^A?iWA/<)"KeX^K\iOF6Bu"iC029F&S4AlIfK<&^Nf9X850g,:r]H,,oa.U]`f/+Y)_:XI3h<?m5qS/_cK8b\<hTM.$g[SE*AK<*.6_9W=$B9:I7/l_m]rpW+e/[\nHdVIXZ)0UVe!7O!l7L2qhh::J[TBE?`$+q:l]&J"'dQAmEije$Qhs0[^OH;U_W(.BlA!?s)bh]>7I4\"H'F[Q36eqC5^L,R;e'+^+1JE&)!,=.:BTGsoWKBP0CY,4X)T/;HQ.E996*b@oH8K@\Vk[sUnH8kh,#<(2-p3+^<PCk$h>+d<Q^P4P_]rT_8:K!W0Oh%^e0a#]5ohr_@^=giX(Mp5%j%NqYrBj7trhLZ*k4*Is:38^ujji_/PmNr;mBVmKk2I8jDMPWm%%GS<:X\ueAg"Nj9<hIqSq?>c5pbtK!29g`RLR2G8nD$>u),D&8)3KTd]*sHp=Mof&Z4A\`+QfDKXs2S_7gtuka79P8$e/-7h.tiTc!+#lm:X-S[1IuaQ1rQOh/OBPW9M%+fRkXLN`b2EpD'/Ej;PH8PENQgAMl#Glj:j"9?VQ<5s>,r\W9+Q1/$;3'L3OWF)ug!141K;:j"jBARbS:m6BEk@I$.NN6sr+*F"h:NtgGuQ?NA4YPc_hP&P8YF-+n5o!_k!S]mh<L>.tS?1N9-Of<MN89PZ2<`:rYH:SDP:)VZ$Dh"j=K.67r9P%'jYOQF5:gk6+VGld]gVK-A#Qp;G.cAKfo2*-if$dAfos7T].mXBO<(_E6KIG2"_iW=A+V6fNQ^L_G`K]J,E4^@u6WU1&!FcaD[W`CL=&To;VM+N'n.H_O%e'9Vcb592b$_qOe9WKfAZ$P)VQ[R0LIs%Vjn3h^oEXG`"t68/0MW[KYI"IAJB$V6d*S(-qH%qZ6gnj5UdLLC_ph.?.l$*r@u6H2R%2oAeF`c!:\;'"ai:V+.=Xe_;XrP5+bDb'S"Q"7HDs5?8khb5.-'s-NW4(\k1Q0QEZM]VMdRoi!&4*`)6ZCpA!C^HRPK2L>eeWbb-2q-!<<*V&]#pV_U@Mj@;gYI%)Nbl!!$CH&=bMe^:une/BRqm!#SW;Vi5[)gE-2"-j'GLTE,%(zSd9g""j-fF!,)YT^]%QX]*nZ>J7]o`AR)f$r%Fp:d)AlaEbbop`iV,:lhe?VZtNp-!Qqh+csim:GX:ubH^\3m2j9FYoUBr$=[%?UOpe]u*@g&U)-.4>\3YV7aCVU`mN]0X`b^*XLT\7@?2p]i_("Eeb2f_'L89dUFKoA8e',GA\/8Neg4GM/\[aP`5_:SU!Qt+UikpZ)AN*>)k]N#&VkA@,AdVA@Bcp2RJt0akO("L+AVu2pBk(]]p6UZT5XnkSW=MpDV?\OP:PB%V4+U];ST7sd-+CY0f#<g%nQj<A:e%iHD**R9+,Gc@<egXI5m6,pMd!6@rgk[3._"Y/4e')2DFDT*p&*%f<7GOZR"u#;V(D>,MLrUKUdhhOmEF<diIU;ii3#V.J<k"]auD>h4ur;4i@1NXE\<X\[C7HGg?IP<49tq=Ji/GMhPe\(!biZaaEDVC.rAMg4jdU![&W;dN8`PGfmC;/74mqg8Y.ip@3#mK[ME(3NGR+c8[#uH+eQURf:<56\P<Fp@]<-@>t_V5/qbu@UZGt,@a*Ig3j?f+(1s>/mYtD)9-E%Il/5Ou<pL]/Lfq):(WW]!5oJ\#kd,m"P,n(ofjn0HEH5sOP-b9P*o_#g[6B^UYE=/Z-,.Rl=*Wr?)_tslR_(ukVi9WJnr9#pV0ol`7l(2-^t*SdL6UCec$@bA*'!P2ms^)FD>`M)KokdIh(\)V\#,s4YM`lH^@!rR:jbH+\OjgFN^9!<hUXfB6oSml<BG+p'rR'eQa1fQXhZQTqNS6]$tYBjM^?EU$rBD&iLgVXj=jk%UaX6UZ#-(V(7d%l/OU-$-911Ykq(O,g\debr%YT0Ej6mu[1OUZl^&oTm1@3Ci?d"082!qqB-2ShEI7TC"WU3qTSk,Q.jfor;8JoaC116hRYsVk9LBj,fJ>EQ>bn%e^\j=)T"3q;ARomkIHd9kTJ=,pk?7$LP@hXSToOnQ>>)(O*'1'U_%>?YPe@f<9&5JsfkX\VE(SX>hdrm-Ir*chh]q>oM%YM]7]F8HY91_^:*;[k9g0HAd]-VXHaq]+3K)JcS'VmpIjU:PZ-ttCG%.'-1dq'q[`Z-,O$c>N$"pg2)dY:qjAEfmO>%`t^D4,P^)gbOpdgAQZ+1n[;0Z5dQh4[g4gZ+2Ul>-+O)/H1-`7mK0;G0R#ljrb7`k0sdAV!>K2]e6dc;X42&Kdcj8o;]BHfcA`gJ=bPImE"(1fIc%KHJ/RZ+J8EHM0'V/+h/52%R1!!!!9;Zs"WMmM/]9S"r!!!!pf;CH#c-j'GLTE,=J0K$=V-[$@-!!#_YE6>]'0_t4uTF:f#J-I,QAXo;oSD69UNa2DQ('?bpSnokFK<';`\8fWMJf87n$8:/H+fGJ,DtIQZ&l^>5Gq^)@X$Ai[*-+ZKqaqnIVTc,N"#`FSWoaiH^#L_ENIk*KeWn6>_g:FF)SY@l]Pd)bgOJVTl+2&1Z%A%G+N^-?!>#[faPY*.9%GI3rd>--gtcOC:g?c-54)sQJtP%?l7T#g7`j*^[Ad=n=F>Jg^*5EA9c<-Veg;IZf#:P;n>-OH4&I[X<GV)(TX'uIBl\+$ip8"gI#S"1EPclVS$c2:'bm"`0"Js0;IC?:Qo.Kr-E(/!#(SE8Zl0+GN;6]4+5:!DA[E*)_Yrj:1D[m:mHWbHRP$3`*8Tu8oTYr@6lBS[h=.DC9rUi;ldiM-irpQV0JSsW.6E5Y`@\\8,1.m/_q6)q.dW=!)[k`nDG"pQ`T=I!hCd-RO@)@c-om`hDH4jh2@?f0Kr9maP=&Q[c%B&OM^<EZWV0`B/?KJ=jCgJlR;?AiLARiW%%?C(L85A%^EDR8J1oVkOhnn;^F>7"FDIb.gBgnOI"nAbe[7s`gAG*_\1B:4%QSBh[n:`lA6+K>,a97eWsS&l21O7JJQAQ(mkX#a-AV;]OU!e%f@Ks?nadu!,EB%P0JfWq/(50U#sHKmrcrln40/ec.5(EHcn9sb=.GTQ,+$W#9.NXMqE5%T@q@;m<]MapQg.Pk-D@hEKU<u\[JV_*:T:sb1\8)b%IM4oB5O3(d6l\WrTW#k9N@U!b$YGUI](?dm*hO.:_%:p&DD",1^-.ff#C=0.j7G`9(t%gA!>@V'UMa_>W>@)L2+M4@SqCD=K[/(#(Wb7Tdf$ogo[]>QMrK]M_^)(Uk:*>:*.OhhH&"B`\\QHks:]P3]NM,!$2N!0V_cdEEi$uNma7iOK-YjO9=4aXF3r\P>dRunohM`bc-\1)kN7T^J>NmXD7R)PTeO21hE2G]t%_#(McDVC+2Qr(&P&+Bdo'g4)T<KC-?[E*))L6R.-uR-uUPb5IgEHP61]uZ,i'/>1kkNO\SJ9^O(]7U?$m@ITg4'k)`LI0rJ#8!eLgo?"<hADWj/`'@`pp\KFEcehK!mZtED]fKCE2Q>dfH!0s7l:5+ElUT,)u16,_UnYq:.2\M@k2hqA5!!#H$auFQanbsPO2AdWU`rH)>!!/cBj623_T6TSA)H-h?!!(r8d$/P2r5'g&C7$5I!!%O("a1a`!!%NsJl>.phdlcf!!'_=remaK,P-gB!!!#7N=tYjC`\jg)/bNTG^4aq9<BW;V8F=fnf_8AjE<qViLtkX,qWD.\MZF,<4)<giB0+2#pd&K0O=pp5#&)+iF0eY?+4C1FinVL[l6VKQ*iraS]b3CEOW^#5grs"?%2SR\sE^'HCYTWR*%aL/s^ak@+H6@dBQ-`.FBmV:X2</8_ssuI2>OCIpeOaoEUuCh?5-+ed8\/bM=_Z=i.I]9SJ#HWElibYFV_QUd,+ACVI;M6<X8NCfq?+':OIo+4GpQE[)ikjSdHQGHk\3Ml*F9qa6n/h?;A.2A<5r/%d1_.ZBu9lXEHL&oGb9F)(Q=DFu5:Rj)sliIIm;YW$]"lM!_#/&P4]IuU?a4S`##Ao]=GOQ??X:c-\DLP]8uG4dJR'U&I2/*k_-1g?)?'3%ra/@8\ppk/Ie=GSBcl#J5JBGX=Yg+;V!R>)(E_%c\\%[cO5[T[4GE7Sq7V@:pNOa0K8/(u=>T!npC8o@jr$WV.FMKF5eW.l5sL<N,:i0AHZ#Mu#i-E*rMDA_]:.Oa>6Ot";Z,ZDXCW/'snO-=(?_#q)NLM:L&*b*4tCJ0Nqo82G!0*Cm4HE^ZZGt6G,<5`tcrjrT1S;2c]SG.N&fTqEE`5N>u2ObgAeZV3IS"Q'BQWP=ILL!CCpkg#d59X7>?n.3&>t0i[#"pJhbT[C4f0C54T^N5q<?aT[$oIJmbO7F/<j^LrG]Fi<:3$\Od;DoLXH[9\?_NB(J`,=C@S>"9TYeiT+Vdm5Ab<Y+e]Eq(;,2EcA0+F4E=D-/k=EVh_1OMe@jjJM*&(A#OnO,m>IrIlX*POGmS6B['Q&Ync;$iL+i?!s)j4m,Gnl!)=l'>2Tc._ifQS4Q1m*0K)MMbN&!36Qb0!m1lbMk!iP"faDk3nl=$F#+,,^7q<KZKSM.A/jP&Tu-[!nD6d)g;^,o'q0moVs\"p<J\EA!n+.2G$`e$A0m`+WDNBO*aNl-uu<Q<_KbN9#DC@utKP$o',,hT(6W"KkFl(oagR7]l='FUlN)H7Z&$hKkRQT98\^(7I!R?<qnsc_$Lo)++B/4oeCs)Wc`&$R8p0n@-/62Xc*0,Ue:`"T\T'!/e%j0dU^(!<<*"!PuJ??!;h+>6"YRAmjsG\H2a2!58GEzSg`Q*lB=:o$d&GL!,)@)H2[\e:^-n"5Qai7MkpYJg;O]8>*nCg\-8<EEp#)^!A5Y\!@2+JIRXM5GB<[_V4h;n[hrc)Z4k]9'Q-8X<C=-(+PQS]EAf(1[Mr1^($D!@\%^K:N7.Nm^7[fY!JgJCoi2<"q*s#U''gC[i>TdXS\(t,;2.9h=pI]6jlD25dRTbTW;iMW9K4_5:?3q'H,#4KgWcPnGBep?47+r9=Z_,B<WsDb)Si#0edY4a1-?O'ETgJ8(^q9^(J>6RKH`Z!,[n-`[UFh?)GF>(\K0s"W9@u`q:1ogqXBi6)sD@m7TnT0X^bKB1_#8RPbE5PZ@iVrHU[S1Rd"9qH:m'nMN`>SK>SRjcu%M44=__GF0dq(52@EP=USupAibi*j;]Ei2>gj8*&O'1QakEfRj:USHD.2J/O:XTk(sm(Sg:?cKaR$?h[A-_Fe3>N1gIiO@'3'kJMI(VCo<l)Zt?a)7mF;l#&>%@RE02m.7B*=\j6Wh#)?^-X*rMdj6,45VJTL[3b&f2Q"_VTcgu6r2L"*?kWoT`a<oDg)r5X5L<\'nNQ."afE.*L6$u"18\uhXgWi?O>frS7nSUtf,N\]:-(Y[Rr!,f5#)C5_VhU/h/#@FO6!?e.)BEDKQD>8:1JuTsXq7QOPU^2t3&Z<@=/EE/g0ZIDA5;:Tj[&Gth_)g/@A7a)_k\0_ZYGE$4e0+m/rWu,gZmF\$#'W&/6krXr$3GJN'`Mk>boTf>oD@bdW7sfP!*:n4k:3`H61*OH[D`eoH$B992)I2l94F>GgoM5>PkYP3A^MHNg@egNk66p,@hqHBpV]1=2'56_t>W,=,';P+I&SgL"m<@Dj+-UAb7t"EIQh%WseCE,f19bEbFgcd,+BSOd\-_7EX7.rG7>2ET_.l1gu=K@sH(/SIVJLoWYdb`lPI]0?,eFAp&>W-st%\&1\rP<Q_q4ashtATU"aIa]ObUc'g>'feZ>$ck#g&$RUAV>1/7e-<A+n:"+mna\\Y("W#.,0I7#LT#Jh/3\ttmkZTNKcg5@GPn<'^5il^@P6V^8n5cO+ab>DL3S$fEZpLjDdR\cA@6)P(gML?CaW4Zp[_2)^=ibOn.[!bpIMJA.Y2.t.fU&Y9%'hoj56CJHB?7Bq4HD<T9YusfcJIkj4e_XSc!Rn)-N2b\[a>i@kO`g.ZR_J&]b<F!aEfmI)*nnH!2J@W.$Q,P&kUB=eQ4'=C.b7Y-:A$7JW;2,(<7N:+U'ss-daE9;KV,c-hE3GUg#q2&r]nnWh?WAadBOgn#I>NcW`VT5]nUu17XHf^oW>KFTgT5S=3a@1A.IV.0F5pC9_1Pl@Y5g9JdAK%ZV0>Im<_LLj8"`C'MD'#6:E#KVj\A=&q6JH4#l;GXL,j!ru.2N4i:V!!!#7(GL:J!!!"D!gE]c!!%8<N.\+#31'aI!,)EBb(rSs<Pn=tndr">iF3)n!2'WP-mN2VHg\H-"$M&$K-1$Da$)C=20IimJLGnb(JCP",?rDP^ehf%)>khI`>hAKjs0HZd#tQu2<?d$oN,5oNh^;C6Fqn3N$>W&\4MRoWtcW"qpIVUbn;7L[]8l=as**2r`Y#%0=!I9D;]4"b7ZQilkL[NM7\_kRlBfgZ"*h5rQd\)m&R>(3m95:eEkGB]ujuo*)_V%[A"(X<jaESSn=*1aC]pt3N[6:99)\\XhW^4dKC@ZK%THK\c"))T5_&'hIXX,Z$5ZnkFR%gbr=O=q-n>_K-@_4Q>/+L5e*m1PqGEe.DpR"]@KoP#$)+7oDgM0*1;b;qQap2RGk8/\ld)d>M)$Q`R;uSbeh4`3e9d@&M_7cJ,J>k0*\>59$@n`iaPJ9L"DH1cTK8W?pfJ,C#=rgQ'.^aZcRm/nUbKP9@GB<`Dk5;Q5l<O!b;"(7_?YmQL&'R,"g[a,U%fWYsR$UMCE%QDD'XM/.ntbXK8P+7K95.&RRru0h*d]j9&,97s^f/`aD@X@NUXNl0;2+NU4(ebA(InVs65Gi%-dR,^`SEG".)E;W^*$GEWJaF;uB#PiuSuT#jMWL+d+OB-*l!XEFYJEuIEu*(<3Yq7ILM]iq#AKl0_UO?qjX!4KCqV.bc!PC`n[4cGT>N8t)3'Ff,Q;j)JA*_5F%M=!&Q6e,GMkr5XYMXFR]8.K.r9$)fgEdjbM.YG96Z=Yj1N8[8E)B#RLW3pZNAC7ls(iX\Ocp@q*^0O2bBleksBnBeN%]5,[$p)'^h@)D2=B6:W$?N3G.SVu6&nfL3rU->;EH\0hK1HlLK"5!hAMPHgiB\@4l-OJ7UE?<n3eO#==RS[:L%EF8kQYT*)&-OKKWek-i9[\RZ4d1Q?m'q:ql6M%U&oK.Ob5EJZOsl0LhApFUT1KnVl%t%0ekFJZ-hQBXMhJlS"C+ON1Gf\,Y!Va&64sd\+$LUF*EAA7F=pfGcF*REM"`(*[bTW/<`,b;tqMo19AtqX2t,hNPsEnQG]f2h6Md5B17belb^8%+i?XF85`1Y<D4:#)JmJf)5lZK[nQ1kRPMtL+GYk$[WYY,(d2u8\b"EW`kbXFS\a8SL.Qi5V5,K\C,4?MILm6`#!/VL>F\sVRFG[Iab"uSP0>GZOSZRk'#\r5n+2PX:<7H`<^`BSqR_^>4NKr/-a0[9\B!nbh`:`;!)RTE:?Da)^<(4GAG9"dP]>CrV\5L]GOAPIqUMpu55W*@pe(Z0!WYLGn\906P=%/qS-/\.h?0H#_r"gUO0f*D?+L_mM2N0'`c#/`!!"FA=X':Y/cgF2XCGjSAp/?@IXZaNp\Uoa`C+C^3-K$#IQulU=1j[H.$FV6rp$\5pC4a!ET;e"QBlF,=%Vo>_)"8N4Rf+YEH,]dMsK:!mWW^m]T3fi,[<tRO[XZ:48sY-8X+47nbsQ$nY(oB3[38:&+Q3QkhiEL;2r<]SaWY]oM&`TXUEJa7,9lg"48?BW*26T)FS*j456>"^An0#cNAWPVV-2Q&cLI\gReG'oH*`t:e&YFRl>8Grj>Tm<0c<tid0*;n;Q<>Fm&e/C"(S'4iW7Aqs%7X&!`'.ViiFeM^pU>B`s[ZO(c7eGi>6@mYP)A)ToQH3+^$Unc&9tJ)@tg:<H[F\A$V],]e4Mn;2J`mTmI(k-+g=q!c^i01I$5(Cs:f:IH"c/meWjj?cNX+8EVVU/cN`)Wao;nZF*<YLhY9*Q3?q^A#>0iue<r%tF@A#A$<2M<`g^,VrNlN8YHCT;VGNqoMW_@XNF^Puj[jQ&CEqP3;Dt.i0jFMIm/kL-JSYfWer,hS"98gPaK._quu:5mNO6+8X?>m_/AOrVQ?(nA5PCb(t3dB@!/2ET6&A,KK;4i=jHE0iJo2,0G^*<%]5`8tNqUO1bG:]>m^;!+kpMVMl%7n:T,iqqQ8=`Q$+pVMp^?ID,3.]8XkRaTDbXr:HmOF\kQ7U,[;\bgE3+hgP5^4Ce/V4*Mi[$KFKA):=5^`PYWro?KFQhL+psBNbCIp`lYpO+$A)cT_5Bl7AoFauD8jmcg"_p+GBnB:aDAeQ3cUETP>:[)G"Hkf?tH*Q0agcfrnk^HFaYo#i[*+'s<][HL!>io-ltH/m/YJ+pQ6NZ:%db4%np),jI4d?Ikc]8Wmo^.5lLno;fCpDU/7b<[#404-_coYfL&^\dlnJ&!jpccMBK?[D7]f3a$`pi,`\_<=8Jio-ltM>6)^^OGS>i?P!(J&IRki4smNIkc(XIUh-m?C#Crb.-_V0B;taMp\9Y2o#0:e3i_ai=i=/NZDn*O8,DhnaKNKr9M,sp=35op$SNkTF?>"iEh8R^C2&m3&'6bN+aO5b?t8FPumtHT3qRD*^"]:r:</Qne]&cp#ePhjl!t!5oKZ(cr"l,\E8eC@XD(LkF[8'p"/)GkFFtipqo13^A/Nc4F$@kcYn=1]>+=!^V(*c"NhN,^<?"gZ,?rd+U_/a\)2Z3Kbn(jIfKHK)#islrpFD`qcVcYDLA[Q"j.YC:e''Ud\C,$QHD&("TZ>?+nLqF4>D@5#B8L`pKkjlHbS]2)0kZ/_1SYJO$@1q^V&pn@L3#7!#Sp:Ii1F&Q2gmbJ?_O8)+Q>dpMmG@!!!"X/JMc$\F*l))uos=(gDMGz:Je6B55m;;!!%PS"`^ehA+Qk$WYPg>!!&rN;T`\!GkoM_!!!#=(??t&9cnj&!!!#7fRb"Mg%JOV^C1)B!+9W:.-'#u+%s$B!!'ge6G<Ai^&<H\bs+renT=6Q+$JARkK2r`9)O&tI6N8gcfdLi%c$Hth7ij_e(Yqu(N$+[5"_H\rF]m6(B''kUWD12h\RStLP@],8sB)@7-;P2PDJ$.oh3^HIJ`,DI33sM-\"7W#87#-,ulMEA65R+PC&;00%-(a`C<kkak"pXk4?O?[Rl=b03&LGasG\J;G@e'&p`c?X+ECqs88?&Nm2_rj*,.fO'fSKAj1Z%]$J75g$Wo/HHnt*p#rq*4m/SQE=AH)'g1ZJou*CKIEj+o.JhD>k1(,^Ems4$gb%PH3OdjpB)>A.I'2=jT:*)#h.QEUQ.=o]=,o_qV<+J=DOAbhV>*'64@_%oiQK7o77k()H^Uu.nm(WJ2G&XQHBQ;pT"*3#]dIu!q"3gn(-aahU.-nF+AYf4m^JNa\eX[Ge^Hu@s.1,R`HjaGjAb`!_%N_(8X@giA!J+_T:W'L'<,#s<[6:0`9(9"+'mg'T6-\n4=++=Z;Jo6=,pY=e^].YfjaL"ek[R+Ou@D[]"O*7$;';=Q,l=b^0jMC4FT_5/H4FS1``S+fb`mnXJJqIpJ_OcO.i(W-sbS`T@;1D?d'2R`G=XS8!NQD"%lpt<W~>endstream
 endobj
 % 'Page9': class PDFPage 
-54 0 obj
+56 0 obj
 % Page dictionary
-<< /Contents 97 0 R
+<< /Contents 96 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 88 0 R
+ /Parent 87 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
  /ImageB
  /ImageC
  /ImageI ]
- /XObject << /FormXob.83fd8e1620ec0e67b825b45f6fb2e006 52 0 R
- /FormXob.97b39654fa60215725ec05e08043eacf 53 0 R >> >>
+ /XObject << /FormXob.83fd8e1620ec0e67b825b45f6fb2e006 54 0 R
+ /FormXob.97b39654fa60215725ec05e08043eacf 55 0 R >> >>
  /Rotate 0
  /Trans <<  >>
  /Type /Page >>
 endobj
 % 'F4': class PDFType1Font 
-55 0 obj
+57 0 obj
 % Font Courier
 << /BaseFont /Courier
  /Encoding /WinAnsiEncoding
@@ -982,8 +1020,8 @@ endobj
  /Subtype /Type1
  /Type /Font >>
 endobj
-% 'Annot.NUMBER33': class PDFDictionary 
-56 0 obj
+% 'Annot.NUMBER35': class PDFDictionary 
+58 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (https://groups.google.com/forum/?fromgroups#!topic/realxtend-dev/Lzzx_hZu38I%5B1-25%5D) >>
@@ -998,15 +1036,15 @@ endobj
  /Type /Annot >>
 endobj
 % 'Page10': class PDFPage 
-57 0 obj
+59 0 obj
 % Page dictionary
-<< /Annots [ 56 0 R ]
- /Contents 98 0 R
+<< /Annots [ 58 0 R ]
+ /Contents 97 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 88 0 R
+ /Parent 87 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1016,195 +1054,128 @@ endobj
  /Rotate 0
  /Trans <<  >>
  /Type /Page >>
-endobj
-% 'Annot.NUMBER34': class PDFDictionary 
-58 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://www.avango.org/raw-attachment/wiki/Res/Improving_the_AVANGO_VR-AR_Framework--Lessons_Learned.pdf) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 62.69291
- 312.7736
- 532.5827
- 324.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER35': class PDFDictionary 
-59 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://www.avango.org/wiki/Concepts) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 85.69291
- 291.7736
- 532.5827
- 303.7736 ]
- /Subtype /Link
- /Type /Annot >>
 endobj
 % 'Annot.NUMBER36': class PDFDictionary 
 60 0 obj
 << /A << /S /URI
  /Type /Action
- /URI (http://www.unionplatform.com/?page_id=1229) >>
+ /URI (http://hci.stanford.edu/cstr/reports/2010-01.pdf) >>
  /Border [ 0
  0
  0 ]
- /Rect [ 62.69291
- 204.7736
- 266.4029
- 216.7736 ]
+ /Rect [ 153.7323
+ 326.7343
+ 358.8423
+ 338.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Page11': class PDFPage 
-61 0 obj
-% Page dictionary
-<< /Annots [ 58 0 R
- 59 0 R
- 60 0 R ]
- /Contents 99 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 88 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
-endobj
 % 'Annot.NUMBER37': class PDFDictionary 
-62 0 obj
+61 0 obj
 << /A << /S /URI
  /Type /Action
- /URI (http://java.cms.livjm.ac.uk/homura/links.php) >>
+ /URI (http://sing.stanford.edu/pubs/cgames10.pdf) >>
  /Border [ 0
  0
  0 ]
- /Rect [ 89.64989
- 753.7736
- 286.6669
- 765.7736 ]
+ /Rect [ 153.7323
+ 266.7343
+ 345.5123
+ 278.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Annot.NUMBER38': class PDFDictionary 
-63 0 obj
+62 0 obj
 << /A << /S /URI
  /Type /Action
- /URI (http://java.cms.livjm.ac.uk/homura/dist/docs/Paper-GDTW2008-Koku.pdf) >>
+ /URI (http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/) >>
  /Border [ 0
  0
  0 ]
- /Rect [ 90.49291
- 717.7736
- 411.7129
- 729.7736 ]
+ /Rect [ 153.7323
+ 242.7343
+ 444.4023
+ 254.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Annot.NUMBER39': class PDFDictionary 
-64 0 obj
+63 0 obj
 << /A << /S /URI
  /Type /Action
- /URI (http://www.cms.livjm.ac.uk/pgnet2010/MakeCD/index.htm) >>
+ /URI (http://www.syntensity.com/) >>
  /Border [ 0
  0
  0 ]
- /Rect [ 90.52787
- 657.7736
- 350.6628
- 669.7736 ]
+ /Rect [ 153.7323
+ 230.7343
+ 532.5827
+ 242.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Annot.NUMBER40': class PDFDictionary 
-65 0 obj
+64 0 obj
 << /A << /S /URI
  /Type /Action
- /URI (http://www.cms.livjm.ac.uk/pgnet2010/MakeCD/Papers/2010022.pdf) >>
+ /URI (http://bitbucket.org/clb/knet/) >>
  /Border [ 0
  0
  0 ]
- /Rect [ 213.2929
- 633.7736
- 515.0829
- 645.7736 ]
+ /Rect [ 153.7323
+ 218.7343
+ 532.5827
+ 230.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Annot.NUMBER41': class PDFDictionary 
-66 0 obj
+65 0 obj
 << /A << /S /URI
  /Type /Action
- /URI (http://java.cms.livjm.ac.uk/homura/dist/docs/Paper-GDTW2008-NetHomura.pdf) >>
+ /URI (http://realxtend.blogspot.com/2010/11/tundra-project.html) >>
  /Border [ 0
  0
  0 ]
- /Rect [ 183.0327
- 615.7736
- 531.1828
- 627.7736 ]
+ /Rect [ 153.7323
+ 206.7343
+ 532.5827
+ 218.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Annot.NUMBER42': class PDFDictionary 
+66 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.pap.vs.uni-due.de/MMVE10/papers/mmve2010_submission_7.pdf) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 153.7323
+ 170.7343
+ 495.5423
+ 182.7343 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page11': class PDFPage 
 67 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1510604&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1510604) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ -40.7122
- 261.7736
- 655.9878
- 273.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER43': class PDFDictionary 
-68 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://portal.acm.org/citation.cfm?id=963900.963905&type=series) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 62.69291
- 201.7736
- 351.7329
- 213.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Page12': class PDFPage 
-69 0 obj
 % Page dictionary
-<< /Annots [ 62 0 R
+<< /Annots [ 60 0 R
+ 61 0 R
+ 62 0 R
  63 0 R
  64 0 R
  65 0 R
- 66 0 R
- 67 0 R
- 68 0 R ]
- /Contents 100 0 R
+ 66 0 R ]
+ /Contents 98 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 88 0 R
+ /Parent 87 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1215,235 +1186,246 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'R70': class PDFCatalog 
-70 0 obj
+% 'R68': class PDFCatalog 
+68 0 obj
 % Document Root
-<< /Outlines 72 0 R
- /PageLabels 101 0 R
+<< /Outlines 70 0 R
+ /PageLabels 99 0 R
  /PageMode /UseNone
- /Pages 88 0 R
+ /Pages 87 0 R
  /Type /Catalog >>
 endobj
-% 'R71': class PDFInfo 
-71 0 obj
+% 'R69': class PDFInfo 
+69 0 obj
 << /Author ()
- /CreationDate (D:20120814100556-02'00')
+ /CreationDate (D:20120814101511-02'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
  /Subject (\(unspecified\))
  /Title (An Entity System for Networked Game Development) >>
 endobj
-% 'R72': class PDFOutlines 
-72 0 obj
-<< /Count 18
- /First 73 0 R
- /Last 87 0 R
+% 'R70': class PDFOutlines 
+70 0 obj
+<< /Count 19
+ /First 71 0 R
+ /Last 86 0 R
  /Type /Outlines >>
 endobj
 % 'Outline.0': class OutlineEntryObject 
-73 0 obj
-<< /Dest [ 34 0 R
- /XYZ
- 62.69291
- 254.0236
- 0 ]
- /Next 74 0 R
- /Parent 72 0 R
- /Title (Abstract) >>
-endobj
-% 'Outline.1': class OutlineEntryObject 
-74 0 obj
-<< /Dest [ 35 0 R
- /XYZ
- 62.69291
- 717.0236
- 0 ]
- /Next 75 0 R
- /Parent 72 0 R
- /Prev 73 0 R
- /Title (Introduction) >>
-endobj
-% 'Outline.2': class OutlineEntryObject 
-75 0 obj
-<< /Dest [ 35 0 R
- /XYZ
- 62.69291
- 216.0236
- 0 ]
- /Next 76 0 R
- /Parent 72 0 R
- /Prev 74 0 R
- /Title (Background / related) >>
-endobj
-% 'Outline.3': class OutlineEntryObject 
-76 0 obj
-<< /Count 4
- /Dest [ 36 0 R
- /XYZ
- 62.69291
- 495.0236
- 0 ]
- /First 77 0 R
- /Last 80 0 R
- /Next 81 0 R
- /Parent 72 0 R
- /Prev 75 0 R
- /Title (Game development using the Entity-Component model) >>
-endobj
-% 'Outline.16.0': class OutlineEntryObject 
-77 0 obj
+71 0 obj
 << /Dest [ 36 0 R
  /XYZ
  62.69291
- 408.0236
+ 236.0236
  0 ]
- /Next 78 0 R
- /Parent 76 0 R
- /Title (The abstract model) >>
+ /Next 72 0 R
+ /Parent 70 0 R
+ /Title (Abstract) >>
 endobj
-% 'Outline.16.1': class OutlineEntryObject 
-78 0 obj
+% 'Outline.1': class OutlineEntryObject 
+72 0 obj
 << /Dest [ 37 0 R
- /XYZ
- 62.69291
- 603.0236
- 0 ]
- /Next 79 0 R
- /Parent 76 0 R
- /Prev 77 0 R
- /Title (Example 1: Pong as the Hello World of multiplayer games) >>
-endobj
-% 'Outline.16.2': class OutlineEntryObject 
-79 0 obj
-<< /Dest [ 40 0 R
- /XYZ
- 62.69291
- 561.0236
- 0 ]
- /Next 80 0 R
- /Parent 76 0 R
- /Prev 78 0 R
- /Title (Example 2: Swarming plankton as food for fish in the sea) >>
-endobj
-% 'Outline.16.3': class OutlineEntryObject 
-80 0 obj
-<< /Dest [ 49 0 R
- /XYZ
- 62.69291
- 189.6443
- 0 ]
- /Parent 76 0 R
- /Prev 79 0 R
- /Title (The implementation in Tundra SDK) >>
-endobj
-% 'Outline.4': class OutlineEntryObject 
-81 0 obj
-<< /Count 3
- /Dest [ 51 0 R
  /XYZ
  62.69291
  693.0236
  0 ]
- /First 82 0 R
- /Last 84 0 R
- /Next 85 0 R
- /Parent 72 0 R
- /Prev 76 0 R
- /Title (The underlying networking for the entity system in Tundra SDK) >>
+ /Next 73 0 R
+ /Parent 70 0 R
+ /Prev 71 0 R
+ /Title (Introduction) >>
+endobj
+% 'Outline.2': class OutlineEntryObject 
+73 0 obj
+<< /Dest [ 37 0 R
+ /XYZ
+ 62.69291
+ 192.0236
+ 0 ]
+ /Next 74 0 R
+ /Parent 70 0 R
+ /Prev 72 0 R
+ /Title (Background / related) >>
+endobj
+% 'Outline.3': class OutlineEntryObject 
+74 0 obj
+<< /Count 4
+ /Dest [ 38 0 R
+ /XYZ
+ 62.69291
+ 477.0236
+ 0 ]
+ /First 75 0 R
+ /Last 78 0 R
+ /Next 79 0 R
+ /Parent 70 0 R
+ /Prev 73 0 R
+ /Title (Game development using the Entity-Component model) >>
 endobj
 % 'Outline.17.0': class OutlineEntryObject 
-82 0 obj
+75 0 obj
+<< /Dest [ 38 0 R
+ /XYZ
+ 62.69291
+ 390.0236
+ 0 ]
+ /Next 76 0 R
+ /Parent 74 0 R
+ /Title (The abstract model) >>
+endobj
+% 'Outline.17.1': class OutlineEntryObject 
+76 0 obj
+<< /Dest [ 39 0 R
+ /XYZ
+ 62.69291
+ 591.0236
+ 0 ]
+ /Next 77 0 R
+ /Parent 74 0 R
+ /Prev 75 0 R
+ /Title (Example 1: Pong as the Hello World of multiplayer games) >>
+endobj
+% 'Outline.17.2': class OutlineEntryObject 
+77 0 obj
+<< /Dest [ 42 0 R
+ /XYZ
+ 62.69291
+ 537.0236
+ 0 ]
+ /Next 78 0 R
+ /Parent 74 0 R
+ /Prev 76 0 R
+ /Title (Example 2: Swarming plankton as food for fish in the sea) >>
+endobj
+% 'Outline.17.3': class OutlineEntryObject 
+78 0 obj
 << /Dest [ 51 0 R
+ /XYZ
+ 62.69291
+ 189.6443
+ 0 ]
+ /Parent 74 0 R
+ /Prev 77 0 R
+ /Title (The implementation in Tundra SDK) >>
+endobj
+% 'Outline.4': class OutlineEntryObject 
+79 0 obj
+<< /Count 3
+ /Dest [ 53 0 R
+ /XYZ
+ 62.69291
+ 693.0236
+ 0 ]
+ /First 80 0 R
+ /Last 82 0 R
+ /Next 83 0 R
+ /Parent 70 0 R
+ /Prev 74 0 R
+ /Title (The underlying networking for the entity system in Tundra SDK) >>
+endobj
+% 'Outline.18.0': class OutlineEntryObject 
+80 0 obj
+<< /Dest [ 53 0 R
  /XYZ
  62.69291
  213.0236
  0 ]
- /Next 83 0 R
- /Parent 81 0 R
+ /Next 81 0 R
+ /Parent 79 0 R
  /Title (Network bandwidth measurements) >>
 endobj
-% 'Outline.17.1': class OutlineEntryObject 
-83 0 obj
-<< /Dest [ 57 0 R
+% 'Outline.18.1': class OutlineEntryObject 
+81 0 obj
+<< /Dest [ 59 0 R
  /XYZ
  62.69291
  765.0236
  0 ]
- /Next 84 0 R
- /Parent 81 0 R
- /Prev 82 0 R
+ /Next 82 0 R
+ /Parent 79 0 R
+ /Prev 80 0 R
  /Title (Overall performance and scalability) >>
 endobj
-% 'Outline.17.2': class OutlineEntryObject 
-84 0 obj
-<< /Dest [ 57 0 R
+% 'Outline.18.2': class OutlineEntryObject 
+82 0 obj
+<< /Dest [ 59 0 R
  /XYZ
  62.69291
  621.8236
  0 ]
- /Parent 81 0 R
- /Prev 83 0 R
+ /Parent 79 0 R
+ /Prev 81 0 R
  /Title (interest management) >>
 endobj
 % 'Outline.5': class OutlineEntryObject 
-85 0 obj
+83 0 obj
 << /Count 1
- /Dest [ 57 0 R
+ /Dest [ 59 0 R
  /XYZ
  62.69291
  507.8236
  0 ]
- /First 86 0 R
- /Last 86 0 R
- /Next 87 0 R
- /Parent 72 0 R
- /Prev 81 0 R
+ /First 84 0 R
+ /Last 84 0 R
+ /Next 85 0 R
+ /Parent 70 0 R
+ /Prev 79 0 R
  /Title (Evaluation and Discussion) >>
 endobj
-% 'Outline.18.0': class OutlineEntryObject 
-86 0 obj
-<< /Dest [ 57 0 R
+% 'Outline.19.0': class OutlineEntryObject 
+84 0 obj
+<< /Dest [ 59 0 R
  /XYZ
  62.69291
  456.8236
  0 ]
- /Parent 85 0 R
+ /Parent 83 0 R
  /Title (Alternative implementations: the entities to web browsers and XMPP as well?) >>
 endobj
 % 'Outline.6': class OutlineEntryObject 
-87 0 obj
-<< /Dest [ 61 0 R
+85 0 obj
+<< /Dest [ 67 0 R
  /XYZ
  62.69291
  585.0236
  0 ]
- /Parent 72 0 R
- /Prev 85 0 R
- /Title (Notes / References) >>
+ /Next 86 0 R
+ /Parent 70 0 R
+ /Prev 83 0 R
+ /Title (Conclusions) >>
 endobj
-% 'R88': class PDFPages 
-88 0 obj
+% 'Outline.7': class OutlineEntryObject 
+86 0 obj
+<< /Dest [ 67 0 R
+ /XYZ
+ 62.69291
+ 534.0236
+ 0 ]
+ /Parent 70 0 R
+ /Prev 85 0 R
+ /Title (References) >>
+endobj
+% 'R87': class PDFPages 
+87 0 obj
 % page tree
-<< /Count 12
- /Kids [ 34 0 R
- 35 0 R
- 36 0 R
+<< /Count 11
+ /Kids [ 36 0 R
  37 0 R
- 40 0 R
- 49 0 R
- 50 0 R
+ 38 0 R
+ 39 0 R
+ 42 0 R
  51 0 R
- 54 0 R
- 57 0 R
- 61 0 R
- 69 0 R ]
+ 52 0 R
+ 53 0 R
+ 56 0 R
+ 59 0 R
+ 67 0 R ]
  /Type /Pages >>
 endobj
-% 'R89': class PDFStream 
-89 0 obj
+% 'R88': class PDFStream 
+88 0 obj
 % page stream
-<< /Length 6958 >>
+<< /Length 6849 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -1464,7 +1446,7 @@ q
 1 0 0 1 62.69291 665.0236 cm
 q
 .545098 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 113.2099 0 Td (This document was generated on 2012-08-14 at 10:05.) Tj T* -113.2099 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 113.2099 0 Td (This document was generated on 2012-08-14 at 10:15.) Tj T* -113.2099 0 Td ET
 Q
 Q
 q
@@ -1508,17 +1490,17 @@ BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Contents) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 266.0236 cm
+1 0 0 1 62.69291 248.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
-1 0 0 1 0 255 cm
+1 0 0 1 0 273 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Abstract) Tj T* ET
 Q
 Q
 q
-1 0 0 1 397.8898 255 cm
+1 0 0 1 397.8898 273 cm
 q
 0 0 .501961 rg
 0 0 .501961 RG
@@ -1526,9 +1508,23 @@ BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (1) Tj T* -66.44 0 Td ET
 Q
 Q
 q
-1 0 0 1 0 237 cm
+1 0 0 1 0 255 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 397.8898 255 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+Q
+Q
+q
+1 0 0 1 0 237 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Background / related) Tj T* ET
 Q
 Q
 q
@@ -1542,7 +1538,7 @@ Q
 q
 1 0 0 1 0 219 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Background / related) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Game development using the Entity-Component model) Tj T* ET
 Q
 Q
 q
@@ -1550,13 +1546,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (2) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 201 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Game development using the Entity-Component model) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (The abstract model) Tj T* ET
 Q
 Q
 q
@@ -1564,13 +1560,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 183 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (The abstract model) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Example 1: Pong as the Hello World of multiplayer games) Tj T* ET
 Q
 Q
 q
@@ -1578,13 +1574,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (3) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 165 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Example 1: Pong as the Hello World of multiplayer games) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Example 2: Swarming plankton as food for fish in the sea) Tj T* ET
 Q
 Q
 q
@@ -1592,13 +1588,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (4) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 147 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Example 2: Swarming plankton as food for fish in the sea) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (The implementation in Tundra SDK) Tj T* ET
 Q
 Q
 q
@@ -1606,13 +1602,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (5) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 129 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (The implementation in Tundra SDK) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (The underlying networking for the entity system in Tundra SDK) Tj T* ET
 Q
 Q
 q
@@ -1620,13 +1616,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (6) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 111 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (The underlying networking for the entity system in Tundra SDK) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Network bandwidth measurements) Tj T* ET
 Q
 Q
 q
@@ -1634,13 +1630,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 93 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Network bandwidth measurements) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Overall performance and scalability) Tj T* ET
 Q
 Q
 q
@@ -1648,13 +1644,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 66.44 0 Td (8) Tj T* -66.44 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 75 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Overall performance and scalability) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (interest management) Tj T* ET
 Q
 Q
 q
@@ -1668,7 +1664,7 @@ Q
 q
 1 0 0 1 0 57 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (interest management) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Evaluation and Discussion) Tj T* ET
 Q
 Q
 q
@@ -1676,13 +1672,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 39 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Evaluation and Discussion) Tj T* ET
+BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Alternative implementations: the entities to web browsers and XMPP as well?) Tj T* ET
 Q
 Q
 q
@@ -1690,13 +1686,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 21 cm
 q
-BT 1 0 0 1 20 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (Alternative implementations: the entities to web browsers and XMPP as well?) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Conclusions) Tj T* ET
 Q
 Q
 q
@@ -1704,13 +1700,13 @@ q
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 60.88 0 Td (10) Tj T* -60.88 0 Td ET
+BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL 60.88 0 Td (11) Tj T* -60.88 0 Td ET
 Q
 Q
 q
 1 0 0 1 0 3 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (Notes / References) Tj T* ET
+BT 1 0 0 1 0 2 Tm 12 TL /F2 10 Tf 0 0 .501961 rg (References) Tj T* ET
 Q
 Q
 q
@@ -1725,30 +1721,107 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 233.0236 cm
+1 0 0 1 62.69291 215.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Abstract) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 155.0236 cm
+1 0 0 1 62.69291 137.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .253314 Tw (We present an inherently networked entity system for creating multiuser applications, including networked) Tj T* 0 Tw 2.150814 Tw (games. The entities aggregate components with attributes which are automatically synchronized in a) Tj T* 0 Tw .016235 Tw (client-server setup. So called entity-actions can be called both locally and remotely, they are a simple form) Tj T* 0 Tw 1.892485 Tw (of RPC. This system is implemented in the open source realXtend Tundra SDK which is a complete) Tj T* 0 Tw .18936 Tw (platform for multiuser 3d applications. The API of Tundra is evaluated critically to analyze the entity model) Tj T* 0 Tw (and to identify areas for improvement in future work.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 113.0236 cm
+1 0 0 1 62.69291 95.02362 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .259985 Tw (The goal is to make creating efficient multiplayer games easy, with for example just Javascript logic code,) Tj T* 0 Tw 3.183059 Tw (without the need to invent own network messages for simple functionality. Custom messages are) Tj T* 0 Tw (supported for efficiency in more complex cases.) Tj T* ET
 Q
 Q
+ 
+endstream
+endobj
+% 'R89': class PDFStream 
+89 0 obj
+% page stream
+<< /Length 6391 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 83.02362 cm
+1 0 0 1 62.69291 705.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .387318 Tw (Besides the generic attribute sync, the Tundra SDK includes custom messages and logic for moving rigid) Tj T* 0 Tw 1.831984 Tw (bodies, utilizing the physics module also on the client side and by implementing \(XXX basic sensible) Tj T* 0 Tw ET
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .387318 Tw (Besides the generic attribute sync, the Tundra SDK includes custom messages and logic for moving rigid) Tj T* 0 Tw 1.831984 Tw (bodies, utilizing the physics module also on the client side and by implementing \(XXX basic sensible) Tj T* 0 Tw 2.019318 Tw (things / nice clever tricks / best practices from the literature / something\). Measurements from these) Tj T* 0 Tw .721984 Tw (optimizations are presented -- with the optimizations the maximum number of moving objects in a scene) Tj T* 0 Tw (went up by N.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 672.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Introduction) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 594.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.73152 Tw (Developing a networked multiplayer game is typically \(unavoidably\) more complex than a local game.) Tj T* 0 Tw .27683 Tw (Multiplayer logic is a part of it, compared to single player games, but a large part of the complexity comes) Tj T* 0 Tw .993314 Tw (with the networking: Synchronizing state, triggering events remotely, arbitrating possible conflicts due to) Tj T* 0 Tw .018443 Tw (simultaneous actions from different clients, dealing with problems such as dropped messages and aborted) Tj T* 0 Tw 2.75936 Tw (connections etc. All that work is away from what a game developer ideally would be focusing on:) Tj T* 0 Tw (developing the gameplay itself.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 516.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.162485 Tw (The question here is whether and how a platform or a library can make networked game programming) Tj T* 0 Tw 1.751235 Tw (easier. In computer science in general, any problem can be addressed by introducing a new layer of) Tj T* 0 Tw 1.385984 Tw (abstraction, but there are caveats. Many layers of abstraction with different concepts may just add the) Tj T* 0 Tw .17784 Tw (cognitive load for the developer, especially if underlying issues such as network connectivity problems still) Tj T* 0 Tw 2.201654 Tw (propagate through to the top and need to be dealt with. What would be the best core concepts for) Tj T* 0 Tw (productive development of robust networked games?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 414.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL 1.729982 Tw (The model presented here is an entity-component model, similar to several contemporary games and) Tj T* 0 Tw .902651 Tw (engines. It uses aggregation, instead of inheritance, to compose all game entities as sets of component) Tj T* 0 Tw .348651 Tw (instances. All the scene data is in the attributes of the components, which are automatically synchronized) Tj T* 0 Tw 4.791647 Tw (over the network among all the participants using a client-server setup. Additionally, so-called) Tj T* 0 Tw 1.867209 Tw (entity-actions can be called on the entities -- either locally or over the network, it is a simple remote) Tj T* 0 Tw .73284 Tw (procedure call \(RPC\) mechanism. In this paper, we evaluate the model by analyzing game development) Tj T* 0 Tw .862927 Tw (done using it, and compare the approach with the alternative of just using a networking library to create) Tj T* 0 Tw (connections and do messaging in own game code.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 324.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL .152485 Tw (The evaluation is made using the open source Tundra SDK from the realXtend initiative. Tundra has been) Tj T* 0 Tw 1.158221 Tw (built from the start using this entity-component model, also for the basic core functionality, and it is the) Tj T* 0 Tw .456412 Tw (extensibility mechanism that Tundra provides for additional functionality as well. We give a brief overview) Tj T* 0 Tw 1.843516 Tw (of Tundra as a platform overall, but the focus is on the networking and the abstractions provided for) Tj T* 0 Tw .888555 Tw (application developers. In addition to reviewing the ease of development, we also analyze the efficiency) Tj T* 0 Tw .829982 Tw (and robustness of how the abstract entity-component model with the automatic synchronization maps to) Tj T* 0 Tw (concrete network load.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 282.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.199269 Tw (\(NOTE: something more is needed about how APIs and platforms can be evaluated, can qualitative) Tj T* 0 Tw 6.514597 Tw (research about programming environments be done and how? both here to intro and to) Tj T* 0 Tw (background/related work! XXX\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 204.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .43311 Tw (The article is organized as follows: next we review background and related work from the literature. Then) Tj T* 0 Tw .274651 Tw (the design of the entity-component model is described, and illustrated with two application examples: 1. A) Tj T* 0 Tw .830651 Tw (complete treatment of the source code of a minimal networked multiplayer Pong and 2. Selected details) Tj T* 0 Tw .485814 Tw (from a complex watershed environment which hosts two interconnected multiplayer minigames. Then the) Tj T* 0 Tw .292485 Tw (underlying networking layer is analyzed to see how the higher level game codes translate to actual traffic,) Tj T* 0 Tw (how much bandwidth is used \(etc? XXX\). \(Finally ..?\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 171.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Background / related) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 141.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.589461 Tw (The entity model presented here is by far not unique, quite the opposite, as the idea is to apply best) Tj T* 0 Tw (practices from the literature.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 87.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .13284 Tw (We adopted the aggregation based technique after studying [ecref \(gta4?\)], and for example Unity3d uses) Tj T* 0 Tw 2.201318 Tw (components the same way, also as an extension point for plugins [unity ref?]. Typically these entity) Tj T* 0 Tw .238651 Tw (systems are not, however, inherently networked \(?\). One game platform that we studied when making the) Tj T* 0 Tw 3.309069 Tw (attribute synchronization was Syntensity, which adds a Javascript scripting system with networked) Tj T* 0 Tw ET
 Q
 Q
  
@@ -1757,119 +1830,42 @@ endobj
 % 'R90': class PDFStream 
 90 0 obj
 % page stream
-<< /Length 6229 >>
+<< /Length 6916 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 729.0236 cm
+1 0 0 1 62.69291 753.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.019318 Tw (things / nice clever tricks / best practices from the literature / something\). Measurements from these) Tj T* 0 Tw .721984 Tw (optimizations are presented -- with the optimizations the maximum number of moving objects in a scene) Tj T* 0 Tw (went up by N.) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (attributes to the Cube FPS engine based Sauerbraten collaborative networked system.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 696.0236 cm
-q
-BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Introduction) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 618.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.73152 Tw (Developing a networked multiplayer game is typically \(unavoidably\) more complex than a local game.) Tj T* 0 Tw .27683 Tw (Multiplayer logic is a part of it, compared to single player games, but a large part of the complexity comes) Tj T* 0 Tw .993314 Tw (with the networking: Synchronizing state, triggering events remotely, arbitrating possible conflicts due to) Tj T* 0 Tw .018443 Tw (simultaneous actions from different clients, dealing with problems such as dropped messages and aborted) Tj T* 0 Tw 2.75936 Tw (connections etc. All that work is away from what a game developer ideally would be focusing on:) Tj T* 0 Tw (developing the gameplay itself.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 540.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.162485 Tw (The question here is whether and how a platform or a library can make networked game programming) Tj T* 0 Tw 1.751235 Tw (easier. In computer science in general, any problem can be addressed by introducing a new layer of) Tj T* 0 Tw 1.385984 Tw (abstraction, but there are caveats. Many layers of abstraction with different concepts may just add the) Tj T* 0 Tw .17784 Tw (cognitive load for the developer, especially if underlying issues such as network connectivity problems still) Tj T* 0 Tw 2.201654 Tw (propagate through to the top and need to be dealt with. What would be the best core concepts for) Tj T* 0 Tw (productive development of robust networked games?) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 438.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL 1.729982 Tw (The model presented here is an entity-component model, similar to several contemporary games and) Tj T* 0 Tw .902651 Tw (engines. It uses aggregation, instead of inheritance, to compose all game entities as sets of component) Tj T* 0 Tw .348651 Tw (instances. All the scene data is in the attributes of the components, which are automatically synchronized) Tj T* 0 Tw 4.791647 Tw (over the network among all the participants using a client-server setup. Additionally, so-called) Tj T* 0 Tw 1.867209 Tw (entity-actions can be called on the entities -- either locally or over the network, it is a simple remote) Tj T* 0 Tw .73284 Tw (procedure call \(RPC\) mechanism. In this paper, we evaluate the model by analyzing game development) Tj T* 0 Tw .862927 Tw (done using it, and compare the approach with the alternative of just using a networking library to create) Tj T* 0 Tw (connections and do messaging in own game code.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 348.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL .152485 Tw (The evaluation is made using the open source Tundra SDK from the realXtend initiative. Tundra has been) Tj T* 0 Tw 1.158221 Tw (built from the start using this entity-component model, also for the basic core functionality, and it is the) Tj T* 0 Tw .456412 Tw (extensibility mechanism that Tundra provides for additional functionality as well. We give a brief overview) Tj T* 0 Tw 1.843516 Tw (of Tundra as a platform overall, but the focus is on the networking and the abstractions provided for) Tj T* 0 Tw .888555 Tw (application developers. In addition to reviewing the ease of development, we also analyze the efficiency) Tj T* 0 Tw .829982 Tw (and robustness of how the abstract entity-component model with the automatic synchronization maps to) Tj T* 0 Tw (concrete network load.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 306.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.199269 Tw (\(NOTE: something more is needed about how APIs and platforms can be evaluated, can qualitative) Tj T* 0 Tw 6.514597 Tw (research about programming environments be done and how? both here to intro and to) Tj T* 0 Tw (background/related work! XXX\)) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 228.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .43311 Tw (The article is organized as follows: next we review background and related work from the literature. Then) Tj T* 0 Tw .274651 Tw (the design of the entity-component model is described, and illustrated with two application examples: 1. A) Tj T* 0 Tw .830651 Tw (complete treatment of the source code of a minimal networked multiplayer Pong and 2. Selected details) Tj T* 0 Tw .485814 Tw (from a complex watershed environment which hosts two interconnected multiplayer minigames. Then the) Tj T* 0 Tw .292485 Tw (underlying networking layer is analyzed to see how the higher level game codes translate to actual traffic,) Tj T* 0 Tw (how much bandwidth is used \(etc? XXX\). \(Finally ..?\)) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 195.0236 cm
-q
-BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Background / related) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 165.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.589461 Tw (The entity model presented here is by far not unique, quite the opposite, as the idea is to apply best) Tj T* 0 Tw (practices from the literature.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 99.02362 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .13284 Tw (We adopted the aggregation based technique after studying [ecref \(gta4?\)], and for example Unity3d uses) Tj T* 0 Tw 2.201318 Tw (components the same way, also as an extension point for plugins [unity ref?]. Typically these entity) Tj T* 0 Tw .238651 Tw (systems are not, however, inherently networked \(?\). One game platform that we studied when making the) Tj T* 0 Tw 3.309069 Tw (attribute synchronization was Syntensity, which adds a Javascript scripting system with networked) Tj T* 0 Tw (attributes to the Cube FPS engine based Sauerbraten collaborative networked system.) Tj T* ET
-Q
-Q
- 
-endstream
-endobj
-% 'R91': class PDFStream 
-91 0 obj
-% page stream
-<< /Length 6866 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-q
-1 0 0 1 62.69291 717.0236 cm
+1 0 0 1 62.69291 699.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .573318 Tw (Also simplifying networked game development by providing a platform which takes care of all the basics,) Tj T* 0 Tw .534269 Tw (such as client-server connectivity and synchronizing movements and other state, is nothing new. All FPS) Tj T* 0 Tw 1.461984 Tw (mods, scriptable MMOs and engines such as Unreal \(and Half-Life and which are the relevant ones?\)) Tj T* 0 Tw (feature that.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 627.0236 cm
+1 0 0 1 62.69291 609.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL 1.97104 Tw (As the target here is to analyze the quality of the model by the API it provides for networked game) Tj T* 0 Tw .905318 Tw (developers, we could in principle use some of the aforementioned proprietary platforms for the study as) Tj T* 0 Tw .574983 Tw (well. However the Tundra SDK is, by being liberally licensed open source \(apache\), completely available) Tj T* 0 Tw .165318 Tw (for anyone for most detailed analysis and freely modifyable to test possible improvements. Our results are) Tj T* 0 Tw 1.287126 Tw (easily repeatable as anyone can download and run the same codes. \(Homura-HUGS paper argues for) Tj T* 0 Tw 4.337674 Tw (and does that too, NHUGS: Towards scalability testing for MMOGs within an extensible, open) Tj T* 0 Tw (architecture\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 573.0236 cm
+1 0 0 1 62.69291 555.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .256647 Tw (Yet a comparative analysis with multiple platforms, including proprietary commercial ones, would certainly) Tj T* 0 Tw .977882 Tw (be fruitful \(XXX -- perhaps we can do that to a limited extent here, by talking with folks with experience) Tj T* 0 Tw .277356 Tw (with Unity, Unreal etc. dev, and OTOH by reviewing things like Syntensity in more detail .. return to this in) Tj T* 0 Tw (discussion/evaluation?\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 567.0236 cm
+1 0 0 1 62.69291 549.0236 cm
 Q
 q
-1 0 0 1 62.69291 525.0236 cm
+1 0 0 1 62.69291 507.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 BT 1 0 0 1 0 2 Tm  T* ET
@@ -1907,66 +1903,137 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 525.0236 cm
+1 0 0 1 62.69291 507.0236 cm
 Q
 q
-1 0 0 1 62.69291 507.0236 cm
+1 0 0 1 62.69291 489.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (...) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 474.0236 cm
+1 0 0 1 62.69291 456.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Game development using the Entity-Component model) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 420.0236 cm
+1 0 0 1 62.69291 402.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .882485 Tw (The entity-component model is an abstract design, not tied to any specific platform. It is presented here) Tj T* 0 Tw .501235 Tw (first on the conceptual level, and illustrated with examples. Finally the implementation of the model in the) Tj T* 0 Tw .321098 Tw (Tundra SDK is described, both to analyze how the design works out in a concrete platform and to identify) Tj T* 0 Tw (possible improvements for the conceptual models and the implementation there.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 390.0236 cm
+1 0 0 1 62.69291 372.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (The abstract model) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 336.0236 cm
+1 0 0 1 62.69291 318.0236 cm
 q
 BT 1 0 0 1 0 38 Tm 1.06332 Tw 12 TL /F1 10 Tf 0 0 0 rg (The core of the entity-component model is very simple: An entity is just an identity, without any type or) Tj T* 0 Tw 1.333735 Tw (data \(apart from the id\). It is used to aggregate components, which have attributes for synchronized &) Tj T* 0 Tw .394985 Tw (persistent data, and code to implement the functionality of the component. An application is a collection if) Tj T* 0 Tw (entities.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 282.0236 cm
+1 0 0 1 62.69291 264.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .617674 Tw (This aggregation based approach steps away from the inheritance oriented class hierarchies which were) Tj T* 0 Tw .080574 Tw (typical in games earlier, to avoid problems with deep class hierarchies and difficulties of sharing a piece of) Tj T* 0 Tw 4.10784 Tw (functionality across otherwise remote types in a hierarchy [ecref]. It provides a uniform way of) Tj T* 0 Tw (programming a piece of functionality for all types of entities.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 216.0236 cm
+1 0 0 1 62.69291 198.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL 1.124985 Tw (For example, all positioned entities in a 3d scene can have a Placeable component which contains the) Tj T* 0 Tw .237984 Tw (scene node transform \(position, orientation and scale\). Then any code that deals with positions just works) Tj T* 0 Tw .385542 Tw (for all kinds of entities -- lamps, cameras, players or whatever -- as the placeable component is the same) Tj T* 0 Tw .098409 Tw (in all of them, and the entities are not typed. The other functionalities of an entity are implemented in other) Tj T* 0 Tw (components, for example a light of camera component, but that is independent of the placeable aspect.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 126.0236 cm
+1 0 0 1 62.69291 108.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL .639985 Tw (Furthermore, all the component data is handled in a unified way with the generic attribute mechanism. A) Tj T* 0 Tw 1.048555 Tw (component specifies the attributes it contains. The generic systems then take care of synchronizing the) Tj T* 0 Tw .047045 Tw (data across the network, and of persisting it \(saving to file or database\). No special network messages are) Tj T* 0 Tw 2.319983 Tw (required to implement features, such as having coloured lights or sound sources with varying audio) Tj T* 0 Tw .638735 Tw (volume levels -- the light and sound components just define their data as attributes. Changes in attribute) Tj T* 0 Tw 1.130751 Tw (data are communicated with generic attribute synchronization messages which are specific for the data) Tj T* 0 Tw (type \(float, string, ..\) but independent of the containing component.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 84.02362 cm
+1 0 0 1 62.69291 78.02362 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.009269 Tw (Additionally, so-called entity-actions can be registered as callback functions in the entities. They can be) Tj T* 0 Tw .017485 Tw (called both locally and remotely and are a simple form of remote procedure calls \(RPC\). The entity-actions) Tj T* 0 Tw .22311 Tw (are called indirectly: the callback handlers are implemented in components, but the calls are on the entity.) Tj T* 0 Tw ET
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.009269 Tw (Additionally, so-called entity-actions can be registered as callback functions in the entities. They can be) Tj T* 0 Tw .017485 Tw (called both locally and remotely and are a simple form of remote procedure calls \(RPC\). The entity-actions) Tj T* 0 Tw ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R91': class PDFStream 
+91 0 obj
+% page stream
+<< /Length 6848 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 681.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL .22311 Tw (are called indirectly: the callback handlers are implemented in components, but the calls are on the entity.) Tj T* 0 Tw .537209 Tw (That is to be able to provide a uniform interface to different but related functionality: For example, a Hide) Tj T* 0 Tw 1.538488 Tw (action can be registered so that a UI button or some game logic code can hide a set of entities. The) Tj T* 0 Tw 2.057882 Tw (details of how to hide a certain kind of an entity depends on the components it uses to display: for) Tj T* 0 Tw .306303 Tw (example whether it is a mesh, a particle system, a piece of text or some UI element. By implementing the) Tj T* 0 Tw .228876 Tw (Hide action in all the different components but routing the call via the entities the same interface works for) Tj T* 0 Tw (all implementations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 603.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .412126 Tw (By default, the entities and components are replicated and persistent, i.e. synchronized over network and) Tj T* 0 Tw 2.389987 Tw (saved to files. They can also be configured to be local only, either on server or client side, and/or) Tj T* 0 Tw 1.240651 Tw (temporary. Temporary entities are typically created by application logic code by a script in some other,) Tj T* 0 Tw .534983 Tw (persistent entity. For example the reference avatar implementation for virtual worlds like usage in Tundra) Tj T* 0 Tw 1.189986 Tw (SDK has logic code to create visible avatars upon new user logins, and the avatars are replicated, but) Tj T* 0 Tw (they are temporary and hence not stored when the world state is saved while users are logged in.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 573.0236 cm
+q
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Example 1: Pong as the Hello World of multiplayer games) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 519.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.329431 Tw (Pong is a minimal multiplayer game, so let's use it as a simple example of making a networked game) Tj T* 0 Tw .36061 Tw (using the entity-component model. We are using the realXtend Tundra SDK for the evaluation here and it) Tj T* 0 Tw .201984 Tw (is a 3d scenegraph engine with rigid body physics simulations so the game environment and mechanisms) Tj T* 0 Tw (are built with those.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 453.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL 1.504724 Tw (The Pong scene consists of -- similarily to the game of tennis -- the playing field, two paddles for the) Tj T* 0 Tw .509988 Tw (players and the ball. In this example the static scene is created with a 3d modeling program \(in this case) Tj T* 0 Tw 1.713516 Tw (Blender3d\). The scene is exported from Blender to Tundra SDK, at which point it is converted to the) Tj T* 0 Tw .385318 Tw (entity-component model: all the visible entities have a Placeable component for being in the scene, Mesh) Tj T* 0 Tw (for the visual geometry and Rigidbody for the physics simulation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 351.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL .432209 Tw (To make the game logic, an additional invisible entity is added, let's call it PongGame. We write the code) Tj T* 0 Tw .48104 Tw (in Javascript, for which the mechanism in Tundra is to add a Script component with a reference to the .js) Tj T* 0 Tw 1.261988 Tw (file as an attribute. We want to show a basic GUI in the clients to visualize the game state: whether a) Tj T* 0 Tw 1.165488 Tw (game is running or not, and what is the score. So let's add also a custom component with that data in) Tj T* 0 Tw 1.084597 Tw (attributes, PongGameState with Boolean:Running and integer attributes for player 1 and 2 scores. That) Tj T* 0 Tw .039988 Tw (way the data is automatically synchronized to clients as well so they can easily use it in the GUI code. The) Tj T* 0 Tw 1.182093 Tw (physics simulation bouncing the ball is ran on the server side by default, and that is where we want to) Tj T* 0 Tw (have all the logic code of checking when a player scores, starting and stopping games etc.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 309.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .769988 Tw (In addition to having the logic code and the game state data, we need to handle clients / players joining) Tj T* 0 Tw 1.680574 Tw (and leaving the game. Joining is triggered with a GUI button in a client, which sends an entity-action) Tj T* 0 Tw (called "JoinGame" to the PongGame application entity, to be handled on the server side.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 231.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.034198 Tw (The game does not need to know about clients logging into the server, as we can have any number of) Tj T* 0 Tw .039461 Tw (spectators there. As joining the game is made as a separate action, the game does not need to care when) Tj T* 0 Tw 2.238555 Tw (new bare client connections are established. But we need to handle disconnects when some player) Tj T* 0 Tw 1.05561 Tw (connection is dropped in the middle of a running game. Network connections in Tundra are outside the) Tj T* 0 Tw .303672 Tw (entity model, but hooks for dealing with them are provided in the builtin core API instead. In this case, the) Tj T* 0 Tw (server api object has an event called UserDisconnected to which we can connect our handler.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 105.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 110 Tm /F1 10 Tf 12 TL .767045 Tw (We begin the game, for simplicity, when two players have joined in. They are assigned controls for their) Tj T* 0 Tw .151235 Tw (own paddles, for example the mouse y coordinate can be mapped to the corresponding position along the) Tj T* 0 Tw 1.308876 Tw (side of the table. We can manipulate the paddle position directly in the client by the same code which) Tj T* 0 Tw .122488 Tw (reads the mouse position. This is optimal for the control feel to avoid any lag in the visual response for the) Tj T* 0 Tw .535868 Tw (hand movements, but can be problematic when the physics are executed on the server side and there is) Tj T* 0 Tw .474987 Tw (network latency. The player can see the ball passing through her paddle, if the server did not receive the) Tj T* 0 Tw 1.906651 Tw (paddle movement in time. Another possibility is to communicate the controls to the server, move the) Tj T* 0 Tw 1.352339 Tw (paddles there, and thereby get the visual feedback in the client only after the full roundtrip. This could) Tj T* 0 Tw 1.582339 Tw (allow the player to compensate for the latency, but also make the controlling more difficult due to the) Tj T* 0 Tw (delay. For a study of different strategies for dealing with latency in the game of pong, see [PongPaper].) Tj T* ET
 Q
 Q
  
@@ -1975,102 +2042,24 @@ endobj
 % 'R92': class PDFStream 
 92 0 obj
 % page stream
-<< /Length 7057 >>
+<< /Length 6218 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 693.0236 cm
+1 0 0 1 62.69291 729.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .537209 Tw (That is to be able to provide a uniform interface to different but related functionality: For example, a Hide) Tj T* 0 Tw 1.538488 Tw (action can be registered so that a UI button or some game logic code can hide a set of entities. The) Tj T* 0 Tw 2.057882 Tw (details of how to hide a certain kind of an entity depends on the components it uses to display: for) Tj T* 0 Tw .306303 Tw (example whether it is a mesh, a particle system, a piece of text or some UI element. By implementing the) Tj T* 0 Tw .228876 Tw (Hide action in all the different components but routing the call via the entities the same interface works for) Tj T* 0 Tw (all implementations.) Tj T* ET
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 4.104983 Tw (The positions of all objects, the transform attributes of the placeable components in them, are) Tj T* 0 Tw 1.770751 Tw (synchronized automatically so all the participants get the paddle and ball positions automatically. The) Tj T* 0 Tw (bouncing of the ball is handled automatically by the physics engine. The game code only needs to:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 615.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .412126 Tw (By default, the entities and components are replicated and persistent, i.e. synchronized over network and) Tj T* 0 Tw 2.389987 Tw (saved to files. They can also be configured to be local only, either on server or client side, and/or) Tj T* 0 Tw 1.240651 Tw (temporary. Temporary entities are typically created by application logic code by a script in some other,) Tj T* 0 Tw .534983 Tw (persistent entity. For example the reference avatar implementation for virtual worlds like usage in Tundra) Tj T* 0 Tw 1.189986 Tw (SDK has logic code to create visible avatars upon new user logins, and the avatars are replicated, but) Tj T* 0 Tw (they are temporary and hence not stored when the world state is saved while users are logged in.) Tj T* ET
-Q
+1 0 0 1 62.69291 723.0236 cm
 Q
 q
-1 0 0 1 62.69291 585.0236 cm
-q
-BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Example 1: Pong as the Hello World of multiplayer games) Tj T* ET
-Q
+1 0 0 1 62.69291 723.0236 cm
 Q
 q
-1 0 0 1 62.69291 531.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.329431 Tw (Pong is a minimal multiplayer game, so let's use it as a simple example of making a networked game) Tj T* 0 Tw .36061 Tw (using the entity-component model. We are using the realXtend Tundra SDK for the evaluation here and it) Tj T* 0 Tw .201984 Tw (is a 3d scenegraph engine with rigid body physics simulations so the game environment and mechanisms) Tj T* 0 Tw (are built with those.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 465.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL 1.504724 Tw (The Pong scene consists of -- similarily to the game of tennis -- the playing field, two paddles for the) Tj T* 0 Tw .509988 Tw (players and the ball. In this example the static scene is created with a 3d modeling program \(in this case) Tj T* 0 Tw 1.713516 Tw (Blender3d\). The scene is exported from Blender to Tundra SDK, at which point it is converted to the) Tj T* 0 Tw .385318 Tw (entity-component model: all the visible entities have a Placeable component for being in the scene, Mesh) Tj T* 0 Tw (for the visual geometry and Rigidbody for the physics simulation.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 363.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL .432209 Tw (To make the game logic, an additional invisible entity is added, let's call it PongGame. We write the code) Tj T* 0 Tw .48104 Tw (in Javascript, for which the mechanism in Tundra is to add a Script component with a reference to the .js) Tj T* 0 Tw 1.261988 Tw (file as an attribute. We want to show a basic GUI in the clients to visualize the game state: whether a) Tj T* 0 Tw 1.165488 Tw (game is running or not, and what is the score. So let's add also a custom component with that data in) Tj T* 0 Tw 1.084597 Tw (attributes, PongGameState with Boolean:Running and integer attributes for player 1 and 2 scores. That) Tj T* 0 Tw .039988 Tw (way the data is automatically synchronized to clients as well so they can easily use it in the GUI code. The) Tj T* 0 Tw 1.182093 Tw (physics simulation bouncing the ball is ran on the server side by default, and that is where we want to) Tj T* 0 Tw (have all the logic code of checking when a player scores, starting and stopping games etc.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 321.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .769988 Tw (In addition to having the logic code and the game state data, we need to handle clients / players joining) Tj T* 0 Tw 1.680574 Tw (and leaving the game. Joining is triggered with a GUI button in a client, which sends an entity-action) Tj T* 0 Tw (called "JoinGame" to the PongGame application entity, to be handled on the server side.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 243.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL 1.034198 Tw (The game does not need to know about clients logging into the server, as we can have any number of) Tj T* 0 Tw .039461 Tw (spectators there. As joining the game is made as a separate action, the game does not need to care when) Tj T* 0 Tw 2.238555 Tw (new bare client connections are established. But we need to handle disconnects when some player) Tj T* 0 Tw 1.05561 Tw (connection is dropped in the middle of a running game. Network connections in Tundra are outside the) Tj T* 0 Tw .303672 Tw (entity model, but hooks for dealing with them are provided in the builtin core API instead. In this case, the) Tj T* 0 Tw (server api object has an event called UserDisconnected to which we can connect our handler.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 117.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 110 Tm /F1 10 Tf 12 TL .767045 Tw (We begin the game, for simplicity, when two players have joined in. They are assigned controls for their) Tj T* 0 Tw .151235 Tw (own paddles, for example the mouse y coordinate can be mapped to the corresponding position along the) Tj T* 0 Tw 1.308876 Tw (side of the table. We can manipulate the paddle position directly in the client by the same code which) Tj T* 0 Tw .122488 Tw (reads the mouse position. This is optimal for the control feel to avoid any lag in the visual response for the) Tj T* 0 Tw .535868 Tw (hand movements, but can be problematic when the physics are executed on the server side and there is) Tj T* 0 Tw .474987 Tw (network latency. The player can see the ball passing through her paddle, if the server did not receive the) Tj T* 0 Tw 1.906651 Tw (paddle movement in time. Another possibility is to communicate the controls to the server, move the) Tj T* 0 Tw 1.352339 Tw (paddles there, and thereby get the visual feedback in the client only after the full roundtrip. This could) Tj T* 0 Tw 1.582339 Tw (allow the player to compensate for the latency, but also make the controlling more difficult due to the) Tj T* 0 Tw (delay. For a study of different strategies for dealing with latency in the game of pong, see [PongPaper].) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 87.02362 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 4.104983 Tw (The positions of all objects, the transform attributes of the placeable components in them, are) Tj T* 0 Tw 1.770751 Tw (synchronized automatically so all the participants get the paddle and ball positions automatically. The) Tj T* 0 Tw ET
-Q
-Q
- 
-endstream
-endobj
-% 'R93': class PDFStream 
-93 0 obj
-% page stream
-<< /Length 5967 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-q
-1 0 0 1 62.69291 753.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (bouncing of the ball is handled automatically by the physics engine. The game code only needs to:) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 747.0236 cm
-Q
-q
-1 0 0 1 62.69291 747.0236 cm
-Q
-q
-1 0 0 1 62.69291 735.0236 cm
+1 0 0 1 62.69291 711.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2091,10 +2080,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 729.0236 cm
+1 0 0 1 62.69291 705.0236 cm
 Q
 q
-1 0 0 1 62.69291 717.0236 cm
+1 0 0 1 62.69291 693.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2115,10 +2104,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 711.0236 cm
+1 0 0 1 62.69291 687.0236 cm
 Q
 q
-1 0 0 1 62.69291 699.0236 cm
+1 0 0 1 62.69291 675.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2139,49 +2128,49 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 699.0236 cm
+1 0 0 1 62.69291 675.0236 cm
 Q
 q
-1 0 0 1 62.69291 669.0236 cm
+1 0 0 1 62.69291 645.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .741567 Tw (4. Handle the user actions to join and thereby start the game, and the different cases when the game is) Tj T* 0 Tw (stopped \(win, user decides to stop, or connection drops\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 603.0236 cm
+1 0 0 1 62.69291 579.0236 cm
 q
 BT 1 0 0 1 0 50 Tm 1.463318 Tw 12 TL /F1 10 Tf 0 0 0 rg (Arguably this way to implement a networked multiplayer game of pong is very simple, and succesfully) Tj T* 0 Tw .733516 Tw (hides all the details of networking from the game developer. It is implemented in two modules, the client) Tj T* 0 Tw .691654 Tw (and the server side codes, with X hundred lines total. \(e.g. the example there does a bit more manually,) Tj T* 0 Tw 2.805529 Tw (even though is largely similar: ) Tj 0 0 .501961 rg (http://www.unionplatform.com/?page_id=1229) Tj (&) Tj (page=2 ) Tj 0 0 0 rg (-- and is much) Tj T* 0 Tw (larger, N) Tj (>) Tj (10 classes\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 573.0236 cm
+1 0 0 1 62.69291 549.0236 cm
 q
 BT 1 0 0 1 0 14 Tm 1.47186 Tw 12 TL /F1 10 Tf 0 0 0 rg (The complete source code and the required 3d assets to run this pong implementation on the Tundra) Tj T* 0 Tw (runtime is available from ) Tj 0 0 .501961 rg (https://github.com/realXtend/doc/tree/master/netgames/PongMultiplayer) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 543.0236 cm
+1 0 0 1 62.69291 519.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Example 2: Swarming plankton as food for fish in the sea) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 453.0236 cm
+1 0 0 1 62.69291 429.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL 1.125542 Tw (A simple way to make a trivial pong implementation may be nice, but does the approach work for real,) Tj T* 0 Tw 5.36229 Tw (more complex games? We and others have implemented a range of applications using the) Tj T* 0 Tw .385984 Tw (entity-component model on the Tundra SDK, and this section is to analyze issues encountered with more) Tj T* 0 Tw 1.78561 Tw (complex functionality. The particular case is from an open source application made at the end of the) Tj T* 0 Tw 1.33436 Tw (original realXtend project, as a public demo of the Tundra SDK. That is the Smithsonian Latino Virtual) Tj T* 0 Tw .437126 Tw (Museum's Virtual Watershed Initiative, and in particular the experimental Anchovy game made to the sea) Tj T* 0 Tw (bay there.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 375.0236 cm
+1 0 0 1 62.69291 351.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 62 Tm /F1 10 Tf 12 TL .534651 Tw (The whole watershed environment hosts a range of animals of different scale, from white-tailed deer and) Tj T* 0 Tw .093488 Tw (opossum to osprey, sea bass and the anchovy. The idea is that by taking the role of an animal they player) Tj T* 0 Tw 2.133735 Tw (\(a child visiting the museum for example\) can learn about biology. In the anchovy game, the player) Tj T* 0 Tw .459989 Tw (controls the little fish from a 3rd person angle, trying to find food such as plankton in the sea. The idea is) Tj T* 0 Tw .332619 Tw (to have quite a lot of little plankton clouds there, but so that when multiple players consume it the amount) Tj T* 0 Tw (decreases.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 237.0236 cm
+1 0 0 1 62.69291 213.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 122 Tm /F1 10 Tf 12 TL .24683 Tw (To be able to render a lot of little plankton, we use particle systems. The individual particles in the particle) Tj T* 0 Tw 1.401654 Tw (systems move slightly at random, to give a feel of them floating around in the water. To have enough) Tj T* 0 Tw .685777 Tw (particles to fill parts of the sea bay, we easily need tens of particle systems with hundreds of particles in) Tj T* 0 Tw 2.883059 Tw (each. Synchronizing all those little movements would take an immense amount of bandwidth, also) Tj T* 0 Tw .343988 Tw (considering that many other things are going on in the scene as well. To cut down the traffic, not only are) Tj T* 0 Tw .328735 Tw (the individual particles local only, but also the movement of a single particle system is not communicated.) Tj T* 0 Tw 1.266235 Tw (Instead, we form clusters of 5 particle systems which move around as a loose group, and synchronize) Tj T* 0 Tw 1.583516 Tw (only the positions of such clusters. This way we can have lots of plankton in approximately the same) Tj T* 0 Tw .136098 Tw (positions for the different players. Also the amount of plankton left in a cluster is synchronized. The idea is) Tj T* 0 Tw .999431 Tw (that the different players see the plankton clouds in same areas of the sea bay, and see them diminish) Tj T* 0 Tw (when eaten, but with relatively little network traffic.) Tj T* ET
@@ -2190,8 +2179,8 @@ Q
  
 endstream
 endobj
-% 'R94': class PDFStream 
-94 0 obj
+% 'R93': class PDFStream 
+93 0 obj
 % page stream
 << /Length 3968 >>
 stream
@@ -2202,7 +2191,7 @@ q
 BT /F1 10 Tf 12 TL ET
 q
 .5 0 0 .5 86.74488 33 cm
-/FormXob.pdfrw_41 Do
+/FormXob.pdfrw_43 Do
 Q
 q
 1 0 0 1 6 3 cm
@@ -2265,8 +2254,8 @@ Q
  
 endstream
 endobj
-% 'R95': class PDFStream 
-95 0 obj
+% 'R94': class PDFStream 
+94 0 obj
 % page stream
 << /Length 7122 >>
 stream
@@ -2343,8 +2332,8 @@ Q
  
 endstream
 endobj
-% 'R96': class PDFStream 
-96 0 obj
+% 'R95': class PDFStream 
+95 0 obj
 % page stream
 << /Length 5879 >>
 stream
@@ -2426,8 +2415,8 @@ Q
  
 endstream
 endobj
-% 'R97': class PDFStream 
-97 0 obj
+% 'R96': class PDFStream 
+96 0 obj
 % page stream
 << /Length 1583 >>
 stream
@@ -2491,8 +2480,8 @@ Q
  
 endstream
 endobj
-% 'R98': class PDFStream 
-98 0 obj
+% 'R97': class PDFStream 
+97 0 obj
 % page stream
 << /Length 6695 >>
 stream
@@ -2698,10 +2687,10 @@ Q
  
 endstream
 endobj
-% 'R99': class PDFStream 
-99 0 obj
+% 'R98': class PDFStream 
+98 0 obj
 % page stream
-<< /Length 6910 >>
+<< /Length 6186 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -2714,393 +2703,285 @@ Q
 q
 1 0 0 1 62.69291 564.0236 cm
 q
-BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Notes / References) Tj T* ET
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Conclusions) Tj T* ET
 Q
 Q
 q
 1 0 0 1 62.69291 546.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(NOTE: below is selected copy-pastes from potential references, mostly not original text!\)) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (...) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 492.0236 cm
+1 0 0 1 62.69291 513.0236 cm
 q
-0 0 0 rg
-BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .495984 Tw (Greger Wikstrand, Lennart Schedin and Fredrik Elg [9] gave three hypotheses before they did their Pong) Tj T* 0 Tw .893555 Tw (game experiment in a simulated mobile phone: \224Delay effort\224, \224De- lay action\224 and \224Delay performance\224.) Tj T* 0 Tw 1.256136 Tw (The experiment put eyes on significant effects on four independent variables: enjoyment, mental effort,) Tj T* 0 Tw (net distance and paddle move- ---) Tj T* ET
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (References) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 474.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (---) Tj T* ET
-Q
+1 0 0 1 62.69291 450.3307 cm
 Q
 q
-1 0 0 1 62.69291 360.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 98 Tm /F1 10 Tf 12 TL .746905 Tw (Avango is a framework for building distributed virtual reality applications. It provides a field/fieldcontainer) Tj T* 0 Tw .980651 Tw (based application layer similar to VRML. Within this layer a scene graph, based on OpenGL Performer,) Tj T* 0 Tw .215697 Tw (input sensors, and output actuators are implemented as runtime loadable modules \(or plugins\). A network) Tj T* 0 Tw .20748 Tw (layer provides automatic replication/distribution of the application graph using a reliable multi-cast system.) Tj T* 0 Tw .814985 Tw (Applications in Avango are written in Scheme and run in the scripting layer. The scripting layer provides) Tj T* 0 Tw .534983 Tw (complete access to fieldcontainers and their fields; this way distributed collaborative scenarios as well as) Tj T* 0 Tw 2.113828 Tw (render-distributed applications \(or even both at the same time\) are supported. Avango was originally) Tj T* 0 Tw 2.645984 Tw (developed at the VR group at GMD, now Virtual Environments Group at Fraunhofer IAIS and was) Tj T* 0 Tw (open-sourced in 2004. An in-depth description can be found in here.) Tj T* ET
-Q
+1 0 0 1 62.69291 421.9843 cm
+n 0 14.17323 m 469.8898 14.17323 l S
 Q
 q
-1 0 0 1 62.69291 354.0236 cm
-Q
-q
-1 0 0 1 62.69291 354.0236 cm
-Q
-q
-1 0 0 1 62.69291 330.0236 cm
+1 0 0 1 62.69291 373.9843 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
-1 0 0 1 6 9 cm
+1 0 0 1 6 36 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (sirikata-scaling) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 0 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
-Q
-Q
-q
-1 0 0 1 23 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .307251 Tw (a publication: Improving the AVANGO VR/AR Framework \227 Lessons Learned Download, presented) Tj T* 0 Tw (at the 5. GI VR/AR workshop. The slides Download are also available.) Tj T* ET
+BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .096039 Tw (Daniel Horn, Ewen Cheslack-Postava, Tahir Azim, Michael J. Freedman, Philip Levis,) Tj T* 0 Tw .147309 Tw ("Scaling Virtual Worlds with a Physical Metaphor", IEEE Pervasive Computing, vol. 8,) Tj T* 0 Tw 17.5584 Tw (no. 3, pp. 50-54, July-Sept. 2009, doi:10.1109/MPRV.2009.54) Tj T* 0 Tw (http://www.cs.princeton.edu/~mfreed/docs/vworlds-ieee09.pdf) Tj T* ET
 Q
 Q
 q
 Q
 Q
 q
-1 0 0 1 62.69291 330.0236 cm
-Q
-q
-1 0 0 1 62.69291 312.0236 cm
-q
-0 0 .501961 rg
-0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (http://www.avango.org/raw-attachment/wiki/Res/Improving_the_AVANGO_VR-AR_Framework--Lessons_Learned.pdf) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 306.0236 cm
-Q
-q
-1 0 0 1 62.69291 306.0236 cm
-Q
-q
-1 0 0 1 62.69291 294.0236 cm
+1 0 0 1 62.69291 325.9843 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
-1 0 0 1 6 -3 cm
+1 0 0 1 6 36 cm
 q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (sirikata-scaling2) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 0 cm
+q
+BT 1 0 0 1 0 38 Tm .319039 Tw 12 TL /F1 10 Tf 0 0 0 rg (Daniel Horn, Ewen Cheslack-Postava, Behram F.T. Mistree, Tahir Azim, Jeff Terrace) Tj T* 0 Tw 5.570945 Tw (, Michael J. Freedman, Philip Levis "To Infinity and Not Beyond: Scaling) Tj T* 0 Tw 36.27408 Tw (Communication in Virtual Worlds with Meru.") Tj T* 0 Tw 0 0 .501961 rg (http://hci.stanford.edu/cstr/reports/2010-01.pdf) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 265.9843 cm
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 48 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (sirikata-scripting) Tj T* ET
 Q
 Q
 q
-1 0 0 1 23 -3 cm
+1 0 0 1 91.03937 0 cm
+q
+BT 1 0 0 1 0 50 Tm .648039 Tw 12 TL /F1 10 Tf 0 0 0 rg (Bhupesh Chandra, Ewen Cheslack-Postava, Behram F. T. Mistree, Philip Levis, and) Tj T* 0 Tw 1.828039 Tw (David Gay. "Emerson: Scripting for Federated Virtual Worlds", Proceedings of the) Tj T* 0 Tw 6.087549 Tw (15th International Conference on Computer Games: AI, Animation, Mobile,) Tj T* 0 Tw 4.841299 Tw (Interactive Multimedia, Educational & Serious Games \(CGAMES 2010 USA\).) Tj T* 0 Tw 0 0 .501961 rg (http://sing.stanford.edu/pubs/cgames10.pdf) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 241.9843 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 12 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (ec-links) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 0 cm
+q
+BT 1 0 0 1 0 14 Tm 1.875039 Tw 12 TL /F1 10 Tf 0 0 0 rg (Mick West, Evolve Your Hierarchy -- Refactoring Game Entities with Components) Tj T* 0 Tw 0 0 .501961 rg (http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 229.9843 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (syntensity) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 0 cm
 q
 0 0 .501961 rg
 0 0 .501961 RG
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (http://www.avango.org/wiki/Concepts) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (http://www.syntensity.com/) Tj T* ET
 Q
 Q
 q
 Q
 Q
 q
-1 0 0 1 62.69291 294.0236 cm
-Q
-q
-1 0 0 1 62.69291 252.0236 cm
-q
+1 0 0 1 62.69291 217.9843 cm
 0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .172765 Tw (NOTE: Avango concepts seem quite similar to tundra - 'fields' is a bit like our attrs, are autoserialized etc.,) Tj T* 0 Tw .291654 Tw (and there are connections which are perhaps similar to qt signal conns .. the example there is a proximity) Tj T* 0 Tw (sensor) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (knet) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 234.0236 cm
+1 0 0 1 91.03937 0 cm
 q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (http://bitbucket.org/clb/knet/) Tj T* ET
+Q
+Q
+q
+Q
+Q
+q
+1 0 0 1 62.69291 205.9843 cm
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (---) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (tundraproject) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 204.0236 cm
+1 0 0 1 91.03937 0 cm
 q
-BT 1 0 0 1 0 14 Tm 13.86598 Tw 12 TL /F1 10 Tf 0 0 0 rg (Pong with a multiplayer Flash platform: multiplayer pong example & tutorial) Tj T* 0 Tw 0 0 .501961 rg (http://www.unionplatform.com/?page_id=1229) Tj T* ET
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (http://realxtend.blogspot.com/2010/11/tundra-project.html) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 150.0236 cm
+Q
+Q
 q
+1 0 0 1 62.69291 169.9843 cm
 0 0 0 rg
-BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 1.299984 Tw ("Union Pong consists of a server-side room module written in Java, and a Flash client-side application) Tj T* 0 Tw 3.466905 Tw (written in pure ActionScript with Union's Reactor framework. The room module is responsible for) Tj T* 0 Tw .779983 Tw (controlling the game's flow, scoring, and physics simulation." jne - client attribuutteja n\344emm\344 settailee -) Tj T* 0 Tw (n\344emm\344 aika paljon pit\344\344 tuolla ite hanskailla attribuuttien muutoksien l\344hettely\344 ja vastaanottoa) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 24 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (intel-distributedscene) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 132.0236 cm
+1 0 0 1 91.03937 0 cm
 q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (---) Tj T* ET
+BT 1 0 0 1 0 26 Tm .416399 Tw 12 TL /F1 10 Tf 0 0 0 rg (Dan Lake, Mic Bowman, Huaiyu Liu. "Distributed Scene Graph to Enable Thousands) Tj T* 0 Tw 29.94507 Tw (of Interacting Users in a Virtual Environment") Tj T* 0 Tw 0 0 .501961 rg (http://www.pap.vs.uni-due.de/MMVE10/papers/mmve2010_submission_7.pdf) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 102.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .450514 Tw (homura \(appears dead since 2010, was started in 2007 -- bbc and uk edu, a bit similar to realXtend, with) Tj T* 0 Tw (games focus\)) Tj T* ET
 Q
 Q
  
 endstream
 endobj
-% 'R100': class PDFStream 
-100 0 obj
-% page stream
-<< /Length 6444 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-q
-1 0 0 1 62.69291 717.0236 cm
-q
-BT 1 0 0 1 0 38 Tm 1.396976 Tw 12 TL /F1 10 Tf 0 0 0 rg (from: ) Tj 0 0 .501961 rg (http://java.cms.livjm.ac.uk/homura/links.php ) Tj 0 0 0 rg (Dennett C., El Rhalibi A., Merabti M., Price M.,"Koku:) Tj T* 0 Tw 3.949976 Tw (State Synchronisation System for Networked Multiplayer Games", 6th International Conference in) Tj T* 0 Tw 1.90229 Tw (Computer Game Design and Technology \(GDTW\), Holiday Inn, Liverpool, UK, 12th - 13th November) Tj T* 0 Tw (2008. ) Tj 0 0 .501961 rg (http://java.cms.livjm.ac.uk/homura/dist/docs/Paper-GDTW2008-Koku.pdf) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 711.0236 cm
-Q
-q
-1 0 0 1 62.69291 711.0236 cm
-Q
-q
-1 0 0 1 62.69291 675.0236 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 21 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
-Q
-Q
-q
-1 0 0 1 23 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 4.543314 Tw (NOTE: this was apparently mostly interest management like, about dividing a large world) Tj T* 0 Tw 1.431412 Tw (hierarchically and about granularity of required information etc. -- could be mentioned in the LVM) Tj T* 0 Tw (fishgame bandwidth optimization treatment!) Tj T* ET
-Q
-Q
-q
-Q
-Q
-q
-1 0 0 1 62.69291 675.0236 cm
-Q
-q
-1 0 0 1 62.69291 633.0236 cm
-q
-BT 1 0 0 1 0 26 Tm 2.274961 Tw 12 TL /F1 10 Tf 0 0 0 rg (from: ) Tj 0 0 .501961 rg (http://www.cms.livjm.ac.uk/pgnet2010/MakeCD/index.htm ) Tj 0 0 0 rg (NHUGS: Towards scalability testing for) Tj T* 0 Tw .495697 Tw (MMOGs within an extensible, open architecture Carter, C., El Rhalibi, A., Taleb-Bendiab, A., Merabti, M.,) Tj T* 0 Tw (Liverpool John Moores University ) Tj 0 0 .501961 rg (http://www.cms.livjm.ac.uk/pgnet2010/MakeCD/Papers/2010022.pdf) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 591.0236 cm
-q
-BT 1 0 0 1 0 26 Tm 1.399921 Tw 12 TL /F1 10 Tf 0 0 0 rg (homura middleware, from ) Tj 0 0 .501961 rg (http://java.cms.livjm.ac.uk/homura/dist/docs/Paper-GDTW2008-NetHomura.pdf) Tj T* 0 Tw 2.834524 Tw 0 0 0 rg ("The Development of a Networking Middleware and Online-Deployment Mechanism for Java based) Tj T* 0 Tw (games.") Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 345.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 230 Tm /F1 10 Tf 12 TL 2.596647 Tw ("The NetHomura middleware integrates with the Homura Engine to create a GameStateManager to) Tj T* 0 Tw .391647 Tw (control the game. This manages an internal stack of HomuraGameState instances. HomuraGameState is) Tj T* 0 Tw 1.275984 Tw (an abstract class which implements the game loop of each state, providing methods for initialisation of) Tj T* 0 Tw .428735 Tw (content, handling user input and updating the state of the game world \(members of the scenegraph\), and) Tj T* 0 Tw .019213 Tw (a rendering the scenegraph to screen. The NetHomura games are comprised of concrete implementations) Tj T* 0 Tw 1.385433 Tw (of this class \(e.g. MainMenuState, LoadingState, PuzzleGameState, etc.\). The middleware provides an) Tj T* 0 Tw 1.132706 Tw (additional implementation, NetState, which encompasses the additional interactions of a network game,) Tj T* 0 Tw .089318 Tw (by adding methods to receive messages, send messages, join and leave games. The NetState class uses) Tj T* 0 Tw 1.45748 Tw (an instance of the middleware\222s NetManager class, which handles peer-management facilities such as) Tj T* 0 Tw 1.271647 Tw (discovering available game sessions, creation of new game session, tracking and modifying persistent,) Tj T* 0 Tw .699982 Tw (shared data objects used within the game, managing references to connected peers, sending messages) Tj T* 0 Tw .772126 Tw (to particular peers and retrieving messages that are received from peers. The NetManager also handles) Tj T* 0 Tw .866651 Tw (session control, such as disconnecting and joining into both the entire network and game sessions. The) Tj T* 0 Tw .536651 Tw (role of the game developer using the middleware is to create game-specific messages which inherit from) Tj T* 0 Tw .25248 Tw (the base NetHomuraMessage class. This class encapsulates the in-game messages sent between peers,) Tj T* 0 Tw .175697 Tw (and using the NetTools class to construct efficient managements using the functions to efficiently serialise) Tj T* 0 Tw 3.436905 Tw (Java object into messages. These messages can then be broadcast using the NetManager. The) Tj T* 0 Tw 2.38248 Tw (middleware also provides the concept of GameSessionAdvertisments, which are used to create and) Tj T* 0 Tw 1.680574 Tw (communicate the details of a particular game session to other peers so that they can participate in a) Tj T* 0 Tw (session. ") Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 327.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (---) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 309.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (general, should get) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 303.0236 cm
-Q
-q
-1 0 0 1 62.69291 303.0236 cm
-Q
-q
-1 0 0 1 62.69291 279.0236 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 9 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 5.11 0 Td (T.) Tj T* -5.11 0 Td ET
-Q
-Q
-q
-1 0 0 1 23 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.256647 Tw (Hsiao and S. Yuan, \223Practical Middleware for Massively Multiplayer Online Games,\224 IEEE Internet) Tj T* 0 Tw (Computing, vol. 9, 2005, pp. 47-54.) Tj T* ET
-Q
-Q
-q
-Q
-Q
-q
-1 0 0 1 62.69291 279.0236 cm
-Q
-q
-1 0 0 1 62.69291 273.0236 cm
-Q
-q
-1 0 0 1 -60.7122 261.0236 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-BT 1 0 0 1 0 2 Tm  T* ET
-q
-1 0 0 1 20 0 cm
-q
-BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (http://ieeexplore.ieee.org/xpl/login.jsp?tp=) Tj (&) Tj (arnumber=1510604) Tj (&) Tj (url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1510604) Tj T* ET
-Q
-Q
-q
-Q
-Q
-q
-1 0 0 1 62.69291 261.0236 cm
-Q
-q
-1 0 0 1 62.69291 219.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .619213 Tw (J.D. Pellegrino and C. Dovrolis, \223Bandwidth requirement and state consistency in three multiplayer game) Tj T* 0 Tw 1.30152 Tw (architectures,\224 Proceedings of the 2nd workshop on Network and system support for games, Redwood) Tj T* 0 Tw (City, California: ACM, 2003, pp. 52-59;) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 201.0236 cm
-q
-BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (http://portal.acm.org/citation.cfm?id=963900.963905) Tj (&) Tj (type=series) Tj 0 0 0 rg (.) Tj T* ET
-Q
-Q
- 
-endstream
-endobj
-% 'R101': class PDFPageLabels 
-101 0 obj
+% 'R99': class PDFPageLabels 
+99 0 obj
 % Document Root
 << /Nums [ 0
- 102 0 R
+ 100 0 R
  1
- 103 0 R
+ 101 0 R
  2
- 104 0 R
+ 102 0 R
  3
- 105 0 R
+ 103 0 R
  4
- 106 0 R
+ 104 0 R
  5
- 107 0 R
+ 105 0 R
  6
- 108 0 R
+ 106 0 R
  7
- 109 0 R
+ 107 0 R
  8
- 110 0 R
+ 108 0 R
  9
- 111 0 R
+ 109 0 R
  10
- 112 0 R
- 11
- 113 0 R ] >>
+ 110 0 R ] >>
+endobj
+% 'R100': class PDFPageLabel 
+100 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+% 'R101': class PDFPageLabel 
+101 0 obj
+% None
+<< /S /D
+ /St 2 >>
 endobj
 % 'R102': class PDFPageLabel 
 102 0 obj
 % None
 << /S /D
- /St 1 >>
+ /St 3 >>
 endobj
 % 'R103': class PDFPageLabel 
 103 0 obj
 % None
 << /S /D
- /St 2 >>
+ /St 4 >>
 endobj
 % 'R104': class PDFPageLabel 
 104 0 obj
 % None
 << /S /D
- /St 3 >>
+ /St 5 >>
 endobj
 % 'R105': class PDFPageLabel 
 105 0 obj
 % None
 << /S /D
- /St 4 >>
+ /St 6 >>
 endobj
 % 'R106': class PDFPageLabel 
 106 0 obj
 % None
 << /S /D
- /St 5 >>
+ /St 7 >>
 endobj
 % 'R107': class PDFPageLabel 
 107 0 obj
 % None
 << /S /D
- /St 6 >>
+ /St 8 >>
 endobj
 % 'R108': class PDFPageLabel 
 108 0 obj
 % None
 << /S /D
- /St 7 >>
+ /St 9 >>
 endobj
 % 'R109': class PDFPageLabel 
 109 0 obj
 % None
 << /S /D
- /St 8 >>
+ /St 10 >>
 endobj
 % 'R110': class PDFPageLabel 
 110 0 obj
 % None
 << /S /D
- /St 9 >>
-endobj
-% 'R111': class PDFPageLabel 
-111 0 obj
-% None
-<< /S /D
- /St 10 >>
-endobj
-% 'R112': class PDFPageLabel 
-112 0 obj
-% None
-<< /S /D
  /St 11 >>
 endobj
-% 'R113': class PDFPageLabel 
-113 0 obj
-% None
-<< /S /D
- /St 12 >>
-endobj
 xref
-0 114
+0 111
 0000000000 65535 f
 0000000113 00000 n
 0000000247 00000 n
@@ -3135,94 +3016,91 @@ xref
 0000007147 00000 n
 0000007390 00000 n
 0000007633 00000 n
-0000007860 00000 n
-0000008416 00000 n
-0000008696 00000 n
-0000008976 00000 n
-0000009271 00000 n
-0000009540 00000 n
-0000009814 00000 n
-0000010137 00000 n
-0000013333 00000 n
-0000013458 00000 n
-0000013649 00000 n
-0000014061 00000 n
-0000014357 00000 n
-0000020331 00000 n
-0000020777 00000 n
-0000020957 00000 n
-0000021279 00000 n
-0000021559 00000 n
-0000021882 00000 n
-0000041273 00000 n
-0000103907 00000 n
-0000104306 00000 n
-0000104481 00000 n
-0000104773 00000 n
-0000105089 00000 n
-0000105412 00000 n
-0000105667 00000 n
-0000105915 00000 n
-0000106249 00000 n
-0000106513 00000 n
-0000106801 00000 n
-0000107074 00000 n
-0000107356 00000 n
-0000107649 00000 n
-0000108009 00000 n
-0000108278 00000 n
-0000108635 00000 n
-0000108795 00000 n
-0000109090 00000 n
-0000109216 00000 n
-0000109385 00000 n
-0000109573 00000 n
-0000109769 00000 n
-0000110039 00000 n
-0000110221 00000 n
-0000110455 00000 n
-0000110690 00000 n
-0000110883 00000 n
-0000111165 00000 n
-0000111359 00000 n
-0000111573 00000 n
-0000111753 00000 n
-0000111999 00000 n
-0000112220 00000 n
-0000112383 00000 n
-0000112591 00000 n
-0000119648 00000 n
-0000125976 00000 n
-0000132941 00000 n
-0000140097 00000 n
-0000146163 00000 n
-0000150230 00000 n
-0000157451 00000 n
-0000163429 00000 n
-0000165111 00000 n
-0000171905 00000 n
-0000178915 00000 n
-0000185464 00000 n
-0000185716 00000 n
-0000185795 00000 n
-0000185874 00000 n
-0000185953 00000 n
-0000186032 00000 n
-0000186111 00000 n
-0000186190 00000 n
-0000186269 00000 n
-0000186348 00000 n
-0000186427 00000 n
-0000186507 00000 n
-0000186587 00000 n
+0000007876 00000 n
+0000008119 00000 n
+0000008346 00000 n
+0000008920 00000 n
+0000009200 00000 n
+0000009480 00000 n
+0000009775 00000 n
+0000010044 00000 n
+0000010318 00000 n
+0000010641 00000 n
+0000013837 00000 n
+0000013962 00000 n
+0000014153 00000 n
+0000014565 00000 n
+0000014861 00000 n
+0000020835 00000 n
+0000021281 00000 n
+0000021461 00000 n
+0000021783 00000 n
+0000022063 00000 n
+0000022386 00000 n
+0000041777 00000 n
+0000104411 00000 n
+0000104810 00000 n
+0000104985 00000 n
+0000105277 00000 n
+0000105593 00000 n
+0000105861 00000 n
+0000106123 00000 n
+0000106404 00000 n
+0000106650 00000 n
+0000106900 00000 n
+0000107177 00000 n
+0000107451 00000 n
+0000107807 00000 n
+0000107966 00000 n
+0000108261 00000 n
+0000108387 00000 n
+0000108556 00000 n
+0000108744 00000 n
+0000108940 00000 n
+0000109210 00000 n
+0000109392 00000 n
+0000109626 00000 n
+0000109861 00000 n
+0000110054 00000 n
+0000110336 00000 n
+0000110530 00000 n
+0000110744 00000 n
+0000110924 00000 n
+0000111170 00000 n
+0000111391 00000 n
+0000111578 00000 n
+0000111733 00000 n
+0000111932 00000 n
+0000118880 00000 n
+0000125370 00000 n
+0000132385 00000 n
+0000139332 00000 n
+0000145649 00000 n
+0000149716 00000 n
+0000156937 00000 n
+0000162915 00000 n
+0000164597 00000 n
+0000171391 00000 n
+0000177680 00000 n
+0000177916 00000 n
+0000177995 00000 n
+0000178074 00000 n
+0000178153 00000 n
+0000178232 00000 n
+0000178311 00000 n
+0000178390 00000 n
+0000178469 00000 n
+0000178548 00000 n
+0000178627 00000 n
+0000178707 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\332\377\330u\0320a\357\340>To={\0309) (\332\377\330u\0320a\357\340>To={\0309)] 
+ [(\004\374DN\006P^-\2715\372\241\015'\006\222) (\004\374DN\006P^-\2715\372\241\015'\006\222)] 
 
- /Info 71 0 R
- /Root 70 0 R
- /Size 114 >>
+ /Info 69 0 R
+ /Root 68 0 R
+ /Size 111 >>
 startxref
-186636
+178756
 %%EOF

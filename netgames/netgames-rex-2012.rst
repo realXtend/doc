@@ -701,113 +701,29 @@ tested. Lehto development continues during autumn 2012 and we will
 certainly consider implementing the entity system and generic
 attribute synchronization if they are required for some applications.
 
+Conclusions
+===========
 
-Notes / References
-==================
+...
 
-(NOTE: below is selected copy-pastes from potential references, mostly not original text!)
+References
+==========
 
-Greger Wikstrand, Lennart Schedin and Fredrik Elg [9] gave three
-hypotheses before they did their Pong game experiment in a simulated
-mobile phone: ”Delay effort”, ”De- lay action” and ”Delay
-performance”. The experiment put eyes on significant effects on four
-independent variables: enjoyment, mental effort, net distance and
-paddle move- ---
+.. [sirikata-scaling] Daniel Horn, Ewen Cheslack-Postava, Tahir Azim, Michael J. Freedman, Philip Levis, "Scaling Virtual Worlds with a Physical Metaphor", IEEE Pervasive Computing, vol. 8, no. 3, pp. 50-54, July-Sept. 2009, doi:10.1109/MPRV.2009.54 http://www.cs.princeton.edu/~mfreed/docs/vworlds-ieee09.pdf
 
----
+.. [sirikata-scaling2] Daniel Horn, Ewen Cheslack-Postava, Behram F.T. Mistree, Tahir Azim, Jeff Terrace , Michael J. Freedman, Philip Levis "To Infinity and Not Beyond: Scaling Communication in Virtual Worlds with Meru." http://hci.stanford.edu/cstr/reports/2010-01.pdf
 
-Avango is a framework for building distributed virtual reality applications. It provides a field/fieldcontainer based application layer similar to VRML. Within this layer a scene graph, based on OpenGL Performer, input sensors, and output actuators are implemented as runtime loadable modules (or plugins). A network layer provides automatic replication/distribution of the application graph using a reliable multi-cast system. Applications in Avango are written in Scheme and run in the scripting layer. The scripting layer provides complete access to fieldcontainers and their fields; this way distributed collaborative scenarios as well as render-distributed applications (or even both at the same time) are supported. Avango was originally developed at the VR group at GMD, now Virtual Environments Group at Fraunhofer IAIS and was open-sourced in 2004. An in-depth description can be found in here.
+.. [sirikata-scripting] Bhupesh Chandra, Ewen Cheslack-Postava, Behram F. T. Mistree, Philip Levis, and David Gay. "Emerson: Scripting for Federated Virtual Worlds", Proceedings of the 15th International
+   Conference on Computer Games: AI, Animation, Mobile, Interactive
+   Multimedia, Educational & Serious Games (CGAMES 2010 USA).
+   http://sing.stanford.edu/pubs/cgames10.pdf
 
-* a publication:     Improving the AVANGO VR/AR Framework — Lessons Learned Download, presented at the  5. GI VR/AR workshop. The slides Download are also available. 
-http://www.avango.org/raw-attachment/wiki/Res/Improving_the_AVANGO_VR-AR_Framework--Lessons_Learned.pdf
+.. [ec-links] Mick West, Evolve Your Hierarchy -- Refactoring Game Entities with Components http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/
 
-* http://www.avango.org/wiki/Concepts
+.. [syntensity] http://www.syntensity.com/
 
-NOTE: Avango concepts seem quite similar to tundra - 'fields' is a 
-bit like our attrs, are autoserialized etc., and there are 
-connections which are perhaps similar to qt signal conns .. the 
-example there is a proximity sensor
+.. [knet] http://bitbucket.org/clb/knet/
 
----
+.. [tundraproject] http://realxtend.blogspot.com/2010/11/tundra-project.html
 
-Pong with a multiplayer Flash platform:
-multiplayer pong example & tutorial
-http://www.unionplatform.com/?page_id=1229
-
-"Union Pong consists of a server-side 
-room module written in Java, and a Flash client-side application written in pure ActionScript with Union's Reactor 
-framework. The room module is responsible for controlling the game's flow, scoring, and physics simulation." jne
-- client attribuutteja näemmä settailee
--  näemmä aika paljon pitää tuolla ite hanskailla attribuuttien muutoksien lähettelyä ja vastaanottoa
-
----
-
-homura (appears dead since 2010, was started in 2007 -- bbc and uk edu, a bit similar to realXtend, with games focus)
-
-from: http://java.cms.livjm.ac.uk/homura/links.php
-Dennett C., El Rhalibi A., Merabti M., Price M.,"Koku: State
-Synchronisation System for Networked Multiplayer Games", 6th
-International Conference in Computer Game Design and Technology
-(GDTW), Holiday Inn, Liverpool, UK, 12th - 13th November 2008.
-http://java.cms.livjm.ac.uk/homura/dist/docs/Paper-GDTW2008-Koku.pdf
-
-* NOTE: this was apparently mostly interest management like, about
-  dividing a large world hierarchically and about granularity of
-  required information etc. -- could be mentioned in the LVM fishgame bandwidth optimization treatment!
-
-from: http://www.cms.livjm.ac.uk/pgnet2010/MakeCD/index.htm
-NHUGS: Towards scalability testing for MMOGs within an extensible, open architecture 
-Carter, C., El Rhalibi, A., Taleb-Bendiab, A., Merabti, M., Liverpool John Moores University
-http://www.cms.livjm.ac.uk/pgnet2010/MakeCD/Papers/2010022.pdf
-
-homura middleware, from http://java.cms.livjm.ac.uk/homura/dist/docs/Paper-GDTW2008-NetHomura.pdf
-"The Development of a Networking Middleware and Online-Deployment Mechanism for Java based games."
-
-"The NetHomura middleware integrates with the Homura Engine
-to create a GameStateManager to control the game. This
-manages an internal stack of HomuraGameState instances.
-HomuraGameState is an abstract class which implements the
-game loop of each state, providing methods for initialisation of
-content, handling user input and updating the state of the game
-world (members of the scenegraph), and a rendering the
-scenegraph to screen. The NetHomura games are comprised of
-concrete implementations of this class (e.g. MainMenuState,
-LoadingState, PuzzleGameState, etc.). The middleware provides
-an additional implementation, NetState, which encompasses the
-additional interactions of a network game, by adding methods to
-receive messages, send messages, join and leave games. The
-NetState class uses an instance of the middleware’s NetManager
-class, which handles peer-management facilities such as
-discovering available game sessions, creation of new game
-session, tracking and modifying persistent, shared data objects
-used within the game, managing references to connected peers,
-sending messages to particular peers and retrieving messages that
-are received from peers. The NetManager also handles session
-control, such as disconnecting and joining into both the entire
-network and game sessions. The role of the game developer using
-the middleware is to create game-specific messages which inherit
-from the base NetHomuraMessage class. This class encapsulates
-the in-game messages sent between peers, and using the NetTools
-class to construct efficient managements using the functions to
-efficiently serialise Java object into messages. These messages
-can then be broadcast using the NetManager. The middleware
-also provides the concept of GameSessionAdvertisments, which
-are used to create and communicate the details of a particular
-game session to other peers so that they can participate in a
-session.
-"
-
----
-
-general, should get
-
-T. Hsiao and S. Yuan, “Practical Middleware for Massively Multiplayer Online Games,” IEEE Internet Computing, vol. 9, 2005, pp. 47-54.
-
- http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1510604&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1510604
-
-J.D. Pellegrino and C. Dovrolis, “Bandwidth requirement and state
-consistency in three multiplayer game architectures,” Proceedings of
-the 2nd workshop on Network and system support for games, Redwood
-City, California: ACM, 2003, pp. 52-59;
-
-http://portal.acm.org/citation.cfm?id=963900.963905&type=series.
+.. [intel-distributedscene] Dan Lake, Mic Bowman, Huaiyu Liu. "Distributed Scene Graph to Enable Thousands of Interacting Users in a Virtual Environment" http://www.pap.vs.uni-due.de/MMVE10/papers/mmve2010_submission_7.pdf
