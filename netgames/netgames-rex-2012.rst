@@ -379,28 +379,36 @@ replicated Tundra entities, for which the movement synchronization
 works.
 
 The fish themselves are normal replicated entities for which the
-server is authorative. That required an additional trick to be able to
-implement the collision detection for plankton eating using the
-physics engine: By default, physics are executed on the server and
-authorative there. However, as the plankton particles do not even
-exist there but are on the clients only, we added a local invisible
-mouth entity to the otherwise networked fish. This way client side
-physics works for detecting collisions of the fish mouths and the
-plankton.
+server is authorative. (XXX rewrite this? was it also a bit opposite:
+the mouth was needed to get the right volume (and place) for the
+volume triggering of the eating, and then it was of course just
+natural -- allthough interesting -- that it had to be put to client
+side? XXX: That required an additional trick to be able to implement
+the collision detection for plankton eating using the physics engine:
+By default, physics are executed on the server and authorative
+there. However, as the plankton particles do not even exist there but
+are on the clients only, we added a local invisible mouth entity to
+the otherwise networked fish. This way client side physics works for
+detecting collisions of the fish mouths and the plankton.)
 
 Creating this setup obviously required designing and implementing the
 code with networking in mind -- in this case, the system definitely
 does not hide all the intricacies of networked games from the
-developer. The same uniform programming model is applied, certain
-entities are just configured to the local-only mode. Also the fact
-that in the Tundra SDK we have the same API both in the server and
-client executables (the core is the same) enabled an incremental
-development path here: first all the functionality was server side,
-but as the amount of networking grew to be too much, it was quite
-straightforward to change the same code to be executed on the client
-side only instead. As possible improvements for the future, both
-automated interest management to optimize network messaging, and easy
-robust ways to configure replicated vs. local execution are interesting.
+developer. Arguably, though, the entity system (and/or the platform?)
+made the issue quite nice to deal with. Whether something is executed
+on a client or server is basically just a matter of configuration in
+the Tundra SDK (the Script component has that in an attribute, so can
+be even set from the GUI, but is typical in Tundra scripts to handle
+that in code). Also the fact that in the Tundra SDK we have the same
+API both in the server and client executables (the core is the same)
+enabled an incremental development path here: first all the
+functionality was server side, but as the amount of networking grew to
+be too much, it was quite straightforward to change the same code to
+be executed on the client side only instead. As possible improvements
+for the future, both automated interest management to optimize network
+messaging, which is discussed later in this article, and possible 
+even easier means to configure ways and places of execution are
+interesting.
 
 (analysis of the Ludocraft's Circus code?)
 
