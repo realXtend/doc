@@ -433,6 +433,9 @@ with Javascript and has optional support for Python modules as
 well. The same codebase is used both for servers and clients, and can
 be used standalone as well for single user applications.
 
+.. figure:: ../tundra.svg
+   :scale: 30%
+
 The visible 3d scene and the custom application logics are typically
 made within the entity-component system, but other areas of
 functionality such as handling user input devices in GUI clients,
