@@ -156,6 +156,22 @@ discussion/evaluation?).
 
  * the APIs of those, the app dev model: are e.g. connections dealt with at all typically etc? how is data synched (or is it even needed in those, server logic?, scripts?). how do messaging things work (room for improvement in Tundra perhaps?)
 
+Furthermore, distributed object systems and other frameworks for
+networked programming with easy synchronization of data are nothing
+new, for example CORBA is a(n in)famous(XXX) example. They are often
+not applient in networked games (XXX I suppose for perf etc reasons,
+or?). An example of using a generic distributed programming framework
+for a networked multiplayer platform is Metaverse3D (mv3d.com), which
+is quite similar to Tundra (uses Ogre3d for graphics, targets
+MMOs). The networking in MV3D is implemented with Twisted Python (the
+whole framework is written in Python), utilizing Twisted's Perspective
+Broker (PB). PB is an automated but non-transparent distributed object
+mechanism by design: the difference of local vs. networked calls is
+made explicit to facilitate writing secure code. (XXX so what? how
+does it compare to EC sync here, what is the lesson when considering
+this and that? perhaps comparing the ease & perf of sync, and indeed
+the ways to deal with security)
+
 ...
 
 
@@ -263,6 +279,8 @@ it in the GUI code. The physics simulation bouncing the ball is ran on
 the server side by default, and that is where we want to have all the
 logic code of checking when a player scores, starting and stopping
 games etc.
+
+.. NOTE: just moving the paddle on the client, and having physics work on the server, does not "just work". does it with the kinematic setting for rigidbody (bullet)? XXX
 
 In addition to having the logic code and the game state data, we need
 to handle clients / players joining and leaving the game. Joining is
