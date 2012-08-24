@@ -11,7 +11,10 @@ are probably too simple to analyze. LVM fishgame? Circus!(?)
 
 "It's very easy to create a bad API and rather difficult to create a good one."
 - Michi Henning, API Design Matters, Communications of the ACM Vol. 52 No. 5
+http://cacm.acm.org/magazines/2009/5/24646-api-design-matters/fulltext
+
 https://sites.google.com/site/yacoset/Home/api-design-tips
+
 
 ---
 
@@ -19,7 +22,7 @@ The Impact of API Complexity on Failures:
 An Empirical Analysis of Proprietary and
 Open Source Software Systems
 
-http://wi.wu.ac.at/home/mark/publications/gpce11.ps.gz
+http://reports-archive.adm.cs.cmu.edu/anon/isr2011/CMU-ISR-11-106.pdf 
 
 Marcelo Cataldo1, Cleidson R.B. de Souza2
 June 2011
@@ -78,3 +81,4 @@ the results are exploratory, as well as limited to the given applica-
 tion scenario and a single embedded DSL, our findings can direct
 future empirical work. The experiment design is applicable for sim-
 ilar API design evaluations.
+
