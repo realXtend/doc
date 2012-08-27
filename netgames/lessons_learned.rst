@@ -123,6 +123,15 @@ Tundra game projects dissected
     - physics authorativity in Pong
     - the whole net load avoiding, described with the diag in plankton case
 
+The EC system allows for two ways of implementing coordinated entity
+behaviour accross the server and clients. The first, simpler way is to
+rely on the the automatic synchronisation mechanism for replicating
+changes to entities as they are made. The second way is to handle
+state and behaviour replication manually using the "entity actions",
+an messaging mechanism that lets entity-associated scripts to send
+events to each other. The latter way can be used to reduce
+the amount of network traffic.
+
 - circus -- what about it? there is gameobject.js and gamestate.js
 
 - mixed reality city game, with websockets too
