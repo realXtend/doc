@@ -100,28 +100,49 @@ Tundra SDK overview
 API complexity analysis / research
 ----------------------------------
 
-(or: research methodology?)
+Recently, software complexity analysis techniques have been applied to
+statistical (quantitative) studies of API
+complexity. [cmu-api_failures]_ studies 2 large corporate software
+projects and 9 open source projects and finds a link between API
+complexity and increases in failure proneness of the software. The
+masses of source code are quantified with measures such as API size
+and dispersion. Building on existing work (NOTE: Baudi), API
+complexity is calculated simply from the number of public methods and
+attributes. In the discussion it is noted how this is severely
+limited: for example, it fails to take into account pre- and
+post-invocation assumptions of the API and possibly required sequences
+of invocation [cmu-api_failures]_.
 
-Motivation: 
+A study of 4 alternative implementations, on different frameworks, of
+the same application uses Object-Points (OP) analysis to quantify the
+code bases for the comparison [api-complexity-analysis]_. OP has
+originally been developed for estimating development effort, but there
+the authors adopt it to calculate the complexity of existing software
+for complexity comparisons. Number of classes, their members and
+operation calls are counted and assigned adjustment weights in the
+calculation. Intermediate UML models are used as the data source which
+allows comparing programs in different languages
+[api-complexity-analysis]_.
 
-API complexity has been analyzed to "(increase) the failure proneness
-of source code" in a recent exploratory study
-[cmu-api_failures]_. Also, it is well noted how making good APIs is
-hard -- creating a bad one is easy [api-matters]_.
+For the purposes of this study, we do not have enough data for
+meaningful statistical analysis. Also simplistic measures, suitable
+for analyzing large bodies of source code, would miss the subtle
+issues which raise in networked programming on a framework which
+attempts to hide the intricacies of networking from the application
+developer. The more fine grained OP analysis, however, is
+applicable. It does not capture all the elements of API complexity,
+but would give useful metrics for comparisons. What is missing in our
+case are the alternative implementations. Therefore we suggest
+developing the same set of example multiplayer games on alternative
+platforms for OP and other analysis as future work. OP analysis of one
+of the examples here, Pong, is given as a starting point.
 
-
-- of software complexity and api analysis research, techniques, metrix
-
-  + can we apply here, what and how?
-
-In this paper, we examined the impact of
-API complexity on the failure proneness of source code files using
-data from two large-scale systems from two distinct software companies
-and nine open source projects from the GNOME community. Our analyses
-showed that increases in the complexity of APIs are associated with
-in- creases in the failure proneness of source code" [cmu-api_failures]_
-
-
+For the analysis here, we resort to an anecdotal qualitative
+study. Illustrative examples from various cases are selected to point
+out strong and weak points in the API. We think that only with
+qualitative analysis it is possible to get to the heart of the matter:
+where does hiding networking from the multiplayer game developer
+succeed and fail with this particular entity system? 
 
 
 Tundra game projects dissected
