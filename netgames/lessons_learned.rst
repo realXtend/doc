@@ -50,7 +50,8 @@ forth in [Alatalo2011]. This article draws lessons learned from how
 that system has been put to practice in a few different game
 development projects. The analysis is done by studying the source
 codes of the games, and by describing issues encountered in the
-development. The purpose is to identify potential 
+development. The purpose is to identify leakage points in the
+abstractions in that entity system and propose areas for improvement.
 
 How can a conceptual design of an entity system be really evaluated?
 How can we know how well a platform supports actual networked game
@@ -146,7 +147,27 @@ Tundra game projects dissected
 Results
 =======
 
-...
+The extensibility of the entity system, argued for in the original
+publication, gets some further support here. A number of quite
+different applications have been developed using the system, and it
+has been straightforward to implement the new functionalities without
+touching the core.
+
+Ease of development shows promise, but would benefit both from API
+improvements and underlying support functionality such as improved
+scalability by way of using clever interest management techniques.
+
+For more reliable studies in the future, it would be interesting to
+apply rigorous software complexity analysis techniques such as
+Object-Points analysis to comparable codebases. This could be done
+both to evaluate alternative approaches in different frameworks, such
+as attribute synchronization in Tundra vs. custom messaging in
+Sirikata, and to evaluate improvements over time while enhancing a
+single framework. The comparative analysis would require the same
+example game, or probably a set of games, to be implemented on all the
+platforms. We propose Pong as the minimal realtime multiplayer game,
+but a few representative much more complex cases should be added to
+the set for meaningful evaluations.
 
 References
 ==========
