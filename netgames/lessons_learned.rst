@@ -25,15 +25,15 @@ Introduction
 
 Networked application programming is generally more complex than
 standalone software development. The developer typically needs to deal
-with additional concepts, such as connections, and error handling and
-even conflicting situations in the distributed execution. 
+with events, conflicts and error conditions originating from other
+parts of the distributed system as well as the local user. This is
+emphasized in multiuser real-time systems compared to the relatively
+leisurely request-response interaction patterns of most client-server
+applications.
 
-"Information hiding is a cornerstone principle of modern
-software engineering. Interfaces, or APIs, are central to realizing
-the benefits of information hiding, but despite their widespread use,
-designing good interfaces is not a trivial activity. Particular design
-choices can have a significant detrimental effect on quality or
-development productivity." [cmu-api_failures]_
+API design has a significant impact on software quality, and increased
+API complexity is associated with increased software failure rate.
+[cmu-api_failures]_
 
 An entity system for networked application development has been put
 forth in [Alatalo2011]. This article draws lessons learned from how
