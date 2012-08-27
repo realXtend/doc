@@ -97,8 +97,8 @@ Tundra SDK overview
 
 - other platforms -- Unity3D having the same model etc?
 
-API complexity analysis / research
-----------------------------------
+The research methodology - of API complexity research
+-----------------------------------------------------
 
 Recently, software complexity analysis techniques have been applied to
 statistical (quantitative) studies of API
@@ -142,7 +142,9 @@ study. Illustrative examples from various cases are selected to point
 out strong and weak points in the API. We think that only with
 qualitative analysis it is possible to get to the heart of the matter:
 where does hiding networking from the multiplayer game developer
-succeed and fail with this particular entity system? 
+succeed and fail with this particular entity system? However we try to
+lay ground for more rigorous and also quantitative studies in future
+work as well.
 
 
 Tundra game projects dissected
@@ -208,3 +210,4 @@ References
 
 .. [api-complexity-analysis] Comparing Complexity of API Designs: An Exploratory Experiment on DSL-based Framework Integration. http://www.sba-research.org/wp-content/uploads/publications/gpce11.pdf
 
+.. [leaky-abstractions] http://www.joelonsoftware.com/articles/LeakyAbstractions.html

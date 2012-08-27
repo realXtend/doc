@@ -30,28 +30,66 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 16 0 R
+ /Dest [ 20 0 R
  /XYZ
  68.69291
- 767.0236
+ 231.9843
  0 ]
- /Rect [ 225.7529
- 435.7736
- 284.4329
- 447.7736 ]
+ /Rect [ 62.69291
+ 387.7736
+ 127.1569
+ 399.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER2': class LinkAnnotation 
+5 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 20 0 R
+ /XYZ
+ 68.69291
+ 327.9843
+ 0 ]
+ /Rect [ 489.7947
+ 387.7736
+ 529.8027
+ 399.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER3': class LinkAnnotation 
+6 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 20 0 R
+ /XYZ
+ 68.69291
+ 303.9843
+ 0 ]
+ /Rect [ 199.4129
+ 351.7736
+ 258.0929
+ 363.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Page1': class PDFPage 
-5 0 obj
+7 0 obj
 % Page dictionary
-<< /Annots [ 4 0 R ]
- /Contents 30 0 R
+<< /Annots [ 4 0 R
+ 5 0 R
+ 6 0 R ]
+ /Contents 34 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 29 0 R
+ /Parent 33 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -61,42 +99,6 @@ endobj
  /Rotate 0
  /Trans <<  >>
  /Type /Page >>
-endobj
-% 'Annot.NUMBER2': class LinkAnnotation 
-6 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 16 0 R
- /XYZ
- 68.69291
- 767.0236
- 0 ]
- /Rect [ 142.2829
- 597.7736
- 200.9629
- 609.7736 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER3': class LinkAnnotation 
-7 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 10 0 R
- /XYZ
- 68.69291
- 126.9843
- 0 ]
- /Rect [ 96.59291
- 585.7736
- 136.6009
- 597.7736 ]
- /Subtype /Link
- /Type /Annot >>
 endobj
 % 'Annot.NUMBER4': class LinkAnnotation 
 8 0 obj
@@ -104,20 +106,97 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 16 0 R
+ /Dest [ 20 0 R
  /XYZ
  68.69291
- 767.0236
+ 303.9843
  0 ]
- /Rect [ 364.1529
- 495.7736
- 422.8329
- 507.7736 ]
+ /Rect [ 135.2437
+ 528.7736
+ 196.5781
+ 540.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER5': class PDFDictionary 
+% 'Annot.NUMBER5': class LinkAnnotation 
 9 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 20 0 R
+ /XYZ
+ 68.69291
+ 303.9843
+ 0 ]
+ /Rect [ 446.2129
+ 468.7736
+ 504.8929
+ 480.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER6': class LinkAnnotation 
+10 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 20 0 R
+ /XYZ
+ 68.69291
+ 267.9843
+ 0 ]
+ /Rect [ 408.285
+ 438.7736
+ 490.965
+ 450.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER7': class LinkAnnotation 
+11 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 20 0 R
+ /XYZ
+ 68.69291
+ 267.9843
+ 0 ]
+ /Rect [ 441.1929
+ 390.7736
+ 523.8729
+ 402.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page2': class PDFPage 
+12 0 obj
+% Page dictionary
+<< /Annots [ 8 0 R
+ 9 0 R
+ 10 0 R
+ 11 0 R ]
+ /Contents 35 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 33 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER8': class PDFDictionary 
+13 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://cacm.acm.org/magazines/2009/5/24646-api-design-matters/fulltext) >>
@@ -125,91 +204,68 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 101.7343
+ 302.7343
  474.4223
- 113.7343 ]
+ 314.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Page2': class PDFPage 
-10 0 obj
-% Page dictionary
-<< /Annots [ 6 0 R
- 7 0 R
- 8 0 R
- 9 0 R ]
- /Contents 31 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 29 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
-endobj
-% 'Annot.NUMBER6': class LinkAnnotation 
-11 0 obj
+% 'Annot.NUMBER9': class LinkAnnotation 
+14 0 obj
 << /Border [ 0
  0
  0 ]
  /Contents ()
- /Dest [ 5 0 R
+ /Dest [ 7 0 R
  /XYZ
- 225.7529
- 449.0236
+ 199.4129
+ 365.0236
  0 ]
  /Rect [ 145.3729
- 753.7736
+ 290.7343
  150.9329
- 765.7736 ]
+ 302.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER7': class LinkAnnotation 
-12 0 obj
+% 'Annot.NUMBER10': class LinkAnnotation 
+15 0 obj
 << /Border [ 0
  0
  0 ]
  /Contents ()
- /Dest [ 10 0 R
+ /Dest [ 12 0 R
  /XYZ
- 141.6129
- 611.0236
+ 134.3829
+ 542.0236
  0 ]
  /Rect [ 68.69291
- 741.7736
+ 278.7343
  74.25291
- 753.7736 ]
+ 290.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER8': class LinkAnnotation 
-13 0 obj
+% 'Annot.NUMBER11': class LinkAnnotation 
+16 0 obj
 << /Border [ 0
  0
  0 ]
  /Contents ()
- /Dest [ 10 0 R
+ /Dest [ 12 0 R
  /XYZ
- 364.1529
- 509.0236
+ 446.2129
+ 482.0236
  0 ]
  /Rect [ 79.81291
- 741.7736
+ 278.7343
  85.37291
- 753.7736 ]
+ 290.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER9': class PDFDictionary 
-14 0 obj
+% 'Annot.NUMBER12': class PDFDictionary 
+17 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://reports-archive.adm.cs.cmu.edu/anon/isr2011/CMU-ISR-11-106.pdf) >>
@@ -217,14 +273,14 @@ endobj
  0
  0 ]
  /Rect [ 197.6323
- 729.7736
+ 266.7343
  522.7523
- 741.7736 ]
+ 278.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER10': class PDFDictionary 
-15 0 obj
+% 'Annot.NUMBER13': class PDFDictionary 
+18 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://www.sba-research.org/wp-content/uploads/publications/gpce11.pdf) >>
@@ -232,26 +288,43 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 693.7736
+ 230.7343
  476.1023
- 705.7736 ]
+ 242.7343 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER14': class PDFDictionary 
+19 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://www.joelonsoftware.com/articles/LeakyAbstractions.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 153.7323
+ 218.7343
+ 532.5827
+ 230.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Page3': class PDFPage 
-16 0 obj
+20 0 obj
 % Page dictionary
-<< /Annots [ 11 0 R
- 12 0 R
- 13 0 R
+<< /Annots [ 13 0 R
  14 0 R
- 15 0 R ]
- /Contents 32 0 R
+ 15 0 R
+ 16 0 R
+ 17 0 R
+ 18 0 R
+ 19 0 R ]
+ /Contents 36 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 29 0 R
+ /Parent 33 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -262,152 +335,152 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'R17': class PDFCatalog 
-17 0 obj
+% 'R21': class PDFCatalog 
+21 0 obj
 % Document Root
-<< /Outlines 19 0 R
- /PageLabels 33 0 R
+<< /Outlines 23 0 R
+ /PageLabels 37 0 R
  /PageMode /UseNone
- /Pages 29 0 R
+ /Pages 33 0 R
  /Type /Catalog >>
 endobj
-% 'R18': class PDFInfo 
-18 0 obj
+% 'R22': class PDFInfo 
+22 0 obj
 << /Author ()
- /CreationDate (D:20120824154717-02'00')
+ /CreationDate (D:20120827133209-02'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
  /Subject (\(unspecified\))
  /Title (Lessons learned from using a networked entity system in game development) >>
 endobj
-% 'R19': class PDFOutlines 
-19 0 obj
+% 'R23': class PDFOutlines 
+23 0 obj
 << /Count 10
- /First 20 0 R
- /Last 28 0 R
+ /First 24 0 R
+ /Last 32 0 R
  /Type /Outlines >>
 endobj
 % 'Outline.0': class OutlineEntryObject 
-20 0 obj
-<< /Dest [ 5 0 R
+24 0 obj
+<< /Dest [ 7 0 R
  /XYZ
  62.69291
  705.0236
  0 ]
- /Next 21 0 R
- /Parent 19 0 R
+ /Next 25 0 R
+ /Parent 23 0 R
  /Title (Abstract) >>
 endobj
 % 'Outline.1': class OutlineEntryObject 
-21 0 obj
-<< /Dest [ 5 0 R
+25 0 obj
+<< /Dest [ 7 0 R
  /XYZ
  62.69291
  552.0236
  0 ]
- /Next 22 0 R
- /Parent 19 0 R
- /Prev 20 0 R
+ /Next 26 0 R
+ /Parent 23 0 R
+ /Prev 24 0 R
  /Title (Introduction) >>
 endobj
 % 'Outline.2': class OutlineEntryObject 
-22 0 obj
+26 0 obj
 << /Count 3
- /Dest [ 5 0 R
- /XYZ
- 62.69291
- 171.0236
- 0 ]
- /First 23 0 R
- /Last 25 0 R
- /Next 26 0 R
- /Parent 19 0 R
- /Prev 21 0 R
- /Title (Background and related work) >>
-endobj
-% 'Outline.10.0': class OutlineEntryObject 
-23 0 obj
-<< /Dest [ 5 0 R
- /XYZ
- 62.69291
- 138.0236
- 0 ]
- /Next 24 0 R
- /Parent 22 0 R
- /Title (The Entity-Component-Action \(ECA\) model) >>
-endobj
-% 'Outline.10.1': class OutlineEntryObject 
-24 0 obj
-<< /Dest [ 10 0 R
+ /Dest [ 12 0 R
  /XYZ
  62.69291
  765.0236
  0 ]
- /Next 25 0 R
- /Parent 22 0 R
- /Prev 23 0 R
+ /First 27 0 R
+ /Last 29 0 R
+ /Next 30 0 R
+ /Parent 23 0 R
+ /Prev 25 0 R
+ /Title (Background and related work) >>
+endobj
+% 'Outline.10.0': class OutlineEntryObject 
+27 0 obj
+<< /Dest [ 12 0 R
+ /XYZ
+ 62.69291
+ 732.0236
+ 0 ]
+ /Next 28 0 R
+ /Parent 26 0 R
+ /Title (The Entity-Component-Action \(ECA\) model) >>
+endobj
+% 'Outline.10.1': class OutlineEntryObject 
+28 0 obj
+<< /Dest [ 12 0 R
+ /XYZ
+ 62.69291
+ 660.0236
+ 0 ]
+ /Next 29 0 R
+ /Parent 26 0 R
+ /Prev 27 0 R
  /Title (Tundra SDK overview) >>
 endobj
 % 'Outline.10.2': class OutlineEntryObject 
-25 0 obj
-<< /Dest [ 10 0 R
+29 0 obj
+<< /Dest [ 12 0 R
  /XYZ
  62.69291
- 681.0236
+ 576.0236
  0 ]
- /Parent 22 0 R
- /Prev 24 0 R
- /Title (API complexity analysis / research) >>
+ /Parent 26 0 R
+ /Prev 28 0 R
+ /Title (The research methodology - of API complexity research) >>
 endobj
 % 'Outline.3': class OutlineEntryObject 
-26 0 obj
-<< /Dest [ 10 0 R
+30 0 obj
+<< /Dest [ 12 0 R
  /XYZ
  62.69291
- 483.0236
+ 210.0236
  0 ]
- /Next 27 0 R
- /Parent 19 0 R
- /Prev 22 0 R
+ /Next 31 0 R
+ /Parent 23 0 R
+ /Prev 26 0 R
  /Title (Tundra game projects dissected) >>
 endobj
 % 'Outline.4': class OutlineEntryObject 
-27 0 obj
-<< /Dest [ 10 0 R
+31 0 obj
+<< /Dest [ 20 0 R
  /XYZ
  62.69291
- 288.0236
+ 633.0236
  0 ]
- /Next 28 0 R
- /Parent 19 0 R
- /Prev 26 0 R
+ /Next 32 0 R
+ /Parent 23 0 R
+ /Prev 30 0 R
  /Title (Results) >>
 endobj
 % 'Outline.5': class OutlineEntryObject 
-28 0 obj
-<< /Dest [ 10 0 R
+32 0 obj
+<< /Dest [ 20 0 R
  /XYZ
  62.69291
- 237.0236
+ 438.0236
  0 ]
- /Parent 19 0 R
- /Prev 27 0 R
+ /Parent 23 0 R
+ /Prev 31 0 R
  /Title (References) >>
 endobj
-% 'R29': class PDFPages 
-29 0 obj
+% 'R33': class PDFPages 
+33 0 obj
 % page tree
 << /Count 3
- /Kids [ 5 0 R
- 10 0 R
- 16 0 R ]
+ /Kids [ 7 0 R
+ 12 0 R
+ 20 0 R ]
  /Type /Pages >>
 endobj
-% 'R30': class PDFStream 
-30 0 obj
+% 'R34': class PDFStream 
+34 0 obj
 % page stream
-<< /Length 6313 >>
+<< /Length 6341 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -444,66 +517,75 @@ BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Introduction) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 489.0236 cm
+1 0 0 1 62.69291 465.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.359976 Tw (Networked application programming is generally more complex than standalone software development.) Tj T* 0 Tw .928555 Tw (The developer typically needs to deal with additional concepts, such as connections, and error handling) Tj T* 0 Tw (and even conflicting situations in the distributed execution.) Tj T* ET
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL 1.359976 Tw (Networked application programming is generally more complex than standalone software development.) Tj T* 0 Tw 1.565697 Tw (The developer typically needs to deal with events, conflicts and error conditions originating from other) Tj T* 0 Tw .082927 Tw (parts of the distributed system as well as the local user. This is emphasized in multiuser real-time systems) Tj T* 0 Tw 5.473976 Tw (compared to the relatively leisurely request-response interaction patterns of most client-server) Tj T* 0 Tw (applications.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 435.0236 cm
+1 0 0 1 62.69291 351.0236 cm
 q
-BT 1 0 0 1 0 38 Tm 1.669213 Tw 12 TL /F1 10 Tf 0 0 0 rg ("Information hiding is a cornerstone principle of modern software engineering. Interfaces, or APIs, are) Tj T* 0 Tw 1.324983 Tw (central to realizing the benefits of information hiding, but despite their widespread use, designing good) Tj T* 0 Tw 1.535984 Tw (interfaces is not a trivial activity. Particular design choices can have a significant detrimental effect on) Tj T* 0 Tw (quality or development productivity." ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (cmu-api_failures) Tj T* ET
+BT 1 0 0 1 0 98 Tm 1.843555 Tw 12 TL /F1 10 Tf 0 0 0 rg (Higher level abstractions in software are a common way to attempt to ease application development.) Tj T* 0 Tw .66229 Tw (Regarding networking, libraries exist to simplify creating connections and serializing messages etc. On a) Tj T* 0 Tw 1.856905 Tw (even higher level, distributed object systems automate remote calls and data synchronization. For an) Tj T* 0 Tw 2.967674 Tw (application developer, these systems are provided as a set of abstractions forming the application) Tj T* 0 Tw 3.823828 Tw (development interface \(API\). However, it is argued that all such abstractions have failure points) Tj T* 0 Tw 1.248765 Tw /F1 8 Tf 0 0 .501961 rg 5 Ts (leaky-abstractions) Tj /F1 10 Tf 0 0 0 rg 0 Ts (. Also it is noted how making good APIs is hard -- creating a bad one is easy ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (api-matters) Tj /F1 10 Tf 0 0 0 rg 0 Ts (.) Tj T* 0 Tw .373516 Tw (Even a small quirk in an API can accumulate to substantial problems in larger bodies of application code.) Tj T* 0 Tw .683318 Tw (API design has a significant impact on software quality, and increased API complexity is associated with) Tj T* 0 Tw (increased software failure rate ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (cmu-api_failures) Tj /F1 10 Tf 0 0 0 rg 0 Ts (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 381.0236 cm
+1 0 0 1 62.69291 285.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .968555 Tw (An entity system for networked application development has been put forth in [Alatalo2011]. This article) Tj T* 0 Tw 3.69686 Tw (draws lessons learned from how that system has been put to practice in a few different game) Tj T* 0 Tw .08311 Tw (development projects. The analysis is done by studying the source codes of the games, and by describing) Tj T* 0 Tw (issues encountered in the development.) Tj T* ET
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .968555 Tw (An entity system for networked application development has been put forth in [Alatalo2011]. This article) Tj T* 0 Tw 3.69686 Tw (draws lessons learned from how that system has been put to practice in a few different game) Tj T* 0 Tw .08311 Tw (development projects. The analysis is done by studying the source codes of the games, and by describing) Tj T* 0 Tw 1.125318 Tw (issues encountered in the development. The purpose is to identify leakage points in the abstractions in) Tj T* 0 Tw (that entity system and propose areas for improvement.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 291.0236 cm
+1 0 0 1 62.69291 195.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL 1.557209 Tw (How can a conceptual design of an entity system be really evaluated? How can we know how well a) Tj T* 0 Tw .829213 Tw (platform supports actual networked game development? These are not easy questions, but the answers) Tj T* 0 Tw 1.99561 Tw (would really help us concretely in game and platform development. We do not claim to provide final) Tj T* 0 Tw .534269 Tw (answers here. The area of software and API complexity analysis has however made interesting progress) Tj T* 0 Tw .882485 Tw (recently [TLS paper, the others too?]. \(XXX are we lame and: after the initial qualitative ad-hoc analysis) Tj T* 0 Tw 1.715868 Tw (here, we review possibilities for more analysis in the future with some of the metrics proposed in the) Tj T* 0 Tw (literature -- or can we rock and already apply the techniques here?\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 225.0236 cm
+1 0 0 1 62.69291 129.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .076654 Tw (The rest of the article is organized as follows: As background information, we first we give a brief overview) Tj T* 0 Tw .876654 Tw (of the networked entity system in question, and of the implementation of it in the Tundra SDK. Also, we) Tj T* 0 Tw 2.291647 Tw (review existing techniques for API usability research and API complexity analysis. \(also?: networked) Tj T* 0 Tw .240651 Tw (programming libs? alternative models too such as the messaging in sirikata? -- suggest same analysis for) Tj T* 0 Tw (sirikata data \(kata pong!\) as future work?\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 183.0236 cm
+1 0 0 1 62.69291 87.02362 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .328735 Tw (As the contribution from this research, a set of example projects are studied. Conclusions are drawn from) Tj T* 0 Tw .134269 Tw (the observations both to evaluate the conceptual level entity model, and to identify possible improvements) Tj T* 0 Tw (and desireable support functionality to be developed in the surrounding platform.) Tj T* ET
 Q
 Q
+ 
+endstream
+endobj
+% 'R35': class PDFStream 
+35 0 obj
+% page stream
+<< /Length 8097 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 150.0236 cm
+1 0 0 1 62.69291 744.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Background and related work) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 120.0236 cm
+1 0 0 1 62.69291 714.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (The Entity-Component-Action \(ECA\) model) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 108.0236 cm
+1 0 0 1 62.69291 702.0236 cm
 Q
 q
-1 0 0 1 62.69291 108.0236 cm
+1 0 0 1 62.69291 702.0236 cm
 Q
 q
-1 0 0 1 62.69291 78.02362 cm
+1 0 0 1 62.69291 672.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -554,31 +636,22 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 78.02362 cm
+1 0 0 1 62.69291 672.0236 cm
 Q
- 
-endstream
-endobj
-% 'R31': class PDFStream 
-31 0 obj
-% page stream
-<< /Length 7404 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 747.0236 cm
+1 0 0 1 62.69291 642.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Tundra SDK overview) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 735.0236 cm
+1 0 0 1 62.69291 630.0236 cm
 Q
 q
-1 0 0 1 62.69291 735.0236 cm
+1 0 0 1 62.69291 630.0236 cm
 Q
 q
-1 0 0 1 62.69291 711.0236 cm
+1 0 0 1 62.69291 606.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -599,10 +672,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 705.0236 cm
+1 0 0 1 62.69291 600.0236 cm
 Q
 q
-1 0 0 1 62.69291 693.0236 cm
+1 0 0 1 62.69291 588.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -623,114 +696,54 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 693.0236 cm
+1 0 0 1 62.69291 588.0236 cm
 Q
 q
-1 0 0 1 62.69291 663.0236 cm
+1 0 0 1 62.69291 558.0236 cm
 q
-BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (API complexity analysis / research) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 645.0236 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (\(or: research methodology?\)) Tj T* ET
+BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (The research methodology - of API complexity research) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 627.0236 cm
+1 0 0 1 62.69291 468.0236 cm
 q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Motivation:) Tj T* ET
+BT 1 0 0 1 0 74 Tm .159147 Tw 12 TL /F1 10 Tf 0 0 0 rg (Recently, software complexity analysis techniques have been applied to statistical \(quantitative\) studies of) Tj T* 0 Tw .430412 Tw (API complexity. ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (cmu-api_failures ) Tj /F1 10 Tf 0 0 0 rg 0 Ts (studies 2 large corporate software projects and 9 open source projects and) Tj T* 0 Tw 1.161235 Tw (finds a link between API complexity and increases in failure proneness of the software. The masses of) Tj T* 0 Tw 1.646651 Tw (source code are quantified with measures such as API size and dispersion. Building on existing work) Tj T* 0 Tw .610651 Tw (\(NOTE: Baudi\), API complexity is calculated simply from the number of public methods and attributes. In) Tj T* 0 Tw 1.124724 Tw (the discussion it is noted how this is severely limited: for example, it fails to take into account pre- and) Tj T* 0 Tw (post-invocation assumptions of the API and possibly required sequences of invocation ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (cmu-api_failures) Tj /F1 10 Tf 0 0 0 rg 0 Ts (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 585.0236 cm
+1 0 0 1 62.69291 390.0236 cm
 q
-BT 1 0 0 1 0 26 Tm 2.505984 Tw 12 TL /F1 10 Tf 0 0 0 rg (API complexity has been analyzed to "\(increase\) the failure proneness of source code" in a recent) Tj T* 0 Tw .334987 Tw (exploratory study ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (cmu-api_failures) Tj /F1 10 Tf 0 0 0 rg 0 Ts (. Also, it is well noted how making good APIs is hard -- creating a bad one) Tj T* 0 Tw (is easy ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (api-matters) Tj /F1 10 Tf 0 0 0 rg 0 Ts (.) Tj T* ET
+BT 1 0 0 1 0 62 Tm 3.866136 Tw 12 TL /F1 10 Tf 0 0 0 rg (A study of 4 alternative implementations, on different frameworks, of the same application uses) Tj T* 0 Tw 1.353828 Tw (Object-Points \(OP\) analysis to quantify the code bases for the comparison ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (api-complexity-analysis) Tj /F1 10 Tf 0 0 0 rg 0 Ts (. OP has) Tj T* 0 Tw .309318 Tw (originally been developed for estimating development effort, but there the authors adopt it to calculate the) Tj T* 0 Tw 2.75748 Tw (complexity of existing software for complexity comparisons. Number of classes, their members and) Tj T* 0 Tw .146136 Tw (operation calls are counted and assigned adjustment weights in the calculation. Intermediate UML models) Tj T* 0 Tw (are used as the data source which allows comparing programs in different languages ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (api-complexity-analysis) Tj /F1 10 Tf 0 0 0 rg 0 Ts (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 579.0236 cm
-Q
-q
-1 0 0 1 62.69291 579.0236 cm
-Q
-q
-1 0 0 1 62.69291 549.0236 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 15 cm
+1 0 0 1 62.69291 288.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL 2.02811 Tw (For the purposes of this study, we do not have enough data for meaningful statistical analysis. Also) Tj T* 0 Tw 1.805697 Tw (simplistic measures, suitable for analyzing large bodies of source code, would miss the subtle issues) Tj T* 0 Tw 3.55284 Tw (which raise in networked programming on a framework which attempts to hide the intricacies of) Tj T* 0 Tw .732126 Tw (networking from the application developer. The more fine grained OP analysis, however, is applicable. It) Tj T* 0 Tw .36311 Tw (does not capture all the elements of API complexity, but would give useful metrics for comparisons. What) Tj T* 0 Tw .164651 Tw (is missing in our case are the alternative implementations. Therefore we suggest developing the same set) Tj T* 0 Tw 1.943984 Tw (of example multiplayer games on alternative platforms for OP and other analysis as future work. OP) Tj T* 0 Tw (analysis of one of the examples here, Pong, is given as a starting point.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 23 15 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (of software complexity and api analysis research, techniques, metrix) Tj T* ET
-Q
-Q
-q
-1 0 0 1 23 9 cm
-Q
-q
-1 0 0 1 23 9 cm
-Q
-q
-1 0 0 1 23 -3 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-q
-1 0 0 1 6 -3 cm
+1 0 0 1 62.69291 222.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 10.5 0 Td (\177) Tj T* -10.5 0 Td ET
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .091318 Tw (For the analysis here, we resort to an anecdotal qualitative study. Illustrative examples from various cases) Tj T* 0 Tw .066488 Tw (are selected to point out strong and weak points in the API. We think that only with qualitative analysis it is) Tj T* 0 Tw 2.30686 Tw (possible to get to the heart of the matter: where does hiding networking from the multiplayer game) Tj T* 0 Tw 1.82311 Tw (developer succeed and fail with this particular entity system? However we try to lay ground for more) Tj T* 0 Tw (rigorous and also quantitative studies in future work as well.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 23 -3 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (can we apply here, what and how?) Tj T* ET
-Q
-Q
-q
-Q
-Q
-q
-1 0 0 1 23 -3 cm
-Q
-q
-Q
-Q
-q
-1 0 0 1 62.69291 549.0236 cm
-Q
-q
-1 0 0 1 62.69291 495.0236 cm
-q
-BT 1 0 0 1 0 38 Tm 1.321163 Tw 12 TL /F1 10 Tf 0 0 0 rg (In this paper, we examined the impact of API complexity on the failure proneness of source code files) Tj T* 0 Tw 1.844983 Tw (using data from two large-scale systems from two distinct software companies and nine open source) Tj T* 0 Tw .499984 Tw (projects from the GNOME community. Our analyses showed that increases in the complexity of APIs are) Tj T* 0 Tw (associated with in- creases in the failure proneness of source code" ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (cmu-api_failures) Tj T* ET
-Q
-Q
-q
-1 0 0 1 62.69291 462.0236 cm
+1 0 0 1 62.69291 189.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Tundra game projects dissected) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 450.0236 cm
+1 0 0 1 62.69291 177.0236 cm
 Q
 q
-1 0 0 1 62.69291 450.0236 cm
+1 0 0 1 62.69291 177.0236 cm
 Q
 q
-1 0 0 1 62.69291 384.0236 cm
+1 0 0 1 62.69291 111.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -835,10 +848,39 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 378.0236 cm
+1 0 0 1 62.69291 111.0236 cm
 Q
 q
-1 0 0 1 62.69291 366.0236 cm
+1 0 0 1 62.69291 81.02362 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .462651 Tw (The EC system allows for two ways of implementing coordinated entity behaviour accross the server and) Tj T* 0 Tw 1.278651 Tw (clients. The first, simpler way is to rely on the the automatic synchronisation mechanism for replicating) Tj T* 0 Tw ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R36': class PDFStream 
+36 0 obj
+% page stream
+<< /Length 6164 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 729.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.201235 Tw (changes to entities as they are made. The second way is to handle state and behaviour replication) Tj T* 0 Tw 1.054597 Tw (manually using the "entity actions", an messaging mechanism that lets entity-associated scripts to send) Tj T* 0 Tw (events to each other. The latter way can be used to reduce the amount of network traffic.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+Q
+q
+1 0 0 1 62.69291 723.0236 cm
+Q
+q
+1 0 0 1 62.69291 711.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -859,10 +901,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 360.0236 cm
+1 0 0 1 62.69291 705.0236 cm
 Q
 q
-1 0 0 1 62.69291 318.0236 cm
+1 0 0 1 62.69291 663.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -913,10 +955,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 312.0236 cm
+1 0 0 1 62.69291 657.0236 cm
 Q
 q
-1 0 0 1 62.69291 300.0236 cm
+1 0 0 1 62.69291 645.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -937,36 +979,50 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 300.0236 cm
+1 0 0 1 62.69291 645.0236 cm
 Q
 q
-1 0 0 1 62.69291 267.0236 cm
+1 0 0 1 62.69291 612.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Results) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 249.0236 cm
+1 0 0 1 62.69291 570.0236 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (...) Tj T* ET
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .01436 Tw (The extensibility of the entity system, argued for in the original publication, gets some further support here.) Tj T* 0 Tw 3.087984 Tw (A number of quite different applications have been developed using the system, and it has been) Tj T* 0 Tw (straightforward to implement the new functionalities without touching the core.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 216.0236 cm
+1 0 0 1 62.69291 540.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 2.113059 Tw (Ease of development shows promise, but would benefit both from API improvements and underlying) Tj T* 0 Tw (support functionality such as improved scalability by way of using clever interest management techniques.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 450.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F1 10 Tf 12 TL 2.314651 Tw (For more reliable studies in the future, it would be interesting to apply rigorous software complexity) Tj T* 0 Tw .214269 Tw (analysis techniques such as Object-Points analysis to comparable codebases. This could be done both to) Tj T* 0 Tw 1.039147 Tw (evaluate alternative approaches in different frameworks, such as attribute synchronization in Tundra vs.) Tj T* 0 Tw 3.439982 Tw (custom messaging in Sirikata, and to evaluate improvements over time while enhancing a single) Tj T* 0 Tw .165984 Tw (framework. The comparative analysis would require the same example game, or probably a set of games,) Tj T* 0 Tw .145868 Tw (to be implemented on all the platforms. We propose Pong as the minimal realtime multiplayer game, but a) Tj T* 0 Tw (few representative much more complex cases should be added to the set for meaningful evaluations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 417.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (References) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 153.3307 cm
+1 0 0 1 62.69291 354.3307 cm
 Q
 q
-1 0 0 1 62.69291 124.9843 cm
+1 0 0 1 62.69291 325.9843 cm
 n 0 14.17323 m 469.8898 14.17323 l S
 Q
 q
-1 0 0 1 62.69291 100.9843 cm
+1 0 0 1 62.69291 301.9843 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -984,17 +1040,8 @@ Q
 q
 Q
 Q
- 
-endstream
-endobj
-% 'R32': class PDFStream 
-32 0 obj
-% page stream
-<< /Length 1246 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 729.0236 cm
+1 0 0 1 62.69291 265.9843 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1013,7 +1060,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 693.0236 cm
+1 0 0 1 62.69291 229.9843 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1031,84 +1078,109 @@ Q
 q
 Q
 Q
+q
+1 0 0 1 62.69291 217.9843 cm
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 0 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (leaky-abstractions) Tj T* ET
+Q
+Q
+q
+1 0 0 1 91.03937 0 cm
+q
+0 0 .501961 rg
+0 0 .501961 RG
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (http://www.joelonsoftware.com/articles/LeakyAbstractions.html) Tj T* ET
+Q
+Q
+q
+Q
+Q
  
 endstream
 endobj
-% 'R33': class PDFPageLabels 
-33 0 obj
+% 'R37': class PDFPageLabels 
+37 0 obj
 % Document Root
 << /Nums [ 0
- 34 0 R
+ 38 0 R
  1
- 35 0 R
+ 39 0 R
  2
- 36 0 R ] >>
+ 40 0 R ] >>
 endobj
-% 'R34': class PDFPageLabel 
-34 0 obj
+% 'R38': class PDFPageLabel 
+38 0 obj
 % None
 << /S /D
  /St 1 >>
 endobj
-% 'R35': class PDFPageLabel 
-35 0 obj
+% 'R39': class PDFPageLabel 
+39 0 obj
 % None
 << /S /D
  /St 2 >>
 endobj
-% 'R36': class PDFPageLabel 
-36 0 obj
+% 'R40': class PDFPageLabel 
+40 0 obj
 % None
 << /S /D
  /St 3 >>
 endobj
 xref
-0 37
+0 41
 0000000000 65535 f
 0000000113 00000 n
 0000000221 00000 n
 0000000386 00000 n
 0000000574 00000 n
-0000000800 00000 n
-0000001114 00000 n
-0000001355 00000 n
-0000001596 00000 n
-0000001836 00000 n
-0000002110 00000 n
-0000002449 00000 n
-0000002690 00000 n
-0000002932 00000 n
-0000003173 00000 n
-0000003462 00000 n
-0000003737 00000 n
-0000004075 00000 n
-0000004234 00000 n
-0000004554 00000 n
-0000004680 00000 n
-0000004848 00000 n
-0000005035 00000 n
-0000005282 00000 n
-0000005486 00000 n
-0000005684 00000 n
-0000005879 00000 n
-0000006085 00000 n
-0000006268 00000 n
-0000006423 00000 n
-0000006548 00000 n
-0000012960 00000 n
-0000020463 00000 n
-0000021812 00000 n
-0000021931 00000 n
-0000022008 00000 n
-0000022085 00000 n
+0000000815 00000 n
+0000001056 00000 n
+0000001282 00000 n
+0000001612 00000 n
+0000001853 00000 n
+0000002094 00000 n
+0000002334 00000 n
+0000002561 00000 n
+0000002901 00000 n
+0000003191 00000 n
+0000003433 00000 n
+0000003676 00000 n
+0000003918 00000 n
+0000004207 00000 n
+0000004497 00000 n
+0000004763 00000 n
+0000005119 00000 n
+0000005278 00000 n
+0000005598 00000 n
+0000005724 00000 n
+0000005892 00000 n
+0000006079 00000 n
+0000006327 00000 n
+0000006532 00000 n
+0000006730 00000 n
+0000006944 00000 n
+0000007150 00000 n
+0000007333 00000 n
+0000007488 00000 n
+0000007613 00000 n
+0000014053 00000 n
+0000022249 00000 n
+0000028516 00000 n
+0000028635 00000 n
+0000028712 00000 n
+0000028789 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\213\243P\005\313r\305\3211\000\035\013\017E\027\242) (\213\243P\005\313r\305\3211\000\035\013\017E\027\242)] 
+ [(b\265r$\260Ps\233\005\313g\232\332,\266T) (b\265r$\260Ps\233\005\313g\232\332,\266T)] 
 
- /Info 18 0 R
- /Root 17 0 R
- /Size 37 >>
+ /Info 22 0 R
+ /Root 21 0 R
+ /Size 41 >>
 startxref
-22132
+28836
 %%EOF
