@@ -31,16 +31,26 @@ emphasized in multiuser real-time systems compared to the relatively
 leisurely request-response interaction patterns of most client-server
 applications.
 
-API design has a significant impact on software quality, and increased
-API complexity is associated with increased software failure rate.
-[cmu-api_failures]_
+Higher level abstractions in software are a common way to attempt to
+ease application development. Regarding networking, libraries exist to
+simplify creating connections and serializing messages etc. On a even
+higher level, distributed object systems automate remote calls and
+data synchronization. For an application developer, these systems are
+provided as a set of abstractions forming the application development
+interface (API). However, it is argued that all such abstractions have
+failure points [leaky-abstractions]_. Also it is noted how making good
+APIs is hard -- creating a bad one is easy [api-matters]_. Even a
+small quirk in an API can accumulate to substantial problems in larger
+bodies of application code. API design has a significant impact on
+software quality, and increased API complexity is associated with
+increased software failure rate [cmu-api_failures]_.
 
 An entity system for networked application development has been put
 forth in [Alatalo2011]. This article draws lessons learned from how
 that system has been put to practice in a few different game
 development projects. The analysis is done by studying the source
 codes of the games, and by describing issues encountered in the
-development.
+development. The purpose is to identify potential 
 
 How can a conceptual design of an entity system be really evaluated?
 How can we know how well a platform supports actual networked game
