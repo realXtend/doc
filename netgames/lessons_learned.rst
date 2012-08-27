@@ -31,16 +31,27 @@ emphasized in multiuser real-time systems compared to the relatively
 leisurely request-response interaction patterns of most client-server
 applications.
 
-API design has a significant impact on software quality, and increased
-API complexity is associated with increased software failure rate.
-[cmu-api_failures]_
+Higher level abstractions in software are a common way to attempt to
+ease application development. Regarding networking, libraries exist to
+simplify creating connections and serializing messages etc. On a even
+higher level, distributed object systems automate remote calls and
+data synchronization. For an application developer, these systems are
+provided as a set of abstractions forming the application development
+interface (API). However, it is argued that all such abstractions have
+failure points [leaky-abstractions]_. Also it is noted how making good
+APIs is hard -- creating a bad one is easy [api-matters]_. Even a
+small quirk in an API can accumulate to substantial problems in larger
+bodies of application code. API design has a significant impact on
+software quality, and increased API complexity is associated with
+increased software failure rate [cmu-api_failures]_.
 
 An entity system for networked application development has been put
 forth in [Alatalo2011]. This article draws lessons learned from how
 that system has been put to practice in a few different game
 development projects. The analysis is done by studying the source
 codes of the games, and by describing issues encountered in the
-development.
+development. The purpose is to identify leakage points in the
+abstractions in that entity system and propose areas for improvement.
 
 How can a conceptual design of an entity system be really evaluated?
 How can we know how well a platform supports actual networked game
@@ -145,7 +156,27 @@ the amount of network traffic.
 Results
 =======
 
-...
+The extensibility of the entity system, argued for in the original
+publication, gets some further support here. A number of quite
+different applications have been developed using the system, and it
+has been straightforward to implement the new functionalities without
+touching the core.
+
+Ease of development shows promise, but would benefit both from API
+improvements and underlying support functionality such as improved
+scalability by way of using clever interest management techniques.
+
+For more reliable studies in the future, it would be interesting to
+apply rigorous software complexity analysis techniques such as
+Object-Points analysis to comparable codebases. This could be done
+both to evaluate alternative approaches in different frameworks, such
+as attribute synchronization in Tundra vs. custom messaging in
+Sirikata, and to evaluate improvements over time while enhancing a
+single framework. The comparative analysis would require the same
+example game, or probably a set of games, to be implemented on all the
+platforms. We propose Pong as the minimal realtime multiplayer game,
+but a few representative much more complex cases should be added to
+the set for meaningful evaluations.
 
 References
 ==========
