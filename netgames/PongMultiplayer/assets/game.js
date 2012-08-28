@@ -338,6 +338,7 @@ var GameClient = Class.extend
         me.Action(msgServerInfomation).Triggered.connect(this.onServerData);
     },
     
+    /** @method */
     /** @param {null} */
     initUi: function()
     {
@@ -352,7 +353,8 @@ var GameClient = Class.extend
         widget.show(); // remove
     },
     
-    /** @param {null} */
+
+    /** @method */
     resetClient: function()
     {
         data.widget.p1_name.text = "";
@@ -364,7 +366,7 @@ var GameClient = Class.extend
         this.gameData.running = false;
     },
     
-    /** @param {null} */
+    /** @method */
     joinGamePushed: function() 
     {
         if (data.running)
@@ -387,7 +389,7 @@ var GameClient = Class.extend
         me.Exec(2, msgJoinGame, data.myId);
     },
     
-    /** @param {null} */
+    /** @method */
     addCpuPlayer: function()
     {
         if (data.running)
@@ -396,7 +398,10 @@ var GameClient = Class.extend
         me.Exec(2, msgJoinGame, 0);
     },
     
-    /** @param {string} direction The movement direction string constant ("up"/"down") */
+    /** 
+     * @method
+     * @param {string} direction The movement direction string constant ("up"/"down")
+     */
     onMovement: function(direction)
     {
         if (!data.running)
@@ -405,7 +410,10 @@ var GameClient = Class.extend
         me.Exec(2, msgClientMovement, data.myId, direction);
     },
     
-    /** @param {string} jsonData */
+    /** 
+     * @method
+     * @param {string} jsonData
+     */
     onServerData: function(jsonData)
     {
         var sd = JSON.parse(jsonData);
