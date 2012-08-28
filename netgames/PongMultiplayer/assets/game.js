@@ -8,17 +8,26 @@ engine.IncludeFile("local://class.js");
 engine.IncludeFile("local://json2.js");
 
 // Commonly used data
-var zeroVec = new Vector3df();
+var zeroVec = new float3(0, 0, 0);
 
+/** @constant */
 var msgBase = "pongmultiplayer-";
+/** @constant */
 var msgJoinGame = msgBase + "joingame";
+/** @constant */
 var msgClientMovement = msgBase + "clientmovement";
+/** @constant */
 var msgServerInfomation = msgBase + "serverinfo";
 
-var GameServer = Class.extend
-({
+var GameServer = Class.extend(
+/** @lends GameServer# */
+{
+    /**
+     * @constructs
+     */
     init: function()
     {        
+        /** @type {array} */
         this.gameData = {};
         
         frame.Updated.connect(this.updateGame);
@@ -26,11 +35,13 @@ var GameServer = Class.extend
         me.Action(msgClientMovement).Triggered.connect(this.onClientMovement);
     },
     
+    /** @param {number} clientId */
     getClient: function(clientId)
     { 
         return server.GetUserConnection(parseInt(clientId));
     },
-    
+
+    /** @param {number} clientId */    
     getClientName: function(clientId)
     {
         var clientIdInt = parseInt(clientId);
@@ -42,11 +53,12 @@ var GameServer = Class.extend
         return thisClient.GetProperty("username");
     },
     
+    /** @param {null} */
     createGame: function()
     { 
-        data.p1_bat = scene.GetEntityByNameRaw("bat_a");
-        data.p2_bat = scene.GetEntityByNameRaw("bat_b");
-        data.ball = scene.GetEntityByNameRaw("ball");
+        data.p1_bat = scene.GetEntityByName("bat_a");
+        data.p2_bat = scene.GetEntityByName("bat_b");
+        data.ball = scene.GetEntityByName("ball");
         data.serverId = client.GetConnectionID();
         
         data.running = false;
@@ -60,22 +72,23 @@ var GameServer = Class.extend
 
         gameServer.resetGameState(); 
         
-        debug.Log("Game created");
+        console.LogInfo("Game created");
     },
     
+    /** @param {null} */
     startGame: function()
     {
         if (!data.p1_client_id || !data.p2_client_id)
         {
-            debug.Log("Cannot start game, players missing!");
+            console.LogInfo("Cannot start game, players missing!");
             return;
         }
 
         // Give initial push
         // \todo randomize the direction
-        var velVec = new Vector3df();
+        var velVec = new float3(0, 0, 0);
         velVec.x = 10;
-        velVec.y = 2;
+        velVec.z = 2;
         data.ball.rigidbody.SetLinearVelocity(velVec);
         
         data.speed = 16;
@@ -83,6 +96,7 @@ var GameServer = Class.extend
         data.running = true;
     }, 
      
+    /** @param {null} */
     stopGame: function()
     {
         gameServer.resetGameState();
@@ -97,6 +111,7 @@ var GameServer = Class.extend
         data.p2_score = 0;
     },
     
+    /** @param {number} scoreClientId */
     finishRound: function(scoreClientId)
     {
         gameServer.resetGameState();
@@ -126,6 +141,7 @@ var GameServer = Class.extend
         gameServer.startGame();
     },
     
+    /** @param {number} winnerClientId */
     finishGame: function(winnerClientId)
     {
         gameServer.stopGame();
@@ -137,9 +153,10 @@ var GameServer = Class.extend
         
         me.Exec(4, msgServerInfomation, JSON.stringify(gameState));
         
-        debug.Log("Game finished");
+        console.LogInfo("Game finished");
     },
     
+    /** @param {null} */
     resetGameState: function()
     {
         // Reset ball
@@ -155,13 +172,14 @@ var GameServer = Class.extend
         // Reset bat positions
         var ta = data.p1_bat.placeable.transform;
         var tb = data.p2_bat.placeable.transform;
-        var ball_y = data.ball.placeable.transform.pos.y;
+        var ball_z = data.ball.placeable.transform.pos.z;
         ta.pos.y = ball_y;
         tb.pos.y = ball_y;
         data.p1_bat.placeable.transform = ta;
         data.p2_bat.placeable.transform = tb;
     },
     
+    /** @param {number} frametime The time elapsed since previous frame. */
     updateGame: function(frametime)
     {
         if (!data.running)
@@ -181,7 +199,7 @@ var GameServer = Class.extend
         if (data.gameTimeIter > 10.0)
         {
             data.speed *= 1.2;
-            debug.Log(">> Speeding up the game to " + data.speed.toString());
+            console.LogInfo(">> Speeding up the game to " + data.speed.toString());
             data.gameTimeIter = 0.0;
         }
         
@@ -222,7 +240,8 @@ var GameServer = Class.extend
     },
     
     // \todo add avatar/client name as param
-    onClientJoin: function(clientId)
+    /** @param {number} clientId */
+    onClientJoin: function(/**number*/ clientId)
     {   
         var response = {};
         response.key = "clientjoin";
@@ -251,7 +270,7 @@ var GameServer = Class.extend
         me.Exec(4, msgServerInfomation, JSON.stringify(response));
 
         if (response.value.result)
-            debug.Log(">> Player #" + response.value.number + " is " + response.value.name);
+            console.LogInfo(">> Player #" + response.value.number + " is " + response.value.name);
         
         if (data.p1_client_id && data.p2_client_id)
         {
@@ -263,8 +282,12 @@ var GameServer = Class.extend
             gameServer.startGame();
         }
     },
-    
-    onClientMovement: function(clientId, direction)
+
+    /** 
+     * @param {number} clientId The id of the client that moved.
+     * @param {string} string constant for the movement direction ("up" / "down")
+     */    
+    onClientMovement: function(/**number*/ clientId, /**string*/ direction)
     {
         if (!data.running)
             return;
@@ -290,8 +313,20 @@ var GameServer = Class.extend
     }
 });
 
+/** 
+  * @class 
+  * @property {array} gameData The game data dict
+  * @property {number} myId The connection ID 
+  * @property {boolean} running
+  * @property {UiWidget} widget The GUI widget ('HUD' (?))
+  */
+
 var GameClient = Class.extend
+/** @lends GameClient# */
 ({
+    /**
+     * @constructs
+     */
     init: function()
     {
         this.gameData = {};
@@ -303,6 +338,7 @@ var GameClient = Class.extend
         me.Action(msgServerInfomation).Triggered.connect(this.onServerData);
     },
     
+    /** @param {null} */
     initUi: function()
     {
         var widget = ui.LoadFromFile(gameUiRef, false);
@@ -316,6 +352,7 @@ var GameClient = Class.extend
         widget.show(); // remove
     },
     
+    /** @param {null} */
     resetClient: function()
     {
         data.widget.p1_name.text = "";
@@ -327,15 +364,16 @@ var GameClient = Class.extend
         this.gameData.running = false;
     },
     
+    /** @param {null} */
     joinGamePushed: function() 
     {
         if (data.running)
             return;
         
         // Make a Local input mapper if there is none yet
-        if (!me.GetComponentRaw("EC_InputMapper", "PongInput")) 
+        if (!me.GetComponent("EC_InputMapper", "PongInput")) 
         {        
-            var inputMapper = me.GetOrCreateComponentRaw("EC_InputMapper", "PongInput", 2, false);
+            var inputMapper = me.GetOrCreateComponent("EC_InputMapper", "PongInput", 2, false);
             inputMapper.contextPriority = 101;
             inputMapper.takeMouseEventsOverQt = false;
             inputMapper.takeKeyboardEventsOverQt = false;
@@ -349,6 +387,7 @@ var GameClient = Class.extend
         me.Exec(2, msgJoinGame, data.myId);
     },
     
+    /** @param {null} */
     addCpuPlayer: function()
     {
         if (data.running)
@@ -357,6 +396,7 @@ var GameClient = Class.extend
         me.Exec(2, msgJoinGame, 0);
     },
     
+    /** @param {string} direction The movement direction string constant ("up"/"down") */
     onMovement: function(direction)
     {
         if (!data.running)
@@ -365,6 +405,7 @@ var GameClient = Class.extend
         me.Exec(2, msgClientMovement, data.myId, direction);
     },
     
+    /** @param {string} jsonData */
     onServerData: function(jsonData)
     {
         var sd = JSON.parse(jsonData);
@@ -380,7 +421,7 @@ var GameClient = Class.extend
                     data.widget.button_join.enabled = false;
                 }
                 else
-                    debug.Log(">> Could not join game");
+                    console.LogInfo(">> Could not join game");
             }
             if (sd.value.result)
             {
@@ -419,7 +460,7 @@ var GameClient = Class.extend
                 var player = sd.value[i];
                 if (player.id == data.myId.toString())
                 {
-                    debug.Log(">> Game started");                    
+                    console.LogInfo(">> Game started");                    
                     data.running = true;
                 }
             }
