@@ -285,7 +285,7 @@ var GameServer = Class.extend(
 
     /** 
      * @param {number} clientId The id of the client that moved.
-     * @param {string} string constant for the movement direction ("up" / "down")
+     * @param {string} direction constant for the movement direction ("up" / "down")
      */    
     onClientMovement: function(/**number*/ clientId, /**string*/ direction)
     {
@@ -313,26 +313,23 @@ var GameServer = Class.extend(
     }
 });
 
-/** 
-  * @class 
-  * @property {array} gameData The game data dict
-  * @property {number} myId The connection ID 
-  * @property {boolean} running
-  * @property {UiWidget} widget The GUI widget ('HUD' (?))
-  */
-
-var GameClient = Class.extend
+var GameClient = Class.extend(
 /** @lends GameClient# */
-({
+{
     /**
      * @constructs
      */
     init: function()
     {
+        /** @type {array} gameData The game data dict */
         this.gameData = {};
+  
+        /** @type {number} myId The connection ID */
         this.gameData.myId = client.GetConnectionID();
+
+        /** @property {boolean} running */
         this.gameData.running = false;
-     
+ 
         this.initUi();
         
         me.Action(msgServerInfomation).Triggered.connect(this.onServerData);
@@ -342,6 +339,7 @@ var GameClient = Class.extend
     /** @param {null} */
     initUi: function()
     {
+        /** @property {UiWidget} widget The GUI widget ('HUD' (?)) */
         var widget = ui.LoadFromFile(gameUiRef, false);
         widget.setParent(ui.MainWindow());
         widget.setWindowFlags(Qt.Tool);

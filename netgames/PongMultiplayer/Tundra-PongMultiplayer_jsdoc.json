@@ -1,0 +1,3711 @@
+[
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 2,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode334936591",
+                "name": "gameUiRef",
+                "type": "STRING",
+                "node": <Object>,
+                "value": "local://PongGameLobby.ui"
+            }
+        },
+        "undocumented": true,
+        "name": "gameUiRef",
+        "kind": "member",
+        "longname": "gameUiRef",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 11,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1811924614",
+                "name": "zeroVec",
+                "type": "NEW",
+                "node": <Object>,
+                "value": "NEW"
+            }
+        },
+        "undocumented": true,
+        "name": "zeroVec",
+        "kind": "member",
+        "longname": "zeroVec",
+        "scope": "global"
+    },
+    {
+        "comment": "/** @constant */",
+        "meta": {
+            "lineno": 14,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode149997662",
+                "name": "msgBase",
+                "type": "STRING",
+                "node": <Object>,
+                "value": "pongmultiplayer-"
+            }
+        },
+        "kind": "constant",
+        "name": "msgBase",
+        "longname": "msgBase",
+        "scope": "global"
+    },
+    {
+        "comment": "/** @constant */",
+        "meta": {
+            "lineno": 16,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode48610262",
+                "name": "msgJoinGame",
+                "type": "ADD",
+                "node": <Object>,
+                "value": "ADD"
+            }
+        },
+        "kind": "constant",
+        "name": "msgJoinGame",
+        "longname": "msgJoinGame",
+        "scope": "global"
+    },
+    {
+        "comment": "/** @constant */",
+        "meta": {
+            "lineno": 18,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode739893596",
+                "name": "msgClientMovement",
+                "type": "ADD",
+                "node": <Object>,
+                "value": "ADD"
+            }
+        },
+        "kind": "constant",
+        "name": "msgClientMovement",
+        "longname": "msgClientMovement",
+        "scope": "global"
+    },
+    {
+        "comment": "/** @constant */",
+        "meta": {
+            "lineno": 20,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode169937755",
+                "name": "msgServerInfomation",
+                "type": "ADD",
+                "node": <Object>,
+                "value": "ADD"
+            }
+        },
+        "kind": "constant",
+        "name": "msgServerInfomation",
+        "longname": "msgServerInfomation",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 22,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode565595754",
+                "name": "GameServer",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "GameServer",
+        "kind": "member",
+        "longname": "GameServer",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * @constructs\n     */",
+        "meta": {
+            "lineno": 28,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode511307135",
+                "name": "init",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                ]
+            }
+        },
+        "alias": "GameServer",
+        "kind": "class",
+        "name": "GameServer",
+        "longname": "GameServer",
+        "scope": "global"
+    },
+    {
+        "comment": "/** @type {array} */",
+        "meta": {
+            "lineno": 31,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1151734776",
+                "name": "this.gameData",
+                "type": "OBJECTLIT",
+                "node": <Object>,
+                "value": "OBJECTLIT"
+            }
+        },
+        "type": {
+            "names": [
+                "array"
+            ],
+            "optional": null,
+            "nullable": null,
+            "variable": null
+        },
+        "name": "gameData",
+        "kind": "member",
+        "memberof": "GameServer",
+        "longname": "GameServer#gameData",
+        "scope": "instance"
+    },
+    {
+        "comment": "/** @param {number} clientId */",
+        "meta": {
+            "lineno": 39,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1079549526",
+                "name": "getClient",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                    "clientId"
+                ]
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ],
+                    "optional": null,
+                    "nullable": null,
+                    "variable": null
+                },
+                "name": "clientId"
+            }
+        ],
+        "name": "getClient",
+        "kind": "function",
+        "memberof": "GameServer",
+        "longname": "GameServer#getClient",
+        "scope": "instance"
+    },
+    {
+        "comment": "/** @param {number} clientId */",
+        "meta": {
+            "lineno": 45,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1111960904",
+                "name": "getClientName",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                    "clientId"
+                ]
+            },
+            "vars": {
+                "clientIdInt": false,
+                "thisClient": false
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ],
+                    "optional": null,
+                    "nullable": null,
+                    "variable": null
+                },
+                "name": "clientId"
+            }
+        ],
+        "name": "getClientName",
+        "kind": "function",
+        "memberof": "GameServer",
+        "longname": "GameServer#getClientName",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 47,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode672845127",
+                "name": "clientIdInt",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "clientIdInt",
+        "kind": "member",
+        "memberof": "GameServer#getClientName",
+        "longname": "GameServer#getClientName~clientIdInt",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 50,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode2092063645",
+                "name": "thisClient",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "thisClient",
+        "kind": "member",
+        "memberof": "GameServer#getClientName",
+        "longname": "GameServer#getClientName~thisClient",
+        "scope": "inner"
+    },
+    {
+        "comment": "/** @param {null} */",
+        "meta": {
+            "lineno": 57,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1656788308",
+                "name": "createGame",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                ]
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "null"
+                    ],
+                    "optional": null,
+                    "nullable": null,
+                    "variable": null
+                },
+                "name": ""
+            }
+        ],
+        "name": "createGame",
+        "kind": "function",
+        "memberof": "GameServer",
+        "longname": "GameServer#createGame",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 59,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode71786792",
+                "name": "data.p1_bat",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "p1_bat",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.p1_bat",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 60,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode211543962",
+                "name": "data.p2_bat",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "p2_bat",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.p2_bat",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 61,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode485255936",
+                "name": "data.ball",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "ball",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.ball",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 62,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1864729679",
+                "name": "data.serverId",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "serverId",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.serverId",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 64,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode590388871",
+                "name": "data.running",
+                "type": "FALSE",
+                "node": <Object>,
+                "value": "false"
+            }
+        },
+        "undocumented": true,
+        "name": "running",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.running",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 65,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1224680467",
+                "name": "data.speed",
+                "type": "NUMBER",
+                "node": <Object>,
+                "value": "16"
+            }
+        },
+        "undocumented": true,
+        "name": "speed",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.speed",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 66,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1832874625",
+                "name": "data.winscore",
+                "type": "NUMBER",
+                "node": <Object>,
+                "value": "2"
+            }
+        },
+        "undocumented": true,
+        "name": "winscore",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.winscore",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 67,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1192696614",
+                "name": "data.gameTimeIter",
+                "type": "NUMBER",
+                "node": <Object>,
+                "value": "0.0"
+            }
+        },
+        "undocumented": true,
+        "name": "gameTimeIter",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.gameTimeIter",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 68,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode308587341",
+                "name": "data.p1_client_id",
+                "type": "NULL",
+                "node": <Object>,
+                "value": "NULL"
+            }
+        },
+        "undocumented": true,
+        "name": "p1_client_id",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.p1_client_id",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 69,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode475911554",
+                "name": "data.p2_client_id",
+                "type": "NULL",
+                "node": <Object>,
+                "value": "NULL"
+            }
+        },
+        "undocumented": true,
+        "name": "p2_client_id",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.p2_client_id",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 70,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode207251401",
+                "name": "data.p1_score",
+                "type": "NUMBER",
+                "node": <Object>,
+                "value": "0"
+            }
+        },
+        "undocumented": true,
+        "name": "p1_score",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.p1_score",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 71,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1348570406",
+                "name": "data.p2_score",
+                "type": "NUMBER",
+                "node": <Object>,
+                "value": "0"
+            }
+        },
+        "undocumented": true,
+        "name": "p2_score",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.p2_score",
+        "scope": "static"
+    },
+    {
+        "comment": "/** @param {null} */",
+        "meta": {
+            "lineno": 79,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode275558166",
+                "name": "startGame",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                ]
+            },
+            "vars": {
+                "velVec": false
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "null"
+                    ],
+                    "optional": null,
+                    "nullable": null,
+                    "variable": null
+                },
+                "name": ""
+            }
+        ],
+        "name": "startGame",
+        "kind": "function",
+        "memberof": "GameServer",
+        "longname": "GameServer#startGame",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 89,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1726367366",
+                "name": "velVec",
+                "type": "NEW",
+                "node": <Object>,
+                "value": "NEW"
+            }
+        },
+        "undocumented": true,
+        "name": "velVec",
+        "kind": "member",
+        "memberof": "GameServer#startGame",
+        "longname": "GameServer#startGame~velVec",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 90,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1817166166",
+                "name": "velVec.x",
+                "type": "NUMBER",
+                "node": <Object>,
+                "funcscope": "GameServer#startGame",
+                "value": "10"
+            }
+        },
+        "undocumented": true,
+        "name": "x",
+        "kind": "member",
+        "longname": "GameServer#startGame~velVec.x",
+        "memberof": "GameServer#startGame~velVec",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 91,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode735176496",
+                "name": "velVec.z",
+                "type": "NUMBER",
+                "node": <Object>,
+                "funcscope": "GameServer#startGame",
+                "value": "2"
+            }
+        },
+        "undocumented": true,
+        "name": "z",
+        "kind": "member",
+        "longname": "GameServer#startGame~velVec.z",
+        "memberof": "GameServer#startGame~velVec",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 94,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode279807577",
+                "name": "data.speed",
+                "type": "NUMBER",
+                "node": <Object>,
+                "value": "16"
+            }
+        },
+        "undocumented": true,
+        "name": "speed",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.speed",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 95,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode223833712",
+                "name": "data.gameTimeIter",
+                "type": "NUMBER",
+                "node": <Object>,
+                "value": "0.0"
+            }
+        },
+        "undocumented": true,
+        "name": "gameTimeIter",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.gameTimeIter",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 96,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode158635208",
+                "name": "data.running",
+                "type": "TRUE",
+                "node": <Object>,
+                "value": "true"
+            }
+        },
+        "undocumented": true,
+        "name": "running",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.running",
+        "scope": "static"
+    },
+    {
+        "comment": "/** @param {null} */",
+        "meta": {
+            "lineno": 100,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode165149691",
+                "name": "stopGame",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                ]
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "null"
+                    ],
+                    "optional": null,
+                    "nullable": null,
+                    "variable": null
+                },
+                "name": ""
+            }
+        ],
+        "name": "stopGame",
+        "kind": "function",
+        "memberof": "GameServer",
+        "longname": "GameServer#stopGame",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 104,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode143167084",
+                "name": "data.running",
+                "type": "FALSE",
+                "node": <Object>,
+                "value": "false"
+            }
+        },
+        "undocumented": true,
+        "name": "running",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.running",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 105,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode2069520425",
+                "name": "data.speed",
+                "type": "NUMBER",
+                "node": <Object>,
+                "value": "16"
+            }
+        },
+        "undocumented": true,
+        "name": "speed",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.speed",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 106,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1278414937",
+                "name": "data.winscore",
+                "type": "NUMBER",
+                "node": <Object>,
+                "value": "2"
+            }
+        },
+        "undocumented": true,
+        "name": "winscore",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.winscore",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 107,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode796347291",
+                "name": "data.gameTimeIter",
+                "type": "NUMBER",
+                "node": <Object>,
+                "value": "0.0"
+            }
+        },
+        "undocumented": true,
+        "name": "gameTimeIter",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.gameTimeIter",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 108,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode848678846",
+                "name": "data.p1_client_id",
+                "type": "NULL",
+                "node": <Object>,
+                "value": "NULL"
+            }
+        },
+        "undocumented": true,
+        "name": "p1_client_id",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.p1_client_id",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 109,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1872474714",
+                "name": "data.p2_client_id",
+                "type": "NULL",
+                "node": <Object>,
+                "value": "NULL"
+            }
+        },
+        "undocumented": true,
+        "name": "p2_client_id",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.p2_client_id",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 110,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1232704349",
+                "name": "data.p1_score",
+                "type": "NUMBER",
+                "node": <Object>,
+                "value": "0"
+            }
+        },
+        "undocumented": true,
+        "name": "p1_score",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.p1_score",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 111,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1208381540",
+                "name": "data.p2_score",
+                "type": "NUMBER",
+                "node": <Object>,
+                "value": "0"
+            }
+        },
+        "undocumented": true,
+        "name": "p2_score",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.p2_score",
+        "scope": "static"
+    },
+    {
+        "comment": "/** @param {number} scoreClientId */",
+        "meta": {
+            "lineno": 115,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1658468894",
+                "name": "finishRound",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                    "scoreClientId"
+                ]
+            },
+            "vars": {
+                "gameState": false
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ],
+                    "optional": null,
+                    "nullable": null,
+                    "variable": null
+                },
+                "name": "scoreClientId"
+            }
+        ],
+        "name": "finishRound",
+        "kind": "function",
+        "memberof": "GameServer",
+        "longname": "GameServer#finishRound",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 124,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode45104096",
+                "name": "gameState",
+                "type": "OBJECTLIT",
+                "node": <Object>,
+                "value": "OBJECTLIT"
+            }
+        },
+        "undocumented": true,
+        "name": "gameState",
+        "kind": "member",
+        "memberof": "GameServer#finishRound",
+        "longname": "GameServer#finishRound~gameState",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 125,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode51619133",
+                "name": "gameState.key",
+                "type": "STRING",
+                "node": <Object>,
+                "funcscope": "GameServer#finishRound",
+                "value": "gamestate"
+            }
+        },
+        "undocumented": true,
+        "name": "key",
+        "kind": "member",
+        "longname": "GameServer#finishRound~gameState.key",
+        "memberof": "GameServer#finishRound~gameState",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 126,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1335505632",
+                "name": "gameState.value",
+                "type": "ARRAYLIT",
+                "node": <Object>,
+                "funcscope": "GameServer#finishRound",
+                "value": "ARRAYLIT"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "kind": "member",
+        "longname": "GameServer#finishRound~gameState.value",
+        "memberof": "GameServer#finishRound~gameState",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 126,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode647057258",
+                "name": "number",
+                "type": "NUMBER",
+                "node": <Object>,
+                "value": "1"
+            }
+        },
+        "undocumented": true,
+        "name": "number",
+        "kind": "member",
+        "longname": "number",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 126,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1953619005",
+                "name": "score",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "score",
+        "kind": "member",
+        "longname": "score",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 127,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1701136111",
+                "name": "number",
+                "type": "NUMBER",
+                "node": <Object>,
+                "value": "2"
+            }
+        },
+        "undocumented": true,
+        "name": "number",
+        "kind": "member",
+        "longname": "number",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 127,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1498711626",
+                "name": "score",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "score",
+        "kind": "member",
+        "longname": "score",
+        "scope": "global"
+    },
+    {
+        "comment": "/** @param {number} winnerClientId */",
+        "meta": {
+            "lineno": 145,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode748372710",
+                "name": "finishGame",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                    "winnerClientId"
+                ]
+            },
+            "vars": {
+                "gameState": false
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ],
+                    "optional": null,
+                    "nullable": null,
+                    "variable": null
+                },
+                "name": "winnerClientId"
+            }
+        ],
+        "name": "finishGame",
+        "kind": "function",
+        "memberof": "GameServer",
+        "longname": "GameServer#finishGame",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 149,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1399618007",
+                "name": "gameState",
+                "type": "OBJECTLIT",
+                "node": <Object>,
+                "value": "OBJECTLIT"
+            }
+        },
+        "undocumented": true,
+        "name": "gameState",
+        "kind": "member",
+        "memberof": "GameServer#finishGame",
+        "longname": "GameServer#finishGame~gameState",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 150,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1902942311",
+                "name": "gameState.key",
+                "type": "STRING",
+                "node": <Object>,
+                "funcscope": "GameServer#finishGame",
+                "value": "gamefinished"
+            }
+        },
+        "undocumented": true,
+        "name": "key",
+        "kind": "member",
+        "longname": "GameServer#finishGame~gameState.key",
+        "memberof": "GameServer#finishGame~gameState",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 151,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode46635017",
+                "name": "gameState.value",
+                "type": "OBJECTLIT",
+                "node": <Object>,
+                "funcscope": "GameServer#finishGame",
+                "value": "OBJECTLIT"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "kind": "member",
+        "longname": "GameServer#finishGame~gameState.value",
+        "memberof": "GameServer#finishGame~gameState",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 152,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode98474692",
+                "name": "gameState.value.message",
+                "type": "ADD",
+                "node": <Object>,
+                "funcscope": "GameServer#finishGame",
+                "value": "ADD"
+            }
+        },
+        "undocumented": true,
+        "name": "message",
+        "kind": "member",
+        "longname": "GameServer#finishGame~gameState.value.message",
+        "memberof": "GameServer#finishGame~gameState.value",
+        "scope": "static"
+    },
+    {
+        "comment": "/** @param {null} */",
+        "meta": {
+            "lineno": 160,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1024180126",
+                "name": "resetGameState",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                ]
+            },
+            "vars": {
+                "ballt": false,
+                "ta": false,
+                "tb": false,
+                "ball_z": false
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "null"
+                    ],
+                    "optional": null,
+                    "nullable": null,
+                    "variable": null
+                },
+                "name": ""
+            }
+        ],
+        "name": "resetGameState",
+        "kind": "function",
+        "memberof": "GameServer",
+        "longname": "GameServer#resetGameState",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 164,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode932500338",
+                "name": "ballt",
+                "type": "GETPROP",
+                "node": <Object>,
+                "value": "data.ball.placeable.transform"
+            }
+        },
+        "undocumented": true,
+        "name": "ballt",
+        "kind": "member",
+        "memberof": "GameServer#resetGameState",
+        "longname": "GameServer#resetGameState~ballt",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 165,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode733295628",
+                "name": "ballt.pos",
+                "type": "NAME",
+                "node": <Object>,
+                "funcscope": "GameServer#resetGameState",
+                "value": "zeroVec"
+            }
+        },
+        "undocumented": true,
+        "name": "pos",
+        "kind": "member",
+        "longname": "GameServer#resetGameState~ballt.pos",
+        "memberof": "GameServer#resetGameState~ballt",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 166,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1119029232",
+                "name": "ballt.rot",
+                "type": "NAME",
+                "node": <Object>,
+                "funcscope": "GameServer#resetGameState",
+                "value": "zeroVec"
+            }
+        },
+        "undocumented": true,
+        "name": "rot",
+        "kind": "member",
+        "longname": "GameServer#resetGameState~ballt.rot",
+        "memberof": "GameServer#resetGameState~ballt",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 167,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode839710315",
+                "name": "data.ball.placeable.transform",
+                "type": "NAME",
+                "node": <Object>,
+                "value": "ballt"
+            }
+        },
+        "undocumented": true,
+        "name": "transform",
+        "kind": "member",
+        "memberof": "data.ball.placeable",
+        "longname": "data.ball.placeable.transform",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 173,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode249253794",
+                "name": "ta",
+                "type": "GETPROP",
+                "node": <Object>,
+                "value": "data.p1_bat.placeable.transform"
+            }
+        },
+        "undocumented": true,
+        "name": "ta",
+        "kind": "member",
+        "memberof": "GameServer#resetGameState",
+        "longname": "GameServer#resetGameState~ta",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 174,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1608577782",
+                "name": "tb",
+                "type": "GETPROP",
+                "node": <Object>,
+                "value": "data.p2_bat.placeable.transform"
+            }
+        },
+        "undocumented": true,
+        "name": "tb",
+        "kind": "member",
+        "memberof": "GameServer#resetGameState",
+        "longname": "GameServer#resetGameState~tb",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 175,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode627418050",
+                "name": "ball_z",
+                "type": "GETPROP",
+                "node": <Object>,
+                "value": "data.ball.placeable.transform.pos.z"
+            }
+        },
+        "undocumented": true,
+        "name": "ball_z",
+        "kind": "member",
+        "memberof": "GameServer#resetGameState",
+        "longname": "GameServer#resetGameState~ball_z",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 176,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode431709193",
+                "name": "ta.pos.y",
+                "type": "NAME",
+                "node": <Object>,
+                "funcscope": "GameServer#resetGameState",
+                "value": "ball_y"
+            }
+        },
+        "undocumented": true,
+        "name": "y",
+        "kind": "member",
+        "longname": "GameServer#resetGameState~ta.pos.y",
+        "memberof": "GameServer#resetGameState~ta.pos",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 177,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1871151428",
+                "name": "tb.pos.y",
+                "type": "NAME",
+                "node": <Object>,
+                "funcscope": "GameServer#resetGameState",
+                "value": "ball_y"
+            }
+        },
+        "undocumented": true,
+        "name": "y",
+        "kind": "member",
+        "longname": "GameServer#resetGameState~tb.pos.y",
+        "memberof": "GameServer#resetGameState~tb.pos",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 178,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode368345698",
+                "name": "data.p1_bat.placeable.transform",
+                "type": "NAME",
+                "node": <Object>,
+                "value": "ta"
+            }
+        },
+        "undocumented": true,
+        "name": "transform",
+        "kind": "member",
+        "memberof": "data.p1_bat.placeable",
+        "longname": "data.p1_bat.placeable.transform",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 179,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode2106971390",
+                "name": "data.p2_bat.placeable.transform",
+                "type": "NAME",
+                "node": <Object>,
+                "value": "tb"
+            }
+        },
+        "undocumented": true,
+        "name": "transform",
+        "kind": "member",
+        "memberof": "data.p2_bat.placeable",
+        "longname": "data.p2_bat.placeable.transform",
+        "scope": "static"
+    },
+    {
+        "comment": "/** @param {number} frametime The time elapsed since previous frame. */",
+        "meta": {
+            "lineno": 183,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode2109759485",
+                "name": "updateGame",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                    "frametime"
+                ]
+            },
+            "vars": {
+                "t_p1": false,
+                "t_p2": false,
+                "t_b": false,
+                "p_p1": false,
+                "p_p2": false,
+                "p_b": false,
+                "r_b": false,
+                "velVec": false
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ],
+                    "optional": null,
+                    "nullable": null,
+                    "variable": null
+                },
+                "name": "frametime",
+                "description": "The time elapsed since previous frame."
+            }
+        ],
+        "name": "updateGame",
+        "kind": "function",
+        "memberof": "GameServer",
+        "longname": "GameServer#updateGame",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 189,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode367145653",
+                "name": "t_p1",
+                "type": "GETPROP",
+                "node": <Object>,
+                "value": "data.p1_bat.placeable.transform"
+            }
+        },
+        "undocumented": true,
+        "name": "t_p1",
+        "kind": "member",
+        "memberof": "GameServer#updateGame",
+        "longname": "GameServer#updateGame~t_p1",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 190,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode261989628",
+                "name": "t_p2",
+                "type": "GETPROP",
+                "node": <Object>,
+                "value": "data.p2_bat.placeable.transform"
+            }
+        },
+        "undocumented": true,
+        "name": "t_p2",
+        "kind": "member",
+        "memberof": "GameServer#updateGame",
+        "longname": "GameServer#updateGame~t_p2",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 191,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode394215580",
+                "name": "t_b",
+                "type": "GETPROP",
+                "node": <Object>,
+                "value": "data.ball.placeable.transform"
+            }
+        },
+        "undocumented": true,
+        "name": "t_b",
+        "kind": "member",
+        "memberof": "GameServer#updateGame",
+        "longname": "GameServer#updateGame~t_b",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 192,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode955147905",
+                "name": "p_p1",
+                "type": "GETPROP",
+                "node": <Object>,
+                "value": "t_p1.pos"
+            }
+        },
+        "undocumented": true,
+        "name": "p_p1",
+        "kind": "member",
+        "memberof": "GameServer#updateGame",
+        "longname": "GameServer#updateGame~p_p1",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 193,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1660604171",
+                "name": "p_p2",
+                "type": "GETPROP",
+                "node": <Object>,
+                "value": "t_p2.pos"
+            }
+        },
+        "undocumented": true,
+        "name": "p_p2",
+        "kind": "member",
+        "memberof": "GameServer#updateGame",
+        "longname": "GameServer#updateGame~p_p2",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 194,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1362913826",
+                "name": "p_b",
+                "type": "GETPROP",
+                "node": <Object>,
+                "value": "t_b.pos"
+            }
+        },
+        "undocumented": true,
+        "name": "p_b",
+        "kind": "member",
+        "memberof": "GameServer#updateGame",
+        "longname": "GameServer#updateGame~p_b",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 195,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode218571184",
+                "name": "r_b",
+                "type": "GETPROP",
+                "node": <Object>,
+                "value": "data.ball.rigidbody"
+            }
+        },
+        "undocumented": true,
+        "name": "r_b",
+        "kind": "member",
+        "memberof": "GameServer#updateGame",
+        "longname": "GameServer#updateGame~r_b",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 203,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode204425426",
+                "name": "data.gameTimeIter",
+                "type": "NUMBER",
+                "node": <Object>,
+                "value": "0.0"
+            }
+        },
+        "undocumented": true,
+        "name": "gameTimeIter",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.gameTimeIter",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 207,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1295807352",
+                "name": "velVec",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "velVec",
+        "kind": "member",
+        "memberof": "GameServer#updateGame",
+        "longname": "GameServer#updateGame~velVec",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 208,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode2022356744",
+                "name": "velVec",
+                "type": "CALL",
+                "node": <Object>,
+                "funcscope": "GameServer#updateGame",
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "velVec",
+        "kind": "member",
+        "longname": "GameServer#updateGame~velVec",
+        "memberof": "GameServer#updateGame",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 214,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode307988519",
+                "name": "t_p1.pos.y",
+                "type": "GETPROP",
+                "node": <Object>,
+                "funcscope": "GameServer#updateGame",
+                "value": "p_b.y"
+            }
+        },
+        "undocumented": true,
+        "name": "y",
+        "kind": "member",
+        "longname": "GameServer#updateGame~t_p1.pos.y",
+        "memberof": "GameServer#updateGame~t_p1.pos",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 216,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode282106579",
+                "name": "t_p1.pos.y",
+                "type": "NUMBER",
+                "node": <Object>,
+                "funcscope": "GameServer#updateGame",
+                "value": "10.0"
+            }
+        },
+        "undocumented": true,
+        "name": "y",
+        "kind": "member",
+        "longname": "GameServer#updateGame~t_p1.pos.y",
+        "memberof": "GameServer#updateGame~t_p1.pos",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 218,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1113757163",
+                "name": "t_p1.pos.y",
+                "type": "NEG",
+                "node": <Object>,
+                "funcscope": "GameServer#updateGame",
+                "value": "-10"
+            }
+        },
+        "undocumented": true,
+        "name": "y",
+        "kind": "member",
+        "longname": "GameServer#updateGame~t_p1.pos.y",
+        "memberof": "GameServer#updateGame~t_p1.pos",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 219,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode2138123066",
+                "name": "data.p1_bat.placeable.transform",
+                "type": "NAME",
+                "node": <Object>,
+                "value": "t_p1"
+            }
+        },
+        "undocumented": true,
+        "name": "transform",
+        "kind": "member",
+        "memberof": "data.p1_bat.placeable",
+        "longname": "data.p1_bat.placeable.transform",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 223,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode621631806",
+                "name": "t_p2.pos.y",
+                "type": "GETPROP",
+                "node": <Object>,
+                "funcscope": "GameServer#updateGame",
+                "value": "p_b.y"
+            }
+        },
+        "undocumented": true,
+        "name": "y",
+        "kind": "member",
+        "longname": "GameServer#updateGame~t_p2.pos.y",
+        "memberof": "GameServer#updateGame~t_p2.pos",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 225,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode127368091",
+                "name": "t_p2.pos.y",
+                "type": "NUMBER",
+                "node": <Object>,
+                "funcscope": "GameServer#updateGame",
+                "value": "10.0"
+            }
+        },
+        "undocumented": true,
+        "name": "y",
+        "kind": "member",
+        "longname": "GameServer#updateGame~t_p2.pos.y",
+        "memberof": "GameServer#updateGame~t_p2.pos",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 227,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode939355114",
+                "name": "t_p2.pos.y",
+                "type": "NEG",
+                "node": <Object>,
+                "funcscope": "GameServer#updateGame",
+                "value": "-10"
+            }
+        },
+        "undocumented": true,
+        "name": "y",
+        "kind": "member",
+        "longname": "GameServer#updateGame~t_p2.pos.y",
+        "memberof": "GameServer#updateGame~t_p2.pos",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 228,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1083228271",
+                "name": "data.p2_bat.placeable.transform",
+                "type": "NAME",
+                "node": <Object>,
+                "value": "t_p2"
+            }
+        },
+        "undocumented": true,
+        "name": "transform",
+        "kind": "member",
+        "memberof": "data.p2_bat.placeable",
+        "longname": "data.p2_bat.placeable.transform",
+        "scope": "static"
+    },
+    {
+        "comment": "/** @param {number} clientId */",
+        "meta": {
+            "lineno": 244,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode853323835",
+                "name": "onClientJoin",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                    "clientId"
+                ]
+            },
+            "vars": {
+                "response": false,
+                "infoStartGame": false
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ],
+                    "optional": null,
+                    "nullable": null,
+                    "variable": null
+                },
+                "name": "clientId"
+            }
+        ],
+        "name": "onClientJoin",
+        "kind": "function",
+        "memberof": "GameServer",
+        "longname": "GameServer#onClientJoin",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**number*/",
+        "meta": {
+            "lineno": 246,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1773272052",
+                "name": "response",
+                "type": "OBJECTLIT",
+                "node": <Object>,
+                "value": "OBJECTLIT"
+            }
+        },
+        "description": "number",
+        "name": "response",
+        "kind": "member",
+        "memberof": "GameServer#onClientJoin",
+        "longname": "GameServer#onClientJoin~response",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 247,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1065524847",
+                "name": "response.key",
+                "type": "STRING",
+                "node": <Object>,
+                "funcscope": "GameServer#onClientJoin",
+                "value": "clientjoin"
+            }
+        },
+        "undocumented": true,
+        "name": "key",
+        "kind": "member",
+        "longname": "GameServer#onClientJoin~response.key",
+        "memberof": "GameServer#onClientJoin~response",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 248,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode696318316",
+                "name": "response.value",
+                "type": "OBJECTLIT",
+                "node": <Object>,
+                "funcscope": "GameServer#onClientJoin",
+                "value": "OBJECTLIT"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "kind": "member",
+        "longname": "GameServer#onClientJoin~response.value",
+        "memberof": "GameServer#onClientJoin~response",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 252,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1098401293",
+                "name": "data.p1_client_id",
+                "type": "NAME",
+                "node": <Object>,
+                "value": "clientId"
+            }
+        },
+        "undocumented": true,
+        "name": "p1_client_id",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.p1_client_id",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 253,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1925661675",
+                "name": "response.value.result",
+                "type": "TRUE",
+                "node": <Object>,
+                "funcscope": "GameServer#onClientJoin",
+                "value": "true"
+            }
+        },
+        "undocumented": true,
+        "name": "result",
+        "kind": "member",
+        "longname": "GameServer#onClientJoin~response.value.result",
+        "memberof": "GameServer#onClientJoin~response.value",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 254,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode809606405",
+                "name": "response.value.number",
+                "type": "NUMBER",
+                "node": <Object>,
+                "funcscope": "GameServer#onClientJoin",
+                "value": "1"
+            }
+        },
+        "undocumented": true,
+        "name": "number",
+        "kind": "member",
+        "longname": "GameServer#onClientJoin~response.value.number",
+        "memberof": "GameServer#onClientJoin~response.value",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 258,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1076292089",
+                "name": "data.p2_client_id",
+                "type": "NAME",
+                "node": <Object>,
+                "value": "clientId"
+            }
+        },
+        "undocumented": true,
+        "name": "p2_client_id",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.p2_client_id",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 259,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1470619087",
+                "name": "response.value.result",
+                "type": "TRUE",
+                "node": <Object>,
+                "funcscope": "GameServer#onClientJoin",
+                "value": "true"
+            }
+        },
+        "undocumented": true,
+        "name": "result",
+        "kind": "member",
+        "longname": "GameServer#onClientJoin~response.value.result",
+        "memberof": "GameServer#onClientJoin~response.value",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 260,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode126273328",
+                "name": "response.value.number",
+                "type": "NUMBER",
+                "node": <Object>,
+                "funcscope": "GameServer#onClientJoin",
+                "value": "2"
+            }
+        },
+        "undocumented": true,
+        "name": "number",
+        "kind": "member",
+        "longname": "GameServer#onClientJoin~response.value.number",
+        "memberof": "GameServer#onClientJoin~response.value",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 264,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1477638638",
+                "name": "response.value.result",
+                "type": "FALSE",
+                "node": <Object>,
+                "funcscope": "GameServer#onClientJoin",
+                "value": "false"
+            }
+        },
+        "undocumented": true,
+        "name": "result",
+        "kind": "member",
+        "longname": "GameServer#onClientJoin~response.value.result",
+        "memberof": "GameServer#onClientJoin~response.value",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 265,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode330326081",
+                "name": "response.value.number",
+                "type": "NUMBER",
+                "node": <Object>,
+                "funcscope": "GameServer#onClientJoin",
+                "value": "0"
+            }
+        },
+        "undocumented": true,
+        "name": "number",
+        "kind": "member",
+        "longname": "GameServer#onClientJoin~response.value.number",
+        "memberof": "GameServer#onClientJoin~response.value",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 268,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1854196745",
+                "name": "response.value.id",
+                "type": "NAME",
+                "node": <Object>,
+                "funcscope": "GameServer#onClientJoin",
+                "value": "clientId"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "kind": "member",
+        "longname": "GameServer#onClientJoin~response.value.id",
+        "memberof": "GameServer#onClientJoin~response.value",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 269,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1972907969",
+                "name": "response.value.name",
+                "type": "CALL",
+                "node": <Object>,
+                "funcscope": "GameServer#onClientJoin",
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "kind": "member",
+        "longname": "GameServer#onClientJoin~response.value.name",
+        "memberof": "GameServer#onClientJoin~response.value",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 277,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1239943370",
+                "name": "infoStartGame",
+                "type": "OBJECTLIT",
+                "node": <Object>,
+                "value": "OBJECTLIT"
+            }
+        },
+        "undocumented": true,
+        "name": "infoStartGame",
+        "kind": "member",
+        "memberof": "GameServer#onClientJoin",
+        "longname": "GameServer#onClientJoin~infoStartGame",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 278,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode671268154",
+                "name": "infoStartGame.key",
+                "type": "STRING",
+                "node": <Object>,
+                "funcscope": "GameServer#onClientJoin",
+                "value": "startgame"
+            }
+        },
+        "undocumented": true,
+        "name": "key",
+        "kind": "member",
+        "longname": "GameServer#onClientJoin~infoStartGame.key",
+        "memberof": "GameServer#onClientJoin~infoStartGame",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 279,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1680266759",
+                "name": "infoStartGame.value",
+                "type": "ARRAYLIT",
+                "node": <Object>,
+                "funcscope": "GameServer#onClientJoin",
+                "value": "ARRAYLIT"
+            }
+        },
+        "undocumented": true,
+        "name": "value",
+        "kind": "member",
+        "longname": "GameServer#onClientJoin~infoStartGame.value",
+        "memberof": "GameServer#onClientJoin~infoStartGame",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 279,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1734735672",
+                "name": "id",
+                "type": "GETPROP",
+                "node": <Object>,
+                "value": "data.p1_client_id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "kind": "member",
+        "longname": "id",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 279,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1313793803",
+                "name": "name",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "kind": "member",
+        "longname": "name",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 280,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1981738037",
+                "name": "id",
+                "type": "GETPROP",
+                "node": <Object>,
+                "value": "data.p2_client_id"
+            }
+        },
+        "undocumented": true,
+        "name": "id",
+        "kind": "member",
+        "longname": "id",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 280,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode2047706572",
+                "name": "name",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "name",
+        "kind": "member",
+        "longname": "name",
+        "scope": "global"
+    },
+    {
+        "comment": "/** \n     * @param {number} clientId The id of the client that moved.\n     * @param {string} direction constant for the movement direction (\"up\" / \"down\")\n     */",
+        "meta": {
+            "lineno": 290,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode530654357",
+                "name": "onClientMovement",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                    "clientId",
+                    "direction"
+                ]
+            },
+            "vars": {
+                "bat": false,
+                "t": false
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "number"
+                    ],
+                    "optional": null,
+                    "nullable": null,
+                    "variable": null
+                },
+                "name": "clientId",
+                "description": "The id of the client that moved."
+            },
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ],
+                    "optional": null,
+                    "nullable": null,
+                    "variable": null
+                },
+                "name": "direction",
+                "description": "constant for the movement direction (\"up\" / \"down\")"
+            }
+        ],
+        "name": "onClientMovement",
+        "kind": "function",
+        "memberof": "GameServer",
+        "longname": "GameServer#onClientMovement",
+        "scope": "instance"
+    },
+    {
+        "comment": "/**string*/",
+        "meta": {
+            "lineno": 295,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1812053476",
+                "name": "bat",
+                "type": "NULL",
+                "node": <Object>,
+                "value": "NULL"
+            }
+        },
+        "description": "string",
+        "name": "bat",
+        "kind": "member",
+        "memberof": "GameServer#onClientMovement",
+        "longname": "GameServer#onClientMovement~bat",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 297,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode494299142",
+                "name": "bat",
+                "type": "GETPROP",
+                "node": <Object>,
+                "funcscope": "GameServer#onClientMovement",
+                "value": "data.p1_bat"
+            }
+        },
+        "undocumented": true,
+        "name": "bat",
+        "kind": "member",
+        "longname": "GameServer#onClientMovement~bat",
+        "memberof": "GameServer#onClientMovement",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 299,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode969886252",
+                "name": "bat",
+                "type": "GETPROP",
+                "node": <Object>,
+                "funcscope": "GameServer#onClientMovement",
+                "value": "data.p2_bat"
+            }
+        },
+        "undocumented": true,
+        "name": "bat",
+        "kind": "member",
+        "longname": "GameServer#onClientMovement~bat",
+        "memberof": "GameServer#onClientMovement",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 303,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode2007882585",
+                "name": "t",
+                "type": "GETPROP",
+                "node": <Object>,
+                "value": "bat.placeable.transform"
+            }
+        },
+        "undocumented": true,
+        "name": "t",
+        "kind": "member",
+        "memberof": "GameServer#onClientMovement",
+        "longname": "GameServer#onClientMovement~t",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 309,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode176271867",
+                "name": "t.pos.y",
+                "type": "NUMBER",
+                "node": <Object>,
+                "funcscope": "GameServer#onClientMovement",
+                "value": "10.0"
+            }
+        },
+        "undocumented": true,
+        "name": "y",
+        "kind": "member",
+        "longname": "GameServer#onClientMovement~t.pos.y",
+        "memberof": "GameServer#onClientMovement~t.pos",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 311,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1843518171",
+                "name": "t.pos.y",
+                "type": "NEG",
+                "node": <Object>,
+                "funcscope": "GameServer#onClientMovement",
+                "value": "-10"
+            }
+        },
+        "undocumented": true,
+        "name": "y",
+        "kind": "member",
+        "longname": "GameServer#onClientMovement~t.pos.y",
+        "memberof": "GameServer#onClientMovement~t.pos",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 312,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1225898256",
+                "name": "bat.placeable.transform",
+                "type": "NAME",
+                "node": <Object>,
+                "funcscope": "GameServer#onClientMovement",
+                "value": "t"
+            }
+        },
+        "undocumented": true,
+        "name": "transform",
+        "kind": "member",
+        "longname": "GameServer#onClientMovement~bat.placeable.transform",
+        "memberof": "GameServer#onClientMovement~bat.placeable",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 316,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1510130526",
+                "name": "GameClient",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "GameClient",
+        "kind": "member",
+        "longname": "GameClient",
+        "scope": "global"
+    },
+    {
+        "comment": "/**\n     * @constructs\n     */",
+        "meta": {
+            "lineno": 322,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode2086340200",
+                "name": "init",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                ]
+            }
+        },
+        "alias": "GameClient",
+        "kind": "class",
+        "name": "GameClient",
+        "longname": "GameClient",
+        "scope": "global"
+    },
+    {
+        "comment": "/** @type {array} gameData The game data dict */",
+        "meta": {
+            "lineno": 325,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode477108775",
+                "name": "this.gameData",
+                "type": "OBJECTLIT",
+                "node": <Object>,
+                "value": "OBJECTLIT"
+            }
+        },
+        "type": {
+            "names": [
+                "{array} gameData The game data dict"
+            ],
+            "optional": null,
+            "nullable": null,
+            "variable": null
+        },
+        "name": "gameData",
+        "kind": "member",
+        "memberof": "GameClient",
+        "longname": "GameClient#gameData",
+        "scope": "instance"
+    },
+    {
+        "comment": "/** @type {number} myId The connection ID */",
+        "meta": {
+            "lineno": 328,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode2077036671",
+                "name": "this.gameData.myId",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "type": {
+            "names": [
+                "{number} myId The connection ID"
+            ],
+            "optional": null,
+            "nullable": null,
+            "variable": null
+        },
+        "name": "myId",
+        "kind": "member",
+        "memberof": "GameClient#gameData",
+        "longname": "GameClient#gameData.myId",
+        "scope": "static"
+    },
+    {
+        "comment": "/** @property {boolean} running */",
+        "meta": {
+            "lineno": 331,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1279009656",
+                "name": "this.gameData.running",
+                "type": "FALSE",
+                "node": <Object>,
+                "value": "false"
+            }
+        },
+        "properties": [
+            {
+                "type": {
+                    "names": [
+                        "boolean"
+                    ],
+                    "optional": null,
+                    "nullable": null,
+                    "variable": null
+                },
+                "description": "",
+                "name": "running"
+            }
+        ],
+        "name": "running",
+        "kind": "member",
+        "memberof": "GameClient#gameData",
+        "longname": "GameClient#gameData.running",
+        "scope": "static"
+    },
+    {
+        "comment": "/** @param {null} */",
+        "meta": {
+            "lineno": 340,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode352169997",
+                "name": "initUi",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                ]
+            },
+            "vars": {
+                "widget": false
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "null"
+                    ],
+                    "optional": null,
+                    "nullable": null,
+                    "variable": null
+                },
+                "name": ""
+            }
+        ],
+        "name": "initUi",
+        "kind": "function",
+        "memberof": "GameClient",
+        "longname": "GameClient#initUi",
+        "scope": "instance"
+    },
+    {
+        "comment": "/** @property {UiWidget} widget The GUI widget ('HUD' (?)) */",
+        "meta": {
+            "lineno": 343,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode978748939",
+                "name": "widget",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "properties": [
+            {
+                "type": {
+                    "names": [
+                        "UiWidget"
+                    ],
+                    "optional": null,
+                    "nullable": null,
+                    "variable": null
+                },
+                "description": "The GUI widget ('HUD' (?))",
+                "name": "widget"
+            }
+        ],
+        "name": "widget",
+        "kind": "member",
+        "memberof": "GameClient#initUi",
+        "longname": "GameClient#initUi~widget",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 349,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1253122721",
+                "name": "this.gameData.widget",
+                "type": "NAME",
+                "node": <Object>,
+                "value": "widget"
+            }
+        },
+        "undocumented": true,
+        "name": "widget",
+        "kind": "member",
+        "memberof": "GameClient#gameData",
+        "longname": "GameClient#gameData.widget",
+        "scope": "static"
+    },
+    {
+        "comment": "/** @method */",
+        "meta": {
+            "lineno": 356,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode2130917999",
+                "name": "resetClient",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                ]
+            }
+        },
+        "kind": "function",
+        "name": "resetClient",
+        "memberof": "GameClient",
+        "longname": "GameClient#resetClient",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 358,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode650519471",
+                "name": "data.widget.p1_name.text",
+                "type": "STRING",
+                "node": <Object>
+            }
+        },
+        "undocumented": true,
+        "name": "text",
+        "kind": "member",
+        "memberof": "data.widget.p1_name",
+        "longname": "data.widget.p1_name.text",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 359,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1028854205",
+                "name": "data.widget.p2_name.text",
+                "type": "STRING",
+                "node": <Object>
+            }
+        },
+        "undocumented": true,
+        "name": "text",
+        "kind": "member",
+        "memberof": "data.widget.p2_name",
+        "longname": "data.widget.p2_name.text",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 360,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode130437654",
+                "name": "data.widget.p1_score.text",
+                "type": "STRING",
+                "node": <Object>,
+                "value": "0"
+            }
+        },
+        "undocumented": true,
+        "name": "text",
+        "kind": "member",
+        "memberof": "data.widget.p1_score",
+        "longname": "data.widget.p1_score.text",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 361,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1239171647",
+                "name": "data.widget.p2_score.text",
+                "type": "STRING",
+                "node": <Object>,
+                "value": "0"
+            }
+        },
+        "undocumented": true,
+        "name": "text",
+        "kind": "member",
+        "memberof": "data.widget.p2_score",
+        "longname": "data.widget.p2_score.text",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 362,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1259252154",
+                "name": "data.widget.button_join.enabled",
+                "type": "TRUE",
+                "node": <Object>,
+                "value": "true"
+            }
+        },
+        "undocumented": true,
+        "name": "enabled",
+        "kind": "member",
+        "memberof": "data.widget.button_join",
+        "longname": "data.widget.button_join.enabled",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 363,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1176734279",
+                "name": "data.widget.button_add_cpu.enabled",
+                "type": "TRUE",
+                "node": <Object>,
+                "value": "true"
+            }
+        },
+        "undocumented": true,
+        "name": "enabled",
+        "kind": "member",
+        "memberof": "data.widget.button_add_cpu",
+        "longname": "data.widget.button_add_cpu.enabled",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 364,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode46675819",
+                "name": "this.gameData.running",
+                "type": "FALSE",
+                "node": <Object>,
+                "value": "false"
+            }
+        },
+        "undocumented": true,
+        "name": "running",
+        "kind": "member",
+        "memberof": "GameClient#gameData",
+        "longname": "GameClient#gameData.running",
+        "scope": "static"
+    },
+    {
+        "comment": "/** @method */",
+        "meta": {
+            "lineno": 368,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode2128222380",
+                "name": "joinGamePushed",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                ]
+            },
+            "vars": {
+                "inputMapper": false
+            }
+        },
+        "kind": "function",
+        "name": "joinGamePushed",
+        "memberof": "GameClient",
+        "longname": "GameClient#joinGamePushed",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 376,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1395932880",
+                "name": "inputMapper",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "inputMapper",
+        "kind": "member",
+        "memberof": "GameClient#joinGamePushed",
+        "longname": "GameClient#joinGamePushed~inputMapper",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 377,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode926681939",
+                "name": "inputMapper.contextPriority",
+                "type": "NUMBER",
+                "node": <Object>,
+                "funcscope": "GameClient#joinGamePushed",
+                "value": "101"
+            }
+        },
+        "undocumented": true,
+        "name": "contextPriority",
+        "kind": "member",
+        "longname": "GameClient#joinGamePushed~inputMapper.contextPriority",
+        "memberof": "GameClient#joinGamePushed~inputMapper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 378,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode194160712",
+                "name": "inputMapper.takeMouseEventsOverQt",
+                "type": "FALSE",
+                "node": <Object>,
+                "funcscope": "GameClient#joinGamePushed",
+                "value": "false"
+            }
+        },
+        "undocumented": true,
+        "name": "takeMouseEventsOverQt",
+        "kind": "member",
+        "longname": "GameClient#joinGamePushed~inputMapper.takeMouseEventsOverQt",
+        "memberof": "GameClient#joinGamePushed~inputMapper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 379,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode748134027",
+                "name": "inputMapper.takeKeyboardEventsOverQt",
+                "type": "FALSE",
+                "node": <Object>,
+                "funcscope": "GameClient#joinGamePushed",
+                "value": "false"
+            }
+        },
+        "undocumented": true,
+        "name": "takeKeyboardEventsOverQt",
+        "kind": "member",
+        "longname": "GameClient#joinGamePushed~inputMapper.takeKeyboardEventsOverQt",
+        "memberof": "GameClient#joinGamePushed~inputMapper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 380,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1108966327",
+                "name": "inputMapper.modifiersEnabled",
+                "type": "FALSE",
+                "node": <Object>,
+                "funcscope": "GameClient#joinGamePushed",
+                "value": "false"
+            }
+        },
+        "undocumented": true,
+        "name": "modifiersEnabled",
+        "kind": "member",
+        "longname": "GameClient#joinGamePushed~inputMapper.modifiersEnabled",
+        "memberof": "GameClient#joinGamePushed~inputMapper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 381,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1752942745",
+                "name": "inputMapper.keyrepeatTrigger",
+                "type": "TRUE",
+                "node": <Object>,
+                "funcscope": "GameClient#joinGamePushed",
+                "value": "true"
+            }
+        },
+        "undocumented": true,
+        "name": "keyrepeatTrigger",
+        "kind": "member",
+        "longname": "GameClient#joinGamePushed~inputMapper.keyrepeatTrigger",
+        "memberof": "GameClient#joinGamePushed~inputMapper",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 382,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1342544436",
+                "name": "inputMapper.executionType",
+                "type": "NUMBER",
+                "node": <Object>,
+                "funcscope": "GameClient#joinGamePushed",
+                "value": "1"
+            }
+        },
+        "undocumented": true,
+        "name": "executionType",
+        "kind": "member",
+        "longname": "GameClient#joinGamePushed~inputMapper.executionType",
+        "memberof": "GameClient#joinGamePushed~inputMapper",
+        "scope": "static"
+    },
+    {
+        "comment": "/** @method */",
+        "meta": {
+            "lineno": 391,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode581536050",
+                "name": "addCpuPlayer",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                ]
+            }
+        },
+        "kind": "function",
+        "name": "addCpuPlayer",
+        "memberof": "GameClient",
+        "longname": "GameClient#addCpuPlayer",
+        "scope": "instance"
+    },
+    {
+        "comment": "/** \n     * @method\n     * @param {string} direction The movement direction string constant (\"up\"/\"down\")\n     */",
+        "meta": {
+            "lineno": 403,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1594536095",
+                "name": "onMovement",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                    "direction"
+                ]
+            }
+        },
+        "kind": "function",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ],
+                    "optional": null,
+                    "nullable": null,
+                    "variable": null
+                },
+                "name": "direction",
+                "description": "The movement direction string constant (\"up\"/\"down\")"
+            }
+        ],
+        "name": "onMovement",
+        "memberof": "GameClient",
+        "longname": "GameClient#onMovement",
+        "scope": "instance"
+    },
+    {
+        "comment": "/** \n     * @method\n     * @param {string} jsonData\n     */",
+        "meta": {
+            "lineno": 415,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode108966758",
+                "name": "onServerData",
+                "type": "FUNCTION",
+                "node": <Object>,
+                "value": "FUNCTION",
+                "paramnames": [
+                    "jsonData"
+                ]
+            },
+            "vars": {
+                "sd": false,
+                "myIdString": false,
+                "i": false,
+                "playerstate": false,
+                "player": false
+            }
+        },
+        "kind": "function",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "string"
+                    ],
+                    "optional": null,
+                    "nullable": null,
+                    "variable": null
+                },
+                "name": "jsonData"
+            }
+        ],
+        "name": "onServerData",
+        "memberof": "GameClient",
+        "longname": "GameClient#onServerData",
+        "scope": "instance"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 417,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode705344580",
+                "name": "sd",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "sd",
+        "kind": "member",
+        "memberof": "GameClient#onServerData",
+        "longname": "GameClient#onServerData~sd",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 418,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode2001391565",
+                "name": "myIdString",
+                "type": "CALL",
+                "node": <Object>,
+                "value": "CALL"
+            }
+        },
+        "undocumented": true,
+        "name": "myIdString",
+        "kind": "member",
+        "memberof": "GameClient#onServerData",
+        "longname": "GameClient#onServerData~myIdString",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 427,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1435571192",
+                "name": "data.widget.button_join.enabled",
+                "type": "FALSE",
+                "node": <Object>,
+                "value": "false"
+            }
+        },
+        "undocumented": true,
+        "name": "enabled",
+        "kind": "member",
+        "memberof": "data.widget.button_join",
+        "longname": "data.widget.button_join.enabled",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 436,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode139732265",
+                "name": "data.widget.label_status.text",
+                "type": "STRING",
+                "node": <Object>,
+                "value": "Waiting for player 1"
+            }
+        },
+        "undocumented": true,
+        "name": "text",
+        "kind": "member",
+        "memberof": "data.widget.label_status",
+        "longname": "data.widget.label_status.text",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 438,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode249895724",
+                "name": "data.widget.label_status.text",
+                "type": "STRING",
+                "node": <Object>,
+                "value": "Waiting for player 2"
+            }
+        },
+        "undocumented": true,
+        "name": "text",
+        "kind": "member",
+        "memberof": "data.widget.label_status",
+        "longname": "data.widget.label_status.text",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 445,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode921745400",
+                "name": "i",
+                "type": "undefined",
+                "node": <Object>,
+                "value": "i"
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "kind": "member",
+        "memberof": "GameClient#onServerData",
+        "longname": "GameClient#onServerData~i",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 447,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode315976503",
+                "name": "playerstate",
+                "type": "GETELEM",
+                "node": <Object>,
+                "value": "sd.value[i]"
+            }
+        },
+        "undocumented": true,
+        "name": "playerstate",
+        "kind": "member",
+        "memberof": "GameClient#onServerData",
+        "longname": "GameClient#onServerData~playerstate",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 454,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode763161750",
+                "name": "data.widget.label_status.text",
+                "type": "GETPROP",
+                "node": <Object>,
+                "value": "sd.value.message"
+            }
+        },
+        "undocumented": true,
+        "name": "text",
+        "kind": "member",
+        "memberof": "data.widget.label_status",
+        "longname": "data.widget.label_status.text",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 461,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode2138196637",
+                "name": "data.widget.button_join.enabled",
+                "type": "FALSE",
+                "node": <Object>,
+                "value": "false"
+            }
+        },
+        "undocumented": true,
+        "name": "enabled",
+        "kind": "member",
+        "memberof": "data.widget.button_join",
+        "longname": "data.widget.button_join.enabled",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 462,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1753896075",
+                "name": "data.widget.button_add_cpu.enabled",
+                "type": "FALSE",
+                "node": <Object>,
+                "value": "false"
+            }
+        },
+        "undocumented": true,
+        "name": "enabled",
+        "kind": "member",
+        "memberof": "data.widget.button_add_cpu",
+        "longname": "data.widget.button_add_cpu.enabled",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 464,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1818873899",
+                "name": "i",
+                "type": "undefined",
+                "node": <Object>,
+                "value": "i"
+            }
+        },
+        "undocumented": true,
+        "name": "i",
+        "kind": "member",
+        "memberof": "GameClient#onServerData",
+        "longname": "GameClient#onServerData~i",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 466,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1257988948",
+                "name": "player",
+                "type": "GETELEM",
+                "node": <Object>,
+                "value": "sd.value[i]"
+            }
+        },
+        "undocumented": true,
+        "name": "player",
+        "kind": "member",
+        "memberof": "GameClient#onServerData",
+        "longname": "GameClient#onServerData~player",
+        "scope": "inner"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 470,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1564374351",
+                "name": "data.running",
+                "type": "TRUE",
+                "node": <Object>,
+                "value": "true"
+            }
+        },
+        "undocumented": true,
+        "name": "running",
+        "kind": "member",
+        "memberof": "data",
+        "longname": "data.running",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 474,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1118841128",
+                "name": "data.widget.label_status.text",
+                "type": "STRING",
+                "node": <Object>,
+                "value": "Game ongoing"
+            }
+        },
+        "undocumented": true,
+        "name": "text",
+        "kind": "member",
+        "memberof": "data.widget.label_status",
+        "longname": "data.widget.label_status.text",
+        "scope": "static"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 481,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode16094127",
+                "name": "gameServer",
+                "type": "NEW",
+                "node": <Object>,
+                "value": "NEW"
+            }
+        },
+        "undocumented": true,
+        "name": "gameServer",
+        "kind": "member",
+        "longname": "gameServer",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 482,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1863318328",
+                "name": "data",
+                "type": "GETPROP",
+                "node": <Object>,
+                "value": "gameServer.gameData"
+            }
+        },
+        "undocumented": true,
+        "name": "data",
+        "kind": "member",
+        "longname": "data",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 488,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode1013059835",
+                "name": "gameClient",
+                "type": "NEW",
+                "node": <Object>,
+                "value": "NEW"
+            }
+        },
+        "undocumented": true,
+        "name": "gameClient",
+        "kind": "member",
+        "longname": "gameClient",
+        "scope": "global"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "lineno": 489,
+            "path": "../doc/netgames/PongMultiplayer/assets",
+            "filename": "game.js",
+            "code": {
+                "id": "astnode2045652012",
+                "name": "data",
+                "type": "GETPROP",
+                "node": <Object>,
+                "value": "gameClient.gameData"
+            }
+        },
+        "undocumented": true,
+        "name": "data",
+        "kind": "member",
+        "longname": "data",
+        "scope": "global"
+    },
+    {
+        "files": [
+            "../doc/netgames/PongMultiplayer/assets/game.js"
+        ],
+        "kind": "package",
+        "name": undefined,
+        "longname": "package:undefined",
+        "description": undefined,
+        "version": undefined,
+        "licenses": undefined
+    }
+]
