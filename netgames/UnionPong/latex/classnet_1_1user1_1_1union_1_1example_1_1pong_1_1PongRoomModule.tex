@@ -1,0 +1,119 @@
+\hypertarget{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule}{\section{net.\-user1.\-union.\-example.\-pong.\-Pong\-Room\-Module \-Class \-Reference}
+\label{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule}\index{net.\-user1.\-union.\-example.\-pong.\-Pong\-Room\-Module@{net.\-user1.\-union.\-example.\-pong.\-Pong\-Room\-Module}}
+}
+
+
+\-Inherits \-Module.
+
+\subsection*{\-Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_1_1PongObject}{\-Pong\-Object}
+\end{DoxyCompactItemize}
+\subsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \hyperlink{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_ae3742a35e50b079361cb7e8330a431ae}{init} (\-Module\-Context ctx)
+\item 
+void \hyperlink{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_aca4e47a62f858adbf2723616bbd5a656}{run} ()
+\item 
+void \hyperlink{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_a9d008e2816d3e026e2c9f776ac843d49}{update} (long tick)
+\item 
+void \hyperlink{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_aefa06e810d78da8fa7e053eeb706a77b}{on\-Add\-Client} (\-Room\-Event evt)
+\item 
+void \hyperlink{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_a3fe55e782e6d451160006755887a64d6}{on\-Remove\-Client} (\-Room\-Event evt)
+\item 
+void \hyperlink{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_ac872f7200437bc87a7fde76438b96f25}{on\-Client\-Attribute\-Changed} (\-Client\-Event evt)
+\item 
+void \hyperlink{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_a6eb7687b982367172b704928dee8016b}{shutdown} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-This is the \-Room\-Module that controls the pong game. \-The \-Reactor (\-Flash) client requests that the module be attached when it when it invokes room\-Manager()'s create\-Room() method.
+
+\-The server will create a new instance of this module for each room. 
+
+\subsection{\-Member \-Function \-Documentation}
+\hypertarget{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_ae3742a35e50b079361cb7e8330a431ae}{\index{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module@{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module}!init@{init}}
+\index{init@{init}!net::user1::union::example::pong::PongRoomModule@{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}boolean {\bf net.\-user1.\-union.\-example.\-pong.\-Pong\-Room\-Module.\-init} (
+\begin{DoxyParamCaption}
+\item[{\-Module\-Context}]{ctx}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_ae3742a35e50b079361cb7e8330a431ae}
+\-The init method is called when the instance is created. \hypertarget{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_aefa06e810d78da8fa7e053eeb706a77b}{\index{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module@{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module}!on\-Add\-Client@{on\-Add\-Client}}
+\index{on\-Add\-Client@{on\-Add\-Client}!net::user1::union::example::pong::PongRoomModule@{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module}}
+\subsubsection[{on\-Add\-Client}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf net.\-user1.\-union.\-example.\-pong.\-Pong\-Room\-Module.\-on\-Add\-Client} (
+\begin{DoxyParamCaption}
+\item[{\-Room\-Event}]{evt}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_aefa06e810d78da8fa7e053eeb706a77b}
+\-Client joined the game.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em evt} & the \-Room\-Event \\
+\hline
+\end{DoxyParams}
+\hypertarget{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_ac872f7200437bc87a7fde76438b96f25}{\index{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module@{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module}!on\-Client\-Attribute\-Changed@{on\-Client\-Attribute\-Changed}}
+\index{on\-Client\-Attribute\-Changed@{on\-Client\-Attribute\-Changed}!net::user1::union::example::pong::PongRoomModule@{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module}}
+\subsubsection[{on\-Client\-Attribute\-Changed}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf net.\-user1.\-union.\-example.\-pong.\-Pong\-Room\-Module.\-on\-Client\-Attribute\-Changed} (
+\begin{DoxyParamCaption}
+\item[{\-Client\-Event}]{evt}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_ac872f7200437bc87a7fde76438b96f25}
+\-A client attribute changed.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em evt} & the \-Client\-Event \\
+\hline
+\end{DoxyParams}
+\hypertarget{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_a3fe55e782e6d451160006755887a64d6}{\index{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module@{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module}!on\-Remove\-Client@{on\-Remove\-Client}}
+\index{on\-Remove\-Client@{on\-Remove\-Client}!net::user1::union::example::pong::PongRoomModule@{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module}}
+\subsubsection[{on\-Remove\-Client}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf net.\-user1.\-union.\-example.\-pong.\-Pong\-Room\-Module.\-on\-Remove\-Client} (
+\begin{DoxyParamCaption}
+\item[{\-Room\-Event}]{evt}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_a3fe55e782e6d451160006755887a64d6}
+\-Client left the game.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em evt} & the \-Room\-Event \\
+\hline
+\end{DoxyParams}
+\hypertarget{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_aca4e47a62f858adbf2723616bbd5a656}{\index{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module@{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module}!run@{run}}
+\index{run@{run}!net::user1::union::example::pong::PongRoomModule@{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf net.\-user1.\-union.\-example.\-pong.\-Pong\-Room\-Module.\-run} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_aca4e47a62f858adbf2723616bbd5a656}
+\-Called by the game thread. \-Contains the main game loop. \hypertarget{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_a6eb7687b982367172b704928dee8016b}{\index{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module@{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module}!shutdown@{shutdown}}
+\index{shutdown@{shutdown}!net::user1::union::example::pong::PongRoomModule@{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module}}
+\subsubsection[{shutdown}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf net.\-user1.\-union.\-example.\-pong.\-Pong\-Room\-Module.\-shutdown} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_a6eb7687b982367172b704928dee8016b}
+\-The shutdown method is called when the server removes the room which also removes the room module. \hypertarget{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_a9d008e2816d3e026e2c9f776ac843d49}{\index{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module@{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module}!update@{update}}
+\index{update@{update}!net::user1::union::example::pong::PongRoomModule@{net\-::user1\-::union\-::example\-::pong\-::\-Pong\-Room\-Module}}
+\subsubsection[{update}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf net.\-user1.\-union.\-example.\-pong.\-Pong\-Room\-Module.\-update} (
+\begin{DoxyParamCaption}
+\item[{long}]{tick}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classnet_1_1user1_1_1union_1_1example_1_1pong_1_1PongRoomModule_a9d008e2816d3e026e2c9f776ac843d49}
+\-Update the world.
+
+
+\begin{DoxyParams}{\-Parameters}
+{\em tick} & the time in milliseconds since the last update \\
+\hline
+\end{DoxyParams}
+
+
+\-The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\-Java/\hyperlink{PongRoomModule_8java}{\-Pong\-Room\-Module.\-java}\end{DoxyCompactItemize}

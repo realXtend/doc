@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+  <connections>
+    <connection host="tryunion.com" port="80"/>
+  </connections>
+  
+  <!-- Milliseconds between automatic reconnection attempts. -->
+  <autoreconnectfrequency>8000</autoreconnectfrequency>
+  <!-- Force a disconnection if server responses take longer than 6 seconds.-->
+  <connectiontimeout>6000</connectiontimeout>
+  <!-- Check the client's ping time every 4 seconds. -->
+  <heartbeatfrequency>4000</heartbeatfrequency>
+  
+  <logLevel>WARN</logLevel>
+</config>
