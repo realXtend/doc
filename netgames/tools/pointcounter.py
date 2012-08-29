@@ -14,10 +14,11 @@ W_O_M = 2
 W_S_O = 2
 W_T_O = 2
 
-CP = (W_c * len(C) + sum([len(c.fields) for c in C]) + W_R_c * sum([len(c.relations) for x in C]) + W_O_c * sum([len(c.methods) for x in C]))# * N_C
+N_C = sum([c.N_c for c in C]) / len(C)
+CP = (W_c * len(C) + sum([len(c.fields) for c in C]) + W_R_c * sum([len(c.relations) for x in C]) + W_O_c * sum([len(c.methods) for x in C])) * N_C
 print CP
 
-#N_C = sum([c.N_c for c in C]) / len(C)
+
 
 # N_O_M = sum([o.N for o in O_M]) / len(O_M)
 
