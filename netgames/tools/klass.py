@@ -3,6 +3,7 @@ class Klass:
         self.name = name
         self.fields = []
         self.methods = {}
+        self.relations = [None]
         #print "class:", name
 
 class Method:

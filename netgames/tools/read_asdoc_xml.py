@@ -10,30 +10,36 @@ xmlfile = methodfile
 et_classes = ET.ElementTree()
 et_classes.parse(filepath + xmlfile)
 
-klasses = {}
 
-classes = et_classes.getiterator("apiClassifier")
-for c in classes:
-    classname = c.find('apiName').text
-    print classname
-    k = Klass(classname)
-    klasses[classname] = k
+def giev():
+    klasses = {}
 
-    operations = c.getiterator("apiOperation")
-    for op in operations:
-        opname = op.find('apiName').text
-        print opname
-        m = Method(opname)
-        k.methods[opname] = m
+    classes = et_classes.getiterator("apiClassifier")
+    for c in classes:
+        classname = c.find('apiName').text
+        #print classname
+        k = Klass(classname)
+        klasses[classname] = k
 
-        details = op.getiterator("apiOperationDetail")
-        for det in details:
-            opdef = det.find('apiOperationDef')
-            params = opdef.getiterator('apiParam')
-            for par in params:
-                parname = par.find('apiItemName').text
-                m.params.append(parname)
+        operations = c.getiterator("apiOperation")
+        for op in operations:
+            opname = op.find('apiName').text
+            #print opname
+            m = Method(opname)
+            k.methods[opname] = m
 
-    print '---'
+            details = op.getiterator("apiOperationDetail")
+            for det in details:
+                opdef = det.find('apiOperationDef')
+                params = opdef.getiterator('apiParam')
+                for par in params:
+                    parname = par.find('apiItemName').text
+                    m.params.append(parname)
 
+        #print '---'
 
+    return klasses
+
+if __name__ == '__main__':
+    klasses = giev()
+    Klass.printout(klasses)
