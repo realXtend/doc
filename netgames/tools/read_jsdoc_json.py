@@ -1,4 +1,6 @@
 import json
+import klass
+from klass import Klass, Method
 
 f = open("../PongMultiplayer/Tundra-PongMultiplayer_jsdoc.json")
 d = f.read()
@@ -6,18 +8,6 @@ r = json.loads(d)
 
 klasses = {}
 
-class Klass:
-    def __init__(self, name):
-        self.name = name
-        self.fields = []
-        self.methods = {}
-        #print "class:", name
-
-class Method:
-    def __init__(self, name):
-        self.name = name
-        self.params = []
-    
 for e in r:
     kind = e['kind']
     name = e['name']
@@ -47,11 +37,4 @@ for e in r:
     #if kind == "member":
     #    print name
 
-print "============="
-for k in klasses.itervalues():
-    print "Class %s:" % k.name
-    for m in k.methods.itervalues():
-        print "%s: %s" % (m.name, str(m.params))
-    print "-------"
-
-#XXX add Object-Point variable calcs directly to here?
+klass.printout(klasses)
