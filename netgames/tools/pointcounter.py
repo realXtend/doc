@@ -1,5 +1,6 @@
 import operator
 import read_asdoc_xml as r
+#import read_jsdoc_json as r
 
 def prod(operands):
 	return reduce(operator.mul, operands)
