@@ -21,6 +21,14 @@ def get_klasses():
         k = Klass(classname)
         klasses[classname] = k
 
+        classdetail = c.find('apiClassifierDetail')
+        classdef = classdetail.find('apiClassifierDef')
+        baseclass = classdef.find('apiBaseClassifier')
+        if baseclass is not None:
+            supername = baseclass.text
+            if supername != 'Object':
+                k.supers.append(baseclass.text)
+
         operations = c.getiterator("apiOperation")
         for op in operations:
             opname = op.find('apiName').text

@@ -3,6 +3,7 @@ class Klass:
 
     def __init__(self, name):
         self.name = name
+        self.supers = []
         self.fields = []
         self.methods = {}
         self.relations = []
@@ -16,7 +17,7 @@ class Method:
 def printout(klasses):
     print "============="
     for k in klasses.itervalues():
-        print "Class %s:" % k.name
+        print "Class %s: (%s)" % (k.name, k.supers)
         print "Methods:"
         for m in k.methods.itervalues():
             print "%s: %s" % (m.name, str(m.params))
