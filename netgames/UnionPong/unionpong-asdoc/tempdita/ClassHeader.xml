@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allClasses>
+   <apiPackage id="__Global__">
+      <apiName>__Global__</apiName>
+      <apiDetail/>
+      <apiClassifier id="globalClassifier:GameStates">
+         <apiName>GameStates</apiName>
+         <shortdesc>
+   An enumeration of game states.</shortdesc>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+            <meta name="keywords"
+               content="GameStates,globalClassifier.GameStates,BALL_SIZE,BALL_SPEEDUP,BALL,COURT_HEIGHT,COURT_WIDTH,DOWN,GAME_ROOMID,GAME_UPDATE_INTERVAL,INITIALIZING,IN_GAME,PADDLE_HEIGHT,PADDLE_SPEED,PADDLE_WIDTH,PADDLE,SCORE,SIDE_LEFT,SIDE_RIGHT,SIDE,START_GAME,STATUS_READY,STATUS,STOP_GAME,UP,WAITING_FOR_OPPONENT,WALL_HEIGHT,ballGraphic,ball,bottomWallGraphic,client,court,court,direction,gameManager,height,hud,hud,joinTimer,keyboardController,lastUpdate,leftPaddleGraphic,leftPlayer,leftPlayerScore,paddle,reactor,rightPaddleGraphic,rightPlayer,rightPlayerScore,room,speed,state,status,topWallGraphic,updateTimer,width,x,y"/>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiFinal/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+            <apiDesc>
+   An enumeration of game states.
+   </apiDesc>
+            <Inheritancelist>
+               <BaseInterface/>
+               <Inheritance>
+                  <Inherit id="Object"/>
+               </Inheritance>
+               <Implements/>
+               <Subclasses/>
+               <Implementors/>
+               <Excludes/>
+            </Inheritancelist>
+         </apiClassifierDetail>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:Settings">
+         <apiName>Settings</apiName>
+         <shortdesc>
+   An enumeration of application settings.</shortdesc>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+            <meta name="keywords"
+               content="Settings,globalClassifier.Settings,BALL_SIZE,BALL_SPEEDUP,BALL,COURT_HEIGHT,COURT_WIDTH,DOWN,GAME_ROOMID,GAME_UPDATE_INTERVAL,INITIALIZING,IN_GAME,PADDLE_HEIGHT,PADDLE_SPEED,PADDLE_WIDTH,PADDLE,SCORE,SIDE_LEFT,SIDE_RIGHT,SIDE,START_GAME,STATUS_READY,STATUS,STOP_GAME,UP,WAITING_FOR_OPPONENT,WALL_HEIGHT,ballGraphic,ball,bottomWallGraphic,client,court,court,direction,gameManager,height,hud,hud,joinTimer,keyboardController,lastUpdate,leftPaddleGraphic,leftPlayer,leftPlayerScore,paddle,reactor,rightPaddleGraphic,rightPlayer,rightPlayerScore,room,speed,state,status,topWallGraphic,updateTimer,width,x,y"/>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiFinal/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+            <apiDesc>
+   An enumeration of application settings.
+   </apiDesc>
+            <Inheritancelist>
+               <BaseInterface/>
+               <Inheritance>
+                  <Inherit id="Object"/>
+               </Inheritance>
+               <Implements/>
+               <Subclasses/>
+               <Implementors/>
+               <Excludes/>
+            </Inheritancelist>
+         </apiClassifierDetail>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:PongClient">
+         <apiName>PongClient</apiName>
+         <shortdesc>
+   Represents a client (player) in the pong room.</shortdesc>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+            <meta name="keywords"
+               content="PongClient,globalClassifier.PongClient,BALL_SIZE,BALL_SPEEDUP,BALL,COURT_HEIGHT,COURT_WIDTH,DOWN,GAME_ROOMID,GAME_UPDATE_INTERVAL,INITIALIZING,IN_GAME,PADDLE_HEIGHT,PADDLE_SPEED,PADDLE_WIDTH,PADDLE,SCORE,SIDE_LEFT,SIDE_RIGHT,SIDE,START_GAME,STATUS_READY,STATUS,STOP_GAME,UP,WAITING_FOR_OPPONENT,WALL_HEIGHT,ballGraphic,ball,bottomWallGraphic,client,court,court,direction,gameManager,height,hud,hud,joinTimer,keyboardController,lastUpdate,leftPaddleGraphic,leftPlayer,leftPlayerScore,paddle,reactor,rightPaddleGraphic,rightPlayer,rightPlayerScore,room,speed,state,status,topWallGraphic,updateTimer,width,x,y,addPlayer,addRoomListeners,beginConnectListener,clamp,clientAttributeUpdateListener,commit,deserializeBall,deserializePaddle,getPaddle,getSide,hideBall,hideLeftPaddle,hideRightPaddle,init,initGame,initPlayers,joinTimerListener,keyDownListener,keyUpListener,readyListener,removeOccupantListener,removePlayer,removeRoomListeners,reset,resetBall,resetScores,roomAttributeUpdateListener,roomJoinListener,roomJoinResultListener,setBallPosition,setClient,setLeftPaddlePosition,setLeftPlayerScore,setRightPaddlePosition,setRightPlayerScore,setRoom,setStatus,showBall,showLeftPaddle,showRightPaddle,startGameListener,stopGameListener,timerListener,updateAttributeListener,updateBall,updatePlayer"/>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>net.user1.reactor:CustomClient</apiBaseClassifier>
+            </apiClassifierDef>
+            <apiDesc>
+   Represents a client (player) in the pong room. 
+   </apiDesc>
+            <Inheritancelist>
+               <BaseInterface/>
+               <Inheritance>
+                  <Inherit id="net.user1.reactor:CustomClient"/>
+               </Inheritance>
+               <Implements/>
+               <Subclasses/>
+               <Implementors/>
+               <Excludes/>
+            </Inheritancelist>
+         </apiClassifierDetail>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:RoomAttributes">
+         <apiName>RoomAttributes</apiName>
+         <shortdesc>
+   An enumeration of pong room attribute names.</shortdesc>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+            <meta name="keywords"
+               content="RoomAttributes,globalClassifier.RoomAttributes,BALL_SIZE,BALL_SPEEDUP,BALL,COURT_HEIGHT,COURT_WIDTH,DOWN,GAME_ROOMID,GAME_UPDATE_INTERVAL,INITIALIZING,IN_GAME,PADDLE_HEIGHT,PADDLE_SPEED,PADDLE_WIDTH,PADDLE,SCORE,SIDE_LEFT,SIDE_RIGHT,SIDE,START_GAME,STATUS_READY,STATUS,STOP_GAME,UP,WAITING_FOR_OPPONENT,WALL_HEIGHT,ballGraphic,ball,bottomWallGraphic,client,court,court,direction,gameManager,height,hud,hud,joinTimer,keyboardController,lastUpdate,leftPaddleGraphic,leftPlayer,leftPlayerScore,paddle,reactor,rightPaddleGraphic,rightPlayer,rightPlayerScore,room,speed,state,status,topWallGraphic,updateTimer,width,x,y"/>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiFinal/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+            <apiDesc>
+   An enumeration of pong room attribute names.
+   </apiDesc>
+            <Inheritancelist>
+               <BaseInterface/>
+               <Inheritance>
+                  <Inherit id="Object"/>
+               </Inheritance>
+               <Implements/>
+               <Subclasses/>
+               <Implementors/>
+               <Excludes/>
+            </Inheritancelist>
+         </apiClassifierDetail>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:PongObject">
+         <apiName>PongObject</apiName>
+         <shortdesc>
+   Represents a simple movable 2D object in the pong physics simulation.</shortdesc>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+            <meta name="keywords"
+               content="PongObject,globalClassifier.PongObject,BALL_SIZE,BALL_SPEEDUP,BALL,COURT_HEIGHT,COURT_WIDTH,DOWN,GAME_ROOMID,GAME_UPDATE_INTERVAL,INITIALIZING,IN_GAME,PADDLE_HEIGHT,PADDLE_SPEED,PADDLE_WIDTH,PADDLE,SCORE,SIDE_LEFT,SIDE_RIGHT,SIDE,START_GAME,STATUS_READY,STATUS,STOP_GAME,UP,WAITING_FOR_OPPONENT,WALL_HEIGHT,ballGraphic,ball,bottomWallGraphic,client,court,court,direction,gameManager,height,hud,hud,joinTimer,keyboardController,lastUpdate,leftPaddleGraphic,leftPlayer,leftPlayerScore,paddle,reactor,rightPaddleGraphic,rightPlayer,rightPlayerScore,room,speed,state,status,topWallGraphic,updateTimer,width,x,y"/>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+            <apiDesc>
+   Represents a simple movable 2D object in the pong physics simulation.
+   </apiDesc>
+            <Inheritancelist>
+               <BaseInterface/>
+               <Inheritance>
+                  <Inherit id="Object"/>
+               </Inheritance>
+               <Implements/>
+               <Subclasses/>
+               <Implementors/>
+               <Excludes/>
+            </Inheritancelist>
+         </apiClassifierDetail>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:UnionPong">
+         <apiName>UnionPong</apiName>
+         <shortdesc>
+   The pong application's main class.</shortdesc>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+            <meta name="keywords"
+               content="UnionPong,globalClassifier.UnionPong,BALL_SIZE,BALL_SPEEDUP,BALL,COURT_HEIGHT,COURT_WIDTH,DOWN,GAME_ROOMID,GAME_UPDATE_INTERVAL,INITIALIZING,IN_GAME,PADDLE_HEIGHT,PADDLE_SPEED,PADDLE_WIDTH,PADDLE,SCORE,SIDE_LEFT,SIDE_RIGHT,SIDE,START_GAME,STATUS_READY,STATUS,STOP_GAME,UP,WAITING_FOR_OPPONENT,WALL_HEIGHT,ballGraphic,ball,bottomWallGraphic,client,court,court,direction,gameManager,height,hud,hud,joinTimer,keyboardController,lastUpdate,leftPaddleGraphic,leftPlayer,leftPlayerScore,paddle,reactor,rightPaddleGraphic,rightPlayer,rightPlayerScore,room,speed,state,status,topWallGraphic,updateTimer,width,x,y,addPlayer,addRoomListeners,beginConnectListener,clamp,clientAttributeUpdateListener,commit,deserializeBall,deserializePaddle,getPaddle,getSide,hideBall,hideLeftPaddle,hideRightPaddle,init,initGame,initPlayers,joinTimerListener,keyDownListener,keyUpListener,readyListener,removeOccupantListener,removePlayer,removeRoomListeners,reset,resetBall,resetScores,roomAttributeUpdateListener,roomJoinListener,roomJoinResultListener,setBallPosition,setClient,setLeftPaddlePosition,setLeftPlayerScore,setRightPaddlePosition,setRightPlayerScore,setRoom,setStatus,showBall,showLeftPaddle,showRightPaddle,startGameListener,stopGameListener,timerListener,updateAttributeListener,updateBall,updatePlayer"/>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>flash.display:Sprite</apiBaseClassifier>
+            </apiClassifierDef>
+            <apiDesc>
+   The pong application's main class.
+   </apiDesc>
+            <Inheritancelist>
+               <BaseInterface/>
+               <Inheritance>
+                  <Inherit id="flash.display:Sprite"/>
+               </Inheritance>
+               <Implements/>
+               <Subclasses/>
+               <Implementors/>
+               <Excludes/>
+            </Inheritancelist>
+         </apiClassifierDetail>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:KeyboardController">
+         <apiName>KeyboardController</apiName>
+         <shortdesc>
+   Receives keyboard input from the user and sends it to Union Server
+   </shortdesc>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+            <meta name="keywords"
+               content="KeyboardController,globalClassifier.KeyboardController,BALL_SIZE,BALL_SPEEDUP,BALL,COURT_HEIGHT,COURT_WIDTH,DOWN,GAME_ROOMID,GAME_UPDATE_INTERVAL,INITIALIZING,IN_GAME,PADDLE_HEIGHT,PADDLE_SPEED,PADDLE_WIDTH,PADDLE,SCORE,SIDE_LEFT,SIDE_RIGHT,SIDE,START_GAME,STATUS_READY,STATUS,STOP_GAME,UP,WAITING_FOR_OPPONENT,WALL_HEIGHT,ballGraphic,ball,bottomWallGraphic,client,court,court,direction,gameManager,height,hud,hud,joinTimer,keyboardController,lastUpdate,leftPaddleGraphic,leftPlayer,leftPlayerScore,paddle,reactor,rightPaddleGraphic,rightPlayer,rightPlayerScore,room,speed,state,status,topWallGraphic,updateTimer,width,x,y,addPlayer,addRoomListeners,beginConnectListener,clamp,clientAttributeUpdateListener,commit,deserializeBall,deserializePaddle,getPaddle,getSide,hideBall,hideLeftPaddle,hideRightPaddle,init,initGame,initPlayers,joinTimerListener,keyDownListener,keyUpListener,readyListener,removeOccupantListener,removePlayer,removeRoomListeners,reset,resetBall,resetScores,roomAttributeUpdateListener,roomJoinListener,roomJoinResultListener,setBallPosition,setClient,setLeftPaddlePosition,setLeftPlayerScore,setRightPaddlePosition,setRightPlayerScore,setRoom,setStatus,showBall,showLeftPaddle,showRightPaddle,startGameListener,stopGameListener,timerListener,updateAttributeListener,updateBall,updatePlayer"/>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+            <apiDesc>
+   Receives keyboard input from the user and sends it to Union Server
+   </apiDesc>
+            <Inheritancelist>
+               <BaseInterface/>
+               <Inheritance>
+                  <Inherit id="Object"/>
+               </Inheritance>
+               <Implements/>
+               <Subclasses/>
+               <Implementors/>
+               <Excludes/>
+            </Inheritancelist>
+         </apiClassifierDetail>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:ClientAttributes">
+         <apiName>ClientAttributes</apiName>
+         <shortdesc>
+   An enumeration of pong client attribute names.</shortdesc>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+            <meta name="keywords"
+               content="ClientAttributes,globalClassifier.ClientAttributes,BALL_SIZE,BALL_SPEEDUP,BALL,COURT_HEIGHT,COURT_WIDTH,DOWN,GAME_ROOMID,GAME_UPDATE_INTERVAL,INITIALIZING,IN_GAME,PADDLE_HEIGHT,PADDLE_SPEED,PADDLE_WIDTH,PADDLE,SCORE,SIDE_LEFT,SIDE_RIGHT,SIDE,START_GAME,STATUS_READY,STATUS,STOP_GAME,UP,WAITING_FOR_OPPONENT,WALL_HEIGHT,ballGraphic,ball,bottomWallGraphic,client,court,court,direction,gameManager,height,hud,hud,joinTimer,keyboardController,lastUpdate,leftPaddleGraphic,leftPlayer,leftPlayerScore,paddle,reactor,rightPaddleGraphic,rightPlayer,rightPlayerScore,room,speed,state,status,topWallGraphic,updateTimer,width,x,y"/>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiFinal/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+            <apiDesc>
+   An enumeration of pong client attribute names.
+   </apiDesc>
+            <Inheritancelist>
+               <BaseInterface/>
+               <Inheritance>
+                  <Inherit id="Object"/>
+               </Inheritance>
+               <Implements/>
+               <Subclasses/>
+               <Implementors/>
+               <Excludes/>
+            </Inheritancelist>
+         </apiClassifierDetail>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:GameManager">
+         <apiName>GameManager</apiName>
+         <shortdesc>
+   Manages game flow logic and physics simulation.</shortdesc>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+            <meta name="keywords"
+               content="GameManager,globalClassifier.GameManager,BALL_SIZE,BALL_SPEEDUP,BALL,COURT_HEIGHT,COURT_WIDTH,DOWN,GAME_ROOMID,GAME_UPDATE_INTERVAL,INITIALIZING,IN_GAME,PADDLE_HEIGHT,PADDLE_SPEED,PADDLE_WIDTH,PADDLE,SCORE,SIDE_LEFT,SIDE_RIGHT,SIDE,START_GAME,STATUS_READY,STATUS,STOP_GAME,UP,WAITING_FOR_OPPONENT,WALL_HEIGHT,ballGraphic,ball,bottomWallGraphic,client,court,court,direction,gameManager,height,hud,hud,joinTimer,keyboardController,lastUpdate,leftPaddleGraphic,leftPlayer,leftPlayerScore,paddle,reactor,rightPaddleGraphic,rightPlayer,rightPlayerScore,room,speed,state,status,topWallGraphic,updateTimer,width,x,y,addPlayer,addRoomListeners,beginConnectListener,clamp,clientAttributeUpdateListener,commit,deserializeBall,deserializePaddle,getPaddle,getSide,hideBall,hideLeftPaddle,hideRightPaddle,init,initGame,initPlayers,joinTimerListener,keyDownListener,keyUpListener,readyListener,removeOccupantListener,removePlayer,removeRoomListeners,reset,resetBall,resetScores,roomAttributeUpdateListener,roomJoinListener,roomJoinResultListener,setBallPosition,setClient,setLeftPaddlePosition,setLeftPlayerScore,setRightPaddlePosition,setRightPlayerScore,setRoom,setStatus,showBall,showLeftPaddle,showRightPaddle,startGameListener,stopGameListener,timerListener,updateAttributeListener,updateBall,updatePlayer"/>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+            <apiDesc>
+   Manages game flow logic and physics simulation.
+   </apiDesc>
+            <Inheritancelist>
+               <BaseInterface/>
+               <Inheritance>
+                  <Inherit id="Object"/>
+               </Inheritance>
+               <Implements/>
+               <Subclasses/>
+               <Implementors/>
+               <Excludes/>
+            </Inheritancelist>
+         </apiClassifierDetail>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:Rectangle">
+         <apiName>Rectangle</apiName>
+         <shortdesc>
+   An on-screen rectangle graphic.</shortdesc>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+            <meta name="keywords" content="Rectangle,globalClassifier.Rectangle"/>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>flash.display:Sprite</apiBaseClassifier>
+            </apiClassifierDef>
+            <apiDesc>
+   An on-screen rectangle graphic.
+   </apiDesc>
+            <Inheritancelist>
+               <BaseInterface/>
+               <Inheritance>
+                  <Inherit id="flash.display:Sprite"/>
+               </Inheritance>
+               <Implements/>
+               <Subclasses/>
+               <Implementors/>
+               <Excludes/>
+            </Inheritancelist>
+         </apiClassifierDetail>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:HUD">
+         <apiName>HUD</apiName>
+         <shortdesc>
+   A container for the "heads up display" of the pong game.</shortdesc>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+            <meta name="keywords"
+               content="HUD,globalClassifier.HUD,BALL_SIZE,BALL_SPEEDUP,BALL,COURT_HEIGHT,COURT_WIDTH,DOWN,GAME_ROOMID,GAME_UPDATE_INTERVAL,INITIALIZING,IN_GAME,PADDLE_HEIGHT,PADDLE_SPEED,PADDLE_WIDTH,PADDLE,SCORE,SIDE_LEFT,SIDE_RIGHT,SIDE,START_GAME,STATUS_READY,STATUS,STOP_GAME,UP,WAITING_FOR_OPPONENT,WALL_HEIGHT,ballGraphic,ball,bottomWallGraphic,client,court,court,direction,gameManager,height,hud,hud,joinTimer,keyboardController,lastUpdate,leftPaddleGraphic,leftPlayer,leftPlayerScore,paddle,reactor,rightPaddleGraphic,rightPlayer,rightPlayerScore,room,speed,state,status,topWallGraphic,updateTimer,width,x,y,addPlayer,addRoomListeners,beginConnectListener,clamp,clientAttributeUpdateListener,commit,deserializeBall,deserializePaddle,getPaddle,getSide,hideBall,hideLeftPaddle,hideRightPaddle,init,initGame,initPlayers,joinTimerListener,keyDownListener,keyUpListener,readyListener,removeOccupantListener,removePlayer,removeRoomListeners,reset,resetBall,resetScores,roomAttributeUpdateListener,roomJoinListener,roomJoinResultListener,setBallPosition,setClient,setLeftPaddlePosition,setLeftPlayerScore,setRightPaddlePosition,setRightPlayerScore,setRoom,setStatus,showBall,showLeftPaddle,showRightPaddle,startGameListener,stopGameListener,timerListener,updateAttributeListener,updateBall,updatePlayer"/>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>flash.display:Sprite</apiBaseClassifier>
+            </apiClassifierDef>
+            <apiDesc>
+   A container for the "heads up display" of the pong game. Contains the
+   players' scores and a status message text field.
+   </apiDesc>
+            <Inheritancelist>
+               <BaseInterface/>
+               <Inheritance>
+                  <Inherit id="flash.display:Sprite"/>
+               </Inheritance>
+               <Implements/>
+               <Subclasses/>
+               <Implementors/>
+               <Excludes/>
+            </Inheritancelist>
+         </apiClassifierDetail>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:Court">
+         <apiName>Court</apiName>
+         <shortdesc>
+   A container for the graphics in the pong game.</shortdesc>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+            <meta name="keywords"
+               content="Court,globalClassifier.Court,BALL_SIZE,BALL_SPEEDUP,BALL,COURT_HEIGHT,COURT_WIDTH,DOWN,GAME_ROOMID,GAME_UPDATE_INTERVAL,INITIALIZING,IN_GAME,PADDLE_HEIGHT,PADDLE_SPEED,PADDLE_WIDTH,PADDLE,SCORE,SIDE_LEFT,SIDE_RIGHT,SIDE,START_GAME,STATUS_READY,STATUS,STOP_GAME,UP,WAITING_FOR_OPPONENT,WALL_HEIGHT,ballGraphic,ball,bottomWallGraphic,client,court,court,direction,gameManager,height,hud,hud,joinTimer,keyboardController,lastUpdate,leftPaddleGraphic,leftPlayer,leftPlayerScore,paddle,reactor,rightPaddleGraphic,rightPlayer,rightPlayerScore,room,speed,state,status,topWallGraphic,updateTimer,width,x,y,addPlayer,addRoomListeners,beginConnectListener,clamp,clientAttributeUpdateListener,commit,deserializeBall,deserializePaddle,getPaddle,getSide,hideBall,hideLeftPaddle,hideRightPaddle,init,initGame,initPlayers,joinTimerListener,keyDownListener,keyUpListener,readyListener,removeOccupantListener,removePlayer,removeRoomListeners,reset,resetBall,resetScores,roomAttributeUpdateListener,roomJoinListener,roomJoinResultListener,setBallPosition,setClient,setLeftPaddlePosition,setLeftPlayerScore,setRightPaddlePosition,setRightPlayerScore,setRoom,setStatus,showBall,showLeftPaddle,showRightPaddle,startGameListener,stopGameListener,timerListener,updateAttributeListener,updateBall,updatePlayer"/>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiBaseClassifier>flash.display:Sprite</apiBaseClassifier>
+            </apiClassifierDef>
+            <apiDesc>
+   A container for the graphics in the pong game.
+   </apiDesc>
+            <Inheritancelist>
+               <BaseInterface/>
+               <Inheritance>
+                  <Inherit id="flash.display:Sprite"/>
+               </Inheritance>
+               <Implements/>
+               <Subclasses/>
+               <Implementors/>
+               <Excludes/>
+            </Inheritancelist>
+         </apiClassifierDetail>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:RoomMessages">
+         <apiName>RoomMessages</apiName>
+         <shortdesc>
+   An enumeration of server-to-client room message names.</shortdesc>
+         <prolog>
+            <asMetadata/>
+         </prolog>
+            <meta name="keywords"
+               content="RoomMessages,globalClassifier.RoomMessages,BALL_SIZE,BALL_SPEEDUP,BALL,COURT_HEIGHT,COURT_WIDTH,DOWN,GAME_ROOMID,GAME_UPDATE_INTERVAL,INITIALIZING,IN_GAME,PADDLE_HEIGHT,PADDLE_SPEED,PADDLE_WIDTH,PADDLE,SCORE,SIDE_LEFT,SIDE_RIGHT,SIDE,START_GAME,STATUS_READY,STATUS,STOP_GAME,UP,WAITING_FOR_OPPONENT,WALL_HEIGHT,ballGraphic,ball,bottomWallGraphic,client,court,court,direction,gameManager,height,hud,hud,joinTimer,keyboardController,lastUpdate,leftPaddleGraphic,leftPlayer,leftPlayerScore,paddle,reactor,rightPaddleGraphic,rightPlayer,rightPlayerScore,room,speed,state,status,topWallGraphic,updateTimer,width,x,y"/>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public"/>
+               <apiStatic/>
+               <apiFinal/>
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+            <apiDesc>
+   An enumeration of server-to-client room message names.
+   </apiDesc>
+            <Inheritancelist>
+               <BaseInterface/>
+               <Inheritance>
+                  <Inherit id="Object"/>
+               </Inheritance>
+               <Implements/>
+               <Subclasses/>
+               <Implementors/>
+               <Excludes/>
+            </Inheritancelist>
+         </apiClassifierDetail>
+      </apiClassifier>
+   </apiPackage>
+</allClasses>

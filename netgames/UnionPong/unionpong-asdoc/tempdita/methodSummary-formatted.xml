@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<allClasses>
+   <apiPackage id="__Global__">
+      <apiName>__Global__</apiName>
+      <apiClassifier id="globalClassifier:GameStates">
+         <apiName>GameStates</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public" />
+               <apiStatic />
+               <apiFinal />
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:Settings">
+         <apiName>Settings</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public" />
+               <apiStatic />
+               <apiFinal />
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:PongClient">
+         <apiName>PongClient</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public" />
+               <apiStatic />
+               <apiBaseClassifier>net.user1.reactor:CustomClient</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <apiOperation id="PongClient:commit">
+            <apiName>commit</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="PongClient:protected:deserializePaddle">
+            <apiName>deserializePaddle</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>value</apiItemName>
+                     <apiType value="String" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="PongClient:getPaddle">
+            <apiName>getPaddle</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiOperationClassifier>PongObject</apiOperationClassifier>
+                  </apiReturn>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="PongClient:getSide">
+            <apiName>getSide</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="String" />
+                  </apiReturn>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="PongClient:init">
+            <apiName>init</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiIsOverride />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="PongClient:updateAttributeListener">
+            <apiName>updateAttributeListener</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>e</apiItemName>
+                     <apiType value="net.user1.reactor:AttributeEvent" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiConstructor id="PongClient:PongClient">
+            <apiName>PongClient</apiName>
+            <shortdesc />
+            <prolog />
+            <apiConstructorDetail>
+               <apiConstructorDef>
+                  <apiAccess value="public" />
+               </apiConstructorDef>
+            </apiConstructorDetail>
+         </apiConstructor>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:RoomAttributes">
+         <apiName>RoomAttributes</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public" />
+               <apiStatic />
+               <apiFinal />
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:PongObject">
+         <apiName>PongObject</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public" />
+               <apiStatic />
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:UnionPong">
+         <apiName>UnionPong</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public" />
+               <apiStatic />
+               <apiBaseClassifier>flash.display:Sprite</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <apiOperation id="UnionPong:protected:beginConnectListener">
+            <apiName>beginConnectListener</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>e</apiItemName>
+                     <apiType value="net.user1.reactor:ConnectionManagerEvent" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="UnionPong:protected:initGame">
+            <apiName>initGame</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="UnionPong:protected:readyListener">
+            <apiName>readyListener</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>e</apiItemName>
+                     <apiType value="net.user1.reactor:ReactorEvent" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiConstructor id="UnionPong:UnionPong">
+            <apiName>UnionPong</apiName>
+            <shortdesc />
+            <prolog />
+            <apiConstructorDetail>
+               <apiConstructorDef>
+                  <apiAccess value="public" />
+               </apiConstructorDef>
+            </apiConstructorDetail>
+         </apiConstructor>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:KeyboardController">
+         <apiName>KeyboardController</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public" />
+               <apiStatic />
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <apiOperation id="KeyboardController:protected:keyDownListener">
+            <apiName>keyDownListener</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>e</apiItemName>
+                     <apiType value="flash.events:KeyboardEvent" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="KeyboardController:protected:keyUpListener">
+            <apiName>keyUpListener</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>e</apiItemName>
+                     <apiType value="flash.events:KeyboardEvent" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="KeyboardController:setClient">
+            <apiName>setClient</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>client</apiItemName>
+                     <apiOperationClassifier>PongClient</apiOperationClassifier>
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiConstructor id="KeyboardController:KeyboardController">
+            <apiName>KeyboardController</apiName>
+            <shortdesc />
+            <prolog />
+            <apiConstructorDetail>
+               <apiConstructorDef>
+                  <apiAccess value="public" />
+                  <apiParam>
+                     <apiItemName>stage</apiItemName>
+                     <apiType value="flash.display:Stage" />
+                  </apiParam>
+               </apiConstructorDef>
+            </apiConstructorDetail>
+         </apiConstructor>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:ClientAttributes">
+         <apiName>ClientAttributes</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public" />
+               <apiStatic />
+               <apiFinal />
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:GameManager">
+         <apiName>GameManager</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public" />
+               <apiStatic />
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <apiOperation id="GameManager:protected:addPlayer">
+            <apiName>addPlayer</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>player</apiItemName>
+                     <apiOperationClassifier>PongClient</apiOperationClassifier>
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:addRoomListeners">
+            <apiName>addRoomListeners</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:protected:clientAttributeUpdateListener">
+            <apiName>clientAttributeUpdateListener</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>e</apiItemName>
+                     <apiType value="net.user1.reactor:RoomEvent" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:deserializeBall">
+            <apiName>deserializeBall</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>value</apiItemName>
+                     <apiType value="String" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:initPlayers">
+            <apiName>initPlayers</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:joinTimerListener">
+            <apiName>joinTimerListener</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>e</apiItemName>
+                     <apiType value="flash.events:TimerEvent" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:protected:removeOccupantListener">
+            <apiName>removeOccupantListener</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>e</apiItemName>
+                     <apiType value="net.user1.reactor:RoomEvent" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:protected:removePlayer">
+            <apiName>removePlayer</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>player</apiItemName>
+                     <apiOperationClassifier>PongClient</apiOperationClassifier>
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:removeRoomListeners">
+            <apiName>removeRoomListeners</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:protected:resetBall">
+            <apiName>resetBall</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:reset">
+            <apiName>reset</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:protected:roomAttributeUpdateListener">
+            <apiName>roomAttributeUpdateListener</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>e</apiItemName>
+                     <apiType value="net.user1.reactor:AttributeEvent" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:protected:roomJoinListener">
+            <apiName>roomJoinListener</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>e</apiItemName>
+                     <apiType value="net.user1.reactor:RoomEvent" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:protected:roomJoinResultListener">
+            <apiName>roomJoinResultListener</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>e</apiItemName>
+                     <apiType value="net.user1.reactor:RoomEvent" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:setRoom">
+            <apiName>setRoom</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>room</apiItemName>
+                     <apiType value="net.user1.reactor:Room" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:protected:startGameListener">
+            <apiName>startGameListener</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>fromClient</apiItemName>
+                     <apiType value="net.user1.reactor:IClient" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:protected:stopGameListener">
+            <apiName>stopGameListener</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>fromClient</apiItemName>
+                     <apiType value="net.user1.reactor:IClient" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:timerListener">
+            <apiName>timerListener</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>e</apiItemName>
+                     <apiType value="flash.events:TimerEvent" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:protected:updateBall">
+            <apiName>updateBall</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>elapsed</apiItemName>
+                     <apiType value="int" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="GameManager:protected:updatePlayer">
+            <apiName>updatePlayer</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="protected" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>player</apiItemName>
+                     <apiOperationClassifier>PongClient</apiOperationClassifier>
+                  </apiParam>
+                  <apiParam>
+                     <apiItemName>elapsed</apiItemName>
+                     <apiType value="int" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiConstructor id="GameManager:GameManager">
+            <apiName>GameManager</apiName>
+            <shortdesc />
+            <prolog />
+            <apiConstructorDetail>
+               <apiConstructorDef>
+                  <apiAccess value="public" />
+                  <apiParam>
+                     <apiItemName>court</apiItemName>
+                     <apiOperationClassifier>Court</apiOperationClassifier>
+                  </apiParam>
+                  <apiParam>
+                     <apiItemName>hud</apiItemName>
+                     <apiOperationClassifier>HUD</apiOperationClassifier>
+                  </apiParam>
+               </apiConstructorDef>
+            </apiConstructorDetail>
+         </apiConstructor>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:Rectangle">
+         <apiName>Rectangle</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public" />
+               <apiStatic />
+               <apiBaseClassifier>flash.display:Sprite</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <apiConstructor id="Rectangle:Rectangle">
+            <apiName>Rectangle</apiName>
+            <shortdesc />
+            <prolog />
+            <apiConstructorDetail>
+               <apiConstructorDef>
+                  <apiAccess value="public" />
+                  <apiParam>
+                     <apiItemName>width</apiItemName>
+                     <apiType value="int" />
+                  </apiParam>
+                  <apiParam>
+                     <apiItemName>height</apiItemName>
+                     <apiType value="int" />
+                  </apiParam>
+                  <apiParam>
+                     <apiItemName>color</apiItemName>
+                     <apiType value="uint" />
+                  </apiParam>
+               </apiConstructorDef>
+            </apiConstructorDetail>
+         </apiConstructor>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:HUD">
+         <apiName>HUD</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public" />
+               <apiStatic />
+               <apiBaseClassifier>flash.display:Sprite</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <apiOperation id="HUD:resetScores">
+            <apiName>resetScores</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="HUD:setLeftPlayerScore">
+            <apiName>setLeftPlayerScore</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>score</apiItemName>
+                     <apiType value="int" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="HUD:setRightPlayerScore">
+            <apiName>setRightPlayerScore</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>score</apiItemName>
+                     <apiType value="int" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="HUD:setStatus">
+            <apiName>setStatus</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>msg</apiItemName>
+                     <apiType value="String" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiConstructor id="HUD:HUD">
+            <apiName>HUD</apiName>
+            <shortdesc />
+            <prolog />
+            <apiConstructorDetail>
+               <apiConstructorDef>
+                  <apiAccess value="public" />
+               </apiConstructorDef>
+            </apiConstructorDetail>
+         </apiConstructor>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:Court">
+         <apiName>Court</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public" />
+               <apiStatic />
+               <apiBaseClassifier>flash.display:Sprite</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+         <apiOperation id="Court:hideBall">
+            <apiName>hideBall</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="Court:hideLeftPaddle">
+            <apiName>hideLeftPaddle</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="Court:hideRightPaddle">
+            <apiName>hideRightPaddle</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="Court:setBallPosition">
+            <apiName>setBallPosition</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>x</apiItemName>
+                     <apiType value="int" />
+                  </apiParam>
+                  <apiParam>
+                     <apiItemName>y</apiItemName>
+                     <apiType value="int" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="Court:setLeftPaddlePosition">
+            <apiName>setLeftPaddlePosition</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>x</apiItemName>
+                     <apiType value="int" />
+                  </apiParam>
+                  <apiParam>
+                     <apiItemName>y</apiItemName>
+                     <apiType value="int" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="Court:setRightPaddlePosition">
+            <apiName>setRightPaddlePosition</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+                  <apiParam>
+                     <apiItemName>x</apiItemName>
+                     <apiType value="int" />
+                  </apiParam>
+                  <apiParam>
+                     <apiItemName>y</apiItemName>
+                     <apiType value="int" />
+                  </apiParam>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="Court:showBall">
+            <apiName>showBall</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="Court:showLeftPaddle">
+            <apiName>showLeftPaddle</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiOperation id="Court:showRightPaddle">
+            <apiName>showRightPaddle</apiName>
+            <shortdesc />
+            <prolog />
+            <apiOperationDetail>
+               <apiOperationDef>
+                  <apiAccess value="public" />
+                  <apiReturn>
+                     <apiType value="void" />
+                  </apiReturn>
+               </apiOperationDef>
+            </apiOperationDetail>
+         </apiOperation>
+         <apiConstructor id="Court:Court">
+            <apiName>Court</apiName>
+            <shortdesc />
+            <prolog />
+            <apiConstructorDetail>
+               <apiConstructorDef>
+                  <apiAccess value="public" />
+               </apiConstructorDef>
+            </apiConstructorDetail>
+         </apiConstructor>
+      </apiClassifier>
+      <apiClassifier id="globalClassifier:RoomMessages">
+         <apiName>RoomMessages</apiName>
+         <apiClassifierDetail>
+            <apiClassifierDef>
+               <apiAccess value="public" />
+               <apiStatic />
+               <apiFinal />
+               <apiBaseClassifier>Object</apiBaseClassifier>
+            </apiClassifierDef>
+         </apiClassifierDetail>
+      </apiClassifier>
+   </apiPackage>
+</allClasses>

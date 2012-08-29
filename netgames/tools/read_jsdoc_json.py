@@ -1,6 +1,6 @@
 import json
 
-f = open("PongMultiplayer/Tundra-PongMultiplayer_jsdoc.json")
+f = open("../PongMultiplayer/Tundra-PongMultiplayer_jsdoc.json")
 d = f.read()
 r = json.loads(d)
 

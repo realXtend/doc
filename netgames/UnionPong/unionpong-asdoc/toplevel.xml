@@ -1,0 +1,298 @@
+<asdoc>
+
+<method name='clamp' fullname='clamp' isStatic='false' isFinal='false' isOverride='false'  param_names='value;min;max' param_types='Number;Number;Number' param_defaults='undefined;undefined;undefined' result_type='Number'>
+<description><![CDATA[
+
+   Forces a value into a certain range. For example, given
+
+   the range 7-10, the value 5 would return 7, the value 8 would return 8,
+
+   and the value 145 would return 10.
+
+   ]]></description>
+</method>
+<classRec name='GameStates' fullname='GameStates' sourcefile='/home/antont/src/doc/netgames/UnionPong/ActionScript/GameStates.as' namespace='' access='public' baseclass='Object' isFinal='true' isDynamic='false' >
+<description><![CDATA[
+   An enumeration of game states.
+   ]]></description>
+</classRec>
+<field name='INITIALIZING' fullname='GameStates/INITIALIZING' type='int' isStatic='true' isConst='true' defaultValue='0' >
+</field>
+<field name='IN_GAME' fullname='GameStates/IN_GAME' type='int' isStatic='true' isConst='true' defaultValue='1' >
+</field>
+<field name='WAITING_FOR_OPPONENT' fullname='GameStates/WAITING_FOR_OPPONENT' type='int' isStatic='true' isConst='true' defaultValue='2' >
+</field>
+<classRec name='GameManager' fullname='GameManager' sourcefile='/home/antont/src/doc/netgames/UnionPong/ActionScript/GameManager.as' namespace='' access='public' baseclass='Object' isFinal='false' isDynamic='false' >
+<description><![CDATA[
+   Manages game flow logic and physics simulation.
+   ]]></description>
+</classRec>
+<method name='GameManager' fullname='GameManager/GameManager' isStatic='false' isFinal='false' isOverride='false'  param_names='court;hud' param_types='Court;HUD' param_defaults='undefined;undefined' result_type='*'>
+</method>
+<method name='addPlayer' fullname='GameManager/protected:addPlayer' isStatic='false' isFinal='false' isOverride='false'  param_names='player' param_types='PongClient' param_defaults='undefined' result_type='void'>
+</method>
+<method name='addRoomListeners' fullname='GameManager/addRoomListeners' isStatic='false' isFinal='false' isOverride='false'  result_type='void'>
+</method>
+<method name='bounceBall' fullname='GameManager/private:bounceBall' isStatic='false' isFinal='false' isOverride='false'  param_names='bounceAxis' param_types='Number' param_defaults='undefined' result_type='void'>
+</method>
+<method name='clientAttributeUpdateListener' fullname='GameManager/protected:clientAttributeUpdateListener' isStatic='false' isFinal='false' isOverride='false'  param_names='e' param_types='net.user1.reactor:RoomEvent' param_defaults='undefined' result_type='void'>
+</method>
+<method name='deserializeBall' fullname='GameManager/deserializeBall' isStatic='false' isFinal='false' isOverride='false'  param_names='value' param_types='String' param_defaults='undefined' result_type='void'>
+</method>
+<method name='initPlayers' fullname='GameManager/initPlayers' isStatic='false' isFinal='false' isOverride='false'  result_type='void'>
+</method>
+<method name='joinTimerListener' fullname='GameManager/joinTimerListener' isStatic='false' isFinal='false' isOverride='false'  param_names='e' param_types='flash.events:TimerEvent' param_defaults='undefined' result_type='void'>
+</method>
+<method name='removeOccupantListener' fullname='GameManager/protected:removeOccupantListener' isStatic='false' isFinal='false' isOverride='false'  param_names='e' param_types='net.user1.reactor:RoomEvent' param_defaults='undefined' result_type='void'>
+</method>
+<method name='removePlayer' fullname='GameManager/protected:removePlayer' isStatic='false' isFinal='false' isOverride='false'  param_names='player' param_types='PongClient' param_defaults='undefined' result_type='void'>
+</method>
+<method name='removeRoomListeners' fullname='GameManager/removeRoomListeners' isStatic='false' isFinal='false' isOverride='false'  result_type='void'>
+</method>
+<method name='resetBall' fullname='GameManager/protected:resetBall' isStatic='false' isFinal='false' isOverride='false'  result_type='void'>
+</method>
+<method name='reset' fullname='GameManager/reset' isStatic='false' isFinal='false' isOverride='false'  result_type='void'>
+</method>
+<method name='roomAttributeUpdateListener' fullname='GameManager/protected:roomAttributeUpdateListener' isStatic='false' isFinal='false' isOverride='false'  param_names='e' param_types='net.user1.reactor:AttributeEvent' param_defaults='undefined' result_type='void'>
+</method>
+<method name='roomJoinListener' fullname='GameManager/protected:roomJoinListener' isStatic='false' isFinal='false' isOverride='false'  param_names='e' param_types='net.user1.reactor:RoomEvent' param_defaults='undefined' result_type='void'>
+</method>
+<method name='roomJoinResultListener' fullname='GameManager/protected:roomJoinResultListener' isStatic='false' isFinal='false' isOverride='false'  param_names='e' param_types='net.user1.reactor:RoomEvent' param_defaults='undefined' result_type='void'>
+</method>
+<method name='setRoom' fullname='GameManager/setRoom' isStatic='false' isFinal='false' isOverride='false'  param_names='room' param_types='net.user1.reactor:Room' param_defaults='undefined' result_type='void'>
+</method>
+<method name='startGameListener' fullname='GameManager/protected:startGameListener' isStatic='false' isFinal='false' isOverride='false'  param_names='fromClient' param_types='net.user1.reactor:IClient' param_defaults='undefined' result_type='void'>
+</method>
+<method name='stopGameListener' fullname='GameManager/protected:stopGameListener' isStatic='false' isFinal='false' isOverride='false'  param_names='fromClient' param_types='net.user1.reactor:IClient' param_defaults='undefined' result_type='void'>
+</method>
+<method name='timerListener' fullname='GameManager/timerListener' isStatic='false' isFinal='false' isOverride='false'  param_names='e' param_types='flash.events:TimerEvent' param_defaults='undefined' result_type='void'>
+</method>
+<method name='updateBall' fullname='GameManager/protected:updateBall' isStatic='false' isFinal='false' isOverride='false'  param_names='elapsed' param_types='int' param_defaults='undefined' result_type='void'>
+</method>
+<method name='updatePlayer' fullname='GameManager/protected:updatePlayer' isStatic='false' isFinal='false' isOverride='false'  param_names='player;elapsed' param_types='PongClient;int' param_defaults='undefined;undefined' result_type='void'>
+</method>
+<field name='ball' fullname='GameManager/protected:ball' type='PongObject' isStatic='false' isConst='false' >
+</field>
+<field name='court' fullname='GameManager/protected:court' type='Court' isStatic='false' isConst='false' >
+</field>
+<field name='hud' fullname='GameManager/protected:hud' type='HUD' isStatic='false' isConst='false' >
+</field>
+<field name='joinTimer' fullname='GameManager/protected:joinTimer' type='flash.utils:Timer' isStatic='false' isConst='false' >
+</field>
+<field name='lastUpdate' fullname='GameManager/protected:lastUpdate' type='int' isStatic='false' isConst='false' >
+</field>
+<field name='leftPlayer' fullname='GameManager/protected:leftPlayer' type='PongClient' isStatic='false' isConst='false' >
+</field>
+<field name='rightPlayer' fullname='GameManager/protected:rightPlayer' type='PongClient' isStatic='false' isConst='false' >
+</field>
+<field name='room' fullname='GameManager/protected:room' type='net.user1.reactor:Room' isStatic='false' isConst='false' >
+</field>
+<field name='state' fullname='GameManager/protected:state' type='int' isStatic='false' isConst='false' >
+</field>
+<field name='updateTimer' fullname='GameManager/protected:updateTimer' type='flash.utils:Timer' isStatic='false' isConst='false' >
+</field>
+<classRec name='Settings' fullname='Settings' sourcefile='/home/antont/src/doc/netgames/UnionPong/ActionScript/Settings.as' namespace='' access='public' baseclass='Object' isFinal='true' isDynamic='false' >
+<description><![CDATA[
+   An enumeration of application settings.
+   ]]></description>
+</classRec>
+<field name='BALL_SIZE' fullname='Settings/BALL_SIZE' type='int' isStatic='true' isConst='true' defaultValue='10' >
+</field>
+<field name='BALL_SPEEDUP' fullname='Settings/BALL_SPEEDUP' type='int' isStatic='true' isConst='true' defaultValue='25' >
+</field>
+<field name='COURT_HEIGHT' fullname='Settings/COURT_HEIGHT' type='int' isStatic='true' isConst='true' defaultValue='480' >
+</field>
+<field name='COURT_WIDTH' fullname='Settings/COURT_WIDTH' type='int' isStatic='true' isConst='true' defaultValue='640' >
+</field>
+<field name='DOWN' fullname='Settings/DOWN' type='Number' isStatic='true' isConst='true' defaultValue='unknown' >
+</field>
+<field name='GAME_ROOMID' fullname='Settings/GAME_ROOMID' type='String' isStatic='true' isConst='true' defaultValue='examples.pong' >
+</field>
+<field name='GAME_UPDATE_INTERVAL' fullname='Settings/GAME_UPDATE_INTERVAL' type='int' isStatic='true' isConst='true' defaultValue='20' >
+</field>
+<field name='PADDLE_HEIGHT' fullname='Settings/PADDLE_HEIGHT' type='int' isStatic='true' isConst='true' defaultValue='60' >
+</field>
+<field name='PADDLE_SPEED' fullname='Settings/PADDLE_SPEED' type='int' isStatic='true' isConst='true' defaultValue='300' >
+</field>
+<field name='PADDLE_WIDTH' fullname='Settings/PADDLE_WIDTH' type='int' isStatic='true' isConst='true' defaultValue='10' >
+</field>
+<field name='UP' fullname='Settings/UP' type='Number' isStatic='true' isConst='true' defaultValue='unknown' >
+</field>
+<field name='WALL_HEIGHT' fullname='Settings/WALL_HEIGHT' type='int' isStatic='true' isConst='true' defaultValue='10' >
+</field>
+<classRec name='RoomMessages' fullname='RoomMessages' sourcefile='/home/antont/src/doc/netgames/UnionPong/ActionScript/RoomMessages.as' namespace='' access='public' baseclass='Object' isFinal='true' isDynamic='false' >
+<description><![CDATA[
+   An enumeration of server-to-client room message names.
+   ]]></description>
+</classRec>
+<field name='START_GAME' fullname='RoomMessages/START_GAME' type='String' isStatic='true' isConst='true' defaultValue='START_GAME' >
+</field>
+<field name='STOP_GAME' fullname='RoomMessages/STOP_GAME' type='String' isStatic='true' isConst='true' defaultValue='STOP_GAME' >
+</field>
+<classRec name='ClientAttributes' fullname='ClientAttributes' sourcefile='/home/antont/src/doc/netgames/UnionPong/ActionScript/ClientAttributes.as' namespace='' access='public' baseclass='Object' isFinal='true' isDynamic='false' >
+<description><![CDATA[
+   An enumeration of pong client attribute names.
+   ]]></description>
+</classRec>
+<field name='PADDLE' fullname='ClientAttributes/PADDLE' type='String' isStatic='true' isConst='true' defaultValue='paddle' >
+</field>
+<field name='SIDE' fullname='ClientAttributes/SIDE' type='String' isStatic='true' isConst='true' defaultValue='side' >
+</field>
+<field name='STATUS' fullname='ClientAttributes/STATUS' type='String' isStatic='true' isConst='true' defaultValue='status' >
+</field>
+<classRec name='RoomAttributes' fullname='RoomAttributes' sourcefile='/home/antont/src/doc/netgames/UnionPong/ActionScript/RoomAttributes.as' namespace='' access='public' baseclass='Object' isFinal='true' isDynamic='false' >
+<description><![CDATA[
+   An enumeration of pong room attribute names.
+   ]]></description>
+</classRec>
+<field name='BALL' fullname='RoomAttributes/BALL' type='String' isStatic='true' isConst='true' defaultValue='ball' >
+</field>
+<field name='SCORE' fullname='RoomAttributes/SCORE' type='String' isStatic='true' isConst='true' defaultValue='score' >
+</field>
+<classRec name='PongObject' fullname='PongObject' sourcefile='/home/antont/src/doc/netgames/UnionPong/ActionScript/PongObject.as' namespace='' access='public' baseclass='Object' isFinal='false' isDynamic='false' >
+<description><![CDATA[
+   Represents a simple movable 2D object in the pong physics simulation.
+   ]]></description>
+</classRec>
+<field name='direction' fullname='PongObject/direction' type='Number' isStatic='false' isConst='false' defaultValue='0' >
+</field>
+<field name='height' fullname='PongObject/height' type='int' isStatic='false' isConst='false' >
+</field>
+<field name='speed' fullname='PongObject/speed' type='int' isStatic='false' isConst='false' >
+</field>
+<field name='width' fullname='PongObject/width' type='int' isStatic='false' isConst='false' >
+</field>
+<field name='x' fullname='PongObject/x' type='Number' isStatic='false' isConst='false' defaultValue='0' >
+</field>
+<field name='y' fullname='PongObject/y' type='Number' isStatic='false' isConst='false' defaultValue='0' >
+</field>
+<classRec name='KeyboardController' fullname='KeyboardController' sourcefile='/home/antont/src/doc/netgames/UnionPong/ActionScript/KeyboardController.as' namespace='' access='public' baseclass='Object' isFinal='false' isDynamic='false' >
+<description><![CDATA[
+   Receives keyboard input from the user and sends it to Union Server
+   ]]></description>
+</classRec>
+<method name='KeyboardController' fullname='KeyboardController/KeyboardController' isStatic='false' isFinal='false' isOverride='false'  param_names='stage' param_types='flash.display:Stage' param_defaults='undefined' result_type='*'>
+</method>
+<method name='keyDownListener' fullname='KeyboardController/protected:keyDownListener' isStatic='false' isFinal='false' isOverride='false'  param_names='e' param_types='flash.events:KeyboardEvent' param_defaults='undefined' result_type='void'>
+</method>
+<method name='keyUpListener' fullname='KeyboardController/protected:keyUpListener' isStatic='false' isFinal='false' isOverride='false'  param_names='e' param_types='flash.events:KeyboardEvent' param_defaults='undefined' result_type='void'>
+</method>
+<method name='setClient' fullname='KeyboardController/setClient' isStatic='false' isFinal='false' isOverride='false'  param_names='client' param_types='PongClient' param_defaults='undefined' result_type='void'>
+</method>
+<field name='client' fullname='KeyboardController/protected:client' type='PongClient' isStatic='false' isConst='false' >
+</field>
+<classRec name='PongClient' fullname='PongClient' sourcefile='/home/antont/src/doc/netgames/UnionPong/ActionScript/PongClient.as' namespace='' access='public' baseclass='net.user1.reactor:CustomClient' isFinal='false' isDynamic='false' >
+<description><![CDATA[
+   Represents a client (player) in the pong room. 
+   ]]></description>
+</classRec>
+<method name='PongClient' fullname='PongClient/PongClient' isStatic='false' isFinal='false' isOverride='false'  result_type='*'>
+</method>
+<method name='commit' fullname='PongClient/commit' isStatic='false' isFinal='false' isOverride='false'  result_type='void'>
+</method>
+<method name='deserializePaddle' fullname='PongClient/protected:deserializePaddle' isStatic='false' isFinal='false' isOverride='false'  param_names='value' param_types='String' param_defaults='undefined' result_type='void'>
+</method>
+<method name='getPaddle' fullname='PongClient/getPaddle' isStatic='false' isFinal='false' isOverride='false'  result_type='PongObject'>
+</method>
+<method name='getSide' fullname='PongClient/getSide' isStatic='false' isFinal='false' isOverride='false'  result_type='String'>
+</method>
+<method name='init' fullname='PongClient/init' isStatic='false' isFinal='false' isOverride='true'  result_type='void'>
+</method>
+<method name='updateAttributeListener' fullname='PongClient/updateAttributeListener' isStatic='false' isFinal='false' isOverride='false'  param_names='e' param_types='net.user1.reactor:AttributeEvent' param_defaults='undefined' result_type='void'>
+</method>
+<field name='SIDE_LEFT' fullname='PongClient/SIDE_LEFT' type='String' isStatic='true' isConst='true' defaultValue='left' >
+</field>
+<field name='SIDE_RIGHT' fullname='PongClient/SIDE_RIGHT' type='String' isStatic='true' isConst='true' defaultValue='right' >
+</field>
+<field name='STATUS_READY' fullname='PongClient/STATUS_READY' type='String' isStatic='true' isConst='true' defaultValue='ready' >
+</field>
+<field name='paddle' fullname='PongClient/protected:paddle' type='PongObject' isStatic='false' isConst='false' >
+</field>
+<classRec name='UnionPong' fullname='UnionPong' sourcefile='/home/antont/src/doc/netgames/UnionPong/ActionScript/UnionPong.as' namespace='' access='public' baseclass='flash.display:Sprite' isFinal='false' isDynamic='false' >
+<description><![CDATA[
+   The pong application's main class.
+   ]]></description>
+</classRec>
+<method name='UnionPong' fullname='UnionPong/UnionPong' isStatic='false' isFinal='false' isOverride='false'  result_type='*'>
+</method>
+<method name='beginConnectListener' fullname='UnionPong/protected:beginConnectListener' isStatic='false' isFinal='false' isOverride='false'  param_names='e' param_types='net.user1.reactor:ConnectionManagerEvent' param_defaults='undefined' result_type='void'>
+</method>
+<method name='initGame' fullname='UnionPong/protected:initGame' isStatic='false' isFinal='false' isOverride='false'  result_type='void'>
+</method>
+<method name='readyListener' fullname='UnionPong/protected:readyListener' isStatic='false' isFinal='false' isOverride='false'  param_names='e' param_types='net.user1.reactor:ReactorEvent' param_defaults='undefined' result_type='void'>
+</method>
+<field name='court' fullname='UnionPong/protected:court' type='Court' isStatic='false' isConst='false' >
+</field>
+<field name='gameManager' fullname='UnionPong/protected:gameManager' type='GameManager' isStatic='false' isConst='false' >
+</field>
+<field name='hud' fullname='UnionPong/protected:hud' type='HUD' isStatic='false' isConst='false' >
+</field>
+<field name='keyboardController' fullname='UnionPong/protected:keyboardController' type='KeyboardController' isStatic='false' isConst='false' >
+</field>
+<field name='reactor' fullname='UnionPong/protected:reactor' type='net.user1.reactor:Reactor' isStatic='false' isConst='false' >
+</field>
+<classRec name='Rectangle' fullname='Rectangle' sourcefile='/home/antont/src/doc/netgames/UnionPong/ActionScript/Rectangle.as' namespace='' access='public' baseclass='flash.display:Sprite' isFinal='false' isDynamic='false' >
+<description><![CDATA[
+   An on-screen rectangle graphic.
+   ]]></description>
+</classRec>
+<method name='Rectangle' fullname='Rectangle/Rectangle' isStatic='false' isFinal='false' isOverride='false'  param_names='width;height;color' param_types='int;int;uint' param_defaults='undefined;undefined;undefined' result_type='*'>
+</method>
+<classRec name='HUD' fullname='HUD' sourcefile='/home/antont/src/doc/netgames/UnionPong/ActionScript/HUD.as' namespace='' access='public' baseclass='flash.display:Sprite' isFinal='false' isDynamic='false' >
+<description><![CDATA[
+   A container for the "heads up display" of the pong game. Contains the
+   players' scores and a status message text field.
+   ]]></description>
+</classRec>
+<method name='HUD' fullname='HUD/HUD' isStatic='false' isFinal='false' isOverride='false'  result_type='*'>
+</method>
+<method name='resetScores' fullname='HUD/resetScores' isStatic='false' isFinal='false' isOverride='false'  result_type='void'>
+</method>
+<method name='setLeftPlayerScore' fullname='HUD/setLeftPlayerScore' isStatic='false' isFinal='false' isOverride='false'  param_names='score' param_types='int' param_defaults='undefined' result_type='void'>
+</method>
+<method name='setRightPlayerScore' fullname='HUD/setRightPlayerScore' isStatic='false' isFinal='false' isOverride='false'  param_names='score' param_types='int' param_defaults='undefined' result_type='void'>
+</method>
+<method name='setStatus' fullname='HUD/setStatus' isStatic='false' isFinal='false' isOverride='false'  param_names='msg' param_types='String' param_defaults='undefined' result_type='void'>
+</method>
+<field name='leftPlayerScore' fullname='HUD/protected:leftPlayerScore' type='flash.text:TextField' isStatic='false' isConst='false' >
+</field>
+<field name='rightPlayerScore' fullname='HUD/protected:rightPlayerScore' type='flash.text:TextField' isStatic='false' isConst='false' >
+</field>
+<field name='status' fullname='HUD/protected:status' type='flash.text:TextField' isStatic='false' isConst='false' >
+</field>
+<classRec name='Court' fullname='Court' sourcefile='/home/antont/src/doc/netgames/UnionPong/ActionScript/Court.as' namespace='' access='public' baseclass='flash.display:Sprite' isFinal='false' isDynamic='false' >
+<description><![CDATA[
+   A container for the graphics in the pong game.
+   ]]></description>
+</classRec>
+<method name='Court' fullname='Court/Court' isStatic='false' isFinal='false' isOverride='false'  result_type='*'>
+</method>
+<method name='hideBall' fullname='Court/hideBall' isStatic='false' isFinal='false' isOverride='false'  result_type='void'>
+</method>
+<method name='hideLeftPaddle' fullname='Court/hideLeftPaddle' isStatic='false' isFinal='false' isOverride='false'  result_type='void'>
+</method>
+<method name='hideRightPaddle' fullname='Court/hideRightPaddle' isStatic='false' isFinal='false' isOverride='false'  result_type='void'>
+</method>
+<method name='setBallPosition' fullname='Court/setBallPosition' isStatic='false' isFinal='false' isOverride='false'  param_names='x;y' param_types='int;int' param_defaults='undefined;undefined' result_type='void'>
+</method>
+<method name='setLeftPaddlePosition' fullname='Court/setLeftPaddlePosition' isStatic='false' isFinal='false' isOverride='false'  param_names='x;y' param_types='int;int' param_defaults='undefined;undefined' result_type='void'>
+</method>
+<method name='setRightPaddlePosition' fullname='Court/setRightPaddlePosition' isStatic='false' isFinal='false' isOverride='false'  param_names='x;y' param_types='int;int' param_defaults='undefined;undefined' result_type='void'>
+</method>
+<method name='showBall' fullname='Court/showBall' isStatic='false' isFinal='false' isOverride='false'  result_type='void'>
+</method>
+<method name='showLeftPaddle' fullname='Court/showLeftPaddle' isStatic='false' isFinal='false' isOverride='false'  result_type='void'>
+</method>
+<method name='showRightPaddle' fullname='Court/showRightPaddle' isStatic='false' isFinal='false' isOverride='false'  result_type='void'>
+</method>
+<field name='ballGraphic' fullname='Court/protected:ballGraphic' type='Rectangle' isStatic='false' isConst='false' >
+</field>
+<field name='bottomWallGraphic' fullname='Court/protected:bottomWallGraphic' type='Rectangle' isStatic='false' isConst='false' >
+</field>
+<field name='leftPaddleGraphic' fullname='Court/protected:leftPaddleGraphic' type='Rectangle' isStatic='false' isConst='false' >
+</field>
+<field name='rightPaddleGraphic' fullname='Court/protected:rightPaddleGraphic' type='Rectangle' isStatic='false' isConst='false' >
+</field>
+<field name='topWallGraphic' fullname='Court/protected:topWallGraphic' type='Rectangle' isStatic='false' isConst='false' >
+</field>
+</asdoc>
