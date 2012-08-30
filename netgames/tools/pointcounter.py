@@ -1,4 +1,6 @@
 import read_asdoc_xml as r
+unionpongnet = ["GameManager", "GameStates", "KeyboardController", "PongClient", "PongObject", "RoomAttributes", "RoomMessages", "UnionPong"] #the classes included for the net-code-only run
+#unionpongnet = None
 #import read_jsdoc_json as r
 
 def getN(c, C):
@@ -13,7 +15,7 @@ def getN(c, C):
 		result *= term / (term + len(C[x].fields) + len(C[x].relations) + len(C[x].methods))
 	return result
 
-C = r.giev()
+C = r.get_classes(unionpongnet)
 
 W_c = 4
 W_R_c = 2
@@ -32,10 +34,11 @@ print CP
 #N_O_M = sum([o.N for o in O_M]) / len(O_M)
 
 #call counts from closure trees
-from count_calls import count_calls
-for c in C.itervalues():
-        print "Function calls in class:", c.name
-        count_calls(c.name)
+#from count_calls import count_calls
+#for c in C.itervalues():
+#        print "Function calls in class:", c.name
+#        count_calls(c.name)
+
 # MP = (W_O_M * len(O_M) + sum([len(o.P) for o in O_M)]) + W_S_O * sum([len(o.S) for i in O_M]) + W_T_O * sum([len(o.T) for o in O_M])) * N_O_M
 
 # N_c = prod([(len(c.A) + len(c.R) + len(c.O)) / (len(c.A) + len(c.R) + len(c.O) + ) for c in C])

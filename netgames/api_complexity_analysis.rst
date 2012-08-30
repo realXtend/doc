@@ -271,7 +271,7 @@ game.js: 74 OP (CP + MP)
 UnionPlatform Pong tutorial
 """""""""""""""""""""""""""
 
-client 14x .as3: 273 OP (CP + MP)
+client 14x .as3: 220.5 OP (CP + MP)
 
 + UnionPong/Java/PongRoomModule.java
 
@@ -280,7 +280,15 @@ Only the networking code
 
 - Selected classes, explain the criteria.
 
-TODO
+unionpongnet = ["GameManager", "GameStates", "KeyboardController",
+"PongClient", "PongObject", "RoomAttributes", "RoomMessages",
+"UnionPong"]
+
+KeyboardController is included because it is exactly what sends the
+remote control messages from the player to the server (modifies
+client.paddle's attributes and says client.commit()).
+
+client 8x .as: 147.0
 
 
 Discussion

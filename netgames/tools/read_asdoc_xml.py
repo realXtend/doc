@@ -8,7 +8,8 @@ filepath = "../UnionPong/unionpong-asdoc/tempdita/"
 methodfile = "methodSummary.xml"
 fieldfile = "fieldSummary.xml"
 
-def get_klasses():
+
+def get_klasses(infilter=None):
     klasses = {}
 
     et_classes = ET.ElementTree()
@@ -18,6 +19,10 @@ def get_klasses():
     for c in classes:
         classname = c.find('apiName').text
         #print classname
+        if infilter is not None: #filtering in use
+            if classname not in infilter:
+                print "Filtering out class:", classname
+                continue
         k = Klass(classname)
         klasses[classname] = k
 
@@ -54,6 +59,8 @@ def get_values(klasses):
     classes = et.getiterator("apiClassifier")
     for c in classes:
         classname = c.find('apiName').text
+        if classname not in klasses: #has been filtered out in first pass
+            continue
         klass = klasses[classname]
 
         values = c.getiterator("apiValue")
@@ -69,8 +76,8 @@ def get_values(klasses):
                 #relklass = klasses[relclassname]
                 klass.relations.append(relclassname) #relklass)
 
-def giev():
-    klasses = get_klasses()
+def get_classes(infilter=None):
+    klasses = get_klasses(infilter)
     get_values(klasses) #adds relations to each klass
     return klasses
 

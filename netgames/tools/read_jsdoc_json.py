@@ -2,7 +2,7 @@ import json
 import klass
 from klass import Klass, Method
 
-def giev():
+def get_classes(infilter=None): #XXX note: filter not implemented here now, only for unionpong / as reading
     f = open("../PongMultiplayer/Tundra-PongMultiplayer_jsdoc.json")
     d = f.read()
     r = json.loads(d)
@@ -40,5 +40,5 @@ def giev():
     return klasses
 
 if __name__ == '__main__':
-    klasses = giev()
+    klasses = get_classes()
     klass.printout(klasses)
