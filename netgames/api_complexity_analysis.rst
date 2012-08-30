@@ -123,7 +123,15 @@ calculation. Intermediate UML models are used as the data source which
 allows comparing programs in different languages
 [api-complexity-analysis]_. This kind of fine grained OP analysis is
 applicable for our purposes here. It does not capture all the elements
-of API complexity, but gives useful metrics for comparisons.
+of API complexity, but gives useful metrics for
+comparisons. Importantly, as is also noted in the earlier API
+complexity study, the Sneed measure allows direct tracking from
+indicator values to program structures
+[api-complexity-analysis]_. This is elemental for the purposes of API
+evaluation and design -- for example if many codebases get a high
+proportion of their complexity value due to a specific part of the
+API, it can then be examined qualitatively.
+
 
 The game of Pong
 ----------------
