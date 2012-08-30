@@ -216,7 +216,7 @@ function timerListener (e) {
 // Adds all "ready" players to the game simulation. Invoked when the 
 // current client joins the game room.
 function initPlayers () {
-    for each (var player in room.getOccupants()) {
+    for (player in room.getOccupants()) {
 	    if (player.getAttribute(ClientAttributes.STATUS, Settings.GAME_ROOMID)
 		== PongClient.STATUS_READY) {
 		addPlayer(player);

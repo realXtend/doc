@@ -1,8 +1,8 @@
 /**
  * An enumeration of pong client attribute names.
  */
-function ClientAttributes {
-    const SIDE   = "side";
-    const PADDLE = "paddle";
-    const STATUS = "status";
+ClientAttributes = function() {
+    var SIDE   = "side";
+    var PADDLE = "paddle";
+    var STATUS = "status";
 }
