@@ -1,7 +1,7 @@
 import re
 import os
 
-path = '../UnionPong/Actionscript/'
+path = '../UnionPong/ActionScript/'
 
 type_matcher = re.compile(r'(:\w+)')
 keywords = re.compile(r'public|static|protected|private|final')
