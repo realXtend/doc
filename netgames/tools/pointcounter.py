@@ -31,6 +31,11 @@ print CP
 
 #N_O_M = sum([o.N for o in O_M]) / len(O_M)
 
+#call counts from closure trees
+from count_calls import count_calls
+for c in C.itervalues():
+        print "Function calls in class:", c.name
+        count_calls(c.name)
 # MP = (W_O_M * len(O_M) + sum([len(o.P) for o in O_M)]) + W_S_O * sum([len(o.S) for i in O_M]) + W_T_O * sum([len(o.T) for o in O_M])) * N_O_M
 
 # N_c = prod([(len(c.A) + len(c.R) + len(c.O)) / (len(c.A) + len(c.R) + len(c.O) + ) for c in C])
