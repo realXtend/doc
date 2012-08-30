@@ -2,25 +2,34 @@
 A comparison of networked game development APIs
 ===============================================
 
-or: An analysis of a networked game development API
+.. |date| date::
+.. |time| date:: %H:%M
 
-objective: analyze API complexity of networked game development platform(s)
-method: OP
-data: two implementations of pong (and?)
-results: Tundra is simple, other is more complex?
+.. rubric::
+   This document was generated on |date| at |time|.
 
-other concerns: leakages?
+Networked game programming is complex compared to single player
+games. Several libraries and platforms exist to ease the
+development. In this exploratory study, we propose a technique for
+evaluating how much a networked game development platform succeeds in
+hiding complexity. We apply Sneed's Object-Points (OP) analysis to two
+pre-existing implementations of the same minimal networked multiplayer
+game: Pong. The OP technique succesfully illustrates the different
+amounts of complexity the developer has to manage on the two
+alternative platforms. We have automated the source-code based
+analysis process, and suggest using it both for longitudal studies of
+API development and for comparing alternative API approaches.
 
 Introduction
 ============
 
 Higher level abstractions in software are a common way to attempt to
 ease application development. Regarding networking, libraries exist to
-simplify creating connections and serializing messages etc. On a even
-higher level, distributed object systems automate remote calls and
-data synchronization. For an application developer, these systems are
+simplify managing connections and messaging. On a even higher level,
+distributed object systems automate remote calls and data
+synchronization. For an application developer, these systems are
 provided as a set of abstractions forming the application development
-interface (API). 
+interface (API).
 
 It has been noted how making good APIs is hard -- and that creating a
 bad one is easy [api-matters]_. Even a small quirk in an API can
@@ -60,7 +69,12 @@ complexity of the same game implemented on the two platforms. The game
 is Pong, which is proposed as a minimal hello-world style example of a
 multiplayer game.
 
-TODO: FINISH
+The article is organized as follows: Next, we provide background
+information on API complexity research, the selected game case and the
+alternative networked game development platforms. Then the conducting
+and the results of the Object-Points analysis is presented. Finally,
+results are discussed both to evaluate the applicability of the
+analysis method, and in light of explaining factors from the APIs.
 
 .. (the point about leakages only in discussion? or somehow here too
    still? was:) The purpose is to identify leakage points in the
@@ -77,53 +91,129 @@ Recently, software complexity analysis techniques have been applied to
 statistical (quantitative) studies of API
 complexity. [cmu-api_failures]_ studies 2 large corporate software
 projects and 9 open source projects and finds a link between API
-complexity and increases in failure proneness of the software. The
-masses of source code are quantified with measures such as API size
-and dispersion. Building on existing work (NOTE: Baudi), API
-complexity is calculated simply from the number of public methods and
-attributes. In the discussion it is noted how this is severely
+complexity and increases in failure proneness of the software (bug
+reports from the field). The masses of source code are quantified with
+measures such as API size and dispersion. Building on existing work,
+API complexity is calculated simply from the number of public methods
+and attributes. In the discussion it is noted how this is severely
 limited: for example, it fails to take into account pre- and
 post-invocation assumptions of the API and possibly required sequences
 of invocation [cmu-api_failures]_.
 
-A study of 4 alternative implementations, on different frameworks, of
-the same application uses Object-Points (OP) analysis to quantify the
-code bases for the comparison [api-complexity-analysis]_. OP has
-originally been developed for estimating development effort, but there
-the authors adopt it to calculate the complexity of existing software
-for complexity comparisons. Number of classes, their members and
-operation calls are counted and assigned adjustment weights in the
+We do not have external statistics data from hours used for
+development or reported software failures of games to study. Also
+simplistic measures, suitable for analyzing large bodies of source
+code, would miss the subtle issues which raise in networked
+programming on a framework which attempts to hide the intricacies of
+networking from the application developer. It would be interesting to
+organize an experiment where a number of test teams develop the same
+networked game on alternative platforms, from the same specifications,
+and the development time and number of mistakes would be
+analyzed. That is however out of the scope here.
+
+In a different approach, a study of 4 alternative implementations, on
+different frameworks, of the same application uses Object-Points (OP)
+analysis to quantify the code bases for the comparison
+[api-complexity-analysis]_. OP has originally been developed for
+estimating development effort, but there the authors adopt it to
+calculate the complexity of existing software for complexity
+comparisons. Number of classes, their members and operation calls are
+counted and assigned adjustment weights in the
 calculation. Intermediate UML models are used as the data source which
 allows comparing programs in different languages
-[api-complexity-analysis]_.
-
-For the purposes of this study, we do not have enough data for
-meaningful statistical analysis. Also simplistic measures, suitable
-for analyzing large bodies of source code, would miss the subtle
-issues which raise in networked programming on a framework which
-attempts to hide the intricacies of networking from the application
-developer. The more fine grained OP analysis, however, is
-applicable. It does not capture all the elements of API complexity,
-but gives useful metrics for comparisons.
+[api-complexity-analysis]_. This kind of fine grained OP analysis is
+applicable for our purposes here. It does not capture all the elements
+of API complexity, but gives useful metrics for comparisons.
 
 The game of Pong
 ----------------
 
-TODO
+We propose using Pong as a minimal networked multiplayer game. It is
+tiny in functionality, but still demonstrates key issues with
+networking and games with the combination of the clients controlling
+their own paddles and the ball bouncing in the shared space. Pong has
+been used in networked game research earlier, recently in an
+interesting study of latency compensation techniques
+[pong-ping]_. Also even a minimal game suffices to reveal the amount
+of software needed for all the basics: establishing connections,
+handling players joining in and dropping out, and just getting the
+networked software up and running.
 
-- has been used in networked games before [pong-ping]_.
+For further studies, devising a set of different kind of small games,
+and perhaps some larger sufficiently complex game, would really allow
+rich comparative API analysis.
 
 Platforms: realXtend Tundra SDK and Union Platform
 --------------------------------------------------
 
-- entity system desc (copy-paste from original draft, short, refer to IEEE IC)
+For this initial study, we selected two relatively high-level
+networked game platforms: realXtend Tundra SDK (open source) and the
+Union Platform (closed source proprietary). They bear several key
+similarities and differences which are interesting for the study:
 
-  + nice new diagram perhap, to summarize ECA+A
+Both Tundra and Union are specifically for networking, and expose it
+to the developer on an abstract application level. That is, the games
+do not know anything about sockets or network hosts. Instead, an
+abstract container object is provided (Room in Union, Scene in
+Tundra). Application logic listens to events from the container, for
+example when a new client joins the shared session/space.
 
-- Tundra overview: what is there besides entities in the Tundra API -- and what is
-  Tundra overall (again hopefully copy-paste from 1st draft)
+Also, both platforms provide an automated mechanism for synchronizing
+state over the network. The shared state is in special attributes
+(objects of type Attribute), which are in the container (in Union
+directly in the Room object, in Tundra in entities in the Scene). The
+attributes are automatically shared among all the participants, and
+provide events for interested parties to get notified of changes. This
+way it is simple to for example set the game score points on the
+server, and show it in the GUI in clients.
 
-- other platforms -- Unity3D having the same model etc?
+However, there is one fundamental difference in the platforms and how
+they are used in the Pong examples studied here. TundraPong is a
+script running on the Tundra platform. UnionPong is a new client
+application, to which the networking has been added by using Union's
+Reaktor Flash library. The Tundra game utilizes a complete static
+scene datafile where the game logic just starts moving objects
+around. It runs on an existing client-server system, and utilizes
+several default components from the platform: notably all the data for
+the appearance and spatial instancing. In contrast, UnionPong not only
+has code to create the appearance of the game court (as it is called
+in Court.as), but also to define what data is required for a spatial
+moving object (PongObject has x, y, direction, speed, width and
+height). Tundra, again, has the position in the builtin predefined
+Placeable component and the size and shape information for collisions,
+and the speed vector for movement, in the physics module's Rigidbody
+component. Also with networking there is a great difference: OnionPong
+sends own custom movement messages for all the movement, and has also
+custom server side code to do ball bouncing, whereas on Tundra the
+default movement replication and physics collisions are used.
+
+So it is clear at the start that UnionPong is more complex, due to
+having much more of the implementation in the game/application
+code. The analysis is still interesting as it helps to answer the
+questions at hand: a) how much do the alternative APIs manage to hide
+complexity and b) how well does the selected analysis technique apply
+to networked game API evaluation.
+
+For more results, at least these two additional Pong implementations
+should be added to the analysis in future work: 
+
+1. An alternative TundraPong style game where the defaults from an
+underlying platform are used to the fullest, for example with the
+Unreal engine.
+
+2. A version made with a different networked programming paradigm,
+such as the Emerson language which is a Javascript variant by the
+Sirikata project for networked applications, without attribute
+autosynchronization but using messaging exclusively instead
+[sirikata-scripting]_.
+
+The analysis here is limited to the two platforms simply because we do
+not have more implementations (Pong source codes) to study yet. The
+Tundra one was initiated by the author (only the scene and trivial
+computer opponent logic as a test), and later completed by an
+independent developer (he made all the networking and game control
+code). The Union one we found with an Internet search.
+
 
 Application of Object-Point analysis
 ====================================
@@ -196,38 +286,14 @@ TODO
 Discussion
 ==========
 
-First and foremost, we are comparing apples and oranges here: The
-Javascript game is a script running on the Tundra platform. The
-UnionPong is a new client application, to which the networking has
-been added by using Union's Reaktor Flash library.
-
-The Tundra game utilizes a complete otherwise made scene where the
-pong game takes place. It runs on an existing client-server system,
-and utilizes several default components from the platform: notably all
-the data for the appearance and spatial instancing. In contrast,
-UnionPong not only has code to create the appearance of the game court
-(as it is called in Court.js), but also to define what data is
-required for a spatial moving object (PongObject has x, y, direction,
-speed, width and height). Tundra, again, has the position in the
-Placeable component and the size and shape information for collisions,
-and the speed vector for movement, in the physics module's Rigidbody
-component. So it is no wonder that the Onion implementation gets much
-higher points, due to having much more of the implementation in the
-game/application code. Also with networking there is a great
-difference: OnionPong sends own custom movement messages for all the
-movement, and has also custom server side code to do ball bouncing,
-whereas on Tundra the default movement replication and physics
-collisions are used.
-
 How should we interpret this result? There are several things to
 consider, these are visited in the following: 1. validity of the
 analysis technique, the automated (partial) Object-Point
 analysis 2. nature, suitability and use of scripting vs. application
 development libraries 3. observations of the high-level network
-programming APIs studied here (XXX NOTE: both have autosync, heavy use
-of callbacks, .. - introduce this in some background info
-thing?) 4. limitations: the many areas of analysis outside the focus
-here (scalability, efficiency of the networking etc)
+programming APIs studied here. 4. limitations: the many areas of
+analysis outside the focus here (scalability, efficiency of the
+networking etc)
 
 1. Validity of the analysis
 ---------------------------
@@ -328,3 +394,8 @@ References
 .. [api-complexity-analysis] Comparing Complexity of API Designs: An Exploratory Experiment on DSL-based Framework Integration. http://www.sba-research.org/wp-content/uploads/publications/gpce11.pdf
 
 .. [pong-ping] High and Low Ping and the Game of Pong. http://www.cs.umu.se/~greger/pong.pdf
+
+.. [sirikata-scripting] Bhupesh Chandra, Ewen Cheslack-Postava, Behram F. T. Mistree, Philip Levis, and David Gay. "Emerson: Scripting for Federated Virtual Worlds", Proceedings of the 15th International
+   Conference on Computer Games: AI, Animation, Mobile, Interactive
+   Multimedia, Educational & Serious Games (CGAMES 2010 USA).
+   http://sing.stanford.edu/pubs/cgames10.pdf

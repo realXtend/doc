@@ -8,7 +8,7 @@ def getN(c, C):
 		return 0.5
 	return 1
 
-	#Fix this if time
+	#Fix this if time (XXX: requires getting the values for Flash Sprite and the base Client in Reaktor) 
 	for x in c.supers:
 		result *= term / (term + len(C[x].fields) + len(C[x].relations) + len(C[x].methods))
 	return result
