@@ -268,19 +268,24 @@ TODO: add the equation + legend here
 Results
 =======
 
-Full applications
------------------
++-----------+--------------+---------------+
+|           |              |      UnionPong|
+|           |**TundraPong**|         Client|
+|           |              +-----+---------+
+|           |              |Full | Net     |
++-----------+--------------+-----+---------+
+|Class      |              |     |         |
+|Points     |       74     | 221 |   147   |
++-----------+--------------+-----+---------+
+|Message    |              |     |         |
+|Points     |              |     |         |
++-----------+--------------+-----+---------+
+|Object     |              |     |         |
+|Points     |              |     |         |
++-----------+--------------+-----+---------+
 
-Tundra PongMultiplayer 
-""""""""""""""""""""""
-
-game.js: 74 OP (CP + MP)
-
-UnionPlatform Pong tutorial
-"""""""""""""""""""""""""""
-
-client 14x .as3: 220.5 OP (CP + MP)
-
+Tundra PongMultiplayer: game.js 
+UnionPlatform Pong tutorial: client 14x .as3
 + UnionPong/Java/PongRoomModule.java
 
 Only the networking code
