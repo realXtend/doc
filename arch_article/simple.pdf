@@ -43,10 +43,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 58 0 R
+ /Dest [ 54 0 R
  /XYZ
  68.69291
- 387.9843
+ 258.9843
  0 ]
  /Rect [ 224.9278
  95.77362
@@ -59,12 +59,12 @@ endobj
 6 0 obj
 % Page dictionary
 << /Annots [ 5 0 R ]
- /Contents 85 0 R
+ /Contents 86 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 84 0 R
+ /Parent 85 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -81,10 +81,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 58 0 R
+ /Dest [ 54 0 R
  /XYZ
  68.69291
- 363.9843
+ 234.9843
  0 ]
  /Rect [ 127.7229
  627.7736
@@ -99,10 +99,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 58 0 R
+ /Dest [ 54 0 R
  /XYZ
  68.69291
- 243.9843
+ 114.9843
  0 ]
  /Rect [ 123.2705
  516.7736
@@ -120,7 +120,7 @@ endobj
  /Dest [ 71 0 R
  /XYZ
  68.69291
- 707.0236
+ 611.0236
  0 ]
  /Rect [ 436.8627
  474.7736
@@ -135,10 +135,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 58 0 R
+ /Dest [ 54 0 R
  /XYZ
  68.69291
- 351.9843
+ 222.9843
  0 ]
  /Rect [ 410.485
  294.7736
@@ -153,10 +153,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 58 0 R
+ /Dest [ 54 0 R
  /XYZ
  68.69291
- 327.9843
+ 198.9843
  0 ]
  /Rect [ 254.4429
  87.77362
@@ -173,12 +173,12 @@ endobj
  9 0 R
  10 0 R
  11 0 R ]
- /Contents 86 0 R
+ /Contents 87 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 84 0 R
+ /Parent 85 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -233,12 +233,12 @@ endobj
 % 'Page3': class PDFPage 
 17 0 obj
 % Page dictionary
-<< /Contents 87 0 R
+<< /Contents 88 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 84 0 R
+ /Parent 85 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -253,12 +253,12 @@ endobj
 % 'Page4': class PDFPage 
 18 0 obj
 % Page dictionary
-<< /Contents 88 0 R
+<< /Contents 89 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 84 0 R
+ /Parent 85 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -286,12 +286,12 @@ endobj
 % 'Page5': class PDFPage 
 20 0 obj
 % Page dictionary
-<< /Contents 89 0 R
+<< /Contents 90 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 84 0 R
+ /Parent 85 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -309,10 +309,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 58 0 R
+ /Dest [ 54 0 R
  /XYZ
  68.69291
- 339.9843
+ 210.9843
  0 ]
  /Rect [ 65.47291
  729.7736
@@ -342,10 +342,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 58 0 R
+ /Dest [ 54 0 R
  /XYZ
  68.69291
- 447.9843
+ 318.9843
  0 ]
  /Rect [ 401.884
  618.7736
@@ -360,10 +360,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 58 0 R
+ /Dest [ 71 0 R
  /XYZ
  68.69291
- 219.9843
+ 767.0236
  0 ]
  /Rect [ 367.0443
  582.7736
@@ -381,7 +381,7 @@ endobj
  /Dest [ 71 0 R
  /XYZ
  68.69291
- 767.0236
+ 671.0236
  0 ]
  /Rect [ 244.5628
  570.7736
@@ -399,7 +399,7 @@ endobj
  /Dest [ 71 0 R
  /XYZ
  68.69291
- 683.0236
+ 587.0236
  0 ]
  /Rect [ 65.47291
  456.7736
@@ -417,12 +417,12 @@ endobj
  24 0 R
  25 0 R
  26 0 R ]
- /Contents 90 0 R
+ /Contents 91 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 84 0 R
+ /Parent 85 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -442,7 +442,7 @@ endobj
  /Dest [ 71 0 R
  /XYZ
  68.69291
- 659.0236
+ 563.0236
  0 ]
  /Rect [ 65.47291
  687.7736
@@ -460,7 +460,7 @@ endobj
  /Dest [ 71 0 R
  /XYZ
  68.69291
- 671.0236
+ 575.0236
  0 ]
  /Rect [ 474.7065
  651.7736
@@ -475,10 +475,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 58 0 R
+ /Dest [ 54 0 R
  /XYZ
  68.69291
- 279.9843
+ 150.9843
  0 ]
  /Rect [ 150.3329
  561.7736
@@ -493,10 +493,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 58 0 R
+ /Dest [ 71 0 R
  /XYZ
  68.69291
- 219.9843
+ 767.0236
  0 ]
  /Rect [ 463.6827
  387.7736
@@ -511,10 +511,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 58 0 R
+ /Dest [ 71 0 R
  /XYZ
  68.69291
- 171.9843
+ 719.0236
  0 ]
  /Rect [ 65.47291
  375.7736
@@ -532,7 +532,7 @@ endobj
  /Dest [ 71 0 R
  /XYZ
  68.69291
- 647.0236
+ 551.0236
  0 ]
  /Rect [ 413.6777
  363.7736
@@ -547,10 +547,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 58 0 R
+ /Dest [ 54 0 R
  /XYZ
  68.69291
- 291.9843
+ 162.9843
  0 ]
  /Rect [ 346.8694
  297.7736
@@ -569,12 +569,12 @@ endobj
  32 0 R
  33 0 R
  34 0 R ]
- /Contents 91 0 R
+ /Contents 92 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 84 0 R
+ /Parent 85 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -597,9 +597,9 @@ endobj
  632.0236
  0 ]
  /Rect [ 68.69291
- 434.7343
+ 305.7343
  119.2529
- 446.7343 ]
+ 317.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -612,9 +612,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 386.7343
+ 257.7343
  342.1923
- 398.7343 ]
+ 269.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -630,9 +630,9 @@ endobj
  109.0236
  0 ]
  /Rect [ 68.69291
- 374.7343
+ 245.7343
  153.1529
- 386.7343 ]
+ 257.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -645,9 +645,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 374.7343
+ 245.7343
  363.2923
- 386.7343 ]
+ 257.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -663,9 +663,9 @@ endobj
  641.0236
  0 ]
  /Rect [ 68.69291
- 350.7343
+ 221.7343
  125.3629
- 362.7343 ]
+ 233.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -678,9 +678,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 350.7343
+ 221.7343
  532.5827
- 362.7343 ]
+ 233.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -696,9 +696,9 @@ endobj
  308.0236
  0 ]
  /Rect [ 68.69291
- 338.7343
+ 209.7343
  132.0529
- 350.7343 ]
+ 221.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -711,9 +711,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 338.7343
+ 209.7343
  532.5827
- 350.7343 ]
+ 221.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -729,9 +729,9 @@ endobj
  743.0236
  0 ]
  /Rect [ 68.69291
- 326.7343
+ 197.7343
  144.2729
- 338.7343 ]
+ 209.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -744,9 +744,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 326.7343
+ 197.7343
  532.5827
- 338.7343 ]
+ 209.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -762,9 +762,9 @@ endobj
  101.0236
  0 ]
  /Rect [ 68.69291
- 314.7343
+ 185.7343
  128.1629
- 326.7343 ]
+ 197.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -777,9 +777,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 302.7343
+ 173.7343
  442.1424
- 314.7343 ]
+ 185.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -792,9 +792,9 @@ endobj
  0
  0 ]
  /Rect [ 164.2923
- 290.7343
+ 161.7343
  461.1023
- 302.7343 ]
+ 173.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -810,9 +810,9 @@ endobj
  311.0236
  0 ]
  /Rect [ 68.69291
- 278.7343
+ 149.7343
  127.6029
- 290.7343 ]
+ 161.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -825,9 +825,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 278.7343
+ 149.7343
  532.5827
- 290.7343 ]
+ 161.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -843,9 +843,9 @@ endobj
  575.0236
  0 ]
  /Rect [ 68.69291
- 266.7343
+ 137.7343
  126.4929
- 278.7343 ]
+ 149.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -858,9 +858,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 242.7343
+ 113.7343
  477.7423
- 254.7343 ]
+ 125.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -876,83 +876,14 @@ endobj
  530.0236
  0 ]
  /Rect [ 68.69291
- 230.7343
+ 101.7343
  105.3629
- 242.7343 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER38': class LinkAnnotation 
-54 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 27 0 R
- /XYZ
- 336.7029
- 596.0236
- 0 ]
- /Rect [ 138.1429
- 206.7343
- 143.7029
- 218.7343 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER39': class LinkAnnotation 
-55 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 35 0 R
- /XYZ
- 445.0829
- 401.0236
- 0 ]
- /Rect [ 68.69291
- 194.7343
- 74.25291
- 206.7343 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER40': class LinkAnnotation 
-56 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 35 0 R
- /XYZ
- 62.69291
- 389.0236
- 0 ]
- /Rect [ 68.69291
- 158.7343
- 140.3729
- 170.7343 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER41': class PDFDictionary 
-57 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://hci.stanford.edu/cstr/reports/2010-01.pdf) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 153.7323
- 122.7343
- 358.8423
- 134.7343 ]
+ 113.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Page8': class PDFPage 
-58 0 obj
+54 0 obj
 % Page dictionary
 << /Annots [ 36 0 R
  37 0 R
@@ -971,17 +902,13 @@ endobj
  50 0 R
  51 0 R
  52 0 R
- 53 0 R
- 54 0 R
- 55 0 R
- 56 0 R
- 57 0 R ]
- /Contents 92 0 R
+ 53 0 R ]
+ /Contents 93 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 84 0 R
+ /Parent 85 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -991,6 +918,75 @@ endobj
  /Rotate 0
  /Trans <<  >>
  /Type /Page >>
+endobj
+% 'Annot.NUMBER38': class LinkAnnotation 
+55 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 27 0 R
+ /XYZ
+ 336.7029
+ 596.0236
+ 0 ]
+ /Rect [ 138.1429
+ 753.7736
+ 143.7029
+ 765.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER39': class LinkAnnotation 
+56 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 35 0 R
+ /XYZ
+ 445.0829
+ 401.0236
+ 0 ]
+ /Rect [ 68.69291
+ 741.7736
+ 74.25291
+ 753.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER40': class LinkAnnotation 
+57 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 35 0 R
+ /XYZ
+ 62.69291
+ 389.0236
+ 0 ]
+ /Rect [ 68.69291
+ 705.7736
+ 140.3729
+ 717.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER41': class PDFDictionary 
+58 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://hci.stanford.edu/cstr/reports/2010-01.pdf) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 153.7323
+ 669.7736
+ 358.8423
+ 681.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
 endobj
 % 'Annot.NUMBER42': class LinkAnnotation 
 59 0 obj
@@ -1004,9 +1000,9 @@ endobj
  584.0236
  0 ]
  /Rect [ 68.69291
- 753.7736
+ 657.7736
  140.9229
- 765.7736 ]
+ 669.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1019,9 +1015,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 705.7736
+ 609.7736
  345.5123
- 717.7736 ]
+ 621.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1037,9 +1033,9 @@ endobj
  488.0236
  0 ]
  /Rect [ 68.69291
- 693.7736
+ 597.7736
  102.5829
- 705.7736 ]
+ 609.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1052,9 +1048,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 681.7736
+ 585.7736
  444.4023
- 693.7736 ]
+ 597.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1070,9 +1066,9 @@ endobj
  470.0236
  0 ]
  /Rect [ 68.69291
- 669.7736
+ 573.7736
  113.1529
- 681.7736 ]
+ 585.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1085,9 +1081,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 669.7736
+ 573.7736
  532.5827
- 681.7736 ]
+ 585.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1103,9 +1099,9 @@ endobj
  665.0236
  0 ]
  /Rect [ 68.69291
- 657.7736
+ 561.7736
  87.59291
- 669.7736 ]
+ 573.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1118,9 +1114,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 657.7736
+ 561.7736
  532.5827
- 669.7736 ]
+ 573.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1136,9 +1132,9 @@ endobj
  701.0236
  0 ]
  /Rect [ 68.69291
- 645.7736
+ 549.7736
  127.0529
- 657.7736 ]
+ 561.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1151,9 +1147,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 645.7736
+ 549.7736
  532.5827
- 657.7736 ]
+ 561.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1169,9 +1165,9 @@ endobj
  377.0236
  0 ]
  /Rect [ 68.69291
- 633.7736
+ 537.7736
  163.1729
- 645.7736 ]
+ 549.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -1184,16 +1180,20 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 609.7736
+ 513.7736
  495.5423
- 621.7736 ]
+ 525.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Page9': class PDFPage 
 71 0 obj
 % Page dictionary
-<< /Annots [ 59 0 R
+<< /Annots [ 55 0 R
+ 56 0 R
+ 57 0 R
+ 58 0 R
+ 59 0 R
  60 0 R
  61 0 R
  62 0 R
@@ -1205,12 +1205,12 @@ endobj
  68 0 R
  69 0 R
  70 0 R ]
- /Contents 93 0 R
+ /Contents 94 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 84 0 R
+ /Parent 85 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -1225,15 +1225,15 @@ endobj
 72 0 obj
 % Document Root
 << /Outlines 74 0 R
- /PageLabels 94 0 R
+ /PageLabels 95 0 R
  /PageMode /UseNone
- /Pages 84 0 R
+ /Pages 85 0 R
  /Type /Catalog >>
 endobj
 % 'R73': class PDFInfo 
 73 0 obj
 << /Author ()
- /CreationDate (D:20110521131043-02'00')
+ /CreationDate (D:20110622215228-02'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
@@ -1242,9 +1242,9 @@ endobj
 endobj
 % 'R74': class PDFOutlines 
 74 0 obj
-<< /Count 9
+<< /Count 10
  /First 75 0 R
- /Last 83 0 R
+ /Last 84 0 R
  /Type /Outlines >>
 endobj
 % 'Outline.0': class OutlineEntryObject 
@@ -1332,7 +1332,7 @@ endobj
 endobj
 % 'Outline.7': class OutlineEntryObject 
 82 0 obj
-<< /Dest [ 58 0 R
+<< /Dest [ 54 0 R
  /XYZ
  62.69291
  765.0236
@@ -1344,17 +1344,29 @@ endobj
 endobj
 % 'Outline.8': class OutlineEntryObject 
 83 0 obj
-<< /Dest [ 58 0 R
+<< /Dest [ 54 0 R
  /XYZ
  62.69291
  558.0236
  0 ]
+ /Next 84 0 R
  /Parent 74 0 R
  /Prev 82 0 R
  /Title (References) >>
 endobj
-% 'R84': class PDFPages 
+% 'Outline.9': class OutlineEntryObject 
 84 0 obj
+<< /Dest [ 54 0 R
+ /XYZ
+ 62.69291
+ 525.0236
+ 0 ]
+ /Parent 74 0 R
+ /Prev 83 0 R
+ /Title (Author biography) >>
+endobj
+% 'R85': class PDFPages 
+85 0 obj
 % page tree
 << /Count 9
  /Kids [ 6 0 R
@@ -1364,12 +1376,12 @@ endobj
  20 0 R
  27 0 R
  35 0 R
- 58 0 R
+ 54 0 R
  71 0 R ]
  /Type /Pages >>
 endobj
-% 'R85': class PDFStream 
-85 0 obj
+% 'R86': class PDFStream 
+86 0 obj
 % page stream
 << /Length 6309 >>
 stream
@@ -1455,8 +1467,8 @@ Q
  
 endstream
 endobj
-% 'R86': class PDFStream 
-86 0 obj
+% 'R87': class PDFStream 
+87 0 obj
 % page stream
 << /Length 6801 >>
 stream
@@ -1519,8 +1531,8 @@ Q
  
 endstream
 endobj
-% 'R87': class PDFStream 
-87 0 obj
+% 'R88': class PDFStream 
+88 0 obj
 % page stream
 << /Length 5970 >>
 stream
@@ -1590,8 +1602,8 @@ Q
  
 endstream
 endobj
-% 'R88': class PDFStream 
-88 0 obj
+% 'R89': class PDFStream 
+89 0 obj
 % page stream
 << /Length 6320 >>
 stream
@@ -1647,8 +1659,8 @@ Q
  
 endstream
 endobj
-% 'R89': class PDFStream 
-89 0 obj
+% 'R90': class PDFStream 
+90 0 obj
 % page stream
 << /Length 4338 >>
 stream
@@ -1705,8 +1717,8 @@ Q
  
 endstream
 endobj
-% 'R90': class PDFStream 
-90 0 obj
+% 'R91': class PDFStream 
+91 0 obj
 % page stream
 << /Length 6997 >>
 stream
@@ -1765,8 +1777,8 @@ Q
  
 endstream
 endobj
-% 'R91': class PDFStream 
-91 0 obj
+% 'R92': class PDFStream 
+92 0 obj
 % page stream
 << /Length 5512 >>
 stream
@@ -1805,10 +1817,10 @@ Q
  
 endstream
 endobj
-% 'R92': class PDFStream 
-92 0 obj
+% 'R93': class PDFStream 
+93 0 obj
 % page stream
-<< /Length 7545 >>
+<< /Length 7421 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -1831,14 +1843,27 @@ BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (References) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 474.3307 cm
+1 0 0 1 62.69291 504.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Author biography) Tj T* ET
+Q
 Q
 q
-1 0 0 1 62.69291 445.9843 cm
+1 0 0 1 62.69291 402.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 86 Tm /F1 10 Tf 12 TL .753876 Tw (Toni Alatalo is the CTO of a small games company, Playsign, and the current lead architect of the open) Tj T* 0 Tw 1.92229 Tw (source realXtend platform. Before realXtend, he worked at the Blender Foundation's first open movie) Tj T* 0 Tw 1.017318 Tw (project, Elepants Dream, as the technical director. His work, both earlier in Blender and now realXtend,) Tj T* 0 Tw 1.784985 Tw (has focused on scripting APIs \(Python and Javascript\), but also taking care of the development as a) Tj T* 0 Tw .14061 Tw (whole. Playsign is planning to use reX as platform for arcade style multiplayer action games. Toni's earlier) Tj T* 0 Tw 1.442485 Tw (life in the '90s was centered around Internet services and web development, so he's very curious and) Tj T* 0 Tw 1.955988 Tw (keen to jump on all sorts of interactions of virtual worlds and the web. Although as an ex VJ and a) Tj T* 0 Tw (hobbyist dancer he's looking forward to the interplay with the physical spaces even more!) Tj T* ET
+Q
+Q
+q
+1 0 0 1 62.69291 345.3307 cm
+Q
+q
+1 0 0 1 62.69291 316.9843 cm
 n 0 14.17323 m 469.8898 14.17323 l S
 Q
 q
-1 0 0 1 62.69291 385.9843 cm
+1 0 0 1 62.69291 256.9843 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1857,7 +1882,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 361.9843 cm
+1 0 0 1 62.69291 232.9843 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1876,7 +1901,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 349.9843 cm
+1 0 0 1 62.69291 220.9843 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1897,7 +1922,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 337.9843 cm
+1 0 0 1 62.69291 208.9843 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1918,7 +1943,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 325.9843 cm
+1 0 0 1 62.69291 196.9843 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1939,7 +1964,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 289.9843 cm
+1 0 0 1 62.69291 160.9843 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1958,7 +1983,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 277.9843 cm
+1 0 0 1 62.69291 148.9843 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1979,7 +2004,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 241.9843 cm
+1 0 0 1 62.69291 112.9843 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1998,7 +2023,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 217.9843 cm
+1 0 0 1 62.69291 88.98425 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2016,8 +2041,17 @@ Q
 q
 Q
 Q
+ 
+endstream
+endobj
+% 'R94': class PDFStream 
+94 0 obj
+% page stream
+<< /Length 4064 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 169.9843 cm
+1 0 0 1 62.69291 717.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2037,7 +2071,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 121.9843 cm
+1 0 0 1 62.69291 669.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2055,17 +2089,8 @@ Q
 q
 Q
 Q
- 
-endstream
-endobj
-% 'R93': class PDFStream 
-93 0 obj
-% page stream
-<< /Length 2742 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 705.0236 cm
+1 0 0 1 62.69291 609.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2084,7 +2109,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 681.0236 cm
+1 0 0 1 62.69291 585.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2103,7 +2128,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 669.0236 cm
+1 0 0 1 62.69291 573.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2124,7 +2149,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 657.0236 cm
+1 0 0 1 62.69291 561.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2145,7 +2170,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 645.0236 cm
+1 0 0 1 62.69291 549.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2166,7 +2191,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 609.0236 cm
+1 0 0 1 62.69291 513.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -2187,84 +2212,84 @@ Q
  
 endstream
 endobj
-% 'R94': class PDFPageLabels 
-94 0 obj
+% 'R95': class PDFPageLabels 
+95 0 obj
 % Document Root
 << /Nums [ 0
- 95 0 R
- 1
  96 0 R
- 2
+ 1
  97 0 R
- 3
+ 2
  98 0 R
- 4
+ 3
  99 0 R
- 5
+ 4
  100 0 R
- 6
+ 5
  101 0 R
- 7
+ 6
  102 0 R
+ 7
+ 103 0 R
  8
- 103 0 R ] >>
-endobj
-% 'R95': class PDFPageLabel 
-95 0 obj
-% None
-<< /S /D
- /St 1 >>
+ 104 0 R ] >>
 endobj
 % 'R96': class PDFPageLabel 
 96 0 obj
 % None
 << /S /D
- /St 2 >>
+ /St 1 >>
 endobj
 % 'R97': class PDFPageLabel 
 97 0 obj
 % None
 << /S /D
- /St 3 >>
+ /St 2 >>
 endobj
 % 'R98': class PDFPageLabel 
 98 0 obj
 % None
 << /S /D
- /St 4 >>
+ /St 3 >>
 endobj
 % 'R99': class PDFPageLabel 
 99 0 obj
 % None
 << /S /D
- /St 5 >>
+ /St 4 >>
 endobj
 % 'R100': class PDFPageLabel 
 100 0 obj
 % None
 << /S /D
- /St 6 >>
+ /St 5 >>
 endobj
 % 'R101': class PDFPageLabel 
 101 0 obj
 % None
 << /S /D
- /St 7 >>
+ /St 6 >>
 endobj
 % 'R102': class PDFPageLabel 
 102 0 obj
 % None
 << /S /D
- /St 8 >>
+ /St 7 >>
 endobj
 % 'R103': class PDFPageLabel 
 103 0 obj
 % None
 << /S /D
+ /St 8 >>
+endobj
+% 'R104': class PDFPageLabel 
+104 0 obj
+% None
+<< /S /D
  /St 9 >>
 endobj
 xref
-0 104
+0 105
 0000000000 65535 f
 0000000113 00000 n
 0000000272 00000 n
@@ -2319,64 +2344,65 @@ xref
 0003857652 00000 n
 0003857894 00000 n
 0003858186 00000 n
-0003858429 00000 n
-0003858672 00000 n
-0003858915 00000 n
-0003859157 00000 n
-0003859410 00000 n
-0003859916 00000 n
-0003860158 00000 n
-0003860421 00000 n
-0003860663 00000 n
-0003860945 00000 n
-0003861187 00000 n
-0003861434 00000 n
-0003861676 00000 n
-0003861927 00000 n
-0003862169 00000 n
-0003862447 00000 n
-0003862689 00000 n
-0003862962 00000 n
+0003858413 00000 n
+0003858883 00000 n
+0003859126 00000 n
+0003859369 00000 n
+0003859611 00000 n
+0003859880 00000 n
+0003860122 00000 n
+0003860385 00000 n
+0003860627 00000 n
+0003860909 00000 n
+0003861151 00000 n
+0003861398 00000 n
+0003861640 00000 n
+0003861891 00000 n
+0003862133 00000 n
+0003862411 00000 n
+0003862653 00000 n
+0003862926 00000 n
 0003863363 00000 n
 0003863522 00000 n
 0003863825 00000 n
-0003863950 00000 n
-0003864118 00000 n
-0003864305 00000 n
-0003864510 00000 n
-0003864722 00000 n
-0003864931 00000 n
-0003865119 00000 n
-0003865334 00000 n
-0003865520 00000 n
-0003865675 00000 n
-0003865854 00000 n
-0003872262 00000 n
-0003879162 00000 n
-0003885231 00000 n
-0003891650 00000 n
-0003896087 00000 n
-0003903183 00000 n
-0003908794 00000 n
-0003916438 00000 n
-0003919283 00000 n
-0003919484 00000 n
-0003919561 00000 n
-0003919638 00000 n
-0003919715 00000 n
-0003919792 00000 n
-0003919870 00000 n
-0003919949 00000 n
-0003920028 00000 n
-0003920107 00000 n
+0003863951 00000 n
+0003864119 00000 n
+0003864306 00000 n
+0003864511 00000 n
+0003864723 00000 n
+0003864932 00000 n
+0003865120 00000 n
+0003865335 00000 n
+0003865521 00000 n
+0003865707 00000 n
+0003865868 00000 n
+0003866047 00000 n
+0003872455 00000 n
+0003879355 00000 n
+0003885424 00000 n
+0003891843 00000 n
+0003896280 00000 n
+0003903376 00000 n
+0003908987 00000 n
+0003916507 00000 n
+0003920674 00000 n
+0003920876 00000 n
+0003920953 00000 n
+0003921030 00000 n
+0003921107 00000 n
+0003921185 00000 n
+0003921264 00000 n
+0003921343 00000 n
+0003921422 00000 n
+0003921501 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\031\357>@ag\313@U\342\243T|\323\230\375) (\031\357>@ag\313@U\342\243T|\323\230\375)] 
+ [(\371\3658\311\342\250z$\307~g\275u\341I\331) (\371\3658\311\342\250z$\307~g\275u\341I\331)] 
 
  /Info 73 0 R
  /Root 72 0 R
- /Size 104 >>
+ /Size 105 >>
 startxref
-3920155
+3921549
 %%EOF

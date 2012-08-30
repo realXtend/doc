@@ -159,7 +159,7 @@ discussion/evaluation?).
 Furthermore, distributed object systems and other frameworks for
 networked programming with easy synchronization of data are nothing
 new, for example CORBA is a(n in)famous(XXX) example. They are often
-not applient in networked games (XXX I suppose for perf etc reasons,
+not applied in networked games (XXX I suppose for perf etc reasons,
 or?). An example of using a generic distributed programming framework
 for a networked multiplayer platform is Metaverse3D (mv3d.com), which
 is quite similar to Tundra (uses Ogre3d for graphics, targets

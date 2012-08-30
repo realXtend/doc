@@ -573,3 +573,18 @@ References
 
 .. [intel-distributedscene] Dan Lake, Mic Bowman, Huaiyu Liu. "Distributed Scene Graph to Enable Thousands of Interacting Users in a Virtual Environment" http://www.pap.vs.uni-due.de/MMVE10/papers/mmve2010_submission_7.pdf
 
+Author biography
+================
+
+Toni Alatalo is the CTO of a small games company, Playsign, and the
+current lead architect of the open source realXtend platform.  Before
+realXtend, he worked at the Blender Foundation's first open movie
+project, Elepants Dream, as the technical director. His work, both
+earlier in Blender and now realXtend, has focused on scripting APIs
+(Python and Javascript), but also taking care of the development as a
+whole.  Playsign is planning to use reX as platform for arcade style
+multiplayer action games. Toni's earlier life in the '90s was centered
+around Internet services and web development, so he's very curious and
+keen to jump on all sorts of interactions of virtual worlds and the
+web. Although as an ex VJ and a hobbyist dancer he's looking forward
+to the interplay with the physical spaces even more!
