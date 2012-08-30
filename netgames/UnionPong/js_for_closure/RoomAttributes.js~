@@ -1,0 +1,9 @@
+package {
+  /**
+   * An enumeration of pong room attribute names.
+   */
+   final class RoomAttributes {
+      const SCORE   = "score";
+      const BALL    = "ball";
+  }
+}

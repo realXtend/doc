@@ -1,0 +1,14 @@
+package {
+  import flash.display.Sprite;
+
+  /**
+   * An on-screen rectangle graphic.
+   */
+   class Rectangle extends Sprite {
+     function Rectangle (width, height, color) {
+      graphics.beginFill(color);
+      graphics.drawRect(0, 0, width, height);
+    }
+  }
+}
+

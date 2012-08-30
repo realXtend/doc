@@ -1,0 +1,10 @@
+package {
+  /**
+   * An enumeration of pong client attribute names.
+   */
+   final class ClientAttributes {
+      const SIDE   = "side";
+      const PADDLE = "paddle";
+      const STATUS = "status";
+  }
+}

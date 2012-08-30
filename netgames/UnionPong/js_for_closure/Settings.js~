@@ -1,0 +1,22 @@
+package {
+  /**
+   * An enumeration of application settings.
+   */
+   final class Settings {
+    // Game room
+      const GAME_ROOMID = "examples.pong";
+    
+    // Game settings
+      const GAME_UPDATE_INTERVAL = 20;
+      const PADDLE_WIDTH = 10;
+      const PADDLE_HEIGHT = 60;
+      const PADDLE_SPEED = 300;
+      const BALL_SIZE = 10;
+      const BALL_SPEEDUP = 25;
+      const WALL_HEIGHT = 10;
+      const COURT_WIDTH = 640;
+      const COURT_HEIGHT = 480;
+      const UP = Math.floor((1000*(Math.PI/2)))/1000;
+      const DOWN = Math.floor((1000*((3*Math.PI)/2)))/1000;
+  }
+}
