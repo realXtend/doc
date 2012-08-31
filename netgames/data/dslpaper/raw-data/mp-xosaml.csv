@@ -1,0 +1,14 @@
+operation,parcount,srccount,tarcount,novelty
+respond,0,1,1,1
+ID,2,1,1,1
+Issuer,2,1,1,1
+ForceAuthn,2,1,1,1
+RelayState,2,1,1,1
+send,1,1,1,1
+receive,1,1,1,1
+getAuthenticationMechanism,1,1,1,1
+getStatusCode,1,1,1,1
+getExpiry,1,1,1,1
+getAttributes,1,1,1,1
+RelayState,1,1,1,1
+

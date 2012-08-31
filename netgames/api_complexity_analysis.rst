@@ -108,8 +108,9 @@ programming on a framework which attempts to hide the intricacies of
 networking from the application developer. It would be interesting to
 organize an experiment where a number of test teams develop the same
 networked game on alternative platforms, from the same specifications,
-and the development time and number of mistakes would be
-analyzed. That is however out of the scope here.
+and the development time and number of mistakes would be analyzed --
+similar to [programmingcomparison]_. That is however out of the scope
+here.
 
 In a different approach, a study of 4 alternative implementations, on
 different frameworks, of the same application uses Object-Points (OP)
@@ -230,7 +231,79 @@ The chosen Sneed's Object-Point (OP) analysis was conducted by
 automating the collection of most of the key data to derive the
 variables in the equation. We apply the technique following what has
 been used for API complexity analysis before in
-[api-complexity-analysis]_
+[api-complexity-analysis]_. Here we give a brief overview of Sneed's
+OP analysis itself, and describe how we derive the data from source
+code analysis.
+
+Sneed's Object-Point analysis
+-----------------------------
+
+(NOTE: this is a little a new background treatment again - consider
+moving some of this to 2. etc XXX)
+
+Software cost estimation has been of paramount importance in the field
+of software engineering, and various approaches have been developed
+for it through the decades. The early COCOMO model uses simply program
+size (lines of code) to estimate development effort, but later the
+Function-Point, Data-Point and finally Object-Point methods base the
+analysis on functionality and other properties of the program
+[henrich97repositorybased]_. Recently the Object-Point (OP) method has been
+used for analysing existing implementations, for API complexity
+comparison purposes, even though it was originally developed for early
+work estimate analysis based on UML design diagrams
+[api-complexity-analysis]_. Arguably, it is rich enough to explore
+structural and dynamic properties of software for meaningful
+complexity data.
+
+For example in the preceeding API complexity analysis OP study that we
+follow here, two of the four compared implementations would get the
+opposite results in a simplistic lines of code (LOC) analysis. That
+is, the PHP implementation there features only 48 LOC but results in
+356.34 OP, whereas the domain specific language (DSL) version is 144
+LOC and 266.76 OP [api-complexity-analysis]_. Their explanation is
+that "an API user is only exposed to an API feature chunk of low
+structural complexity", as the chunk's "size is limited in terms of
+participating classes and the smallest number of operations per class"
+and it "shows a relatively weak connectedness of classes (H = 1),
+resulting from the small number of associations and generalizations
+between the classes". 
+
+That is of utmost importance to our interest in making networked game
+development easier with a good API. We are after a limited set of good
+concepts with clear interactions that a game developer could learn
+easily and grow to master. Not all lines of code are equal -- a bad
+API makes it a struggle to get even a few operations working if the
+developer has to hunt for functionality that is scattered around in an
+incoherent way.
+
+The Object-Points, as applied here, are a sum of two parts: Class
+Points (CP) and Message Points (MP).
+
+.. "While the original definition of the OP measure [17] involves a
+   third sum- mand for expressing the Use Case (UC) complexity (e.g.,
+   based on a UML use case model of the underlying application
+   scenario), we can omit this summand in our experiment. This is
+   because in our comparative experiment based on a single application
+   scenario, we take the UC complexity as a constant."
+
+**Class points, CP** is calculated from the static class structure,
+specifically: the class count and sums of attribute, operation and
+relation counts. Weights are used to correct the values for the
+overall calculation. Class inheritance is taken into account by
+calculating novelty weights for specializing classes.
+
+**Message points, MP** is defined by the set of operations
+(functions/methods) *actually used* in the software. First, the number
+of operations is used. Then the parameter count for each called
+operation is collected. Also the source and target counts of the
+operation calls are established. Again, novelty weights are used to
+compensate for repeated occurrences due to subclassing.
+
+TODO: add the equation + legend here -- but refer to the other paper
+for more, or do we need to explain every detail here too?
+
+Reading class and interaction data from source code
+---------------------------------------------------
 
 To read the *static class data* for the **Class Points** (CP), we
 utilize existing source code parsing and annotation systems in API
@@ -261,18 +334,33 @@ the OP calculations here.
 The software to run the calculations, together with the datasets used
 in the analysis here, is available from
 https://github.com/realXtend/doc/tree/master/netgames/tools/
-(pointcounter.py is the executable, with the formula for OP = CP + MP).
+(pointcounter.py is the executable, with the implementation of the equation).
 
-TODO: add the equation + legend here
+Repository based automatic queries for OP analysis have been presented
+earlier in [henrich97repositorybased]_. There a repository of
+*documents*, or abstract software design models (PCTE) is queried for
+automatic OP calculations using the P-OQL language. We are not aware
+of previous implementations of deriving data for OP calculations from
+source code only. Automating the calculation opens up fascinating
+possibilities for platform and API development in future work, such as
+longitudal evaluation of API complexity evolution, and dissecting a
+body of software by running a series of calculations to pinpoint
+potential sources of complexity.
 
 Results
 =======
 
 +-----------+--------------+---------------+
-|           |              |      UnionPong|
-|           |**TundraPong**|         Client|
+|           |TundraPong    |UnionPong      |
+|           |              |Client         |
 |           |              +-----+---------+
 |           |              |Full | Net     |
++===========+==============+=====+=========+
+|Lines of   |              |     |         |
+|Code       |       361    |  565|    420  |
++-----------+--------------+-----+---------+
+|Number of  |              |     |         |
+|classes    |        2     |  14 |    8    |
 +-----------+--------------+-----+---------+
 |Class      |              |     |         |
 |Points     |       74     | 221 |   147   |
@@ -420,3 +508,7 @@ References
    Conference on Computer Games: AI, Animation, Mobile, Interactive
    Multimedia, Educational & Serious Games (CGAMES 2010 USA).
    http://sing.stanford.edu/pubs/cgames10.pdf
+
+.. [henrich97repositorybased] Andreas Henrich, Repository Based Software Cost Estimation, DEXA'97
+
+.. [programmingcomparison] Janne Merilinna , Juha Pärssinen, Comparison Between Different Abstraction Level Programming: Experiment Definition and Initial Results, http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.114.544 http://www.dsmforum.org/events/dsm07/papers/merilinna.pdf
