@@ -5,6 +5,8 @@ http://forums.epicgames.com/threads/711680-Simple-Pong-game-from-scratch
 
 ah no there is a somewhat working version! (on page 2)
 
+----
+
 class UPongGame extends GameInfo;
 
 defaultproperties
@@ -126,4 +128,3 @@ class UPongGoalVolume extends Volume
 	placeable;
 
 ---
-
