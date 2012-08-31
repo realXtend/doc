@@ -1,0 +1,10 @@
+class,attrcount,relcount,opcount,novelty
+SAML2_Request,0,2,0,0.06
+SAML2_Message,10,2,19,1
+SAML2_Binding,1,1,4,1
+SAML2_AuthnRequest,9,1,21,1
+SAML2_HTTPPost,2,1,2,0.45
+SAML2_Response,1,1,3,0.33
+SAML2_StatusResponse,2,2,6,0.24
+SAML2_Assertion,21,0,54,1
+

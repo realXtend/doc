@@ -1,0 +1,15 @@
+operation,parcount,srccount,tarcount,novelty
+setIssuer,2,1,1,0.5
+setID,2,1,1,0.5
+setForceAuthn,2,1,1,1
+setRelayState,2,1,1,0.5
+setDestination,2,1,1,1
+send,2,1,1,1
+receive,1,1,1,1
+getStatus,1,1,1,1
+getAssertions,1,1,1,1
+getAuthnContext,1,1,1,1
+getNotOnOrAfter,1,1,1,1
+getAttributes,1,1,1,1
+getRelayState,1,1,1,1
+

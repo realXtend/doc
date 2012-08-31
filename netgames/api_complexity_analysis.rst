@@ -108,8 +108,9 @@ programming on a framework which attempts to hide the intricacies of
 networking from the application developer. It would be interesting to
 organize an experiment where a number of test teams develop the same
 networked game on alternative platforms, from the same specifications,
-and the development time and number of mistakes would be
-analyzed. That is however out of the scope here.
+and the development time and number of mistakes would be analyzed --
+similar to [programmingcomparison]_. That is however out of the scope
+here.
 
 In a different approach, a study of 4 alternative implementations, on
 different frameworks, of the same application uses Object-Points (OP)
@@ -355,6 +356,12 @@ Results
 |           |              +-----+---------+
 |           |              |Full | Net     |
 +===========+==============+=====+=========+
+|Lines of   |              |     |         |
+|Code       |       361    |  565|    420  |
++-----------+--------------+-----+---------+
+|Number of  |              |     |         |
+|classes    |        2     |  14 |    8    |
++-----------+--------------+-----+---------+
 |Class      |              |     |         |
 |Points     |       74     | 221 |   147   |
 +-----------+--------------+-----+---------+
@@ -503,3 +510,5 @@ References
    http://sing.stanford.edu/pubs/cgames10.pdf
 
 .. [henrich97repositorybased] Andreas Henrich, Repository Based Software Cost Estimation, DEXA'97
+
+.. [programmingcomparison] Janne Merilinna , Juha Pärssinen, Comparison Between Different Abstraction Level Programming: Experiment Definition and Initial Results, http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.114.544 http://www.dsmforum.org/events/dsm07/papers/merilinna.pdf
