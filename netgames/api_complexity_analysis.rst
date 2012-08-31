@@ -333,17 +333,28 @@ the OP calculations here.
 The software to run the calculations, together with the datasets used
 in the analysis here, is available from
 https://github.com/realXtend/doc/tree/master/netgames/tools/
-(pointcounter.py is the executable, with the formula for OP = CP + MP).
+(pointcounter.py is the executable, with the implementation of the equation).
+
+Repository based automatic queries for OP analysis have been presented
+earlier in [henrich97repositorybased]_. There a repository of
+*documents*, or abstract software design models (PCTE) is queried for
+automatic OP calculations using the P-OQL language. We are not aware
+of previous implementations of deriving data for OP calculations from
+source code only. Automating the calculation opens up fascinating
+possibilities for platform and API development in future work, such as
+longitudal evaluation of API complexity evolution, and dissecting a
+body of software by running a series of calculations to pinpoint
+potential sources of complexity.
 
 Results
 =======
 
 +-----------+--------------+---------------+
-|           |              |      UnionPong|
-|           |**TundraPong**|         Client|
+|           |TundraPong    |UnionPong      |
+|           |              |Client         |
 |           |              +-----+---------+
 |           |              |Full | Net     |
-+-----------+--------------+-----+---------+
++===========+==============+=====+=========+
 |Class      |              |     |         |
 |Points     |       74     | 221 |   147   |
 +-----------+--------------+-----+---------+

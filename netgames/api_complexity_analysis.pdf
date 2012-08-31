@@ -31,10 +31,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 34 0 R
  /XYZ
  68.69291
- 195.9843
+ 171.9843
  0 ]
  /Rect [ 455.1778
  476.7736
@@ -49,10 +49,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 34 0 R
  /XYZ
  68.69291
- 171.9843
+ 147.9843
  0 ]
  /Rect [ 199.4129
  440.7736
@@ -67,10 +67,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 38 0 R
  /XYZ
  68.69291
- 135.9843
+ 767.0236
  0 ]
  /Rect [ 142.7321
  272.7736
@@ -85,10 +85,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 34 0 R
  /XYZ
  68.69291
- 171.9843
+ 147.9843
  0 ]
  /Rect [ 228.4766
  272.7736
@@ -104,12 +104,12 @@ endobj
  5 0 R
  6 0 R
  7 0 R ]
- /Contents 59 0 R
+ /Contents 60 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 58 0 R
+ /Parent 59 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -126,10 +126,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 34 0 R
  /XYZ
  68.69291
- 171.9843
+ 147.9843
  0 ]
  /Rect [ 135.2437
  684.7736
@@ -144,10 +144,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 34 0 R
  /XYZ
  68.69291
- 171.9843
+ 147.9843
  0 ]
  /Rect [ 62.69291
  612.7736
@@ -162,10 +162,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 38 0 R
  /XYZ
  68.69291
- 135.9843
+ 767.0236
  0 ]
  /Rect [ 62.69291
  480.7736
@@ -180,10 +180,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 38 0 R
  /XYZ
  68.69291
- 135.9843
+ 767.0236
  0 ]
  /Rect [ 156.9921
  432.7736
@@ -198,10 +198,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 38 0 R
  /XYZ
  68.69291
- 135.9843
+ 767.0236
  0 ]
  /Rect [ 331.4082
  396.7736
@@ -216,10 +216,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 38 0 R
  /XYZ
  68.69291
- 99.98425
+ 731.0236
  0 ]
  /Rect [ 438.7909
  288.7736
@@ -237,12 +237,12 @@ endobj
  12 0 R
  13 0 R
  14 0 R ]
- /Contents 60 0 R
+ /Contents 61 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 58 0 R
+ /Parent 59 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -259,10 +259,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 37 0 R
+ /Dest [ 38 0 R
  /XYZ
  68.69291
- 767.0236
+ 719.0236
  0 ]
  /Rect [ 335.0329
  387.7736
@@ -277,10 +277,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 38 0 R
  /XYZ
  68.69291
- 135.9843
+ 767.0236
  0 ]
  /Rect [ 234.4828
  258.7736
@@ -295,10 +295,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 37 0 R
+ /Dest [ 38 0 R
  /XYZ
  68.69291
- 707.0236
+ 659.0236
  0 ]
  /Rect [ 105.5238
  132.7736
@@ -313,10 +313,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 38 0 R
  /XYZ
  68.69291
- 135.9843
+ 767.0236
  0 ]
  /Rect [ 401.746
  108.7736
@@ -332,12 +332,12 @@ endobj
  17 0 R
  18 0 R
  19 0 R ]
- /Contents 61 0 R
+ /Contents 62 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 58 0 R
+ /Parent 59 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -354,10 +354,10 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 38 0 R
  /XYZ
  68.69291
- 135.9843
+ 767.0236
  0 ]
  /Rect [ 367.2443
  717.7736
@@ -390,55 +390,36 @@ endobj
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Page4': class PDFPage 
-24 0 obj
-% Page dictionary
-<< /Annots [ 21 0 R
- 23 0 R ]
- /Contents 62 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 58 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
-endobj
 % 'Annot.NUMBER17': class LinkAnnotation 
-25 0 obj
+24 0 obj
 << /Border [ 0
  0
  0 ]
  /Contents ()
- /Dest [ 35 0 R
+ /Dest [ 38 0 R
  /XYZ
  68.69291
- 135.9843
+ 659.0236
  0 ]
- /Rect [ 73.76023
- 408.7736
- 156.4402
- 420.7736 ]
+ /Rect [ 437.7627
+ 177.7736
+ 529.8027
+ 189.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Page5': class PDFPage 
-26 0 obj
+% 'Page4': class PDFPage 
+25 0 obj
 % Page dictionary
-<< /Annots [ 25 0 R ]
+<< /Annots [ 21 0 R
+ 23 0 R
+ 24 0 R ]
  /Contents 63 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 58 0 R
+ /Parent 59 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -449,8 +430,46 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'Annot.NUMBER18': class PDFDictionary 
+% 'Annot.NUMBER18': class LinkAnnotation 
+26 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 38 0 R
+ /XYZ
+ 68.69291
+ 767.0236
+ 0 ]
+ /Rect [ 73.76023
+ 321.7736
+ 156.4402
+ 333.7736 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page5': class PDFPage 
 27 0 obj
+% Page dictionary
+<< /Annots [ 26 0 R ]
+ /Contents 64 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 59 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER19': class PDFDictionary 
+28 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://cacm.acm.org/magazines/2009/5/24646-api-design-matters/fulltext) >>
@@ -458,27 +477,9 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 170.7343
+ 146.7343
  474.4223
- 182.7343 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER19': class LinkAnnotation 
-28 0 obj
-<< /Border [ 0
- 0
- 0 ]
- /Contents ()
- /Dest [ 8 0 R
- /XYZ
- 199.4129
- 454.0236
- 0 ]
- /Rect [ 145.3729
- 158.7343
- 150.9329
- 170.7343 ]
+ 158.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -490,13 +491,13 @@ endobj
  /Contents ()
  /Dest [ 8 0 R
  /XYZ
- 227.6229
- 286.0236
+ 199.4129
+ 454.0236
  0 ]
- /Rect [ 68.69291
- 146.7343
- 74.25291
- 158.7343 ]
+ /Rect [ 145.3729
+ 134.7343
+ 150.9329
+ 146.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -506,15 +507,15 @@ endobj
  0
  0 ]
  /Contents ()
- /Dest [ 15 0 R
+ /Dest [ 8 0 R
  /XYZ
- 134.3829
- 698.0236
+ 227.6229
+ 286.0236
  0 ]
- /Rect [ 79.81291
- 146.7343
- 85.37291
- 158.7343 ]
+ /Rect [ 68.69291
+ 122.7343
+ 74.25291
+ 134.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -526,28 +527,31 @@ endobj
  /Contents ()
  /Dest [ 15 0 R
  /XYZ
+ 134.3829
+ 698.0236
+ 0 ]
+ /Rect [ 79.81291
+ 122.7343
+ 85.37291
+ 134.7343 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER23': class LinkAnnotation 
+32 0 obj
+<< /Border [ 0
+ 0
+ 0 ]
+ /Contents ()
+ /Dest [ 15 0 R
+ /XYZ
  62.69291
  626.0236
  0 ]
  /Rect [ 90.93291
- 146.7343
+ 122.7343
  96.49291
- 158.7343 ]
- /Subtype /Link
- /Type /Annot >>
-endobj
-% 'Annot.NUMBER23': class PDFDictionary 
-32 0 obj
-<< /A << /S /URI
- /Type /Action
- /URI (http://reports-archive.adm.cs.cmu.edu/anon/isr2011/CMU-ISR-11-106.pdf) >>
- /Border [ 0
- 0
- 0 ]
- /Rect [ 197.6323
- 134.7343
- 522.7523
- 146.7343 ]
+ 134.7343 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -555,19 +559,59 @@ endobj
 33 0 obj
 << /A << /S /URI
  /Type /Action
+ /URI (http://reports-archive.adm.cs.cmu.edu/anon/isr2011/CMU-ISR-11-106.pdf) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 197.6323
+ 110.7343
+ 522.7523
+ 122.7343 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page6': class PDFPage 
+34 0 obj
+% Page dictionary
+<< /Annots [ 28 0 R
+ 29 0 R
+ 30 0 R
+ 31 0 R
+ 32 0 R
+ 33 0 R ]
+ /Contents 65 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 59 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'Annot.NUMBER25': class PDFDictionary 
+35 0 obj
+<< /A << /S /URI
+ /Type /Action
  /URI (http://www.sba-research.org/wp-content/uploads/publications/gpce11.pdf) >>
  /Border [ 0
  0
  0 ]
  /Rect [ 153.7323
- 98.73425
+ 729.7736
  476.1023
- 110.7343 ]
+ 741.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Annot.NUMBER25': class PDFDictionary 
-34 0 obj
+% 'Annot.NUMBER26': class PDFDictionary 
+36 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://www.cs.umu.se/~greger/pong.pdf) >>
@@ -575,41 +619,14 @@ endobj
  0
  0 ]
  /Rect [ 346.6223
- 86.73425
+ 717.7736
  520.8723
- 98.73425 ]
+ 729.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
-% 'Page6': class PDFPage 
-35 0 obj
-% Page dictionary
-<< /Annots [ 27 0 R
- 28 0 R
- 29 0 R
- 30 0 R
- 31 0 R
- 32 0 R
- 33 0 R
- 34 0 R ]
- /Contents 64 0 R
- /MediaBox [ 0
- 0
- 595.2756
- 841.8898 ]
- /Parent 58 0 R
- /Resources << /Font 1 0 R
- /ProcSet [ /PDF
- /Text
- /ImageB
- /ImageC
- /ImageI ] >>
- /Rotate 0
- /Trans <<  >>
- /Type /Page >>
-endobj
-% 'Annot.NUMBER26': class PDFDictionary 
-36 0 obj
+% 'Annot.NUMBER27': class PDFDictionary 
+37 0 obj
 << /A << /S /URI
  /Type /Action
  /URI (http://sing.stanford.edu/pubs/cgames10.pdf) >>
@@ -617,22 +634,24 @@ endobj
  0
  0 ]
  /Rect [ 153.7323
- 705.7736
+ 657.7736
  345.5123
- 717.7736 ]
+ 669.7736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
 % 'Page7': class PDFPage 
-37 0 obj
+38 0 obj
 % Page dictionary
-<< /Annots [ 36 0 R ]
- /Contents 65 0 R
+<< /Annots [ 35 0 R
+ 36 0 R
+ 37 0 R ]
+ /Contents 66 0 R
  /MediaBox [ 0
  0
  595.2756
  841.8898 ]
- /Parent 58 0 R
+ /Parent 59 0 R
  /Resources << /Font 1 0 R
  /ProcSet [ /PDF
  /Text
@@ -643,253 +662,253 @@ endobj
  /Trans <<  >>
  /Type /Page >>
 endobj
-% 'R38': class PDFCatalog 
-38 0 obj
+% 'R39': class PDFCatalog 
+39 0 obj
 % Document Root
-<< /Outlines 40 0 R
- /PageLabels 66 0 R
+<< /Outlines 41 0 R
+ /PageLabels 67 0 R
  /PageMode /UseNone
- /Pages 58 0 R
+ /Pages 59 0 R
  /Type /Catalog >>
 endobj
-% 'R39': class PDFInfo 
-39 0 obj
+% 'R40': class PDFInfo 
+40 0 obj
 << /Author ()
- /CreationDate (D:20120831121419-02'00')
+ /CreationDate (D:20120831123501-02'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
  /Subject (\(unspecified\))
  /Title (A comparison of networked game development APIs) >>
 endobj
-% 'R40': class PDFOutlines 
-40 0 obj
+% 'R41': class PDFOutlines 
+41 0 obj
 << /Count 21
- /First 41 0 R
- /Last 57 0 R
+ /First 42 0 R
+ /Last 58 0 R
  /Type /Outlines >>
 endobj
 % 'Outline.0': class OutlineEntryObject 
-41 0 obj
+42 0 obj
 << /Dest [ 8 0 R
  /XYZ
  62.69291
  581.0236
  0 ]
- /Next 42 0 R
- /Parent 40 0 R
+ /Next 43 0 R
+ /Parent 41 0 R
  /Title (Introduction) >>
 endobj
 % 'Outline.1': class OutlineEntryObject 
-42 0 obj
+43 0 obj
 << /Count 3
  /Dest [ 15 0 R
  /XYZ
  62.69291
  765.0236
  0 ]
- /First 43 0 R
- /Last 45 0 R
- /Next 46 0 R
- /Parent 40 0 R
- /Prev 41 0 R
+ /First 44 0 R
+ /Last 46 0 R
+ /Next 47 0 R
+ /Parent 41 0 R
+ /Prev 42 0 R
  /Title (Background) >>
 endobj
 % 'Outline.18.0': class OutlineEntryObject 
-43 0 obj
+44 0 obj
 << /Dest [ 15 0 R
  /XYZ
  62.69291
  732.0236
  0 ]
- /Next 44 0 R
- /Parent 42 0 R
+ /Next 45 0 R
+ /Parent 43 0 R
  /Title (The research methodology - of API complexity research) >>
 endobj
 % 'Outline.18.1': class OutlineEntryObject 
-44 0 obj
+45 0 obj
 << /Dest [ 15 0 R
  /XYZ
  62.69291
  360.0236
  0 ]
- /Next 45 0 R
- /Parent 42 0 R
- /Prev 43 0 R
+ /Next 46 0 R
+ /Parent 43 0 R
+ /Prev 44 0 R
  /Title (The game of Pong) >>
 endobj
 % 'Outline.18.2': class OutlineEntryObject 
-45 0 obj
+46 0 obj
 << /Dest [ 15 0 R
  /XYZ
  62.69291
  210.0236
  0 ]
- /Parent 42 0 R
- /Prev 44 0 R
+ /Parent 43 0 R
+ /Prev 45 0 R
  /Title (Platforms: realXtend Tundra SDK and Union Platform) >>
 endobj
 % 'Outline.2': class OutlineEntryObject 
-46 0 obj
+47 0 obj
 << /Count 2
  /Dest [ 20 0 R
  /XYZ
  62.69291
  321.0236
  0 ]
- /First 47 0 R
- /Last 48 0 R
- /Next 49 0 R
- /Parent 40 0 R
- /Prev 42 0 R
+ /First 48 0 R
+ /Last 49 0 R
+ /Next 50 0 R
+ /Parent 41 0 R
+ /Prev 43 0 R
  /Title (Application of Object-Point analysis) >>
 endobj
 % 'Outline.19.0': class OutlineEntryObject 
-47 0 obj
+48 0 obj
 << /Dest [ 20 0 R
  /XYZ
  62.69291
  234.0236
  0 ]
- /Next 48 0 R
- /Parent 46 0 R
+ /Next 49 0 R
+ /Parent 47 0 R
  /Title (Sneed's Object-Point analysis) >>
 endobj
 % 'Outline.19.1': class OutlineEntryObject 
-48 0 obj
-<< /Dest [ 24 0 R
+49 0 obj
+<< /Dest [ 25 0 R
  /XYZ
  62.69291
  447.0236
  0 ]
- /Parent 46 0 R
- /Prev 47 0 R
+ /Parent 47 0 R
+ /Prev 48 0 R
  /Title (Reading class and interaction data from source code) >>
 endobj
 % 'Outline.3': class OutlineEntryObject 
-49 0 obj
-<< /Count 1
- /Dest [ 24 0 R
- /XYZ
- 62.69291
- 183.0236
- 0 ]
- /First 50 0 R
- /Last 50 0 R
- /Next 51 0 R
- /Parent 40 0 R
- /Prev 46 0 R
- /Title (Results) >>
-endobj
-% 'Outline.20.0': class OutlineEntryObject 
 50 0 obj
-<< /Dest [ 26 0 R
- /XYZ
- 62.69291
- 687.0236
- 0 ]
- /Parent 49 0 R
- /Title (Only the networking code) >>
-endobj
-% 'Outline.4': class OutlineEntryObject 
-51 0 obj
-<< /Count 4
- /Dest [ 26 0 R
- /XYZ
- 62.69291
- 555.0236
- 0 ]
- /First 52 0 R
- /Last 55 0 R
- /Next 56 0 R
- /Parent 40 0 R
- /Prev 49 0 R
- /Title (Discussion) >>
-endobj
-% 'Outline.21.0': class OutlineEntryObject 
-52 0 obj
-<< /Dest [ 26 0 R
- /XYZ
- 62.69291
- 456.0236
- 0 ]
- /Next 53 0 R
- /Parent 51 0 R
- /Title (1. Validity of the analysis) >>
-endobj
-% 'Outline.21.1': class OutlineEntryObject 
-53 0 obj
-<< /Dest [ 26 0 R
- /XYZ
- 62.69291
- 300.0236
- 0 ]
- /Next 54 0 R
- /Parent 51 0 R
- /Prev 52 0 R
- /Title (2. On scripting vs own client development) >>
-endobj
-% 'Outline.21.2': class OutlineEntryObject 
-54 0 obj
-<< /Dest [ 35 0 R
+<< /Count 1
+ /Dest [ 27 0 R
  /XYZ
  62.69291
  765.0236
  0 ]
+ /First 51 0 R
+ /Last 51 0 R
+ /Next 52 0 R
+ /Parent 41 0 R
+ /Prev 47 0 R
+ /Title (Results) >>
+endobj
+% 'Outline.20.0': class OutlineEntryObject 
+51 0 obj
+<< /Dest [ 27 0 R
+ /XYZ
+ 62.69291
+ 600.0236
+ 0 ]
+ /Parent 50 0 R
+ /Title (Only the networking code) >>
+endobj
+% 'Outline.4': class OutlineEntryObject 
+52 0 obj
+<< /Count 4
+ /Dest [ 27 0 R
+ /XYZ
+ 62.69291
+ 468.0236
+ 0 ]
+ /First 53 0 R
+ /Last 56 0 R
+ /Next 57 0 R
+ /Parent 41 0 R
+ /Prev 50 0 R
+ /Title (Discussion) >>
+endobj
+% 'Outline.21.0': class OutlineEntryObject 
+53 0 obj
+<< /Dest [ 27 0 R
+ /XYZ
+ 62.69291
+ 369.0236
+ 0 ]
+ /Next 54 0 R
+ /Parent 52 0 R
+ /Title (1. Validity of the analysis) >>
+endobj
+% 'Outline.21.1': class OutlineEntryObject 
+54 0 obj
+<< /Dest [ 27 0 R
+ /XYZ
+ 62.69291
+ 213.0236
+ 0 ]
  /Next 55 0 R
- /Parent 51 0 R
+ /Parent 52 0 R
  /Prev 53 0 R
+ /Title (2. On scripting vs own client development) >>
+endobj
+% 'Outline.21.2': class OutlineEntryObject 
+55 0 obj
+<< /Dest [ 34 0 R
+ /XYZ
+ 62.69291
+ 741.0236
+ 0 ]
+ /Next 56 0 R
+ /Parent 52 0 R
+ /Prev 54 0 R
  /Title (3. Observations of the high-level network programming APIs) >>
 endobj
 % 'Outline.21.3': class OutlineEntryObject 
-55 0 obj
-<< /Dest [ 35 0 R
+56 0 obj
+<< /Dest [ 34 0 R
  /XYZ
  62.69291
- 549.0236
+ 525.0236
  0 ]
- /Parent 51 0 R
- /Prev 54 0 R
+ /Parent 52 0 R
+ /Prev 55 0 R
  /Title (4. Limitations) >>
 endobj
 % 'Outline.5': class OutlineEntryObject 
-56 0 obj
-<< /Dest [ 35 0 R
+57 0 obj
+<< /Dest [ 34 0 R
  /XYZ
  62.69291
- 483.0236
+ 459.0236
  0 ]
- /Next 57 0 R
- /Parent 40 0 R
- /Prev 51 0 R
+ /Next 58 0 R
+ /Parent 41 0 R
+ /Prev 52 0 R
  /Title (Conclusions) >>
 endobj
 % 'Outline.6': class OutlineEntryObject 
-57 0 obj
-<< /Dest [ 35 0 R
+58 0 obj
+<< /Dest [ 34 0 R
  /XYZ
  62.69291
- 306.0236
+ 282.0236
  0 ]
- /Parent 40 0 R
- /Prev 56 0 R
+ /Parent 41 0 R
+ /Prev 57 0 R
  /Title (References) >>
 endobj
-% 'R58': class PDFPages 
-58 0 obj
+% 'R59': class PDFPages 
+59 0 obj
 % page tree
 << /Count 7
  /Kids [ 8 0 R
  15 0 R
  20 0 R
- 24 0 R
- 26 0 R
- 35 0 R
- 37 0 R ]
+ 25 0 R
+ 27 0 R
+ 34 0 R
+ 38 0 R ]
  /Type /Pages >>
 endobj
-% 'R59': class PDFStream 
-59 0 obj
+% 'R60': class PDFStream 
+60 0 obj
 % page stream
 << /Length 6022 >>
 stream
@@ -905,7 +924,7 @@ q
 1 0 0 1 62.69291 695.0236 cm
 q
 .545098 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 113.2099 0 Td (This document was generated on 2012-08-31 at 12:14.) Tj T* -113.2099 0 Td ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 113.2099 0 Td (This document was generated on 2012-08-31 at 12:35.) Tj T* -113.2099 0 Td ET
 Q
 Q
 q
@@ -963,8 +982,8 @@ Q
  
 endstream
 endobj
-% 'R60': class PDFStream 
-60 0 obj
+% 'R61': class PDFStream 
+61 0 obj
 % page stream
 << /Length 6571 >>
 stream
@@ -1042,8 +1061,8 @@ Q
  
 endstream
 endobj
-% 'R61': class PDFStream 
-61 0 obj
+% 'R62': class PDFStream 
+62 0 obj
 % page stream
 << /Length 6864 >>
 stream
@@ -1130,10 +1149,10 @@ Q
  
 endstream
 endobj
-% 'R62': class PDFStream 
-62 0 obj
+% 'R63': class PDFStream 
+63 0 obj
 % page stream
-<< /Length 7606 >>
+<< /Length 7001 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -1196,132 +1215,122 @@ Q
 q
 1 0 0 1 62.69291 195.0236 cm
 q
-BT 1 0 0 1 0 26 Tm .045868 Tw 12 TL /F1 10 Tf 0 0 0 rg (The software to run the calculations, together with the datasets used in the analysis here, is available from) Tj T* 0 Tw 1.239961 Tw 0 0 .501961 rg (https://github.com/realXtend/doc/tree/master/netgames/tools/ ) Tj 0 0 0 rg (\(pointcounter.py is the executable, with the) Tj T* 0 Tw (formula for OP = CP + MP\).) Tj T* ET
+BT 1 0 0 1 0 26 Tm .045868 Tw 12 TL /F1 10 Tf 0 0 0 rg (The software to run the calculations, together with the datasets used in the analysis here, is available from) Tj T* 0 Tw 1.239961 Tw 0 0 .501961 rg (https://github.com/realXtend/doc/tree/master/netgames/tools/ ) Tj 0 0 0 rg (\(pointcounter.py is the executable, with the) Tj T* 0 Tw (implementation of the equation\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 162.0236 cm
+1 0 0 1 62.69291 105.0236 cm
+q
+BT 1 0 0 1 0 74 Tm .36248 Tw 12 TL /F1 10 Tf 0 0 0 rg (Repository based automatic queries for OP analysis have been presented earlier in ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (henrich97repositorybased) Tj /F1 10 Tf 0 0 0 rg 0 Ts (.) Tj T* 0 Tw .351318 Tw (There a repository of ) Tj /F3 10 Tf (documents) Tj /F1 10 Tf (, or abstract software design models \(PCTE\) is queried for automatic OP) Tj T* 0 Tw .969269 Tw (calculations using the P-OQL language. We are not aware of previous implementations of deriving data) Tj T* 0 Tw 1.044597 Tw (for OP calculations from source code only. Automating the calculation opens up fascinating possibilities) Tj T* 0 Tw 3.15284 Tw (for platform and API development in future work, such as longitudal evaluation of API complexity) Tj T* 0 Tw 2.199984 Tw (evolution, and dissecting a body of software by running a series of calculations to pinpoint potential) Tj T* 0 Tw (sources of complexity.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R64': class PDFStream 
+64 0 obj
+% page stream
+<< /Length 7696 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 62.69291 744.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Results) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 150.0236 cm
+1 0 0 1 62.69291 732.0236 cm
 Q
 q
-1 0 0 1 62.69291 81.02362 cm
+1 0 0 1 62.69291 642.0236 cm
 1 1 1 rg
-n 0 69 469.8898 -33 re f*
+n 0 90 469.8898 -18 re f*
+.878431 .878431 .878431 rg
+n 0 72 469.8898 -18 re f*
+1 1 1 rg
+n 0 54 469.8898 -18 re f*
 .878431 .878431 .878431 rg
 n 0 36 469.8898 -18 re f*
 1 1 1 rg
 n 0 18 469.8898 -18 re f*
+.960784 .960784 .862745 rg
+n 0 90 469.8898 -36 re f*
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
-1 0 0 1 138.533 54 cm
+1 0 0 1 138.533 57 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 156.6784 12 re f*
+Q
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (TundraPong) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 50.82419 0 Td (TundraPong) Tj T* -50.82419 0 Td ET
 Q
 Q
 q
-1 0 0 1 307.2114 54 cm
+1 0 0 1 307.2114 75 cm
 q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F2 10 Tf 12 TL (UnionPong) Tj T* ET
+.960784 .960784 .862745 rg
+n 0 0 156.6784 12 re f*
 Q
-Q
-q
-1 0 0 1 307.2114 39 cm
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
-BT 1 0 0 1 0 2 Tm  T* ET
-q
-1 0 0 1 20 0 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Client) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 39.43419 0 Td (UnionPong Client) Tj T* -39.43419 0 Td ET
 Q
 Q
 q
-Q
-Q
+1 0 0 1 307.2114 57 cm
 q
-1 0 0 1 307.2114 21 cm
-q
-0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Full) Tj T* ET
+.960784 .960784 .862745 rg
+n 0 0 48.24228 12 re f*
 Q
-Q
-q
-1 0 0 1 367.4537 21 cm
 q
 0 0 0 rg
-BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Net) Tj T* ET
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 16.06614 0 Td (Full) Tj T* -16.06614 0 Td ET
 Q
 Q
 q
-1 0 0 1 6 3 cm
+1 0 0 1 367.4537 57 cm
+q
+.960784 .960784 .862745 rg
+n 0 0 96.4361 12 re f*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 40.43805 0 Td (Net) Tj T* -40.43805 0 Td ET
+Q
+Q
+0 0 0 rg
+q
+1 0 0 1 6 39 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Class Points) Tj T* ET
 Q
 Q
 q
-1 0 0 1 138.533 3 cm
+1 0 0 1 138.533 39 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (74) Tj T* ET
 Q
 Q
 q
-1 0 0 1 307.2114 3 cm
+1 0 0 1 307.2114 39 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (221) Tj T* ET
 Q
 Q
 q
-1 0 0 1 367.4537 3 cm
+1 0 0 1 367.4537 39 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (147) Tj T* ET
 Q
 Q
-q
-1 J
-1 j
-0 0 0 RG
-.25 w
-n 0 0 m 469.8898 0 l S
-n 301.2114 36 m 469.8898 36 l S
-n 0 18 m 469.8898 18 l S
-n 132.533 0 m 132.533 69 l S
-n 301.2114 0 m 301.2114 69 l S
-n 361.4537 0 m 361.4537 36 l S
-n 0 69 m 469.8898 69 l S
-n 0 0 m 0 69 l S
-n 469.8898 0 m 469.8898 69 l S
-Q
-Q
- 
-endstream
-endobj
-% 'R63': class PDFStream 
-63 0 obj
-% page stream
-<< /Length 6483 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-q
-1 0 0 1 62.69291 729.0236 cm
-1 1 1 rg
-n 0 36 469.8898 -18 re f*
-.878431 .878431 .878431 rg
-n 0 18 469.8898 -18 re f*
-0 0 0 rg
-BT /F1 10 Tf 12 TL ET
 q
 1 0 0 1 6 21 cm
 q
@@ -1341,40 +1350,43 @@ q
 1 j
 0 0 0 RG
 .25 w
+n 301.2114 72 m 469.8898 72 l S
+n 0 54 m 469.8898 54 l S
 n 0 36 m 469.8898 36 l S
 n 0 18 m 469.8898 18 l S
-n 132.533 0 m 132.533 36 l S
-n 301.2114 0 m 301.2114 36 l S
-n 361.4537 0 m 361.4537 36 l S
-n 0 0 m 0 36 l S
-n 469.8898 0 m 469.8898 36 l S
+n 132.533 0 m 132.533 90 l S
+n 301.2114 0 m 301.2114 90 l S
+n 361.4537 0 m 361.4537 72 l S
+n 0 90 m 469.8898 90 l S
 n 0 0 m 469.8898 0 l S
+n 0 0 m 0 90 l S
+n 469.8898 0 m 469.8898 90 l S
 Q
 Q
 q
-1 0 0 1 62.69291 729.0236 cm
+1 0 0 1 62.69291 642.0236 cm
 Q
 q
-1 0 0 1 62.69291 699.0236 cm
+1 0 0 1 62.69291 612.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 13.33553 Tw (Tundra PongMultiplayer: game.js UnionPlatform Pong tutorial: client 14x .as3 +) Tj T* 0 Tw (UnionPong/Java/PongRoomModule.java) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 669.0236 cm
+1 0 0 1 62.69291 582.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Only the networking code) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 657.0236 cm
+1 0 0 1 62.69291 570.0236 cm
 Q
 q
-1 0 0 1 62.69291 657.0236 cm
+1 0 0 1 62.69291 570.0236 cm
 Q
 q
-1 0 0 1 62.69291 645.0236 cm
+1 0 0 1 62.69291 558.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1395,89 +1407,89 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 645.0236 cm
+1 0 0 1 62.69291 558.0236 cm
 Q
 q
-1 0 0 1 62.69291 615.0236 cm
+1 0 0 1 62.69291 528.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 4.169961 Tw (unionpongnet = ["GameManager", "GameStates", "KeyboardController", "PongClient", "PongObject",) Tj T* 0 Tw ("RoomAttributes", "RoomMessages", "UnionPong"]) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 585.0236 cm
+1 0 0 1 62.69291 498.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.209269 Tw (KeyboardController is included because it is exactly what sends the remote control messages from the) Tj T* 0 Tw (player to the server \(modifies client.paddle's attributes and says client.commit\(\)\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 567.0236 cm
+1 0 0 1 62.69291 480.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (client 8x .as: 147.0) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 534.0236 cm
+1 0 0 1 62.69291 447.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Discussion) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 468.0236 cm
+1 0 0 1 62.69291 381.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL 2.724985 Tw (How should we interpret this result? There are several things to consider, these are visited in the) Tj T* 0 Tw 1.770751 Tw (following: 1. validity of the analysis technique, the automated \(partial\) Object-Point analysis 2. nature,) Tj T* 0 Tw 2.413059 Tw (suitability and use of scripting vs. application development libraries 3. observations of the high-level) Tj T* 0 Tw .312651 Tw (network programming APIs studied here. 4. limitations: the many areas of analysis outside the focus here) Tj T* 0 Tw (\(scalability, efficiency of the networking etc\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 438.0236 cm
+1 0 0 1 62.69291 351.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (1. Validity of the analysis) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 384.0236 cm
+1 0 0 1 62.69291 297.0236 cm
 q
 BT 1 0 0 1 0 38 Tm .594269 Tw 12 TL /F1 10 Tf 0 0 0 rg (We apply Sneed's Object-Point analysis, following how it has been adopted to API complexity evaluation) Tj T* 0 Tw .507318 Tw (in ) Tj /F1 8 Tf 0 0 .501961 rg 5 Ts (api-complexity-analysis) Tj /F1 10 Tf 0 0 0 rg 0 Ts (, as closely as we could with the automated source code analysis. The validity must) Tj T* 0 Tw .079986 Tw (thus be evaluated from two viewpoints: a\) applicability of OPs to API complexity analysis in general and b\)) Tj T* 0 Tw (the deviations from the intended calculation due to limits of the analysis software.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 330.0236 cm
+1 0 0 1 62.69291 243.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 2.204104 Tw (The OP sums of the full examples have an order of magnitude \(right? XXX\) sized difference in the) Tj T* 0 Tw 4.18748 Tw (proposed complexity of the two implementations of the same game. Noting the aforementioned) Tj T* 0 Tw .811235 Tw (substantial difference in the nature and scope of the implementations, the ratio of 74:273 \(XXX fix when) Tj T* 0 Tw (nums update\) seems correct for codebases of 2 sizeable and 14\(+1\) mostly small classes respectively.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 312.0236 cm
+1 0 0 1 62.69291 225.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (TODO: what was left out from analysis \(was anything, in the end? XXX\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 282.0236 cm
+1 0 0 1 62.69291 195.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (2. On scripting vs own client development) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 264.0236 cm
+1 0 0 1 62.69291 177.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (TODO) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 258.0236 cm
+1 0 0 1 62.69291 171.0236 cm
 Q
 q
-1 0 0 1 62.69291 258.0236 cm
+1 0 0 1 62.69291 171.0236 cm
 Q
 q
-1 0 0 1 62.69291 234.0236 cm
+1 0 0 1 62.69291 147.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1498,10 +1510,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 228.0236 cm
+1 0 0 1 62.69291 141.0236 cm
 Q
 q
-1 0 0 1 62.69291 204.0236 cm
+1 0 0 1 62.69291 117.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1522,10 +1534,10 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 198.0236 cm
+1 0 0 1 62.69291 111.0236 cm
 Q
 q
-1 0 0 1 62.69291 174.0236 cm
+1 0 0 1 62.69291 87.02362 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1546,10 +1558,19 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 168.0236 cm
+1 0 0 1 62.69291 81.02362 cm
 Q
+ 
+endstream
+endobj
+% 'R65': class PDFStream 
+65 0 obj
+% page stream
+<< /Length 5557 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 156.0236 cm
+1 0 0 1 62.69291 753.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1570,127 +1591,118 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 156.0236 cm
+1 0 0 1 62.69291 753.0236 cm
 Q
- 
-endstream
-endobj
-% 'R64': class PDFStream 
-64 0 obj
-% page stream
-<< /Length 6072 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 747.0236 cm
+1 0 0 1 62.69291 723.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (3. Observations of the high-level network programming APIs) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 693.0236 cm
+1 0 0 1 62.69291 669.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL 2.720651 Tw (The APIs under study here are very similar regarding the networking. They both have an abstract) Tj T* 0 Tw .876098 Tw (container for the state: a Room in Union, and a Scene in Tundra. Application can put own custom state) Tj T* 0 Tw 4.678443 Tw (information as special attributes in that container, and the system takes care of automatically) Tj T* 0 Tw (synchronizing changes to that data.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 651.0236 cm
+1 0 0 1 62.69291 627.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.549986 Tw (Both use callbacks heavily, for example both to listen to new clients entering the service \(an event of) Tj T* 0 Tw .424692 Tw (Room in Union's Reaktor and in the RoomModule on the Union server separately, an event of the Server) Tj T* 0 Tw (core API object in Tundra on server side\) and to attribute changes coming in over the network.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 609.0236 cm
+1 0 0 1 62.69291 585.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL .609984 Tw (They both also allow sending simple ad-hoc custom messages, which the Tundra version uses for game) Tj T* 0 Tw .91811 Tw (events such as informing of a victory \(with the associated data\), and UnionPong uses for all networking) Tj T* 0 Tw (\(also paddle and ball movements\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 579.0236 cm
+1 0 0 1 62.69291 555.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.557765 Tw (With this in mind, we would expect the difference in the complexity sum derive from the scope of the) Tj T* 0 Tw (implementations used in the analysis.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 561.0236 cm
+1 0 0 1 62.69291 537.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (TODO: return to this when the numbers from network-code-only analysis are in too?!?) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 531.0236 cm
+1 0 0 1 62.69291 507.0236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (4. Limitations) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 513.0236 cm
+1 0 0 1 62.69291 489.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (the many areas of analysis outside the focus here \(scalability, efficiency of the networking etc\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 495.0236 cm
+1 0 0 1 62.69291 471.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (TODO) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 462.0236 cm
+1 0 0 1 62.69291 438.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Conclusions) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 444.0236 cm
+1 0 0 1 62.69291 420.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (TODO) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 402.0236 cm
+1 0 0 1 62.69291 378.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 1.027045 Tw (\(We are happy and curious about using this tool for many kinds of comparisons: longitudal studies of a) Tj T* 0 Tw 1.726412 Tw (single API over time, comparisons of e.g. networking stacks when using different protocols for similar) Tj T* 0 Tw (functionality, ... or?\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 348.0236 cm
+1 0 0 1 62.69291 324.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 38 Tm /F1 10 Tf 12 TL .919985 Tw (Similarities and differences of using a platform as ready made client software, on which just run scripts,) Tj T* 0 Tw 3.01229 Tw (vs. libraries to create own applications, are interesting to study more. Same software components) Tj T* 0 Tw .930574 Tw (\(libraries, modules etc\) can be used in both configurations -- what is more suitable may well depend on) Tj T* 0 Tw (the particular case.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 318.0236 cm
+1 0 0 1 62.69291 294.0236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .39686 Tw (\(XXX Q: where does complexity lurk? should we consider the leaks here? does Onion have something to) Tj T* 0 Tw (handle them? at least had the Attribute setting exception in the java server XXX\)) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 285.0236 cm
+1 0 0 1 62.69291 261.0236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (References) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 222.3307 cm
-Q
-q
-1 0 0 1 62.69291 193.9843 cm
-n 0 14.17323 m 469.8898 14.17323 l S
+1 0 0 1 62.69291 198.3307 cm
 Q
 q
 1 0 0 1 62.69291 169.9843 cm
+n 0 14.17323 m 469.8898 14.17323 l S
+Q
+q
+1 0 0 1 62.69291 145.9843 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1709,7 +1721,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 133.9843 cm
+1 0 0 1 62.69291 109.9843 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1727,8 +1739,17 @@ Q
 q
 Q
 Q
+ 
+endstream
+endobj
+% 'R66': class PDFStream 
+66 0 obj
+% page stream
+<< /Length 1983 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 97.98425 cm
+1 0 0 1 62.69291 729.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1747,7 +1768,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 85.98425 cm
+1 0 0 1 62.69291 717.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1765,17 +1786,8 @@ Q
 q
 Q
 Q
- 
-endstream
-endobj
-% 'R65': class PDFStream 
-65 0 obj
-% page stream
-<< /Length 1118 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 705.0236 cm
+1 0 0 1 62.69291 657.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1794,7 +1806,7 @@ q
 Q
 Q
 q
-1 0 0 1 62.69291 693.0236 cm
+1 0 0 1 62.69291 645.0236 cm
 0 0 0 rg
 BT /F1 10 Tf 12 TL ET
 q
@@ -1816,68 +1828,68 @@ Q
  
 endstream
 endobj
-% 'R66': class PDFPageLabels 
-66 0 obj
+% 'R67': class PDFPageLabels 
+67 0 obj
 % Document Root
 << /Nums [ 0
- 67 0 R
- 1
  68 0 R
- 2
+ 1
  69 0 R
- 3
+ 2
  70 0 R
- 4
+ 3
  71 0 R
- 5
+ 4
  72 0 R
+ 5
+ 73 0 R
  6
- 73 0 R ] >>
-endobj
-% 'R67': class PDFPageLabel 
-67 0 obj
-% None
-<< /S /D
- /St 1 >>
+ 74 0 R ] >>
 endobj
 % 'R68': class PDFPageLabel 
 68 0 obj
 % None
 << /S /D
- /St 2 >>
+ /St 1 >>
 endobj
 % 'R69': class PDFPageLabel 
 69 0 obj
 % None
 << /S /D
- /St 3 >>
+ /St 2 >>
 endobj
 % 'R70': class PDFPageLabel 
 70 0 obj
 % None
 << /S /D
- /St 4 >>
+ /St 3 >>
 endobj
 % 'R71': class PDFPageLabel 
 71 0 obj
 % None
 << /S /D
- /St 5 >>
+ /St 4 >>
 endobj
 % 'R72': class PDFPageLabel 
 72 0 obj
 % None
 << /S /D
- /St 6 >>
+ /St 5 >>
 endobj
 % 'R73': class PDFPageLabel 
 73 0 obj
 % None
 << /S /D
+ /St 6 >>
+endobj
+% 'R74': class PDFPageLabel 
+74 0 obj
+% None
+<< /S /D
  /St 7 >>
 endobj
 xref
-0 74
+0 75
 0000000000 65535 f
 0000000113 00000 n
 0000000234 00000 n
@@ -1902,64 +1914,65 @@ xref
 0000004970 00000 n
 0000005199 00000 n
 0000005394 00000 n
-0000005659 00000 n
-0000005985 00000 n
-0000006212 00000 n
-0000006528 00000 n
-0000006819 00000 n
-0000007061 00000 n
-0000007303 00000 n
-0000007546 00000 n
-0000007788 00000 n
-0000008077 00000 n
-0000008367 00000 n
-0000008609 00000 n
-0000008988 00000 n
-0000009235 00000 n
-0000009537 00000 n
-0000009696 00000 n
-0000009991 00000 n
-0000010117 00000 n
-0000010289 00000 n
-0000010520 00000 n
-0000010737 00000 n
-0000010932 00000 n
-0000011143 00000 n
-0000011400 00000 n
-0000011593 00000 n
-0000011805 00000 n
-0000012033 00000 n
-0000012203 00000 n
-0000012434 00000 n
-0000012625 00000 n
-0000012845 00000 n
-0000013082 00000 n
-0000013257 00000 n
-0000013444 00000 n
-0000013599 00000 n
-0000013760 00000 n
-0000019881 00000 n
-0000026551 00000 n
-0000033514 00000 n
-0000041219 00000 n
-0000047801 00000 n
-0000053972 00000 n
-0000055193 00000 n
-0000055364 00000 n
-0000055441 00000 n
-0000055518 00000 n
-0000055595 00000 n
-0000055672 00000 n
-0000055749 00000 n
-0000055826 00000 n
+0000005675 00000 n
+0000005902 00000 n
+0000006237 00000 n
+0000006464 00000 n
+0000006780 00000 n
+0000007071 00000 n
+0000007313 00000 n
+0000007555 00000 n
+0000007798 00000 n
+0000008040 00000 n
+0000008314 00000 n
+0000008675 00000 n
+0000008965 00000 n
+0000009222 00000 n
+0000009469 00000 n
+0000009789 00000 n
+0000009948 00000 n
+0000010243 00000 n
+0000010369 00000 n
+0000010541 00000 n
+0000010772 00000 n
+0000010989 00000 n
+0000011184 00000 n
+0000011395 00000 n
+0000011652 00000 n
+0000011845 00000 n
+0000012057 00000 n
+0000012285 00000 n
+0000012455 00000 n
+0000012686 00000 n
+0000012877 00000 n
+0000013097 00000 n
+0000013334 00000 n
+0000013509 00000 n
+0000013696 00000 n
+0000013851 00000 n
+0000014012 00000 n
+0000020133 00000 n
+0000026803 00000 n
+0000033766 00000 n
+0000040866 00000 n
+0000048661 00000 n
+0000054317 00000 n
+0000056403 00000 n
+0000056574 00000 n
+0000056651 00000 n
+0000056728 00000 n
+0000056805 00000 n
+0000056882 00000 n
+0000056959 00000 n
+0000057036 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\310v\334\342\033\255\012ES\\\367>\373&3V) (\310v\334\342\033\255\012ES\\\367>\373&3V)] 
+ [(b\366\006\274 \2520\370}\254\235\257\367Y{\003) (b\366\006\274 \2520\370}\254\235\257\367Y{\003)] 
 
- /Info 39 0 R
- /Root 38 0 R
- /Size 74 >>
+ /Info 40 0 R
+ /Root 39 0 R
+ /Size 75 >>
 startxref
-55873
+57083
 %%EOF
