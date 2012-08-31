@@ -6,9 +6,12 @@ def do_call_block(last_call, exprs):
     print last_call, 'had', first_tokens.count('NAME'),
     print 'names and', first_tokens.count('NUMBER'), 'numbers',
     print 'and', first_tokens.count('STRING'), 'strings, total: %d' % len(first_tokens)
+    return [last_call, exprs[0][1], first_tokens]
 
 def count_calls(classname):
     calltreefile = "%s%s%s" % (DATAPATH, classname, FILESUFFIX)
+
+    all_calls = list()
 
     prev_il = 0
     in_call = False
@@ -27,7 +30,7 @@ def count_calls(classname):
 
         if indent_level < prev_il:
             if in_call:
-                do_call_block(last_call, curr)
+                all_calls.append(do_call_block(last_call, curr))
 
             in_call = False
             curr = []
@@ -44,7 +47,9 @@ def count_calls(classname):
 
 
     if in_call:
-        do_call_block(last_call, curr)
+        all_calls.append(do_call_block(last_call, curr))
+        return all_calls
+    return list()
 
 if __name__ == '__main__':
-    count_calls("Court")
+    print count_calls("Court")
