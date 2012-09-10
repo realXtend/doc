@@ -1,6 +1,15 @@
 Notes
 =====
 
+Multiplayer Pong with Game Maker -- also a chat example, which might be good for comparisons too:
+http://sandbox.yoyogames.com/downloads/tutorials/multiplayer.zip
+Tutorial: Multiplayer Games (zip file, 210 KB)
+from http://sandbox.yoyogames.com/make/tutorials
+
+"This tutorial shows you how to create a multiplayer game. It shows how to set up a connection, how to create game sessions and how to communicate between the games. Two examples are given: a two-player pong game and a simple chat program. This is an advanced tutorial and requires coding experience in GML. It also requires a pro version of the program."
+
+---
+
 (NOTE: below is selected copy-pastes from potential references, mostly not original text!)
 
 Greger Wikstrand, Lennart Schedin and Fredrik Elg [9] gave three
