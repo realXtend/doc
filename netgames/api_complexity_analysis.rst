@@ -100,6 +100,10 @@ limited: for example, it fails to take into account pre- and
 post-invocation assumptions of the API and possibly required sequences
 of invocation [cmu-api_failures]_.
 
+TODO: Give a brief overview of API evaluation, API usability
+evaluation by refer to key articles in api_usability.rst -- position
+API complexity and OP analysis in that big picture! XXX
+
 We do not have external statistics data from hours used for
 development or reported software failures of games to study. Also
 simplistic measures, suitable for analyzing large bodies of source
@@ -379,8 +383,11 @@ UnionPlatform Pong tutorial: client 14x .as3
 Only the networking code
 ------------------------
 
+NOTES:
+
 - Selected classes, explain the criteria.
 
+Class level selection - all classes which are involved in networking
 unionpongnet = ["GameManager", "GameStates", "KeyboardController",
 "PongClient", "PongObject", "RoomAttributes", "RoomMessages",
 "UnionPong"]
@@ -390,6 +397,12 @@ remote control messages from the player to the server (modifies
 client.paddle's attributes and says client.commit()).
 
 client 8x .as: 147.0
+
+A better take: select only code for which there is a corresponding
+part in the Tundra impl? Would leave the networking API, right? Well,
+with a quick read through all of the code at least, the class based
+selection did that -- the remaining classes are mostly network code /
+code involving networking.
 
 
 Discussion
@@ -426,7 +439,8 @@ TODO: what was left out from analysis (was anything, in the end? XXX)
 2. On scripting vs own client development
 -----------------------------------------
 
-TODO
+TODO - noting: higher points does not mean that Union is bad, but
+highlights the difference of what Tundra and Union are -- right?
 
 - as the data points out, implementing something on an existing
   platform can be comparatively very little work
@@ -469,7 +483,10 @@ TODO: return to this when the numbers from network-code-only analysis are in too
 --------------
 
 the many areas of analysis outside the focus here (scalability,
-efficiency of the networking etc)
+efficiency of the networking, security, ..)
+
+The minimal examples may not be complete, true networked play
+implementations with error checking etc. (can we check this?)
 
 TODO
 
