@@ -57,3 +57,11 @@ Jeffrey Stylos, Benjamin Graf, Daniela K. Busse,
 Carsten Ziegler, Ralf Ehret, and Jan Karstens. A case
 study of api redesign for improved usability,
 September 2008.
+
+concept maps in API evaluation -- this is what i thought of too, drew one of Tundra!
+http://hci.uni-konstanz.de/downloads/CHI2011_concept_maps__publisher_ready.pdf
+Jens Gerken, Hans-Christian Jetter, Michael Z ̈llner,
+Martin Mader, and Harald Reiterer. The concept
+maps method as a tool to evaluate the usability of
+apis, May 2011.
+CHI 2011, May 7–12, 2011, Vancouver, BC, Canada.
