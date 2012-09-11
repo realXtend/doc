@@ -39,10 +39,21 @@ nique. Closing, a conclusion provides an overview of the
 state of API evaluation techniques based on the five tech-
 niques reviewed in this paper.
 
-features Metrix, from:
+features Metrix -- an automated tool! -- , from:
 Cleidson R. B. de Souza and David L. M. Bentolila.
 Automatic evaluation of api usability using complexity
 metrics and visualisations, May 2009.
+http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=5071006&contentType=Conference+Publications
 
----
+also, on OO complexity metrics:
+http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1166590&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1166590
+Rajendra K. Bandi and Vijay K. Vaishnavi. Predicting
+maintenance performance using object-oriented design
+complexity metrics, January 2003.
 
+and usability with human focus:
+http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=4639083&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D4639083
+Jeffrey Stylos, Benjamin Graf, Daniela K. Busse,
+Carsten Ziegler, Ralf Ehret, and Jan Karstens. A case
+study of api redesign for improved usability,
+September 2008.
