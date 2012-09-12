@@ -1,6 +1,7 @@
 from lxml import etree
 
-DATAPATH = "../data/unionpong/"
+#DATAPATH = "../data/unionpong/"
+DATAPATH = "../data/tundrapong/"
 FILESUFFIX = ".xml"
 
 def from_getprop(el):
@@ -14,6 +15,7 @@ def get_calls(classname):
     calls = []
 
     calltreefile = "%s%s%s" % (DATAPATH, classname, FILESUFFIX)
+    print "Reading file:", calltreefile
     parser = etree.XMLParser(remove_comments=True)
     tree = etree.parse(calltreefile, parser=parser)
     callelems = tree.xpath("//CALL")

@@ -23,7 +23,7 @@ def xmlify(treefile):
 
         tag = l2.split(None, 1)[0]
         if tag in ('NAME', 'STRING'):
-            k,v = "PARAM", l2.split()[1]
+            k,v = "PARAM", l2.split()[1] #XXX NOTE: closure tree output can wrap long strings -- this expects them to be on one long line (hand-edited tundrapong game.tree to have one long STRING on one line)
             print '<' + tag + ' %s="%s"> <!--' % (k, v) + ' '.join(l2.strip().split()[1:]) + '-->'
         else:
             print '<' + tag + '> <!--' + ' '.join(l2.strip().split()[1:]) + '-->'
