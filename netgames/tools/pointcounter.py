@@ -1,6 +1,6 @@
 import read_asdoc_xml as r
 unionpongnet = ["GameManager", "GameStates", "KeyboardController", "PongClient", "PongObject", "RoomAttributes", "RoomMessages", "UnionPong"] #the classes included for the net-code-only run
-from count_calls import count_calls
+import count_calls
 #unionpongnet = None
 #import read_jsdoc_json as r
 
@@ -35,24 +35,31 @@ print CP
 #N_O_M = sum([o.N for o in O_M]) / len(O_M)
 
 #call counts from closure trees
-
-all_calls = list()
+unique_funcs = {}
 for c in C.itervalues():
-        print "Function calls in class:", c.name
- 	all_calls.append(count_calls(c.name))
+        #print "Functions called in class:", c.name
+ 	funcs = count_calls.functions_called_in_class(c.name)
+        #print funcs.keys()
 
+        #add to the global set (well, dict) of all called funcs by using the func name only
+        #to filter out duplicates -- e.g. addEventListener and getAttribute are considered the same on all objs (room, reactor etc.)
+        for func, params in funcs.iteritems():
+                if '.' in func:
+                        plainname = func.split('.')[-1]
+                else:
+                        plainname = func
 
+                if plainname not in unique_funcs:
+			unique_funcs[plainname] = params
+		else:
+			#check if the param count in this call is same as previous info
+			if len(unique_funcs[plainname]) < len(params):
+                                unique_funcs[plainname] = params #lets use the biggest param count found
 
-unique_calls = set()
+for f, params in unique_funcs.iteritems():
+        print f, len(params)
 
-print '-----'
-for calls in all_calls:
-	for call in calls:
-		unique_calls.add(call[1])
-
-print unique_calls
-
-MP = (W_O_M * len(all_calls)  )	
+MP = (W_O_M * len(unique_funcs)  )	
 
 # MP = (W_O_M * len(O_M) + sum([len(o.P) for o in O_M)]) + W_S_O * sum([len(o.S) for i in O_M]) + W_T_O * sum([len(o.T) for o in O_M])) * N_O_M
 

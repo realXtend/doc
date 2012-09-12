@@ -1,55 +1,60 @@
+from lxml import etree
+
 DATAPATH = "../data/unionpong/"
-FILESUFFIX = "-filtered.tree"
+FILESUFFIX = ".xml"
 
-def do_call_block(last_call, exprs):
-    first_tokens = [x[0] for x in exprs[1:]]
-    print last_call, 'had', first_tokens.count('NAME'),
-    print 'names and', first_tokens.count('NUMBER'), 'numbers',
-    print 'and', first_tokens.count('STRING'), 'strings, total: %d' % len(first_tokens)
-    return [last_call, exprs[0][1], first_tokens]
+def from_getprop(el):
+    ob = el[0].get('PARAM')
+    prop = el[1].get('PARAM')
+    return ob, prop
 
-def count_calls(classname):
+def get_calls(classname):
+    """gets all function/method calls and their parameters from closure's tree dump"""
+
+    calls = []
+
     calltreefile = "%s%s%s" % (DATAPATH, classname, FILESUFFIX)
+    parser = etree.XMLParser(remove_comments=True)
+    tree = etree.parse(calltreefile, parser=parser)
+    callelems = tree.xpath("//CALL")
+    
+    for c in callelems:
+        func, params = c[0], c[1:]
 
-    all_calls = list()
+        #get func name either via getprop or directly
+        if func.tag == 'GETPROP':
+            ob, prop = from_getprop(func)
+            funcstr = "%s.%s" % (ob, prop) #reactor.addEventListener - may consider just plain func name
+        else:
+            funcstr = func.get('PARAM')
 
-    prev_il = 0
-    in_call = False
-    curr = []
-    last_call = None
-    for line in open(calltreefile):
-        indent_spaces = len(line) - len(line.lstrip(' '))
-        if indent_spaces % 4 or '\t' in line:
-            sys.exit('bad indent, need spaces in multiples of 4')
-        indent_level = indent_spaces / 4
+        calls.append((funcstr, params))
 
-        tokens = line.strip().split()
+    return calls
 
-        if indent_level > prev_il:
-            curr = []
+def called_funcs(calls):
+    """gets the set of unique functions/methods called from a list of calls"""
+    funcs = {}
+    for func, params in calls:
+        if func not in funcs:
+            funcs[func] = params
+        else:
+            #check if the param count in this call is same as previous info
+            if len(funcs[func]) < len(params):
+                funcs[func] = params #lets use the biggest param count found
 
-        if indent_level < prev_il:
-            if in_call:
-                all_calls.append(do_call_block(last_call, curr))
+    return funcs
 
-            in_call = False
-            curr = []
-
-        if tokens[0] == 'CALL':
-            in_call = True
-            last_call = tokens
-
-
-        curr.append(tokens)
-
-        prev = curr
-        prev_il = indent_level
-
-
-    if in_call:
-        all_calls.append(do_call_block(last_call, curr))
-        return all_calls
-    return list()
+def functions_called_in_class(classname):
+    calls = get_calls(classname)
+    funcs = called_funcs(calls)
+    return funcs
 
 if __name__ == '__main__':
-    print count_calls("Court")
+    testclass = "UnionPong"
+    #testclass = "Court"
+
+    funcs = functions_called_in_class(testclass)
+
+    for f, params in funcs.iteritems():
+        print f, len(params)
