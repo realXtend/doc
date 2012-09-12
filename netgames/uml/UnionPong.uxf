@@ -1,0 +1,113 @@
+<diagram program="umlet" version="11.3"><element><type>com.umlet.element.Class</type><coordinates><x>40</x><y>30</y><w>230</w><h>146</h></coordinates><panel_attributes>HUD
+--
+leftPlayerScore: type
+rightPlayerScore: type
+status: type
+
+--
+#setLeftPlayerScore(score)
+#resetScores()
+#setRightPlayerScore(score)
+#setStatus(msg)
+</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>300</x><y>30</y><w>230</w><h>128</h></coordinates><panel_attributes>PongObject
+--
+direction: type
+height: type
+speed: type
+width: type
+x: type
+y: type
+
+--
+</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>560</x><y>30</y><w>230</w><h>20</h></coordinates><panel_attributes>RoomAttributes
+--
+
+--
+</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>820</x><y>30</y><w>230</w><h>20</h></coordinates><panel_attributes>RoomMessages
+--
+
+--
+</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>40</x><y>330</y><w>230</w><h>20</h></coordinates><panel_attributes>ClientAttributes
+--
+
+--
+</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>300</x><y>330</y><w>230</w><h>20</h></coordinates><panel_attributes>Settings
+--
+
+--
+</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>560</x><y>330</y><w>230</w><h>128</h></coordinates><panel_attributes>PongClient
+--
+
+--
+#getSide()
+#init()
+#getPaddle()
+#updateAttributeListener(e)
+#commit()
+#deserializePaddle(value)
+</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>820</x><y>330</y><w>230</w><h>20</h></coordinates><panel_attributes>GameStates
+--
+
+--
+</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>40</x><y>630</y><w>230</w><h>74</h></coordinates><panel_attributes>KeyboardController
+--
+
+--
+#setClient(client)
+#keyDownListener(e)
+#keyUpListener(e)
+</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>300</x><y>630</y><w>230</w><h>20</h></coordinates><panel_attributes>Rectangle
+--
+
+--
+</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>560</x><y>630</y><w>230</w><h>470</h></coordinates><panel_attributes>GameManager
+--
+joinTimer: type
+lastUpdate: type
+room: type
+state: type
+updateTimer: type
+
+--
+#reset()
+#clientAttributeUpdateListener(e)
+#stopGameListener(fromClient)
+#removeRoomListeners()
+#setRoom(room)
+#joinTimerListener(e)
+#addRoomListeners()
+#roomAttributeUpdateListener(e)
+#updateBall(elapsed)
+#removePlayer(player)
+#addPlayer(player)
+#deserializeBall(value)
+#initPlayers()
+#roomJoinResultListener(e)
+#updatePlayer(player, elapsed)
+#roomJoinListener(e)
+#removeOccupantListener(e)
+#startGameListener(fromClient)
+#timerListener(e)
+#resetBall()
+</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>820</x><y>630</y><w>230</w><h>182</h></coordinates><panel_attributes>Court
+--
+
+--
+#showBall()
+#setBallPosition(x, y)
+#setRightPaddlePosition(x, y)
+#showLeftPaddle()
+#hideBall()
+#hideRightPaddle()
+#showRightPaddle()
+#hideLeftPaddle()
+#setLeftPaddlePosition(x, y)
+</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>40</x><y>930</y><w>230</w><h>92</h></coordinates><panel_attributes>UnionPong
+--
+reactor: type
+
+--
+#initGame()
+#readyListener(e)
+#beginConnectListener(e)
+</panel_attributes></element></diagram>

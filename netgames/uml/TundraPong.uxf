@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="11.3">
+  <zoom_level>10</zoom_level>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>40</x>
+      <y>30</y>
+      <w>230</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>GameClient
+--
+myId: type
+running: type
+widget: type
+
+--
+#onServerData(jsonData)
+#initUi()
+#onMovement(direction)
+#joinGamePushed()
+#addCpuPlayer()
+#resetClient()
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <type>com.umlet.element.Class</type>
+    <coordinates>
+      <x>300</x>
+      <y>30</y>
+      <w>290</w>
+      <h>370</h>
+    </coordinates>
+    <panel_attributes>GameServer
+--
+serverId: type
+running: type
+speed: type
+winscore: type
+gameTimeIter: type
+p1_client_id: type
+p2_client_id: type
+p1_score: type
+p2_score: type
+
+--
+#getClient(clientId)
+#finishRound(scoreClientId)
+#stopGame()
+#getClientName(clientId)
+#createGame()
+#onClientMovement(clientId, direction)
+#updateGame(frametime)
+#onClientJoin(clientId)
+#startGame()
+#resetGameState()
+#finishGame(winnerClientId)
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
