@@ -103,8 +103,7 @@ of invocation [cmu-api_failures]_.
 TODO: Give a brief overview of API evaluation, API usability
 evaluation by refer to key articles in api_usability.rst -- position
 API complexity and OP analysis in that big picture! XXX
-
-We do not have external statistics data from hours used for
+(REWRITE: We do not have external statistics data from hours used for
 development or reported software failures of games to study. Also
 simplistic measures, suitable for analyzing large bodies of source
 code, would miss the subtle issues which raise in networked
@@ -114,7 +113,7 @@ organize an experiment where a number of test teams develop the same
 networked game on alternative platforms, from the same specifications,
 and the development time and number of mistakes would be analyzed --
 similar to [programmingcomparison]_. That is however out of the scope
-here.
+here.)
 
 In a different approach, a study of 4 alternative implementations, on
 different frameworks, of the same application uses Object-Points (OP)
@@ -367,13 +366,13 @@ Results
 |classes    |        2     |  14 |    8    |
 +-----------+--------------+-----+---------+
 |Class      |              |     |         |
-|Points     |       74     | 221 |   147   |
+|Points     |       74     | 220 |   147   |
 +-----------+--------------+-----+---------+
 |Message    |              |     |         |
-|Points     |              |     |         |
+|Points     |       68     | 136 |   124   |
 +-----------+--------------+-----+---------+
 |Object     |              |     |         |
-|Points     |              |     |         |
+|Points     |      142     | 356 |   271   |
 +-----------+--------------+-----+---------+
 
 Tundra PongMultiplayer: game.js 
