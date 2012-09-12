@@ -2,7 +2,7 @@
 import count_calls
 import read_jsdoc_json as r #TundraPong jsdoc
 
-#unionpongnet = ["GameManager", "GameStates", "KeyboardController", "PongClient", "PongObject", "RoomAttributes", "RoomMessages", "UnionPong"] #the classes included for the net-code-only run
+unionpongnet = ["GameManager", "GameStates", "KeyboardController", "PongClient", "PongObject", "RoomAttributes", "RoomMessages", "UnionPong"] #the classes included for the net-code-only run
 #infilter = unionpongnet
 infilter = None #no filtering, use all classes
 
@@ -31,7 +31,11 @@ W_T_O = 2
 N_C = sum([getN(c, C) for c in C.values()]) / len(C)
 
 
-CP = (W_c * len(C) + sum([len(c.fields) for c in C.values()]) + W_R_c * sum([len(c.relations) for x in C.values()]) + W_O_c * sum([len(c.methods) for x in C.values()])) * N_C
+t1 = W_c * len(C) + sum([len(c.fields) for c in C.values()])
+t2 = W_R_c * sum([len(c.relations) for c in C.values()])
+t3 = W_O_c * sum([len(c.methods) for c in C.values()])
+CP = (t1 + t2 + t3) * N_C
+
 
 #N_O_M = sum([o.N for o in O_M]) / len(O_M)
 
@@ -69,6 +73,7 @@ MP = (W_O_M * len(unique_funcs)  )
 
 # N_c = prod([(len(c.A) + len(c.R) + len(c.O)) / (len(c.A) + len(c.R) + len(c.O) + ) for c in C])
 
+print t1, t2, t3, N_C
 print "OP %d = CP %d + MP %d" % (CP + MP,
                                  CP,
                                  MP)

@@ -68,13 +68,25 @@ def get_values(klasses):
             name = value.find('apiName').text
             valuedetail = value.find('apiValueDetail')
             valuedef = valuedetail.find('apiValueDef')
+
+            #relation or attribute?
             valueclassifier = valuedef.find('apiValueClassifier')
-            if valueclassifier is not None:
+            if valueclassifier is not None: #looks like a relation?
                 relclassname = valueclassifier.text
                 #print classname, name, relclassname
 
                 #relklass = klasses[relclassname]
-                klass.relations.append(relclassname) #relklass)
+                klass.relations.add(relclassname) #relklass)
+
+            else:
+                apiproperty = valuedef.find('apiProperty')
+                if apiproperty is not None: #is a property?
+                    #this seemed to work otherwise ok but UnionPong,
+                    #but referring to a class outside this codebase was not detected similarily:
+                    if name == "Reactor":
+                        klass.relations.add(name)
+                    else:
+                        klass.fields.append(name)
 
 def get_classes(infilter=None):
     klasses = get_klasses(infilter)
@@ -82,5 +94,5 @@ def get_classes(infilter=None):
     return klasses
 
 if __name__ == '__main__':
-    klasses = giev()
+    klasses = get_classes()
     klass.printout(klasses)

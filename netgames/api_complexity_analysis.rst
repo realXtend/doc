@@ -353,11 +353,14 @@ potential sources of complexity.
 Results
 =======
 
+The results for the Object Points analysis for the two codebases are
+presented in table 1. 
+
 +-----------+--------------+---------------+
 |           |TundraPong    |UnionPong      |
-|           |              |Client         |
-|           |              +-----+---------+
-|           |              |Full | Net     |
+|           |(both client  |Client         |
+|           |and server    +-----+---------+
+|           |side)         |Full | Net     |
 +===========+==============+=====+=========+
 |Lines of   |              |     |         |
 |Code       |       361    |  565|    420  |
@@ -366,17 +369,43 @@ Results
 |classes    |        2     |  14 |    8    |
 +-----------+--------------+-----+---------+
 |Class      |              |     |         |
-|Points     |       74     | 220 |   147   |
+|Points     |       75     | 180 |   140   |
 +-----------+--------------+-----+---------+
 |Message    |              |     |         |
 |Points     |       68     | 136 |   124   |
 +-----------+--------------+-----+---------+
 |Object     |              |     |         |
-|Points     |      142     | 356 |   271   |
+|Points     |      143     | 316 |   264   |
 +-----------+--------------+-----+---------+
 
-Tundra PongMultiplayer: game.js 
-UnionPlatform Pong tutorial: client 14x .as3
+.. 
+   20 4 51 1
+   OP 143 = CP 75 + MP 68
+
+   67 22 135 0.807692307692
+   OP 316 = CP 180 + MP 136
+
+   44 20 96 0.875
+   OP 264 = CP 140 + MP 124
+
+
+For TundraPong, the single Javascript source file (assets/game.js) is
+included. It features both client and server functionality in two
+classes respectively. It is the complete implementation with GUI and
+the minimal game session management.
+
+For UnionPong, all the client side ActionScript files (14) are
+included for the full run, and selected 8 for the network code only
+calculation. The selection is made on the class level: the classes
+which involve networking are included in full, not edited line-by-line
+to include networking code only. The included classes are:
+GameManager, GameStates, KeyboardController, PongClient, PongObject,
+RoomAttributes, RoomMessages, UnionPong. The excluded classes cover
+GUI, the 2d scene implementation and general settings and utilities,
+and are called: clamp, ClientAttributes, Court, HUD, Rectable and
+Settings.
+
+
 + UnionPong/Java/PongRoomModule.java
 
 Only the networking code
@@ -387,9 +416,7 @@ NOTES:
 - Selected classes, explain the criteria.
 
 Class level selection - all classes which are involved in networking
-unionpongnet = ["GameManager", "GameStates", "KeyboardController",
-"PongClient", "PongObject", "RoomAttributes", "RoomMessages",
-"UnionPong"]
+
 
 KeyboardController is included because it is exactly what sends the
 remote control messages from the player to the server (modifies
