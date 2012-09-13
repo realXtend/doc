@@ -6,6 +6,8 @@ unionpongnet = ["GameManager", "GameStates", "KeyboardController", "PongClient",
 #infilter = unionpongnet
 infilter = None #no filtering, use all classes
 
+
+# Calculates novelty of a class
 def getN(c, C):
 	term = len(c.fields) + len(c.relations) + len(c.methods)
 	result = 1
@@ -28,12 +30,12 @@ W_S_O = 2
 W_T_O = 2
 
 
-N_C = sum([getN(c, C) for c in C.values()]) / len(C)
+N_C = sum([getN(c, C) for c in C.values()]) / len(C) # Average class novelty
 
 
-t1 = W_c * len(C) + sum([len(c.fields) for c in C.values()])
-t2 = W_R_c * sum([len(c.relations) for c in C.values()])
-t3 = W_O_c * sum([len(c.methods) for c in C.values()])
+t1 = W_c * len(C) + sum([len(c.fields) for c in C.values()]) # weight x sun of the attribute counts of a classes
+t2 = W_R_c * sum([len(c.relations) for c in C.values()]) # weight x sum of relation counts per class
+t3 = W_O_c * sum([len(c.methods) for c in C.values()]) # weight x sum of method (opeartion) counts per class
 CP = (t1 + t2 + t3) * N_C
 
 
