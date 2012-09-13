@@ -21,6 +21,16 @@ A comparison of networked game development APIs
 Introduction
 ============
 
+Networked application programming is generally more complex than
+standalone software development. The developer typically needs to deal
+with events, conflicts and error conditions originating from other
+parts of the distributed system as well as the local user. This is
+emphasized in multiuser real-time systems compared to the relatively
+leisurely request-response interaction patterns of most client-server
+applications. Developing a massively multiplayer online game (MMOG)
+has been stated to typically take two to three times as long as
+creating and launching a single-player game [middleware]_.
+
 Higher level abstractions in software are a common way to attempt to
 ease application development. Regarding networking, libraries exist to
 simplify managing connections and messaging. On a even higher level,
@@ -52,20 +62,26 @@ networking libraries, succeed in that.
 How can a conceptual design of an entity system be really evaluated?
 How can we know how well a platform supports actual networked game
 development? These are not easy questions, but the answers would
-really help us concretely in game and platform development. We do not
-claim to provide final answers to all of it here. The area of software
-and API complexity analysis has however made interesting progress
-recently [api-complexity-analysis]_ [cmu-api_failures]_. By applying a
-software complexity analysis technique, we investigate one particular
-aspect of the quality of networked application platforms: the API
-complexity for a networked game developer.
+really help us concretely in game and platform development. One
+presentation of a MMOG middleware proposes four essential "ease of"
+requirements: ease of development, deployment, maintenance and
+change. However in the evaluation they note the difficulty of
+quantitative measurement of e.g. ease of development or change, and
+review platform scalability only [middleware]_. Here we focus on the
+difficult ease-of question instead. We do not claim to provide final
+answers to all of it here. The area of software and API complexity
+analysis has however made interesting progress recently
+[api-complexity-analysis]_ [cmu-api_failures]_. By applying a software
+complexity analysis technique, we investigate one particular aspect of
+the quality of networked application platforms: the API complexity for
+a networked game developer.
 
-We analyze API complexity by borrowing an approach from a previous
-study in a slightly different field. We conduct a comparative study of
-two alternative APIs for networked game development by analyzing the
-complexity of the same game implemented on the two platforms. The game
-is Pong, which is proposed as a minimal hello-world style example of a
-multiplayer game.
+We analyze API complexity by following an approach from a previous
+study in a slightly different field [api-complexity-analysis]_. We
+conduct a comparative study of two alternative APIs for networked game
+development by analyzing the complexity of the same game implemented
+on the two platforms. The game is Pong, which is proposed as a minimal
+hello-world style example of a multiplayer game.
 
 The article is organized as follows: Next, we provide background
 information on API complexity research, the selected game case and the
@@ -98,41 +114,64 @@ limited: for example, it fails to take into account pre- and
 post-invocation assumptions of the API and possibly required sequences
 of invocation [cmu-api_failures]_.
 
-TODO: Give a brief overview of API evaluation, API usability
-evaluation by refer to key articles in api_usability.rst -- position
-API complexity and OP analysis in that big picture! XXX
-(REWRITE: We do not have external statistics data from hours used for
-development or reported software failures of games to study. Also
-simplistic measures, suitable for analyzing large bodies of source
-code, would miss the subtle issues which raise in networked
-programming on a framework which attempts to hide the intricacies of
-networking from the application developer. It would be interesting to
-organize an experiment where a number of test teams develop the same
-networked game on alternative platforms, from the same specifications,
-and the development time and number of mistakes would be analyzed --
-similar to [programmingcomparison]_. That is however out of the scope
-here.)
+More generally, API usability research has recently gotten attention
+in human centric research. Both traditional HCI usability evaluation
+techniques have been adapted to API evaluation, and also novel
+approaches specific to API usability research have been put forth
+[conceptmaps]_. Traditional techniques include the think aloud
+protocol, heuristic evaluation and cognitive walkthoughs
+[overview]_. Metrics in those studies include for example the
+completion times of predefined tasks. Human observation based API
+evaluation is challenging due to several reasons, compared to
+usability studies of simpler tasks accomplished with GUIs. Developing
+even a small application takes easily weeks so it is difficult to fit
+valid tasks in a typical 1-2 hour observation session
+[conceptmaps]_. 
 
-In a different approach, a study of 4 alternative implementations, on
-different frameworks, of the same application uses Object-Points (OP)
-analysis to quantify the code bases for the comparison
-[api-complexity-analysis]_. OP has originally been developed for
-estimating development effort, but there the authors adopt it to
-calculate the complexity of existing software for complexity
-comparisons. Number of classes, their members and operation calls are
-counted and assigned adjustment weights in the
-calculation. Intermediate UML models are used as the data source which
-allows comparing programs in different languages
-[api-complexity-analysis]_. This kind of fine grained OP analysis is
-applicable for our purposes here. It does not capture all the elements
-of API complexity, but gives useful metrics for
-comparisons. Importantly, as is also noted in the earlier API
-complexity study, the Sneed measure allows direct tracking from
-indicator values to program structures
-[api-complexity-analysis]_. This is elemental for the purposes of API
-evaluation and design -- for example if many codebases get a high
-proportion of their complexity value due to a specific part of the
-API, it can then be examined qualitatively.
+Novel approaches developed especially for API evaluation and
+development include peer reviews [apipeerreview]_, walkthroughs and
+the concept maps method [conceptmaps]_ [overview]_. These avoid the
+problems of traditional HCI methods, notably by involving real world
+usage of the API over a long period of time. They are still
+considerably laborsome and essentially qualitative analysis. We plan
+to conduct such studies in future work on network game platform
+development.
+
+Here, however, we investigate the suitability of quantitative and even
+automated API complexity measures. We base the analysis on existing
+bodies of source code, which has several advantages: real world data
+(source codes of existing applications) can be applied, and the
+analysis can be quick being not very laborsome and giving immediate
+feedback. Longitudinal studies of API development over time can be
+straightforward to conduct by running the analysis for different
+versions of the software. If fully automated, the analysis can be even
+run as a part of a continuous integration setup.
+
+To address the issue of too simplistic software metrics (such as lines
+of code count), we apply the relatively sophisticated Object-Points
+(OP) analysis by Sneed. It has been proposed for API complexity
+evaluation in [api-complexity-analysis]_, where four alternative
+implementations, on different frameworks, are used for a comparative
+analysis. OP has originally been developed for estimating development
+effort, but there the authors adopt it to calculate the complexity of
+existing software for complexity comparisons. Number of classes, their
+members and the set of operations called are counted and assigned
+adjustment weights in the calculation. A key decision is to apply a
+surrogate measurement: the APIs are not analyzed directly, but
+programs developed against them are analyzed. The focus is on how a
+API is used, which is in line with the practice in the aforementioned
+HCI studies. Measuring the complexity, for example the sizes, of the
+APIs themselves would give misleading results, as a more complete API
+would appear more complex, even if it provided good concepts so that
+the task at hand could be in fact accomplished with just a small
+subset of the full API. In OP analysis, intermediate UML models are
+used as the data source which allows comparing programs in different
+languages [api-complexity-analysis]_. Importantly, the Sneed measure
+allows direct tracking from indicator values to program
+structures. This is elemental for the purposes of API evaluation and
+design -- for example if many codebases get a high proportion of their
+complexity value due to a specific part of the API, it can then be
+examined qualitatively.
 
 
 The game of Pong
@@ -218,11 +257,13 @@ autosynchronization but using messaging exclusively instead
 [sirikata-scripting]_.
 
 The analysis here is limited to the two platforms simply because we do
-not have more implementations (Pong source codes) to study yet. The
-Tundra one was initiated by the author (only the scene and trivial
-computer opponent logic as a test), and later completed by an
-independent developer (he made all the networking and game control
-code). The Union one we found with an Internet search.
+not have more implementations (Pong source codes) to study yet. Also
+we find that a careful review is in place first to evaluate the
+suitability of this kind of Object-Points analysis, before continuing
+to apply it more. The Tundra one was initiated by the author (only the
+scene and trivial computer opponent logic as a test), and later
+completed by an independent developer (he made all the networking and
+game control code). The Union one we found with an Internet search.
 
 
 Application of Object-Point analysis
@@ -323,19 +364,28 @@ application.
 For the *dynamic function call* information, to calculate the
 **Message Points** (MP) in the overall OP analysis, we use the Closure
 Javascript compiler to traverse the source code to collect function
-calls and their argument counts. Basic filtering with AWK is used to
-filter in the relevant information from the Closure tree. To be able
-to analyze also Actionscript code, we do text processing to strip AS
-extensions to the basic ECMA/Javascript (remove public/private
-definitions and type declarations). A simple parser made with Python
-is used to read the function call data required to calculate MPs. This
-completes the automated data collection and processing developed for
-the OP calculations here.
+calls and their argument counts. To be able to analyze also
+Actionscript code, we do text processing to strip AS extensions to the
+basic ECMA/Javascript (remove public/private definitions and type
+declarations). A parser made with Python is used to read the function
+call data required to calculate MPs. This completes the automated data
+collection and processing developed for the OP calculations here.
 
-The software to run the calculations, together with the datasets used
-in the analysis here, is available from
+Finally, to facilitate manual validation and visual communication of
+the data mined from the source codes, we added functionality to create
+UML class diagrams from the very same in-memory data structure which
+is used for the OP calculation. We chose the UXF format of the open
+source Umlet GUI diagram tool, due to it's simple and straightforward
+XML document format and the even simpler plaintext syntax used to
+describe the individual UML elements, such as a class or a
+relation. It is useful to be able to manually edit the diagrams
+further with the GUI tool to improve the layout and add notes.
+
+All this software to run the calculations, together with the datasets
+used in the analysis here, is available from
 https://github.com/realXtend/doc/tree/master/netgames/tools/
-(pointcounter.py is the executable, with the implementation of the equation).
+(pointcounter.py is the executable, with the implementation of the
+equation).
 
 Repository based automatic queries for OP analysis have been presented
 earlier in [henrich97repositorybased]_. There a repository of
@@ -549,11 +599,15 @@ setting exception in the java server XXX)
 
 .. [pong-ping] High and Low Ping and the Game of Pong. http://www.cs.umu.se/~greger/pong.pdf
 
-.. [sirikata-scripting] Bhupesh Chandra, Ewen Cheslack-Postava, Behram F. T. Mistree, Philip Levis, and David Gay. "Emerson: Scripting for Federated Virtual Worlds", Proceedings of the 15th International
-   Conference on Computer Games: AI, Animation, Mobile, Interactive
-   Multimedia, Educational & Serious Games (CGAMES 2010 USA).
-   http://sing.stanford.edu/pubs/cgames10.pdf
+.. [sirikata-scripting] Bhupesh Chandra, Ewen Cheslack-Postava, Behram F. T. Mistree, Philip Levis, and David Gay. "Emerson: Scripting for Federated Virtual Worlds", Proceedings of the 15th International Conference on Computer Games: AI, Animation, Mobile, Interactive Multimedia, Educational & Serious Games (CGAMES 2010 USA). http://sing.stanford.edu/pubs/cgames10.pdf
 
 .. [henrich97repositorybased] Andreas Henrich, Repository Based Software Cost Estimation, DEXA'97
 
-.. [programmingcomparison] Janne Merilinna , Juha Pärssinen, Comparison Between Different Abstraction Level Programming: Experiment Definition and Initial Results, http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.114.544 http://www.dsmforum.org/events/dsm07/papers/merilinna.pdf
+.. [conceptmaps] Jens Gerken, Hans-Christian Jetter, Michael Z ̈llner, Martin Mader, and Harald Reiterer. The concept maps method as a tool to evaluate the usability of apis, May 2011. CHI 2011, May 7–12, 2011, Vancouver, BC, Canada. http://hci.uni-konstanz.de/downloads/CHI2011_concept_maps__publisher_ready.pdf
+
+.. [overview] Michael Barth, API Evaluation -- An overview of API evaluation techniques. http://dev.roleplaytalk.net/files/publications/api-evaluation.pdf
+
+.. [middleware] T. Hsiao and S. Yuan, “Practical Middleware for Massively Multiplayer Online Games,” IEEE Internet Computing, vol. 9, 2005, pp. 47-54.
+
+.. [apipeerreview] Farooq, Umer and Welicki, Leon and Zirkler, Dieter, API usability peer reviews: a method for evaluating the usability of application programming interfaces, Proceedings of the 28th international conference on Human factors in computing systems, CHI '10
+
