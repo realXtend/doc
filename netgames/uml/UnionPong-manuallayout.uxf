@@ -3,10 +3,10 @@
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>246</x>
-      <y>0</y>
+      <x>276</x>
+      <y>132</y>
       <w>138</w>
-      <h>84</h>
+      <h>90</h>
     </coordinates>
     <panel_attributes>HUD: flash.display:Sprite
 --
@@ -25,10 +25,10 @@ status: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>402</x>
-      <y>0</y>
+      <x>420</x>
+      <y>132</y>
       <w>138</w>
-      <h>72</h>
+      <h>78</h>
     </coordinates>
     <panel_attributes>PongObject
 --
@@ -39,15 +39,14 @@ width: type
 x: type
 y: type
 
---
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>558</x>
-      <y>0</y>
+      <x>420</x>
+      <y>240</y>
       <w>138</w>
       <h>12</h>
     </coordinates>
@@ -61,23 +60,21 @@ y: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>714</x>
-      <y>0</y>
+      <x>420</x>
+      <y>222</y>
       <w>138</w>
       <h>12</h>
     </coordinates>
     <panel_attributes>RoomMessages
---
 
---
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>402</x>
-      <y>222</y>
+      <x>420</x>
+      <y>258</y>
       <w>138</w>
       <h>12</h>
     </coordinates>
@@ -91,8 +88,8 @@ y: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>402</x>
-      <y>180</y>
+      <x>420</x>
+      <y>282</y>
       <w>138</w>
       <h>12</h>
     </coordinates>
@@ -106,12 +103,12 @@ y: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>246</x>
-      <y>270</y>
+      <x>276</x>
+      <y>282</y>
       <w>138</w>
-      <h>84</h>
+      <h>78</h>
     </coordinates>
-    <panel_attributes>PongClient: net.user1.reactor:CustomClient
+    <panel_attributes>PongClient: reactor:CustomClient
 --
 
 --
@@ -127,8 +124,8 @@ y: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>402</x>
-      <y>306</y>
+      <x>564</x>
+      <y>132</y>
       <w>138</w>
       <h>12</h>
     </coordinates>
@@ -142,8 +139,8 @@ y: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>246</x>
-      <y>180</y>
+      <x>276</x>
+      <y>228</y>
       <w>138</w>
       <h>48</h>
     </coordinates>
@@ -160,8 +157,8 @@ y: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>402</x>
-      <y>264</y>
+      <x>420</x>
+      <y>300</y>
       <w>138</w>
       <h>12</h>
     </coordinates>
@@ -175,8 +172,8 @@ y: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>552</x>
-      <y>180</y>
+      <x>564</x>
+      <y>156</y>
       <w>138</w>
       <h>270</h>
     </coordinates>
@@ -215,8 +212,8 @@ updateTimer: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>402</x>
-      <y>342</y>
+      <x>420</x>
+      <y>318</y>
       <w>138</w>
       <h>108</h>
     </coordinates>
@@ -239,8 +236,8 @@ updateTimer: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>246</x>
-      <y>390</y>
+      <x>276</x>
+      <y>366</y>
       <w>138</w>
       <h>60</h>
     </coordinates>

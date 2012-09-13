@@ -5,6 +5,9 @@
 \usepackage{ifthen}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+\usepackage{float} % float configuration
+\floatplacement{figure}{H} % place figures here definitely
+\usepackage{graphicx}
 \usepackage{multirow}
 \usepackage{longtable,ltcaption,array}
 \setlength{\extrarowheight}{2pt}
@@ -623,6 +626,24 @@ selection did that -{}- the remaining classes are mostly network code /
 code involving networking.
 
 
+\subsection{UML Diagrams%
+  \label{uml-diagrams}%
+}
+
+The data used in the calculations is also generated to UML class
+diagrams by the analysis software, for manual verification of the
+source code analysis process, and for (XXX thinking about the
+codebases \& complexity calcs).
+\begin{figure}
+\includegraphics[scale=0.400000]{pics/TundraPong.pdf}
+\caption{The two classes in TundraPong game.js.}
+\end{figure}
+\begin{figure}
+\includegraphics[scale=0.350000]{pics/UnionPong-manuallayout.pdf}
+\caption{The 13 classes in UnionPong client side ActionScript.}
+\end{figure}
+
+
 \section{Discussion%
   \label{discussion}%
 }
@@ -757,10 +778,7 @@ Comparing Complexity of API Designs: An Exploratory Experiment on DSL-based Fram
 High and Low Ping and the Game of Pong. \url{http://www.cs.umu.se/~greger/pong.pdf}
 }
 \bibitem[sirikata-scripting]{sirikata-scripting}{
-Bhupesh Chandra, Ewen Cheslack-Postava, Behram F. T. Mistree, Philip Levis, and David Gay. ``Emerson: Scripting for Federated Virtual Worlds'', Proceedings of the 15th International
-Conference on Computer Games: AI, Animation, Mobile, Interactive
-Multimedia, Educational \& Serious Games (CGAMES 2010 USA).
-\url{http://sing.stanford.edu/pubs/cgames10.pdf}
+Bhupesh Chandra, Ewen Cheslack-Postava, Behram F. T. Mistree, Philip Levis, and David Gay. ``Emerson: Scripting for Federated Virtual Worlds'', Proceedings of the 15th International Conference on Computer Games: AI, Animation, Mobile, Interactive Multimedia, Educational \& Serious Games (CGAMES 2010 USA). \url{http://sing.stanford.edu/pubs/cgames10.pdf}
 }
 \bibitem[henrich97repositorybased]{henrich97repositorybased}{
 Andreas Henrich, Repository Based Software Cost Estimation, DEXA'97

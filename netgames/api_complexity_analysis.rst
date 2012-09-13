@@ -484,6 +484,24 @@ with a quick read through all of the code at least, the class based
 selection did that -- the remaining classes are mostly network code /
 code involving networking.
 
+UML Diagrams
+------------
+
+The data used in the calculations is also generated to UML class
+diagrams by the analysis software, for manual verification of the
+source code analysis process, and for (XXX thinking about the
+codebases & complexity calcs).
+
+.. figure:: pics/TundraPong.pdf  
+   :scale: 40%
+
+   The two classes in TundraPong game.js.
+
+.. figure:: pics/UnionPong-manuallayout.pdf
+   :scale: 35%
+
+   The 13 classes in UnionPong client side ActionScript.
+
 
 Discussion
 ==========
