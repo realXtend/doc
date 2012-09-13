@@ -1,6 +1,6 @@
-===============================================
-A comparison of networked game development APIs
-===============================================
+=========================================================================
+API complexity analysis of networked game platforms using reference games
+=========================================================================
 
 .. |date| date::
 .. |time| date:: %H:%M
@@ -210,7 +210,7 @@ example when a new client joins the shared session/space.
 Also, both platforms provide an automated mechanism for synchronizing
 state over the network. The shared state is in special attributes
 (objects of type Attribute), which are in the container (in Union
-directly in the Room object, in Tundra in entities in the Scene). The
+directly in the Room object, in Tundra in Components of the Entities in a Scene). The
 attributes are automatically shared among all the participants, and
 provide events for interested parties to get notified of changes. This
 way it is simple to for example set the game score points on the
