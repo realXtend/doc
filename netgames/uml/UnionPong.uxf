@@ -1,4 +1,4 @@
-<diagram program="umlet" version="11.3"><element><type>com.umlet.element.Class</type><coordinates><x>40</x><y>30</y><w>230</w><h>146</h></coordinates><panel_attributes>HUD
+<diagram program="umlet" version="11.3"><element><type>com.umlet.element.Class</type><coordinates><x>40</x><y>30</y><w>230</w><h>146</h></coordinates><panel_attributes>HUD: flash.display:Sprite
 --
 leftPlayerScore: type
 rightPlayerScore: type
@@ -35,7 +35,7 @@ y: type
 --
 
 --
-</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>560</x><y>330</y><w>230</w><h>128</h></coordinates><panel_attributes>PongClient
+</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>560</x><y>330</y><w>230</w><h>128</h></coordinates><panel_attributes>PongClient: net.user1.reactor:CustomClient
 --
 
 --
@@ -45,7 +45,7 @@ y: type
 #updateAttributeListener(e)
 #commit()
 #deserializePaddle(value)
-</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>820</x><y>330</y><w>230</w><h>20</h></coordinates><panel_attributes>GameStates
+</panel_attributes></element><element><type>com.umlet.element.Relation</type><coordinates><x>1000</x><y>1000</y><w>10</w><h>10</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;200;10;50</additional_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>820</x><y>330</y><w>230</w><h>20</h></coordinates><panel_attributes>GameStates
 --
 
 --
@@ -56,7 +56,7 @@ y: type
 #setClient(client)
 #keyDownListener(e)
 #keyUpListener(e)
-</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>300</x><y>630</y><w>230</w><h>20</h></coordinates><panel_attributes>Rectangle
+</panel_attributes></element><element><type>com.umlet.element.Relation</type><coordinates><x>1000</x><y>1000</y><w>10</w><h>10</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;200;10;50</additional_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>300</x><y>630</y><w>230</w><h>20</h></coordinates><panel_attributes>Rectangle: flash.display:Sprite
 --
 
 --
@@ -89,7 +89,7 @@ updateTimer: type
 #startGameListener(fromClient)
 #timerListener(e)
 #resetBall()
-</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>820</x><y>630</y><w>230</w><h>182</h></coordinates><panel_attributes>Court
+</panel_attributes></element><element><type>com.umlet.element.Relation</type><coordinates><x>1000</x><y>1000</y><w>10</w><h>10</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;200;10;50</additional_attributes></element><element><type>com.umlet.element.Relation</type><coordinates><x>1000</x><y>1000</y><w>10</w><h>10</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;200;10;50</additional_attributes></element><element><type>com.umlet.element.Relation</type><coordinates><x>1000</x><y>1000</y><w>10</w><h>10</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;200;10;50</additional_attributes></element><element><type>com.umlet.element.Relation</type><coordinates><x>1000</x><y>1000</y><w>10</w><h>10</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;200;10;50</additional_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>820</x><y>630</y><w>230</w><h>182</h></coordinates><panel_attributes>Court: flash.display:Sprite
 --
 
 --
@@ -102,7 +102,7 @@ updateTimer: type
 #showRightPaddle()
 #hideLeftPaddle()
 #setLeftPaddlePosition(x, y)
-</panel_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>40</x><y>930</y><w>230</w><h>92</h></coordinates><panel_attributes>UnionPong
+</panel_attributes></element><element><type>com.umlet.element.Relation</type><coordinates><x>1000</x><y>1000</y><w>10</w><h>10</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;200;10;50</additional_attributes></element><element><type>com.umlet.element.Class</type><coordinates><x>40</x><y>930</y><w>230</w><h>92</h></coordinates><panel_attributes>UnionPong: flash.display:Sprite
 --
 reactor: type
 
@@ -110,4 +110,4 @@ reactor: type
 #initGame()
 #readyListener(e)
 #beginConnectListener(e)
-</panel_attributes></element></diagram>
+</panel_attributes></element><element><type>com.umlet.element.Relation</type><coordinates><x>1000</x><y>1000</y><w>10</w><h>10</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;200;10;50</additional_attributes></element><element><type>com.umlet.element.Relation</type><coordinates><x>1000</x><y>1000</y><w>10</w><h>10</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;200;10;50</additional_attributes></element><element><type>com.umlet.element.Relation</type><coordinates><x>1000</x><y>1000</y><w>10</w><h>10</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;200;10;50</additional_attributes></element><element><type>com.umlet.element.Relation</type><coordinates><x>1000</x><y>1000</y><w>10</w><h>10</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>100;200;10;50</additional_attributes></element></diagram>

@@ -33,9 +33,9 @@ W_T_O = 2
 N_C = sum([getN(c, C) for c in C.values()]) / len(C) # Average class novelty
 
 
-t1 = W_c * len(C) + sum([len(c.fields) for c in C.values()]) # weight x sun of the attribute counts of a classes
+t1 = W_c * len(C) + sum([len(c.fields) for c in C.values()]) # weight x sum of the attribute counts of a classes
 t2 = W_R_c * sum([len(c.relations) for c in C.values()]) # weight x sum of relation counts per class
-t3 = W_O_c * sum([len(c.methods) for c in C.values()]) # weight x sum of method (opeartion) counts per class
+t3 = W_O_c * sum([len(c.methods) for c in C.values()]) # weight x sum of method (operation) counts per class
 CP = (t1 + t2 + t3) * N_C
 
 
@@ -69,9 +69,12 @@ for c in C.itervalues():
 for f, params in unique_funcs.iteritems():
         print f, len(params)
 
-MP = (W_O_M * len(unique_funcs)  )	
+#MP = (W_O_M * len(unique_funcs)  )	
 
-# MP = (W_O_M * len(O_M) + sum([len(o.P) for o in O_M)]) + W_S_O * sum([len(o.S) for i in O_M]) + W_T_O * sum([len(o.T) for o in O_M])) * N_O_M
+MP = (W_O_M * len(unique_funcs) + sum([len(params) for o, params in unique_funcs.iteritems()])) + W_S_O 
+
+#source and target counts omitted (for now -- in the ref / DSL paper they are always 1
+#* sum([len(o.S) for i in O_M]) + W_T_O * sum([len(o.T) for o in O_M])) * N_O_M
 
 # N_c = prod([(len(c.A) + len(c.R) + len(c.O)) / (len(c.A) + len(c.R) + len(c.O) + ) for c in C])
 
