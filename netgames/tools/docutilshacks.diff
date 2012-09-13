@@ -1,0 +1,23 @@
+Index: docutils/writers/latex2e/__init__.py
+===================================================================
+--- docutils/writers/latex2e/__init__.py	(revision 7513)
++++ docutils/writers/latex2e/__init__.py	(working copy)
+@@ -1298,7 +1298,8 @@
+             #        3  subsubsection
+             #        4  paragraph
+             #        5  subparagraph
+-            if secnumdepth is not None:
++            if False: #XXX disabled as seems to go to 0 and not show nums? 
++            #if secnumdepth is not None:
+                 # limit to supported levels
+                 secnumdepth = min(secnumdepth, len(self.d_class.sections))
+                 # adjust to document class and use_part_section settings
+@@ -2266,7 +2267,7 @@
+             'center': (r'\noindent\makebox[\textwidth][c]{', '}'),
+             'left':   (r'\noindent{', r'\hfill}'),
+             'right':  (r'\noindent{\hfill', '}'),}
+-        if 'align' in attrs:
++        if False: #'align' in attrs:
+             try:
+                 align_code = align_codes[attrs['align']]
+                 pre.append(align_code[0])
