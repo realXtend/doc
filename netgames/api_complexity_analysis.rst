@@ -1,6 +1,6 @@
-=========================================================================
-API complexity analysis of networked game platforms using reference games
-=========================================================================
+========================================================================================
+API complexity analysis of networked game platforms using a reference game: case of Pong
+========================================================================================
 
 .. |date| date::
 .. |time| date:: %H:%M
@@ -512,8 +512,7 @@ analysis technique, the automated (partial) Object-Point
 analysis B. nature, suitability and use of scripting vs. application
 development libraries C. observations of the high-level network
 programming APIs studied here. D. limitations: the many areas of
-analysis outside the focus here (scalability, efficiency of the
-networking etc)
+analysis outside the focus here. 
 
 Validity of the analysis
 ------------------------
@@ -525,23 +524,67 @@ validity must thus be evaluated from two viewpoints: a) applicability
 of OPs to API complexity analysis in general and b) the deviations
 from the intended calculation due to limits of the analysis software.
 
+(XXX FIX and update:
 The OP sums of the full examples have an order of magnitude
 (right? XXX) sized difference in the proposed complexity of the two
 implementations of the same game. Noting the aforementioned
 substantial difference in the nature and scope of the implementations,
 the ratio of 74:273 (XXX fix when nums update) seems correct for
 codebases of 2 sizeable and 14(+1) mostly small classes respectively.
+)
+
+The fact that UnionPong gets much higher complexity points does not
+mean that the Union platform would be somehow bad. Instead, it
+highlights the nature of developing on a different abstraction
+level. As described already in the background information (section
+2C), the implementations achieve the basic functionality --- such as
+synchronizing object movements and ball collisions and bounces --- in
+alternative ways: UnionPong with game specific messages, TundraPong
+automatically by relying on the built-in functionality of the
+underlying platform.
+
+Looking at the data and considering the OP analysis technique, our
+understanding is that the analysis succeeds in illustrating this
+difference in the codebases. A question is whether OP analysis does
+that better than some other, perhaps simpler, metric would do. From
+previous research we know that OP does succeed in analyzing complexity
+that a simple lines of code (LoC) measure would miss (the case of PHP
+and DSL implementations in section 3A here, reviewing
+[api-complexity-analysis]_). Our data seems to support that, as the
+LoC measure would give a much smaller complexity difference for the
+two implementations. Based on qualitative analysis, we think that the
+higher difference is correct (UnionPong needs to do much more, has
+many more classes and function calls). But based on the data here, we
+can not say whether utilizing OP was better than for example the
+simpler code size analysis used in [cmu-api_failures]_. We think that
+the analysis of dynamic code behaviour, collecting the information
+about operations actually called for the Message-Points calculation,
+is essential. We cannot however support that reasoning with the data
+here, as the result would be similar with only the static Class-Points
+as well. This may be due to the similar style of the codebases. We
+rely on previous research for the generic validation of the OP
+construct.
+
+Also we can not tell from this data whether something essential was
+missed in the analysis. For example, the technique does not take into
+account anything specific to networking: the need to think of
+connections, defining and sending network messages etc. They are of
+course accounted for as normal data definitions and function calls,
+but would some specific measure for example for the number of network
+messages be useful instead? Arguably they are additional complexity
+that the developer has to manage.
 
 TODO: what was left out from analysis (was anything, in the end? XXX)
 
-On scripting vs own client development
---------------------------------------
+On scripting vs. own client development
+---------------------------------------
 
-TODO - noting: higher points does not mean that Union is bad, but
-highlights the difference of what Tundra and Union are -- right?
-
-- as the data points out, implementing something on an existing
-  platform can be comparatively very little work
+As the data points out, implementing something on an existing platform
+can be comparatively very little work. (XXX NOTE: own game specific
+custom things can be powerful -- however, for common tasks, a generic
+optimized solution in a platform can work better (the optimized
+movement messages in Tundra -- a change to use the measurement data as
+well? !!! XXX)
 
 - making an own application (client) is easily powerful and
   straightforward for own custom things, however
@@ -565,28 +608,59 @@ Both use callbacks heavily, for example both to listen to new clients
 entering the service (an event of Room in Union's Reaktor and in the
 RoomModule on the Union server separately, an event of the Server core
 API object in Tundra on server side) and to attribute changes coming
-in over the network.
+in over the network. (NOTE: both have the attr-changed granularity prob! XXX) 
 
 They both also allow sending simple ad-hoc custom messages, which the
 Tundra version uses for game events such as informing of a victory
 (with the associated data), and UnionPong uses for all networking
-(also paddle and ball movements).
+(XXX these were said already:
+(also paddle and ball movements, which Tundra does automatically).
 
 With this in mind, we would expect the difference in the complexity
 sum derive from the scope of the implementations used in the analysis.
-
-TODO: return to this when the numbers from network-code-only analysis are in too?!?
+)
 
 Limitations
 -----------
 
-the many areas of analysis outside the focus here (scalability,
-efficiency of the networking, security, ..)
+The Pong game examples studied here are minimal tutorial like
+simplistic implementations. Much of the complexity of real networked
+games, and especially large scale commercial MMOs, lies in areas this
+example does not address: service reliablity, availability,
+restorability and scalability are listed as vital issues in
+[middleware]_. Networked programming in general is also typically
+complex due to the need to handle several kinds of error situations,
+such as lost data, dropped connections and conflicts from simultaneous
+actions. 
 
-The minimal examples may not be complete, true networked play
-implementations with error checking etc. (can we check this?)
+The current reference implementations here may well not be complete in
+the sense that they would handle such issues in the way a production
+quality game must, which probably would increase the
+complexities. However, they both are built on very high-level
+networked game platforms, which strive to take care of much of the
+complexity and hide it from the application layer. Whether and how
+they really achieve that is not known based on the data here, but
+would require a different analysis.
 
-TODO
+The basic issue of too simple example games can be addressed in two
+ways in future work: 1. analyze real codebases from production quality
+games and 2. develop a more complex reference game and ensure its
+completeness. With 1. real codebases the limitation is that
+comparative analysis may be impossible because a particular game
+typically exists as a single implementation only. Analyzing those
+could still provide useful insight, and might be used to validate the
+Object-Points analysis in the area of networked games by comparing the
+source code based complexity measures and the real recorded
+development effort (the budget that was spent for the programming). To
+achieve 2. we should carefully specify reference games that cover all
+areas of networked gaming, but remain small enough to implement within
+a realistic timeframe (2-4 weeks of programming, reusing common
+assets) and for qualitative analysis by reading the alternative source
+codes. Existing canonical implementations may give a starting point,
+as for example several commercial networked 3d first-person shooter
+(FPS) games have been open sourced (Quake, Cube2), and at least one
+highlevel platform already features a FPS as a tutorial (Torque3d).
+
 
 Conclusions
 ===========
