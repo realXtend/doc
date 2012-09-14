@@ -1,0 +1,33 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\title{\LaTeX}
+\date{}
+\begin{document}
+  \maketitle 
+  Dässäbä gaava
+ 
+  % This is a comment; it is not shown in the final output.
+  % The following shows a little of the typesetting power of LaTeX
+  \begin{align}
+  CP &= \left(W_C \cdot |C| + \sum_{c_ \in C} |A_c| + W_{R_C} \cdot \sum_{c \in C} |R_c| + W_{O_C} \cdot \sum_{c \in C} |O_c| \right) \cdot \overline{N_C},\, \text{where}\\
+  \overline{N_C} &= \frac{\sum_{c \in C} N_c}{|C|},\, \text{and}\\
+  N_c &=
+ \begin{cases}
+ 1,& \text{if class is novel}\\
+ 0.5,& \text{if class has a super class}\\
+ \end{cases}
+ \end{align}
+ We calculate the message points
+ \begin{align}
+ MP &= \left(W_{O_M} \cdot |O_M| + \sum_{o \in O_M} |P_o| + W_{S_O} \cdot \sum_{o \in O_M} |S_o| + W_{T_O} \cdot \sum_{o \in O_M} |T_o| \right) \cdot \overline{N_{O_M}},\,\text{where}\\
+ \overline{N_{O_M}} &= \frac{\sum_{o \in O_M} N_o}{|O_M|},\,\text{and}\\
+ N_o &= 
+ \begin{cases}
+ 1,& \text{if operation is novel}\\
+ 0.5,& \text{if operation is provided by super class}\\
+ \end{cases}
+ \end{align}
+ 
+ 
+ \end{document}
