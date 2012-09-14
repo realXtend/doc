@@ -404,27 +404,30 @@ Results
 The results for the Object Points analysis for the two codebases are
 presented in table 1. 
 
-+-----------+--------------+--------------+---------------+-----------+
-|           | TundraPong   |TundraPong    |UnionPong      | UnionPong |
-|           | Client and   |Client only   |Client         | Server    |
-| (measure) | Server       |              +-----+---------+           |
-|           |              |              |Full | Net     |           |
-+===========+==============+==============+=====+=========+===========+
-|Lines of   |              |              |     |         |           |
-|Code       |     361      |      115     |  565|   420   |    281    |
-+-----------+--------------+--------------+-----+---------+-----------+
-|Number of  |              |              |     |         |           |
-|classes    |     2        |       1      |  14 |    8    |      2    |
-+-----------+--------------+--------------+-----+---------+-----------+
-|Class      |              |              |     |         |           |
-|Points     |     75       |       27     | 180 |   140   |     -     |
-+-----------+--------------+--------------+-----+---------+-----------+
-|Message    |              |              |     |         |           |
-|Points     |     103      |       63     | 196 |   175   |     -     |
-+-----------+--------------+--------------+-----+---------+-----------+
-|Object     |              |              |     |         |           |
-|Points     |     178      |      143     | 376 |   315   |     -     |
-+-----------+--------------+--------------+-----+---------+-----------+
+.. raw:: LaTex
+
+   \begin{table}[!t]
+   %% increase table row spacing, adjust to taste
+   \renewcommand{\arraystretch}{1.3}
+   % if using array.sty, it might be a good idea to tweak the value of
+   % \extrarowheight as needed to properly center the text within the cells
+   \caption{Object-Points for Tundra and Union Pongs.}
+   \label{table_example}
+   \centering
+   %% Some packages, such as MDW tools, offer better commands for making tables
+   %% than the plain LaTeX2e tabular which is used here.
+   \begin{tabularx}{\linewidth}{|r|X|X|X|X|X|}
+   \hline
+   metric & Tundra Pong full & Tundra Pong client only & Union Pong Client full & Union Pong Client net only & Union Pong Server \\
+   \hline
+   Lines of code     & 361 & 115 & 565 & 420 & 281 \\
+   Number of classes & 2   & 1   & 14  & 8   & 2   \\
+   Class Points      & 75  & 27  & 180 & 140 & -   \\
+   Message Points    & 103 & 63  & 196 & 175 & -   \\
+   Object Points     & 178 & 143 & 376 & 315 & -   \\
+   \hline
+   \end{tabularx}
+   \end{table}
 
 .. 
    20 4 51 1
