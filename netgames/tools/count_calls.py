@@ -1,7 +1,7 @@
 from lxml import etree
 
-#DATAPATH = "../data/unionpong/"
-DATAPATH = "../data/tundrapong/"
+DATAPATH = "../data/unionpong/"
+#DATAPATH = "../data/tundrapong/"
 FILESUFFIX = ".xml"
 
 def from_getprop(el):

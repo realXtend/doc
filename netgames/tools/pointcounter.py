@@ -1,10 +1,14 @@
-#import read_asdoc_xml as r #UnionPong asdoc
 import count_calls
-import read_jsdoc_json as r #TundraPong jsdoc
+
+import read_asdoc_xml as r #UnionPong asdoc
+#import read_jsdoc_json as r #TundraPong jsdoc
 
 unionpongnet = ["GameManager", "GameStates", "KeyboardController", "PongClient", "PongObject", "RoomAttributes", "RoomMessages", "UnionPong"] #the classes included for the net-code-only run
-#infilter = unionpongnet
-infilter = None #no filtering, use all classes
+tundrapongclient = ["GameClient"]
+
+infilter = unionpongnet
+#infilter = tundrapongclient
+#infilter = None #no filtering, use all classes
 
 
 # Calculates novelty of a class

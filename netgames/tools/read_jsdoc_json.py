@@ -2,7 +2,7 @@ import json
 import klass
 from klass import Klass, Method
 
-def get_classes(infilter=None): #XXX note: filter not implemented here now, only for unionpong / as reading
+def get_classes(infilter=None):
     f = open("../PongMultiplayer/Tundra-PongMultiplayer_jsdoc.json")
     d = f.read()
     r = json.loads(d)
@@ -73,7 +73,18 @@ def get_classes(infilter=None): #XXX note: filter not implemented here now, only
             "running",
             "widget"])
 
-    return klasses
+    #filtering
+    if infilter is not None:
+        filtered = {}
+        for name, c in klasses.iteritems():
+            if name in infilter:
+                filtered[name] = c
+            else:
+                print "Filtering out class:", name
+        return filtered
+
+    else:
+        return klasses
 
 if __name__ == '__main__':
     klasses = get_classes()

@@ -1,0 +1,80 @@
+classes:
+grep class ../UnionPong/Java/PongRoomModule.java 
+
+public class PongRoomModule implements Module, Runnable {
+public class PongObject {
+
+---
+
+methods:
+grep public ../UnionPong/Java/PongRoomModule.java 
+grep private ../UnionPong/Java/PongRoomModule.java  | grep ") {"
+
+public class PongRoomModule implements Module, Runnable {
+    public boolean init(ModuleContext ctx) {
+    public void run() {
+    public void update(long tick) {
+    public void onAddClient(RoomEvent evt) {
+    public void onRemoveClient(RoomEvent evt) {
+    public void onClientAttributeChanged(ClientEvent evt) {
+    public void shutdown() {
+    private void updatePaddle(PongObject paddle, long tick) {
+    private void updateBall(long tick) {
+    private void bounceBall(double bounceAxis) {
+    private void resetBall() {
+    private void sendScoreUpdate() {
+    private void sendBallUpdate() {
+
+
+public class PongObject {
+    public void setX(double x) {
+    public double getX() {
+    public void setY(double y) {
+    public double getY() {
+    public double getDirection() {
+    public void setDirection(double direction) {
+    public void setSpeed(int speed) {
+    public int getSpeed() {
+
+---
+
+attributes:
+grep private ../UnionPong/Java/PongRoomModule.java  | grep -v ") {"
+grep public ../UnionPong/Java/PongRoomModule.java  | grep -v ") {" (no hits, all attrs are private)
+
+PongRoomModule:
+    private ModuleContext m_ctx;
+    private Thread m_thread;
+    private Client m_leftPlayer;
+    private Client m_rightPlayer;
+    private PongObject m_leftPaddle;
+    private PongObject m_rightPaddle;
+    private int m_leftPlayerScore;
+    private int m_rightPlayerScore;
+    private PongObject m_ball;
+    private boolean m_isGameRunning;
+    private static final int GAME_UPDATE_INTERVAL = 20;
+    private static final long BALL_UPDATE_INTERVAL = 5000L;
+    private static final int COURT_HEIGHT = 480;            // pixels
+    private static final int COURT_WIDTH = 640;             // pixels
+    private static final int BALL_SIZE = 10;                // pixels
+    private static final int INITIAL_BALL_SPEED = 150;      // pixels / sec
+    private static final int BALL_SPEEDUP = 25;             // pixels / sec
+    private static final int PADDLE_HEIGHT = 60;            // pixels 
+    private static final int PADDLE_WIDTH = 10;             // pixels
+    private static final int PADDLE_SPEED = 300;            // pixels / sec
+    private static final int WALL_HEIGHT = 10;              // pixels
+    private static final String ATTR_PADDLE = "paddle";
+    private static final String ATTR_SIDE = "side";
+    private static final String ATTR_STATUS = "status";
+    private DecimalFormat m_decFmt = new DecimalFormat("0.##########");
+
+PongObject:
+        private double m_x; // x pixel position
+        private double m_y; // y pixel position
+        private int m_speed; // pixels per second
+        private double m_direction; // direction the ball is traveling in radians
+
+---
+
+relations, novelty?

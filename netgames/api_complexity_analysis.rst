@@ -355,7 +355,7 @@ here are written as a a) Javascript application and b) a combination
 of Actionscript (as3) for the client and Java for the server
 module. We developed parsers for the internal / intermediate
 representation of class and method signatures of JsDoc JSON and
-AsDoc XML. (The single Java class for b) server we may analyze
+AsDoc XML. (XXX The single Java class for b) server we may analyze
 manually). The class information is read in a Python application to an
 internal model which contains the data for the Sneed points
 calculation, implemented in another module in the same Python
@@ -404,35 +404,41 @@ Results
 The results for the Object Points analysis for the two codebases are
 presented in table 1. 
 
-+-----------+--------------+---------------+
-|           |TundraPong    |UnionPong      |
-|           |(client and   |Client         |
-| (measure) |server)       +-----+---------+
-|           |              |Full | Net     |
-+===========+==============+=====+=========+
-|Lines of   |              |     |         |
-|Code       |       361    |  565|    420  |
-+-----------+--------------+-----+---------+
-|Number of  |              |     |         |
-|classes    |        2     |  14 |    8    |
-+-----------+--------------+-----+---------+
-|Class      |              |     |         |
-|Points     |       75     | 180 |   140   |
-+-----------+--------------+-----+---------+
-|Message    |              |     |         |
-|Points     |       68     | 136 |   124   |
-+-----------+--------------+-----+---------+
-|Object     |              |     |         |
-|Points     |      143     | 316 |   264   |
-+-----------+--------------+-----+---------+
++-----------+--------------+--------------+---------------+-----------+
+|           | TundraPong   |TundraPong    |UnionPong      | UnionPong |
+|           | Client and   |Client only   |Client         | Server    |
+| (measure) | Server       |              +-----+---------+           |
+|           |              |              |Full | Net     |           |
++===========+==============+==============+=====+=========+===========+
+|Lines of   |              |              |     |         |           |
+|Code       |     361      |      115     |  565|   420   |    281    |
++-----------+--------------+--------------+-----+---------+-----------+
+|Number of  |              |              |     |         |           |
+|classes    |     2        |       1      |  14 |    8    |      2    |
++-----------+--------------+--------------+-----+---------+-----------+
+|Class      |              |              |     |         |           |
+|Points     |     75       |       27     | 180 |   140   |     -     |
++-----------+--------------+--------------+-----+---------+-----------+
+|Message    |              |              |     |         |           |
+|Points     |     103      |       63     | 196 |   175   |     -     |
++-----------+--------------+--------------+-----+---------+-----------+
+|Object     |              |              |     |         |           |
+|Points     |     178      |      143     | 376 |   315   |     -     |
++-----------+--------------+--------------+-----+---------+-----------+
 
 .. 
    20 4 51 1
    OP 178 = CP 75 + MP 103
 
-   ..
+   7 2 18 1
+   OP 90 = CP 27 + MP 63
 
-   ..
+   67 22 135 0.807692307692
+   OP 376 = CP 180 + MP 196
+
+   44 20 96 0.875
+   OP 315 = CP 140 + MP 175
+
 
    without params in MP calc:
 
@@ -446,7 +452,12 @@ presented in table 1.
 For TundraPong, the single Javascript source file (assets/game.js) is
 included. It features both client and server functionality in two
 classes respectively. It is the complete implementation with GUI and
-the minimal game session management.
+the minimal game session management. The Union implementation has the
+client and server separately, in different languages and made with
+different libraries. Therefore to enable more equal comparisons we
+include the metrics for the client side code only also for the Tundra
+implementation, even though it is included in the same source code
+file.
 
 For UnionPong, all the client side ActionScript files (14) are
 included for the full run, and selected 8 for the network code only
@@ -457,32 +468,18 @@ GameManager, GameStates, KeyboardController, PongClient, PongObject,
 RoomAttributes, RoomMessages, UnionPong. The excluded classes cover
 GUI, the 2d scene implementation and general settings and utilities,
 and are called: clamp, ClientAttributes, Court, HUD, Rectable and
-Settings.
+Settings. KeyboardController is included because it is exactly what
+sends the remote control messages from the player to the server
+(modifies client.paddle's attributes and says client.commit()).
 
-
-+ UnionPong/Java/PongRoomModule.java
-
-Only the networking code
-------------------------
-
-NOTES:
-
-- Selected classes, explain the criteria.
-
-Class level selection - all classes which are involved in networking
-
-
-KeyboardController is included because it is exactly what sends the
-remote control messages from the player to the server (modifies
-client.paddle's attributes and says client.commit()).
-
-client 8x .as: 147.0
-
-A better take: select only code for which there is a corresponding
-part in the Tundra impl? Would leave the networking API, right? Well,
-with a quick read through all of the code at least, the class based
-selection did that -- the remaining classes are mostly network code /
-code involving networking.
+The Java-written server side component for UnionPong, in
+PongRoomModule.java, features two classes: PongRoomModule (implements
+Module, Runnable) and PongObject, which is basically a duplicate of
+the same class on the client side. We have not conducted the OP
+analysis for it, and the automated system does not support Java
+currently. (XXX NOTE: data/unionpong/server.txt has the static data
+for CP analysis now, grepped from the source file, so that would be
+quite quick to do .. and MP could be done manually).
 
 UML Diagrams
 ------------
