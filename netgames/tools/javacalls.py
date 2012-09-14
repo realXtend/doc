@@ -1,37 +1,37 @@
 def get_calls(foo=None):
-    calls = list()
-    calls.append(['addEventListener', ['constant', 'this', 'string']])
-    calls.append(['System.currentTimeMillis', list()])
-    calls.append(['update', ['tick']])
-    calls.append(['sendBallUpdate', list()])
-    calls.append(['Thread.sleep', ['interval']])
-    calls.append(['synchronized', list()])
-    calls.append(['updatePaddle', ['paddle', 'tick']])
-    calls.append(['updateBall', list()])
-    calls.append(['paddle.setY', ['new_y']])
-    calls.append(['ball.getx', list()])
-    calls.append(['ball.gety', list()])
-    calls.append(['ball.setx', ['x']])
-    calls.append(['ball.sety', ['y']])
-    calls.append(['bounceBall', ['value']])
-    calls.append(['ball.setSpeed', ['speed']])
-    calls.append(['sendScoreUpdate', list()])
-    calls.append(['resetBall', list()])
-    calls.append(['sendBallUpdate', list()])
-    calls.append(['ball.setDirection', ['dir']])
-    calls.append(['math.random', list()])
-    calls.append(['ctx.getRoom', list()])
-    calls.append(['.setAttribute', ['score', 'leftScore', 'SCOPE', 'FLAG']])
-    calls.append(['evt.getClient', list()])
-    calls.append(['sendMessage', ['START_GAME']])
-    calls.append(['notify', list()])
-    calls.append(['removeEventlistener', ['const', 'this', 'onClientChanged']])
-    calls.append(['evt.getAttribute', list()])
-    calls.append(['getScope', list()])
-    calls.append(['equals', ['stuff']])
-    calls.append(['getQualifiedID', list()])
-    calls.append(['nullSafeGetValue', list()])
-    calls.append(['.split', ['param']])
+    calls = {}
+    calls['addEventListener'] = ['constant', 'this', 'string']
+    calls['System.currentTimeMillis'] = list()
+    calls['update'] = ['tick']
+    calls['sendBallUpdate'] = list()
+    calls['Thread.sleep'] = ['interval']
+    calls['synchronized'] = list()
+    calls['updatePaddle'] = ['paddle', 'tick']
+    calls['updateBall'] = list()
+    calls['paddle.setY'] = ['new_y']
+    calls['ball.getx'] = list()
+    calls['ball.gety'] = list()
+    calls['ball.setx'] = ['x']
+    calls['ball.sety'] = ['y']
+    calls['bounceBall'] = ['value']
+    calls['ball.setSpeed'] = ['speed']
+    calls['sendScoreUpdate'] = list()
+    calls['resetBall'] = list()
+    calls['sendBallUpdate'] = list()
+    calls['ball.setDirection'] = ['dir']
+    calls['math.random'] = list()
+    calls['ctx.getRoom'] = list()
+    calls['.setAttribute'] = ['score', 'leftScore', 'SCOPE', 'FLAG']
+    calls['evt.getClient'] = list()
+    calls['sendMessage'] = ['START_GAME']
+    calls['notify'] = list()
+    calls['removeEventlistener'] = ['const', 'this', 'onClientChanged']
+    calls['evt.getAttribute'] = list()
+    calls['getScope'] = list()
+    calls['equals'] = ['stuff']
+    calls['getQualifiedID'] = list()
+    calls['nullSafeGetValue'] = list()
+    calls['.split'] = ['param']
     
 
     return calls
