@@ -10,9 +10,12 @@ class Klass:
         #print "class:", name
 
 class Method:
-    def __init__(self, name):
+    def __init__(self, name, params=None):
         self.name = name
-        self.params = []
+        if params is None:
+            self.params = []
+        else:
+            self.params = params
     
 def printout(klasses):
     print "============="
