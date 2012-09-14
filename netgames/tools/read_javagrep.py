@@ -1,7 +1,7 @@
 import klass
 from klass import Klass, Method
 
-def get_classes():
+def get_classes(infilter=None):
     klasses = dict()
     k = Klass('PongRoomModule')
     k.supers = ['Module', 'Runnable']

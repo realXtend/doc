@@ -422,9 +422,9 @@ presented in table 1.
    \hline
    Lines of code     & 361 & 115 & 565 & 420 & 281 \\
    Number of classes & 2   & 1   & 14  & 8   & 2   \\
-   Class Points      & 75  & 27  & 180 & 140 & -   \\
-   Message Points    & 103 & 63  & 196 & 175 & -   \\
-   Object Points     & 178 & 143 & 376 & 315 & -   \\
+   Class Points      & 75  & 27  & 180 & 140 & 75  \\
+   Message Points    & 103 & 63  & 196 & 175 & 87  \\
+   Object Points     & 178 & 90  & 376 & 315 & 162 \\
    \hline
    \end{tabularx}
    \end{table}
@@ -442,6 +442,8 @@ presented in table 1.
    44 20 96 0.875
    OP 315 = CP 140 + MP 175
 
+   37 6 57 0.75
+   OP 162 = CP 75 + MP 87
 
    without params in MP calc:
 

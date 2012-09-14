@@ -1,14 +1,24 @@
 import count_calls
 
-import read_asdoc_xml as r #UnionPong asdoc
+#the different configurations:
+class TundraPong: pass
+class UnionPongClient: pass
+class UnionPongServer: pass
+
+#the active configuration
+dataset = UnionPongServer
+
+#import read_asdoc_xml as r #UnionPong client asdoc
 #import read_jsdoc_json as r #TundraPong jsdoc
+if dataset is UnionPongServer:
+        import read_javagrep as r #UnionPong Server manual data
 
 unionpongnet = ["GameManager", "GameStates", "KeyboardController", "PongClient", "PongObject", "RoomAttributes", "RoomMessages", "UnionPong"] #the classes included for the net-code-only run
 tundrapongclient = ["GameClient"]
 
-infilter = unionpongnet
+#infilter = unionpongnet
 #infilter = tundrapongclient
-#infilter = None #no filtering, use all classes
+infilter = None #no filtering, use all classes
 
 
 # Calculates novelty of a class
@@ -47,7 +57,12 @@ CP = (t1 + t2 + t3) * N_C
 
 #call counts from closure trees
 unique_funcs = {}
-for c in C.itervalues():
+if dataset is UnionPongServer:
+        import javacalls
+        unique_funcs = javacalls.get_calls()
+
+else:
+    for c in C.itervalues():
         #print "Functions called in class:", c.name
  	funcs = count_calls.functions_called_in_class(c.name)
         #print funcs.keys()
