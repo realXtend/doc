@@ -2,7 +2,21 @@ Index: docutils/writers/latex2e/__init__.py
 ===================================================================
 --- docutils/writers/latex2e/__init__.py	(revision 7513)
 +++ docutils/writers/latex2e/__init__.py	(working copy)
-@@ -1298,7 +1298,8 @@
+@@ -39,7 +39,12 @@
+     default_preamble = '\n'.join([r'% PDF Standard Fonts',
+                                   r'\usepackage{mathptmx} % Times',
+                                   r'\usepackage[scaled=.90]{helvet}',
+-                                  r'\usepackage{courier}'])
++                                  r'\usepackage{courier}',
++                                  r'\usepackage{\usepackage{graphicx}',
++                                  r'\usepackage{amsmath}',
++                                  r'\usepackage{tabularx}',
++                                  r'\usepackage{multirow}',
++                                  r'\bibliographystyle{IEEEtran}'])
+     settings_spec = (
+         'LaTeX-Specific Options',
+         None,
+@@ -1298,7 +1303,8 @@
              #        3  subsubsection
              #        4  paragraph
              #        5  subparagraph
@@ -12,7 +26,7 @@ Index: docutils/writers/latex2e/__init__.py
                  # limit to supported levels
                  secnumdepth = min(secnumdepth, len(self.d_class.sections))
                  # adjust to document class and use_part_section settings
-@@ -2266,7 +2267,7 @@
+@@ -2266,7 +2272,7 @@
              'center': (r'\noindent\makebox[\textwidth][c]{', '}'),
              'left':   (r'\noindent{', r'\hfill}'),
              'right':  (r'\noindent{\hfill', '}'),}
