@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><diagram program="umlet" version="11.3">
-  <zoom_level>6</zoom_level>
+  <zoom_level>5</zoom_level>
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>246</x>
-      <y>0</y>
-      <w>138</w>
-      <h>84</h>
+      <x>270</x>
+      <y>185</y>
+      <w>115</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>HUD: flash.display:Sprite
 --
@@ -25,10 +25,10 @@ status: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>402</x>
-      <y>0</y>
-      <w>138</w>
-      <h>72</h>
+      <x>400</x>
+      <y>185</y>
+      <w>115</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>PongObject
 --
@@ -46,10 +46,10 @@ y: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>558</x>
-      <y>0</y>
-      <w>138</w>
-      <h>12</h>
+      <x>530</x>
+      <y>185</y>
+      <w>115</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>RoomAttributes
 --
@@ -61,10 +61,10 @@ y: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>714</x>
-      <y>0</y>
-      <w>138</w>
-      <h>12</h>
+      <x>660</x>
+      <y>185</y>
+      <w>115</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>RoomMessages
 --
@@ -76,10 +76,10 @@ y: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>402</x>
-      <y>222</y>
-      <w>138</w>
-      <h>12</h>
+      <x>270</x>
+      <y>335</y>
+      <w>115</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>ClientAttributes
 --
@@ -91,10 +91,10 @@ y: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>402</x>
-      <y>180</y>
-      <w>138</w>
-      <h>12</h>
+      <x>400</x>
+      <y>335</y>
+      <w>115</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>Settings
 --
@@ -106,10 +106,10 @@ y: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>246</x>
-      <y>270</y>
-      <w>138</w>
-      <h>84</h>
+      <x>530</x>
+      <y>335</y>
+      <w>115</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>PongClient: net.user1.reactor:CustomClient
 --
@@ -127,10 +127,10 @@ y: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>402</x>
-      <y>306</y>
-      <w>138</w>
-      <h>12</h>
+      <x>660</x>
+      <y>335</y>
+      <w>115</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>GameStates
 --
@@ -142,10 +142,10 @@ y: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>246</x>
-      <y>180</y>
-      <w>138</w>
-      <h>48</h>
+      <x>270</x>
+      <y>485</y>
+      <w>115</w>
+      <h>35</h>
     </coordinates>
     <panel_attributes>KeyboardController
 --
@@ -160,10 +160,10 @@ y: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>402</x>
-      <y>264</y>
-      <w>138</w>
-      <h>12</h>
+      <x>400</x>
+      <y>485</y>
+      <w>115</w>
+      <h>10</h>
     </coordinates>
     <panel_attributes>Rectangle: flash.display:Sprite
 --
@@ -175,10 +175,10 @@ y: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>552</x>
-      <y>180</y>
-      <w>138</w>
-      <h>270</h>
+      <x>530</x>
+      <y>485</y>
+      <w>115</w>
+      <h>235</h>
     </coordinates>
     <panel_attributes>GameManager
 --
@@ -215,10 +215,10 @@ updateTimer: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>402</x>
-      <y>342</y>
-      <w>138</w>
-      <h>108</h>
+      <x>660</x>
+      <y>485</y>
+      <w>115</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>Court: flash.display:Sprite
 --
@@ -239,10 +239,10 @@ updateTimer: type
   <element>
     <type>com.umlet.element.Class</type>
     <coordinates>
-      <x>246</x>
-      <y>390</y>
-      <w>138</w>
-      <h>60</h>
+      <x>270</x>
+      <y>635</y>
+      <w>115</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>UnionPong: flash.display:Sprite
 --
