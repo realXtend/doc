@@ -286,6 +286,9 @@ formats. The class information is read by a Python application to an
 internal model which contains the data for the OP calculation,
 implemented in another module in the same Python application.
 
+.. NOTE: automated CP calc is complete for AS only -- for JS we add
+.. the member info manually now!!!
+
 To calculate the Message Points reflecting the *dynamic function
 calls*, we use the Closure Javascript compiler to traverse the source
 code to collect function calls and their argument counts.  A parser
