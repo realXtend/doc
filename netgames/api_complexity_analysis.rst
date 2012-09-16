@@ -578,8 +578,8 @@ implementation. Tundra’s rigidbody movement messaging was recently
 optimized, decreasing the message size from the 70 bytes/update of the
 initial naive design to 11 bytes/update in the current version. So
 having both reusable existing solutions and providing support for
-custom messaging makes sense. Tundra provides both, the high-level
-messaging similar to Union and used in the TundraPong game, and the
+custom messaging makes sense. Tundra provides custom messaging in two
+ways: high-level entity actions, used in the TundraPong game, and the
 low level custom messaging with the kNet library which is used for the
 built-in functionality as well.
 
