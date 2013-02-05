@@ -1,0 +1,69 @@
+clamp.js
+
+  Maintainability index: 132.3779474495484
+  Aggregate cyclomatic complexity: 1
+--
+ClientAttributes.js
+
+  Maintainability index: 140.94684615405671
+  Aggregate cyclomatic complexity: 1
+--
+Court.js
+
+  Maintainability index: 138.53769713794136
+  Aggregate cyclomatic complexity: 4
+--
+GameManager.js
+
+  Maintainability index: 112.02997861959328
+  Aggregate cyclomatic complexity: 27
+--
+GameStates.js
+
+  Maintainability index: 140.94684615405671
+  Aggregate cyclomatic complexity: 1
+--
+HUD.js
+
+  Maintainability index: 118.83071713693023
+  Aggregate cyclomatic complexity: 1
+--
+KeyboardController.js
+
+  Maintainability index: 117.95050149281178
+  Aggregate cyclomatic complexity: 12
+--
+PongClient.js
+
+  Maintainability index: 134.2876664945906
+  Aggregate cyclomatic complexity: 3
+--
+PongObject.js
+
+  Maintainability index: 127.28324872542652
+  Aggregate cyclomatic complexity: 1
+--
+Rectangle.js
+
+  Maintainability index: 144.49971309600963
+  Aggregate cyclomatic complexity: 1
+--
+RoomAttributes.js
+
+  Maintainability index: 149.41131397771787
+  Aggregate cyclomatic complexity: 1
+--
+RoomMessages.js
+
+  Maintainability index: 149.41131397771787
+  Aggregate cyclomatic complexity: 1
+--
+Settings.js
+
+  Maintainability index: 105.5564288656968
+  Aggregate cyclomatic complexity: 1
+--
+UnionPong.js
+
+  Maintainability index: 114.20466894229347
+  Aggregate cyclomatic complexity: 4

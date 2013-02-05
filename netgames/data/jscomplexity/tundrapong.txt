@@ -1,0 +1,19 @@
+common.js
+
+  Maintainability index: 109.61886762731415
+  Aggregate cyclomatic complexity: 1
+--
+GameClient.js
+
+  Maintainability index: 105.834270349002
+  Aggregate cyclomatic complexity: 15
+--
+GameServer.js
+
+  Maintainability index: 97.30107956560732
+  Aggregate cyclomatic complexity: 29
+--
+main.js
+
+  Maintainability index: 111.2357739978331
+  Aggregate cyclomatic complexity: 3
