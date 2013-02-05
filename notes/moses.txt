@@ -1,0 +1,18 @@
+http://fcw.com/articles/2012/05/18/army-moses-virtual-project.aspx
+
+The lab created the Military Open Simulator Enterprise Strategy
+(MOSES) last year to test the stability and reliability of open source
+virtual worlds. Previously, many of the agencies had been using the
+commercial Second Life platform, but Maxwell said he and others
+decided to migrate to a more customizable platform that offered
+options for information assurance and security.  FCW
+(http://s.tt/1ch00)
+
+.. could we be running the same tests? for stability and reliability,
+for security.
+
+would be also interesting to know about their customizations -- given
+our platform strives for customizability, and does a great job we
+figure, but OTOH OpenSimulator Region and other Modules and .net are
+kind of nice too (people do like the .net (mono) scripting in Unity3d
+too)
