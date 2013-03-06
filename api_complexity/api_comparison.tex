@@ -18,13 +18,14 @@
 \usepackage{amsmath}
 \usepackage{tabularx}
 \usepackage{multirow}
+\usepackage{flushend}
 \bibliographystyle{IEEEtran}
 
 %%% Title Data
-\title{Comparative API Complexity Analysis of Two Platforms for Networked Multiplayer Games using A Reference Game}
+\title{Comparative API Complexity Analysis of Two Platforms for Networked Multiplayer Games using a Reference Game}
 \author{
   \IEEEauthorblockN{
-    Toni Alatalo\IEEEauthorrefmark{1}\IEEEauthorrefmark{3}
+    Toni Alatalo\IEEEauthorrefmark{1}\IEEEauthorrefmark{2}\IEEEauthorrefmark{3}
     Erno Kuusela\IEEEauthorrefmark{1}\IEEEauthorrefmark{2}\IEEEauthorrefmark{3}
     Rauli Puuperä\IEEEauthorrefmark{1}\IEEEauthorrefmark{3}
     and Timo Ojala\IEEEauthorrefmark{1}
@@ -711,7 +712,7 @@ least one high-level platform already features a FPS as a tutorial
 
 We propose a collaborative effort, similar to the TodoMVC.com for web
 platform comparisons \cite{todomvc}, to work on reference games for
-API evaluation purposes. We suggest using refgames.org for the purpose
+API evaluation purposes. We suggest using \emph{refgames.org} for the purpose
 and provide these example Pong's and our OP tool there as seed material.
 
 \section{Conclusions}
@@ -720,7 +721,9 @@ Our study shows that software complexity metrics can be useful aids in
 comparing APIs but so that human judgment is exercised in assessing
 the plain numerical complexity values. The different metrics give
 useful information on the overall characteristics of code bases and
-can also highlight potential complexity hotspots for further study.
+can also highlight potential complexity hotspots for further study. 
+A collaboratively composed collection of reference games on various platforms
+seems like a fruitful way to get rich API comparisons in the future.
 
 \section*{Acknowledgments}
 The authors would like to thank Jonne Nauha from Adminotech from implementing most of TundraPong and providing the source for research purposes.
