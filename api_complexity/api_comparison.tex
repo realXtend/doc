@@ -24,13 +24,14 @@
 \title{Comparative API Complexity Analysis of Two Platforms for Networked Multiplayer Games using A Reference Game}
 \author{
   \IEEEauthorblockN{
-    Toni Alatalo\IEEEauthorrefmark{1}\IEEEauthorrefmark{2}
-    Erno Kuusela\IEEEauthorrefmark{1}\IEEEauthorrefmark{2} 
-    Rauli Puuperä\IEEEauthorrefmark{1}\IEEEauthorrefmark{2}
+    Toni Alatalo\IEEEauthorrefmark{1}\IEEEauthorrefmark{3}
+    Erno Kuusela\IEEEauthorrefmark{1}\IEEEauthorrefmark{2}\IEEEauthorrefmark{3}
+    Rauli Puuperä\IEEEauthorrefmark{1}\IEEEauthorrefmark{3}
     and Timo Ojala\IEEEauthorrefmark{1}
   }
   \IEEEauthorblockA{\IEEEauthorrefmark{1}Department of Computer Science and Engineering, University of Oulu}
-  \IEEEauthorblockA{\IEEEauthorrefmark{2}Playsign Ltd., Oulu, Finland}
+  \IEEEauthorblockA{\IEEEauthorrefmark{2}Center for Internet Excellence, University of Oulu}
+  \IEEEauthorblockA{\IEEEauthorrefmark{3}Playsign Ltd., Oulu, Finland}
 }
 
 \begin{document}
@@ -77,19 +78,6 @@ applications. Developing a massively multiplayer online game (MMOG)
 has been estimated to typically take two to three times longer than
 creating and launching a single-player game \cite{middleware}.
 
-The motivation of our study is to understand how the API of the open
-source realXtend Tundra SDK (Tundra from now on), recently introduced
-by Alatalo \cite{Alatalo2011}, succeeds in hiding the complexity of
-networked multiplayer games. Tundra strives to adopt the best design
-practices from game engine literature, notably aggregation using an
-abstract entity-component model. The objective of the entity-component
-model and the whole Tundra platform is to make development of
-networked multiplayer games easy and productive. Specifically in terms
-of networking, Tundra features attribute autosynchronization, a simple
-form of transparent remote procedure calls (entity actions) and
-efficient customized movement messages with inter- and extrapolation
-logic (dead reckoning).
-
 Rigorous quantitative assessment of a gaming platform in terms of ease
 and productivity of development is very challenging. Hsiao and Yuan
 \cite{middleware} proposed four essential ``ease of'' requirements for
@@ -124,6 +112,13 @@ tool based on classical software complexity metrics
 calculated from the reference games with the tools indeed successfully
 quantify the different amounts of complexity that the game developer
 has to manage on these two alternate platforms.
+
+Our underlying motivation is understanding how the API of the open
+source realXtend Tundra SDK, recently introduced by Alatalo
+\cite{Alatalo2011}, succeeds in hiding the complexity of networked
+multiplayer games. We plan to use the insight and the complexity
+measures in on-going development of the platform and an even
+friendlier API.
 
 This paper is organized as follows. After briefly reviewing related
 work on API complexity analysis we present our tool. Then we report
@@ -520,48 +515,49 @@ Maint.Idx.    & 100 & 105 & 119 & 116 & -  \\
 \end{tabular}
 \end{table}
 
-The calculation of the cyclomatic complexity is fine-grained, scoring
-points for individual functions. It is relevant as the actual
-programming work is eventually done in functions, whereas class
-structures and such are only containers for code, after all. The
-aggregate cyclomatic complexity value is not very useful as it is
-simply a sum of the values of individual functions. That is, even the
-simplest functions with the minimal complexity value of 1 increase the
-sum, thus the aggregate value tells more about the size of the
-codebase than its complexity. The aggregate cyclomatic complexity
-values correlate with Sneed’s class points (CP) as they involve also
-operation count. The real usefulness of the cyclomatic complexity is
-in identifying peak values, i.e. individual functions with high
-complexity. Interestingly, the maximum cyclomatic complexity value of
-11 occurs in a similar functions in both reference implementations:
-TundraPong’s GameServer.updateGame, GameClient.onServerData and
-UnionPong’s GameManager.updateBall. These functions implementing the
-basic logic of ball movement and bouncing are indeed quite
-similar. This alludes that the complexity of the actual game mechanics
-is quite equal in both implementations. This in turn suggests that the
-two platforms do not differ much with respect to the complexity of
-basic mechanics such as moving objects despite the software
-implementations being quite different. The same maximum cyclomatic
-complexity value of 11 in the TundraPong client side function
-onServerData is just a coincidence: the complexity is due to the game
-session handling commands being made with JSON and handled in if
-blocks in a single function. But again, the equivalent updateBall
-function implementing ball movement, bouncing and boundary checks in
-the UnionPong server has the highest cyclomatic complexity value of
-13.
+Regarding the values from the JSComplexity tool, the cyclomatic
+complexity is fine-grained, scoring points for individual
+functions. It is relevant as the actual programming work is eventually
+done in functions, whereas class structures and such are only
+containers for code, after all. The aggregate cyclomatic complexity
+value is not very useful as it is simply a sum of the values of
+individual functions. That is, even the simplest functions with the
+minimal complexity value of 1 increase the sum, thus the aggregate
+value tells more about the size of the codebase than its
+complexity. The aggregate cyclomatic complexity values correlate with
+Sneed’s class points (CP) as they involve also operation count. The
+real usefulness of the cyclomatic complexity is in identifying peak
+values, i.e. individual functions with high complexity. Interestingly,
+the maximum cyclomatic complexity value of 11 occurs in a similar
+functions in both reference implementations: TundraPong’s
+GameServer.updateGame, GameClient.onServerData and UnionPong’s
+GameManager.updateBall. These functions implementing the basic logic
+of ball movement and bouncing are indeed quite similar. This alludes
+that the complexity of the actual game mechanics is quite equal in
+both implementations. This in turn suggests that the two platforms do
+not differ much with respect to the complexity of basic mechanics such
+as moving objects despite the software implementations being quite
+different. The same maximum cyclomatic complexity value of 11 in the
+TundraPong client side function onServerData is just a coincidence:
+the complexity is due to the game session handling commands being made
+with JSON and handled in if blocks in a single function. But again,
+the equivalent updateBall function implementing ball movement,
+bouncing and boundary checks in the UnionPong server has the highest
+cyclomatic complexity value of 13.
 
-Surprisingly, the maintainability index gives better values for the
-otherwise larger and more complex Union Pong implementation. This is
-due to the different programming styles of the reference
-implementations. TundraPong has a smaller number of larger functions
-yielding a higher maintainability index. In contrast, UnionPong has
-many minimal classes and small functions resulting in a low
-index. Notably, TundraPong’s maintainability index of 100 is still
-well above the 65 threshold proposed by Oman et al. In any case, these
-partly contradicting complexity values highlight how the reference
-implementations should be as comparable as possible in terms of
-structure and programming style, to leave the API as the only
-potential source for the complexity.
+Finally regarding the maintainability indices it is worthwhile to note
+how the values are better for the otherwise larger and more complex
+Union Pong implementation. This is due to the different programming
+styles of the reference implementations. TundraPong has a smaller
+number of larger functions yielding a higher maintainability index. In
+contrast, UnionPong has many minimal classes and small functions
+resulting in a low index. TundraPong’s maintainability index of 100 is
+still well above the 65 threshold proposed by Oman et al. In any case,
+these partly contradicting complexity values highlight how the
+reference implementations should be as comparable as possible in terms
+of structure and programming style, to leave the API as the only
+potential source for the complexity. We propose such carefully crafted
+reference implementations to be made in future work.
 
 \subsection{UML Diagrams%
   \label{uml-diagrams}%
@@ -713,10 +709,10 @@ shooter (FPS) games have been open sourced (Quake, Cube2), and at
 least one high-level platform already features a FPS as a tutorial
 (Torque3D).
 
-We propose a collaborative effort, similar to the TodoMVC.org for web
+We propose a collaborative effort, similar to the TodoMVC.com for web
 platform comparisons \cite{todomvc}, to work on reference games for
-API evaluation purposes. Whether to call it PongMultiplayer.org or
-ReferenceGames.org or something else is open for discussion.
+API evaluation purposes. We suggest using refgames.org for the purpose
+and provide these example Pong's and our OP tool there as seed material.
 
 \section{Conclusions}
 
@@ -725,6 +721,11 @@ comparing APIs but so that human judgment is exercised in assessing
 the plain numerical complexity values. The different metrics give
 useful information on the overall characteristics of code bases and
 can also highlight potential complexity hotspots for further study.
+
+\section*{Acknowledgments}
+The authors would like to thank Jonne Nauha from Adminotech from implementing most of TundraPong and providing the source for research purposes.
+We also thank creators of the Union platform for providing their Pong example online, and for the nice and interestingly different platform overall.
+Finally we are greatful for the anonymous reviewers for insightful and helpful comments.
 
 \bibliography{IEEEabrv,bib}
 
