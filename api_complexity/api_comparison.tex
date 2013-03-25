@@ -22,7 +22,7 @@
 \bibliographystyle{IEEEtran}
 
 %%% Title Data
-\title{Comparative API Complexity Analysis of Two Platforms for Networked Multiplayer Games using a Reference Game}
+\title{Comparative API Complexity Analysis of Two Platforms for Networked Multiplayer Games Using a Reference Game}
 \author{
   \IEEEauthorblockN{
     Toni Alatalo\IEEEauthorrefmark{1}\IEEEauthorrefmark{2}\IEEEauthorrefmark{3}
@@ -185,7 +185,7 @@ meant for people to read for comparative evaluations. We propose the
 same approach for networked games but combined with automated
 quantitative analysis.
 
-\section{API COMPLEXITY ANALYSIS TOOLS}
+\section{API Complexity Analysis Tools}
 
 A tool facilitating automated and quantitative analysis of the
 complexity of an API from an existing body of source code developed
@@ -220,7 +220,7 @@ but simply to identify how much they are used. Their source code
 mining is similar to our tool that also needs to identify which
 functions are called and how often to employ the OP method.
 
-\subsubsection{Sneed's Object-Point (OP) method}
+\subsubsection{Sneed's Object-Point (OP) Method}
 
 Although the OP method was originally developed for deriving early
 work estimates from UML design diagrams, recently it has also been
@@ -307,7 +307,7 @@ The weights are adopted directly from the earlier usage of OP for API
 complexity analysis, which further uses the standard Data Points
 analysis values by Sneed \cite{Sneed}.
 
-\subsubsection{Extracting Object-Point data from source code}
+\subsubsection{Extracting Object-Point Data from Source Code}
 
 To obtain the static class data for the Class Points (CP), we utilize
 existing source code parsing and annotation systems in the API
@@ -376,9 +376,9 @@ higher level of maintainability. Oman et al. identified 65 as the
 threshold value below which a program should be considered difficult
 to maintain.
 
-\section{Case setup}
+\section{Case Setup}
 
-\subsection{Pong as reference game}
+\subsection{Pong as a Reference Game}
 
 We propose using the Pong game as a minimal networked multiplayer
 reference game in the subsequent API complexity analysis. While Pong
@@ -392,7 +392,7 @@ amount of software needed for the basic functionality: launching the
 networked game, establishing connections, handling players joining in
 and dropping out, and synchronizing gaming events.
 
-\subsection{Game platforms}
+\subsection{Game Platforms}
 
 We briefly introduce the two game platforms whose API complexity we are
 going to compare, the open source realXtend Tundra SDK
@@ -578,7 +578,7 @@ API complexity.
 
 \section{Discussion}
 
-\subsection{Interpretation and validity of Object-Point values}
+\subsection{Interpretation and Validity of Object-Point Values}
 
 The fact that UnionPong obtains much higher OP values indicating a
 more complex API does not mean that the Union platform would be
@@ -674,7 +674,7 @@ to analyze complexity within individual functions, similarly to
 cyclomatic complexity, whereas in API evaluation the overall program
 structure may be more relevant.
 
-\subsection{Limitations and future work}
+\subsection{Limitations and Future Work}
 
 The Pong game used as the minimal reference of a networked multiplayer
 game in this study is very simplistic. Much of the complexity of real
