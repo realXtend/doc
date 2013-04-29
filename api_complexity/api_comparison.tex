@@ -18,19 +18,21 @@
 \usepackage{amsmath}
 \usepackage{tabularx}
 \usepackage{multirow}
-\bibliographystyle{IEEEtran}
+\usepackage{flushend}
+\usepackage{url}
 
 %%% Title Data
-\title{Comparative API Complexity Analysis of Two Platforms for Networked Multiplayer Games using A Reference Game XXX}
+\title{Comparative API Complexity Analysis of Two Platforms for Networked Multiplayer Games using a Reference Game}
 \author{
   \IEEEauthorblockN{
-    Toni Alatalo\IEEEauthorrefmark{1}\IEEEauthorrefmark{2}
-    Erno Kuusela\IEEEauthorrefmark{1}\IEEEauthorrefmark{2} 
-    Rauli Puuperä\IEEEauthorrefmark{1}\IEEEauthorrefmark{2}
+    Toni Alatalo\IEEEauthorrefmark{1}\IEEEauthorrefmark{2}\IEEEauthorrefmark{3},
+    Erno Kuusela\IEEEauthorrefmark{1}\IEEEauthorrefmark{2}\IEEEauthorrefmark{3},
+    Rauli Puuperä\IEEEauthorrefmark{1}\IEEEauthorrefmark{3},
     and Timo Ojala\IEEEauthorrefmark{1}
   }
-  \IEEEauthorblockA{\IEEEauthorrefmark{1}Department of Computer Science and Engineering, University of Oulu}
-  \IEEEauthorblockA{\IEEEauthorrefmark{2}Playsign Ltd., Oulu, Finland}
+  \IEEEauthorblockA{\IEEEauthorrefmark{1}Department of Computer Science and Engineering, University of Oulu, Finland}
+  \IEEEauthorblockA{\IEEEauthorrefmark{2}Center for Internet Excellence, University of Oulu, Finland}
+  \IEEEauthorblockA{\IEEEauthorrefmark{3}Playsign Ltd., Oulu, Finland}
 }
 
 \begin{document}
@@ -77,19 +79,6 @@ applications. Developing a massively multiplayer online game (MMOG)
 has been estimated to typically take two to three times longer than
 creating and launching a single-player game \cite{middleware}.
 
-The motivation of our study is to understand how the API of the open
-source realXtend Tundra SDK (Tundra from now on), recently introduced
-by Alatalo \cite{Alatalo2011}, succeeds in hiding the complexity of
-networked multiplayer games. Tundra strives to adopt the best design
-practices from game engine literature, notably aggregation using an
-abstract entity-component model. The objective of the entity-component
-model and the whole Tundra platform is to make development of
-networked multiplayer games easy and productive. Specifically in terms
-of networking, Tundra features attribute autosynchronization, a simple
-form of transparent remote procedure calls (entity actions) and
-efficient customized movement messages with inter- and extrapolation
-logic (dead reckoning).
-
 Rigorous quantitative assessment of a gaming platform in terms of ease
 and productivity of development is very challenging. Hsiao and Yuan
 \cite{middleware} proposed four essential ``ease of'' requirements for
@@ -124,6 +113,13 @@ tool based on classical software complexity metrics
 calculated from the reference games with the tools indeed successfully
 quantify the different amounts of complexity that the game developer
 has to manage on these two alternate platforms.
+
+Our underlying motivation is understanding how the API of the open
+source realXtend Tundra SDK, recently introduced by Alatalo
+\cite{Alatalo2011}, succeeds in hiding the complexity of networked
+multiplayer games. We plan to use the insight and the complexity
+measures in on-going development of the platform and an even
+friendlier API.
 
 This paper is organized as follows. After briefly reviewing related
 work on API complexity analysis we present our tool. Then we report
@@ -189,7 +185,7 @@ meant for people to read for comparative evaluations. We propose the
 same approach for networked games but combined with automated
 quantitative analysis.
 
-\section{API COMPLEXITY ANALYSIS TOOLS}
+\section{API Complexity Analysis Tools}
 
 A tool facilitating automated and quantitative analysis of the
 complexity of an API from an existing body of source code developed
@@ -224,7 +220,7 @@ but simply to identify how much they are used. Their source code
 mining is similar to our tool that also needs to identify which
 functions are called and how often to employ the OP method.
 
-\subsubsection{Sneed's Object-Point (OP) method}
+\subsubsection{Sneed's Object-Point (OP) Method}
 
 Although the OP method was originally developed for deriving early
 work estimates from UML design diagrams, recently it has also been
@@ -311,7 +307,7 @@ The weights are adopted directly from the earlier usage of OP for API
 complexity analysis, which further uses the standard Data Points
 analysis values by Sneed \cite{Sneed}.
 
-\subsubsection{Extracting Object-Point data from source code}
+\subsubsection{Extracting Object-Point Data from Source Code}
 
 To obtain the static class data for the Class Points (CP), we utilize
 existing source code parsing and annotation systems in the API
@@ -380,9 +376,9 @@ higher level of maintainability. Oman et al. identified 65 as the
 threshold value below which a program should be considered difficult
 to maintain.
 
-\section{Case setup}
+\section{Case Setup}
 
-\subsection{Pong as reference game}
+\subsection{Pong as a Reference Game}
 
 We propose using the Pong game as a minimal networked multiplayer
 reference game in the subsequent API complexity analysis. While Pong
@@ -396,7 +392,7 @@ amount of software needed for the basic functionality: launching the
 networked game, establishing connections, handling players joining in
 and dropping out, and synchronizing gaming events.
 
-\subsection{Game platforms}
+\subsection{Game Platforms}
 
 We briefly introduce the two game platforms whose API complexity we are
 going to compare, the open source realXtend Tundra SDK
@@ -404,7 +400,7 @@ going to compare, the open source realXtend Tundra SDK
 product\footnotemark[1]. Both are relatively high-level platforms for
 networked games and bear several interesting similarities and
 differences for this study. Both are specifically designed for
-networking, which is exposed to the developer atan abstract
+networking, which is exposed to the developer at an abstract
 application level. That is, the developer and the game do not have to
 know anything about sockets or network hosts. Instead, an abstract
 container object is provided (Room in Union, Scene in Tundra) and the
@@ -420,7 +416,7 @@ subscribed to be notified of changes. This way it is simple to for
 example set the game scores on the server, and show it in the client
 GUIs.
 
-\footnotetext[1]{http://www.unionplatform.com/}
+\footnotetext[1]{\url{http://www.unionplatform.com/}}
 
 However, the two platforms also have fundamental differences and we
 discuss how they manifest in the implementation of the Pong
@@ -443,8 +439,8 @@ Placeable component contains the position and the Rigidbody component
 contains shape information for collisions and speed vector for
 movement.
 
-\footnotetext[2]{https://github.com/realXtend/doc/tree/master/api\_complexity/PongMultiplayer}
-\footnotetext[3]{http://www.unionplatform.com/?page\_id=1229}
+\footnotetext[2]{\url{https://github.com/realXtend/doc/tree/master/api_complexity/PongMultiplayer}}
+\footnotetext[3]{\url{http://www.unionplatform.com/?page_id=1229}}
 
 Thus, it is clear from the outset that UnionPong is more complex, due
 to the game code containing a much larger proportion of the
@@ -504,7 +500,7 @@ physics and basic client-server functionality in Tundra.
 \hline
 \multirow{2}{*}{metric} & \multicolumn{2}{c|}{Tundra Pong} & \multicolumn{3}{c|}{Union Pong} \tabularnewline
 \cline{2-6}
-& Full & Client only & Client Full & Client Net & Server \tabularnewline
+& Full & Client & Client Full & Client Net & Server \tabularnewline
 \hline
 LoC     & 361 & 115 & 565 & 420 & 281 \\
 \hline
@@ -520,48 +516,49 @@ Maint.Idx.    & 100 & 105 & 119 & 116 & -  \\
 \end{tabular}
 \end{table}
 
-The calculation of the cyclomatic complexity is fine-grained, scoring
-points for individual functions. It is relevant as the actual
-programming work is eventually done in functions, whereas class
-structures and such are only containers for code, after all. The
-aggregate cyclomatic complexity value is not very useful as it is
-simply a sum of the values of individual functions. That is, even the
-simplest functions with the minimal complexity value of 1 increase the
-sum, thus the aggregate value tells more about the size of the
-codebase than its complexity. The aggregate cyclomatic complexity
-values correlate with Sneed’s class points (CP) as they involve also
-operation count. The real usefulness of the cyclomatic complexity is
-in identifying peak values, i.e. individual functions with high
-complexity. Interestingly, the maximum cyclomatic complexity value of
-11 occurs in a similar functions in both reference implementations:
-TundraPong’s GameServer.updateGame, GameClient.onServerData and
-UnionPong’s GameManager.updateBall. These functions implementing the
-basic logic of ball movement and bouncing are indeed quite
-similar. This alludes that the complexity of the actual game mechanics
-is quite equal in both implementations. This in turn suggests that the
-two platforms do not differ much with respect to the complexity of
-basic mechanics such as moving objects despite the software
-implementations being quite different. The same maximum cyclomatic
-complexity value of 11 in the TundraPong client side function
-onServerData is just a coincidence: the complexity is due to the game
-session handling commands being made with JSON and handled in if
-blocks in a single function. But again, the equivalent updateBall
-function implementing ball movement, bouncing and boundary checks in
-the UnionPong server has the highest cyclomatic complexity value of
-13.
+Regarding the values from the JSComplexity tool, the cyclomatic
+complexity is fine-grained, scoring points for individual
+functions. It is relevant as the actual programming work is eventually
+done in functions, whereas class structures and such are only
+containers for code, after all. The aggregate cyclomatic complexity
+value is not very useful as it is simply a sum of the values of
+individual functions. That is, even the simplest functions with the
+minimal complexity value of 1 increase the sum, thus the aggregate
+value tells more about the size of the codebase than its
+complexity. The aggregate cyclomatic complexity values correlate with
+Sneed’s class points (CP) as they involve also operation count. The
+real usefulness of the cyclomatic complexity is in identifying peak
+values, i.e. individual functions with high complexity. Interestingly,
+the maximum cyclomatic complexity value of 11 occurs in a similar
+functions in both reference implementations: TundraPong’s
+GameServer.updateGame, GameClient.onServerData and UnionPong’s
+GameManager.updateBall. These functions implementing the basic logic
+of ball movement and bouncing are indeed quite similar. This alludes
+that the complexity of the actual game mechanics is quite equal in
+both implementations. This in turn suggests that the two platforms do
+not differ much with respect to the complexity of basic mechanics such
+as moving objects despite the software implementations being quite
+different. The same maximum cyclomatic complexity value of 11 in the
+TundraPong client side function onServerData is just a coincidence:
+the complexity is due to the game session handling commands being made
+with JSON and handled in if blocks in a single function. But again,
+the equivalent updateBall function implementing ball movement,
+bouncing and boundary checks in the UnionPong server has the highest
+cyclomatic complexity value of 13.
 
-Surprisingly, the maintainability index gives better values for the
-otherwise larger and more complex Union Pong implementation. This is
-due to the different programming styles of the reference
-implementations. TundraPong has a smaller number of larger functions
-yielding a higher maintainability index. In contrast, UnionPong has
-many minimal classes and small functions resulting in a low
-index. Notably, TundraPong’s maintainability index of 100 is still
-well above the 65 threshold proposed by Oman et al. In any case, these
-partly contradicting complexity values highlight how the reference
-implementations should be as comparable as possible in terms of
-structure and programming style, to leave the API as the only
-potential source for the complexity.
+Finally regarding the maintainability indices it is worthwhile to note
+how the values are better for the otherwise larger and more complex
+Union Pong implementation. This is due to the different programming
+styles of the reference implementations. TundraPong has a smaller
+number of larger functions yielding a higher maintainability index. In
+contrast, UnionPong has many minimal classes and small functions
+resulting in a low index. TundraPong’s maintainability index of 100 is
+still well above the 65 threshold proposed by Oman et al. In any case,
+these partly contradicting complexity values highlight how the
+reference implementations should be as comparable as possible in terms
+of structure and programming style, to leave the API as the only
+potential source for the complexity. We propose such carefully crafted
+reference implementations to be made in future work.
 
 \subsection{UML Diagrams%
   \label{uml-diagrams}%
@@ -571,17 +568,17 @@ Figures 1 and 2 show the UML diagrams generated from the OP data by
 our tool for subsequent manual verification of the analysis and the
 API complexity.
 \begin{figure}
-\includegraphics[scale=0.400000]{pics/TundraPong.pdf}
+\includegraphics[scale=0.400000]{pics/TundraPong_fontembed.pdf}
 \caption{The two classes in TundraPong game.js.}
 \end{figure}
 \begin{figure}
-\includegraphics[scale=0.350000]{pics/UnionPong-manuallayout.pdf}
+\includegraphics[scale=0.330000]{pics/UnionPong-manuallayout_fontembed.pdf}
 \caption{The 13 classes in UnionPong client side ActionScript.}
 \end{figure}
 
 \section{Discussion}
 
-\subsection{Interpretation and validity of Object-Point values}
+\subsection{Interpretation and Validity of Object-Point Values}
 
 The fact that UnionPong obtains much higher OP values indicating a
 more complex API does not mean that the Union platform would be
@@ -677,7 +674,7 @@ to analyze complexity within individual functions, similarly to
 cyclomatic complexity, whereas in API evaluation the overall program
 structure may be more relevant.
 
-\subsection{Limitations and future work}
+\subsection{Limitations and Future Work}
 
 The Pong game used as the minimal reference of a networked multiplayer
 game in this study is very simplistic. Much of the complexity of real
@@ -713,10 +710,10 @@ shooter (FPS) games have been open sourced (Quake, Cube2), and at
 least one high-level platform already features a FPS as a tutorial
 (Torque3D).
 
-We propose a collaborative effort, similar to the TodoMVC.org for web
+We propose a collaborative effort, similar to the TodoMVC.com for web
 platform comparisons \cite{todomvc}, to work on reference games for
-API evaluation purposes. Whether to call it PongMultiplayer.org or
-ReferenceGames.org or something else is open for discussion.
+API evaluation purposes. We suggest using \emph{refgames.org} for the purpose
+and provide these example Pong's and our OP tool there as seed material.
 
 \section{Conclusions}
 
@@ -724,8 +721,17 @@ Our study shows that software complexity metrics can be useful aids in
 comparing APIs but so that human judgment is exercised in assessing
 the plain numerical complexity values. The different metrics give
 useful information on the overall characteristics of code bases and
-can also highlight potential complexity hotspots for further study.
+can also highlight potential complexity hotspots for further study. 
+A collaboratively composed collection of reference games on various platforms
+seems like a fruitful way to get rich API comparisons in the future.
 
+\section*{Acknowledgments}
+The authors would like to thank Jonne Nauha from Adminotech for implementing most of TundraPong and providing the source for research purposes.
+We also thank creators of the Union platform for providing their Pong example online, and for the nice and interestingly different platform overall.
+We are greatful for the anonymous reviewers for insightful and helpful comments.
+This work was supported by the NIMO (Nordic Interaction and Mobility Research Platform) project funded by the EU Interreg IVA North program, and by the Tekes Chiru project.
+
+\bibliographystyle{IEEEtran}
 \bibliography{IEEEabrv,bib}
 
 \end{document}
