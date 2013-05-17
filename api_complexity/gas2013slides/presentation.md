@@ -1,103 +1,108 @@
-Apps 
+**Comparative API Complexity Analysis of Two Platforms for Networked Multiplayer Games using a Reference Game**
+
+<em>
+
+* Toni Alatalo, Erno Kuusela, Rauli Puupera, Timo Ojala
+  - University of Oulu, Finland
+  - Playsign Ltd., Oulu, Finland
+
+</em>
+
+toni@playsign.net
+
+!
+
+Motivation
 ===
-Lots of people have been asking stuff...
 
-![uml](uml-tundrapong.png)
+* plenty of libraries for making games, networking and multiplayer games
+
+* how does a developer know what is a good and suitable one?
+
+* how should we develop our API in realXtend.org?
+
 !
 
-My story
+Idea: Surrogate Analysis
 ===
-* Wasted +1yr on first app
-* First few failed
-* Since then churn out simple ones
-* Been focused a few months maybe?
-* 7 or 8 apps now
+
+* let's compare implementations of the same game on different platforms
+
+* previously done with Object Points measurements in *Sobernig et al (2012)*
+
+* here: two pre-existing implementations of **Multiplayer Pong** (minimal case)
 
 !
 
-Sales
+The size / scope diff is clear:
+
+<img src="uml-tundrapong.png"/
+style="position: relative;
+float: left;
+width: 45%;
+margin: 10;
+"/>
+
+<img src="uml-unionpong.png"/
+style="position: relative; 
+clear: left;
+width: 45%;
+margin: 10;
+"/>
+
+<div style="text-align:center;">
+2 vs. 13+ classes
+</div>
+
+!
+
+SW Complexity
 ===
-* Money's kinda useful
-* Average $70/day
-* Soon to be $100 with voda app
-* Thats 36k...
-* I want a boat
+
+<img src="metricsdata.png"/
+style="
+display: block; 
+margin-left: auto; 
+margin-right: auto;
+width: 80%;
+"/>
 
 !
 
-Coding
+refgames.org
 ===
-* Obj-C is nice
-* Think of it like a VERY simple layer of OO on top of C
-* Much simpler than C++
-* Like JS with C syntax
+
+* let's collect a good body of data! ..or?
+
+* more platforms with Pong:
+   * Union 2.0, Unity3D + multiplayer plugin, Unreal Engine, now.js, Google's new multiplayer support, ..
+
+* some other game(s), more features?
+
+* quality analysis combined?
 
 !
 
-Time and Motivation
+Thanks!
 ===
-* I spend a few hours a week on it
-* Motivated by family/house
-* Dont be scared to give it a go
 
-!
+<br/>
 
-Support
-===
-* I have my email in most apps
-* Get maybe one a day?
-* Everyone is friendly
-* I gave one refund
+<div style="text-align:center;">
 
-!
+--^ [[ ~ ]] ^--(()
+<br/>
+... . . .. == ||
 
-Fail forwards
-===
-* Most apps fail
-* < $5 / week = fail
-* So: Make lots of small apps
-* Build on what works eg usage
-* Remember rovio made 51 apps before angry birds.
+</div>
 
-!
+<br/>
+<br/>
 
-Ideas
-===
-* Start with crummy ideas. Thats better than nothing.
-* If it's 'obvious' to you, then its probably useful to someone.
-* Execution > ideas anyway.
+<div style="
+text-align:right;
+">
 
-!
+.. and do check the realXtend Tundra & WebTundra demo later.
 
-Marketing
-===
-* Tried free for a week - fail (800 -> 0)
-* I have websites for my apps - nothing
-* Tried $2 - nothing, except usage apps
-* Now I just plonk them on at $1 or $2 and leave it
-* Haven't tried adwords
-
-!
-
-Nuts n bolts
-===
-* Reviews take 2 weeks
-* Apple takes 30%
-* GST is 10%
-* Marginal tax will take 37% of what remains
-* Put it in the wife's name!
-* Ads in apps make nothing
-
-!
-
-Ideas
----
-* Pair up, make two apps, one in each name to make revenue split simple
-* Android - never touched. Get in the ground floor on tablets?
-* Scratch your own itch - make a very simple app
-
-!
-
-Whats stopping you?
----
-Any questions?
+</div>
