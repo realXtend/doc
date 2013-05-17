@@ -1,20 +1,3 @@
-<iframe
-width="960" height="585" 
-src="http://www.unionplatform.com/?page_id=1229"
-style="
-//transform:scale(0.5); 
-//transform-origin: 0 0;
-"/>
-
-<iframe
-width="960" height="585" 
-src="http://www.unionplatform.com/?page_id=1229"
-/>
-
-.. playroom ..
-
-!
-
 **Comparative API Complexity Analysis of Two Platforms for Networked Multiplayer Games using a Reference Game**
 
 <!--
@@ -147,3 +130,22 @@ text-align:right;
 .. and do check the <a href="http://www.realxtend.org/">realXtend Tundra SDK</a> & WebTundra demo later.
 
 </div>
+
+!
+
+<!-- moved to the end now to be on the safe side with other's reviewing this -->
+
+<iframe
+width="960" height="585" 
+src="http://www.unionplatform.com/?page_id=1229"
+style="
+//transform:scale(0.5); 
+//transform-origin: 0 0;
+"/>
+
+<iframe
+width="960" height="585" 
+src="http://www.unionplatform.com/?page_id=1229"
+/>
+
+.. playroom ..
