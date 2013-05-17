@@ -56,21 +56,49 @@ frameborder="0" allowFullScreen></iframe>
 
 !
 
-The size / scope diff is clear:
+Analysis: Differing scope
+===
 
-<img src="uml-tundrapong.png"/
-style="position: relative;
-float: left;
-width: 45%;
-margin: 10;
-"/>
+<table>
 
-<img src="uml-unionpong.png"/
-style="position: relative; 
-clear: left;
-width: 45%;
-margin: 10;
-"/>
+<tr>
+  <td>
+    <img src="uml-tundrapong.png"
+	 style="
+		width: 93%;
+		"/>
+<!--position: relative;
+		margin: 10;
+		float: left;
+		-->
+  </td>
+  <td>
+    <img src="uml-unionpong.png"
+	 style="
+		width: 93%;
+		"/>
+	<!--style="position: relative;
+		clear: left;
+		width: 45%;
+		margin: 10;
+		"/-->
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <ul>
+      <li> Logic script in 3d modelled environment</li>
+      <li> Platform built-in worldtype & physics</li>
+    </ul>
+  </td>
+  <td>
+    <ul>
+      <li>A whole application</li>
+      <li>Creates the gameworld in code.</li>
+    </ul>
+  </td>
+</table>
 
 <div style="text-align:center;">
 2 vs. 13+ classes
@@ -78,7 +106,7 @@ margin: 10;
 
 !
 
-SW Complexity
+Complexity Metrics
 ===
 
 <img src="metricsdata.png"/
