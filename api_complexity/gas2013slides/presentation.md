@@ -1,7 +1,10 @@
 <iframe
 width="960" height="585" 
 src="http://www.unionplatform.com/?page_id=1229"
-/>
+style="
+//transform:scale(0.5); 
+//transform-origin: 0 0;
+"/>
 
 <iframe
 width="960" height="585" 
@@ -105,12 +108,12 @@ width: 80%;
 
 !
 
-refgames.org
+[refgames.org](http://refgames.org/)
 ===
 
 * let's collect a good body of data! ..or?
 
-    * TodoMVC from the Web side is inspiring
+    * [TodoMVC](http://todomvc.com/) from the Web side is inspiring
 
 * more platforms with Pong?
    * Union 2.0, Unity3D + multiplayer plugin, Unreal Engine, now.js, Google's new multiplayer support with Corona SDK, ..
@@ -141,6 +144,6 @@ Thanks!
 text-align:right;
 ">
 
-.. and do check the realXtend Tundra & WebTundra demo later.
+.. and do check the <a href="http://www.realxtend.org/">realXtend Tundra SDK</a> & WebTundra demo later.
 
 </div>
