@@ -119,6 +119,18 @@ width: 80%;
 
 !
 
+<!--img src="metricsbars.png"/
+style="
+display: block; 
+margin-left: auto; 
+margin-right: auto;
+width: 100%;
+"/-->
+
+<object data="metricsbars.svg" type="image/svg+xml"></object>
+
+!
+
 [refgames.org](http://refgames.org/)
 ===
 
