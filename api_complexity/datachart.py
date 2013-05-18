@@ -8,9 +8,6 @@ import data
 #N = 5
 #menMeans = (20, 35, 30, 35, 27)
 #menStd =   (2, 3, 4, 1, 2)
-#N = 1
-#tundraMeans = (data.loc_tundra_full, 
-#menStd = data.loc_union_full
 
 ind = np.arange(data.N)  # the x locations for the groups
 width = 0.35       # the width of the bars
@@ -21,8 +18,6 @@ rects1 = ax.bar(ind, data.tundraData, width, color='r') #, yerr=menStd)
 
 #womenMeans = (25, 32, 34, 20, 25)
 #womenStd =   (3, 5, 2, 3, 3)
-womenMeans = data.loc_union_full
-#womenStd = menStd
 rects2 = ax.bar(ind+width, data.unionData, width, color='y') #, yerr=womenStd)
 
 # add some
@@ -38,10 +33,10 @@ def autolabel(rects):
     # attach some text labels
     for rect in rects:
         height = rect.get_height()
-        ax.text(rect.get_x()+rect.get_width()/2., 1.05*height, '%d'%int(height),
+        ax.text(rect.get_x()+rect.get_width()/2., height + 10, '%d'%int(height),
                 ha='center', va='bottom')
 
 autolabel(rects1)
-#autolabel(rects2)
+autolabel(rects2)
 
 plt.show()
