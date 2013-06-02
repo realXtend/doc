@@ -1,0 +1,133 @@
+from: http://www.sisostds.org/ProductsPublications/Standards/IEEEStandards.aspx
+
+IEEE 1278.1 - IEEE Standard for Distributed Interactive Simulation - Application Protocols
+IEEE 1278.2 - IEEE Standard for Distributed Interactive Simulation - Communication Services and Profiles 
+
+downloads of the specs are for members only, i guess need to join or ask if the 
+cie folks or someone else here knows those things already.
+
+edited / cleaned version of the talk that lead to those:
+
+07:16 < th3flyboy> Also, I was thinking about the whole problem of protocols and connectivity 
+                   between virtual worlds.
+07:16 < th3flyboy> What about using HLA as a standard across clients?
+07:16 < th3flyboy> https://en.wikipedia.org/wiki/High_level_architecture_%28simulation%29
+07:16 < th3flyboy> Something I found out about back before I started working on this.
+07:16 < antont> hm, haven't heard of that i think .. i check
+07:17 < th3flyboy> It's a protocol aimed at the Modeling and Simulation community to allow 
+                   different software to communicate with each other.
+07:18 < antont> hm so what do you mean with 'across clients' ?
+07:18 < th3flyboy> For example, to allow a sirkata client and a realxtend client to connect to the 
+                   same server.
+07:19 < th3flyboy> It was originally aimed at allowing things like tank simulators to communicate 
+                   with flight simulators in military training sims.
+07:19 < antont> right, so interop
+07:19 < antont> some kind of vw protocol?
+07:19 < th3flyboy> It's a networking protocol based on allowing different software to interop, 
+                   fairly generic, but it can be used for VW.
+07:20 < antont> perhaps similar to sirikata object hosts
+07:20 < th3flyboy> The one catch is that each client has to be using the same RTI, or 
+                   implementation of the protocol, or it won't work.
+07:20 < antont> ah seems more basic and general than that
+07:20 < antont> so it's a group of objects and then publish-subscribe
+07:20 < th3flyboy> Yeah, something like that.
+07:20 < antont> there's no shortage of pubsub impls nor other distributed computing things
+07:21 < antont> but interesting anyhow as is for VW like things perhaps
+07:21 < th3flyboy> It just handles the network comms, but the main advantage is the capability to 
+                   allow for easier interop.
+07:21 < th3flyboy> Flightgear is going toward using it as well.
+07:21 < antont> well, any protocol provides the same ease of interop in the sense that any 
+                protocol we implement both in realxtend and e.g. sirikata allows for those to 
+                interop :)
+07:22 < th3flyboy> http://wiki.flightgear.org/FlightGear_HLA_support_%28High_Level_Architecture%29
+07:23 < th3flyboy> A lot of the tricks FGFS is planning for using it to parallelize it would also 
+                   likely be useful for the ability to execute a server/client over multiple 
+                   processes or in a distributed manner.
+07:23 < antont> this reminds of sirikata but seems more complete, 
+https://en.wikipedia.org/wiki/High_level_architecture_%28simulation%29#Interface_specification
+07:23 < antont> .. as the focus in sirikata has been on new VW specific stuff, spatial worlds 
+                basically, the interest management things etc
+07:23 < th3flyboy> Yeah, it's been an IEEE standard for a while now.
+07:24 < antont> cool, didn't know that
+07:24 < th3flyboy> It was mainly aimed at military training sims, but that doesn't mean it 
+                   wouldn't help here.
+07:24 < antont> and i've even talked with IEEE people who have wanted to dev VW standards :)
+07:24 < th3flyboy> They could seriously just use HLA for the network communication aspect.
+07:24 < th3flyboy> The one thing I would change, that HLA does not do, is cryptoed communications.
+07:25 < th3flyboy> As well as allowing different RTIs to communicate with each other.
+07:25 < antont> http://www.metaversestandards.org/index.php?title=Main_Page is "The IEEE Virtual 
+                World Standard Working Group (P1828) is focused on the development of common 
+                standards for virtual environments."
+07:25 < antont> i'm sure they know about it, just wasn't in some talks ages ago when we discussed 
+                something else
+07:28 < th3flyboy> Yeah, it mentions in the wiki IEEE 1516, HLA
+07:28 < antont> this seems very weird to me at first sight, 
+                http://www.metaversestandards.org/index.php?title=Networking_Layer
+07:28 < antont> the talk about IP addressing and DNS
+07:31 < th3flyboy> is it possible it fell apart?
+07:32 < antont> ah that wiki page which tells "SISO also provides a number of freely available 
+                standards for Simulator Interoperability which have not yet been adopted by the 
+                IEEE."
+07:32 < antont> ?
+07:32 < antont> vwrap fell apart but this is different, and vwrap was with ietf
+07:32 < th3flyboy> ah
+07:32 < antont> by Linden and IBM originally
+07:33 < antont> but iirc Linden lost interest and faded and was there really anyone else 
+                interested to begin with, i'm not sure, anyhow faded finally during the years then
+07:34 < antont> but these things with the u.s. academics and military have seemed solid, but 
+                perhaps more also happening within the us army circles and not where we usually 
+                hang around
+07:35 < antont> (like games and web things etc)
+07:35 < antont> there's been talks about some ppl participating in official standards things, i 
+                think there are some at CIE who do
+07:35 < antont> aha
+07:37 < antont> that IEEE site also mentions "Federal Consortium for Virtual Worlds", a us gov 
+                thing
+07:37 < th3flyboy> There really needs to be a standard laid down to get things rolling. However I 
+                   doubt virtual worlds like this will really take off for a while.
+07:37 < antont> with companies
+07:37 < antont> i'm not sure in what places new standards are needed
+07:38 < antont> well sure the net conns / protocol might be good
+07:38 < th3flyboy> That's my main concern.
+07:39 < antont> i guess the other things have been standardized already, many at least, like geom 
+                (e.g. collada) and script langs (not the api yet though) etc
+07:39 < antont> hmhm
+07:39 < th3flyboy> Yeah, probably.
+07:39 < antont> sure it might be cool if we could connect e.g. tundra to some us official military 
+                sim thing
+07:40 < th3flyboy> Odds are the US military would keep something like that internal.
+07:40 < antont> then use it to do apps for e.g. collab
+07:40 < antont> sure they'd be then using it internally :)
+07:41 < antont> some nice rex/tundra/whatever app which somehow is integrated to their systems via 
+                the standard protocol
+07:41 < th3flyboy> I think the most likely thing to get them to do that would me M&S stuff for 
+                   Tundra.
+07:41 < th3flyboy> Something similar to the functionality OpenEaagles or Delta3D provide.
+07:41 < antont> right
+07:42 < antont> anyhow, i think is more interesting to study those docs and specs etc with the 
+                idea that are those good VW / something protocols
+07:42 < antont> just am not sure if interop e.g. between different platforms is so useful, dunno
+07:43 < th3flyboy> For a while I was looking at trying to get functionality similar to the 
+                   functionality in OpenEaagles in Realxtend, but I got hung up on how to 
+                   implement it. Documentation was the big killer there.
+07:43 < antont> if someone wants to use wonderland they use wonderland, if someone uses opensim 
+                they use some linden-based client, same for tundra and unity etc
+07:43 < antont> .. what would one get by connecting to some service with a foreign client? that 
+                can't then run all the func of that other system?
+07:44 < antont> sure might be interesting to connect to WoW with a MS Flight Sim client :)
+07:44 < th3flyboy> It depends on what you're trying to do with it.
+07:44 < antont> exactly .. if it's a chat app, then can be useful that everyone can chat, no 
+                matter what client they use
+07:44 < th3flyboy> I've been thinking more along the lines of Falcon 4.0 and ArmA
+07:44 < antont> and there's a standard for that ofc, xmpp..
+07:45 < th3flyboy> * That's a big part of what I wanted to do, but I never was able to get the 
+                   time and knowledge down to prototype it.
+07:46 < antont> elite and .. what, Sims Online?
+07:46 < th3flyboy> :D
+07:46 < th3flyboy> Hell, why not go full on and do what CCP is doing, Eve and Dust
+07:46 < th3flyboy> :P
+07:46 < antont> hee
+07:47 < antont> the heroes of py usage in game world :)
+07:48 < th3flyboy> The problem with interop is functionality based, but when it comes right down 
+                   to it, I suspect that once a client starts becoming the defacto, it's going to 
+                   be more module based rather than whole separate clients.
