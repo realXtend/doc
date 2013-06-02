@@ -131,3 +131,11 @@ https://en.wikipedia.org/wiki/High_level_architecture_%28simulation%29#Interface
 07:48 < th3flyboy> The problem with interop is functionality based, but when it comes right down 
                    to it, I suspect that once a client starts becoming the defacto, it's going to 
                    be more module based rather than whole separate clients.
+(just reworded)
+08:25 < antont> a std client doesn't have functionality, all that is in modules
+08:26 < antont> or scripted 'content', like in web browsers? anyhow, tundra is kind of both those 
+                .. modular for the native code and app logic largely in scripts
+08:26 < antont> the idea is that it can be a standard :)
+08:26 < antont> and we all can make apps with it
+08:26 < antont> and extend the base etc
+08:27 < th3flyboy> yup
