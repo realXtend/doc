@@ -26,6 +26,12 @@ past years of realXtend development and a search for possible fruitful
 next steps, in both projects and perhaps in the wider community of
 open source virtual worlds development in general.
 
+Could realXtend be a good platform to build Opensimulator 2.0? Could
+the now separate software projects be used together somehow usefully?
+Or have they found different niches and actually serve different
+purposes? The presentation examines these questions and wishes for
+open minded discussion about the topic.
+
 Toni is a realXtend developer and a game programmer at Playsign. He  ...
 
 full:
