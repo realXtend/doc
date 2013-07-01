@@ -18,32 +18,157 @@ k-antont
 
 toni_velomobile.jpg
 
+title:
 realXtend and Opensimulator development - is there a connection?
 
+abstract:
 What is realXtend and does it have anything interesting to do for
 Opensimulator development and use? This presentation is a study of the
 past years of realXtend development and a search for possible fruitful
 next steps, in both projects and perhaps in the wider community of
 open source virtual worlds development in general.
 
-Could realXtend be a good platform to build Opensimulator 2.0? Could
-the now separate software projects be used together somehow usefully?
-Or have they found different niches and actually serve different
-purposes? The presentation examines these questions and wishes for
-open minded discussion about the topic.
+Could realXtend be a good platform to build Opensimulator 2.0 -- at
+least theoretically, is the architecture good for that? Could the now
+separate software projects be used together somehow usefully? For
+example share a WebGL+WebSockets based browser client? Or have
+they found different niches and actually serve different purposes? The
+presentation examines these questions and wishes for open minded
+discussion about the topic.
+
+Bio:
 
 Toni is a realXtend developer and a game programmer at Playsign. He  ...
 
 full:
 -----
 
+This presentation covers the background, history and current status of
+the realXtend virtual worlds effort. The original realXtend prototype
+(2007-2010) used Opensimulator as the server (rexserver), and the very
+first viewer prototype (rexviewer) was also an extended Second Life
+(tm) viewer. Eventually we (had to) start using the new realXtend
+codebase, from the Naali viewer project, as a simple server too in
+order to get a fully extensible platform built on the Entity-Component
+architecture we had chosen for the next generation realXtend. This
+resulted in a new protocol and a server module for the Naali viewer
+codebase, called Tundra. Nowadays the Tundra SDK is the main realXtend
+offering and the same codebase can be ran both as a server and a
+client.
+
+The original realXtend vision is about virtual worlds, inspired by
+Second Life and not so different from Opensimulator. The Tundra SDK,
+however, is not VW specific and notably also not a full VW system out
+of the box. Instead it is a quite small and simple API and executable
+for making networked multiuser applications, such as games and
+collaboration apps -- or a virtual world. For example Tundra has no
+notion of users or avatars, authentication, inventories nor any kind
+of a database. In that sense it is more comparable to Unity3d (just an
+open source version) than an all-encompassing VW solution like
+Opensimulator.  This has been important for the companies developing
+realXtend who largely live by creating custom solutions for customers
+using the platform: there it is crucial to be able to define the looks
+and functionality exactly the way the customer needs.
+
+There already are a basic set of VW functionalities implemented atop
+the Tundra SDK, in Javascript: a simple Avatar application, chat (both
+with Tundra entity-actions and with XMPP), voice using the optional
+native code Mumble plugin etc. Adminotech's Meshmoon is a commercial
+realXtend hosting service which also provides a end user experience
+more similar to SL or Opensim, not just the raw Tundra SDK.
+
+Would this base be somehow interesting for Opensimulator developers
+and users? The main reason why we stopped using Opensim in realXtend
+was the difficulty of extensibility and customizability -- even on the
+network protocol level the SL model is hard coded to certain kind of
+worlds, means of control etc. Are there people in the Opensimulator
+community interested in for example the fully customizable user
+experience doable with Tundra? Would it make sense to use Tundra as a
+client to Opensimulator in such cases?
+
+Or vice-versa: Opensimulator provides infrastructure for setting up
+grids, having user accounts, different permissions for people and
+administrative web interfaces for managing the worlds. realXtend
+currently has none of that, and it's outside the scorpe of the Tundra
+SDK core. Would it be a good idea for realXtend to again implement
+some sort of integration with these Opensimulator services to have a
+VW solution, even when Tundra would be used as the scene server and
+the realtime protocol? ROBUST is HTTP so the integration might be
+easy, or? How would this compare against using e.g. OpenID auths and
+Facebook or Moodle for groups etc?
+
 - some possibilities:
  * use of Tundra by adding OAR support there
  * using it as a client only by writing ModTundra for Opensimulator
   - EC sync with kNet
  * using same webgl+websockets client?
- 
-..
+
+A WebGL+WebSockets based client, originally developed within realXtend
+as so-called WebNaali (back in the days when we used Opensim still) is
+also an interesting topic. We have now actually two implementations of
+such a browser-native client against Tundra: the open source WebTundra
+and Adminotech's Meshmoon-integrated WebRocket (Rocket == branded
+Tundra, similar to how Chrome is a branded Chromium, or how Firefox is
+a end-user packaged Gecko). We are currently finishing negotiations
+and starting work on a quite large funded effort focusing on a browser
+based client, that project should be well going on by September. Would
+it be a good idea to have a WebGL+WebSockets client that both
+Opensimulator and Tundra can serve? Opensim needs a new protocol for
+browsers to be able to connect in any case (browsers don't support UDP
+connections). Is the protocol and data model in realXtend good enough
+so that implementing support for the Web client would be sane and
+straightforward in Opensimulator?
 
 The session could be a panel or a multiparty pres with views, or just
 a talk, whatever if something is found suitable.
+
+target:
+-----
+
+Main target audience for the session are Opensimulator and 3rd party
+viewer developers and users, and open source virtual worlds developers in
+general. After the presentation they will know the basics of and ideas
+behind the realXtend architecture and the history and status of the
+platform with and without Opensimulator. They get to know our latest
+thought on where reX and Opensim could possibly help each other and
+hopefully also give their own insight in the discussions on whether
+some useful collaboration could work.
+
+flow: 
+----
+
+First 5 minutes cover the idea and motivation and early history behind
+realXtend which started in 2007 -- idea being simply that there should
+be open source VW tech so that it could spread out and succeed like
+the Web did when everyone was able to create their own server
+etc. Next 5 minutes cover the use of Opensimulator after that, how it
+was first a fork, then a module (first ModRex) and later a set of
+modules in combination with Intel's late Cable Beach (2) (Taiga == CB2
++ ModRex), ending with the failed attempt to get Opensimulator scene
+core to be refactored for a component based architecture. The
+following 10 minutes introduce the current state: how and why Tundra
+was made, is completely component based, modular and extensible, and
+what the status of that and with web viewers is. Overall 20 minutes is
+reserved for discussions, either at the end or throughout the session,
+as the hope is to get new insight into the issues and possibly
+fruitful future actions from the Opensimulator community. If there is
+not so much discussion it is easy for the presenter to elaborate on
+the introduction and show more demos and features etc.
+
+technical requirements:
+-------------------
+
+This is actually a good and weird point as I usually use Tundra live
+to show demos but that does not probably work within Opensimulator :)
+Showing at least images / slides and, if possible, videos for the tech
+illustrations and feature and world demos is required.
+
+Anything else:
+------------
+
+I contacted Justin, on Saturday morning, about having a panel about
+this as we've discussed this topic constructively before a couple of
+times. Haven't gotten a reply yet which is no wonder with this short
+notice, I got the idea too late, but in case people think it's a good
+idea I'm open for having this as e.g. a panel discussion (with a short
+intro first) too.
