@@ -53,22 +53,21 @@ order to get a fully extensible platform built on the Entity-Component
 architecture we had chosen for the next generation realXtend. This
 resulted in a new protocol and a server module for the Naali viewer
 codebase, called Tundra. Nowadays the Tundra SDK is the main realXtend
-offering and the same codebase can be ran both as a server and a
-client.
+offering and the same codebase can run both as a server and a client.
 
 The original realXtend vision is about virtual worlds, inspired by
 Second Life and not so different from Opensimulator. The Tundra SDK,
 however, is not VW specific and notably also not a full VW system out
 of the box. Instead it is a quite small and simple API and executable
 for making networked multiuser applications, such as games and
-collaboration apps -- or a virtual world. For example Tundra has no
-notion of users or avatars, authentication, inventories nor any kind
-of a database. In that sense it is more comparable to Unity3d (just an
-open source version) than an all-encompassing VW solution like
-Opensimulator.  This has been important for the companies developing
-realXtend who largely live by creating custom solutions for customers
-using the platform: there it is crucial to be able to define the looks
-and functionality exactly the way the customer needs.
+collaboration apps -- or a virtual world. For example Tundra Core has
+no notion of users or avatars, authentication, inventories nor any
+kind of a database. In that sense it is more comparable to Unity3d
+(just an open source version) than an all-encompassing VW solution
+like Opensimulator.  This has been important for the companies
+developing realXtend who largely live by creating custom solutions for
+customers using the platform: there it is crucial to be able to define
+the looks and functionality exactly the way the customer needs.
 
 There already are a basic set of VW functionalities implemented atop
 the Tundra SDK, in Javascript: a simple Avatar application, chat (both
@@ -89,7 +88,7 @@ client to Opensimulator in such cases?
 Or vice-versa: Opensimulator provides infrastructure for setting up
 grids, having user accounts, different permissions for people and
 administrative web interfaces for managing the worlds. realXtend
-currently has none of that, and it's outside the scorpe of the Tundra
+currently has none of that, and it's outside the scope of the Tundra
 SDK core. Would it be a good idea for realXtend to again implement
 some sort of integration with these Opensimulator services to have a
 VW solution, even when Tundra would be used as the scene server and
@@ -162,6 +161,13 @@ This is actually a good and weird point as I usually use Tundra live
 to show demos but that does not probably work within Opensimulator :)
 Showing at least images / slides and, if possible, videos for the tech
 illustrations and feature and world demos is required.
+
+It might be interesting to also run either the native Tundra or the
+browser based clients in separate applications but at least on not
+most powerful computers can be not a good idea to try to run another
+graphically heavy application at the same time in addition to the
+SLViewer based client used for the conference. So perhaps we do with
+images during the session and people can test hands-on later.
 
 Anything else:
 ------------
