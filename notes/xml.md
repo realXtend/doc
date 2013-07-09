@@ -25,7 +25,7 @@ XML3d
 -----
 
 ```xml
-<group  style="transform: translate3d(0px,-20px, 0px)" >
+<group style="transform: translate3d(0px,-20px, 0px)" >
     <mesh src="resource/teapot.xml#mesh" />
 </group>
 ```
