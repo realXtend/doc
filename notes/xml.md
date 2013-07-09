@@ -1,7 +1,8 @@
 The Tundra ECA model
 ====================
 
-![(ECA Diagram)](https://github.com/realXtend/doc/raw/master/ec_model.png "Entity-Component model")
+<!-- ![(ECA Diagram)](https://github.com/realXtend/doc/raw/master/ec_model.png "Entity-Component model")-->
+<img src="https://github.com/realXtend/doc/raw/master/ec_model.png" style="width: 50%;" />
 
 Example: a positioned mesh
 ==========================
