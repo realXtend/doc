@@ -10,3 +10,8 @@ Vs. pure Javascript implementation?
 Vs. real actual needs in scenes?
 
 perf test code: https://github.com/playsign/wex-experiments/tree/master/domBenchmark
+
+diagram of the idea & what scenario the perftest is for, https://rawgithub.com/realXtend/doc/master/dom/rexdom.svg
+
+
+
